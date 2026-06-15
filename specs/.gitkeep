@@ -1,0 +1,5 @@
+# Cada feature con "sdd": true vive aquí en specs/<id>/ con:
+#   requirements.md  (EARS, R1..Rn)
+#   design.md
+#   tasks.md         (checklist T1..Tn)
+# El spec_author crea esta estructura. Ver docs/specs.md.

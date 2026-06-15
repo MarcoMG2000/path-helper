@@ -1,0 +1,21 @@
+{
+  "$schema_comment": "Hooks que automatizan la verificación. El harness los ejecuta, no el agente, así que no se pueden saltar. Adapta los comandos al stack real del proyecto.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./init.sh > /tmp/harness_init.log 2>&1 && echo '[harness] init.sh OK' || (echo '[harness] init.sh FALLO — revisa /tmp/harness_init.log antes de cerrar' && tail -20 /tmp/harness_init.log)",
+            "description": "Antes de cerrar la sesion, fuerza una verificacion completa."
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(./init.sh)"
+    ]
+  }
+}

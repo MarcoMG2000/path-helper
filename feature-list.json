@@ -1,0 +1,30 @@
+{
+    "project": "<PROJECT_NAME>",
+    "description": "<Una o dos frases: qué hace el proyecto y cuál es su prioridad.>",
+    "rules": {
+        "one_feature_at_a_time": true,
+        "require_tests_to_close": true,
+        "require_approved_spec_to_implement": true,
+        "valid_status": ["pending", "spec_ready", "in_progress", "done", "blocked"],
+        "sdd_required_when": "feature has \"sdd\": true"
+    },
+    "stack": {
+        "language": "<...>",
+        "tests": "<...>"
+    },
+    "principles": [
+        "<Principio nº1 del proyecto.>",
+        "Cada componente externo vive detrás de una interfaz intercambiable.",
+        "No secrets in code; configuration is external."
+    ],
+    "features": [
+        {
+            "id": "f0-project-skeleton",
+            "title": "Project skeleton & configuration system",
+            "status": "pending",
+            "sdd": true,
+            "depends_on": [],
+            "acceptance": "Layout del paquete src/ existe; la configuración se carga desde entorno + ficheros; init.sh prepara el entorno, instala deps y corre la suite de tests en verde."
+        }
+    ]
+}
