@@ -198,7 +198,7 @@ export function parseDomainPage(
     throw new Error(`${page.url}: el dominio ${name} no declara poderes concedidos`);
   }
 
-  const spells = parseDomainSpells($, segment(spellsLabel), page.url, name);
+  const spells = parseDomainSpells($, segment(spellsLabel), page.url, name, config.slugAliases);
 
   // textEn: poderes + conjuros (sin la fuente, la lista de deidades ni las variantes ajenas).
   const afterSpells = found.find((l) => l.index > spellsLabel.index);
@@ -225,6 +225,7 @@ function parseDomainSpells(
   nodes: readonly AnyNode[],
   url: string,
   domain: string,
+  aliases: ParserInput["config"]["slugAliases"],
 ): DomainSpell[] {
   // Aplana a una cadena marcando los conjuros en cursiva con [[...]].
   let text = "";
@@ -240,7 +241,9 @@ function parseDomainSpells(
   for (const match of text.matchAll(re)) {
     const spell: DomainSpell = {
       level: Number(match[1]),
-      spellId: resolveEntryId("spells", match[2]!, {}),
+      // Alias `spells` de slug-aliases.json: la página de dominio escribe «greater teleport» o
+      // «summon monster IX» y el conjuro se llama «Teleport, Greater» o «Summon Monster 9» (R4, R23).
+      spellId: resolveEntryId("spells", match[2]!, aliases),
       name: match[2]!,
     };
     if (match[3] !== undefined && match[3].trim() !== "") spell.note = collapseWhitespace(match[3]);

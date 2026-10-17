@@ -172,7 +172,16 @@
         "casterLevel": 5,
         "priceRaw": "10,000 gp",
         "priceCp": 1000000,
-        "effects": [],
+        "effects": [
+          {
+            "target": "skill.climb",
+            "bonusType": "competence",
+            "value": 10,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+10 competence bonus on its wearer’s Climb checks"
+          }
+        ],
         "extraDamage": []
       }
     ]
@@ -1026,7 +1035,16 @@
         "casterLevel": 7,
         "priceRaw": "10,000 gp",
         "priceCp": 1000000,
-        "effects": [],
+        "effects": [
+          {
+            "target": "skill.swim",
+            "bonusType": "competence",
+            "value": 10,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+10 competence bonus on its wearer’s Swim checks"
+          }
+        ],
         "extraDamage": []
       }
     ]

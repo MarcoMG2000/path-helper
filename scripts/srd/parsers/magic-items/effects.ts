@@ -168,7 +168,7 @@ interface TargetResolution {
 }
 
 const DETERMINER =
-  /^(?:(?:all|his|her|its|their|your|(?:the|its|his|her) (?:wearer|wielder|possessor|owner|bearer)[’']s|the|other|any|such|each)\s+)+/i;
+  /^(?:(?:(?:the|its|his|her) (?:wearer|wielder|possessor|owner|bearer)[’']s|all|his|her|its|their|your|the|other|any|such|each)\s+)+/i;
 
 function skillTarget(name: string): MagicEffect["target"] {
   return `skill.${slugify(name)}` as MagicEffect["target"];

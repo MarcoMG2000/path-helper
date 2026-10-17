@@ -462,7 +462,16 @@
         "casterLevel": 4,
         "priceRaw": "+3,750 gp",
         "priceCp": 375000,
-        "effects": [],
+        "effects": [
+          {
+            "target": "skill.escape-artist",
+            "bonusType": "competence",
+            "value": 5,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+5 competence bonus on its wearer’s Escape Artist checks"
+          }
+        ],
         "extraDamage": []
       }
     ],

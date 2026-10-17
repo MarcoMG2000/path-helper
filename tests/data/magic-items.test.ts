@@ -6,6 +6,7 @@ import { mergeProvenance } from "../../src/data/schema/provenance";
 import {
   MAGIC_ITEM_KINDS,
   MagicItemSchema,
+  MagicSectionsConfigSchema,
   type MagicItem,
 } from "../../src/data/schema/magic-item";
 import { ROOT } from "../project/helpers";
@@ -41,7 +42,20 @@ describe("magic-items reales: recuentos y procedencia (R63, R66, R67)", () => {
     expect(provenance.license).toBe("OGL-1.0a");
   });
 
-  it("R66: potion, oil y wand quedan pendientes de Q11 y intelligent declarado sin entradas CRB", () => {
+  it("R66: potion, oil y wand (Q11) e intelligent se declaran con expectedCount 0 y motivo, sin entradas", () => {
+    const config = MagicSectionsConfigSchema.parse(
+      loadIntegrityContext(ROOT).config["magicSections"],
+    );
+    for (const kind of [...golden.pendingKinds, ...golden.emptyKinds]) {
+      const section = config.kinds[kind as keyof typeof config.kinds];
+      expect(section.expectedCount, kind).toBe(0);
+      expect(section.pending, kind).toBeUndefined();
+      expect(section.reason, kind).toBeTruthy();
+    }
+    for (const kind of golden.pendingKinds) {
+      // Q11: decisión por recomendación por defecto, pendiente de ratificación humana.
+      expect(config.kinds[kind as keyof typeof config.kinds].reason, kind).toContain("Q11");
+    }
     for (const kind of golden.pendingKinds) expect(count(kind), kind).toBe(0);
     for (const kind of golden.emptyKinds) expect(count(kind), kind).toBe(0);
     const kinds = new Set(MAGIC_ITEM_KINDS);
@@ -74,14 +88,10 @@ describe("magic-items reales: recuentos y procedencia (R63, R66, R67)", () => {
     }
   });
 
-  it("la integridad solo informa de las secciones pendientes de Q11 (único fallo aceptable del lote)", () => {
+  it("la integridad de magic-items no informa nada (R66 con Q11 declarado como expectedCount 0)", () => {
     const found = runIntegrity(data, loadIntegrityContext(ROOT), { categories: ["magic-items"] });
     expect(loadIssues).toEqual([]);
-    expect(found.map((f) => [f.rule, f.message.split(":")[0]])).toEqual([
-      ["magic.sections-complete", "potion"],
-      ["magic.sections-complete", "oil"],
-      ["magic.sections-complete", "wand"],
-    ]);
+    expect(found).toEqual([]);
   });
 });
 

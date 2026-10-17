@@ -39,9 +39,9 @@ describe("spell-lists: R21 y R22", () => {
   it("caso verde: listas coherentes con spells[].levels (sin lista de sorcerer/wizard, R95)", () => {
     const d = data([cure, bless, missile], { spellLists: lists });
     expect(spellListsRule(d, ctx)).toEqual([]);
-    // La capa ES (resúmenes y glosario) la aporta cada lote de rango; aquí solo importan las demás reglas.
+    // La capa ES (resúmenes y glosario) y la procedencia (counts, TZ.1) no forman parte de este dataset sintético.
     const found = runIntegrity(d, ctx, { categories: ["spells", "spell-lists"] });
-    expect(found.filter((i) => !/^(summaries|glossary)./.test(i.rule))).toEqual([]);
+    expect(found.filter((i) => !/^(summaries|glossary|counts)./.test(i.rule))).toEqual([]);
   });
 
   it("R21: un id de la lista que no existe en spells falla", () => {

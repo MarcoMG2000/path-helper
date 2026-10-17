@@ -29,5 +29,21 @@
     "light-steel": "light-steel-shield",
     "light-wooden": "light-wooden-shield",
     "tower": "tower-shield"
+  },
+  "spells": {
+    "greater-command": "command-greater",
+    "greater-dispel-magic": "dispel-magic-greater",
+    "greater-glyph-of-warding": "glyph-of-warding-greater",
+    "greater-shadow-evocation": "shadow-evocation-greater",
+    "greater-teleport": "teleport-greater",
+    "lesser-confusion": "confusion-lesser",
+    "lesser-planar-binding": "planar-binding-lesser",
+    "mass-cure-critical-wounds": "cure-critical-wounds-mass",
+    "mass-heal": "heal-mass",
+    "mass-invisibility": "invisibility-mass",
+    "summon-monster-ix": "summon-monster-9",
+    "summon-monster-v": "summon-monster-5",
+    "summon-natures-ally-iv": "summon-natures-ally-4",
+    "summon-natures-ally-viii": "summon-natures-ally-8"
   }
 }

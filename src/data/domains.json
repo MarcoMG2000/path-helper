@@ -109,7 +109,7 @@
       },
       {
         "level": 4,
-        "spellId": "summon-natures-ally-iv",
+        "spellId": "summon-natures-ally-4",
         "name": "summon nature's ally IV",
         "note": "animals only"
       },
@@ -131,7 +131,7 @@
       },
       {
         "level": 8,
-        "spellId": "summon-natures-ally-viii",
+        "spellId": "summon-natures-ally-8",
         "name": "summon nature's ally VIII",
         "note": "animals only"
       },
@@ -276,7 +276,7 @@
       },
       {
         "level": 9,
-        "spellId": "summon-monster-ix",
+        "spellId": "summon-monster-9",
         "name": "summon monster IX",
         "note": "chaos spell only"
       }
@@ -410,7 +410,7 @@
       },
       {
         "level": 8,
-        "spellId": "mass-cure-critical-wounds",
+        "spellId": "cure-critical-wounds-mass",
         "name": "mass cure critical wounds"
       },
       {
@@ -465,7 +465,7 @@
       },
       {
         "level": 5,
-        "spellId": "summon-monster-v",
+        "spellId": "summon-monster-5",
         "name": "summon monster V",
         "note": "summons 1d3 shadows"
       },
@@ -481,7 +481,7 @@
       },
       {
         "level": 8,
-        "spellId": "greater-shadow-evocation",
+        "spellId": "shadow-evocation-greater",
         "name": "greater shadow evocation"
       },
       {
@@ -765,7 +765,7 @@
       },
       {
         "level": 9,
-        "spellId": "summon-monster-ix",
+        "spellId": "summon-monster-9",
         "name": "summon monster IX",
         "note": "evil spell only"
       }
@@ -976,7 +976,7 @@
       },
       {
         "level": 9,
-        "spellId": "summon-monster-ix",
+        "spellId": "summon-monster-9",
         "name": "summon monster IX",
         "note": "good spell only"
       }
@@ -1041,12 +1041,12 @@
       },
       {
         "level": 8,
-        "spellId": "mass-cure-critical-wounds",
+        "spellId": "cure-critical-wounds-mass",
         "name": "mass cure critical wounds"
       },
       {
         "level": 9,
-        "spellId": "mass-heal",
+        "spellId": "heal-mass",
         "name": "mass heal"
       }
     ]
@@ -1185,7 +1185,7 @@
       },
       {
         "level": 9,
-        "spellId": "summon-monster-ix",
+        "spellId": "summon-monster-9",
         "name": "summon monster IX",
         "note": "law spell only"
       }
@@ -1240,7 +1240,7 @@
       },
       {
         "level": 6,
-        "spellId": "greater-dispel-magic",
+        "spellId": "dispel-magic-greater",
         "name": "greater dispel magic"
       },
       {
@@ -1353,7 +1353,7 @@
     "spells": [
       {
         "level": 1,
-        "spellId": "lesser-confusion",
+        "spellId": "confusion-lesser",
         "name": "lesser confusion"
       },
       {
@@ -1511,7 +1511,7 @@
       },
       {
         "level": 5,
-        "spellId": "greater-command",
+        "spellId": "command-greater",
         "name": "greater command"
       },
       {
@@ -1787,12 +1787,12 @@
       },
       {
         "level": 5,
-        "spellId": "lesser-planar-binding",
+        "spellId": "planar-binding-lesser",
         "name": "lesser planar binding"
       },
       {
         "level": 6,
-        "spellId": "greater-glyph-of-warding",
+        "spellId": "glyph-of-warding-greater",
         "name": "greater glyph of warding"
       },
       {
@@ -2004,7 +2004,7 @@
       },
       {
         "level": 7,
-        "spellId": "greater-teleport",
+        "spellId": "teleport-greater",
         "name": "greater teleport"
       },
       {
@@ -2078,7 +2078,7 @@
       },
       {
         "level": 8,
-        "spellId": "mass-invisibility",
+        "spellId": "invisibility-mass",
         "name": "mass invisibility"
       },
       {

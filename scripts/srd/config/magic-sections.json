@@ -41,18 +41,18 @@
     },
     "potion": {
       "description": "Pociones con nombre propio",
-      "pending": "Q11",
-      "reason": "La fuente (AoN) no tiene páginas de pociones del CRB: sus índices solo traen objetos con nombre propio de otros libros. En el CRB las pociones son reglas de precio por fórmula y tablas de coste (entrada general «Potions»). Pendiente de la decisión del humano sobre Q11."
+      "expectedCount": 0,
+      "reason": "Sin entradas CRB que importar (Q11, decisión por recomendación por defecto, pendiente de ratificación humana): AoN no tiene páginas de pociones con nombre del CRB (sus índices solo traen objetos con nombre propio de otros libros). En el CRB las pociones son reglas de precio por fórmula y tablas de coste; los precios genéricos viven en la entrada general «potions» (Tabla 15-12)."
     },
     "oil": {
       "description": "Aceites con nombre propio",
-      "pending": "Q11",
-      "reason": "Igual que potion: los aceites son reglas dentro de la sección «Potions» del CRB; AoN no tiene páginas de aceites del CRB. Pendiente de Q11."
+      "expectedCount": 0,
+      "reason": "Sin entradas CRB que importar (Q11, decisión por recomendación por defecto, pendiente de ratificación humana): los aceites son reglas dentro de la sección «Potions» del CRB y AoN no tiene páginas de aceites del CRB; sus precios genéricos viven en la entrada general «potions»."
     },
     "wand": {
       "description": "Varitas con nombre propio",
-      "pending": "Q11",
-      "reason": "AoN no tiene sección de varitas ni páginas de varitas del CRB; en el CRB las varitas son reglas de precio por fórmula y tablas de coste (entrada general «Wands»). Pendiente de Q11."
+      "expectedCount": 0,
+      "reason": "Sin entradas CRB que importar (Q11, decisión por recomendación por defecto, pendiente de ratificación humana): AoN no tiene sección ni páginas de varitas del CRB; las varitas son reglas de precio por fórmula y tablas de coste (Tabla 15-17), y los precios genéricos viven en la entrada general «wands»."
     },
     "intelligent": {
       "description": "Objetos inteligentes con nombre propio",

@@ -76,3 +76,8 @@ Instanciar la plantilla con las decisiones del humano (stack TS/Fastify/React/SQ
 
 - Feature en curso: f3-srd-data — sub-lote D5 (cierre del Lote D). Plan: tasks TD.6 y TD.7 de specs/f3-srd-data/tasks.md (listas por clase, R22 sobre datos reales, consolidación de procedencia, `tests/data/spells.test.ts`).
 - Estado: implementado (TD.6 y TD.7 marcadas). Listas por clase importadas (bard 164, cleric 236, druid 169, paladin 45, ranger 51), R22 sin incoherencias reales sobre los 623 conjuros. Pendiente de reviewer. Informe: progress/impl_f3-srd-data_D5.md.
+
+## f3-srd-data Lote Z (implementer, 2026-10-17)
+
+- Feature en curso: f3-srd-data — Lote Z (integración). Plan: las tasks TZ.1..TZ.5 de specs/f3-srd-data/tasks.md.
+- Estado: implementado (TZ.1..TZ.5 marcadas). Informe: progress/impl_f3-srd-data_Z.md. Pendiente de reviewer; la feature NO está done.

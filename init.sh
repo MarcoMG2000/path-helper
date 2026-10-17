@@ -43,4 +43,8 @@ TEST_CMD="${TEST_CMD:-npm test --silent}"
 echo "==> Ejecutando tests: $TEST_CMD"
 eval "$TEST_CMD"
 
+# 3. Validación de los datos SRD (f3-srd-data, R51): offline; código != 0 si hay hallazgos.
+echo "==> Validando datos SRD: npm run data:validate"
+npm run data:validate
+
 echo "==> init OK"

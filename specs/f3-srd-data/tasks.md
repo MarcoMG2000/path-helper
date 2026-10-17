@@ -292,7 +292,7 @@ corren en paralelo); aquí se prueban con datos sintéticos.
 
 ## Lote Z: Integración (después de A-E y M)
 
-- [ ] **TZ.1** `integrity/counts.ts` real (R26) y regla cruzada final (todas las categorías
+- [x] **TZ.1** `integrity/counts.ts` real (R26) y regla cruzada final (todas las categorías
   presentes en `provenance`; `magic-items` se delega en R66/R67 de `magic-refs`), `integrity/class-refs` contra `skills`, `domain-refs` contra
   `spells`, y `magic-refs` contra los datos reales de `weapons`, `armor`, `shields`, `skills` y
   `spells` (R82, R84, R85, legalidad de cada habilidad en cada objeto específico; R85 ahora
@@ -300,16 +300,17 @@ corren en paralelo); aquí se prueban con datos sintéticos.
   claves de `spells[].levels` contra `CRB_CLASS_IDS` y `domains` (R92) y recuento de `spells` por
   lote contra `expectedCountByBatch` (R99, incluida la unión de `provenance/spells/*`, R98).
   `tests/data/integrity/*.test.ts`. Cubre: R26, R14, R23, R82, R84, R85, R92, R98, R99.
-- [ ] **TZ.2** `npm run data:glossary` -> commitear `glossary.es.json`; `data:validate` en verde
+- [x] **TZ.2** `npm run data:glossary` -> commitear `glossary.es.json`; `data:validate` en verde
   sobre los datos reales (corrección de cualquier hallazgo en el lote dueño, no aquí).
   Cubre: R33, R36, R51.
-- [ ] **TZ.3** Añadir `data:validate` a `init.sh` y a la suite (`tests/data/validate.int.test.ts` como
-  test normal, no de integración, pues es offline). Cubre: R51.
-- [ ] **TZ.4** Generar el informe de muestreo con `--seed 42 --per-category 8` y entregarlo al
+- [x] **TZ.3** Añadir `data:validate` a `init.sh` y a la suite (`tests/data/validate.test.ts` como
+  test normal, no de integración, pues es offline; no se llama `*.int.test.ts` porque esa
+  convención lo excluiría de `npm test` y de `init.sh`). Cubre: R51.
+- [x] **TZ.4** Generar el informe de muestreo con `--seed 42 --per-category 8` y entregarlo al
   humano junto con la lista de preguntas abiertas pendientes (Q1-Q15; Q4 y Q12 ya resueltas el
   2026-10-16) en `progress/impl_f3-srd-data_Z.md`. NO marcar `humanReviewed`. Cubre: R53-R57,
   R89, R90, R103.
-- [ ] **TZ.5** Verificar la trazabilidad completa R1-R103 ↔ tests (tabla de `requirements.md`) y
+- [x] **TZ.5** Verificar la trazabilidad completa R1-R103 ↔ tests (tabla de `requirements.md`) y
   anotar en `progress/impl_f3-srd-data_Z.md` el estado (qué R queda esperando decisión humana:
   R40 por Q6; los `kind` de `magic-items` pendientes de Q11, si los hay). Cubre: todos.
 

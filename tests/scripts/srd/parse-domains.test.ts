@@ -58,6 +58,24 @@ describe("parser de dominios (R23)", () => {
     });
   });
 
+  it("R4/R23: los alias de la categoría spells convierten el nombre de la fuente en el id del conjuro", () => {
+    const aliased = {
+      allowedSections: [],
+      slugAliases: { spells: { "summon-monster-ix": "summon-monster-9" } },
+    };
+    const withAlias = parse({ ...input([page("Chaos")]), config: aliased }).entries[0] as Row;
+    const plain = parse(input([page("Chaos")])).entries[0] as Row;
+    // El nombre literal de la fuente no cambia; solo el id resuelto.
+    expect(withAlias["spells"][8]).toEqual({
+      level: 9,
+      spellId: "summon-monster-9",
+      name: "summon monster IX",
+      note: "chaos spell only",
+    });
+    expect(plain["spells"][8].spellId).toBe("summon-monster-ix");
+    expect(withAlias["spells"].slice(0, 8)).toEqual(plain["spells"].slice(0, 8));
+  });
+
   it("las entradas pasan el schema real y el texto no contiene HTML, fuente ni deidades", () => {
     const out = parse(input([page("Air"), page("Death"), page("Chaos")]));
     for (const entry of out.entries) {
