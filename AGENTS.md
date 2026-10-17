@@ -34,7 +34,7 @@
 
 ## 3. Reglas duras (no negociables)
 
-- **Una sola feature a la vez.** No mezcles cambios de varias tareas en la misma sesión.
+- **Una feature por agente.** Cada agente trabaja en una sola feature. Se permite paralelismo entre agentes solo bajo `rules.parallel_policy` de `feature-list.json` (decidido por el humano).
 - **No declares una tarea `done` sin pruebas verdes.** Ejecuta `./init.sh` y
   asegúrate de que el bloque de tests pasa al 100%.
 - **No saltes la fase de spec.** Toda feature con `"sdd": true` debe pasar

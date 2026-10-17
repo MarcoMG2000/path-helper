@@ -1,0 +1,146 @@
+{
+  "fabricate": {
+    "summaryEs": "Conviertes material de un tipo en un producto del mismo material; no puede crear ni transmutar criaturas ni objetos mágicos, y la calidad depende de la del material. Con minerales el objetivo se reduce a 1 pie cúbico por nivel en lugar de 10; la gran artesanía exige una prueba de Artesanía.",
+    "status": "draft"
+  },
+  "faerie-fire": {
+    "summaryEs": "Un resplandor pálido perfila a los sujetos: emiten luz como velas, sufren un penalizador de –20 a las pruebas de Sigilo y no se benefician de la ocultación de la oscuridad, borrosidad, desplazamiento, invisibilidad o efectos similares. Puede ser azul, verde o violeta y no causa daño.",
+    "status": "draft"
+  },
+  "false-life": {
+    "summaryEs": "Aprovechas el poder de la no vida para evitar la muerte: mientras el conjuro esté activo obtienes puntos de golpe temporales iguales a 1d10 + 1 por nivel de lanzador (máximo +10).",
+    "status": "draft"
+  },
+  "false-vision": {
+    "summaryEs": "Crea una ilusión sutil: cualquier conjuro de adivinación (escrutinio) usado para ver algo en el área recibe en cambio una imagen falsa que defines al lanzarlo (como imagen mayor). Mientras dure, puedes concentrarte para cambiarla; si no te concentras, la imagen permanece estática.",
+    "status": "draft"
+  },
+  "fear": {
+    "summaryEs": "Un cono invisible de terror deja en pánico a cada criatura viva del área salvo que supere una salvación de Voluntad; si está acorralada, empieza a acobardarse. Si supera la salvación, queda estremecida durante 1 asalto.",
+    "status": "draft"
+  },
+  "feather-fall": {
+    "summaryEs": "Las criaturas u objetos afectados caen despacio: su velocidad de caída pasa a solo 60 pies por asalto y no sufren daño al aterrizar mientras dure el conjuro. Afecta a una o más criaturas u objetos Medianos o menores (con su equipo), o a su equivalente en tamaños mayores.",
+    "status": "draft"
+  },
+  "feeblemind": {
+    "summaryEs": "La Inteligencia y el Carisma del objetivo bajan a 1: no puede usar habilidades basadas en ellos, lanzar conjuros, entender idiomas ni comunicarse con coherencia. Sigue así hasta que sanar, deseo limitado, milagro o deseo anulen el efecto. Los lanzadores arcanos sufren –4 a su salvación.",
+    "status": "draft"
+  },
+  "find-the-path": {
+    "summaryEs": "El receptor halla la ruta física más corta y directa hasta un destino destacado (ciudad, fortaleza, lago, mazmorra), al aire libre o bajo tierra. Funciona con lugares, no con objetos o criaturas, y el destino debe estar en el mismo plano. Indica la dirección y las acciones para llegar hasta él.",
+    "status": "draft"
+  },
+  "find-traps": {
+    "summaryEs": "Obtienes intuición sobre las trampas: un bonificador de perspicacia igual a la mitad de tu nivel de lanzador (máximo +10) a las pruebas de Percepción para hallarlas, y una prueba para notar trampas a 10 pies aunque no las busques. No concede capacidad de desactivarlas.",
+    "status": "draft"
+  },
+  "finger-of-death": {
+    "summaryEs": "Inflige de inmediato 10 puntos de daño por nivel de lanzador. Si el objetivo supera su salvación de Fortaleza, sufre en cambio 3d6 puntos de daño + 1 por nivel de lanzador. El sujeto puede morir por el daño aunque supere la salvación.",
+    "status": "draft"
+  },
+  "fire-seeds": {
+    "summaryEs": "Según la versión elegida, conviertes bellotas en armas de salpicadura arrojables o bayas de acebo en bombas que detonas a voluntad. Las bellotas infligen en conjunto 1d4 de daño de fuego por nivel de lanzador (máximo 20d4), repartido a tu gusto, sin que ninguna supere 10d4.",
+    "status": "draft"
+  },
+  "fire-shield": {
+    "summaryEs": "Te envuelve en llamas que dañan a quien te golpea con su cuerpo o un arma de mano: el atacante sufre 1d6 puntos de daño + 1 por nivel de lanzador (máximo +15), de frío o de fuego según elijas llamas frías o cálidas, que además te protegen frente al ataque correspondiente.",
+    "status": "draft"
+  },
+  "fire-storm": {
+    "summaryEs": "Láminas de llamas rugientes llenan el área sin dañar la vegetación natural ni a las criaturas vegetales que quieras excluir. Las demás criaturas sufren 1d6 de daño de fuego por nivel de lanzador (máximo 20d6); quien falla la salvación de Reflejos arde y sufre 4d6 por asalto hasta apagar las llamas.",
+    "status": "draft"
+  },
+  "fire-trap": {
+    "summaryEs": "Provoca una explosión de fuego cuando un intruso abre el objeto protegido: llena un radio de 5 pies e inflige 1d4 de daño de fuego + 1 por nivel de lanzador (máximo +20); el objeto no sufre daño. El objeto no admite un segundo cierre o conjuro de protección.",
+    "status": "draft"
+  },
+  "fireball": {
+    "summaryEs": "Genera una explosión abrasadora de llamas que inflige 1d6 de daño de fuego por nivel de lanzador (máximo 10d6) a toda criatura del área; los objetos sin vigilar también sufren ese daño. Fijas el alcance al que estalla; si choca antes contra un cuerpo o una barrera sólida, detona antes.",
+    "status": "draft"
+  },
+  "flame-arrow": {
+    "summaryEs": "Convierte munición (flechas, virotes de ballesta, shuriken, piedras de honda) en proyectiles ardientes: cada pieza inflige 1d6 puntos de daño de fuego adicionales al objetivo que impacte. Puede prender objetos o estructuras inflamables, pero no a la criatura golpeada.",
+    "status": "draft"
+  },
+  "flame-blade": {
+    "summaryEs": "Un rayo ardiente de 3 pies de largo surge de tu mano y lo manejas como si fuera una cimitarra, con ataques de toque cuerpo a cuerpo. Inflige 1d8 de daño de fuego + 1 por cada dos niveles de lanzador (máximo +10); no se aplica tu modificador de Fuerza. Puede prender materiales combustibles.",
+    "status": "draft"
+  },
+  "flame-strike": {
+    "summaryEs": "Evoca una columna vertical de fuego divino que inflige 1d6 puntos de daño por nivel de lanzador (máximo 15d6). La mitad del daño es de fuego y la otra mitad procede directamente del poder divino, por lo que la resistencia al fuego no la reduce.",
+    "status": "draft"
+  },
+  "flaming-sphere": {
+    "summaryEs": "Un globo ardiente rueda hacia donde indiques a 30 pies por asalto: si entra en el espacio de una criatura, se detiene ese asalto y le inflige 3d6 de daño de fuego (Reflejos niega). Pasa sobre barreras de menos de 4 pies, prende sustancias inflamables e ilumina como una antorcha.",
+    "status": "draft"
+  },
+  "flare": {
+    "summaryEs": "Este truco crea un destello de luz: si lo haces estallar ante una sola criatura, esta queda deslumbrada durante 1 minuto salvo que supere una salvación de Fortaleza. No afecta a criaturas ciegas ni ya deslumbradas.",
+    "status": "draft"
+  },
+  "flesh-to-stone": {
+    "summaryEs": "El sujeto y su equipo se convierten en una estatua inerte y sin mente; si se rompe o se daña, el sujeto (si vuelve a su estado original) tiene daños o deformidades similares. No está muerto, aunque no parece vivo para conjuros como vigilar la muerte. Solo afecta a criaturas de carne.",
+    "status": "draft"
+  },
+  "floating-disk": {
+    "summaryEs": "Creas un plano de fuerza circular y ligeramente cóncavo que te sigue y carga por ti: tiene 3 pies de diámetro y 1 pulgada de profundidad en el centro, y soporta 100 libras por nivel de lanzador. Flota a unos 3 pies del suelo, siempre nivelado, y te acompaña como máximo a tu velocidad normal.",
+    "status": "draft"
+  },
+  "fly": {
+    "summaryEs": "El sujeto vuela a velocidad 60 pies (40 con armadura o carga media o pesada); asciende a media velocidad y desciende al doble, con buena maniobrabilidad. Puede atacar y lanzar conjuros con normalidad, y obtiene un bonificador a las pruebas de Volar igual a la mitad de tu nivel de lanzador.",
+    "status": "draft"
+  },
+  "fog-cloud": {
+    "summaryEs": "Un banco de niebla oscurece toda vista, incluida la visión en la oscuridad, más allá de 5 pies. A 5 pies o menos hay ocultación (20% de fallo); más lejos, ocultación total (50%). Un viento moderado la dispersa en 4 asaltos y uno fuerte en 1. No funciona bajo el agua.",
+    "status": "draft"
+  },
+  "forbiddance": {
+    "summaryEs": "Sella un área contra todo viaje planar hacia ella o dentro de ella (teletransporte, cambio de plano, viaje astral o etéreo y conjuros de convocación), que simplemente fallan, y además daña a las criaturas que entren con un alineamiento distinto del tuyo, según lo distinto que sea.",
+    "status": "draft"
+  },
+  "forcecage": {
+    "summaryEs": "Crea una prisión cúbica inmóvil e invisible de barras o de paredes sólidas de fuerza (a tu elección) que retiene a las criaturas del área, salvo que sean demasiado grandes. Resiste disipar magia como un muro de fuerza; las paredes tienen dureza 30 y 20 puntos de golpe por nivel de lanzador.",
+    "status": "draft"
+  },
+  "forceful-hand": {
+    "summaryEs": "Funciona como mano interpuesta, pero además puede perseguir y embestir a un oponente que elijas, con un ataque de embestida por asalto que no provoca ataques de oportunidad. Su BMC usa tu nivel de lanzador en lugar del ataque base, con +8 por Fuerza (27) y +1 por ser Grande.",
+    "status": "draft"
+  },
+  "foresight": {
+    "summaryEs": "Concede un sexto sentido sobre ti o sobre otra criatura: recibes avisos instantáneos de peligro inminente para el sujeto, nunca eres sorprendido ni quedas desprevenido y tienes una idea de la mejor acción para protegerte, con +2 de perspicacia a la CA y a las salvaciones de Reflejos.",
+    "status": "draft"
+  },
+  "form-of-the-dragon-i": {
+    "summaryEs": "Te conviertes en un dragón cromático o metálico Mediano: +4 de tamaño a Fuerza, +2 a Constitución, +4 de armadura natural, vuelo 60 pies (pobre), visión en la oscuridad 60 pies, aliento y resistencia a un elemento, mordisco (1d8), dos garras (1d6) y dos alas (1d4). El aliento inflige 6d8, una vez.",
+    "status": "draft"
+  },
+  "form-of-the-dragon-ii": {
+    "summaryEs": "Funciona como forma de dragón I, pero permite adoptar un dragón cromático o metálico Grande: +6 de bonificador de tamaño a Fuerza, +4 a Constitución, +6 de armadura natural, vuelo 90 pies (pobre), RD 5/magia y aliento de 8d8. Usas el aliento dos veces, esperando 1d4 asaltos entre usos.",
+    "status": "draft"
+  },
+  "form-of-the-dragon-iii": {
+    "summaryEs": "Funciona como forma de dragón II, pero con un dragón cromático o metálico Enorme: +10 de tamaño a Fuerza, +8 a Constitución, +8 de armadura natural, vuelo 120 pies (pobre), RD 10/magia, presencia aterradora e inmunidad a un elemento. Aliento de 12d8, esperando 1d4 asaltos entre usos.",
+    "status": "draft"
+  },
+  "foxs-cunning": {
+    "summaryEs": "El objetivo obtiene un bonificador de mejora de +4 a Inteligencia, con los beneficios habituales en las pruebas de habilidad basadas en ella. Los lanzadores que dependen de Inteligencia no ganan conjuros adicionales, pero suben las CD de sus conjuros. No concede rangos de habilidad extra.",
+    "status": "draft"
+  },
+  "foxs-cunning-mass": {
+    "summaryEs": "Funciona como astucia de zorro, pero afecta a varias criaturas.",
+    "status": "draft"
+  },
+  "freedom": {
+    "summaryEs": "Libera al sujeto de conjuros y efectos que restringen el movimiento, como ligadura, enredar, presa, encarcelamiento, laberinto, parálisis, petrificación, sueño, lentitud, aturdimiento, éxtasis temporal y telaraña. Para liberar de encarcelamiento o laberinto debes conocer su nombre e historia.",
+    "status": "draft"
+  },
+  "freedom-of-movement": {
+    "summaryEs": "Tú o una criatura tocada os movéis y atacáis con normalidad pese a la magia que impide el movimiento (parálisis, niebla sólida, lentitud, telaraña). Fallan automáticamente las maniobras para agarrar al sujeto, que además se mueve y ataca bajo el agua con normalidad, aunque no respira en ella.",
+    "status": "draft"
+  },
+  "freezing-sphere": {
+    "summaryEs": "Un globo gélido estalla en una explosión de 40 pies de radio que inflige 1d6 de frío por nivel de lanzador (máximo 15d6); las criaturas del subtipo agua sufren 1d8 por nivel (máximo 15d8) y quedan tambaleantes 1d4 asaltos. Congela el agua que golpee hasta 6 pulgadas de profundidad.",
+    "status": "draft"
+  }
+}

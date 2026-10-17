@@ -1,0 +1,38 @@
+{
+  "magical-aptitude": {
+    "summaryEs": "+2 a las pruebas de Spellcraft y Use Magic Device; pasa a +4 en la habilidad en la que tengas 10 o más rangos.",
+    "status": "draft"
+  },
+  "manyshot": {
+    "summaryEs": "En un ataque completo con arco, el primer ataque dispara dos flechas; si impacta, ambas impactan. El daño de precisión y de crítico se aplica una sola vez; otros bonificadores de daño, a cada flecha.",
+    "status": "draft"
+  },
+  "martial-weapon-proficiency": {
+    "summaryEs": "Usas el arma marcial elegida sin la penalización de –4 por falta de competencia. Bárbaros, guerreros, paladines y exploradores ya las dominan. Se puede tomar varias veces, para un arma nueva cada vez.",
+    "status": "draft"
+  },
+  "master-craftsman": {
+    "summaryEs": "Eliges una habilidad Craft o Profession con al menos 5 rangos: +2 en ella, y sus rangos cuentan como nivel de lanzador para Craft Magic Arms and Armor y Craft Wondrous Item. No sirve para objetos de conjuro.",
+    "status": "draft"
+  },
+  "maximize-spell": {
+    "summaryEs": "Los efectos numéricos variables del conjuro se maximizan. Ocupa un espacio de conjuro tres niveles superior al real. Combinado con Empower Spell obtienes el máximo más la mitad de la tirada.",
+    "status": "draft"
+  },
+  "medusas-wrath": {
+    "summaryEs": "Con la acción de ataque completo y al menos un golpe desarmado, haces dos golpes desarmados adicionales a tu máximo bonificador, contra un enemigo dazed, flat-footed, paralyzed, staggered, stunned o inconsciente.",
+    "status": "draft"
+  },
+  "mobility": {
+    "summaryEs": "+4 de esquiva a la CA contra ataques de oportunidad provocados al moverte fuera de o dentro de un área amenazada. Los bonificadores de esquiva se acumulan entre sí.",
+    "status": "draft"
+  },
+  "mounted-archery": {
+    "summaryEs": "La penalización por usar armas a distancia a lomos se reduce a la mitad: –2 en lugar de –4 con movimiento doble de la montura, y –4 en lugar de –8 si corre.",
+    "status": "draft"
+  },
+  "mounted-combat": {
+    "summaryEs": "Una vez por asalto, cuando impactan a tu montura, haces una prueba de Ride (acción inmediata) para anular el impacto si superas la tirada de ataque del oponente.",
+    "status": "draft"
+  }
+}

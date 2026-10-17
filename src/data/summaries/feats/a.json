@@ -1,0 +1,58 @@
+{
+  "acrobatic": {
+    "summaryEs": "+2 a las pruebas de Acrobatics y Fly; el bonificador pasa a +4 en la habilidad en la que tengas 10 o más rangos.",
+    "status": "draft"
+  },
+  "acrobatic-steps": {
+    "summaryEs": "Al moverte, atraviesas hasta 15 pies de terreno difícil por asalto como si fuera normal. Se acumula con Nimble Moves (20 pies en total).",
+    "status": "draft"
+  },
+  "agile-maneuvers": {
+    "summaryEs": "Usas tu bonificador de Destreza en lugar del de Fuerza al calcular tu Combat Maneuver Bonus.",
+    "status": "draft"
+  },
+  "alertness": {
+    "summaryEs": "+2 a las pruebas de Perception y Sense Motive; pasa a +4 en la habilidad en la que tengas 10 o más rangos.",
+    "status": "draft"
+  },
+  "alignment-channel": {
+    "summaryEs": "Eliges caos, mal, bien o ley: tu canalización de energía cura o daña solo a ajenos con ese subtipo de alineamiento (eliges cada vez). Se puede tomar varias veces, sin acumularse, para un subtipo nuevo cada vez.",
+    "status": "draft"
+  },
+  "animal-affinity": {
+    "summaryEs": "+2 a las pruebas de Handle Animal y Ride; pasa a +4 en la habilidad en la que tengas 10 o más rangos.",
+    "status": "draft"
+  },
+  "arcane-armor-mastery": {
+    "summaryEs": "Como acción rápida, reduces un 20% el fallo de conjuro arcano de tu armadura en los conjuros de este asalto. Sustituye (no se suma) al bonificador de Arcane Armor Training.",
+    "status": "draft"
+  },
+  "arcane-armor-training": {
+    "summaryEs": "Como acción rápida, reduces un 10% el fallo de conjuro arcano de tu armadura en los conjuros que lances este asalto.",
+    "status": "draft"
+  },
+  "arcane-strike": {
+    "summaryEs": "Como acción rápida, durante 1 asalto tus armas hacen +1 de daño y cuentan como mágicas para superar la reducción de daño. El bonificador sube +1 por cada cinco niveles de lanzador, hasta +5 en nivel 20.",
+    "status": "draft"
+  },
+  "armor-proficiency-heavy": {
+    "summaryEs": "Competencia con armadura pesada (ver Armor Proficiency, Light). Guerreros y paladines la tienen automáticamente como dote adicional.",
+    "status": "draft"
+  },
+  "armor-proficiency-light": {
+    "summaryEs": "Con armaduras que dominas, la penalización de armadura solo afecta a pruebas basadas en Destreza y Fuerza. Todos salvo monjes, hechiceros y magos la tienen gratis.",
+    "status": "draft"
+  },
+  "armor-proficiency-medium": {
+    "summaryEs": "Competencia con armadura media (ver Armor Proficiency, Light). Bárbaros, clérigos, druidas, guerreros, paladines y exploradores la tienen automáticamente.",
+    "status": "draft"
+  },
+  "athletic": {
+    "summaryEs": "+2 a las pruebas de Climb y Swim; pasa a +4 en la habilidad en la que tengas 10 o más rangos.",
+    "status": "draft"
+  },
+  "augment-summoning": {
+    "summaryEs": "Cada criatura que conjures con un conjuro summon obtiene +4 de mejora a Fuerza y Constitución mientras dure el conjuro.",
+    "status": "draft"
+  }
+}

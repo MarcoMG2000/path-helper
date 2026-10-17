@@ -1,0 +1,44 @@
+{
+  "crbClassIds": [
+    "barbarian",
+    "bard",
+    "cleric",
+    "druid",
+    "fighter",
+    "monk",
+    "paladin",
+    "ranger",
+    "rogue",
+    "sorcerer",
+    "wizard"
+  ],
+  "abbreviations": {
+    "sor/wiz": ["sorcerer", "wizard"],
+    "sorcerer/wizard": ["sorcerer", "wizard"]
+  },
+  "nonCrbClassIds": [
+    "adept",
+    "alchemist",
+    "antipaladin",
+    "arcanist",
+    "bloodrager",
+    "hunter",
+    "inquisitor",
+    "investigator",
+    "magus",
+    "medium",
+    "mesmerist",
+    "occultist",
+    "oracle",
+    "psychic",
+    "redmantisassassin",
+    "sahirafiyun",
+    "shaman",
+    "skald",
+    "spiritualist",
+    "summoner",
+    "summoner (unchained)",
+    "warpriest",
+    "witch"
+  ]
+}

@@ -1,0 +1,611 @@
+{
+  "weapons:arrows-20": {
+    "es": "Arrows (20)",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:ballista-light": {
+    "es": "Ballista, light",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:bastard-sword": {
+    "es": "Bastard sword",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:battleaxe": {
+    "es": "Battleaxe",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:blowgun": {
+    "es": "Blowgun",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:blowgun-darts-10": {
+    "es": "Blowgun darts (10)",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:bolas": {
+    "es": "Bolas",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:catapult-heavy": {
+    "es": "Catapult, heavy",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:catapult-light": {
+    "es": "Catapult, light",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:club": {
+    "es": "Club",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:composite-longbow": {
+    "es": "Composite longbow",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:composite-shortbow": {
+    "es": "Composite shortbow",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:crossbow-bolts-10": {
+    "es": "Crossbow bolts (10)",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:dagger": {
+    "es": "Dagger",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:dart": {
+    "es": "Dart",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:dire-flail": {
+    "es": "Dire flail",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:dwarven-urgrosh": {
+    "es": "Dwarven urgrosh",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:dwarven-waraxe": {
+    "es": "Dwarven waraxe",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:elven-curve-blade": {
+    "es": "Elven curve blade",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:falchion": {
+    "es": "Falchion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:gauntlet": {
+    "es": "Gauntlet",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:glaive": {
+    "es": "Glaive",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:gnome-hooked-hammer": {
+    "es": "Gnome hooked hammer",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:greataxe": {
+    "es": "Greataxe",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:greatclub": {
+    "es": "Greatclub",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:greatsword": {
+    "es": "Greatsword",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:guisarme": {
+    "es": "Guisarme",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:halberd": {
+    "es": "Halberd",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:halfling-sling-staff": {
+    "es": "Halfling sling staff",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:hand-crossbow": {
+    "es": "Hand crossbow",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:handaxe": {
+    "es": "Handaxe",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:heavy-crossbow": {
+    "es": "Heavy crossbow",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:heavy-flail": {
+    "es": "Heavy flail",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:heavy-mace": {
+    "es": "Heavy mace",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:heavy-pick": {
+    "es": "Heavy pick",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:heavy-shield": {
+    "es": "Heavy shield",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:javelin": {
+    "es": "Javelin",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:kama": {
+    "es": "Kama",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:kukri": {
+    "es": "Kukri",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:lance": {
+    "es": "Lance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:light-crossbow": {
+    "es": "Light crossbow",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:light-flail": {
+    "es": "Light flail",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:light-hammer": {
+    "es": "Light hammer",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:light-mace": {
+    "es": "Light mace",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:light-pick": {
+    "es": "Light pick",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:light-shield": {
+    "es": "Light shield",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:longbow": {
+    "es": "Longbow",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:longspear": {
+    "es": "Longspear",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:longsword": {
+    "es": "Longsword",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:morningstar": {
+    "es": "Morningstar",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:net": {
+    "es": "Net",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:nunchaku": {
+    "es": "Nunchaku",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:orc-double-axe": {
+    "es": "Orc double axe",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:punching-dagger": {
+    "es": "Punching dagger",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:quarterstaff": {
+    "es": "Quarterstaff",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:ram-large": {
+    "es": "Ram, Large",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:ranseur": {
+    "es": "Ranseur",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:rapier": {
+    "es": "Rapier",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:repeating-crossbow-bolts-5": {
+    "es": "Repeating crossbow bolts (5)",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:repeating-heavy-crossbow": {
+    "es": "Repeating heavy crossbow",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:repeating-light-crossbow": {
+    "es": "Repeating light crossbow",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:sai": {
+    "es": "Sai",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:sap": {
+    "es": "Sap",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:scimitar": {
+    "es": "Scimitar",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:scythe": {
+    "es": "Scythe",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:short-sword": {
+    "es": "Short sword",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:shortbow": {
+    "es": "Shortbow",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:shortspear": {
+    "es": "Shortspear",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:shuriken-5": {
+    "es": "Shuriken (5)",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:siangham": {
+    "es": "Siangham",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:sickle": {
+    "es": "Sickle",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:siege-tower-large": {
+    "es": "Siege tower, Large",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:sling": {
+    "es": "Sling",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:sling-bullets-10": {
+    "es": "Sling bullets (10)",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:spear": {
+    "es": "Spear",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:spiked-armor": {
+    "es": "Spiked armor",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:spiked-chain": {
+    "es": "Spiked chain",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:spiked-gauntlet": {
+    "es": "Spiked gauntlet",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:spiked-heavy-shield": {
+    "es": "Spiked heavy shield",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:spiked-light-shield": {
+    "es": "Spiked light shield",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:starknife": {
+    "es": "Starknife",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:throwing-axe": {
+    "es": "Throwing axe",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:trident": {
+    "es": "Trident",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:two-bladed-sword": {
+    "es": "Two-bladed sword",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:unarmed-strike": {
+    "es": "Unarmed strike",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:warhammer": {
+    "es": "Warhammer",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "weapons:whip": {
+    "es": "Whip",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  }
+}

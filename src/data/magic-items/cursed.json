@@ -1,0 +1,930 @@
+[
+  {
+    "id": "2-cursed-sword",
+    "name": "-2 Cursed Sword",
+    "textEn": "**Aura** strong evocation; **CL** 15th; **Slot** none; **Weight** 4 lbs.\n\n**Description**\n\nThis longsword performs well against targets in practice, but when used in combat its wielder takes a –2 penalty on attack rolls.\n\nAll damage dealt is also reduced by 2 points, but never below a minimum of 1 point of damage on any successful hit. The sword always forces that character to employ it rather than another weapon. The sword’s owner automatically draws it and fights with it even when she meant to draw or ready some other weapon.\n\n**Construction**\n\n**Requirements** *+2 longsword*, any magic weapon; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=-2%20Cursed%20Sword",
+    "sourceRef": "PRPG Core Rulebook pg. 543",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "strong evocation",
+    "weightLb": 4,
+    "construction": {
+      "requirements": "+2 longsword, any magic weapon",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 342, PRPG Core Rulebook pg. 543",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 342"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "amulet-of-inescapable-location",
+    "name": "Amulet of Inescapable Location",
+    "textEn": "**Aura** moderate abjuration; **CL** 10th; **Slot** neck; **Weight** 1/2 lb.\n\n**Description**\n\nThis device appears to prevent location, scrying and detection, or influence by *detect thoughts* or telepathy, as per an *amulet of proof against detection and location*. Actually, the amulet gives the wearer a –10 penalty on all saves against divination spells.\n\n**Construction**\n\n**Requirements** *amulet of proof against detection and location*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Amulet%20of%20Inescapable%20Location",
+    "sourceRef": "PRPG Core Rulebook pg. 538",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "neck",
+    "aura": "moderate abjuration",
+    "weightLb": 0.5,
+    "construction": {
+      "requirements": "amulet of proof against detection and location",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 342, PRPG Core Rulebook pg. 538",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 342"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 10,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "armor-of-arrow-attraction",
+    "name": "Armor of Arrow Attraction",
+    "textEn": "**Aura** strong abjuration; **CL** 16th; **Slot** armor; **Weight** 50 lbs.\n\n**Description**\n\nMagical analysis indicates that this armor is a normal suit of *+3 full plate*. The armor works normally with regard to melee attacks but actually attracts ranged weapons. The wearer takes a –15 penalty to AC against ranged weapons. The true nature of the armor does not reveal itself until the character is fired upon in earnest.\n\n**Construction**\n\n**Requirements** *+3 full plate*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Armor%20of%20Arrow%20Attraction",
+    "sourceRef": "PRPG Core Rulebook pg. 538",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "armor",
+    "aura": "strong abjuration",
+    "weightLb": 50,
+    "construction": {
+      "requirements": "+3 full plate",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 342, PRPG Core Rulebook pg. 538",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 342"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 16,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "armor-of-rage",
+    "name": "Armor of Rage",
+    "textEn": "**Aura** strong necromancy; **CL** 16th; **Slot** armor; **Weight** 50 lbs.\n\n**Description**\n\nThis armor is similar in appearance to *breastplate of command* and functions as *+1 breastplate*. However, when it is worn, the armor causes the character to take a –4 penalty to Charisma. All unfriendly creatures within 300 feet gain a +1 morale bonus on attack rolls against her. The effect is not noticeable to the wearer or those affected. In other words, the wearer does not immediately notice that donning the armor is the cause of her problems, nor do foes understand the reason for the depth of their enmity.\n\n**Construction**\n\n**Requirements** *breastplate of command*, *+1 breastplate*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Armor%20of%20Rage",
+    "sourceRef": "PRPG Core Rulebook pg. 538",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "armor",
+    "aura": "strong necromancy",
+    "weightLb": 50,
+    "construction": {
+      "requirements": "breastplate of command, +1 breastplate",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 342, PRPG Core Rulebook pg. 538",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 342"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 16,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "bag-of-devouring",
+    "name": "Bag of Devouring",
+    "textEn": "**Aura** strong conjuration; **CL** 17th; **Slot** none; **Weight** 15 lbs.\n\n**Description**\n\nThis bag appears to be an ordinary sack. Detection for magical properties makes it seem as if it were a *bag of holding*. The sack, however, is something entirely different and more insidious—one of the feeding orifices of an extradimensional creature.\n\nAny substance of animal or vegetable nature is subject to “swallowing’’ if thrust within the bag. The *bag of devouring* is 90% likely to ignore any initial intrusion, but anytime thereafter that it senses living flesh within (such as if someone reaches into the bag to pull something out), it is 60% likely to close around the offending appendage and attempt to draw the whole victim in. The bag has a +8 bonus on combat maneuver checks made to grapple. If it pins a creature, it pulls the victim inside as a free action. The bag has a CMD of 18 for those attempting to break free.\n\nThe bag can hold up to 30 cubic feet of matter. It acts as a *bag of holding type I*, but each hour it has a 5% cumulative chance of swallowing the contents and then spitting the stuff out in some nonspace or on some other plane. Creatures drawn within are consumed in 1 round. The bag destroys the victim’s body and prevents any form of raising or resurrection that requires part of the corpse. There is a 50% chance that a *wish*, *miracle*, or *true resurrection* spell can restore a devoured victim to life. Check once for each destroyed creature. If the check fails, the creature cannot be brought back to life by mortal magic.\n\n**Construction**\n\n**Requirements** *bag of holding* (any type); **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Bag%20of%20Devouring",
+    "sourceRef": "PRPG Core Rulebook pg. 539",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "strong conjuration",
+    "weightLb": 15,
+    "construction": {
+      "requirements": "bag of holding (any type)",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 342, PRPG Core Rulebook pg. 539",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 342"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 17,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "berserking-sword",
+    "name": "Berserking Sword",
+    "textEn": "**Aura** moderate evocation; **CL** 8th; **Slot** none; **Weight** 8 lbs.\n\n**Description**\n\nThis sword appears to be a *+2 greatsword*. However, whenever it is used in battle, its wielder goes berserk (gaining all the benefits and drawbacks of the barbarian’s rage ability). He attacks the nearest creature and continues to fight until unconscious or dead or until no living thing remains within 30 feet. Although many see this sword as a cursed object, others see it as a boon.\n\n**Construction**\n\n**Requirements** *+2 greatsword*, any magic weapon; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Berserking%20Sword",
+    "sourceRef": "PRPG Core Rulebook pg. 543",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "moderate evocation",
+    "weightLb": 8,
+    "construction": {
+      "requirements": "+2 greatsword, any magic weapon",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 343, PRPG Core Rulebook pg. 543",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 343"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 8,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "boots-of-dancing",
+    "name": "Boots of Dancing",
+    "textEn": "**Aura** strong enchantment; **CL** 16th; **Slot** feet; **Weight** 1 lb.\n\n**Description**\n\nThese boots appear and initially function as one of the other kinds of magic boots. When the wearer is in (or fleeing from) melee combat, *boots of dancing* impede movement, making him behave as if *irresistible dance* had been cast upon him. Only a *remove curse* spell enables the wearer to be rid of the boots once their true nature is revealed.\n\n**Construction**\n\n**Requirements** *boots of elvenkind*, *boots of levitation*, *boots of speed*, *boots of striding and springing*, *boots of teleportation*, *boots of the winterlands*, *winged boots*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Boots%20of%20Dancing",
+    "sourceRef": "PRPG Core Rulebook pg. 539",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "feet",
+    "aura": "strong enchantment",
+    "weightLb": 1,
+    "construction": {
+      "requirements": "boots of elvenkind, boots of levitation, boots of speed, boots of striding and springing, boots of teleportation, boots of the winterlands, winged boots",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 343, PRPG Core Rulebook pg. 539",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 343"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 16,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "bracers-of-defenselessness",
+    "name": "Bracers of Defenselessness",
+    "textEn": "**Aura** strong conjuration; **CL** 16th; **Slot** wrists; **Weight** 1 lb.\n\n**Description**\n\nThese bejeweled and shining bracers initially appear to be *bracers of armor +5* and actually serve as such until the wearer is attacked in anger by an enemy with a Challenge Rating equal to or greater than her level. At that moment and thereafter, the bracers bestow a –5 penalty to AC. Once their curse is activated, *bracers of defenselessness* can be removed only by means of a *remove curse* spell.\n\n**Construction**\n\n**Requirements** *bracers of armor +5*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Bracers%20of%20Defenselessness",
+    "sourceRef": "PRPG Core Rulebook pg. 540",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "wrists",
+    "aura": "strong conjuration",
+    "weightLb": 1,
+    "construction": {
+      "requirements": "bracers of armor +5",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 344, PRPG Core Rulebook pg. 540",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 344"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 16,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "broom-of-animated-attack",
+    "name": "Broom of Animated Attack",
+    "textEn": "**Aura** moderate transmutation; **CL** 10th; **Slot** none; **Weight** 3 lbs.\n\n**Description**\n\nThis item is indistinguishable from a normal broom. It is identical to a *broom of flying* by all tests short of attempted use.\n\nIf a creature attempts to fly using the broom, the broom does a loop-the-loop with its hopeful rider, dumping him on his head from 1d4+5 feet off the ground (no falling damage, since the fall is less than 10 feet). The broom then attacks the victim, swatting his face with the straw or twig end and beating him with the handle end. The broom gets two attacks per round with each end (two swats with the straw and two with the handle, for a total of four attacks per round). It attacks with a +5 bonus on each attack roll. The straw end causes a victim to be blinded for 1 round when it hits. The handle deals 1d6 points of damage when it hits. The broom has AC 13, CMD 17, 18 hit points, and hardness 4.\n\n**Construction**\n\n**Requirements** *broom of flying*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Broom%20of%20Animated%20Attack",
+    "sourceRef": "PRPG Core Rulebook pg. 540",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "moderate transmutation",
+    "weightLb": 3,
+    "construction": {
+      "requirements": "broom of flying",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 344, PRPG Core Rulebook pg. 540",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 344"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 10,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "crystal-hypnosis-ball",
+    "name": "Crystal Hypnosis Ball",
+    "textEn": "**Aura** strong divination; **CL** 17th; **Slot** none; **Weight** 7 lbs.\n\n**Description**\n\nThis cursed scrying device is at first glance indistinguishable from a normal *crystal ball*. However, anyone attempting to use the scrying device becomes fascinated for 1d6 minutes, and a telepathic *suggestion* is implanted in her mind (Will DC 19 negates).\n\nThe user of the device believes that she viewed the desired creature or scene through the ball, but she actually came under the influence of a powerful wizard, lich, or even some power or being from another plane. Each further use brings the *crystal hypnosis ball‘s* gazer deeper under the influence of the controller, either as a servant or a tool. Note that throughout this time, the user remains unaware of her subjugation.\n\n**Construction**\n\n**Requirements** *crystal ball*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Crystal%20Hypnosis%20Ball",
+    "sourceRef": "PRPG Core Rulebook pg. 540",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "strong divination",
+    "weightLb": 7,
+    "construction": {
+      "requirements": "crystal ball",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 345, PRPG Core Rulebook pg. 540",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 345"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 17,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "cursed-backbiter-spear",
+    "name": "Cursed Backbiter Spear",
+    "textEn": "**Aura** moderate evocation; **CL** 10th; **Slot** none; **Weight** 3 lbs.\n\n**Description**\n\nThis is a *+2 shortspear*, but each time it is used in melee against a foe and the attack roll is a natural 1, it damages its wielder instead of her intended target. When the curse takes effect, the spear curls around to strike its wielder in the back, automatically dealing the damage to the wielder. The curse even functions when the spear is hurled, and in such a case the damage to the hurler is doubled.\n\n**Construction**\n\n**Requirements** *+2 shortspear*, any magic weapon; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Cursed%20Backbiter%20Spear",
+    "sourceRef": "PRPG Core Rulebook pg. 542",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "moderate evocation",
+    "weightLb": 3,
+    "construction": {
+      "requirements": "+2 shortspear, any magic weapon",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 345, PRPG Core Rulebook pg. 542",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 345"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 10,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "dust-of-sneezing-and-choking",
+    "name": "Dust of Sneezing and Choking",
+    "textEn": "**Aura** moderate conjuration; **CL** 7th; **Slot** none; **Weight** —\n\n**Description**\n\nThis fine dust appears to be *dust of appearance*. If cast into the air, it causes those within a 20-foot spread to fall into fits of sneezing and coughing. Those who fail a DC 15 Fortitude save take 3d6 points of Constitution damage immediately. Those who succeed on this saving throw are nonetheless disabled by choking (treat as stunned) for 5d4 rounds.\n\n**Construction**\n\n**Requirements** *dust of appearance*, *dust of tracelessness*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Dust%20of%20Sneezing%20and%20Choking",
+    "sourceRef": "PRPG Core Rulebook pg. 540",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "moderate conjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "dust of appearance, dust of tracelessness",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 345, PRPG Core Rulebook pg. 540",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 345"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "flask-of-curses",
+    "name": "Flask of Curses",
+    "textEn": "**Aura** moderate conjuration; **CL** 7th; **Slot** none; **Weight** 2 lbs.\n\n**Description**\n\nThis item looks like an ordinary beaker, bottle, container, decanter, flask, or jug. It may contain a liquid, or it may emit smoke. When the flask is first unstoppered, all creatures within 30 feet must make a DC 17 Will save or be cursed, taking a –2 penalty on attack rolls, saving throws, and skill checks until a *remove curse* spell is cast upon them.\n\n**Construction**\n\n**Requirements** *decanter of endless water*, *efreeti bottle*, *eversmoking bottle*, *iron flask*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Flask%20of%20Curses",
+    "sourceRef": "PRPG Core Rulebook pg. 540",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "moderate conjuration",
+    "weightLb": 2,
+    "construction": {
+      "requirements": "decanter of endless water, efreeti bottle, eversmoking bottle, iron flask",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 345, PRPG Core Rulebook pg. 540",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 345"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "gauntlets-of-fumbling",
+    "name": "Gauntlets of Fumbling",
+    "textEn": "**Aura** moderate transmutation; **CL** 7th; **Slot** hands; **Weight** 2 lbs.\n\n**Description**\n\nThese gauntlets perform according to their appearance until the wearer finds herself under attack or in a lifeand- death situation. At that time, the curse is activated. The wearer becomes fumble-fingered, with a 50% chance each round of dropping anything held in either hand. The gauntlets also lower the wearer’s Dexterity score by 2 points. Once the curse is activated, the gloves can be removed only by means of a *remove curse* spell, a *wish*, or a *miracle*.\n\n**Construction**\n\n**Requirements** *gauntlet of rust*, *gloves of arrow snatching*, *glove of storing*, *gloves of swimming and climbing*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Gauntlets%20of%20Fumbling",
+    "sourceRef": "PRPG Core Rulebook pg. 540",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "hands",
+    "aura": "moderate transmutation",
+    "weightLb": 2,
+    "construction": {
+      "requirements": "gauntlet of rust, gloves of arrow snatching, glove of storing, gloves of swimming and climbing",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 346, PRPG Core Rulebook pg. 540",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 346"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "helm-of-opposite-alignment",
+    "name": "Helm of Opposite Alignment",
+    "textEn": "**Aura** strong transmutation; **CL** 12th; **Slot** head; **Weight** 3 lbs.\n\n**Description**\n\nWhen placed upon the head, this item's curse immediately takes effect (Will DC 15 negates). On a failed save, the alignment of the wearer is radically altered to an alignment as different as possible from the former alignment—good to evil, chaotic to lawful, neutral to some extreme commitment (LE, LG, CE, or CG). Alteration in alignment is mental as well as moral, and the individual changed by the magic thoroughly enjoys his new outlook. A character who succeeds on his save can continue to wear the helmet without suffering the effect of the curse, but if he takes it off and later puts it on again, another save is required.\n\nOnly a *wish* or a *miracle* can restore a character's former alignment, and the affected individual does not make any attempt to return to the former alignment. In fact, he views the prospect with horror and avoids it in any way possible. If a character of a class with an alignment requirement is affected, an *atonement* spell is needed as well if the curse is to be obliterated. When a *helm of opposite alignment* has functioned once, it loses its magical properties.\n\n**Construction**\n\n**Requirements** *hat of disguise*, *helm of comprehend languages and read magic*, *helm of telepathy*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Helm%20of%20Opposite%20Alignment",
+    "sourceRef": "PRPG Core Rulebook pg. 540",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "head",
+    "aura": "strong transmutation",
+    "weightLb": 3,
+    "construction": {
+      "requirements": "hat of disguise, helm of comprehend languages and read magic, helm of telepathy",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 347, PRPG Core Rulebook pg. 540",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 347"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 12,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "incense-of-obsession",
+    "name": "Incense of Obsession",
+    "textEn": "**Aura** moderate enchantment; **CL** 6th; **Slot** none; **Weight** —\n\n**Description**\n\nThese blocks of incense appear to be *incense of meditation*. If meditation is conducted while the *incense of obsession* are burning, the user becomes totally confident that her spell ability is superior due to the magic incense. She uses her spells at every opportunity, even when not needed or useless. The user remains obsessed with her abilities and spells until all have been used or cast, or until 24 hours have elapsed.\n\n**Construction**\n\n**Requirements** *incense of meditation*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Incense%20of%20Obsession",
+    "sourceRef": "PRPG Core Rulebook pg. 541",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "moderate enchantment",
+    "weightLb": null,
+    "construction": {
+      "requirements": "incense of meditation",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 347, PRPG Core Rulebook pg. 541",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 347"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 6,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "mace-of-blood",
+    "name": "Mace of Blood",
+    "textEn": "**Aura** moderate abjuration; **CL** 8th; **Slot** none; **Weight** 8 lbs.\n\n**Description**\n\nThis *+3 heavy mace* must be coated in blood every day, or else its bonus fades away until the mace is coated again. The character using this mace must make a DC 13 Will save every day it is within her possession or become chaotic evil.\n\n**Construction**\n\n**Requirements** *+3 heavy mace*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Mace%20of%20Blood",
+    "sourceRef": "PRPG Core Rulebook pg. 541",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "moderate abjuration",
+    "weightLb": 8,
+    "construction": {
+      "requirements": "+3 heavy mace",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 347, PRPG Core Rulebook pg. 541",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 347"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 8,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "medallion-of-thought-projection",
+    "name": "Medallion of Thought Projection",
+    "textEn": "**Aura** moderate divination; **CL** 7th; **Slot** neck; **Weight** —\n\n**Description**\n\nThis device seems like a *medallion of thoughts*, even down to the range at which it functions, except that the thoughts overheard are muffled and distorted, requiring a DC 15 Will save to sort them out. However, while the user thinks she is picking up the thoughts of others, all she is really hearing are figments created by the medallion itself. These illusory thoughts always seem plausible, and thus can seriously mislead any who rely upon them. What’s worse, unknown to her, the cursed medallion actually broadcasts her thoughts to creatures in the path of the beam, thus alerting them to her presence.\n\n**Construction**\n\n**Requirements** *medallion of thoughts*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Medallion%20of%20Thought%20Projection",
+    "sourceRef": "PRPG Core Rulebook pg. 541",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "neck",
+    "aura": "moderate divination",
+    "weightLb": null,
+    "construction": {
+      "requirements": "medallion of thoughts",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 347, PRPG Core Rulebook pg. 541",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 347"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "necklace-of-strangulation",
+    "name": "Necklace of Strangulation",
+    "textEn": "**Aura** strong conjuration; **CL** 18th; **Slot** neck; **Weight** —\n\n**Description**\n\nA *necklace of strangulation* appears to be a wondrous piece of magical jewelry. When placed on the neck, the necklace immediately tightens, dealing 6 points of damage per round. It cannot be removed by any means short of a *limited wish*, *wish*, or *miracle*, and remains clasped around the victim’s throat even after his death. Only when he has decayed to a dry skeleton (after approximately 1 month) does the necklace loosen, ready for another victim.\n\n**Construction**\n\n**Requirements** *necklace of adaptation*, *necklace of fireballs*, *periapt of health*, *periapt of proof against poison*, *periapt of wound closure*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Necklace%20of%20Strangulation",
+    "sourceRef": "PRPG Core Rulebook pg. 541",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "neck",
+    "aura": "strong conjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "necklace of adaptation, necklace of fireballs, periapt of health, periapt of proof against poison, periapt of wound closure",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 347, PRPG Core Rulebook pg. 541",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 347"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 18,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "net-of-snaring",
+    "name": "Net of Snaring",
+    "textEn": "**Aura** moderate evocation; **CL** 8th; **Slot** none; **Weight** 1 lb.\n\n**Description**\n\nThis net provides a +3 bonus on attack rolls but can only be used underwater. Underwater, it can be commanded to shoot forth up to 30 feet to trap a creature. If thrown on land, it changes course to target the creature that threw it.\n\n**Construction**\n\n**Requirements** *+3 net*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Net%20of%20Snaring",
+    "sourceRef": "PRPG Core Rulebook pg. 541",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "moderate evocation",
+    "weightLb": 1,
+    "construction": {
+      "requirements": "+3 net",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 348, PRPG Core Rulebook pg. 541",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 348"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 8,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "periapt-of-foul-rotting",
+    "name": "Periapt of Foul Rotting",
+    "textEn": "**Aura** moderate abjuration; **CL** 10th; **Slot** neck; **Weight** —\n\n**Description**\n\nThis engraved gem appears to be of little value. If any character keeps the periapt in her possession for more than 24 hours, she contracts a terrible rotting affliction that permanently drains 1 point of Dexterity, Constitution, and Charisma every week. The periapt (and the affliction) can be removed only by application of a *remove curse* spell followed by a *cure disease* and then a *heal*, *miracle*, *limited wish*, or *wish* spell. The rotting can also be countered by crushing a *periapt of health* and sprinkling its dust upon the afflicted character (a full-round action), whereupon the *periapt of foul rotting* likewise crumbles to dust.\n\n**Construction**\n\n**Requirements** *periapt of health*, *periapt of proof against poison*, *periapt of wound closure*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Periapt%20of%20Foul%20Rotting",
+    "sourceRef": "PRPG Core Rulebook pg. 541",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "neck",
+    "aura": "moderate abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "periapt of health, periapt of proof against poison, periapt of wound closure",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 348, PRPG Core Rulebook pg. 541",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 348"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 10,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "poisonous-cloak",
+    "name": "Poisonous Cloak",
+    "textEn": "**Aura** moderate transmutation; **CL** 15th; **Slot** shoulders; **Weight** 1 lb.\n\n**Description**\n\nThis cloak is usually made of wool, although it can be made of leather. A *detect poison* spell can reveal the presence of poison in the cloak’s fabric. The garment can be handled without harm, but as soon as it is actually donned, the wearer takes 4d6 points of Constitution damage unless she succeeds on a DC 28 Fortitude save.\n\nOnce donned, a *poisonous cloak* can be removed only with a *remove curse* spell; doing this destroys the magical property of the cloak. If a *neutralize poison* spell is then used, it is possible to revive a dead victim with a *raise dead* or *resurrection* spell.\n\n**Construction**\n\n**Requirements** *cloak of arachnida*, *cloak of the bat*, *cloak of etherealness*, *cloak of resistance +5*, *major cloak of displacement*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Poisonous%20Cloak",
+    "sourceRef": "PRPG Core Rulebook pg. 541",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "shoulders",
+    "aura": "moderate transmutation",
+    "weightLb": 1,
+    "construction": {
+      "requirements": "cloak of arachnida, cloak of the bat, cloak of etherealness, cloak of resistance +5, major cloak of displacement",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 349, PRPG Core Rulebook pg. 541",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 349"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "potion-of-poison",
+    "name": "Potion of Poison",
+    "textEn": "**Aura** strong conjuration; **CL** 12th; **Slot** none; **Weight** —\n\n**Description**\n\nThis potion has lost its beneficial abilities and become a potent poison. This poison deals 1d3 Constitution damage per round for 6 rounds. A poisoned creature can make a DC 14 Fortitude save each round to negate the damage and end the affliction.\n\n**Construction**\n\n**Requirements** any potion; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Potion%20of%20Poison",
+    "sourceRef": "PRPG Core Rulebook pg. 542",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "strong conjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "any potion",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 349, PRPG Core Rulebook pg. 542",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 349"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 12,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-clumsiness",
+    "name": "Ring of Clumsiness",
+    "textEn": "**Aura** strong transmutation; **CL** 15th; **Slot** ring; **Weight** —\n\n**Description**\n\nThis ring operates exactly like a *ring of feather falling*. However, it also makes the wearer clumsy. She takes a –4 penalty to Dexterity and has a 20% chance of spell failure when trying to cast any arcane spell that has a somatic component. (This chance of spell failure stacks with other arcane spell failure chances.)\n\n**Construction**\n\n**Requirements** *ring of feather falling*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Ring%20of%20Clumsiness",
+    "sourceRef": "PRPG Core Rulebook pg. 542",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "ring",
+    "aura": "strong transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "ring of feather falling",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 349, PRPG Core Rulebook pg. 542",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 349"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "robe-of-powerlessness",
+    "name": "Robe of Powerlessness",
+    "textEn": "**Aura** strong transmutation; **CL** 13th; **Slot** body; **Weight** 1 lb.\n\n**Description**\n\nA *robe of powerlessness* appears to be a magic robe of another sort. As soon as a character dons this garment, she takes a –10 penalty to Strength, as well as to Intelligence, Wisdom, or Charisma, forgetting spells and magic knowledge accordingly. If the character is a spellcaster, the robe targets the character’s primary spellcasting score, otherwise it targets Intelligence. The robe can be removed easily, but in order to restore mind and body, the character must receive a *remove curse* spell followed by *heal*.\n\n**Construction**\n\n**Requirements** *robe of blending*, *robe of bones*, *robe of eyes*, *robe of scintillating colors*, *robe of stars*, *robe of the archmagi*, *robe of useful items*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Robe%20of%20Powerlessness",
+    "sourceRef": "PRPG Core Rulebook pg. 542",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "body",
+    "aura": "strong transmutation",
+    "weightLb": 1,
+    "construction": {
+      "requirements": "robe of blending, robe of bones, robe of eyes, robe of scintillating colors, robe of stars, robe of the archmagi, robe of useful items",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 350, PRPG Core Rulebook pg. 542",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 350"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "robe-of-vermin",
+    "name": "Robe of Vermin",
+    "textEn": "**Aura** strong abjuration; **CL** 13th; **Slot** body; **Weight** 1 lb.\n\n**Description**\n\nThe wearer notices nothing unusual when the robe is donned, and it functions normally. However, as soon as he is in a situation requiring concentration and action against hostile opponents, the true nature of the garment is revealed: the wearer immediately suffers a multitude of bites from the insects that magically infest the garment. He must cease all other activities in order to scratch, shift the robe, and generally show signs of the extreme discomfort caused by the bites and movement of these pests.\n\nThe wearer takes a –5 penalty on initiative checks and a –2 penalty on all attack rolls, saves, and skill checks. If he tries to cast a spell, he must make a concentration check (DC 20 + spell level) or lose the spell.\n\n**Construction**\n\n**Requirements** *robe of blending*, *robe of bones*, *robe of eyes*, *robe of scintillating colors*, *robe of stars*, *robe of the archmagi*, *robe of useful items*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Robe%20of%20Vermin",
+    "sourceRef": "PRPG Core Rulebook pg. 542",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "body",
+    "aura": "strong abjuration",
+    "weightLb": 1,
+    "construction": {
+      "requirements": "robe of blending, robe of bones, robe of eyes, robe of scintillating colors, robe of stars, robe of the archmagi, robe of useful items",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 350, PRPG Core Rulebook pg. 542",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 350"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "scarab-of-death",
+    "name": "Scarab of Death",
+    "textEn": "**Aura** strong abjuration; **CL** 19th; **Slot** neck; **Weight** —\n\n**Description**\n\nIf this small scarab brooch is held for more than 1 round or carried in a living creature’s possessions for 1 minute, it changes into a horrible, burrowing, beetlelike creature. The thing tears through any leather or cloth, burrows into flesh, and reaches the victim’s heart in 1 round, causing death. A DC 25 Reflex save allows the wearer to tear the scarab away before it burrows out of sight, but she still takes 3d6 points of damage. The beetle then returns to its scarab form. Placing the scarab in a container of wood, ceramic, bone, ivory, or metal prevents it from coming to life and allows for long-term storage of the item.\n\n**Construction**\n\n**Requirements** *amulet of mighty fists*, *amulet of natural armor*, *amulet of the planes*, *amulet of proof against detection and location*, *brooch of shielding*, *golembane scarab*, *scarab of protection*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Scarab%20of%20Death",
+    "sourceRef": "PRPG Core Rulebook pg. 542",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "neck",
+    "aura": "strong abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "amulet of mighty fists, amulet of natural armor, amulet of the planes, amulet of proof against detection and location, brooch of shielding, golembane scarab, scarab of protection",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 350, PRPG Core Rulebook pg. 542",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 350"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 19,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "stone-of-weight-loadstone",
+    "name": "Stone of Weight (Loadstone)",
+    "textEn": "**Aura** faint transmutation; **CL** 5th; **Slot** none; **Weight** 1 lb.\n\n**Description**\n\nThis dark, polished stone reduces the possessor’s base land speed by half. Once picked up, the stone cannot be disposed of by any nonmagical means—if it is thrown away or smashed, it reappears somewhere on the possessor’s person. If a *remove curse* spell is cast upon a *loadstone*, the item may be discarded normally and no longer haunts the individual.\n\n**Construction**\n\n**Requirements** *ioun stone*, *stone of alarm*, *stone of controlling earth elementals*, *stone of good luck*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Stone%20of%20Weight%20(Loadstone)",
+    "sourceRef": "PRPG Core Rulebook pg. 543",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "faint transmutation",
+    "weightLb": 1,
+    "construction": {
+      "requirements": "ioun stone, stone of alarm, stone of controlling earth elementals, stone of good luck",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 351, PRPG Core Rulebook pg. 543",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 351"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "vacuous-grimoire",
+    "name": "Vacuous Grimoire",
+    "textEn": "**Aura** strong enchantment; **CL** 20th; **Slot** none; **Weight** 2 lbs.\n\n**Description**\n\nA book of this sort looks like a normal volume on some mildly interesting topic. Any character who opens the work and reads so much as a single word therein must make two DC 15 Will saves. The first is to determine if the reader takes 1 point of permanent Intelligence and Charisma drain. The second is to find out if the reader takes 2 points of permanent Wisdom drain. To destroy the book, it must be burned while remove curse is being cast. If the grimoire is placed with other books, its appearance instantly alters to conform to the look of those other works.\n\n**Construction**\n\n**Requirements** *blessed book*, *manual of bodily health*, *manual of gainful exercise*, *manual of quickness of action*, *tome of clear thoughts*; **Cost** —",
+    "source": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Vacuous%20Grimoire",
+    "sourceRef": "PRPG Core Rulebook pg. 543",
+    "book": "CRB",
+    "kind": "cursed",
+    "slot": "none",
+    "aura": "strong enchantment",
+    "weightLb": 2,
+    "construction": {
+      "requirements": "blessed book, manual of bodily health, manual of gainful exercise, manual of quickness of action, tome of clear thoughts",
+      "costRaw": "—",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 351, PRPG Core Rulebook pg. 543",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 351"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 20,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  }
+]

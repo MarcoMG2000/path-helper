@@ -1,0 +1,1253 @@
+[
+  {
+    "id": "ring-of-animal-friendship",
+    "name": "Ring of Animal Friendship",
+    "textEn": "**Aura** faint enchantment; **CL** 3rd; **Slot** ring; **Price** 10,800 gp; **Weight** —\n\n**Description**\n\nA ring of animal friendship always bears some sort of animal-like design in its craftsmanship. On command, this ring affects an animal as if the wearer had cast *charm animal*, causing the animal to regard the wearer as a trusted friend.\n\n**Construction**\n\n**Requirements** Forge Ring, *charm animal*; **Cost** 5,400 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Animal%20Friendship",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "faint enchantment",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, charm animal",
+      "costRaw": "5,400 gp",
+      "costCp": 540000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 166, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 166"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 3,
+        "priceRaw": "10,800 gp",
+        "priceCp": 1080000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-blinking",
+    "name": "Ring of Blinking",
+    "textEn": "**Aura** moderate transmutation; **CL** 7th; **Slot** ring; **Price** 27,000 gp; **Weight** —\n\n**Description**\n\nOn command, this ring makes the wearer blink, as the *blink* spell.\n\n**Construction**\n\n**Requirements** Forge Ring, *blink*; **Cost** 13,500 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Blinking",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, blink",
+      "costRaw": "13,500 gp",
+      "costCp": 1350000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 168, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 168"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "27,000 gp",
+        "priceCp": 2700000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-chameleon-power",
+    "name": "Ring of Chameleon Power",
+    "textEn": "**Aura** faint illusion; **CL** 3rd; **Slot** ring; **Price** 12,700 gp; **Weight** —\n\n**Description**\n\nAs a free action, the wearer of this ring can gain the ability to magically blend in with her surroundings. This provides a +10 competence bonus on her Stealth checks. As a standard action, she can also use the spell *disguise self* as often as she wants.\n\n**Construction**\n\n**Requirements** Forge Ring, *disguise self*, *invisibility*; **Cost** 6,350 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Chameleon%20Power",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "faint illusion",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, disguise self, invisibility",
+      "costRaw": "6,350 gp",
+      "costCp": 635000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 168, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 168"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 3,
+        "priceRaw": "12,700 gp",
+        "priceCp": 1270000,
+        "effects": [
+          {
+            "target": "skill.stealth",
+            "bonusType": "competence",
+            "value": 10,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+10 competence bonus on her Stealth checks"
+          }
+        ],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-climbing",
+    "name": "Ring of Climbing",
+    "textEn": "**Aura** faint transmutation; **CL** 5th; **Slot** ring; **Price** 2,500 gp; **Weight** —\n\n**Description**\n\nThis magic ring has the deceptively simple appearance of a plain leather cord that wraps securely around a finger. The ring continually grants the wearer a +5 competence bonus on Climb checks.\n\n**Construction**\n\n**Requirements** Forge Ring, creator must have 5 ranks in the Climb skill; **Cost** 1,250 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Climbing",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "faint transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, creator must have 5 ranks in the Climb skill",
+      "costRaw": "1,250 gp",
+      "costCp": 125000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 168, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 168"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "2,500 gp",
+        "priceCp": 250000,
+        "effects": [
+          {
+            "target": "skill.climb",
+            "bonusType": "competence",
+            "value": 5,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+5 competence bonus on Climb checks"
+          }
+        ],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-climbing-improved",
+    "name": "Ring of Climbing (improved)",
+    "textEn": "**Aura** faint transmutation; **CL** 5th; **Slot** ring; **Price** 10,000 gp; **Weight** —\n\n**Description**\n\nThis ring functions as a *ring of climbing*, except it grants a +10 competence bonus on its wearer’s Climb checks.\n\n**Construction**\n\n**Requirements** Forge Ring, creator must have 10 ranks in the Climb skill; **Cost** 5,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Climbing%20(improved)",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "faint transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, creator must have 10 ranks in the Climb skill",
+      "costRaw": "5,000 gp",
+      "costCp": 500000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 168, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 168"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "10,000 gp",
+        "priceCp": 1000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-counterspells",
+    "name": "Ring of Counterspells",
+    "textEn": "**Aura** moderate evocation; **CL** 11th; **Slot** ring; **Price** 4,000 gp; **Weight** —\n\n**Description**\n\nUpon first examination, this ring seems to be a *ring of spell storing*. However, while it allows a single spell of 1st through 6th level to be cast into it, that spell cannot be cast out of the ring again. Instead, should that spell ever be cast upon the wearer, the spell is immediately countered, as a counterspell action, requiring no action (or even knowledge) on the wearer’s part. Once so used, the spell cast within the ring is gone. A new spell (or the same one as before) may be placed into it again.\n\n**Construction**\n\n**Requirements** Forge Ring, *imbue with spell ability*; **Cost** 2,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Counterspells",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate evocation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, imbue with spell ability",
+      "costRaw": "2,000 gp",
+      "costCp": 200000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 168, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 168"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 11,
+        "priceRaw": "4,000 gp",
+        "priceCp": 400000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-djinni-calling",
+    "name": "Ring of Djinni Calling",
+    "textEn": "**Aura** strong conjuration; **CL** 17th; **Slot** ring; **Price** 125,000 gp; **Weight** —\n\n**Description**\n\nThis “genie” ring serves as a special gate by means of which a specific djinni (see the *Pathfinder RPG Bestiary*) can be called from the Plane of Air. When the ring is rubbed (a standard action), the call goes out, and the djinni appears on the next round. The djinni faithfully obeys and serves the wearer of the ring, but never for more than 1 hour per day. If the djinni of the ring is ever killed, the ring becomes nonmagical and worthless.\n\n**Construction**\n\n**Requirements** Forge Ring, *gate*; **Cost** 62,500 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Djinni%20Calling",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "strong conjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, gate",
+      "costRaw": "62,500 gp",
+      "costCp": 6250000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 169, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 169"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 17,
+        "priceRaw": "125,000 gp",
+        "priceCp": 12500000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-elemental-command",
+    "name": "Ring of Elemental Command",
+    "textEn": "**Aura** strong conjuration; **CL** 15th; **Slot** ring; **Price** 200,000 gp; **Weight** —\n\n**Description**\n\nAll four kinds of *rings of elemental command* are very powerful. Each appears to be nothing more than a lesser magic ring until fully activated (by meeting a special condition, such as single-handedly slaying an elemental of the appropriate type or exposure to a sacred material of the appropriate element), but each has certain other powers as well as the following common properties.\n\nElementals of the plane to which the ring is attuned can’t attack the wearer, or even approach within 5 feet of her. If the wearer desires, she may forgo this protection and instead attempt to charm the elemental (as charm monster, Will DC 17 negates). If the charm attempt fails, however, absolute protection is lost and no further attempt at charming can be made.\n\nCreatures from the plane to which the ring is attuned that attack the wearer take a –1 penalty on their attack rolls. The ring wearer makes applicable saving throws against the extraplanar creature’s attacks with a +2 resistance bonus. She gains a +4 morale bonus on all attack rolls against such creatures. Any weapons he uses bypasses the damage reduction of such creatures, regardless of any qualities the weapon may or may not have.\n\nThe wearer of the ring is able to converse with creatures from the plane to which her ring is attuned. These creatures recognize that she wears the ring, and show a healthy respect for the wearer if their alignments are similar. If alignments are opposed, creatures fear the wearer if she is strong. If she is weak, they hate and desire to slay her.\n\nThe possessor of a ring of elemental command takes a saving throw penalty as follows.\n\n| **Element** | **Saving Throw Penalty** |\n| --- | --- |\n| Air | –2 against earth-based effects |\n| Earth | –2 against air- or electricity-based effects |\n| Fire | –2 against water- or cold-based effects |\n| Water | –2 against fire-based effects |\n\nIn addition to the powers described above, each specific ring gives its wearer the following abilities according to its kind.\n\n**Ring of Elemental Command (Air)**\n\n- *Wind wall* (unlimited use)\n- *Feather fall* (unlimited use, wearer only)\n- *Resist energy* (electricity) (unlimited use, wearer only)\n- *Gust of wind* (twice per day)\n- *Air walk* (once per day, wearer only)\n- *Chain lightning* (once per week)\n\nThis ring appears to be a *ring of feather falling* until a certain condition is met to activate its full potential. It must be reactivated each time a new wearer acquires it.\n\n**Ring of Elemental Command (Earth)**\n\n- *Soften earth and stone* (unlimited use)\n- *Meld into stone* (unlimited use, wearer only)\n- *Stone shape* (twice per day)\n- *Wall of stone* (once per day)\n- *Stoneskin* (once per week, wearer only)\n- *Passwall* (twice per week)\n\nThis ring appears to be a *ring of meld into stone* (allowing the wearer to cast meld into stone at will) until the established condition is met.\n\n**Ring of Elemental Command (Fire)**\n\n- *Resist energy* (fire) (as a *major ring of energy resistance* [fire])\n- *Burning hands* (unlimited use)\n- *Flaming sphere* (twice per day)\n- *Pyrotechnics* (twice per day)\n- *Wall of fire* (once per day)\n- *Flame strike* (twice per week)\n\nThis ring appears to be a *major ring of energy resistance* (fire) until the established condition is met.\n\n**Ring of Elemental Command (Water)**\n\n- *Create water* (unlimited use)\n- *Water breathing* (unlimited use)\n- *Water walk* (unlimited use)\n- *Wall of ice* (once per day)\n- *Ice storm* (twice per week)\n- *Control water* (twice per week)\n\nThis ring appears to be a *ring of water walking* until the established condition is met.\n\n**Construction**\n\n**Requirements** Forge Ring, *summon monster VI*, all appropriate spells; **Cost** 100,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Elemental%20Command",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "strong conjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, summon monster VI, all appropriate spells",
+      "costRaw": "100,000 gp",
+      "costCp": 10000000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 169, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 169"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "200,000 gp",
+        "priceCp": 20000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-energy-resistance",
+    "name": "Ring of Energy Resistance",
+    "textEn": "**Aura** moderate abjuration; **CL** 11th; **Slot** ring; **Price** 12,000 gp (minor), 28,000 gp (major), 44,000 gp (greater); **Weight** —\n\n**Description**\n\nRings of this type come in a wide variety of designs and colorations, typically related to the types of energy they defend against. These rings continually protect their wearers from damage from one type of energy—acid, cold, electricity, fire, or sonic (chosen by the creator of the item; determine randomly if found as part of a treasure hoard). Each time the wearer would normally take such damage, subtract the ring’s resistance value from the damage dealt.\n\nA *minor ring of energy resistance* grants 10 points of resistance. A *major ring of energy resistance* grants 20 points of resistance. A *greater ring of energy resistance* grants 30 points of resistance.\n\n**Construction**\n\n**Requirements** Forge Ring, *resist energy*; **Cost** 6,000 gp (minor), 14,000 gp (major), 22,000 gp (greater)",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Energy%20Resistancegreater",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, resist energy",
+      "costRaw": "6,000 gp (minor), 14,000 gp (major), 22,000 gp (greater)",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 170, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 170"
+    ],
+    "variants": [
+      {
+        "variantId": "minor",
+        "label": "minor",
+        "casterLevel": 11,
+        "priceRaw": "12,000 gp (minor)",
+        "priceCp": 1200000,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "major",
+        "label": "major",
+        "casterLevel": 11,
+        "priceRaw": "28,000 gp (major)",
+        "priceCp": 2800000,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "greater",
+        "label": "greater",
+        "casterLevel": 11,
+        "priceRaw": "44,000 gp (greater)",
+        "priceCp": 4400000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-evasion",
+    "name": "Ring of Evasion",
+    "textEn": "**Aura** moderate transmutation; **CL** 7th; **Slot** ring; **Price** 25,000 gp; **Weight** —\n\n**Description**\n\nThis ring continually grants the wearer the ability to avoid damage as if she had evasion. Whenever she makes a Reflex saving throw to determine whether she takes half damage, a successful save results in no damage.\n\n**Construction**\n\n**Requirements** Forge Ring, *jump*; **Cost** 12,500 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Evasion",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, jump",
+      "costRaw": "12,500 gp",
+      "costCp": 1250000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 170, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 170"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "25,000 gp",
+        "priceCp": 2500000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-feather-falling",
+    "name": "Ring of Feather Falling",
+    "textEn": "**Aura** faint transmutation; **CL** 1st; **Slot** ring; **Price** 2,200 gp; **Weight** —\n\n**Description**\n\nThis ring is crafted with a feather pattern all around its edge. It acts exactly like a *feather fall* spell, and activates immediately if the wearer falls more than 5 feet.\n\n**Construction**\n\n**Requirements** Forge Ring, *feather fall*; **Cost** 1,100 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Feather%20Falling",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "faint transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, feather fall",
+      "costRaw": "1,100 gp",
+      "costCp": 110000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 170, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 170"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 1,
+        "priceRaw": "2,200 gp",
+        "priceCp": 220000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-force-shield",
+    "name": "Ring of Force Shield",
+    "textEn": "**Aura** moderate evocation; **CL** 9th; **Slot** ring; **Price** 8,500 gp; **Weight** —\n\n**Description**\n\nThis ring generates a shield-sized (and shield-shaped) *wall of force* that stays with the ring and can be wielded by the wearer as if it were a heavy shield (+2 AC). This special creation has no armor check penalty or arcane spell failure chance since it is weightless and encumbrance-free. It can be activated and deactivated at will as a free action.\n\n**Construction**\n\n**Requirements** Forge Ring, *wall of force*; **Cost** 4,250 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Force%20Shield",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate evocation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, wall of force",
+      "costRaw": "4,250 gp",
+      "costCp": 425000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 171, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 171"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 9,
+        "priceRaw": "8,500 gp",
+        "priceCp": 850000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-freedom-of-movement",
+    "name": "Ring of Freedom of Movement",
+    "textEn": "**Aura** moderate abjuration; **CL** 7th; **Slot** ring; **Price** 40,000 gp; **Weight** —\n\n**Description**\n\nThis gold ring allows the wearer to act as if continually under the effect of a *freedom of movement* spell.\n\n**Construction**\n\n**Requirements** Forge Ring, *freedom of movement*; **Cost** 20,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Freedom%20of%20Movement",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, freedom of movement",
+      "costRaw": "20,000 gp",
+      "costCp": 2000000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 171, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 171"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "40,000 gp",
+        "priceCp": 4000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-friend-shield",
+    "name": "Ring of Friend Shield",
+    "textEn": "**Aura** moderate abjuration; **CL** 10th; **Slot** ring; **Price** 50,000 gp; **Weight** —\n\n**Description**\n\nThese curious rings always come in pairs. A *ring of friend shield* without its mate is useless. Either wearer of one of a pair of the rings can, at any time, command his ring to cast a *shield other* spell with the wearer of the mated ring as the recipient. This effect has no range limitation.\n\n**Construction**\n\n**Requirements** Forge Ring, *shield other*; **Cost** 25,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Friend%20Shield",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, shield other",
+      "costRaw": "25,000 gp",
+      "costCp": 2500000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 171, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 171"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 10,
+        "priceRaw": "50,000 gp",
+        "priceCp": 5000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-invisibility",
+    "name": "Ring of Invisibility",
+    "textEn": "**Aura** faint illusion; **CL** 3rd; **Slot** ring; **Price** 20,000 gp; **Weight** —\n\n**Description**\n\nBy activating this simple silver ring, the wearer can benefit from *invisibility*, as the spell.\n\n**Construction**\n\n**Requirements** Forge Ring, *invisibility*; **Cost** 10,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Invisibility",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "faint illusion",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, invisibility",
+      "costRaw": "10,000 gp",
+      "costCp": 1000000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 171, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 171"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 3,
+        "priceRaw": "20,000 gp",
+        "priceCp": 2000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-jumping",
+    "name": "Ring of Jumping",
+    "textEn": "**Aura** faint transmutation; **CL** 2nd; **Slot** ring; **Price** 2,500 gp; **Weight** —\n\n**Description**\n\nThis ring continually allows the wearer to leap about, providing a +5 competence bonus on all her Acrobatics checks made to make high or long jumps.\n\n**Construction**\n\n**Requirements** Forge Ring, creator must have 5 ranks in Acrobatics; **Cost** 1,250 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Jumping",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "faint transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, creator must have 5 ranks in Acrobatics",
+      "costRaw": "1,250 gp",
+      "costCp": 125000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 172, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 172"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 2,
+        "priceRaw": "2,500 gp",
+        "priceCp": 250000,
+        "effects": [
+          {
+            "target": "skill.acrobatics",
+            "bonusType": "competence",
+            "value": 5,
+            "appliesTo": "wearer",
+            "conditional": true,
+            "conditionText": "This ring continually allows the wearer to leap about, providing a +5 competence bonus on all her Acrobatics checks made to make high or long jumps.",
+            "evidence": "+5 competence bonus on all her Acrobatics checks"
+          }
+        ],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-jumping-improved",
+    "name": "Ring of Jumping (improved)",
+    "textEn": "**Aura** moderate transmutation; **CL** 7th; **Slot** ring; **Price** 10,000 gp; **Weight** —\n\n**Description**\n\nThis ring functions as a *ring of jumping*, except it grants the wearer a +10 competence bonus all her Acrobatics checks made to make high or long jumps.\n\n**Construction**\n\n**Requirements** Forge Ring, creator must have 10 ranks in Acrobatics; **Cost** 5,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Jumping%20(improved)",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, creator must have 10 ranks in Acrobatics",
+      "costRaw": "5,000 gp",
+      "costCp": 500000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 172, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 172"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "10,000 gp",
+        "priceCp": 1000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-mind-shielding",
+    "name": "Ring of Mind Shielding",
+    "textEn": "**Aura** faint abjuration; **CL** 3rd; **Slot** ring; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\nThis ring is usually of fine workmanship and wrought from heavy gold. The wearer is continually immune to *detect thoughts*, *discern lies*, and any attempt to magically discern her alignment.\n\n**Construction**\n\n**Requirements** Forge Ring, *nondetection*; **Cost** 4,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Mind%20Shielding",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "faint abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, nondetection",
+      "costRaw": "4,000 gp",
+      "costCp": 400000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 172, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 172"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 3,
+        "priceRaw": "8,000 gp",
+        "priceCp": 800000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-protection",
+    "name": "Ring of Protection",
+    "textEn": "**Aura** faint abjuration; **CL** 5th; **Slot** ring; **Price** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5); **Weight** —\n\n**Description**\n\nThis ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\n\n**Construction**\n\n**Requirements** Forge Ring, *shield of faith*, caster must be of a level at least three times higher than the bonus of the ring; **Cost** 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Protection1",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "faint abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring",
+      "costRaw": "1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 172, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 172"
+    ],
+    "variants": [
+      {
+        "variantId": "plus-1",
+        "label": "+1",
+        "casterLevel": 5,
+        "priceRaw": "2,000 gp (+1)",
+        "priceCp": 200000,
+        "effects": [
+          {
+            "target": "ac",
+            "bonusType": "deflection",
+            "value": 1,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "deflection bonus of +1 to +5 to AC"
+          }
+        ],
+        "extraDamage": []
+      },
+      {
+        "variantId": "plus-2",
+        "label": "+2",
+        "casterLevel": 5,
+        "priceRaw": "8,000 gp (+2)",
+        "priceCp": 800000,
+        "effects": [
+          {
+            "target": "ac",
+            "bonusType": "deflection",
+            "value": 2,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "deflection bonus of +1 to +5 to AC"
+          }
+        ],
+        "extraDamage": []
+      },
+      {
+        "variantId": "plus-3",
+        "label": "+3",
+        "casterLevel": 5,
+        "priceRaw": "18,000 gp (+3)",
+        "priceCp": 1800000,
+        "effects": [
+          {
+            "target": "ac",
+            "bonusType": "deflection",
+            "value": 3,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "deflection bonus of +1 to +5 to AC"
+          }
+        ],
+        "extraDamage": []
+      },
+      {
+        "variantId": "plus-4",
+        "label": "+4",
+        "casterLevel": 5,
+        "priceRaw": "32,000 gp (+4)",
+        "priceCp": 3200000,
+        "effects": [
+          {
+            "target": "ac",
+            "bonusType": "deflection",
+            "value": 4,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "deflection bonus of +1 to +5 to AC"
+          }
+        ],
+        "extraDamage": []
+      },
+      {
+        "variantId": "plus-5",
+        "label": "+5",
+        "casterLevel": 5,
+        "priceRaw": "50,000 gp (+5)",
+        "priceCp": 5000000,
+        "effects": [
+          {
+            "target": "ac",
+            "bonusType": "deflection",
+            "value": 5,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "deflection bonus of +1 to +5 to AC"
+          }
+        ],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-regeneration",
+    "name": "Ring of Regeneration",
+    "textEn": "**Aura** strong conjuration; **CL** 15th; **Slot** ring; **Price** 90,000 gp; **Weight** —\n\n**Description**\n\nThis white gold ring is generally set with a large green sapphire. When worn, the ring continually allows a living wearer to heal 1 point of damage per round and an equal amount of nonlethal damage. In addition, the wearer is immune to bleed damage while wearing a *ring of regeneration*. If the wearer loses a limb, an organ, or any other body part while wearing this ring, the ring regenerates it as the spell *regenerate*. In either case, only damage taken while wearing the ring is regenerated.\n\n**Construction**\n\n**Requirements** Forge Ring, *regenerate*; **Cost** 45,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Regeneration",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "strong conjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, regenerate",
+      "costRaw": "45,000 gp",
+      "costCp": 4500000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 172, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 172"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "90,000 gp",
+        "priceCp": 9000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-shooting-stars",
+    "name": "Ring of Shooting Stars",
+    "textEn": "**Aura** strong evocation; **CL** 12th; **Slot** ring; **Price** 50,000 gp; **Weight** —\n\n**Description**\n\nThis ring has two modes of operation: one for when the wearer is in dim light or outdoors at night, and a second one when the wearer is underground or indoors at night. At night or in areas of shadow or darkness, the *ring of shooting stars* can perform the following functions on command.\n\n- *Dancing lights* (once per hour)\n- *Light* (twice per night)\n- *Ball lightning* (special, once per night)\n- *Shooting stars* (special, three per week)\n\nThe first special function, ball lightning, releases one to four balls of lightning (ring wearer’s choice). These glowing globes resemble *dancing lights*, and the wearer controls them similarly (see the *dancing lights* spell description). The spheres have a 120-foot range and a duration of 4 rounds. They can be moved at 120 feet per round. Each sphere is about 3 feet in diameter, and any creature who comes within 5 feet of one causes its charge to dissipate, taking electricity damage in the process according to the number of balls created.\n\n| **Number of Balls** | **Damage per Ball** |\n| --- | --- |\n| 1 lightning ball | 4d6 points of electricity damage |\n| 2 lightning balls | 3d6 points of electricity damage |\n| 3 lightning balls | 2d6 points of electricity damage |\n| 4 lightning balls | 1d6 points of electricity damage |\n\nOnce the ball lightning function is activated, the balls can be released at any time before the sun rises. Multiple balls can be released in the same round.\n\nThe second special function produces three shooting stars that can be released from the ring each week, simultaneously or one at a time. Upon impact, they deal 12 points of damage and spread (as a *fireball*) in a 5-foot-radius sphere that deals 24 points of fire damage.\n\nAny creature struck by a shooting star takes full damage from the impact plus full fire damage from the spread unless it succeeds at a DC 13 Reflex save. Creatures not struck but within the spread ignore the impact damage and take only half damage from the fire spread on a successful DC 13 Reflex save. The range is 70 feet, at the end of which the shooting star explodes unless it strikes a creature or object before that. A shooting star always follows a straight line, and any creature in its path must make a successful DC 13 Reflex save or be hit by the projectile.\n\nIndoors at night, or underground, the *ring of shooting stars* has the following properties.\n\n- *Faerie fire* (once per day)\n- *Spark shower* (special, once per day)\n\nThe spark shower is a flying cloud of sizzling purple sparks that fan out from the ring for a distance of 20 feet in an arch 10 feet wide. Creatures within this area take 2d8 points of damage each if not wearing metal armor or carrying metal weapons. Any creature wearing metal armor and/or carrying a metal weapon takes 4d8 points of damage.\n\n**Construction**\n\n**Requirements** Forge Ring, *faerie fire*, *fireball*, *light*, *lightning bolt*; **Cost** 25,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Shooting%20Stars",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "strong evocation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, faerie fire, fireball, light, lightning bolt",
+      "costRaw": "25,000 gp",
+      "costCp": 2500000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 173, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 173"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 12,
+        "priceRaw": "50,000 gp",
+        "priceCp": 5000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-spell-storing",
+    "name": "Ring of Spell Storing",
+    "textEn": "**Aura** moderate evocation; **CL** 9th; **Slot** ring; **Price** 50,000 gp; **Weight** —\n\n**Description**\n\nA *ring of spell storing* contains up to 5 levels of spells (either divine or arcane, or even a mix of both spell types) that the wearer can cast. Each spell has a caster level equal to the minimum level needed to cast that spell. The user need not provide any material components or focus to cast the spell, and there is no arcane spell failure chance for wearing armor (because the ring wearer need not gesture). The activation time for the ring is the same as the casting time for the relevant spell, with a minimum of 1 standard action.\n\nFor a randomly generated ring, treat it as a scroll to determine what spells are stored in it. If you roll a spell that would put the ring over the five-level limit, ignore that roll; the ring has no more spells in it.\n\nA spellcaster can cast any spells into the ring, so long as the total spell levels do not add up to more than 5. Metamagic versions of spells take up storage space equal to their spell level modified by the metamagic feat. A spellcaster can use a scroll to put a spell into the *minor ring of spell storing*.\n\nThe ring magically imparts to the wearer the names of all spells currently stored within it.\n\n**Construction**\n\n**Requirements** Forge Ring, *imbue with spell ability*; **Cost** 25,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Spell%20Storing",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate evocation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, imbue with spell ability",
+      "costRaw": "25,000 gp",
+      "costCp": 2500000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 174, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 174"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 9,
+        "priceRaw": "50,000 gp",
+        "priceCp": 5000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-spell-storing-major",
+    "name": "Ring of Spell Storing (major)",
+    "textEn": "**Aura** strong evocation; **CL** 17th; **Slot** ring; **Price** 200,000 gp; **Weight** —\n\n**Description**\n\nAs the *ring of spell storing*, except it holds up to 10 levels of spells.\n\n**Construction**\n\n**Requirements** Forge Ring, *imbue with spell ability*; **Cost** 100,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Spell%20Storing%20(major)",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "strong evocation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, imbue with spell ability",
+      "costRaw": "100,000 gp",
+      "costCp": 10000000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 174, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 174"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 17,
+        "priceRaw": "200,000 gp",
+        "priceCp": 20000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-spell-storing-minor",
+    "name": "Ring of Spell Storing (minor)",
+    "textEn": "**Aura** faint evocation; **CL** 5th; **Slot** ring; **Price** 18,000 gp; **Weight** —\n\n**Description**\n\nAs the *ring of spell storing*, except it holds up to 3 levels of spells.\n\n**Construction**\n\n**Requirements** Forge Ring, *imbue with spell ability*; **Cost** 9,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Spell%20Storing%20(minor)",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "faint evocation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, imbue with spell ability",
+      "costRaw": "9,000 gp",
+      "costCp": 900000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 174, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 174"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "18,000 gp",
+        "priceCp": 1800000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-spell-turning",
+    "name": "Ring of Spell Turning",
+    "textEn": "**Aura** strong abjuration; **CL** 13th; **Slot** ring; **Price** 100,000 gp; **Weight** —\n\n**Description**\n\nUp to three times per day on command, this simple platinum band automatically reflects the next nine levels of spells cast at the wearer, exactly as if *spell turning* had been cast upon him.\n\n**Construction**\n\n**Requirements** Forge Ring, *spell turning*; **Cost** 50,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Spell%20Turning",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "strong abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, spell turning",
+      "costRaw": "50,000 gp",
+      "costCp": 5000000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 174, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 174"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "100,000 gp",
+        "priceCp": 10000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-sustenance",
+    "name": "Ring of Sustenance",
+    "textEn": "**Aura** faint conjuration; **CL** 5th; **Slot** ring; **Price** 2,500 gp; **Weight** —\n\n**Description**\n\nThis ring continually provides its wearer with life-sustaining nourishment. The ring also refreshes the body and mind; its wearer only needs to sleep 2 hours per day to gain the benefit of 8 hours of sleep. This allows a spellcaster that requires rest to prepare spells to do so after only 2 hours, but does not allow a spellcaster to prepare spells more than once per day. The ring must be worn for a full week before it begins to work. If it is removed, the owner must wear it for another week to reattune it to himself.\n\n**Construction**\n\n**Requirements** Forge Ring, *create food and water*; **Cost** 1,250 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Sustenance",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "faint conjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, create food and water",
+      "costRaw": "1,250 gp",
+      "costCp": 125000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 175, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 175"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "2,500 gp",
+        "priceCp": 250000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-swimming",
+    "name": "Ring of Swimming",
+    "textEn": "**Aura** faint transmutation; **CL** 2nd; **Slot** ring; **Price** 2,500 gp; **Weight** —\n\n**Description**\n\nThis silver ring usually has fishlike designs and motifs etched into the band. It continually grants the wearer a +5 competence bonus on Swim checks.\n\n**Construction**\n\n**Requirements** Forge Ring, creator must have 5 ranks in Swim; **Cost** 1,250 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Swimming",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "faint transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, creator must have 5 ranks in Swim",
+      "costRaw": "1,250 gp",
+      "costCp": 125000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 175, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 175"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 2,
+        "priceRaw": "2,500 gp",
+        "priceCp": 250000,
+        "effects": [
+          {
+            "target": "skill.swim",
+            "bonusType": "competence",
+            "value": 5,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+5 competence bonus on Swim checks"
+          }
+        ],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-swimming-improved",
+    "name": "Ring of Swimming (improved)",
+    "textEn": "**Aura** moderate transmutation; **CL** 7th; **Slot** ring; **Price** 10,000 gp; **Weight** —\n\n**Description**\n\nAs a *ring of swimming*, except it grants a +10 competence bonus on its wearer’s Swim checks.\n\n**Construction**\n\n**Requirements** Forge Ring, creator must have 10 ranks in Swim; **Cost** 5,000 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Swimming%20(improved)",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, creator must have 10 ranks in Swim",
+      "costRaw": "5,000 gp",
+      "costCp": 500000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 175, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 175"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "10,000 gp",
+        "priceCp": 1000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-telekinesis",
+    "name": "Ring of Telekinesis",
+    "textEn": "**Aura** moderate transmutation; **CL** 9th; **Slot** ring; **Price** 75,000 gp; **Weight** —\n\n**Description**\n\nThis ring, knotted with metallic tendrils encasing a setting of red and amber gemstones, allows the caster to use the spell *telekinesis* on command, lifting and manipulating objects at a distance using only her mind.\n\n**Construction**\n\n**Requirements** Forge Ring, *telekinesis*; **Cost** 37,500 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Telekinesis",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, telekinesis",
+      "costRaw": "37,500 gp",
+      "costCp": 3750000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 175, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 175"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 9,
+        "priceRaw": "75,000 gp",
+        "priceCp": 7500000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-the-ram",
+    "name": "Ring of the Ram",
+    "textEn": "**Aura** moderate transmutation; **CL** 9th; **Slot** ring; **Price** 8,600 gp; **Weight** —\n\n**Description**\n\nA *ring of the ram* has a setting crafted to resemble a ram’s head. The wearer can command the ring to give forth a ramlike force, manifested by a vaguely discernible shape that resembles the head of a ram or a goat. This force strikes a single target, dealing 1d6 points of damage if 1 charge is expended, 2d6 points if 2 charges are used, or 3d6 points if 3 charges (the maximum) are used. Treat this as a ranged attack with a 50-foot maximum range and no penalties for distance.\n\nThe force of the blow is considerable, and those struck by the ring are subject to a bull rush if within 30 feet of the ring wearer. The ram is Large and uses the ring’s caster level as its base attack bonus, with a Strength of 25. This gives the ram a Combat Maneuver Bonus of +17. The ram gains a +1 bonus on the bull rush attempt if 2 charges are expended, or +2 if 3 charges are expended.\n\nIn addition to its attack mode, the *ring of the ram* also has the power to open doors as if it were a character with a Strength score of 25. This usage expends 1 charge. If 2 charges are expended, the effect is equivalent to a character with a Strength score of 27. If 3 charges are expended, the effect is that of a character with Strength score of 29. A newly created ring has 50 charges. When all the charges are expended, the ring becomes a nonmagical item.\n\n**Construction**\n\n**Requirements** Forge Ring, *bull’s strength*, *telekinesis*; **Cost** 4,300 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Ram",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, bull’s strength, telekinesis",
+      "costRaw": "4,300 gp",
+      "costCp": 430000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 176, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 176"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 9,
+        "priceRaw": "8,600 gp",
+        "priceCp": 860000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-three-wishes",
+    "name": "Ring of Three Wishes",
+    "textEn": "**Aura** strong universal; **CL** 20th; **Slot** ring; **Price** 120,000 gp; **Weight** —\n\n**Description**\n\nThis ring is set with three rubies. Each ruby stores a *wish* spell, activated by the ring. When a *wish* is used, that ruby disappears. For a randomly generated ring, roll 1d3 to determine the remaining number of rubies. When all the *wishes* are used, the ring becomes a nonmagical item.\n\n**Construction**\n\n**Requirements** Forge Ring, *miracle* or *wish*; **Cost** 97,500 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Three%20Wishes",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "strong universal",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, miracle or wish",
+      "costRaw": "97,500 gp",
+      "costCp": 9750000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 176, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 176"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 20,
+        "priceRaw": "120,000 gp",
+        "priceCp": 12000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-water-walking",
+    "name": "Ring of Water Walking",
+    "textEn": "**Aura** moderate transmutation; **CL** 9th; **Slot** ring; **Price** 15,000 gp; **Weight** —\n\n**Description**\n\nThis ring is often made of coral or bluish metal decorated with motifs depicting rolling waves of water. The ring allows the wearer to continually utilize the effects of the spell *water walk*.\n\n**Construction**\n\n**Requirements** Forge Ring, *water walk*; **Cost** 7,500 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Water%20Walking",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, water walk",
+      "costRaw": "7,500 gp",
+      "costCp": 750000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 177, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 177"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 9,
+        "priceRaw": "15,000 gp",
+        "priceCp": 1500000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-wizardry",
+    "name": "Ring of Wizardry",
+    "textEn": "**Aura** moderate (no school); **CL** 11th; **Slot** ring; **Price** 20,000 gp (type I), 40,000 gp (type II), 70,000 gp (type III), 100,000 gp (type IV); **Weight** —\n\n**Description**\n\nThis special ring comes in four varieties, all of them useful only to arcane spellcasters. The wearer’s arcane spells per day are doubled for one specific spell level. A *ring of wizardry I* doubles 1stlevel spells, a *ring of wizardry II* doubles 2nd-level spells, a *ring of wizardry III* doubles 3rd-level spells, and a *ring of wizardry IV* doubles 4th-level spells. Bonus spells from high ability scores or school specialization are not doubled.\n\n**Construction**\n\n**Requirements** Forge Ring, *limited wish*; **Cost** 10,000 gp (type I), 20,000 gp (type II), 35,000 gp (type III), 50,000 gp (type IV)",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Wizardrytype%20I",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate (no school)",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, limited wish",
+      "costRaw": "10,000 gp (type I), 20,000 gp (type II), 35,000 gp (type III), 50,000 gp (type IV)",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 177, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 177"
+    ],
+    "variants": [
+      {
+        "variantId": "type-i",
+        "label": "type I",
+        "casterLevel": 11,
+        "priceRaw": "20,000 gp (type I)",
+        "priceCp": 2000000,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "type-ii",
+        "label": "type II",
+        "casterLevel": 11,
+        "priceRaw": "40,000 gp (type II)",
+        "priceCp": 4000000,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "type-iii",
+        "label": "type III",
+        "casterLevel": 11,
+        "priceRaw": "70,000 gp (type III)",
+        "priceCp": 7000000,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "type-iv",
+        "label": "type IV",
+        "casterLevel": 11,
+        "priceRaw": "100,000 gp (type IV)",
+        "priceCp": 10000000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "ring-of-x-ray-vision",
+    "name": "Ring of X-Ray Vision",
+    "textEn": "**Aura** moderate divination; **CL** 6th; **Slot** ring; **Price** 25,000 gp; **Weight** —\n\n**Description**\n\nOn command, this ring gives its wearer the ability to see into and through solid matter. Vision range is 20 feet, with the viewer seeing as if he were looking at something in normal light even if there is no illumination. X-ray vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead blocks the vision.\n\nUsing the ring is exhausting, causing the wearer 1 point of Constitution damage per minute after the first 10 minutes of use in a single day. The ring must be used in 1-minute increments.\n\n**Construction**\n\n**Requirements** Forge Ring, *true seeing*; **Cost** 12,500 gp",
+    "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20X-Ray%20Vision",
+    "sourceRef": "PRPG Core Rulebook pg. 479",
+    "book": "CRB",
+    "kind": "ring",
+    "slot": "ring",
+    "aura": "moderate divination",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Forge Ring, true seeing",
+      "costRaw": "12,500 gp",
+      "costCp": 1250000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 177, PRPG Core Rulebook pg. 479",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 177"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 6,
+        "priceRaw": "25,000 gp",
+        "priceCp": 2500000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  }
+]

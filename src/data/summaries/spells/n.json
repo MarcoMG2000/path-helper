@@ -1,0 +1,14 @@
+{
+  "neutralize-poison": {
+    "summaryEs": "Desintoxicas cualquier veneno en la criatura u objeto tocado. En una criatura, haces una prueba de nivel de lanzador (1d20 + nivel) contra la CD de cada veneno; con éxito queda neutralizado, pero no se revierten los efectos instantáneos. También neutraliza un objeto venenoso 10 minutos por nivel.",
+    "status": "draft"
+  },
+  "nightmare": {
+    "summaryEs": "Envías una visión horrible a una criatura que nombres o designes. Impide el sueño reparador, causa 1d10 de daño y deja al sujeto fatigado e incapaz de recuperar conjuros arcanos durante 24 horas. La dificultad depende de tu conocimiento del sujeto y de la conexión con él.",
+    "status": "draft"
+  },
+  "nondetection": {
+    "summaryEs": "La criatura u objeto protegido es difícil de detectar mediante adivinación. Quien lo intente debe superar una prueba de nivel de lanzador (1d20 + nivel) contra CD 11 + tu nivel de lanzador (CD 15 + tu nivel si es sobre ti o un objeto tuyo). Protege también el equipo.",
+    "status": "draft"
+  }
+}

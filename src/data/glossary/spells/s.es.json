@@ -1,0 +1,730 @@
+{
+  "spells:sanctuary": {
+    "es": "Sanctuary",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:scare": {
+    "es": "Scare",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:scintillating-pattern": {
+    "es": "Scintillating Pattern",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:scorching-ray": {
+    "es": "Scorching Ray",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:screen": {
+    "es": "Screen",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:scrying": {
+    "es": "Scrying",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:scrying-greater": {
+    "es": "Scrying, Greater",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:sculpt-sound": {
+    "es": "Sculpt Sound",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:searing-light": {
+    "es": "Searing Light",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:secret-chest": {
+    "es": "Secret Chest",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:secret-page": {
+    "es": "Secret Page",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:secure-shelter": {
+    "es": "Secure Shelter",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:see-invisibility": {
+    "es": "See Invisibility",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:seeming": {
+    "es": "Seeming",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:sending": {
+    "es": "Sending",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:sepia-snake-sigil": {
+    "es": "Sepia Snake Sigil",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:sequester": {
+    "es": "Sequester",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shades": {
+    "es": "Shades",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shadow-conjuration": {
+    "es": "Shadow Conjuration",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shadow-conjuration-greater": {
+    "es": "Shadow Conjuration, Greater",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shadow-evocation": {
+    "es": "Shadow Evocation",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shadow-evocation-greater": {
+    "es": "Shadow Evocation, Greater",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shadow-walk": {
+    "es": "Shadow Walk",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shambler": {
+    "es": "Shambler",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shapechange": {
+    "es": "Shapechange",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shatter": {
+    "es": "Shatter",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shield": {
+    "es": "Shield",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shield-of-faith": {
+    "es": "Shield of Faith",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shield-of-law": {
+    "es": "Shield of Law",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shield-other": {
+    "es": "Shield Other",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shillelagh": {
+    "es": "Shillelagh",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shocking-grasp": {
+    "es": "Shocking Grasp",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shout": {
+    "es": "Shout",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shout-greater": {
+    "es": "Shout, Greater",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:shrink-item": {
+    "es": "Shrink Item",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:silence": {
+    "es": "Silence",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:silent-image": {
+    "es": "Silent Image",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:simulacrum": {
+    "es": "Simulacrum",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:slay-living": {
+    "es": "Slay Living",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:sleep": {
+    "es": "Sleep",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:sleet-storm": {
+    "es": "Sleet Storm",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:slow": {
+    "es": "Slow",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:snare": {
+    "es": "Snare",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:soften-earth-and-stone": {
+    "es": "Soften Earth and Stone",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:solid-fog": {
+    "es": "Solid Fog",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:song-of-discord": {
+    "es": "Song of Discord",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:soul-bind": {
+    "es": "Soul Bind",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:sound-burst": {
+    "es": "Sound Burst",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:speak-with-animals": {
+    "es": "Speak with Animals",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:speak-with-dead": {
+    "es": "Speak with Dead",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:speak-with-plants": {
+    "es": "Speak with Plants",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:spectral-hand": {
+    "es": "Spectral Hand",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:spell-immunity": {
+    "es": "Spell Immunity",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:spell-immunity-greater": {
+    "es": "Spell Immunity, Greater",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:spell-resistance": {
+    "es": "Spell Resistance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:spell-turning": {
+    "es": "Spell Turning",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:spellstaff": {
+    "es": "Spellstaff",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:spider-climb": {
+    "es": "Spider Climb",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:spike-growth": {
+    "es": "Spike Growth",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:spike-stones": {
+    "es": "Spike Stones",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:spiritual-weapon": {
+    "es": "Spiritual Weapon",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:stabilize": {
+    "es": "Stabilize",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:statue": {
+    "es": "Statue",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:status": {
+    "es": "Status",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:stinking-cloud": {
+    "es": "Stinking Cloud",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:stone-shape": {
+    "es": "Stone Shape",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:stone-tell": {
+    "es": "Stone Tell",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:stone-to-flesh": {
+    "es": "Stone to Flesh",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:stoneskin": {
+    "es": "Stoneskin",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:storm-of-vengeance": {
+    "es": "Storm of Vengeance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:suggestion": {
+    "es": "Suggestion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:suggestion-mass": {
+    "es": "Suggestion, Mass",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-instrument": {
+    "es": "Summon Instrument",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-monster-1": {
+    "es": "Summon Monster 1",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-monster-2": {
+    "es": "Summon Monster 2",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-monster-3": {
+    "es": "Summon Monster 3",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-monster-4": {
+    "es": "Summon Monster 4",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-monster-5": {
+    "es": "Summon Monster 5",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-monster-6": {
+    "es": "Summon Monster 6",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-monster-7": {
+    "es": "Summon Monster 7",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-monster-8": {
+    "es": "Summon Monster 8",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-monster-9": {
+    "es": "Summon Monster 9",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-natures-ally-1": {
+    "es": "Summon Nature's Ally 1",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-natures-ally-2": {
+    "es": "Summon Nature's Ally 2",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-natures-ally-3": {
+    "es": "Summon Nature's Ally 3",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-natures-ally-4": {
+    "es": "Summon Nature's Ally 4",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-natures-ally-5": {
+    "es": "Summon Nature's Ally 5",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-natures-ally-6": {
+    "es": "Summon Nature's Ally 6",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-natures-ally-7": {
+    "es": "Summon Nature's Ally 7",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-natures-ally-8": {
+    "es": "Summon Nature's Ally 8",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-natures-ally-9": {
+    "es": "Summon Nature's Ally 9",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:summon-swarm": {
+    "es": "Summon Swarm",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:sunbeam": {
+    "es": "Sunbeam",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:sunburst": {
+    "es": "Sunburst",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:symbol-of-death": {
+    "es": "Symbol of Death",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:symbol-of-fear": {
+    "es": "Symbol of Fear",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:symbol-of-insanity": {
+    "es": "Symbol of Insanity",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:symbol-of-pain": {
+    "es": "Symbol of Pain",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:symbol-of-persuasion": {
+    "es": "Symbol of Persuasion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:symbol-of-sleep": {
+    "es": "Symbol of Sleep",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:symbol-of-stunning": {
+    "es": "Symbol of Stunning",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:symbol-of-weakness": {
+    "es": "Symbol of Weakness",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:sympathetic-vibration": {
+    "es": "Sympathetic Vibration",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:sympathy": {
+    "es": "Sympathy",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  }
+}

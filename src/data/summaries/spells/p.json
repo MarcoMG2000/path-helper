@@ -1,0 +1,190 @@
+{
+  "pass-without-trace": {
+    "summaryEs": "Los sujetos no dejan huellas ni rastro de olor mientras se mueven. Rastrearlos es imposible por medios no mágicos.",
+    "status": "draft"
+  },
+  "passwall": {
+    "summaryEs": "Creas un pasaje a través de muros de madera, yeso o piedra, pero no de metal ni materiales más duros. Mide 10 pies de profundidad más 5 pies por cada tres niveles de lanzador por encima del 9.º (máximo 25 pies a nivel 18). Al terminar, quienes estén dentro son expulsados.",
+    "status": "draft"
+  },
+  "permanency": {
+    "summaryEs": "Hace permanente la duración de ciertos conjuros: lanzas el conjuro deseado y luego permanencia. Exige un nivel de lanzador mínimo y polvo de diamante de un valor concreto en po, según el conjuro. Algunos solo valen sobre ti; otros, sobre otra criatura u objeto; otros, solo sobre áreas.",
+    "status": "draft"
+  },
+  "permanent-image": {
+    "summaryEs": "Funciona como imagen silenciosa, pero la ilusión incluye elementos visuales, auditivos, olfativos y térmicos, y es permanente. Concentrándote puedes moverla dentro del alcance; si no te concentras, permanece estática.",
+    "status": "draft"
+  },
+  "persistent-image": {
+    "summaryEs": "Funciona como imagen silenciosa, pero la ilusión incluye componentes visuales, auditivos, olfativos y térmicos, y sigue un guion que fijas sin que tengas que concentrarte. La ilusión puede incluir habla inteligible si quieres.",
+    "status": "draft"
+  },
+  "phantasmal-killer": {
+    "summaryEs": "Creas la imagen de la criatura más temible para el sujeto, que solo él ve. Tiene una salvación de Voluntad para reconocerla como irreal; si falla, debe superar una salvación de Fortaleza o morir de miedo. Aunque la supere, sufre 3d6 de daño.",
+    "status": "draft"
+  },
+  "phantom-steed": {
+    "summaryEs": "Conjuras una criatura Grande, cuasi real y con forma de caballo, que solo montas tú o la persona para quien la creaste. Tiene CA 18 y 7 puntos de golpe + 1 por nivel de lanzador; velocidad de 20 pies por cada dos niveles (máximo 100 pies). Gana poderes con el nivel.",
+    "status": "draft"
+  },
+  "phantom-trap": {
+    "summaryEs": "Hace que una cerradura u otro mecanismo pequeño parezca trampeado ante cualquiera que pueda detectar trampas. El efecto es ilusorio y no ocurre nada si se activa; sirve para ahuyentar ladrones. Si hay otra trampa fantasma activa a 50 pies cuando lo lanzas, el conjuro falla.",
+    "status": "draft"
+  },
+  "phase-door": {
+    "summaryEs": "Crea un pasaje etéreo a través de muros de madera, yeso o piedra, pero no de otros materiales, invisible e inaccesible salvo para ti. Puedes llevar a otra criatura (Mediana o menor), lo que cuenta como dos usos. No deja pasar luz, sonido ni conjuros. Puede ser disipado y puede hacerse permanente.",
+    "status": "draft"
+  },
+  "planar-ally": {
+    "summaryEs": "Funciona como aliado de otro plano menor, pero puedes llamar a una criatura de 12 DG o menos, o a dos criaturas del mismo tipo cuyos DG sumen como máximo 12. Las criaturas aceptan ayudarte y piden juntas el pago.",
+    "status": "draft"
+  },
+  "planar-ally-greater": {
+    "summaryEs": "Funciona como aliado de otro plano menor, pero puedes llamar a una criatura de 18 DG o menos, o hasta tres criaturas del mismo tipo cuyos DG sumen como máximo 18. Las criaturas aceptan ayudarte y piden juntas el pago.",
+    "status": "draft"
+  },
+  "planar-ally-lesser": {
+    "summaryEs": "Pides a tu deidad que envíe un ajeno (de 6 DG o menos). Puedes pedirle una tarea a cambio de un pago: 100 po por DG por una tarea de hasta 1 minuto por nivel, 500 po por DG hasta 1 hora por nivel y 1,000 po por DG hasta 1 día por nivel. Una tarea no peligrosa cuesta la mitad.",
+    "status": "draft"
+  },
+  "planar-binding": {
+    "summaryEs": "Funciona como ligadura de otro plano menor, pero puedes llamar a una criatura de 12 DG o menos, o hasta tres del mismo tipo cuyos DG sumen como máximo 12. Cada criatura tiene su salvación, intenta escapar por su cuenta y debe ser persuadida individualmente para ayudarte.",
+    "status": "draft"
+  },
+  "planar-binding-greater": {
+    "summaryEs": "Funciona como ligadura de otro plano menor, pero puedes llamar a una criatura de 18 DG o menos, o hasta tres del mismo tipo cuyos DG sumen como máximo 18. Cada criatura tiene su salvación, intenta escapar por su cuenta y debe ser persuadida individualmente para ayudarte.",
+    "status": "draft"
+  },
+  "planar-binding-lesser": {
+    "summaryEs": "Atraes a una criatura de otro plano a una trampa con un círculo mágico dirigido hacia dentro, donde queda retenida hasta aceptar un servicio a cambio de su libertad. Tiene una salvación de Voluntad. Puede escapar con RC, viaje dimensional o una prueba de Carisma (CD 15 + 1/2 tu nivel + tu Carisma).",
+    "status": "draft"
+  },
+  "plane-shift": {
+    "summaryEs": "Te mueves a ti o a otra criatura a otro plano de existencia o dimensión alterna. Si varias personas voluntarias se toman de las manos en círculo, hasta ocho pueden verse afectadas. Desde el Plano Material llegas a cualquier plano, pero apareces a entre 5 y 500 millas (5d%) del destino.",
+    "status": "draft"
+  },
+  "plant-growth": {
+    "summaryEs": "Tiene efectos distintos según la versión. Crecimiento excesivo: la vegetación en alcance largo (400 pies + 40 pies por nivel) se vuelve densa; la velocidad baja a 5 pies. Enriquecimiento: las plantas en media milla aumentan un tercio su productividad. Contrarresta disminuir plantas.",
+    "status": "draft"
+  },
+  "plant-shape-i": {
+    "summaryEs": "Adoptas la forma de una criatura Pequeña o Mediana de tipo planta, ganando ciertas habilidades. Pequeña: +2 de tamaño a Constitución y +2 de armadura natural. Mediana: +2 de tamaño a Fuerza, +2 de mejora a Constitución y +2 de armadura natural.",
+    "status": "draft"
+  },
+  "plant-shape-ii": {
+    "summaryEs": "Funciona como forma de planta I, pero permite adoptar la forma de una criatura Grande de tipo planta. Planta Grande: +4 de tamaño a Fuerza, +2 de tamaño a Constitución y +4 de armadura natural. Ganas resistencia 20 a los elementos a los que la criatura sea inmune o resistente.",
+    "status": "draft"
+  },
+  "plant-shape-iii": {
+    "summaryEs": "Funciona como forma de planta II, pero permite adoptar la forma de una criatura Enorme de tipo planta, con habilidades como RD, regeneración 5 y arrollar. Planta Enorme: +8 de tamaño a Fuerza, –2 a Destreza, +4 de tamaño a Constitución y +6 de armadura natural.",
+    "status": "draft"
+  },
+  "poison": {
+    "summaryEs": "Infectas al sujeto con un veneno terrible mediante un ataque de toque cuerpo a cuerpo con éxito. El veneno causa 1d3 de daño de Constitución por asalto durante 6 asaltos. Las criaturas envenenadas pueden hacer una salvación de Fortaleza cada asalto para negar el daño y terminar la aflicción.",
+    "status": "draft"
+  },
+  "polar-ray": {
+    "summaryEs": "Un rayo blanco azulado de aire helado y hielo sale de tu mano. Debes tener éxito en un ataque de toque a distancia para dañar al objetivo. El rayo causa 1d6 de daño de frío por nivel de lanzador (máximo 25d6) y 1d4 de daño de Destreza (drenaje).",
+    "status": "draft"
+  },
+  "polymorph": {
+    "summaryEs": "Transforma a una criatura voluntaria en un animal, humanoide o elemental. Si es animal o bestia mágica, funciona como forma de bestia II; si es elemental, como cuerpo elemental I; si es humanoide, como alterar el propio aspecto. Puede volver a su forma como acción de asalto completo.",
+    "status": "draft"
+  },
+  "polymorph-any-object": {
+    "summaryEs": "Funciona como polimorfar mayor, pero cambia un objeto o criatura en otro. La duración depende de lo radical del cambio (de 20 minutos a permanente). Si faltan puntuaciones físicas, otorga 10; si faltan mentales, 5. No crea materiales de gran valor ni hace mágico un objeto no mágico.",
+    "status": "draft"
+  },
+  "polymorph-greater": {
+    "summaryEs": "Funciona como polimorfar, pero permite adoptar la forma de un dragón o una planta. Animales o bestias mágicas: forma de bestia IV; elementales: cuerpo elemental III; humanoides: alterar el propio aspecto; plantas: forma de planta II; dragones: forma de dragón I.",
+    "status": "draft"
+  },
+  "power-word-blind": {
+    "summaryEs": "Pronuncias una palabra de poder que ciega a una criatura, aunque no la oiga. La duración depende de sus puntos de golpe actuales: 50 o menos, permanente; 51-100, 1d4+1 minutos; 101-200, 1d4+1 asaltos. Una criatura con 201 o más no se ve afectada.",
+    "status": "draft"
+  },
+  "power-word-kill": {
+    "summaryEs": "Pronuncias una palabra de poder que mata al instante a una criatura de tu elección, aunque no la oiga. Una criatura con 101 o más puntos de golpe actuales no se ve afectada.",
+    "status": "draft"
+  },
+  "power-word-stun": {
+    "summaryEs": "Pronuncias una palabra de poder que aturde a una criatura de tu elección, aunque no la oiga. Según sus puntos de golpe actuales: 50 o menos, 4d4 asaltos; 51-100, 2d4 asaltos; 101-150, 1d4 asaltos. Una criatura con 151 o más no se ve afectada.",
+    "status": "draft"
+  },
+  "prayer": {
+    "summaryEs": "Concedes un favor especial a ti y a tus aliados y perjudicas a tus enemigos. Tú y cada aliado ganáis un bonificador de suerte de +1 a las tiradas de ataque, de daño con arma, salvaciones y pruebas de habilidad, mientras que cada enemigo sufre un penalizador de –1 a esas tiradas.",
+    "status": "draft"
+  },
+  "prestidigitation": {
+    "summaryEs": "Truco menor que permite efectos mágicos simples durante 1 hora: levantar lentamente 1 libra de material; colorear, limpiar o ensuciar objetos en un cubo de 1 pie por asalto; enfriar, calentar o dar sabor a 1 libra de material no vivo. No causa daño. Los objetos creados son burdos y frágiles.",
+    "status": "draft"
+  },
+  "prismatic-sphere": {
+    "summaryEs": "Funciona como muro prismático, pero conjuras un globo inmóvil y opaco de luz multicolor que te rodea y te protege de todo ataque. Su ceguera sobre criaturas de menos de 8 DG dura 2d4 × 10 minutos. Puedes entrar y salir sin daño. Puede hacerse permanente.",
+    "status": "draft"
+  },
+  "prismatic-spray": {
+    "summaryEs": "Siete haces de luz multicolor salen de tu mano, cada uno con un poder distinto. Las criaturas del área con 8 DG o menos quedan cegadas 2d4 asaltos. Cada criatura es alcanzada al azar por uno o más haces (1d8): fuego, ácido, electricidad, veneno, piedra, locura, envío a otro plano, o dos rayos más.",
+    "status": "draft"
+  },
+  "prismatic-wall": {
+    "summaryEs": "Crea un muro vertical, opaco e inmóvil de luz multicolor, con siete colores de poder distinto, que te protege de todo ataque. Criaturas de menos de 8 DG a 20 pies que lo miren quedan cegadas 2d4 asaltos. Cada color se anula en orden con conjuros concretos.",
+    "status": "draft"
+  },
+  "produce-flame": {
+    "summaryEs": "Aparecen en tu mano llamas brillantes como una antorcha que no te dañan. Puedes golpear con un toque cuerpo a cuerpo o lanzarlas hasta 120 pies como ataque de toque a distancia, causando 1d6 de fuego + 1 por nivel (máximo +5). Cada ataque reduce la duración en 1 minuto.",
+    "status": "draft"
+  },
+  "programmed-image": {
+    "summaryEs": "Funciona como imagen silenciosa, pero la ilusión se activa cuando ocurre una condición específica que fijas al lanzarlo. Incluye elementos visuales, auditivos, olfativos y térmicos, e incluso habla inteligible. El desencadenante no puede ser una cualidad como el alineamiento.",
+    "status": "draft"
+  },
+  "project-image": {
+    "summaryEs": "Creas una versión ilusoria, cuasi real e intangible de ti, que imita tus acciones salvo que le ordenes otra cosa (acción de movimiento). Ves y oyes a través de ella; tu cuerpo se considera cegado y ensordecido. Debes mantener línea de efecto con la imagen o el conjuro termina.",
+    "status": "draft"
+  },
+  "protection-from-arrows": {
+    "summaryEs": "La criatura protegida gana resistencia a las armas a distancia: reducción de daño 10/mágica contra ellas. No te permite dañar a criaturas con reducción de daño similar. Cuando ha evitado un total de 10 puntos de daño por nivel de lanzador (máximo 100 puntos), se agota.",
+    "status": "draft"
+  },
+  "protection-from-chaos": {
+    "summaryEs": "Funciona como protección contra el mal, pero los bonificadores de desvío y resistencia se aplican a los ataques de criaturas caóticas. El objetivo recibe una nueva salvación contra el control de criaturas caóticas, y las criaturas convocadas caóticas no pueden tocarlo.",
+    "status": "draft"
+  },
+  "protection-from-energy": {
+    "summaryEs": "Concede inmunidad temporal al tipo de energía que elijas al lanzarlo (ácido, frío, electricidad, fuego o sónico). Se agota al absorber 12 puntos de daño por nivel de lanzador (máximo 120 puntos al 10.º). Se solapa con resistir energía sin acumularse; la protección absorbe el daño hasta agotarse.",
+    "status": "draft"
+  },
+  "protection-from-evil": {
+    "summaryEs": "Protege de ataques de criaturas malignas, del control mental y de criaturas convocadas con una barrera a 1 pie. El sujeto gana +2 de desvío a la CA y +2 de resistencia a salvaciones contra criaturas malignas, y recibe otra salvación (con +2 de moral) contra el control mental.",
+    "status": "draft"
+  },
+  "protection-from-good": {
+    "summaryEs": "Funciona como protección contra el mal, pero los bonificadores de desvío y resistencia se aplican a los ataques de criaturas buenas. El objetivo recibe una nueva salvación contra el control de criaturas buenas, y las criaturas convocadas buenas no pueden tocarlo.",
+    "status": "draft"
+  },
+  "protection-from-law": {
+    "summaryEs": "Funciona como protección contra el mal, pero los bonificadores de desvío y resistencia se aplican a los ataques de criaturas legales. El objetivo recibe una nueva salvación contra el control de criaturas legales, y las criaturas convocadas legales no pueden tocarlo.",
+    "status": "draft"
+  },
+  "protection-from-spells": {
+    "summaryEs": "El sujeto gana un bonificador de resistencia de +8 a las salvaciones contra conjuros y habilidades sortílegas, pero no contra habilidades sobrenaturales ni extraordinarias.",
+    "status": "draft"
+  },
+  "prying-eyes": {
+    "summaryEs": "Creas 1d4 + tu nivel de lanzador orbes mágicos semitangibles (ojos) que exploran y vuelven como les indiques; cada uno ve 120 pies. Cada ojo es una criatura Fina con 1 punto de golpe y CA 18, que vuela a 30 pies. A más de 1 milla de ti, deja de existir. Duran hasta 1 hora por nivel.",
+    "status": "draft"
+  },
+  "prying-eyes-greater": {
+    "summaryEs": "Funciona como ojos fisgones, pero los ojos ven todo tal como es, como si tuvieran visión verdadera con alcance de 120 pies, y pueden moverse con normalidad en zonas oscuras. Su modificador máximo de Percepción es +25 en lugar de +15.",
+    "status": "draft"
+  },
+  "purify-food-and-drink": {
+    "summaryEs": "Hace que comida y agua estropeadas, podridas, enfermas, venenosas o contaminadas sean puras y aptas para el consumo. No evita la descomposición posterior. El agua profana y bebidas o comidas similares significativas se estropean; no afecta a criaturas ni a pociones mágicas.",
+    "status": "draft"
+  },
+  "pyrotechnics": {
+    "summaryEs": "Convierte un fuego en fuegos artificiales cegadores o en una nube de humo, a tu elección. Fuegos artificiales: ciegan 1d4+1 asaltos a criaturas a 120 pies (Voluntad niega). Nube de humo: se extiende 20 pies, dura 1 asalto por nivel y causa –4 a Fuerza y Destreza (Fortaleza niega).",
+    "status": "draft"
+  }
+}

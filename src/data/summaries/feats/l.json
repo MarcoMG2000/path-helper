@@ -1,0 +1,18 @@
+{
+  "leadership": {
+    "summaryEs": "Atraes a un lugarteniente (cohort) y seguidores. El nivel del lugarteniente y el número de seguidores dependen de tu puntuación de liderazgo (nivel + Carisma, con modificadores por reputación y otros factores; ver tablas del texto).",
+    "status": "draft"
+  },
+  "lightning-reflexes": {
+    "summaryEs": "+2 a todas las salvaciones de Reflex.",
+    "status": "draft"
+  },
+  "lightning-stance": {
+    "summaryEs": "Si usas dos acciones para moverte o una acción de retirada en un turno, obtienes 50% de ocultación durante 1 asalto.",
+    "status": "draft"
+  },
+  "lunge": {
+    "summaryEs": "Aumentas en 5 pies el alcance de tus ataques cuerpo a cuerpo hasta el fin de tu turno, con –2 a la CA hasta tu próximo turno. Se decide antes de atacar.",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "license": "OGL-1.0a",
+  "category": "spell-lists",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://www.aonprd.com/SourceDisplay.aspx?FixedSource=PRPG Core Rulebook",
+      "sha256": "94461065d4d1448c610be1f56161a6f1f6af9d825d8c1a1bdfd0d81f46f83599",
+      "bytes": 374126,
+      "fetchedAt": "2026-10-16T13:53:37.385Z"
+    },
+    {
+      "url": "https://www.aonprd.com/Spells.aspx?Class=Bard",
+      "sha256": "dcf2b8b28fc3bef6eae5f5c87c80beb6c3f7d6ad6c994071320b80226a9a7efd",
+      "bytes": 497563,
+      "fetchedAt": "2026-10-16T23:58:45.900Z"
+    },
+    {
+      "url": "https://www.aonprd.com/Spells.aspx?Class=Cleric",
+      "sha256": "ab22e19ff1234361019dd470b6dcdf49b9b4176fad3a9f65688bb07bed0db63f",
+      "bytes": 646141,
+      "fetchedAt": "2026-10-16T13:59:02.244Z"
+    },
+    {
+      "url": "https://www.aonprd.com/Spells.aspx?Class=Druid",
+      "sha256": "8fe9f82e8a702a879a9ab037e1ee1541c6c877b1792accfb4232748a028cf453",
+      "bytes": 457447,
+      "fetchedAt": "2026-10-16T23:58:46.106Z"
+    },
+    {
+      "url": "https://www.aonprd.com/Spells.aspx?Class=Paladin",
+      "sha256": "2b419924be0d7a595c8680b621d31bbe0cd61ca4b7be6badba68e16a85577a2e",
+      "bytes": 194515,
+      "fetchedAt": "2026-10-16T23:58:47.088Z"
+    },
+    {
+      "url": "https://www.aonprd.com/Spells.aspx?Class=Ranger",
+      "sha256": "e15b91020c514e713bdcf630962247343ee98c9ef51dc280265804577de96283",
+      "bytes": 238174,
+      "fetchedAt": "2026-10-16T23:58:48.089Z"
+    }
+  ]
+}

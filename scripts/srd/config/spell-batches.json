@@ -1,0 +1,30 @@
+{
+  "batches": [
+    {
+      "id": "a-d",
+      "from": "a",
+      "to": "d"
+    },
+    {
+      "id": "e-k",
+      "from": "e",
+      "to": "k"
+    },
+    {
+      "id": "l-r",
+      "from": "l",
+      "to": "r"
+    },
+    {
+      "id": "s-z",
+      "from": "s",
+      "to": "z"
+    }
+  ],
+  "expectedCountByBatch": {
+    "a-d": 172,
+    "e-k": 142,
+    "l-r": 146,
+    "s-z": 163
+  }
+}

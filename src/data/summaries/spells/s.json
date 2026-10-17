@@ -1,0 +1,418 @@
+{
+  "sanctuary": {
+    "summaryEs": "Quien intente atacar directamente a la criatura protegida debe superar una salvación de Voluntad; si falla, pierde ese ataque y no puede atacarla directamente mientras dure. Los que no atacan no se ven afectados. El sujeto no puede atacar sin romper el conjuro.",
+    "status": "draft"
+  },
+  "scare": {
+    "summaryEs": "Funciona como cause fear, salvo que todas las criaturas objetivo de menos de 6 HD quedan asustadas (frightened).",
+    "status": "draft"
+  },
+  "scintillating-pattern": {
+    "summaryEs": "Un patrón de colores afecta a criaturas hasta un total de HD igual a tu nivel de lanzador (máximo 20), primero las de menos HD. Según sus HD quedan inconscientes, aturdidas o confusas durante 1d4 asaltos cada fase. Las criaturas ciegas no se ven afectadas.",
+    "status": "draft"
+  },
+  "scorching-ray": {
+    "summaryEs": "Lanzas un rayo de fuego, más uno adicional por cada cuatro niveles por encima del 3.º (máximo tres rayos al nivel 11). Cada rayo exige un ataque de toque a distancia e inflige 4d6 puntos de daño de fuego. Todos deben apuntar a objetivos a 30 pies entre sí.",
+    "status": "draft"
+  },
+  "screen": {
+    "summaryEs": "Crea una protección contra la adivinación y la observación: tú dictas en términos generales qué se observará en el área y no puede cambiarse. Los intentos de escrutar el área detectan la imagen sin salvación. La observación directa puede permitir una salvación si hay motivo para dudar.",
+    "status": "draft"
+  },
+  "scrying": {
+    "summaryEs": "Observas a una criatura a cualquier distancia; si supera una salvación de Voluntad, el conjuro falla (la dificultad depende de tu conocimiento y conexión con ella, con tablas de modificadores; +5 si está en otro plano). Si falla, ves y oyes al sujeto y su entorno; el sensor lo sigue hasta 150 pies.",
+    "status": "draft"
+  },
+  "scrying-greater": {
+    "summaryEs": "Funciona como scrying, salvo lo indicado. Además, varios conjuros de detección, message, read magic y tongues funcionan de forma fiable a través del sensor.",
+    "status": "draft"
+  },
+  "sculpt-sound": {
+    "summaryEs": "Cambias los sonidos que producen criaturas u objetos: puedes crear sonidos, amortiguarlos o transformarlos. Todos los afectados deben transmutarse igual y no puedes cambiarlo después. No puedes crear palabras que tú mismo no conozcas.",
+    "status": "draft"
+  },
+  "searing-light": {
+    "summaryEs": "Proyectas un haz de luz desde la palma; requiere un ataque de toque a distancia. Inflige 1d8 de daño por cada dos niveles (máximo 5d8). Los no muertos sufren 1d6 por nivel (máximo 10d6), más si son vulnerables a la luz; constructos y objetos, 1d6 por cada dos niveles (máximo 5d6).",
+    "status": "draft"
+  },
+  "secret-chest": {
+    "summaryEs": "Ocultas un cofre en el Plano Etéreo hasta 60 días y puedes recuperarlo a voluntad. Cabe 1 pie cúbico de material por nivel de lanzador. Exige un cofre muy caro (nunca menos de 5,000 gp) y una réplica diminuta (50 gp); si hay criaturas vivas dentro, hay un 75% de que el conjuro falle.",
+    "status": "draft"
+  },
+  "secret-page": {
+    "summaryEs": "Altera el contenido de una página para que parezca algo distinto; el texto de un conjuro puede mostrar otro de nivel igual o inferior. No cambia un conjuro de un pergamino, pero puede ocultar el pergamino. Se revela diciendo una palabra especial; detect magic solo revela magia tenue.",
+    "status": "draft"
+  },
+  "secure-shelter": {
+    "summaryEs": "Conjuras una cabaña robusta con el material común de la zona: suelo limpio y seco, puerta sólida, dos ventanas con postigos y una chimenea. Es tan fuerte como un edificio de piedra, tiene arcane lock, alarm y un unseen servant, y contiene ocho literas, una mesa, ocho taburetes y un escritorio.",
+    "status": "draft"
+  },
+  "see-invisibility": {
+    "summaryEs": "Ves los objetos y seres invisibles o etéreos dentro de tu campo de visión como formas translúcidas. No revela el método de invisibilidad, ni ilusiones, ni permite ver a través de objetos opacos, ni revela a criaturas que simplemente se esconden. Puede hacerse permanente con permanency.",
+    "status": "draft"
+  },
+  "seeming": {
+    "summaryEs": "Funciona como disguise self, pero puedes cambiar también la apariencia de otras personas. Los afectados recuperan su aspecto si mueren. Los objetivos que no quieran pueden anular el efecto con una salvación de Voluntad o con resistencia a conjuros.",
+    "status": "draft"
+  },
+  "sending": {
+    "summaryEs": "Contactas con una criatura que conoces y le envías un mensaje de 25 palabras o menos; puede responder de inmediato de la misma forma. Basta una Inteligencia de 1 para entenderlo. Si está en otro plano, hay un 5% de que el mensaje no llegue.",
+    "status": "draft"
+  },
+  "sepia-snake-sigil": {
+    "summaryEs": "Haces aparecer un símbolo en un texto escrito de al menos 25 palabras. Al leerlo deliberadamente, se convierte en una serpiente que ataca al lector; si falla la salvación, queda inmovilizado en un campo ámbar hasta 1d4 días + 1 día por nivel de lanzador. Dispel magic puede quitar el símbolo.",
+    "status": "draft"
+  },
+  "sequester": {
+    "summaryEs": "Impide que los conjuros de adivinación detecten o localicen al objetivo y lo vuelve invisible (como invisibility). No impide hallarlo por medios táctiles o con dispositivos. Las criaturas afectadas quedan comatosas en animación suspendida hasta que termine el conjuro.",
+    "status": "draft"
+  },
+  "shades": {
+    "summaryEs": "Funciona como shadow conjuration, pero imita conjuros de conjuración de nivel 8 o inferior. Las conjuraciones ilusorias infligen cuatro quintos (80%) del daño a los no creyentes y los efectos sin daño funcionan con un 80% de probabilidad contra ellos.",
+    "status": "draft"
+  },
+  "shadow-conjuration": {
+    "summaryEs": "Moldeas ilusiones cuasi reales con material del Plano de la Sombra que imitan conjuros de conjuración de nivel 3 o inferior de hechicero o mago. Son solo una quinta parte (20%) de potentes contra quien duda (salvación de Voluntad). Siempre permiten resistencia a conjuros.",
+    "status": "draft"
+  },
+  "shadow-conjuration-greater": {
+    "summaryEs": "Funciona como shadow conjuration, pero duplica conjuros de conjuración de nivel 6 o inferior. Las conjuraciones ilusorias infligen tres quintos (60%) del daño a los no creyentes y los efectos sin daño funcionan con un 60% de probabilidad contra ellos.",
+    "status": "draft"
+  },
+  "shadow-evocation": {
+    "summaryEs": "Lanzas una versión ilusoria y cuasi real de un conjuro de evocación de hechicero o mago de nivel 4 o inferior. Quien duda (Voluntad) sufre solo un quinto del daño; si se reconoce como shadow evocation, el daño es el 20%. La CD de las salvaciones se fija según el nivel 5.º.",
+    "status": "draft"
+  },
+  "shadow-evocation-greater": {
+    "summaryEs": "Funciona como shadow evocation, pero permite crear versiones parcialmente reales de conjuros de evocación de hechicero o mago de nivel 7 o inferior. Si se reconoce, un conjuro de daño inflige solo tres quintos (60%) del daño.",
+    "status": "draft"
+  },
+  "shadow-walk": {
+    "summaryEs": "Desde un área de luz tenue, tú y las criaturas que toques viajáis por una senda de sombra al borde del Plano Material, a 50 millas por hora. Al terminar, apareces desplazado 1d10 × 100 pies en dirección aleatoria. También sirve para viajar a otros planos limítrofes (1d4 horas).",
+    "status": "draft"
+  },
+  "shambler": {
+    "summaryEs": "Crea 1d4+2 shambling mounds con la plantilla avanzada, que te ayudan en combate, cumplen una misión o te protegen. Permanecen 7 días, o 7 meses si solo guardan un lugar. Solo puedes tener un shambler activo a la vez.",
+    "status": "draft"
+  },
+  "shapechange": {
+    "summaryEs": "Te permite adoptar una amplia variedad de formas de criaturas; funciona como alter self, beast shape IV, elemental body IV, form of the dragon III, giant form II o plant shape III según la forma. Puedes cambiar de forma una vez por asalto como acción gratuita.",
+    "status": "draft"
+  },
+  "shatter": {
+    "summaryEs": "Un ruido estridente rompe objetos frágiles no mágicos en un radio de 5 pies (los de más de 1 libra por nivel no), destruye un objeto sólido no mágico de hasta 10 libras por nivel o inflige 1d6 de daño sónico por nivel (máximo 10d6) a una criatura cristalina (Fortaleza mitad).",
+    "status": "draft"
+  },
+  "shield": {
+    "summaryEs": "Crea un escudo invisible de fuerza ante ti que anula los ataques de magic missile dirigidos contra ti y otorga un bonificador de escudo de +4 a la CA, también contra ataques de toque incorpóreos. No tiene penalizador de armadura ni probabilidad de fallo de conjuro arcano.",
+    "status": "draft"
+  },
+  "shield-of-faith": {
+    "summaryEs": "Crea un campo mágico que desvía ataques: el sujeto obtiene un bonificador de desvío de +2 a la CA, con +1 adicional por cada seis niveles (máximo +5 de desvío al nivel 18).",
+    "status": "draft"
+  },
+  "shield-of-law": {
+    "summaryEs": "Un resplandor azul protege a los sujetos: +4 de desvío a la CA y +4 de resistencia a salvaciones; resistencia a conjuros 25 contra lo caótico; protección contra posesión e influencia mental; y las criaturas caóticas que los golpeen cuerpo a cuerpo quedan slowed (Voluntad niega).",
+    "status": "draft"
+  },
+  "shield-other": {
+    "summaryEs": "Une al sujeto contigo: obtiene un bonificador de desvío de +1 a la CA y de +1 de resistencia a salvaciones, y solo recibe la mitad del daño en puntos de golpe; el resto lo recibes tú. No afecta a daños que no son de puntos de golpe. Termina si os alejáis fuera de alcance.",
+    "status": "draft"
+  },
+  "shillelagh": {
+    "summaryEs": "Tu garrote o bastón no mágico se convierte en un arma con +1 de mejora al ataque y al daño. Inflige daño como si fuera dos categorías de tamaño mayor (Pequeño 1d8, Mediano 2d6, Grande 3d6), +1 por la mejora. Solo funciona si lo empuñas tú.",
+    "status": "draft"
+  },
+  "shocking-grasp": {
+    "summaryEs": "Tu ataque de toque cuerpo a cuerpo con éxito inflige 1d6 de daño de electricidad por nivel de lanzador (máximo 5d6). Obtienes un bonificador de +3 al ataque si el oponente lleva armadura de metal (o porta un arma de metal o es de metal).",
+    "status": "draft"
+  },
+  "shout": {
+    "summaryEs": "Un grito ensordecedor deja sordas 2d6 asaltos a las criaturas del área y les inflige 5d6 de daño sónico; una salvación con éxito anula la sordera y reduce el daño a la mitad. Los objetos o criaturas cristalinas sufren 1d6 por nivel (máximo 15d6). No atraviesa un conjuro silence.",
+    "status": "draft"
+  },
+  "shout-greater": {
+    "summaryEs": "Funciona como shout, pero el cono inflige 10d6 de daño sónico (1d6 por nivel, máximo 20d6, a objetos o criaturas cristalinas). Además deja aturdidas 1 asalto y sordas 4d6 asaltos; una salvación de Fortaleza anula el aturdimiento y reduce a la mitad el daño y la sordera.",
+    "status": "draft"
+  },
+  "shrink-item": {
+    "summaryEs": "Reduces un objeto no mágico a 1/16 de su tamaño en cada dimensión (unas 4,000 veces menos volumen), cuatro categorías de tamaño menos; opcionalmente su composición pasa a ser como de tela. Vuelve a la normalidad al arrojarlo contra una superficie sólida o con una palabra de mando del lanzador.",
+    "status": "draft"
+  },
+  "silence": {
+    "summaryEs": "Reina el silencio total en el área: no hay conversación, no se pueden lanzar conjuros con componentes verbales y ningún ruido entra, sale ni pasa. Puede centrarse en un punto, objeto o criatura (esta puede hacer una salvación de Voluntad). Da inmunidad a efectos sónicos o basados en el lenguaje.",
+    "status": "draft"
+  },
+  "silent-image": {
+    "summaryEs": "Crea la ilusión visual de un objeto, criatura o fuerza tal como la imaginas, sin sonido, olor, textura ni temperatura. Puedes mover la imagen dentro de los límites del tamaño del efecto.",
+    "status": "draft"
+  },
+  "simulacrum": {
+    "summaryEs": "Crea un duplicado ilusorio parcialmente real, de hielo o nieve, de una criatura, con solo la mitad de sus niveles o HD (no puede superar el doble de tu nivel de lanzador). Te obedece por completo. Repararlo exige al menos 24 horas, 100 gp por punto de golpe y un laboratorio mágico.",
+    "status": "draft"
+  },
+  "slay-living": {
+    "summaryEs": "Un ataque de toque cuerpo a cuerpo con éxito inflige 12d6 puntos de daño + 1 por nivel de lanzador. Si el objetivo supera la salvación de Fortaleza, sufre en cambio 3d6 + 1 por nivel; aun así puede morir por el daño.",
+    "status": "draft"
+  },
+  "sleep": {
+    "summaryEs": "Provoca un sueño mágico en 4 HD de criaturas, primero las de menos HD y, entre iguales, las más cercanas al origen. Las criaturas dormidas están indefensas; un golpe o herida las despierta, el ruido normal no. No afecta a criaturas inconscientes, constructos ni no muertos.",
+    "status": "draft"
+  },
+  "sleet-storm": {
+    "summaryEs": "El aguanieve bloquea toda visión (incluso visión en la oscuridad) y vuelve helado el suelo. Caminar a velocidad mitad exige una prueba de Acrobacias CD 10; si falla no te mueves, y si falla por 5 o más caes. Apaga antorchas y fuegos pequeños.",
+    "status": "draft"
+  },
+  "slow": {
+    "summaryEs": "Las criaturas afectadas quedan staggered, con una sola acción de movimiento o estándar por turno, y sufren un penalizador de –1 a ataques, CA y salvaciones de Reflejos; se mueven a la mitad de su velocidad. Los efectos de slow no se acumulan; contrarresta y disipa haste.",
+    "status": "draft"
+  },
+  "snare": {
+    "summaryEs": "Creas una trampa mágica a partir de una enredadera, correa o cuerda, difícil de detectar (Percepción CD 23). Si un árbol cercano lo permite, inflige 1d6 de daño y levanta a la criatura; si no, la deja enredada. Escapar exige Escapismo o Fuerza CD 23; la trampa tiene CA 7 y 5 puntos de golpe.",
+    "status": "draft"
+  },
+  "soften-earth-and-stone": {
+    "summaryEs": "Ablanda la tierra o piedra natural sin trabajar en un área de 10 pies cuadrados y 1 a 4 pies de profundidad: la tierra húmeda se vuelve barro, la seca arena o tierra suelta y la piedra arcilla blanda. Las criaturas en barro deben superar una salvación de Reflejos o quedan atrapadas 1d2 asaltos.",
+    "status": "draft"
+  },
+  "solid-fog": {
+    "summaryEs": "Funciona como fog cloud, pero además es tan espesa que impide el movimiento: las criaturas se mueven a la mitad de velocidad y sufren –2 a ataques y daño cuerpo a cuerpo; impide ataques a distancia efectivos. Solo un viento severo (31+ mph) la dispersa, en 1 asalto. Puede hacerse permanente.",
+    "status": "draft"
+  },
+  "song-of-discord": {
+    "summaryEs": "Las criaturas del área se vuelven unas contra otras: cada una tiene un 50% de probabilidad de atacar al objetivo más cercano cada asalto. Usan todos los medios a su alcance, pero no dañan a objetivos inconscientes.",
+    "status": "draft"
+  },
+  "soul-bind": {
+    "summaryEs": "Extraes el alma de un cuerpo recién muerto (no más de 1 asalto por nivel de lanzador) y la aprisionas en una gema de zafiro negro de al menos 1,000 gp por cada HD de la criatura. Atrapada, no puede devolverse con clone, raise dead, miracle o wish; solo destruyendo la gema o disipando el conjuro.",
+    "status": "draft"
+  },
+  "sound-burst": {
+    "summaryEs": "Estallido de ruido en un área: cada criatura sufre 1d8 de daño sónico y debe superar una salvación de Fortaleza para no quedar aturdida 1 asalto. Las criaturas que no oyen no quedan aturdidas, pero sí sufren el daño.",
+    "status": "draft"
+  },
+  "speak-with-animals": {
+    "summaryEs": "Puedes hacer preguntas a los animales y recibir respuestas, pero el conjuro no los hace más amistosos. Los recelosos y astutos son escuetos y evasivos y los más estúpidos hacen comentarios sin sentido. Un animal amistoso puede hacerte algún favor.",
+    "status": "draft"
+  },
+  "speak-with-dead": {
+    "summaryEs": "Das una apariencia de vida a un cadáver para que responda preguntas, una por cada dos niveles de lanzador. Su conocimiento se limita a lo que sabía en vida. Si su alineamiento era distinto, tiene salvación de Voluntad. Si ya fue objeto del conjuro en la última semana, falla.",
+    "status": "draft"
+  },
+  "speak-with-plants": {
+    "summaryEs": "Puedes comunicarte con plantas normales y criaturas vegetales, y hacerles preguntas. El conocimiento de una planta normal sobre su entorno es limitado y el conjuro no hace a las criaturas vegetales más amistosas o cooperativas.",
+    "status": "draft"
+  },
+  "spectral-hand": {
+    "summaryEs": "Una mano espectral hecha de tu fuerza vital entrega a distancia conjuros de toque de nivel 4 o inferior. Pierdes 1d4 puntos de golpe que regresan al terminar el conjuro. Otorga +2 al ataque de toque cuerpo a cuerpo; es incorpórea, tiene CA 22 y de 1 a 4 puntos de golpe.",
+    "status": "draft"
+  },
+  "spell-immunity": {
+    "summaryEs": "La criatura protegida es inmune a los efectos de un conjuro especificado por cada cuatro niveles que tengas, de nivel 4 o inferior, como si tuviera resistencia a conjuros insuperable. No protege contra habilidades sobrenaturales o extraordinarias. Solo un spell immunity activo a la vez.",
+    "status": "draft"
+  },
+  "spell-immunity-greater": {
+    "summaryEs": "Funciona como spell immunity, pero la inmunidad se aplica a conjuros de nivel 8 o inferior. Una criatura solo puede tener un spell immunity o greater spell immunity activo a la vez.",
+    "status": "draft"
+  },
+  "spell-resistance": {
+    "summaryEs": "El objetivo obtiene resistencia a conjuros igual a 12 + tu nivel de lanzador.",
+    "status": "draft"
+  },
+  "spell-turning": {
+    "summaryEs": "Los conjuros y efectos similares dirigidos contra ti se vuelven contra su lanzador. Solo afecta a conjuros que te tengan como objetivo, no a efectos ni áreas, ni conjuros de toque. Afecta de siete a diez (1d4+6) niveles de conjuro; si el nivel entrante es mayor, el conjuro se desvía parcialmente.",
+    "status": "draft"
+  },
+  "spellstaff": {
+    "summaryEs": "Almacenas un conjuro que puedas lanzar normalmente en un bastón de madera. Solo puede haber uno a la vez y no puedes tener más de un spellstaff. Lo lanzas como si lo tuvieras preparado, sin gastar tu cupo diario. Al almacenarlo gastas los componentes materiales requeridos.",
+    "status": "draft"
+  },
+  "spider-climb": {
+    "summaryEs": "El sujeto puede trepar y desplazarse por superficies verticales e incluso techos como una araña, con las manos libres. Obtiene una velocidad de trepar de 20 pies y +8 racial a pruebas de Trepar, sin necesidad de hacerlas; conserva su bonificador de Destreza a la CA. No puede correr mientras trepa.",
+    "status": "draft"
+  },
+  "spike-growth": {
+    "summaryEs": "La vegetación del área se vuelve dura y puntiaguda. Quien se mueva a pie por ella sufre 1d4 de daño perforante por cada 5 pies y, si falla una salvación de Reflejos, su velocidad terrestre se reduce a la mitad durante 24 horas. Es una trampa mágica difícil de detectar.",
+    "status": "draft"
+  },
+  "spike-stones": {
+    "summaryEs": "El suelo rocoso se transforma en puntas afiladas: las criaturas que se muevan a pie por el área van a mitad de velocidad y sufren 1d8 de daño perforante por cada 5 pies. Una salvación de Reflejos fallida reduce su velocidad a la mitad durante 24 horas. Es una trampa mágica difícil de detectar.",
+    "status": "draft"
+  },
+  "spiritual-weapon": {
+    "summaryEs": "Un arma de fuerza ataca a distancia según dirijas, infligiendo 1d8 de daño de fuerza por golpe, +1 por cada tres niveles (máximo +5 al nivel 15). Usa tu BAB más tu modificador de Sabiduría. Puedes redirigirla con una acción de movimiento; dispel magic la afecta.",
+    "status": "draft"
+  },
+  "stabilize": {
+    "summaryEs": "Eliges a una criatura viva con –1 o menos puntos de golpe: queda estabilizada automáticamente y no pierde más puntos de golpe. Si luego sufre daño, continúa muriendo normalmente.",
+    "status": "draft"
+  },
+  "statue": {
+    "summaryEs": "Convierte al sujeto y su equipo en piedra sólida: obtiene dureza 8 y conserva sus puntos de golpe. Ve, oye y huele con normalidad y no necesita comer ni respirar. Puede volver a su estado normal, actuar y regresar a la forma de estatua como acción gratuita mientras dure el conjuro.",
+    "status": "draft"
+  },
+  "status": {
+    "summaryEs": "Te permite vigilar mentalmente la posición relativa y el estado general de tus compañeros: conoces la dirección, la distancia y las condiciones que los afectan. La distancia no importa mientras estén en el mismo plano; si un sujeto cambia de plano o muere, el conjuro deja de funcionar para él.",
+    "status": "draft"
+  },
+  "stinking-cloud": {
+    "summaryEs": "Crea un banco de niebla como el de fog cloud, pero con vapores nauseabundos: las criaturas vivas en la nube quedan nauseated mientras permanezcan y 1d4+1 asaltos después. Quien supere la salvación pero siga dentro debe repetirla cada asalto. Es un efecto de veneno.",
+    "status": "draft"
+  },
+  "stone-shape": {
+    "summaryEs": "Moldeas una pieza de piedra existente en cualquier forma que te convenga. Se pueden hacer cofres y puertas toscas, pero no detalles finos; hay un 30% de probabilidad de que una forma con partes móviles no funcione.",
+    "status": "draft"
+  },
+  "stone-tell": {
+    "summaryEs": "Puedes hablar con las piedras, que te cuentan quién o qué las ha tocado y qué hay oculto tras o bajo ellas, con descripciones completas si se piden. La perspectiva, percepción y conocimiento de la piedra pueden limitar los detalles. Sirve con piedra natural o trabajada.",
+    "status": "draft"
+  },
+  "stone-to-flesh": {
+    "summaryEs": "Restaura a una criatura petrificada a su estado normal, con vida y bienes; debe superar una salvación de Fortaleza CD 15 para sobrevivir. También convierte una masa de piedra en una sustancia carnosa inerte, en un objeto que quepa en un cilindro de 1 a 3 pies de diámetro y hasta 10 pies de largo.",
+    "status": "draft"
+  },
+  "stoneskin": {
+    "summaryEs": "La criatura protegida obtiene RD 10/adamantina: ignora los primeros 10 puntos de daño de cada arma, aunque un arma de adamantina elude la reducción. Cuando el conjuro ha evitado 10 puntos de daño por nivel de lanzador (máximo 150), se descarga.",
+    "status": "draft"
+  },
+  "storm-of-vengeance": {
+    "summaryEs": "Creas una gran nube negra de tormenta: las criaturas bajo ella deben superar una salvación de Fortaleza o quedan sordas 1d4 × 10 minutos. Cada asalto que te concentras añade efectos: ácido (1d6), seis rayos (10d6 cada uno), granizo (5d6), y lluvia y viento fuertes del 5.º al 10.º asalto.",
+    "status": "draft"
+  },
+  "suggestion": {
+    "summaryEs": "Influyes en la acción del objetivo sugiriendo una actividad razonable (una o dos frases); pedirle algo obviamente dañino anula el conjuro. La actividad puede durar toda la duración o ejecutarse si se cumple una condición. Una sugerencia muy razonable impone un penalizador (–1 o –2) a la salvación.",
+    "status": "draft"
+  },
+  "suggestion-mass": {
+    "summaryEs": "Funciona como suggestion, salvo que puede afectar a más criaturas. La misma sugerencia se aplica a todas.",
+    "status": "draft"
+  },
+  "summon-instrument": {
+    "summaryEs": "Invoca un instrumento musical de mano a tu elección, que aparece en tus manos o a tus pies. Es típico de su tipo, solo suena para ti, aparece uno por lanzamiento, no puede ser demasiado grande para sostenerse con dos manos y desaparece al terminar el conjuro.",
+    "status": "draft"
+  },
+  "summon-monster-1": {
+    "summaryEs": "Invocas a una criatura extraplanar de la lista de nivel 1 de la Tabla 10–1, que aparece donde indiques y actúa de inmediato en tu turno. Puedes elegir otra cada vez. No puede invocar ni usar teletransporte o viaje planar. Las marcadas con * reciben la plantilla celestial o infernal.",
+    "status": "draft"
+  },
+  "summon-monster-2": {
+    "summaryEs": "Funciona como summon monster I, salvo que puedes invocar una criatura de la lista de nivel 2 o 1d3 criaturas del mismo tipo de la lista de nivel 1.",
+    "status": "draft"
+  },
+  "summon-monster-3": {
+    "summaryEs": "Funciona como summon monster I, salvo que puedes invocar una criatura de la lista de nivel 3, 1d3 del mismo tipo de la lista de nivel 2 o 1d4+1 del mismo tipo de la lista de nivel 1.",
+    "status": "draft"
+  },
+  "summon-monster-4": {
+    "summaryEs": "Funciona como summon monster I, salvo que puedes invocar una criatura de la lista de nivel 4, 1d3 del mismo tipo de la lista de nivel 3 o 1d4+1 del mismo tipo de una lista de nivel inferior.",
+    "status": "draft"
+  },
+  "summon-monster-5": {
+    "summaryEs": "Funciona como summon monster I, salvo que puedes invocar una criatura de la lista de nivel 5, 1d3 del mismo tipo de la lista de nivel 4 o 1d4+1 del mismo tipo de una lista de nivel inferior.",
+    "status": "draft"
+  },
+  "summon-monster-6": {
+    "summaryEs": "Funciona como summon monster I, salvo que puedes invocar una criatura de la lista de nivel 6, 1d3 del mismo tipo de la lista de nivel 5 o 1d4+1 del mismo tipo de una lista de nivel inferior.",
+    "status": "draft"
+  },
+  "summon-monster-7": {
+    "summaryEs": "Funciona como summon monster I, salvo que puedes invocar una criatura de la lista de nivel 7, 1d3 del mismo tipo de la lista de nivel 6 o 1d4+1 del mismo tipo de una lista de nivel inferior.",
+    "status": "draft"
+  },
+  "summon-monster-8": {
+    "summaryEs": "Funciona como summon monster I, salvo que puedes invocar una criatura de la lista de nivel 8, 1d3 del mismo tipo de la lista de nivel 7 o 1d4+1 del mismo tipo de una lista de nivel inferior.",
+    "status": "draft"
+  },
+  "summon-monster-9": {
+    "summaryEs": "Funciona como summon monster I, salvo que puedes invocar una criatura de la lista de nivel 9, 1d3 del mismo tipo de la lista de nivel 8 o 1d4+1 del mismo tipo de una lista de nivel inferior.",
+    "status": "draft"
+  },
+  "summon-natures-ally-1": {
+    "summaryEs": "Invocas a tu lado una criatura natural (animal, feérico, bestia mágica, ser elemental o gigante) de la lista de nivel 1 de la Tabla 10–2, que aparece donde indiques y actúa de inmediato en tu turno. Puedes elegir otra cada vez. No puede invocar ni usar teletransporte o viaje planar.",
+    "status": "draft"
+  },
+  "summon-natures-ally-2": {
+    "summaryEs": "Funciona como summon nature's ally I, salvo que invocas una criatura de nivel 2 o 1d3 criaturas de nivel 1 del mismo tipo.",
+    "status": "draft"
+  },
+  "summon-natures-ally-3": {
+    "summaryEs": "Funciona como summon nature's ally I, salvo que puedes invocar una criatura de nivel 3, 1d3 de nivel 2 del mismo tipo o 1d4+1 de nivel 1 del mismo tipo.",
+    "status": "draft"
+  },
+  "summon-natures-ally-4": {
+    "summaryEs": "Funciona como summon nature's ally I, salvo que puedes invocar una criatura de nivel 4, 1d3 de nivel 3 del mismo tipo o 1d4+1 de nivel inferior del mismo tipo.",
+    "status": "draft"
+  },
+  "summon-natures-ally-5": {
+    "summaryEs": "Funciona como summon nature's ally I, salvo que puedes invocar una criatura de nivel 5, 1d3 de nivel 4 del mismo tipo o 1d4+1 de nivel inferior del mismo tipo.",
+    "status": "draft"
+  },
+  "summon-natures-ally-6": {
+    "summaryEs": "Funciona como summon nature's ally I, salvo que puedes invocar una criatura de nivel 6, 1d3 de nivel 5 del mismo tipo o 1d4+1 de nivel inferior del mismo tipo.",
+    "status": "draft"
+  },
+  "summon-natures-ally-7": {
+    "summaryEs": "Funciona como summon nature's ally I, salvo que puedes invocar una criatura de nivel 7, 1d3 de nivel 6 del mismo tipo o 1d4+1 de nivel inferior del mismo tipo.",
+    "status": "draft"
+  },
+  "summon-natures-ally-8": {
+    "summaryEs": "Funciona como summon nature's ally I, salvo que puedes invocar una criatura de nivel 8, 1d3 de nivel 7 del mismo tipo o 1d4+1 de nivel inferior del mismo tipo.",
+    "status": "draft"
+  },
+  "summon-natures-ally-9": {
+    "summaryEs": "Funciona como summon nature's ally I, salvo que puedes invocar una criatura de nivel 9, 1d3 de nivel 8 del mismo tipo o 1d4+1 de nivel inferior del mismo tipo.",
+    "status": "draft"
+  },
+  "summon-swarm": {
+    "summaryEs": "Invocas un enjambre de murciélagos, ratas o arañas (a tu elección) que ataca a todas las demás criaturas de su área. Si no hay criaturas vivas en ella, ataca o persigue a la más cercana. El lanzador no controla su objetivo ni su dirección.",
+    "status": "draft"
+  },
+  "sunbeam": {
+    "summaryEs": "Con una acción estándar por asalto evocas un haz de luz cegadora, uno por cada tres niveles (máximo seis al nivel 18). Cada criatura en el haz queda cegada y sufre 4d6 de daño (Reflejos anula la ceguera y reduce el daño a la mitad). Los no muertos sufren 1d6 por nivel (máximo 20d6).",
+    "status": "draft"
+  },
+  "sunburst": {
+    "summaryEs": "Una esfera de luz abrasadora estalla en silencio: las criaturas quedan cegadas y sufren 6d6 de daño (Reflejos anula la ceguera y reduce el daño a la mitad). Los no muertos sufren 1d6 por nivel (máximo 25d6). Disipa conjuros de oscuridad de nivel inferior a 9.",
+    "status": "draft"
+  },
+  "symbol-of-death": {
+    "summaryEs": "Inscribes una runa que, al activarse, mata a criaturas a 60 pies cuyos puntos de golpe actuales sumen como máximo 150, empezando por las más cercanas. Activa dura 10 minutos por nivel de lanzador o hasta afectar a 150 puntos de golpe. Los desencadenantes los eliges tú. Trampa mágica CD 33.",
+    "status": "draft"
+  },
+  "symbol-of-fear": {
+    "summaryEs": "Funciona como symbol of death, salvo que todas las criaturas a 60 pies del símbolo quedan panicked durante 1 asalto por nivel de lanzador. Es una trampa mágica difícil de detectar y neutralizar (CD 31).",
+    "status": "draft"
+  },
+  "symbol-of-insanity": {
+    "summaryEs": "Funciona como symbol of death, salvo que todas las criaturas en el radio quedan permanentemente insanas (como el conjuro insanity). No tiene límite de puntos de golpe; una vez activado permanece activo 10 minutos por nivel de lanzador. Trampa mágica CD 33.",
+    "status": "draft"
+  },
+  "symbol-of-pain": {
+    "summaryEs": "Funciona como symbol of death, salvo que cada criatura en el radio sufre dolores atroces: penalizador de –4 a ataques, pruebas de habilidad y de característica, durante 1 hora tras alejarse más de 60 pies. Sin límite de puntos de golpe; activo 10 minutos por nivel. Trampa mágica CD 30.",
+    "status": "draft"
+  },
+  "symbol-of-persuasion": {
+    "summaryEs": "Funciona como symbol of death, salvo que todas las criaturas en el radio quedan hechizadas por el lanzador (como charm monster) durante 1 hora por nivel de lanzador. Sin límite de puntos de golpe; activo 10 minutos por nivel. Trampa mágica CD 31.",
+    "status": "draft"
+  },
+  "symbol-of-sleep": {
+    "summaryEs": "Funciona como symbol of death, salvo que las criaturas de 10 HD o menos a 60 pies caen en un sueño catatónico durante 3d6 × 10 minutos; no se las puede despertar por medios no mágicos. Sin límite de puntos de golpe; activo 10 minutos por nivel. Trampa mágica CD 30.",
+    "status": "draft"
+  },
+  "symbol-of-stunning": {
+    "summaryEs": "Funciona como symbol of death, salvo que todas las criaturas a 60 pies del símbolo quedan aturdidas durante 1d6 asaltos. Es una trampa mágica difícil de detectar y neutralizar (CD 32).",
+    "status": "draft"
+  },
+  "symbol-of-weakness": {
+    "summaryEs": "Funciona como symbol of death, salvo que cada criatura a 60 pies sufre una debilidad paralizante que inflige 3d6 puntos de daño de Fuerza. Sin límite de puntos de golpe; activo 10 minutos por nivel; una criatura solo puede ser afectada una vez. Trampa mágica CD 32.",
+    "status": "draft"
+  },
+  "sympathetic-vibration": {
+    "summaryEs": "Al sintonizarte con una estructura independiente, creas una vibración que le inflige 2d10 de daño por asalto, ignorando la dureza. Puedes limitar la duración al lanzarlo; si no, dura 1 asalto por nivel. No afecta a criaturas y la estructura no tiene salvación.",
+    "status": "draft"
+  },
+  "sympathy": {
+    "summaryEs": "Haces que un objeto o lugar emane vibraciones que atraen a un tipo específico de criatura inteligente o a un alineamiento concreto, con una compulsión abrumadora de quedarse o tocar el objeto. Si supera la salvación se libera, pero repite otra 1d6 × 10 minutos después. Contrarresta antipathy.",
+    "status": "draft"
+  }
+}

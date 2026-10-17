@@ -1,0 +1,26 @@
+{
+  "weapon-finesse": {
+    "summaryEs": "Con arma ligera, estoque, látigo o cadena de pinchos de tu tamaño, usas Destreza en lugar de Fuerza en las tiradas de ataque. Si llevas escudo, su penalización de armadura se aplica a tus ataques.",
+    "status": "draft"
+  },
+  "weapon-focus": {
+    "summaryEs": "+1 a todas las tiradas de ataque con el arma elegida. Se puede tomar varias veces, sin acumularse, para un tipo de arma nuevo cada vez.",
+    "status": "draft"
+  },
+  "weapon-specialization": {
+    "summaryEs": "+2 a todas las tiradas de daño con el arma elegida. Se puede tomar varias veces, sin acumularse, para un tipo de arma nuevo cada vez.",
+    "status": "draft"
+  },
+  "whirlwind-attack": {
+    "summaryEs": "Con la acción de ataque completo, renuncias a tus ataques normales para hacer un ataque cuerpo a cuerpo a tu máximo bonificador contra cada oponente a alcance. Pierdes los ataques extra de otras dotes, conjuros o habilidades.",
+    "status": "draft"
+  },
+  "widen-spell": {
+    "summaryEs": "Aumentas un 100% las medidas del área de un conjuro de explosión, emanación o propagación. Ocupa un espacio de conjuro tres niveles superior al real.",
+    "status": "draft"
+  },
+  "wind-stance": {
+    "summaryEs": "Si te mueves más de 5 pies este turno, obtienes 20% de ocultación durante 1 asalto contra ataques a distancia.",
+    "status": "draft"
+  }
+}

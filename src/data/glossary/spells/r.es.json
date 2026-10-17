@@ -1,0 +1,233 @@
+{
+  "spells:rage": {
+    "es": "Rage",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:rainbow-pattern": {
+    "es": "Rainbow Pattern",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:raise-dead": {
+    "es": "Raise Dead",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:ray-of-enfeeblement": {
+    "es": "Ray of Enfeeblement",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:ray-of-exhaustion": {
+    "es": "Ray of Exhaustion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:ray-of-frost": {
+    "es": "Ray of Frost",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:read-magic": {
+    "es": "Read Magic",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:reduce-animal": {
+    "es": "Reduce Animal",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:reduce-person": {
+    "es": "Reduce Person",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:reduce-person-mass": {
+    "es": "Reduce Person, Mass",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:refuge": {
+    "es": "Refuge",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:regenerate": {
+    "es": "Regenerate",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:reincarnate": {
+    "es": "Reincarnate",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:remove-blindness-deafness": {
+    "es": "Remove Blindness/Deafness",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:remove-curse": {
+    "es": "Remove Curse",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:remove-disease": {
+    "es": "Remove Disease",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:remove-fear": {
+    "es": "Remove Fear",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:remove-paralysis": {
+    "es": "Remove Paralysis",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:repel-metal-or-stone": {
+    "es": "Repel Metal or Stone",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:repel-vermin": {
+    "es": "Repel Vermin",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:repel-wood": {
+    "es": "Repel Wood",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:repulsion": {
+    "es": "Repulsion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:resilient-sphere": {
+    "es": "Resilient Sphere",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:resist-energy": {
+    "es": "Resist Energy",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:resistance": {
+    "es": "Resistance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:restoration": {
+    "es": "Restoration",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:restoration-greater": {
+    "es": "Restoration, Greater",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:restoration-lesser": {
+    "es": "Restoration, Lesser",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:resurrection": {
+    "es": "Resurrection",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:reverse-gravity": {
+    "es": "Reverse Gravity",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:righteous-might": {
+    "es": "Righteous Might",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:rope-trick": {
+    "es": "Rope Trick",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:rusting-grasp": {
+    "es": "Rusting Grasp",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  }
+}

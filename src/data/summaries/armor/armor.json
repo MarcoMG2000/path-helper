@@ -1,0 +1,50 @@
+{
+  "banded-mail": {
+    "summaryEs": "Armadura pesada: +7 a la CA, Des máx +1, penalizador de armadura -6, fallo de conjuro arcano 35%, velocidad 20 ft./15 ft. Coste 250 gp, peso 35 lbs.",
+    "status": "draft"
+  },
+  "breastplate": {
+    "summaryEs": "Armadura intermedia: +6 a la CA, Des máx +3, penalizador de armadura -4, fallo de conjuro arcano 25%, velocidad 20 ft./15 ft. Coste 200 gp, peso 30 lbs.",
+    "status": "draft"
+  },
+  "chain-shirt": {
+    "summaryEs": "Armadura ligera: +4 a la CA, Des máx +4, penalizador de armadura -2, fallo de conjuro arcano 20%, velocidad 30 ft./20 ft. Coste 100 gp, peso 25 lbs.",
+    "status": "draft"
+  },
+  "chainmail": {
+    "summaryEs": "Armadura intermedia: +6 a la CA, Des máx +2, penalizador de armadura -5, fallo de conjuro arcano 30%, velocidad 20 ft./15 ft. Coste 150 gp, peso 40 lbs.",
+    "status": "draft"
+  },
+  "full-plate": {
+    "summaryEs": "Armadura pesada: +9 a la CA, Des máx +1, penalizador de armadura -6, fallo de conjuro arcano 35%, velocidad 20 ft./15 ft. Coste 1,500 gp, peso 50 lbs.",
+    "status": "draft"
+  },
+  "half-plate": {
+    "summaryEs": "Armadura pesada: +8 a la CA, Des máx +0, penalizador de armadura -7, fallo de conjuro arcano 40%, velocidad 20 ft./15 ft. Coste 600 gp, peso 50 lbs.",
+    "status": "draft"
+  },
+  "hide": {
+    "summaryEs": "Armadura intermedia: +4 a la CA, Des máx +4, penalizador de armadura -3, fallo de conjuro arcano 20%, velocidad 20 ft./15 ft. Coste 15 gp, peso 25 lbs.",
+    "status": "draft"
+  },
+  "leather": {
+    "summaryEs": "Armadura ligera: +2 a la CA, Des máx +6, penalizador de armadura 0, fallo de conjuro arcano 10%, velocidad 30 ft./20 ft. Coste 10 gp, peso 15 lbs.",
+    "status": "draft"
+  },
+  "padded": {
+    "summaryEs": "Armadura ligera: +1 a la CA, Des máx +8, penalizador de armadura 0, fallo de conjuro arcano 5%, velocidad 30 ft./20 ft. Coste 5 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "scale-mail": {
+    "summaryEs": "Armadura intermedia: +5 a la CA, Des máx +3, penalizador de armadura -4, fallo de conjuro arcano 25%, velocidad 20 ft./15 ft. Coste 50 gp, peso 30 lbs.",
+    "status": "draft"
+  },
+  "splint-mail": {
+    "summaryEs": "Armadura pesada: +7 a la CA, Des máx +0, penalizador de armadura -7, fallo de conjuro arcano 40%, velocidad 20 ft./15 ft. Coste 200 gp, peso 45 lbs.",
+    "status": "draft"
+  },
+  "studded-leather": {
+    "summaryEs": "Armadura ligera: +3 a la CA, Des máx +5, penalizador de armadura -1, fallo de conjuro arcano 15%, velocidad 30 ft./20 ft. Coste 25 gp, peso 20 lbs.",
+    "status": "draft"
+  }
+}

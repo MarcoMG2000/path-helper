@@ -1,0 +1,85 @@
+{
+  "kinds": {
+    "weapon-ability": {
+      "description": "Habilidades especiales de arma (tablas de calidades de arma cuerpo a cuerpo y a distancia)"
+    },
+    "armor-ability": {
+      "description": "Habilidades especiales de armadura (calidades de armadura; incluye las que sirven a armadura y escudo)"
+    },
+    "shield-ability": {
+      "description": "Habilidades especiales de escudo (calidades de escudo; incluye las que sirven a armadura y escudo)"
+    },
+    "specific-weapon": {
+      "description": "Armas específicas"
+    },
+    "specific-armor": {
+      "description": "Armaduras específicas"
+    },
+    "specific-shield": {
+      "description": "Escudos específicos"
+    },
+    "ring": {
+      "description": "Anillos"
+    },
+    "rod": {
+      "description": "Varas"
+    },
+    "staff": {
+      "description": "Bastones"
+    },
+    "wondrous": {
+      "description": "Objetos maravillosos (todas las ranuras)"
+    },
+    "cursed": {
+      "description": "Objetos malditos"
+    },
+    "artifact": {
+      "description": "Artefactos menores y mayores"
+    },
+    "general": {
+      "description": "Secciones de reglas del capítulo 15 (Rules.aspx?ID=365): cada sección h1 con su etiqueta CRB"
+    },
+    "potion": {
+      "description": "Pociones con nombre propio",
+      "pending": "Q11",
+      "reason": "La fuente (AoN) no tiene páginas de pociones del CRB: sus índices solo traen objetos con nombre propio de otros libros. En el CRB las pociones son reglas de precio por fórmula y tablas de coste (entrada general «Potions»). Pendiente de la decisión del humano sobre Q11."
+    },
+    "oil": {
+      "description": "Aceites con nombre propio",
+      "pending": "Q11",
+      "reason": "Igual que potion: los aceites son reglas dentro de la sección «Potions» del CRB; AoN no tiene páginas de aceites del CRB. Pendiente de Q11."
+    },
+    "wand": {
+      "description": "Varitas con nombre propio",
+      "pending": "Q11",
+      "reason": "AoN no tiene sección de varitas ni páginas de varitas del CRB; en el CRB las varitas son reglas de precio por fórmula y tablas de coste (entrada general «Wands»). Pendiente de Q11."
+    },
+    "intelligent": {
+      "description": "Objetos inteligentes con nombre propio",
+      "expectedCount": 0,
+      "reason": "La página de fuente CRB de AoN no lista ningún objeto inteligente; el índice MagicIntelligent.aspx solo contiene objetos de otros libros. Las reglas del CRB están en la sección general «Intelligent Items»."
+    }
+  },
+  "knownGaps": [
+    {
+      "family": "wondrous",
+      "rowName": "Lens of Detection",
+      "reason": "La fila existe en la página de fuente CRB de AoN pero su página (MagicWondrousDisplay.aspx?FinalName=Lens of Detection, también con ItemName) no tiene contenido. «Lenses of Detection» es de Ultimate Equipment. No se inventa el texto: el humano decide si se cotejan otra fuente."
+    },
+    {
+      "family": "wondrous",
+      "rowName": "Bag of Tricks (Gray)",
+      "reason": "La fila existe en la tabla de objetos maravillosos de la página de fuente CRB de AoN, pero su página solo tiene la versión de Aquatic Adventures pg. 62 (sin etiqueta PRPG Core Rulebook; las claves ItemName/FinalName alternativas devuelven páginas vacías). No se usa el texto de otro libro: el humano decide si se cotejan otra fuente para el objeto «Bag of Tricks» del CRB."
+    },
+    {
+      "family": "wondrous",
+      "rowName": "Bag of Tricks (Rust)",
+      "reason": "La fila existe en la tabla de objetos maravillosos de la página de fuente CRB de AoN, pero su página solo tiene la versión de Aquatic Adventures pg. 62 (sin etiqueta PRPG Core Rulebook; las claves ItemName/FinalName alternativas devuelven páginas vacías). No se usa el texto de otro libro: el humano decide si se cotejan otra fuente para el objeto «Bag of Tricks» del CRB."
+    },
+    {
+      "family": "wondrous",
+      "rowName": "Bag of Tricks (Tan)",
+      "reason": "La fila existe en la tabla de objetos maravillosos de la página de fuente CRB de AoN, pero su página solo tiene la versión de Aquatic Adventures pg. 62 (sin etiqueta PRPG Core Rulebook; las claves ItemName/FinalName alternativas devuelven páginas vacías). No se usa el texto de otro libro: el humano decide si se cotejan otra fuente para el objeto «Bag of Tricks» del CRB."
+    }
+  ]
+}

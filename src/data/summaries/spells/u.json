@@ -1,0 +1,26 @@
+{
+  "undeath-to-death": {
+    "summaryEs": "Funciona como circle of death, salvo que destruye a criaturas no muertas como se indicó antes.",
+    "status": "draft"
+  },
+  "undetectable-alignment": {
+    "summaryEs": "Oculta el alineamiento de un objeto o criatura a todas las formas de adivinación.",
+    "status": "draft"
+  },
+  "unhallow": {
+    "summaryEs": "Convierte un sitio o estructura en un lugar impío con tres efectos: lo protege con magic circle against good; la CD para resistir energía negativa canalizada gana +4 profano y la de energía positiva se reduce en 4; y puedes fijar un efecto de conjuro durante 1 año. Un área admite un solo unhallow.",
+    "status": "draft"
+  },
+  "unholy-aura": {
+    "summaryEs": "Oscuridad maligna protege a los sujetos: +4 de desvío a la CA y +4 de resistencia a salvaciones; RC 25 contra conjuros buenos o de criaturas buenas; protección contra posesión e influencia mental; las criaturas buenas que los golpeen cuerpo a cuerpo sufren 1d6 de daño de Fuerza (Fortaleza niega).",
+    "status": "draft"
+  },
+  "unholy-blight": {
+    "summaryEs": "Un miasma de oscuridad daña solo a criaturas buenas y neutrales: 1d8 por cada dos niveles (máximo 5d8; 1d6 por nivel, máximo 10d6, a un ajeno bueno) y quedan sickened 1d4 asaltos. Voluntad reduce el daño a la mitad y niega el efecto. A las neutrales les hace la mitad del daño.",
+    "status": "draft"
+  },
+  "unseen-servant": {
+    "summaryEs": "Una fuerza invisible, sin mente ni forma, realiza tareas simples a tu orden: traer cosas, abrir puertas atascadas, sujetar sillas, limpiar y remendar. Tiene Fuerza efectiva 2, levanta 20 libras, velocidad base 15 pies y no puede atacar. Se disipa si recibe 6 puntos de daño de ataques de área.",
+    "status": "draft"
+  }
+}

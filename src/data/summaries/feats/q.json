@@ -1,0 +1,10 @@
+{
+  "quick-draw": {
+    "summaryEs": "Desenfundas un arma como acción gratuita en vez de acción de movimiento, y un arma oculta como acción de movimiento. Puedes lanzar armas a tu ritmo de ataques completo. No sirve para objetos alquímicos, pociones, pergaminos ni varitas.",
+    "status": "draft"
+  },
+  "quicken-spell": {
+    "summaryEs": "Lanzar el conjuro es una acción rápida y puedes hacer otra acción en el mismo asalto. No sirve con tiempo de lanzamiento superior a 1 asalto o acción de asalto completo. Ocupa un espacio de conjuro cuatro niveles superior al real.",
+    "status": "draft"
+  }
+}

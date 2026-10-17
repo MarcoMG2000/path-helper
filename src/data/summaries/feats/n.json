@@ -1,0 +1,10 @@
+{
+  "natural-spell": {
+    "summaryEs": "Completas los componentes verbales y somáticos de conjuros mientras usas forma salvaje (wild shape), con ruidos y gestos. También usas componentes materiales y focos. No permite usar objetos mágicos que la forma no podría.",
+    "status": "draft"
+  },
+  "nimble-moves": {
+    "summaryEs": "Al moverte, atraviesas 5 pies de terreno difícil por asalto como si fuera normal. Permite un paso de 5 pies a terreno difícil.",
+    "status": "draft"
+  }
+}

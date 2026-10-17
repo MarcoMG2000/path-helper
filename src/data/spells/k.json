@@ -1,0 +1,174 @@
+[
+  {
+    "id": "keen-edge",
+    "name": "Keen Edge",
+    "textEn": "This spell makes a weapon magically keen, improving its ability to deal telling blows. This transmutation doubles the threat range of the weapon. A threat range of 20 becomes 19–20, a threat range of 19–20 becomes 17–20, and a threat range of 18–20 becomes 15–20. The spell can be cast only on piercing or slashing weapons. If cast on arrows or crossbow bolts, the *keen edge* on a particular projectile ends after one use, whether or not the missile strikes its intended target. Treat shuriken as arrows, rather than as thrown weapons, for the purpose of this spell.\n\nMultiple effects that increase a weapon's threat range (such as the *keen* special weapon property and the Improved Critical feat) don't stack. You can't cast this spell on a natural weapon, such as a claw.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Keen Edge",
+    "sourceRef": "PRPG Core Rulebook pg. 303",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one weapon or 50 projectiles, all of which must be together at the time of casting"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless, object)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (harmless, object)",
+      "applies": "yes",
+      "harmless": true,
+      "object": true
+    },
+    "shortDescriptionEn": "Doubles normal weapon's threat range."
+  },
+  {
+    "id": "knock",
+    "name": "Knock",
+    "textEn": "*Knock* opens stuck, barred, or locked doors, as well as those subject to *hold portal* or *arcane lock*. When you complete the casting of this spell, make a caster level check against the DC of the lock with a +10 bonus. If successful, *knock* opens up to two means of closure. This spell opens secret doors, as well as locked or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to hold something shut). If used to open an *arcane locked* door, the spell does not remove the *arcane lock* but simply suspends its functioning for 10 minutes. In all other cases, the door does not relock itself or become stuck again on its own. *Knock* does not raise barred gates or similar impediments (such as a portcullis), nor does it affect ropes, vines, and the like. The effect is limited by the area. Each casting can undo as many as two means of preventing access.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Knock",
+    "sourceRef": "PRPG Core Rulebook pg. 303",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one door, box, or chest with an area of up to 10 sq. ft./level"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Opens locked or magically sealed door."
+  },
+  {
+    "id": "know-direction",
+    "name": "Know Direction",
+    "textEn": "When you cast this spell, you instantly know the direction of north from your current position. The spell is effective in any environment in which “north” exists, but it may not work in extraplanar settings. Your knowledge of north is correct at the moment of casting, but you can get lost again within moments if you don't find some external reference point to help you keep track of direction.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Know Direction",
+    "sourceRef": "PRPG Core Rulebook pg. 304",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "bard": 0,
+      "druid": 0
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You discern north."
+  }
+]

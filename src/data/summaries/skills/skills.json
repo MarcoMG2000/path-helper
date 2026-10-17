@@ -1,0 +1,142 @@
+{
+  "acrobatics": {
+    "summaryEs": "Acrobatics: Dex, penalizador de armadura. Mantener el equilibrio en superficies estrechas o inestables, y también bucear, dar volteretas, saltar y rodar para evitar ataques y obstáculos. Moverse así deja flat-footed; se usa una tabla de DC base por anchura.",
+    "status": "draft"
+  },
+  "appraise": {
+    "summaryEs": "Appraise: Int. Evaluar el valor monetario de un objeto: DC 20 para un objeto común; con éxito por 5 o más se detecta si es mágico. Tasar un objeto lleva 1 acción estándar; hallar el objeto más valioso de un tesoro, 1 acción de asalto completo.",
+    "status": "draft"
+  },
+  "bluff": {
+    "summaryEs": "Bluff: Cha. Mentir y engañar: prueba enfrentada a Sense Motive, con modificadores según lo creíble que sea la mentira (de +5 a -20). También sirve para fintar en combate y para pasar mensajes secretos.",
+    "status": "draft"
+  },
+  "climb": {
+    "summaryEs": "Climb: Str, penalizador de armadura. Escalar superficies verticales a un cuarto de la velocidad normal; la DC depende de la superficie. Fallar por 4 o menos no avanza; fallar por 5 o más provoca una caída.",
+    "status": "draft"
+  },
+  "craft": {
+    "summaryEs": "Craft: Int. Crear objetos de un tipo concreto (armas, armaduras, trampas, etc.); cada Craft es una habilidad con sus propios rangos. Se gana la mitad del resultado de la prueba en piezas de oro por semana, y sirve para fabricar objetos.",
+    "status": "draft"
+  },
+  "diplomacy": {
+    "summaryEs": "Diplomacy: Cha. Persuadir, negociar y obtener información: con éxito mejora la actitud de un PNJ un paso, y uno más por cada 5 que supere la DC. No funciona con criaturas que no te entienden o con Inteligencia 3 o menos. Incluye Directing Crowds.",
+    "status": "draft"
+  },
+  "disable-device": {
+    "summaryEs": "Disable Device: Dex, solo entrenada, penalizador de armadura. Desarmar trampas y abrir cerraduras, o sabotear mecanismos simples; la prueba es secreta. Fallar por 5 o más dispara la trampa; la DC depende de lo complicado que sea el mecanismo.",
+    "status": "draft"
+  },
+  "disguise": {
+    "summaryEs": "Disguise: Cha. Cambiar tu apariencia; la prueba se enfrenta a la Perception de los observadores y se hace en secreto. El resultado depende de cuánto cambies (de +5 a -10 según los detalles) y permite parecer una criatura de una categoría de tamaño mayor o menor.",
+    "status": "draft"
+  },
+  "escape-artist": {
+    "summaryEs": "Escape Artist: Dex, penalizador de armadura. Librarse de ataduras y de presas: la DC depende de la sujeción (cuerdas: CMB del atador +20; esposas 30; espacio estrecho 30). Se puede usar en lugar de una maniobra de combate para escapar de un grapple.",
+    "status": "draft"
+  },
+  "fly": {
+    "summaryEs": "Fly: Dex, penalizador de armadura. Maniobrar en el aire, ya sea con alas o con magia; no concede la capacidad de volar. Solo hace falta una prueba para maniobras complejas; cada maniobra tiene su DC (por ejemplo, 10 para moverse menos de la mitad de la velocidad).",
+    "status": "draft"
+  },
+  "handle-animal": {
+    "summaryEs": "Handle Animal: Cha, solo entrenada. Manejar, entrenar y domesticar animales: DC 10 para manejar, 25 para empujar, 15 o 20 para enseñar un truco. Si el animal está herido o sufre daño no letal, la DC aumenta en 2.",
+    "status": "draft"
+  },
+  "heal": {
+    "summaryEs": "Heal: Wis. Atender heridas y dolencias: first aid (DC 15) estabiliza a un personaje moribundo; long-term care (DC 15) duplica la recuperación; tratar heridas mortales DC 20; tratar veneno o enfermedad usa la DC de su salvación.",
+    "status": "draft"
+  },
+  "intimidate": {
+    "summaryEs": "Intimidate: Cha. Asustar o forzar a un oponente: con éxito actúa amistoso durante 1d6 × 10 minutos (DC 10 + Hit Dice + modificador de Wisdom del objetivo). Demoralize lo deja shaken durante 1 asalto, más 1 por cada 5 que supere la DC.",
+    "status": "draft"
+  },
+  "knowledge-arcana": {
+    "summaryEs": "Knowledge (arcana): Int, solo entrenada. Campo de estudio: ancient mysteries, magic traditions, arcane symbols, constructs, dragons y magical beasts. Preguntas de su campo: DC 10 (muy fáciles), 15 (básicas) o 20 a 30 (muy difíciles); también identifica monstruos (DC 10 + CR).",
+    "status": "draft"
+  },
+  "knowledge-dungeoneering": {
+    "summaryEs": "Knowledge (dungeoneering): Int, solo entrenada. Campo de estudio: aberrations, caverns, oozes y spelunking. Preguntas de su campo: DC 10 (muy fáciles), 15 (básicas) o 20 a 30 (muy difíciles); también identifica monstruos (DC 10 + CR).",
+    "status": "draft"
+  },
+  "knowledge-engineering": {
+    "summaryEs": "Knowledge (engineering): Int, solo entrenada. Campo de estudio: buildings, aqueducts, bridges y fortifications. Preguntas de su campo: DC 10 (muy fáciles), 15 (básicas) o 20 a 30 (muy difíciles); también identifica monstruos (DC 10 + CR).",
+    "status": "draft"
+  },
+  "knowledge-geography": {
+    "summaryEs": "Knowledge (geography): Int, solo entrenada. Campo de estudio: lands, terrain, climate y people. Preguntas de su campo: DC 10 (muy fáciles), 15 (básicas) o 20 a 30 (muy difíciles); también identifica monstruos (DC 10 + CR).",
+    "status": "draft"
+  },
+  "knowledge-history": {
+    "summaryEs": "Knowledge (history): Int, solo entrenada. Campo de estudio: wars, colonies, migrations y founding of cities. Preguntas de su campo: DC 10 (muy fáciles), 15 (básicas) o 20 a 30 (muy difíciles); también identifica monstruos (DC 10 + CR).",
+    "status": "draft"
+  },
+  "knowledge-local": {
+    "summaryEs": "Knowledge (local): Int, solo entrenada. Campo de estudio: legends, personalities, inhabitants, laws, customs, traditions y humanoids. Preguntas de su campo: DC 10 (muy fáciles), 15 (básicas) o 20 a 30 (muy difíciles); también identifica monstruos (DC 10 + CR).",
+    "status": "draft"
+  },
+  "knowledge-nature": {
+    "summaryEs": "Knowledge (nature): Int, solo entrenada. Campo de estudio: animals, fey, monstrous humanoids, plants, seasons and cycles, weather y vermin. Preguntas de su campo: DC 10 (muy fáciles), 15 (básicas) o 20 a 30 (muy difíciles); también identifica monstruos (DC 10 + CR).",
+    "status": "draft"
+  },
+  "knowledge-nobility": {
+    "summaryEs": "Knowledge (nobility): Int, solo entrenada. Campo de estudio: lineages, heraldry, personalities y royalty. Preguntas de su campo: DC 10 (muy fáciles), 15 (básicas) o 20 a 30 (muy difíciles); también identifica monstruos (DC 10 + CR).",
+    "status": "draft"
+  },
+  "knowledge-planes": {
+    "summaryEs": "Knowledge (planes): Int, solo entrenada. Campo de estudio: the Inner Planes, the Outer Planes, the Astral Plane, the Ethereal Plane, outsiders y planar magic. Preguntas de su campo: DC 10 (muy fáciles), 15 (básicas) o 20 a 30 (muy difíciles); también identifica monstruos (DC 10 + CR).",
+    "status": "draft"
+  },
+  "knowledge-religion": {
+    "summaryEs": "Knowledge (religion): Int, solo entrenada. Campo de estudio: gods and goddesses, mythic history, ecclesiastic tradition, holy symbols y undead. Preguntas de su campo: DC 10 (muy fáciles), 15 (básicas) o 20 a 30 (muy difíciles); también identifica monstruos (DC 10 + CR).",
+    "status": "draft"
+  },
+  "linguistics": {
+    "summaryEs": "Linguistics: Int, solo entrenada. Dominio de idiomas hablados y escritos: descifrar textos en lenguas desconocidas (DC 20 los más simples, 25 los normales, 30 o más los complejos) y crear o detectar falsificaciones.",
+    "status": "draft"
+  },
+  "perception": {
+    "summaryEs": "Perception: Wis. Notar detalles y peligros con los cinco sentidos. El uso más común es la prueba enfrentada a la Stealth de un oponente para detectarlo y evitar la sorpresa; la DC para notar detalles varía con la distancia y el entorno.",
+    "status": "draft"
+  },
+  "perform": {
+    "summaryEs": "Perform: Cha. Una forma de espectáculo (actuar, cantar, tocar un instrumento, etc.); cada Perform es una habilidad con sus propios rangos y se agrupa en nueve categorías con ejemplos de métodos e instrumentos.",
+    "status": "draft"
+  },
+  "profession": {
+    "summaryEs": "Profession: Wis, solo entrenada. Dominar un oficio concreto (arquitecto, panadero, marinero, etc.); cada Profession es una habilidad con sus propios rangos. A diferencia de Craft, no se centra en crear objetos sino en una vocación de conocimientos más amplios.",
+    "status": "draft"
+  },
+  "ride": {
+    "summaryEs": "Ride: Dex, penalizador de armadura. Montar a caballo u otras monturas exóticas; montar en una criatura poco adecuada da -5. Las acciones típicas no requieren prueba; guiar con las rodillas y mantenerse en la silla son DC 5, controlar la montura en combate DC 20.",
+    "status": "draft"
+  },
+  "sense-motive": {
+    "summaryEs": "Sense Motive: Wis. Detectar mentiras e intenciones reales: evita ser engañado por Bluff, intuye que algo va mal (hunch, DC 20), evalúa si alguien es de fiar y detecta un mensaje secreto (DC variable).",
+    "status": "draft"
+  },
+  "sleight-of-hand": {
+    "summaryEs": "Sleight of Hand: Dex, solo entrenada, penalizador de armadura. Robar bolsillos, desenfundar armas ocultas y otras acciones sin ser notado: DC 10 para palmear un objeto del tamaño de una moneda. Bajo observación estrecha se enfrenta a la Perception del observador.",
+    "status": "draft"
+  },
+  "spellcraft": {
+    "summaryEs": "Spellcraft: Int, solo entrenada. Conocer el arte de lanzar conjuros: identificar un conjuro mientras se lanza (sin acción, viéndolo claramente), identificar propiedades de objetos mágicos con detect magic o identify y fabricar objetos mágicos. La DC depende de la tarea.",
+    "status": "draft"
+  },
+  "stealth": {
+    "summaryEs": "Stealth: Dex, penalizador de armadura. Pasar desapercibido, esconderse y moverse en silencio: prueba enfrentada a la Perception de quien pueda notarte. Moviéndote a más de la mitad de tu velocidad hay -5; atacar, correr o cargar impide usarla. Sniping: -20.",
+    "status": "draft"
+  },
+  "survival": {
+    "summaryEs": "Survival: Wis. Sobrevivir y orientarse en la naturaleza y seguir rastros. DC 10 para arreglárselas en la naturaleza; con cada 2 puntos por encima de 10 se da comida y agua a otra persona. Hay DC específicas para otras tareas, como evitar el mal tiempo.",
+    "status": "draft"
+  },
+  "swim": {
+    "summaryEs": "Swim: Str, penalizador de armadura. Nadar, incluso en aguas tormentosas: una prueba por asalto, con éxito se nada a la mitad de la velocidad (acción de asalto completo) o a un cuarto (acción de movimiento). Fallar por 5 o más hunde al personaje.",
+    "status": "draft"
+  },
+  "use-magic-device": {
+    "summaryEs": "Use Magic Device: Cha, solo entrenada. Activar objetos mágicos aunque no se tenga el entrenamiento: leer un conjuro o activar un objeto como si se tuviera otra habilidad de conjuro, clase, raza o alineamiento. Se hace una prueba cada vez que se activa un dispositivo como una wand.",
+    "status": "draft"
+  }
+}

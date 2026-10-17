@@ -1,0 +1,438 @@
+[
+  {
+    "id": "gorgons-fist",
+    "name": "Gorgon's Fist",
+    "textEn": "With one well-placed blow, you leave your target reeling.\n\n**Prerequisites**: Improved Unarmed Strike, Scorpion Style, base attack bonus +6.\n\n**Benefit**: As a standard action, make a single unarmed melee attack against a foe whose speed is reduced (such as from Scorpion Style). If the attack hits, you deal damage normally and the target is staggered until the end of your next turn unless it makes a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier). This feat has no effect on targets that are staggered.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Gorgon's%20Fist",
+    "sourceRef": "PRPG Core Rulebook pg. 124",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Improved Unarmed Strike, Scorpion Style, base attack bonus +6.",
+      "bab": 6,
+      "featIds": [
+        "improved-unarmed-strike",
+        "scorpion-style"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "As a standard action, make a single unarmed melee attack against a foe whose speed is reduced (such as from Scorpion Style). If the attack hits, you deal damage normally and the target is staggered until the end of your next turn unless it makes a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier). This feat has no effect on targets that are staggered."
+  },
+  {
+    "id": "great-cleave",
+    "name": "Great Cleave",
+    "textEn": "You can strike many adjacent foes with a single blow.\n\n**Prerequisites**: Str 13, Cleave, Power Attack, base attack bonus +4.\n\n**Benefit**: As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the previous foe and also within reach. If you hit, you can continue to make attacks against foes adjacent to the previous foe, so long as they are within your reach. You cannot attack an individual foe more than once during this attack action. When you use this feat, you take a –2 penalty to your Armor Class until your next turn.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Great%20Cleave",
+    "sourceRef": "PRPG Core Rulebook pg. 124",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Str 13, Cleave, Power Attack, base attack bonus +4.",
+      "abilities": {
+        "str": 13
+      },
+      "bab": 4,
+      "featIds": [
+        "cleave",
+        "power-attack"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the previous foe and also within reach. If you hit, you can continue to make attacks against foes adjacent to the previous foe, so long as they are within your reach. You cannot attack an individual foe more than once during this attack action. When you use this feat, you take a –2 penalty to your Armor Class until your next turn."
+  },
+  {
+    "id": "great-fortitude",
+    "name": "Great Fortitude",
+    "textEn": "You are resistant to poisons, diseases, and other maladies.\n\n**Benefit**: You get a +2 bonus on all Fortitude saving throws.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Great%20Fortitude",
+    "sourceRef": "PRPG Core Rulebook pg. 124",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You get a +2 bonus on all Fortitude saving throws."
+  },
+  {
+    "id": "greater-bull-rush",
+    "name": "Greater Bull Rush",
+    "textEn": "Your bull rush attacks throw enemies off balance.\n\n**Prerequisites**: Improved Bull Rush, Power Attack, base attack bonus +6, Str 13.\n\n**Benefit**: You receive a +2 bonus on checks made to bull rush a foe. This bonus stacks with the bonus granted by Improved Bull Rush. Whenever you bull rush an opponent, his movement provokes attacks of opportunity from all of your allies (but not you).\n\n**Normal**: Creatures moved by bull rush do not provoke attacks of opportunity.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Bull%20Rush",
+    "sourceRef": "PRPG Core Rulebook pg. 125",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Improved Bull Rush, Power Attack, base attack bonus +6, Str 13.",
+      "abilities": {
+        "str": 13
+      },
+      "bab": 6,
+      "featIds": [
+        "improved-bull-rush",
+        "power-attack"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You receive a +2 bonus on checks made to bull rush a foe. This bonus stacks with the bonus granted by Improved Bull Rush. Whenever you bull rush an opponent, his movement provokes attacks of opportunity from all of your allies (but not you).",
+    "normal": "Creatures moved by bull rush do not provoke attacks of opportunity."
+  },
+  {
+    "id": "greater-disarm",
+    "name": "Greater Disarm",
+    "textEn": "You can knock weapons far from an enemy's grasp.\n\n**Prerequisites**: Combat Expertise, Improved Disarm, base attack bonus +6, Int 13.\n\n**Benefit**: You receive a +2 bonus on checks made to disarm a foe. This bonus stacks with the bonus granted by Improved Disarm. Whenever you successfully disarm an opponent, the weapon lands 15 feet away from its previous wielder, in a random direction.\n\n**Normal**: Disarmed weapons and gear land at the feet of the disarmed creature.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Disarm",
+    "sourceRef": "PRPG Core Rulebook pg. 125",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Combat Expertise, Improved Disarm, base attack bonus +6, Int 13.",
+      "abilities": {
+        "int": 13
+      },
+      "bab": 6,
+      "featIds": [
+        "combat-expertise",
+        "improved-disarm"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You receive a +2 bonus on checks made to disarm a foe. This bonus stacks with the bonus granted by Improved Disarm. Whenever you successfully disarm an opponent, the weapon lands 15 feet away from its previous wielder, in a random direction.",
+    "normal": "Disarmed weapons and gear land at the feet of the disarmed creature."
+  },
+  {
+    "id": "greater-feint",
+    "name": "Greater Feint",
+    "textEn": "You are skilled at making foes overreact to your attacks.\n\n**Prerequisites**: Combat Expertise, Improved Feint, base attack bonus +6, Int 13.\n\n**Benefit**: Whenever you use feint to cause an opponent to lose his Dexterity bonus, he loses that bonus until the beginning of your next turn, in addition to losing his Dexterity bonus against your next attack.\n\n**Normal**: A creature you feint loses its Dexterity bonus against your next attack.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Feint",
+    "sourceRef": "PRPG Core Rulebook pg. 125",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Combat Expertise, Improved Feint, base attack bonus +6, Int 13.",
+      "abilities": {
+        "int": 13
+      },
+      "bab": 6,
+      "featIds": [
+        "combat-expertise",
+        "improved-feint"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Whenever you use feint to cause an opponent to lose his Dexterity bonus, he loses that bonus until the beginning of your next turn, in addition to losing his Dexterity bonus against your next attack.",
+    "normal": "A creature you feint loses its Dexterity bonus against your next attack."
+  },
+  {
+    "id": "greater-grapple",
+    "name": "Greater Grapple",
+    "textEn": "Maintaining a grapple is second nature to you.\n\n**Prerequisites**: Improved Grapple, Improved Unarmed Strike, base attack bonus +6, Dex 13.\n\n**Benefit**: You receive a +2 bonus on checks made to grapple a foe. This bonus stacks with the bonus granted by Improved Grapple. Once you have grappled a creature, maintaining the grapple is a move action. This feat allows you to make two grapple checks each round (to move, harm, or pin your opponent), but you are not required to make two checks. You only need to succeed at one of these checks to maintain the grapple.\n\n**Normal**: Maintaining a grapple is a standard action.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Grapple",
+    "sourceRef": "PRPG Core Rulebook pg. 125",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Improved Grapple, Improved Unarmed Strike, base attack bonus +6, Dex 13.",
+      "abilities": {
+        "dex": 13
+      },
+      "bab": 6,
+      "featIds": [
+        "improved-grapple",
+        "improved-unarmed-strike"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You receive a +2 bonus on checks made to grapple a foe. This bonus stacks with the bonus granted by Improved Grapple. Once you have grappled a creature, maintaining the grapple is a move action. This feat allows you to make two grapple checks each round (to move, harm, or pin your opponent), but you are not required to make two checks. You only need to succeed at one of these checks to maintain the grapple.",
+    "normal": "Maintaining a grapple is a standard action."
+  },
+  {
+    "id": "greater-overrun",
+    "name": "Greater Overrun",
+    "textEn": "Enemies must dive to avoid your dangerous move.\n\n**Prerequisites**: Improved Overrun, Power Attack, base attack bonus +6, Str 13.\n\n**Benefit**: You receive a +2 bonus on checks made to overrun a foe. This bonus stacks with the bonus granted by Improved Overrun. Whenever you overrun opponents, they provoke attacks of opportunity if they are knocked prone by your overrun.\n\n**Normal**: Creatures knocked prone by your overrun do not provoke an attack of opportunity.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Overrun",
+    "sourceRef": "PRPG Core Rulebook pg. 125",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Improved Overrun, Power Attack, base attack bonus +6, Str 13.",
+      "abilities": {
+        "str": 13
+      },
+      "bab": 6,
+      "featIds": [
+        "improved-overrun",
+        "power-attack"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You receive a +2 bonus on checks made to overrun a foe. This bonus stacks with the bonus granted by Improved Overrun. Whenever you overrun opponents, they provoke attacks of opportunity if they are knocked prone by your overrun.",
+    "normal": "Creatures knocked prone by your overrun do not provoke an attack of opportunity."
+  },
+  {
+    "id": "greater-penetrating-strike",
+    "name": "Greater Penetrating Strike",
+    "textEn": "Your attacks penetrate the defenses of most foes.\n\n**Prerequisites**: Penetrating Strike, Weapon Focus, 16th-level fighter.\n\n**Benefit**: Your attacks made with weapons selected with Weapon Focus ignore up to 10 points of damage reduction. This amount is reduced to 5 points for damage reduction without a type (such as DR 10/—).",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Penetrating%20Strike",
+    "sourceRef": "PRPG Core Rulebook pg. 125",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Penetrating Strike, Weapon Focus, 16th-level fighter.",
+      "featIds": [
+        "penetrating-strike",
+        "weapon-focus"
+      ],
+      "skills": [],
+      "other": [
+        "16th-level fighter"
+      ]
+    },
+    "benefit": "Your attacks made with weapons selected with Weapon Focus ignore up to 10 points of damage reduction. This amount is reduced to 5 points for damage reduction without a type (such as DR 10/—)."
+  },
+  {
+    "id": "greater-shield-focus",
+    "name": "Greater Shield Focus",
+    "textEn": "You are skilled at deflecting blows with your shield.\n\n**Prerequisites**: Shield Focus, Shield Proficiency, base attack bonus +1, 8th-level fighter.\n\n**Benefit**: Increase the AC bonus granted by any shield you are using by 1. This bonus stacks with the bonus granted by Shield Focus.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Shield%20Focus",
+    "sourceRef": "PRPG Core Rulebook pg. 125",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Shield Focus, Shield Proficiency, base attack bonus +1, 8th-level fighter.",
+      "bab": 1,
+      "featIds": [
+        "shield-focus",
+        "shield-proficiency"
+      ],
+      "skills": [],
+      "other": [
+        "8th-level fighter"
+      ]
+    },
+    "benefit": "Increase the AC bonus granted by any shield you are using by 1. This bonus stacks with the bonus granted by Shield Focus."
+  },
+  {
+    "id": "greater-spell-focus",
+    "name": "Greater Spell Focus",
+    "textEn": "Choose a school of magic to which you have already applied the Spell Focus feat. Any spells you cast of this school are very hard to resist.\n\n**Prerequisites**: Spell Focus.\n\n**Benefit**: Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select. This bonus stacks with the bonus from Spell Focus.\n\n**Special**: You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new school to which you already have applied the Spell Focus feat.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Spell%20Focus",
+    "sourceRef": "PRPG Core Rulebook pg. 125",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Spell Focus.",
+      "featIds": [
+        "spell-focus"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select. This bonus stacks with the bonus from Spell Focus.",
+    "special": "You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new school to which you already have applied the Spell Focus feat."
+  },
+  {
+    "id": "greater-spell-penetration",
+    "name": "Greater Spell Penetration",
+    "textEn": "Your spells break through spell resistance much more easily than most.\n\n**Prerequisites**: Spell Penetration.\n\n**Benefit**: You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creature's spell resistance. This bonus stacks with the one from Spell Penetration.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Spell%20Penetration",
+    "sourceRef": "PRPG Core Rulebook pg. 125",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Spell Penetration.",
+      "featIds": [
+        "spell-penetration"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creature's spell resistance. This bonus stacks with the one from Spell Penetration."
+  },
+  {
+    "id": "greater-sunder",
+    "name": "Greater Sunder",
+    "textEn": "Your devastating strikes cleave through weapons and armor and into their wielders, damaging both item and wielder alike in a single terrific strike.\n\n**Prerequisites**: Improved Sunder, Power Attack, base attack bonus +6, Str 13.\n\n**Benefit**: You receive a +2 bonus on checks made to sunder an item. This bonus stacks with the bonus granted by Improved Sunder. Whenever you sunder to destroy a weapon, shield, or suit of armor, any excess damage is applied to the item's wielder. No damage is transferred if you decide to leave the item with 1 hit point.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Sunder",
+    "sourceRef": "PRPG Core Rulebook pg. 125",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Improved Sunder, Power Attack, base attack bonus +6, Str 13.",
+      "abilities": {
+        "str": 13
+      },
+      "bab": 6,
+      "featIds": [
+        "improved-sunder",
+        "power-attack"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You receive a +2 bonus on checks made to sunder an item. This bonus stacks with the bonus granted by Improved Sunder. Whenever you sunder to destroy a weapon, shield, or suit of armor, any excess damage is applied to the item's wielder. No damage is transferred if you decide to leave the item with 1 hit point."
+  },
+  {
+    "id": "greater-trip",
+    "name": "Greater Trip",
+    "textEn": "You can make free attacks on foes that you knock down.\n\n**Prerequisites**: Combat Expertise, Improved Trip, base attack bonus +6, Int 13.\n\n**Benefit**: You receive a +2 bonus on checks made to trip a foe. This bonus stacks with the bonus granted by Improved Trip. Whenever you successfully trip an opponent, that opponent provokes attacks of opportunity.\n\n**Normal**: Creatures do not provoke attacks of opportunity from being tripped.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Trip",
+    "sourceRef": "PRPG Core Rulebook pg. 126",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Combat Expertise, Improved Trip, base attack bonus +6, Int 13.",
+      "abilities": {
+        "int": 13
+      },
+      "bab": 6,
+      "featIds": [
+        "combat-expertise",
+        "improved-trip"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You receive a +2 bonus on checks made to trip a foe. This bonus stacks with the bonus granted by Improved Trip. Whenever you successfully trip an opponent, that opponent provokes attacks of opportunity.",
+    "normal": "Creatures do not provoke attacks of opportunity from being tripped."
+  },
+  {
+    "id": "greater-two-weapon-fighting",
+    "name": "Greater Two-Weapon Fighting",
+    "textEn": "You are incredibly skilled at fighting with two weapons at the same time.\n\n**Prerequisites**: Dex 19, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11.\n\n**Benefit**: You get a third attack with your off-hand weapon, albeit at a –10 penalty.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Two-Weapon%20Fighting",
+    "sourceRef": "PRPG Core Rulebook pg. 126",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 19, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11.",
+      "abilities": {
+        "dex": 19
+      },
+      "bab": 11,
+      "featIds": [
+        "improved-two-weapon-fighting",
+        "two-weapon-fighting"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You get a third attack with your off-hand weapon, albeit at a –10 penalty."
+  },
+  {
+    "id": "greater-vital-strike",
+    "name": "Greater Vital Strike",
+    "textEn": "You can make a single attack that deals incredible damage.\n\n**Prerequisites**: Improved Vital Strike, Vital Strike, base attack bonus +16.\n\n**Benefit**: When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack four times and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision-based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Vital%20Strike",
+    "sourceRef": "PRPG Core Rulebook pg. 126",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Improved Vital Strike, Vital Strike, base attack bonus +16.",
+      "bab": 16,
+      "featIds": [
+        "improved-vital-strike",
+        "vital-strike"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack four times and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision-based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total."
+  },
+  {
+    "id": "greater-weapon-focus",
+    "name": "Greater Weapon Focus",
+    "textEn": "Choose one type of weapon (including unarmed strike or grapple) for which you have already selected Weapon Focus. You are a master at your chosen weapon.\n\n**Prerequisites**: Proficiency with selected weapon, Weapon Focus with selected weapon, base attack bonus +1, 8th-level fighter.\n\n**Benefit**: You gain a +1 bonus on attack rolls you make using the selected weapon. This bonus stacks with other bonuses on attack rolls, including those from Weapon Focus.\n\n**Special**: You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Weapon%20Focus",
+    "sourceRef": "PRPG Core Rulebook pg. 126",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Proficiency with selected weapon, Weapon Focus with selected weapon, base attack bonus +1, 8th-level fighter.",
+      "bab": 1,
+      "featIds": [
+        "weapon-focus"
+      ],
+      "skills": [],
+      "other": [
+        "Proficiency with selected weapon",
+        "Weapon Focus with selected weapon",
+        "8th-level fighter"
+      ]
+    },
+    "benefit": "You gain a +1 bonus on attack rolls you make using the selected weapon. This bonus stacks with other bonuses on attack rolls, including those from Weapon Focus.",
+    "special": "You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon."
+  },
+  {
+    "id": "greater-weapon-specialization",
+    "name": "Greater Weapon Specialization",
+    "textEn": "Choose one type of weapon (including unarmed strike or grapple) for which you possess the Weapon Specialization feat. Your attacks with the chosen weapon are more devastating than normal.\n\n**Prerequisites**: Proficiency with selected weapon, Greater Weapon Focus with selected weapon, Weapon Focus with selected weapon, Weapon Specialization with selected weapon, 12th-level fighter.\n\n**Benefit**: You gain a +2 bonus on all damage rolls you make using the selected weapon. This bonus to damage stacks with other damage roll bonuses, including any you gain from Weapon Specialization.\n\n**Special**: You can gain Greater Weapon Specialization multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Weapon%20Specialization",
+    "sourceRef": "PRPG Core Rulebook pg. 126",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Proficiency with selected weapon, Greater Weapon Focus with selected weapon, Weapon Focus with selected weapon, Weapon Specialization with selected weapon, 12th-level fighter.",
+      "featIds": [
+        "greater-weapon-focus",
+        "weapon-focus",
+        "weapon-specialization"
+      ],
+      "skills": [],
+      "other": [
+        "Proficiency with selected weapon",
+        "Greater Weapon Focus with selected weapon",
+        "Weapon Focus with selected weapon",
+        "Weapon Specialization with selected weapon",
+        "12th-level fighter"
+      ]
+    },
+    "benefit": "You gain a +2 bonus on all damage rolls you make using the selected weapon. This bonus to damage stacks with other damage roll bonuses, including any you gain from Weapon Specialization.",
+    "special": "You can gain Greater Weapon Specialization multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon."
+  }
+]

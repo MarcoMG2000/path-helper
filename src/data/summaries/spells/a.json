@@ -1,0 +1,122 @@
+{
+  "acid-arrow": {
+    "summaryEs": "Flecha de ácido que exige un ataque de toque a distancia: 2d4 de daño de ácido, sin salpicadura. Por cada tres niveles de lanzador dura un asalto más (hasta 6 adicionales a nivel 18), con otros 2d4 de daño cada asalto.",
+    "status": "draft"
+  },
+  "acid-fog": {
+    "summaryEs": "Crea una masa de vapores como la de solid fog: ralentiza a las criaturas y oscurece la vista. Cada asalto, en tu turno, la niebla causa 2d6 de daño de ácido a cada criatura y objeto en su interior.",
+    "status": "draft"
+  },
+  "acid-splash": {
+    "summaryEs": "Lanzas un pequeño orbe de ácido; exige un ataque de toque a distancia y causa 1d3 de daño de ácido. El ácido desaparece tras 1 asalto.",
+    "status": "draft"
+  },
+  "aid": {
+    "summaryEs": "El objetivo recibe un bonificador moral de +1 a las tiradas de ataque y a las salvaciones contra miedo, y puntos de golpe temporales iguales a 1d8 + nivel de lanzador (máximo 1d8+10 a nivel 10).",
+    "status": "draft"
+  },
+  "air-walk": {
+    "summaryEs": "El objetivo camina sobre el aire como sobre suelo firme; el ángulo máximo de subida o bajada es de 45 grados, a la mitad de su velocidad normal. Si el conjuro acaba en el aire, desciende 60 pies por asalto durante 1d6 asaltos y, si no llega al suelo, cae el resto.",
+    "status": "draft"
+  },
+  "alarm": {
+    "summaryEs": "Crea una protección sutil sobre una zona: avisa, de forma mental o audible, cuando una criatura de tamaño Tiny o mayor entra o la toca. Quien diga la contraseña no la activa. La alarma audible se oye con claridad a 60 pies; la mental solo la percibes tú.",
+    "status": "draft"
+  },
+  "align-weapon": {
+    "summaryEs": "Hace que un arma sea caótica, malvada, buena o legal, a tu elección, lo que le permite superar la reducción de daño de ciertas criaturas. No afecta a armas naturales ni a un arma que ya tenga alineamiento.",
+    "status": "draft"
+  },
+  "alter-self": {
+    "summaryEs": "Adoptas la forma de cualquier criatura Small o Medium del tipo humanoide, con ventajas como darkvision 60 pies, low-light vision, scent o nadar 30 pies. En forma Small ganas +2 de tamaño a Destreza; en Medium, +2 de tamaño a Fuerza.",
+    "status": "draft"
+  },
+  "analyze-dweomer": {
+    "summaryEs": "Cada asalto examinas como acción gratuita una criatura u objeto que veas y conoces sus conjuros activos, su efecto y su nivel de lanzador; de un objeto mágico, sus funciones, cómo activarlas y las cargas. Un objeto en manos de alguien puede resistir con una salvación de Voluntad.",
+    "status": "draft"
+  },
+  "animal-growth": {
+    "summaryEs": "Un animal crece al doble de tamaño y ocho veces su peso: pasa a la siguiente categoría de tamaño, obtiene +8 de tamaño a Fuerza y +4 a Constitución, y -2 de tamaño a Destreza; su armadura natural sube 2. Su equipo crece con él. Los efectos de aumento de tamaño no se acumulan.",
+    "status": "draft"
+  },
+  "animal-messenger": {
+    "summaryEs": "Obligas a un animal Tiny a ir a un lugar que conozcas, y puedes atarle un objeto o nota pequeños. Allí espera hasta que el conjuro termina; otros pueden acercarse y quitarle lo que lleve. No sirve con animales domados o entrenados por otro.",
+    "status": "draft"
+  },
+  "animal-shapes": {
+    "summaryEs": "Como beast shape III, pero transformas en un animal a tu elección a hasta una criatura dispuesta por nivel de lanzador; todas toman el mismo tipo de animal. Cada sujeto puede recuperar su forma como acción de asalto completo, lo que termina el conjuro solo para él.",
+    "status": "draft"
+  },
+  "animal-trance": {
+    "summaryEs": "Con tus movimientos y tu música o canto fascinas a animales y bestias mágicas. Solo afecta a criaturas con Inteligencia 1 o 2. Tiras 2d6 para saber cuántos DG fascinas, empezando por los objetivos más cercanos.",
+    "status": "draft"
+  },
+  "animate-dead": {
+    "summaryEs": "Convierte cadáveres en esqueletos o zombis que obedecen tus órdenes. Con un lanzamiento no puedes crear más DG de muertos vivientes que el doble de tu nivel de lanzador, y solo controlas 4 DG por nivel de lanzador; el exceso queda sin control. Los esqueletos y zombis destruidos no pueden reanimarse.",
+    "status": "draft"
+  },
+  "animate-objects": {
+    "summaryEs": "Das movilidad a objetos inanimados, que atacan a lo que designes. Puedes animar un objeto Small o varios mayores (Medium cuenta como dos Small, Large como cuatro, Huge como ocho, Gargantuan como 16 y Colossal como 32). No afecta a objetos que lleve o vista una criatura.",
+    "status": "draft"
+  },
+  "animate-plants": {
+    "summaryEs": "Das movilidad a plantas, que atacan a lo que designes como si fueran objetos animados. Puedes animar una planta Large o varias mayores (Huge cuenta como dos Large, Gargantuan como cuatro y Colossal como ocho). También puedes imitar entangle durante 1 hora por nivel de lanzador.",
+    "status": "draft"
+  },
+  "animate-rope": {
+    "summaryEs": "Animas una cuerda u objeto similar sin vida y le das una orden por asalto como acción de movimiento (enrollar, anudar, atar y sus contrarias). Una cuerda de cáñamo de 1 pulgada tiene 2 puntos de golpe y CA 10; sirve de zancadilla o para enredar a quien falle una salvación de Reflejos.",
+    "status": "draft"
+  },
+  "antilife-shell": {
+    "summaryEs": "Crea un campo de energía hemisférico y móvil que impide el paso a la mayoría de criaturas vivas: animales, aberraciones, dragones, fey, gigantes, humanoides, bestias mágicas, monstrous humanoids, oozes, plantas y alimañas, pero no a constructos, elementales, outsiders ni muertos vivientes.",
+    "status": "draft"
+  },
+  "antimagic-field": {
+    "summaryEs": "Una barrera invisible te rodea y te sigue: dentro quedan suprimidos conjuros, habilidades sobrenaturales y objetos mágicos, sin ser disipados. Las criaturas invocadas desaparecen mientras estén dentro. Constructos, elementales, no muertos y outsiders no invocados no se ven afectados.",
+    "status": "draft"
+  },
+  "antipathy": {
+    "summaryEs": "Un objeto o lugar repele a un tipo concreto de criatura inteligente o a un alineamiento que nombres. Esas criaturas sienten el impulso de abandonar la zona; quien supere la salvación puede quedarse, pero su incomodidad reduce su Destreza en 4 puntos. Anula y disipa sympathy.",
+    "status": "draft"
+  },
+  "antiplant-shell": {
+    "summaryEs": "Crea una barrera invisible y móvil que protege a todas las criaturas en su interior de los ataques de criaturas planta y plantas animadas. Forzar la barrera contra criaturas que mantiene fuera la hace colapsar.",
+    "status": "draft"
+  },
+  "arcane-eye": {
+    "summaryEs": "Creas un sensor mágico invisible, en un punto que veas, que te envía información visual y puede salir de tu línea de visión. Se mueve a 30 pies por asalto si mira al frente, o 10 si examina también techo y paredes; pasa por un hueco de 1 pulgada. Debes concentrarte para usarlo.",
+    "status": "draft"
+  },
+  "arcane-lock": {
+    "summaryEs": "Cierra mágicamente una puerta, cofre o portal. Si ya tenía cerradura, la CD para abrirla sube 10; si no, se crea una que requiere Disable Device CD 20. Solo se abre rompiéndola o con dispel magic o knock. Suma 10 a la CD normal para forzar la puerta.",
+    "status": "draft"
+  },
+  "arcane-mark": {
+    "summaryEs": "Inscribes tu runa personal, de no más de seis caracteres, sobre cualquier sustancia sin dañarla. Puede ser visible o invisible; una marca invisible brilla con detect magic. No puede disiparse, pero tú o un conjuro erase pueden borrarla. En un ser vivo se desvanece en cerca de un mes.",
+    "status": "draft"
+  },
+  "arcane-sight": {
+    "summaryEs": "Tus ojos brillan en azul y ves auras mágicas en 120 pies, sin concentración. Conoces la ubicación y el poder de todas las auras que veas y puedes hacer pruebas de Spellcraft (CD 15 + nivel del conjuro) para saber su escuela. Concentrándote en una criatura sabes si lanza conjuros.",
+    "status": "draft"
+  },
+  "arcane-sight-greater": {
+    "summaryEs": "Funciona como arcane sight, pero además sabes automáticamente qué conjuros o efectos mágicos están activos sobre cualquier individuo u objeto que veas. A diferencia de arcane sight, no puede hacerse permanente con permanency.",
+    "status": "draft"
+  },
+  "astral-projection": {
+    "summaryEs": "Proyectas tu cuerpo astral, y los de compañeros dispuestos unidos en círculo, al Plano Astral; los cuerpos físicos quedan en animación suspendida. Si el cordón de plata se rompe mueres; si el segundo cuerpo o la forma astral muere, ganas dos niveles negativos permanentes.",
+    "status": "draft"
+  },
+  "atonement": {
+    "summaryEs": "Libra al sujeto arrepentido de la carga de sus malas acciones; si fueron deliberadas, gastas 2,500 po en incienso y ofrendas. Sirve para revertir un cambio mágico de alineamiento, restaurar la clase de un paladín, devolver poderes a un clérigo o druida, u ofrecer a alguien cambiar a tu alineamiento.",
+    "status": "draft"
+  },
+  "augury": {
+    "summaryEs": "Indica si una acción traerá buenos o malos resultados en el futuro inmediato. La probabilidad base de respuesta útil es 70% + 1% por nivel de lanzador, hasta 90%. Resultados: weal, woe, weal y woe, o nada. Solo ve unos treinta minutos adelante; repetir sobre el mismo asunto da el mismo resultado.",
+    "status": "draft"
+  },
+  "awaken": {
+    "summaryEs": "Despiertas un árbol o animal a una sensibilidad humana; debes superar una salvación de Voluntad (CD 10 + sus DG). Queda amistoso hacia ti. Un animal obtiene 3d6 de Inteligencia, +1d3 de Carisma y +2 DG, y se vuelve bestia mágica; no sirve con criaturas de Inteligencia mayor que 2.",
+    "status": "draft"
+  }
+}

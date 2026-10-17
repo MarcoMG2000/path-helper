@@ -1,0 +1,3410 @@
+{
+  "license": "OGL-1.0a",
+  "category": "magic-items",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://aonprd.com/MagicArmor.aspx?Category=ArmorQuality",
+      "sha256": "12366909d660bb426ee1f22410100c868a67d4a3b1f828719221d3a58bd117e9",
+      "bytes": 73796,
+      "fetchedAt": "2026-10-16T19:03:02.994Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmor.aspx?Category=ShieldQuality",
+      "sha256": "45b440ed81d2a2d40fd8332fd3b27134782e380282466773a5b33f61ca342b78",
+      "bytes": 46181,
+      "fetchedAt": "2026-10-16T19:03:03.693Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmor.aspx?Category=SpecificArmor",
+      "sha256": "9a610212e50208cdb08b56d0129e2cbb439571298a78e6c0f5d530d99d36eb92",
+      "bytes": 107341,
+      "fetchedAt": "2026-10-16T19:03:04.693Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmor.aspx?Category=SpecificShield",
+      "sha256": "cb68af1d7a26cea580815b08b2a6fe1b1bb202bde341825afe21cf5c44a59ee2",
+      "bytes": 50270,
+      "fetchedAt": "2026-10-16T19:03:05.697Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Absorbing%20Shield",
+      "sha256": "9b063c8fbe400113794e8b42f36736164907583f57eeedc250ab38d1e5baacf1",
+      "bytes": 23194,
+      "fetchedAt": "2026-10-16T19:02:39.515Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Adamantine%20Breastplate",
+      "sha256": "8ba17547a0171c99d041f38614e29c7b7acc70342ab1f4404b6ed317f8c5be31",
+      "bytes": 22027,
+      "fetchedAt": "2026-10-16T19:04:08.885Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Animated",
+      "sha256": "366669b187420da91739790f6419fea2458f928f932cc6acaeffe7fddf7249a0",
+      "bytes": 25873,
+      "fetchedAt": "2026-10-16T19:02:40.508Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Arrow%20Catching",
+      "sha256": "1e1dae7f13d7ce1193fdf148d9cdfc83d16530895d06aff5c5eeef9ae7b74be9",
+      "bytes": 24837,
+      "fetchedAt": "2026-10-16T19:04:09.593Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Arrow%20Deflection",
+      "sha256": "5184cfba9a9ec3a170c7343ee2a8b392e6cbd7a06d0df8dd5d115ca983a1a9d2",
+      "bytes": 23819,
+      "fetchedAt": "2026-10-16T19:04:10.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Banded%20Mail%20of%20Luck",
+      "sha256": "1107a37d59f26f7e08d9c77e8230a3f3872801368583fa1e6cfa1dcd100cddd4",
+      "bytes": 23041,
+      "fetchedAt": "2026-10-16T19:04:11.592Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Bashing",
+      "sha256": "cda6097fbf8e84efed42b9bb6a5f08813b777ceea145ded2ef084b79ad0cd49e",
+      "bytes": 23210,
+      "fetchedAt": "2026-10-16T19:04:12.591Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Blinding",
+      "sha256": "ebf959f87b42534ee40695dd0d242cf01a545137d628dc177cf1747f95321208",
+      "bytes": 22690,
+      "fetchedAt": "2026-10-16T19:04:13.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Breastplate%20of%20Command",
+      "sha256": "5c049075479c81b904fff5ef316b8f757c0a401912d611627588a7b8f847803a",
+      "bytes": 24067,
+      "fetchedAt": "2026-10-16T19:04:14.592Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Caster's%20Shield",
+      "sha256": "49a05578d3b1d7902ea23bb723ddac1d9de6e2e87d60859f28b8624cbe9d8f30",
+      "bytes": 24057,
+      "fetchedAt": "2026-10-16T19:04:15.590Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Celestial%20Armor",
+      "sha256": "e5fd293ed281db395ee2f443661c6cedaaa8a1676eac6e29d696a3a830fd3b8a",
+      "bytes": 23179,
+      "fetchedAt": "2026-10-16T19:04:16.593Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Darkwood%20Buckler",
+      "sha256": "6a35de8c65fd95900f1ab38cc9e3f0d58b82d18c1eb202dc4a4a10f76225632d",
+      "bytes": 22266,
+      "fetchedAt": "2026-10-16T19:04:17.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Darkwood%20Shield",
+      "sha256": "2b50e7c6fa37c8dfe7175033c978729205c360e625e11334596c5986c8cb9080",
+      "bytes": 22359,
+      "fetchedAt": "2026-10-16T19:04:18.588Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Demon%20Armor",
+      "sha256": "e292514f83c7b795e0adb90513720e07132a8cdfd054f05b840db1d779244e59",
+      "bytes": 24969,
+      "fetchedAt": "2026-10-16T19:04:19.596Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Dragonhide%20Plate",
+      "sha256": "5908e92d7383557f01b1fe94034f1d201a2ed31c1fa62160fea017d9adbe905a",
+      "bytes": 22485,
+      "fetchedAt": "2026-10-16T19:04:21.031Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Dwarven%20Plate",
+      "sha256": "a040beef6188f0a7e6fa3c89e91e1e382344527565442507e6b3a6fcb8178e00",
+      "bytes": 21927,
+      "fetchedAt": "2026-10-16T19:04:21.582Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Elven%20Chain",
+      "sha256": "efc76a5f8e0760948c09105ebab786fd2eeec6bf1ea07ce3921b9719b9468b94",
+      "bytes": 22582,
+      "fetchedAt": "2026-10-16T19:04:22.590Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Energy%20Resistance",
+      "sha256": "09188c40a46a79f5b67c59fa98a85a63153ca864d7d79e931ae11ba42820a557",
+      "bytes": 23199,
+      "fetchedAt": "2026-10-16T19:04:23.585Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Energy%20Resistance%2C%20Greater",
+      "sha256": "e93b9c4f13b827e257d2c19cbc0d7462566c2c3ff9c907ca1d1e50019cf9c36d",
+      "bytes": 22309,
+      "fetchedAt": "2026-10-16T19:04:24.585Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Energy%20Resistance%2C%20Improved",
+      "sha256": "b6e80f102bf9f8a81af9c6c9eaebba8a3043a13da0714aa18e2a2839e16c5fc2",
+      "bytes": 22312,
+      "fetchedAt": "2026-10-16T19:04:25.592Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Etherealness",
+      "sha256": "fe8919f5d746a4ae5ec6484c22e29e9b6b971fc6f8c570a9d2e02e6301bada75",
+      "bytes": 22849,
+      "fetchedAt": "2026-10-16T19:04:26.589Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(heavy)",
+      "sha256": "a7b0e559320aae4e64a8aea0f0aa3f645c9a2b9b185495dd9edb8c6305d1c8b5",
+      "bytes": 22774,
+      "fetchedAt": "2026-10-16T19:04:27.564Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(light)",
+      "sha256": "f6f149f89847cb8663448900001639ec9ab35df611caf31195d3ed22d1f02644",
+      "bytes": 23319,
+      "fetchedAt": "2026-10-16T19:04:28.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(moderate)",
+      "sha256": "716758721fcce2438d9acd4c5a7e31ffa3f3187f1f5222e94d509656420bfcfe",
+      "bytes": 22896,
+      "fetchedAt": "2026-10-16T19:04:29.586Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Ghost%20Touch",
+      "sha256": "ae590748fae912a4ea1f92aea00f02bab3a54722d2d6434f5a86a3ba3620500d",
+      "bytes": 23265,
+      "fetchedAt": "2026-10-16T19:04:30.581Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Glamered",
+      "sha256": "d5564357b6b7d7405f5a2f1a348eb057cf858bdeb1d522b50fe6aa5e6ad7b751",
+      "bytes": 22995,
+      "fetchedAt": "2026-10-16T19:04:31.593Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Invulnerability",
+      "sha256": "0b1a560b0a41a8adf38718ddf7300ba12ce2049a5f7ff11c51632ffccd4215f4",
+      "bytes": 22604,
+      "fetchedAt": "2026-10-16T19:04:32.588Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Lion's%20Shield",
+      "sha256": "83fd9f7656ff7830ca9db3d0f3b052e68178d5aeb05096ec49d44d172683e492",
+      "bytes": 23266,
+      "fetchedAt": "2026-10-16T19:04:33.581Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Mithral%20Full%20Plate%20of%20Speed",
+      "sha256": "0a0b673700b66fc22865bc23cea755f4be1bdfbf97325f390ccdb942d41d5588",
+      "bytes": 23736,
+      "fetchedAt": "2026-10-16T19:04:34.581Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Mithral%20Heavy%20Shield",
+      "sha256": "c34b1d4d5b6f268895392709b1758dbcbc542e4821b4e4c554449a2a50978a69",
+      "bytes": 22123,
+      "fetchedAt": "2026-10-16T19:04:35.592Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Mithral%20Shirt",
+      "sha256": "033d6ec64b4f1eca25e2445930bc1a18148706b622b005aabb7c119b3da54527",
+      "bytes": 22362,
+      "fetchedAt": "2026-10-16T19:04:36.586Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Plate%20Armor%20of%20the%20Deep",
+      "sha256": "831f4d4a69256f7248f7c7bafe66dd1a9b27f33e0224640e5e20492c92f59d22",
+      "bytes": 23455,
+      "fetchedAt": "2026-10-16T19:04:37.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Reflecting",
+      "sha256": "bbec77a310dd6b107547b4be51ac89a61b02f5b38e8142678d5fd0780357f06c",
+      "bytes": 22648,
+      "fetchedAt": "2026-10-16T19:04:38.591Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Rhino%20Hide",
+      "sha256": "5faffb517915d79d67524ea63b37c9c042ed47625928e0cd5a62d9198df49ea0",
+      "bytes": 22748,
+      "fetchedAt": "2026-10-16T19:04:40.042Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Shadow",
+      "sha256": "b0ea020025648fe251a1d68cde7b57d83fa988e6effc793f5be99089cca4879a",
+      "bytes": 22648,
+      "fetchedAt": "2026-10-16T19:04:40.589Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Shadow%2C%20Greater",
+      "sha256": "4b29698b53265ed21ec7eab2375caab25b9f891df8c513b9daec276b3ad4ffbd",
+      "bytes": 22183,
+      "fetchedAt": "2026-10-16T19:04:41.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Shadow%2C%20Improved",
+      "sha256": "f744395dae123f34ee1ecf9569bee3167c8b855c137ca54b785c6909e76190a6",
+      "bytes": 22301,
+      "fetchedAt": "2026-10-16T19:04:42.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Slick",
+      "sha256": "0ae4d91dc90efa65cb8d22dee7cae72181e6f6553c7baabcd49bbdac47bbdfed",
+      "bytes": 22595,
+      "fetchedAt": "2026-10-16T19:04:43.596Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Slick%2C%20Greater",
+      "sha256": "2ed4d075c47a28605c7c4b2953cbfedb2ed21f24b779b90de6011096f6d7c3ed",
+      "bytes": 22146,
+      "fetchedAt": "2026-10-16T19:04:44.589Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Slick%2C%20Improved",
+      "sha256": "3126a2a451476805c9fcf9e868aebcd5ad0274663f7cfcba3a05fcf32358778c",
+      "bytes": 22155,
+      "fetchedAt": "2026-10-16T19:04:45.582Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(13)",
+      "sha256": "bfed44e8a674b4c4a0892b684e64cb3c06b27dff82a1823b132096babad321f8",
+      "bytes": 22295,
+      "fetchedAt": "2026-10-16T19:02:38.523Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(15)",
+      "sha256": "f4743ab033699513bddd4acbf105acf0962ec7fe833371d439327fd543e5d00c",
+      "bytes": 22065,
+      "fetchedAt": "2026-10-16T19:04:47.064Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(17)",
+      "sha256": "5f3883441ba174ae0b1af8f592d441d60989c59b01d75ff83c5f0d128267fc89",
+      "bytes": 22174,
+      "fetchedAt": "2026-10-16T19:04:47.593Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(19)",
+      "sha256": "9b6cb95d1d6eb1685dcc951d55f79e52e254027bf125f60b885b5ac89054eebf",
+      "bytes": 22174,
+      "fetchedAt": "2026-10-16T19:04:48.584Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spined%20Shield",
+      "sha256": "5d8d8b7e3a9dc3d88e587c57cf3dd0c3aa1cf87f56901532c9fe7cecd95eb068",
+      "bytes": 23108,
+      "fetchedAt": "2026-10-16T19:04:49.588Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Undead%20Controlling",
+      "sha256": "56baf47efd6a7b962e2462dd67c870a48145c2809e977c0ec88c072c9b5faaae",
+      "bytes": 23396,
+      "fetchedAt": "2026-10-16T19:04:50.582Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Wild",
+      "sha256": "d5380cc79dac92bff7f231872906d1218a05baa85df1468c76975b7b4958ae61",
+      "bytes": 23210,
+      "fetchedAt": "2026-10-16T19:04:51.585Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Winged%20Shield",
+      "sha256": "1923fda11d77324e2fa083fbc5e01dbcced5052d0d6c7c26f17a8005804c2092",
+      "bytes": 23006,
+      "fetchedAt": "2026-10-16T19:04:52.582Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArtifactsDisplay.aspx?ItemName=Axe%20of%20the%20Dwarvish%20Lords",
+      "sha256": "817e4eff8fb57de07b9a7eb2a6baf3c7119f9b5c110074096a4e7b1dce0f533d",
+      "bytes": 24058,
+      "fetchedAt": "2026-10-16T19:04:53.595Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArtifactsDisplay.aspx?ItemName=Book%20of%20Infinite%20Spells",
+      "sha256": "fc8e249e6aa05c2fca9110a95c882c9d453924efa6204f1ce05ef566fb61da86",
+      "bytes": 29656,
+      "fetchedAt": "2026-10-16T19:04:54.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArtifactsDisplay.aspx?ItemName=Codex%20of%20the%20Infinite%20Planes",
+      "sha256": "be817431cefbc8aa929879835998a8ea412b5fbcc84c79ef4e6348a44b573f2b",
+      "bytes": 31502,
+      "fetchedAt": "2026-10-16T19:04:55.581Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArtifactsDisplay.aspx?ItemName=Deck%20of%20Many%20Things",
+      "sha256": "7036e55be729a4cafc971529d9bec3c3ba554654769240eb9c5c11f66d014f3f",
+      "bytes": 54425,
+      "fetchedAt": "2026-10-16T19:04:56.589Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArtifactsDisplay.aspx?ItemName=Orbs%20of%20Dragonkind",
+      "sha256": "133a826c16e6ed8ffdedc99d9379d5014b7b4637715e6ba9f378cd9c0c65bc08",
+      "bytes": 31829,
+      "fetchedAt": "2026-10-16T19:04:58.131Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArtifactsDisplay.aspx?ItemName=Philosopher's%20Stone",
+      "sha256": "d760f6d78ebb1287dbe371f759e09dc26debcf56a0f386949a1ba0b317d374ab",
+      "bytes": 25034,
+      "fetchedAt": "2026-10-16T19:04:58.584Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArtifactsDisplay.aspx?ItemName=Shadowstaff",
+      "sha256": "e121f9b04c0e3f02d4877c4b992fb4f29d7d55a048c807feb701233c2c7dead6",
+      "bytes": 26300,
+      "fetchedAt": "2026-10-16T19:04:59.596Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArtifactsDisplay.aspx?ItemName=Sphere%20of%20Annihilation",
+      "sha256": "8fd15989b7a36c97d641e902854b56eefe2f3f6146e8acf182eecbeaca207888",
+      "bytes": 29361,
+      "fetchedAt": "2026-10-16T19:05:00.582Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArtifactsDisplay.aspx?ItemName=Staff%20of%20the%20Magi",
+      "sha256": "469ba555cc5f27ad7dd486807c9ae93319bedee84a911b9620b18f1d2dd55c34",
+      "bytes": 30135,
+      "fetchedAt": "2026-10-16T19:05:01.582Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArtifactsDisplay.aspx?ItemName=Talisman%20of%20Pure%20Good",
+      "sha256": "b013284d6f005befaf34cec58f80bfffc00994bd3c8b81b61998d21321882be0",
+      "bytes": 24798,
+      "fetchedAt": "2026-10-16T19:05:02.596Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArtifactsDisplay.aspx?ItemName=Talisman%20of%20Ultimate%20Evil",
+      "sha256": "1dcc80c9a5c4e2c04fc40361078caac73161820b8c3c5467bb32e6695a485477",
+      "bytes": 24707,
+      "fetchedAt": "2026-10-16T19:05:05.131Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicArtifactsDisplay.aspx?ItemName=Talisman%20of%20the%20Sphere",
+      "sha256": "c5b7af029f8903b00fb8cd480995f403a5dce75961322c86f9169c9681c76f30",
+      "bytes": 25271,
+      "fetchedAt": "2026-10-16T19:05:03.588Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=-2%20Cursed%20Sword",
+      "sha256": "f8a7520a27a2d1850f1b655a8d224ca26579fc44419da209719c0db337398ce8",
+      "bytes": 22775,
+      "fetchedAt": "2026-10-16T19:05:05.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Amulet%20of%20Inescapable%20Location",
+      "sha256": "9434eff2db038cf4b861fa3a6ab1d84a49c4285ba6d37cbcff45df48fe51a151",
+      "bytes": 22204,
+      "fetchedAt": "2026-10-16T19:05:06.731Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Armor%20of%20Arrow%20Attraction",
+      "sha256": "b65040645d4268b8cb8989df40699b0e3f18d9b8fd84713dad4f43c000c2bb87",
+      "bytes": 22399,
+      "fetchedAt": "2026-10-16T19:05:07.591Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Armor%20of%20Rage",
+      "sha256": "f91ea868bd0e0375e2d5006d3650b3df04f701108cc614a2f390045d92f4529b",
+      "bytes": 22936,
+      "fetchedAt": "2026-10-16T19:05:08.586Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Bag%20of%20Devouring",
+      "sha256": "6a6d8983433cb10d771f8ad6b45940c56b958deff16a3b6081a40bd6b1dcd6ba",
+      "bytes": 26352,
+      "fetchedAt": "2026-10-16T19:05:09.603Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Berserking%20Sword",
+      "sha256": "a110701ff235a2809f7272387c0f993c9bf8ebe0015c29409dda440177e1981f",
+      "bytes": 22563,
+      "fetchedAt": "2026-10-16T19:05:10.591Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Boots%20of%20Dancing",
+      "sha256": "39a7748d1f4d084b1c219f1a239f4e246ec2b1403ebaca94f61256fe1dba0fc0",
+      "bytes": 22751,
+      "fetchedAt": "2026-10-16T19:05:11.711Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Bracers%20of%20Defenselessness",
+      "sha256": "deea87fcbba7b51d1d61e1f226469a9d87072d0a3585549c4a4e5999b4587a7b",
+      "bytes": 22600,
+      "fetchedAt": "2026-10-16T19:05:12.789Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Broom%20of%20Animated%20Attack",
+      "sha256": "0baf119353755a9089718ab2d7bb50ebc99b51f9d5f2126f05597303804451c1",
+      "bytes": 24031,
+      "fetchedAt": "2026-10-16T19:05:13.710Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Crystal%20Hypnosis%20Ball",
+      "sha256": "01ea907328f3b95b195b5f89fa84ea8aff0064b0a45b0311d699c059bd1f2d75",
+      "bytes": 23664,
+      "fetchedAt": "2026-10-16T19:05:14.586Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Cursed%20Backbiter%20Spear",
+      "sha256": "dd8183fadc4a9208a09b252722f5a389cb3072deb88cbcac4d7d7af8537af389",
+      "bytes": 22565,
+      "fetchedAt": "2026-10-16T19:05:15.726Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Dust%20of%20Sneezing%20and%20Choking",
+      "sha256": "741eef975ab6c3d1f590d05292c084b268985d9b9ede35b474467820089a67fa",
+      "bytes": 22474,
+      "fetchedAt": "2026-10-16T19:05:16.708Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Flask%20of%20Curses",
+      "sha256": "9a971923c4e08e7cb71b81c209d348c14fc322de494ea2b33e1531155d40b835",
+      "bytes": 22609,
+      "fetchedAt": "2026-10-16T19:05:17.592Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Gauntlets%20of%20Fumbling",
+      "sha256": "d07fc05e192461a4a4487edfc3a9208924d7640accf1de1aa0a21a7858098923",
+      "bytes": 23127,
+      "fetchedAt": "2026-10-16T19:05:18.584Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Helm%20of%20Opposite%20Alignment",
+      "sha256": "3465b89ca4b19138959e21249aaf88fc164e572e20636b0750b8a56816a69ee4",
+      "bytes": 25279,
+      "fetchedAt": "2026-10-16T19:05:19.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Incense%20of%20Obsession",
+      "sha256": "8f8fd1d3739ab033d1e90ce03dcd388d3bbb84383a609c52f5f1baf80b94ac2f",
+      "bytes": 22728,
+      "fetchedAt": "2026-10-16T19:05:20.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Mace%20of%20Blood",
+      "sha256": "06a30f82afba1e105b22068f964d6760397471cde8e88f4bae976dc2fee886ae",
+      "bytes": 21881,
+      "fetchedAt": "2026-10-16T19:05:21.721Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Medallion%20of%20Thought%20Projection",
+      "sha256": "d0f87d37ece848da2ee2b871895a743423b24f8cb1d7d0e3a310d7baf6ccf7db",
+      "bytes": 23286,
+      "fetchedAt": "2026-10-16T19:05:22.713Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Necklace%20of%20Strangulation",
+      "sha256": "fbe4effc3f8ce72d1624b4f480a3dc884b8beb22390920b19c139e6f7cef5369",
+      "bytes": 23212,
+      "fetchedAt": "2026-10-16T19:05:23.588Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Net%20of%20Snaring",
+      "sha256": "fa77acf5d70e052e3b55f5fb0687e1858a1b4ed669cd96128564c6518bbded05",
+      "bytes": 21834,
+      "fetchedAt": "2026-10-16T19:05:24.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Periapt%20of%20Foul%20Rotting",
+      "sha256": "b2a6e09dfc1ddb9d830e39c65a70a87e264438bf6ad16e6aa2b17c4a849ff9e3",
+      "bytes": 23806,
+      "fetchedAt": "2026-10-16T19:05:25.594Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Poisonous%20Cloak",
+      "sha256": "410d6f0e1c1763b936e11ff9c5b0f54d2bea7900bf7ae94cac98d65e1606c103",
+      "bytes": 23603,
+      "fetchedAt": "2026-10-16T19:05:26.581Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Potion%20of%20Poison",
+      "sha256": "1d30e14c1c3d5891e35dd0a14a9be687e136d83ab7ddb89332b72cc483e995ac",
+      "bytes": 21888,
+      "fetchedAt": "2026-10-16T19:05:27.701Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Ring%20of%20Clumsiness",
+      "sha256": "379454fc9b70c436ac9e7d621f5a2f692d437b62e3f40681f87b7769cc38540f",
+      "bytes": 22349,
+      "fetchedAt": "2026-10-16T19:05:28.591Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Robe%20of%20Powerlessness",
+      "sha256": "668329c7d30e8656d6464e19f2c027e63ce2bc409f13a6919ece735f6c2eaae3",
+      "bytes": 23449,
+      "fetchedAt": "2026-10-16T19:05:29.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Robe%20of%20Vermin",
+      "sha256": "f677facc0b68cb4d86c0916f2ca1a883fd13e58c578e06b52f0d099f2d31f9a9",
+      "bytes": 23972,
+      "fetchedAt": "2026-10-16T19:05:30.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Scarab%20of%20Death",
+      "sha256": "407f65fb6d40a135e72a6cf1ec723ffd4a81f6db038a0cd85fc885726ffe836f",
+      "bytes": 23825,
+      "fetchedAt": "2026-10-16T19:05:31.581Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Stone%20of%20Weight%20(Loadstone)",
+      "sha256": "17a501ce1f348ad069984e53e4793fa68cb5ae8b49268a04905d69012e58d12d",
+      "bytes": 22644,
+      "fetchedAt": "2026-10-16T19:05:32.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicCursedDisplay.aspx?ItemName=Vacuous%20Grimoire",
+      "sha256": "876795d886cffcc57543a3676adaa50d1935d568667f2d835854ef573bc0a2f3",
+      "bytes": 23418,
+      "fetchedAt": "2026-10-16T19:05:33.593Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Animal%20Friendship",
+      "sha256": "07e1a514786e9688cb4dbc157fb349c765f03170aa8dd53782cdc554a37bc68a",
+      "bytes": 22362,
+      "fetchedAt": "2026-10-16T19:05:40.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Blinking",
+      "sha256": "02c3639148aeac4a8f0728f1122f5979f0cf3a6f7911c61d5424f8aa22cd077e",
+      "bytes": 21733,
+      "fetchedAt": "2026-10-16T19:05:41.592Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Chameleon%20Power",
+      "sha256": "ffe6a3923a00ec84ddf13d46809adb993b72c9cf332084e705b1b55f7be44803",
+      "bytes": 22453,
+      "fetchedAt": "2026-10-16T19:05:42.580Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Climbing",
+      "sha256": "e1d31d055c66db231dc30e12b2ad806987a7b2e0aa422484a1401862722dea1d",
+      "bytes": 22081,
+      "fetchedAt": "2026-10-16T19:05:43.899Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Climbing%20(improved)",
+      "sha256": "533ac81c86eecfcc1941947cf39981c116008bd843513c49095c103000a87522",
+      "bytes": 21927,
+      "fetchedAt": "2026-10-16T19:05:44.886Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Counterspells",
+      "sha256": "f58eb94e45eecb9340db5519cd0406c145cb175b6c22075ffc47bc2f24d5f29b",
+      "bytes": 23281,
+      "fetchedAt": "2026-10-16T19:05:45.591Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Djinni%20Calling",
+      "sha256": "505dad751cac048c136dfb4e5e8263b642d2f82979714eed506fb5f3d342d284",
+      "bytes": 23038,
+      "fetchedAt": "2026-10-16T19:05:46.586Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Elemental%20Command",
+      "sha256": "ef39c1a71a8a6212a0bf8bb9243043b20b3533dc2434f2ed49705e21270b5e6e",
+      "bytes": 36173,
+      "fetchedAt": "2026-10-16T19:05:47.590Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Energy%20Resistancegreater",
+      "sha256": "49ca4b5239f0e36eb21f2625f1f2e0d44256631bf5b5aacc63052f67819abd9b",
+      "bytes": 23072,
+      "fetchedAt": "2026-10-16T19:05:38.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Energy%20Resistancemajor",
+      "sha256": "6692f9d05dd78bb5dcb8c0a7501e6eae9b2807fc97c5ca5776ec46d4458c4f9a",
+      "bytes": 23175,
+      "fetchedAt": "2026-10-16T19:05:39.594Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Energy%20Resistanceminor",
+      "sha256": "99f633f4014e30b5ee1100a7740e0a6c0fa49129f6a003699ac0deebeb0fbad1",
+      "bytes": 23908,
+      "fetchedAt": "2026-10-16T19:02:35.517Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Evasion",
+      "sha256": "84b5177d5379a34546070c9834557993a1f5e1f9a95d2e9fe6ca93620a734af4",
+      "bytes": 22196,
+      "fetchedAt": "2026-10-16T19:05:48.596Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Feather%20Falling",
+      "sha256": "69c9cb90138016249b56d9391bb26aae93c2e42450b33269ef1f79b8545c80f1",
+      "bytes": 22139,
+      "fetchedAt": "2026-10-16T19:05:49.589Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Force%20Shield",
+      "sha256": "5b5828a04ddad98f75d3c7870a460af12eb9b68b40b941c92320e9b9ce322784",
+      "bytes": 22719,
+      "fetchedAt": "2026-10-16T19:05:50.592Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Freedom%20of%20Movement",
+      "sha256": "fb9812a39729f7b782f62d2dc3eda6adf2ea1c3a6620f20ac88da33d9e8c5087",
+      "bytes": 21970,
+      "fetchedAt": "2026-10-16T19:05:51.584Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Friend%20Shield",
+      "sha256": "0917d0ae52dff473362cb992fc6f9662189f9b56ab22a5169e5e62e4520582f1",
+      "bytes": 22562,
+      "fetchedAt": "2026-10-16T19:05:52.593Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Invisibility",
+      "sha256": "d31515e80feee43eed95ecd8c42fcf06c7d58e7bb314730b7055b753d5ebf9ec",
+      "bytes": 21745,
+      "fetchedAt": "2026-10-16T19:05:53.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Jumping",
+      "sha256": "fd7f60abc17dd3b817584503a964f4be58f97f03f4537cf0d9dd500314cd0da8",
+      "bytes": 22025,
+      "fetchedAt": "2026-10-16T19:05:54.580Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Jumping%20(improved)",
+      "sha256": "8635e4c9303d65b65cbf01949706c73a2ece7e6184b745191be964176ec35aee",
+      "bytes": 22148,
+      "fetchedAt": "2026-10-16T19:05:55.591Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Mind%20Shielding",
+      "sha256": "b23d88fa962af559b5fe447181b03dd9c997b258e11417376ec8dfe08c15d998",
+      "bytes": 22210,
+      "fetchedAt": "2026-10-16T19:05:56.581Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Protection1",
+      "sha256": "8a502f2d5edb281ab83210703066f53794ea5f013c581aac73be1df2280bec9b",
+      "bytes": 22103,
+      "fetchedAt": "2026-10-16T19:05:34.589Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Protection2",
+      "sha256": "12e68f97dbade4d66602fa202cdfff5e0ea12bb0ce4ac6a98eb9277ba589e478",
+      "bytes": 21885,
+      "fetchedAt": "2026-10-16T19:02:34.809Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Protection3",
+      "sha256": "57ca6282816d89741816f5926207758019cee8cc65c102040b76c4af693b63f3",
+      "bytes": 21885,
+      "fetchedAt": "2026-10-16T19:05:35.885Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Protection4",
+      "sha256": "470ea8d46fe926564d407f77a303ac970a5a064ae1cbf173b0c0aa6977bd5b7d",
+      "bytes": 21994,
+      "fetchedAt": "2026-10-16T19:05:36.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Protection5",
+      "sha256": "d0fc7ccbc9d1fb0456458f8aa401651313d360ae7cb1aecbc6c74145442f2a02",
+      "bytes": 21885,
+      "fetchedAt": "2026-10-16T19:05:37.594Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Regeneration",
+      "sha256": "0476f19ea8516822eb99f75b04ccfa23e59f62b266ad35b0f20fe4b151bd4d0e",
+      "bytes": 23116,
+      "fetchedAt": "2026-10-16T19:05:57.584Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Shooting%20Stars",
+      "sha256": "fdb8ce8a082ba32376235c7f7a95847780d8ae9450fe31f4df6e6d6c2bd73a80",
+      "bytes": 32161,
+      "fetchedAt": "2026-10-16T19:05:58.593Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Spell%20Storing",
+      "sha256": "d712a95a23faed66fe47891cf8089ad296b3a62eb8320dac720f07e9954caf00",
+      "bytes": 25501,
+      "fetchedAt": "2026-10-16T19:05:59.597Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Spell%20Storing%20(major)",
+      "sha256": "5faac3b96af2caea526e60b005202b484c4132c646e9976e8c34a695d3c644a5",
+      "bytes": 21770,
+      "fetchedAt": "2026-10-16T19:06:00.596Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Spell%20Storing%20(minor)",
+      "sha256": "c583d7e58f40ec602dc31935b66f22b87fda2adfa80721ff6779a54b724e01ab",
+      "bytes": 21864,
+      "fetchedAt": "2026-10-16T19:06:01.588Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Spell%20Turning",
+      "sha256": "2f4d947af718659a68a146a6ada3ad7f6d5e2c9291c3c999f1202c104a532cb5",
+      "bytes": 22081,
+      "fetchedAt": "2026-10-16T19:06:02.880Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Sustenance",
+      "sha256": "1538f6c9d1a73235eebd864bef192ed043c1d440cd13c44c94b87eddb2a10589",
+      "bytes": 23260,
+      "fetchedAt": "2026-10-16T19:06:03.590Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Swimming",
+      "sha256": "816c2dcf1ab710d5f93a2ec3b2920da1d18a4bf3c1a1c26bbf11ff3f1bbc46c3",
+      "bytes": 22021,
+      "fetchedAt": "2026-10-16T19:06:04.585Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Swimming%20(improved)",
+      "sha256": "d4cc8d3143437af8129803c52057a249e14100a84860b9056fea860f1aea110b",
+      "bytes": 21841,
+      "fetchedAt": "2026-10-16T19:06:05.892Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Telekinesis",
+      "sha256": "98d1ee8292bd323570205c5f2ac41f109d8cdc3c6c0e789e30e9a155e69fca62",
+      "bytes": 22267,
+      "fetchedAt": "2026-10-16T19:06:06.582Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Three%20Wishes",
+      "sha256": "a18cad57e52679698291f3feb4184fd190a9c2f75ae67c69880cc2caa479462d",
+      "bytes": 22574,
+      "fetchedAt": "2026-10-16T19:06:08.578Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Water%20Walking",
+      "sha256": "236eb6b17799652e2fa16d8b0d4452337a32a50de05c2212f7f1fdf563fc0809",
+      "bytes": 22088,
+      "fetchedAt": "2026-10-16T19:06:10.318Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Wizardrytype%20I",
+      "sha256": "484087993ddfe54a55e97c1a988b8af452ea4c5e2776d72cb326b976b2c992f2",
+      "bytes": 23228,
+      "fetchedAt": "2026-10-16T19:06:11.592Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Wizardrytype%20II",
+      "sha256": "8ccecd863a7a0907d426852283aa06dea5a7f4629eb9a5652e4f4ab7794e92b6",
+      "bytes": 22724,
+      "fetchedAt": "2026-10-16T19:06:12.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Wizardrytype%20III",
+      "sha256": "e77b71e151dbbb1e7b234dc7e80879e6e041c187407c6ca262f4886a7da09957",
+      "bytes": 22731,
+      "fetchedAt": "2026-10-16T19:06:13.592Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Wizardrytype%20IV",
+      "sha256": "c03551f3dccaef20f15e0ab5f95f284615f8a0439aebd41882aa07c222c6efc3",
+      "bytes": 22615,
+      "fetchedAt": "2026-10-16T19:06:14.582Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20X-Ray%20Vision",
+      "sha256": "d3284bfff8f434a60ecaa96f98ee592c9dd4ff06d2bfd44596ecc4b19764c354",
+      "bytes": 23472,
+      "fetchedAt": "2026-10-16T19:06:10.586Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Ram",
+      "sha256": "f013895e4e77ebda94ae59746bcb7aaefa3615592e14c44f4b2ac06387d22e19",
+      "bytes": 26159,
+      "fetchedAt": "2026-10-16T19:06:07.589Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Immovable%20Rod",
+      "sha256": "f74effc1b2a3ba11c839ee10d4e931a112b215370e5e0597b4bc205578511bea",
+      "bytes": 23710,
+      "fetchedAt": "2026-10-16T19:06:21.581Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Absorption",
+      "sha256": "1e464093449413e27eae01acc30a9ffc0d4b3da6484daabff80dea9669aa9501",
+      "bytes": 27312,
+      "fetchedAt": "2026-10-16T19:06:34.584Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Alertness",
+      "sha256": "5759f885acf5e491bcb8f13e79634066ded57ff9606ccf731e126dd118348c19",
+      "bytes": 26522,
+      "fetchedAt": "2026-10-16T19:06:35.593Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Cancellation",
+      "sha256": "927eeb7486326390471d814064df9a5b215fc1d9c6364b7fd6cadccfebe53faa",
+      "bytes": 23887,
+      "fetchedAt": "2026-10-16T19:06:36.887Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Enemy%20Detection",
+      "sha256": "ac7141fe663fee389f237156a400dc38462736d19a2fe23193dfa26fcb93c30a",
+      "bytes": 23650,
+      "fetchedAt": "2026-10-16T19:06:37.586Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Flailing",
+      "sha256": "270356347a6ffc22c75acd14a230d41167d702c131835a73ef82746c3580fe31",
+      "bytes": 24047,
+      "fetchedAt": "2026-10-16T19:06:38.588Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Flame%20Extinguishing",
+      "sha256": "61af075623877e5f31b852fc1c0146434a349f85f250ec5f9d0da699c406f655",
+      "bytes": 26243,
+      "fetchedAt": "2026-10-16T19:06:39.584Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Lordly%20Might",
+      "sha256": "8f7de91c09d68e69d38689905120a395d9f82e6ddd3e18c3b51d3518b2cb1083",
+      "bytes": 32205,
+      "fetchedAt": "2026-10-16T19:06:40.578Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metal%20and%20Mineral%20Detection",
+      "sha256": "abec798b999e9a62a7cb24f70c552ac206832a7efd29a672b6c78f7d2e644873",
+      "bytes": 23936,
+      "fetchedAt": "2026-10-16T19:06:41.588Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Empowergreater",
+      "sha256": "586f6c979724de07e571ea09cf03ffdc5a1d43d9ea6489a5613896058ed3891c",
+      "bytes": 21989,
+      "fetchedAt": "2026-10-16T19:06:15.582Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Empowerlesser",
+      "sha256": "ccb48a7b026b985742db3b953fc681090c2552d7b0084f390367a66366be7ddd",
+      "bytes": 22099,
+      "fetchedAt": "2026-10-16T19:06:22.590Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Empowernormal",
+      "sha256": "ab86d339b09962460528bb30cb28eab53db752d228aaf00dbec5aead8f33bbf1",
+      "bytes": 21873,
+      "fetchedAt": "2026-10-16T19:06:33.904Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Enlargegreater",
+      "sha256": "fa95fd9c48855c5ffe6f4b67002e3fdafc04e8756aa8dce422f26ef8a4986794",
+      "bytes": 21874,
+      "fetchedAt": "2026-10-16T19:06:16.591Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Enlargelesser",
+      "sha256": "eae8897b24df574f1adb1734c65c3cb590ab1867f943792be40d7db9c039c961",
+      "bytes": 21987,
+      "fetchedAt": "2026-10-16T19:06:23.580Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Enlargenormal",
+      "sha256": "445d9791b2d05779085364b022873e58a455945fbdf6de2fac7525e008846c73",
+      "bytes": 21871,
+      "fetchedAt": "2026-10-16T19:06:32.589Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Extendgreater",
+      "sha256": "509076c8e0c6ac07b3fa41f27aa288f8a88535e79c2e658b0ce3acdbd6e9f612",
+      "bytes": 21865,
+      "fetchedAt": "2026-10-16T19:06:17.581Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Extendlesser",
+      "sha256": "cf5f9466d5ba0ac3d135785fe04240da46db785b06a53812290fe53bb886dcfa",
+      "bytes": 22082,
+      "fetchedAt": "2026-10-16T19:06:25.580Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Extendnormal",
+      "sha256": "584269da889e5b799b6fba150b59d56c99335bbbf36573922d0bcfd4f12924ed",
+      "bytes": 21858,
+      "fetchedAt": "2026-10-16T19:06:30.579Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Maximizegreater",
+      "sha256": "a5991e11694ccd6896ae60326bca9264049e0256e7a7c38b0cbe26818e3b1cb2",
+      "bytes": 21895,
+      "fetchedAt": "2026-10-16T19:06:19.584Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Maximizelesser",
+      "sha256": "d84143acc30488122c2800b171e32cf6db7a379f895bdefeaeb812ec705b27cf",
+      "bytes": 22115,
+      "fetchedAt": "2026-10-16T19:06:24.589Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Maximizenormal",
+      "sha256": "b8e75b0c8cbe424210dd066eaf12494a2931ed97cffad514a6875d931af6ccf3",
+      "bytes": 21888,
+      "fetchedAt": "2026-10-16T19:06:31.581Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Quickengreater",
+      "sha256": "ab0dae5c2acd28acb28c9bd5d66e0b28af34caed484b5e76460bda15a0f6ed1c",
+      "bytes": 21996,
+      "fetchedAt": "2026-10-16T19:06:20.585Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Quickenlesser",
+      "sha256": "5a367dbd68b8ca7dcc5a2733620e57b230b668c4dc3f3b9ee69936e4c5b91772",
+      "bytes": 21997,
+      "fetchedAt": "2026-10-16T19:06:27.593Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Quickennormal",
+      "sha256": "b916b9072b6595a2812f181554085a33c91334418f5837f65217026982b26c9c",
+      "bytes": 21989,
+      "fetchedAt": "2026-10-16T19:06:28.581Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Silentgreater",
+      "sha256": "ab03884b6c6c5d4b0153fb263a2b8346ebd46b8cbf2f611c62120d0e6f674e7b",
+      "bytes": 21881,
+      "fetchedAt": "2026-10-16T19:06:18.569Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Silentlesser",
+      "sha256": "9feed9987714a2b9f2151bf4e6cf18629eea31abce3d2429ec0bf22cdc3834fd",
+      "bytes": 22110,
+      "fetchedAt": "2026-10-16T19:06:26.585Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Metamagic%2C%20Silentnormal",
+      "sha256": "b4b7b7286e3313715153d1cc693aa7b69ea7fc93f81e175761610d36f3f6134d",
+      "bytes": 21987,
+      "fetchedAt": "2026-10-16T19:06:29.589Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Negation",
+      "sha256": "ed05d8c49c04340733a1ca16188d0703602d526eff27c34d3500823a5bd4090b",
+      "bytes": 23922,
+      "fetchedAt": "2026-10-16T19:06:42.582Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Rulership",
+      "sha256": "162d5cd37d45a787c2b0220a814e9d435b6a37685b3122529024d2086ab7037e",
+      "bytes": 23992,
+      "fetchedAt": "2026-10-16T19:06:43.577Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Security",
+      "sha256": "de557a9a5c627afde80c1ca4ede2f138bc94251058c5801550cd13fef7a30f8a",
+      "bytes": 26630,
+      "fetchedAt": "2026-10-16T19:06:44.590Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Splendor",
+      "sha256": "bdae4fac124d6bf6563d1790a9d5f91a0b02b6ad46aeaded342368e4c609ce53",
+      "bytes": 26068,
+      "fetchedAt": "2026-10-16T19:06:45.912Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Thunder%20and%20Lightning",
+      "sha256": "7523fbc91e1a1c3cd828d571a60dfda6775e67317cd5846d2bcf921781b354b4",
+      "bytes": 28487,
+      "fetchedAt": "2026-10-16T19:06:48.580Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Withering",
+      "sha256": "cdae932126dd4cbb7d5d01b4c8bfc37ac84c0d4611a96e3d7b1474a3bec4617f",
+      "bytes": 23154,
+      "fetchedAt": "2026-10-16T19:06:49.584Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Wonder",
+      "sha256": "bcd49350d34fb5229f8c8a48c20ab8dfac60db05632e06c9d1c71b729c8f958a",
+      "bytes": 32881,
+      "fetchedAt": "2026-10-16T19:06:50.577Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20the%20Python",
+      "sha256": "9c81e980257373dbc3c710f61803d10b85840ad7b869e6c441a04555966938c9",
+      "bytes": 24629,
+      "fetchedAt": "2026-10-16T19:06:46.591Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20the%20Viper",
+      "sha256": "0e5b75f158aab96d9513d93b5cc0ee41bde8d6367f25cceb1c53f36ef0a1c8c6",
+      "bytes": 23533,
+      "fetchedAt": "2026-10-16T19:06:47.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Abjuration",
+      "sha256": "fd202e9c5b6871f11d15ff4864b924ce1458bfd531a7da1ee2a1ce07d9bda1ab",
+      "bytes": 23161,
+      "fetchedAt": "2026-10-16T19:06:51.564Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Charming",
+      "sha256": "b7ef9a56dd54b2098a8e4cfdf360a3a43aa0dc8471db6867f841319a4f84e5be",
+      "bytes": 22213,
+      "fetchedAt": "2026-10-16T19:06:52.590Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Conjuration",
+      "sha256": "1e149fecd821463d3a4944946cf7bccaf051169cdc52ef7d7f852e088bea8c78",
+      "bytes": 23101,
+      "fetchedAt": "2026-10-16T19:06:53.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Defense",
+      "sha256": "8dcfc828775ccdbab6c8ad00d8d0f63962b545401e57a2c28bc7af59d9de77c6",
+      "bytes": 22718,
+      "fetchedAt": "2026-10-16T19:06:54.728Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Divination",
+      "sha256": "88d12b1f1a14af0b1a5a6754dfb60eabedca257407aeb91853997735ded77047",
+      "bytes": 23090,
+      "fetchedAt": "2026-10-16T19:06:55.726Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Earth%20and%20Stone",
+      "sha256": "02f23ef3644a167a47f62a5cbb7e69551f7e0c67bca520fa3aa5e091b0d591bc",
+      "bytes": 22213,
+      "fetchedAt": "2026-10-16T19:06:56.586Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Enchantment",
+      "sha256": "8aeaf4a30a9248ba90f6b7e517e456a357e0a95fabd8bc27f7c3a8c693330191",
+      "bytes": 22909,
+      "fetchedAt": "2026-10-16T19:06:57.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Evocation",
+      "sha256": "a66c877e808d3c42f84e7a7c5367804510083fa51aec6bfabaf1518fbb3d0590",
+      "bytes": 22778,
+      "fetchedAt": "2026-10-16T19:06:58.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Fire",
+      "sha256": "b53276efba12cb29aee8d1f9531bba1d004b89b3ea2ae484ecc49d83f1ee44bf",
+      "bytes": 22338,
+      "fetchedAt": "2026-10-16T19:06:59.578Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Frost",
+      "sha256": "ca7e070ee79f42d33b02fddfe48be0741f121381405a6f5f7cccfe4b748f0e02",
+      "bytes": 22395,
+      "fetchedAt": "2026-10-16T19:07:00.589Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Healing",
+      "sha256": "bf568032b5cddeb762fb01b027d98df0387566284c289878b9f9403d6e885db9",
+      "bytes": 22755,
+      "fetchedAt": "2026-10-16T19:07:01.591Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Illumination",
+      "sha256": "25fa9fb253fe6e57753589fd23aff4875918dc6ff9dc0f8c441495491d0997c6",
+      "bytes": 22741,
+      "fetchedAt": "2026-10-16T19:07:02.582Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Illusion",
+      "sha256": "9db621bbc4af5f7d2aa88baebcb79c98f96fe6bd11e8f54b3906f510e37dda39",
+      "bytes": 23060,
+      "fetchedAt": "2026-10-16T19:07:03.578Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Life",
+      "sha256": "c9dcba3f2b907af9c089df9db58713e61d3bdbae26472a424a5355b811e77b34",
+      "bytes": 22633,
+      "fetchedAt": "2026-10-16T19:07:04.571Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Necromancy",
+      "sha256": "3467d808328128a9e0a06c959a4001962384b68e64776c480519c5a42ee49e3e",
+      "bytes": 23228,
+      "fetchedAt": "2026-10-16T19:07:05.577Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Passage",
+      "sha256": "2c37ff120cb66a7b9bc34a62a3f9b68de8d7be929ab9fe5b4408a81c6ce69c4a",
+      "bytes": 22655,
+      "fetchedAt": "2026-10-16T19:07:06.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Power",
+      "sha256": "fcc618d3f359c24ae5b40faa8d5d294980ada2a35dbe855ee5359a11d2d30186",
+      "bytes": 29645,
+      "fetchedAt": "2026-10-16T19:07:07.737Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Size%20Alteration",
+      "sha256": "ae101735cbbe972cf4e15351f0569a08b46d396e15f4765e0b67d99092deb798",
+      "bytes": 23058,
+      "fetchedAt": "2026-10-16T19:07:08.719Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Swarming%20Insects",
+      "sha256": "cc45e47f82d6436c7d05a1976ff946154d00639afa12830964f3e2a6ae2886cb",
+      "bytes": 22391,
+      "fetchedAt": "2026-10-16T19:07:09.749Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Transmutation",
+      "sha256": "2a171280b38a92a9ebd7ee05d26a5d9a0b57078bfeb144cc7c0b6505e5843ac0",
+      "bytes": 23284,
+      "fetchedAt": "2026-10-16T19:07:11.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20the%20Woodlands",
+      "sha256": "4bc6e5fa6daa80efda224e9763006bbeab0ea7e4aa133314c492c1e5f9e34c4f",
+      "bytes": 24127,
+      "fetchedAt": "2026-10-16T19:07:10.577Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeapons.aspx?Category=MeleeWeaponQuality",
+      "sha256": "37bd42cdb29ec02c26bfaf7022343b6444c0978f07ecfe283b0e6958054234ce",
+      "bytes": 97309,
+      "fetchedAt": "2026-10-16T19:03:06.701Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeapons.aspx?Category=RangedWeaponQuality",
+      "sha256": "24fe41053d2eb10ca704be7f7fadbdc77c618b8df7c001312ed7c0c96a4269cb",
+      "bytes": 74706,
+      "fetchedAt": "2026-10-16T19:03:07.688Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeapons.aspx?Category=SpecificWeapon",
+      "sha256": "35d5f158e28cdb1b4a13d711030b9681589659bfa8453d9daab0fe4b21d0c858",
+      "bytes": 253467,
+      "fetchedAt": "2026-10-16T19:03:08.704Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Adamantine%20Battleaxe",
+      "sha256": "a89139a78c0c3b241fe06597aa60dfffa548eca27d1d20a85b4f9f9c446b34ed",
+      "bytes": 21890,
+      "fetchedAt": "2026-10-16T19:07:12.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Adamantine%20Dagger",
+      "sha256": "14f08fc95a4235389e04d63f802e112451a011ce425e062015c5f719d350a820",
+      "bytes": 22000,
+      "fetchedAt": "2026-10-16T19:07:13.578Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Anarchic",
+      "sha256": "fb4de574fac3c31094bfa6463534d50a6e6dcfee875bb5bc89bd7e9a03612f80",
+      "bytes": 23771,
+      "fetchedAt": "2026-10-16T19:07:14.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Assassin's%20Dagger",
+      "sha256": "c800de643eb0d0cf51d2c2ea0793c95b3fccc478c98a6aa60409c69dadac75cd",
+      "bytes": 22371,
+      "fetchedAt": "2026-10-16T19:07:15.585Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Axiomatic",
+      "sha256": "fe46703290fdea3cdbb5d0a325269c514f2fe645e591178893f3598abb78894c",
+      "bytes": 23798,
+      "fetchedAt": "2026-10-16T19:07:16.586Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Bane",
+      "sha256": "5ff4b19f6e3ad5288140f4573f2eae1befb18fe516a088fda74e74002aecfcfa",
+      "bytes": 25453,
+      "fetchedAt": "2026-10-16T19:07:17.580Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Brilliant%20Energy",
+      "sha256": "0f63dde40169a12c555ca47cae13e57da4d0175ed6ad3d62c22ebbeeba1e9e03",
+      "bytes": 23852,
+      "fetchedAt": "2026-10-16T19:07:18.578Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Cold%20Iron%20Masterwork%20Longsword",
+      "sha256": "7d403968d10cfe1c25aaffd33c4d590cbbb9fe9136566303a04f1efdf4189f8e",
+      "bytes": 22106,
+      "fetchedAt": "2026-10-16T19:07:19.584Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Dagger%20of%20Venom",
+      "sha256": "50179e0b1b555eeddac52a2eba3411bc1ca7af2be1be967be83cf7161ed0e263",
+      "bytes": 22923,
+      "fetchedAt": "2026-10-16T19:07:20.584Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Dancing",
+      "sha256": "12a1d1103f684297ac052670fd624f26a361bd916305ec63b3e98f7c4bf42c4d",
+      "bytes": 25133,
+      "fetchedAt": "2026-10-16T19:07:21.590Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Defending",
+      "sha256": "1fa71f6607528c7045009f7649dfc0f974dccf74b44c34f62e0a14b617f6f850",
+      "bytes": 23222,
+      "fetchedAt": "2026-10-16T19:07:22.589Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Disruption",
+      "sha256": "b09895c1573f12010f093589c691a1110751317a880b9ac19c1e3b105e425ac7",
+      "bytes": 22556,
+      "fetchedAt": "2026-10-16T19:07:23.583Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Distance",
+      "sha256": "6a696095c6a3d3d505065fb5213edc758db64aadecf06ff937c661ab0d8974e0",
+      "bytes": 22362,
+      "fetchedAt": "2026-10-16T19:07:24.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Dwarven%20Thrower",
+      "sha256": "559e91387042fa6a6b24bb142b39ddbb3cc2c3b1ca199c7f887cf15361d0abe2",
+      "bytes": 23499,
+      "fetchedAt": "2026-10-16T19:07:25.579Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flame%20Tongue",
+      "sha256": "6d35356ddb26bbffb86714f4a5e52a8ae28dbdd25d129c0842ea8356d4992bfe",
+      "bytes": 22628,
+      "fetchedAt": "2026-10-16T19:07:27.806Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming",
+      "sha256": "188acbe42c063c7694d4a5029413c7774c223243daaf7b783587683852029c50",
+      "bytes": 22671,
+      "fetchedAt": "2026-10-16T19:07:27.955Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming%20Burst",
+      "sha256": "273a65619c59f28727c13fdc4c2115448b280378b21a3441d299b8b6966b8971",
+      "bytes": 24225,
+      "fetchedAt": "2026-10-16T19:07:28.982Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Frost",
+      "sha256": "5b60af04217c14403255b0e518796ecb49bd28224c1e67830231fd4cc3fb1a4b",
+      "bytes": 22537,
+      "fetchedAt": "2026-10-16T19:07:29.972Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Frost%20Brand",
+      "sha256": "808a33bd9e96ad1c1bae2a54000db610279f20ec532ef559d11dc83bb1464d23",
+      "bytes": 24149,
+      "fetchedAt": "2026-10-16T19:07:30.984Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Ghost%20Touch",
+      "sha256": "a822f84ab68a944571ef9b1033c231123a728f4c22d8c4eedddfa7e18495875b",
+      "bytes": 23748,
+      "fetchedAt": "2026-10-16T19:07:31.980Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Holy",
+      "sha256": "d6f75b5d42ce87c879ec68fec6c49cea3561b2b411f7f841758bb0f7a597acc5",
+      "bytes": 23699,
+      "fetchedAt": "2026-10-16T19:07:32.975Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Holy%20Avenger",
+      "sha256": "3492bd9fcfafff4eb98a6610088133d37cdf96fb0f79a232849ef65550b9d2ff",
+      "bytes": 23542,
+      "fetchedAt": "2026-10-16T19:07:33.981Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Icy%20Burst",
+      "sha256": "f7987793b21a4d8dbb0d7f9b99c81c61dde44ab514c6313cfd9d9ad8bb79dbb1",
+      "bytes": 24013,
+      "fetchedAt": "2026-10-16T19:07:34.969Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Javelin%20of%20Lightning",
+      "sha256": "4e296d8b132528496a61a01776fef79695248faf74bae6c3f4a23d28a26ef951",
+      "bytes": 22290,
+      "fetchedAt": "2026-10-16T19:07:35.977Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Keen",
+      "sha256": "11c08b67b59566bea3f8b12b8724ad3238f4f3821e14949bc0a0f2d215c14a26",
+      "bytes": 23021,
+      "fetchedAt": "2026-10-16T18:59:14.963Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Ki%20Focus",
+      "sha256": "425ef39cf12cc175a771ade9f172328fb7910252e9552121c4338647e173fcf8",
+      "bytes": 23200,
+      "fetchedAt": "2026-10-16T19:07:36.975Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Life%20Drinker",
+      "sha256": "a67932370ee976caa99e6ae30b428590d63c4e5418008e84e2073f27151d7932",
+      "bytes": 23796,
+      "fetchedAt": "2026-10-16T19:07:37.982Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Luck%20Blade%20(0%20wishes)",
+      "sha256": "6479584d87f51f1b6e94c4b3e71c60fdc366d3cb3375cf70cea45098bfac3b22",
+      "bytes": 24191,
+      "fetchedAt": "2026-10-16T19:02:36.530Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Luck%20Blade%20(1%20wish)",
+      "sha256": "0f6141d225a0fc49f4281d9c75858636e0588f0016a6b66fc47ac034d9d0bda3",
+      "bytes": 23518,
+      "fetchedAt": "2026-10-16T19:02:37.515Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Luck%20Blade%20(2%20wishes)",
+      "sha256": "d0c2228d464b491c4e3ae699f9013004202f5a48ae8fdd2ca06115da87391117",
+      "bytes": 23419,
+      "fetchedAt": "2026-10-16T19:07:39.792Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Luck%20Blade%20(3%20wishes)",
+      "sha256": "4b1236d373ff2bca990f000917020839ab6867ec97a85778fed14bcb02ca0ab5",
+      "bytes": 23419,
+      "fetchedAt": "2026-10-16T19:07:39.983Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Mace%20of%20Smiting%20(normal)",
+      "sha256": "6533dff9cafb807bf2e6b05a10505479e102ad8d3dd6c70976d613ce09a5363f",
+      "bytes": 23767,
+      "fetchedAt": "2026-10-16T19:07:40.978Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Mace%20of%20Terror",
+      "sha256": "d988238f7c54e6878556f2961a8888b7c318910b059a89dced9f9b8fb49461b0",
+      "bytes": 23529,
+      "fetchedAt": "2026-10-16T19:07:41.978Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Masterwork%20Silver%20Dagger",
+      "sha256": "6b139f7e003827cac65b5b592f63f8fe868ae808e036d5b3312f507c4aed7d10",
+      "bytes": 21948,
+      "fetchedAt": "2026-10-16T19:07:43.813Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Merciful",
+      "sha256": "297599105abff750239ead139be7f7a15e70858f6601f35be4be217ec58cb492",
+      "bytes": 22753,
+      "fetchedAt": "2026-10-16T19:07:43.973Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Mighty%20Cleaving",
+      "sha256": "c26e55592e63b6f005c316e81f9764c7e1b971bf0fa11fa33bce335118631a40",
+      "bytes": 22957,
+      "fetchedAt": "2026-10-16T19:07:44.984Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Nine%20Lives%20Stealer",
+      "sha256": "92e8b49221da9ac51142f19c4a2de285cfae35fade5eec0aaf84f08dd0821e9a",
+      "bytes": 25097,
+      "fetchedAt": "2026-10-16T19:07:45.991Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Oathbow",
+      "sha256": "f368157491877188ab9ded512d0b3e3c91ab6d512add5aa400485d43513d5b31",
+      "bytes": 25936,
+      "fetchedAt": "2026-10-16T19:07:46.982Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Rapier%20of%20Puncturing",
+      "sha256": "c5c6dd41d23c50d086e0fbac0a5ae238839f7d8a45b202b954acdcf7c09fa23a",
+      "bytes": 22803,
+      "fetchedAt": "2026-10-16T19:07:47.989Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Returning",
+      "sha256": "444c0d0bac0d9061041ea7a109e6e9fc9c3ae4ae2c2b20aac625ca3f6ebc9715",
+      "bytes": 23556,
+      "fetchedAt": "2026-10-16T19:07:48.986Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Screaming%20Bolt",
+      "sha256": "63b07a2ec2de7f7f69c97230edb380dec12677ff98c82effd7be8b8463700853",
+      "bytes": 22484,
+      "fetchedAt": "2026-10-16T19:07:49.980Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Seeking",
+      "sha256": "1055dcf73a1d989be376fa009e25cf775c1a96bbf117e8920dc4ac70a3753ce9",
+      "bytes": 23094,
+      "fetchedAt": "2026-10-16T19:07:50.984Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shatterspike",
+      "sha256": "2c09808d736bd6759b57195e30132991ab0ca1c8eddcafda74de3fc805212ff8",
+      "bytes": 23491,
+      "fetchedAt": "2026-10-16T19:07:52.886Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shifter's%20Sorrow",
+      "sha256": "4fe41b07b645536bb24afeae4ffa2e6d0c45cf41a99f42d4ba5bea3d039382dc",
+      "bytes": 23111,
+      "fetchedAt": "2026-10-16T19:07:53.039Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shock",
+      "sha256": "3655619715b73611bf07f56b34fb84f5f92c533a37b4994deb257741f8d36322",
+      "bytes": 22716,
+      "fetchedAt": "2026-10-16T19:07:54.064Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shocking%20Burst",
+      "sha256": "49814a62bd71d2a33fea5d3c3bba79a45412c178d90920c3479c7925c8834c2f",
+      "bytes": 24163,
+      "fetchedAt": "2026-10-16T19:07:55.059Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Slaying%20Arrow%20(greater)",
+      "sha256": "2ad0de7510fbdab40204a09625c5e083c7d745c8c831e9ca5604e6f4de9cd5fb",
+      "bytes": 27234,
+      "fetchedAt": "2026-10-16T19:07:56.064Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Slaying%20Arrow%20(normal)",
+      "sha256": "e38cb28da4701bf35cd5c05e1181a120c1b2e267a4f32f928a322f7dfd88427a",
+      "bytes": 29970,
+      "fetchedAt": "2026-10-16T19:07:57.057Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sleep%20Arrow",
+      "sha256": "7274e2440079b187728e3b675e7ac753d1298c0e80607f0ee3c3796a945c5c53",
+      "bytes": 22883,
+      "fetchedAt": "2026-10-16T19:07:58.065Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Speed",
+      "sha256": "4a268df4420d4f308ee984e8df1041844250ad19af8f569da5b54e492f4e7e5d",
+      "bytes": 22806,
+      "fetchedAt": "2026-10-16T19:07:59.059Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Spell%20Storing",
+      "sha256": "70602abaa784d34ae9c47be351ab082b93a073cf1bc781043a32d1e619e5b676",
+      "bytes": 25377,
+      "fetchedAt": "2026-10-16T19:08:00.065Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sun%20Blade",
+      "sha256": "30b97abd8e1820253b00d0bc39197af6fb9ab06291556f83616635e48dbde2f4",
+      "bytes": 28115,
+      "fetchedAt": "2026-10-16T19:08:01.058Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sword%20of%20Life%20Stealing",
+      "sha256": "07dfeeaab5c0834fba55db373a21bce0137a47ffed6e8513d4336f452fe306d4",
+      "bytes": 23207,
+      "fetchedAt": "2026-10-16T19:08:02.068Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sword%20of%20Subtlety",
+      "sha256": "91ed8a0011abd2e3823ec55ef0fca62981952c9cd95cbc3b9926db8ac7fa8e8b",
+      "bytes": 22450,
+      "fetchedAt": "2026-10-16T19:08:03.063Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sword%20of%20the%20Planes",
+      "sha256": "0aa8989206bc03c186e232cbc498565aed6e27f59b87cc8a184f6b484f67bd65",
+      "bytes": 23531,
+      "fetchedAt": "2026-10-16T19:08:04.059Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sylvan%20Scimitar",
+      "sha256": "d88600c4cab26652b027dca4986caa6c99c97d9b77966237b072e06d9d05b01d",
+      "bytes": 22497,
+      "fetchedAt": "2026-10-16T19:08:05.060Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Throwing",
+      "sha256": "719fcde5447344241ce2a1233b10abe1ab074e1c8e1d3ed5849ce08d81503fc7",
+      "bytes": 22511,
+      "fetchedAt": "2026-10-16T19:08:06.065Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering",
+      "sha256": "a40a12eaea02b3170f9bcaba6b0911f3465477efa4afa44c7bf1b3eb1aa6499d",
+      "bytes": 23831,
+      "fetchedAt": "2026-10-16T19:08:07.053Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Trident%20of%20Fish%20Command",
+      "sha256": "54a45c050bd586e5248ee6b76a7f8cf1299fa9aaa6e756a85309f7bba51f2036",
+      "bytes": 23939,
+      "fetchedAt": "2026-10-16T19:08:08.051Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Trident%20of%20Warning",
+      "sha256": "b7125a50d43407c498ce338b1072a275a57f5a26ff151355516846f7589ffde8",
+      "bytes": 23134,
+      "fetchedAt": "2026-10-16T19:08:09.051Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Unholy",
+      "sha256": "b80c4581503fc2a94acd7786bf772b4cf40bd6185c232bb1720b5941f67f05c7",
+      "bytes": 23497,
+      "fetchedAt": "2026-10-16T19:08:10.064Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Vicious",
+      "sha256": "ecfdd0c183585faf3553ef4fbeb1096ffe6e9a12cdd8b393d8e568ec35df29e2",
+      "bytes": 22878,
+      "fetchedAt": "2026-10-16T19:08:11.055Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Vorpal",
+      "sha256": "2731070a8f3583c6ca74a66d121e9e2bac416f3eaa6c50b960a547807e76155f",
+      "bytes": 24038,
+      "fetchedAt": "2026-10-16T19:08:12.058Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Wounding",
+      "sha256": "1f2607fec38f801bef77960aec2ceb90ca93e28f9ef8c05a41e27603f45d8505",
+      "bytes": 23669,
+      "fetchedAt": "2026-10-16T19:08:13.054Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Amulet%20of%20Mighty%20Fists1",
+      "sha256": "3821dd13c4cf3579900d761075f10d0334967ba3f64df1c06110cea745c6ce32",
+      "bytes": 27046,
+      "fetchedAt": "2026-10-16T23:31:41.559Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Amulet%20of%20Mighty%20Fists2",
+      "sha256": "3f9ffa25dd56d51e681ece5a7d8ab1aaecb25f55aee635d30d4587ff0a6ebe34",
+      "bytes": 26310,
+      "fetchedAt": "2026-10-16T23:32:06.536Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Amulet%20of%20Mighty%20Fists3",
+      "sha256": "45442f4150c1e6409d81869097098d802ca46e7ab0a14c7cde9137c04febd3a0",
+      "bytes": 26201,
+      "fetchedAt": "2026-10-16T23:32:11.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Amulet%20of%20Mighty%20Fists4",
+      "sha256": "96fb66177f61b428dd48ad0f0dc7771d9328bc0d2324b682f2500b07f4c71fea",
+      "bytes": 26201,
+      "fetchedAt": "2026-10-16T23:32:36.713Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Amulet%20of%20Mighty%20Fists5",
+      "sha256": "88e2dfe7e0beefd74bf514c2cabd6c60c96d10212628fd4b6c55068feb7eb610",
+      "bytes": 26201,
+      "fetchedAt": "2026-10-16T23:32:41.538Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Amulet%20of%20Natural%20Armor1",
+      "sha256": "b273cc2e8a48ae99b45f4e77d1e99b957805c497e392789be160f1234ab506a3",
+      "bytes": 25499,
+      "fetchedAt": "2026-10-16T23:31:40.850Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Amulet%20of%20Natural%20Armor2",
+      "sha256": "036e8a0fe4abc588e57031e68de53801ce6b5140c8fcfdc707a434ad576597ea",
+      "bytes": 25080,
+      "fetchedAt": "2026-10-16T23:32:09.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Amulet%20of%20Natural%20Armor3",
+      "sha256": "4d74a2e074a58f7e11a503fd78d634c8dba363564c277f33cf236a3c3af18dda",
+      "bytes": 25189,
+      "fetchedAt": "2026-10-16T23:32:10.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Amulet%20of%20Natural%20Armor4",
+      "sha256": "5675ea1ce9f2f54f33c7504af73a6953a97898947c2341ba898c884c4be789b1",
+      "bytes": 25080,
+      "fetchedAt": "2026-10-16T23:32:39.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Amulet%20of%20Natural%20Armor5",
+      "sha256": "4262db6cca532e2750e4283687ca9d3cf0d38ee6fecff4566069c1e69141d15e",
+      "bytes": 25080,
+      "fetchedAt": "2026-10-16T23:32:40.550Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Amulet%20of%20Proof%20against%20Detection%20and%20Location",
+      "sha256": "95660fa931fa996db318020c6d2ec45cfa00e1b4cec40c36176589f00bd252c2",
+      "bytes": 24447,
+      "fetchedAt": "2026-10-16T23:33:15.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Amulet%20of%20the%20Planes",
+      "sha256": "7d184d9052962d10d54388228c0431b9d68af7260ef8fd13d7e353423ca99f67",
+      "bytes": 25053,
+      "fetchedAt": "2026-10-16T23:33:16.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Apparatus%20of%20the%20Crab",
+      "sha256": "3ca82c9e4b7056f7cf6282a19533e231063d859f9bc580ba2f36f6b1a5bf4624",
+      "bytes": 29553,
+      "fetchedAt": "2026-10-16T23:33:18.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bag%20of%20HoldingType%20I",
+      "sha256": "0bdfe23f7db7fe82382dfcee75ca9aaac26538302f5e7fcab081ee09632953a5",
+      "bytes": 31745,
+      "fetchedAt": "2026-10-16T23:36:06.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bag%20of%20HoldingType%20II",
+      "sha256": "26786c992820bb88d5f98f897841a5154ae85a335dbdcad56582071eb7778ef5",
+      "bytes": 29230,
+      "fetchedAt": "2026-10-16T23:36:07.551Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bag%20of%20HoldingType%20III",
+      "sha256": "ba1ecd3476f4bd54f38270031a05cd73b4b0170d8de3b031f7c1272c713dc7c4",
+      "bytes": 29124,
+      "fetchedAt": "2026-10-16T23:36:10.703Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bag%20of%20HoldingType%20IV",
+      "sha256": "50f43db722ab2a40a3721c1da307faf709b604d926918981d30d532c69387ef0",
+      "bytes": 29230,
+      "fetchedAt": "2026-10-16T23:36:11.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bag%20of%20TricksGray",
+      "sha256": "21a8e6cbaeb274261d09696bfe7b78061bc3641ecd07cf15d903e25a87e5b3b9",
+      "bytes": 28594,
+      "fetchedAt": "2026-10-16T23:34:35.539Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bag%20of%20TricksRust",
+      "sha256": "c88bffb4e226955b040d4e25aecca0e55cdd72b07ad960af97b170405683aecd",
+      "bytes": 28594,
+      "fetchedAt": "2026-10-16T23:35:42.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bag%20of%20TricksTan",
+      "sha256": "bb1f31acfc6944231181e9d6332458764dd1a5a0c21601fd17d6cc730ae72179",
+      "bytes": 28482,
+      "fetchedAt": "2026-10-16T23:36:00.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bead%20of%20Force",
+      "sha256": "59649e3c51291d6522e01b63d8a8e8d7ea6fe579601fb765d7719396f17d9d77",
+      "bytes": 27123,
+      "fetchedAt": "2026-10-16T23:33:19.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Dwarvenkind",
+      "sha256": "ae7ac15187c431947fc5eb11efb6da27e0a16c55b5105eecd8d41794d21b7a41",
+      "bytes": 24930,
+      "fetchedAt": "2026-10-16T23:33:20.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Giant%20Strength2",
+      "sha256": "13f7ce0f74cbd545c4bde79ee0d12d0ac5f0d5d602406b408db6426f357bf476",
+      "bytes": 24552,
+      "fetchedAt": "2026-10-16T23:32:07.550Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Giant%20Strength4",
+      "sha256": "90d801387d11ccc08b8f717356c3190dfc037bb8b3d14806113dd959bfd8c240",
+      "bytes": 24191,
+      "fetchedAt": "2026-10-16T23:32:38.727Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Giant%20Strength6",
+      "sha256": "1d69b4bc77fca6c1cee95ba481431fa1352f7791f6846504bd03f481d52a1777",
+      "bytes": 24300,
+      "fetchedAt": "2026-10-16T23:32:59.551Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Incredible%20Dexterity2",
+      "sha256": "c915d2767cb80e45b411de49c9f159a3c7dbc07db86145b08a1f987a24e229d1",
+      "bytes": 24578,
+      "fetchedAt": "2026-10-16T23:32:08.551Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Incredible%20Dexterity4",
+      "sha256": "c761cd7e150ed9926035c4ded4ea3292ceb85d9ddaf3080d55baf24878c9fe72",
+      "bytes": 24326,
+      "fetchedAt": "2026-10-16T23:32:37.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Incredible%20Dexterity6",
+      "sha256": "89a1a6e9085878a173ea8c52bc624a48dbe78e67094dbc92401e5273c669f837",
+      "bytes": 24326,
+      "fetchedAt": "2026-10-16T23:33:00.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Mighty%20Constitution2",
+      "sha256": "110363ee140f170fade01d8c8cc129475c61185d6ade350523737bdcaff90242",
+      "bytes": 24508,
+      "fetchedAt": "2026-10-16T23:32:02.554Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Mighty%20Constitution4",
+      "sha256": "66df842ce8e081dad6f1efe053596bac07f15770d1e56aa22eb2adddb379c498",
+      "bytes": 24169,
+      "fetchedAt": "2026-10-16T23:32:34.623Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Mighty%20Constitution6",
+      "sha256": "65c9bc143fcbd2fbc00a9fa00ae83dc542a769d193716c0b0de07f0a502efe2e",
+      "bytes": 24278,
+      "fetchedAt": "2026-10-16T23:32:55.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Physical%20Might2",
+      "sha256": "5bd4324fc9165ac932c67c68948e8db608a70ffe09d292e80a7d1306264fed4b",
+      "bytes": 24859,
+      "fetchedAt": "2026-10-16T23:32:03.551Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Physical%20Might4",
+      "sha256": "26594f65d57127ca1b73d1f0acdaedc0053a76095e3631c432036408b2680ccc",
+      "bytes": 24443,
+      "fetchedAt": "2026-10-16T23:32:33.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Physical%20Might6",
+      "sha256": "de826208f60d3b75f26289eb50fe825c98360e56f975b4c2639890b7b3705119",
+      "bytes": 24443,
+      "fetchedAt": "2026-10-16T23:32:56.557Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Physical%20Perfection2",
+      "sha256": "cfc96e28243626756cf2aed5ee5496057b27c7cc7d9e783d6c2e13f5f83a0d9e",
+      "bytes": 24738,
+      "fetchedAt": "2026-10-16T23:32:04.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Physical%20Perfection4",
+      "sha256": "0c9a851e9c8240e12754fd9dfa85a719bf095f34c15adde61bbad6a1a8ebc390",
+      "bytes": 24472,
+      "fetchedAt": "2026-10-16T23:32:32.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Belt%20of%20Physical%20Perfection6",
+      "sha256": "062b246e8395b1feb27dab5c6aada74eeda911b33df9a442763727318d418547",
+      "bytes": 24472,
+      "fetchedAt": "2026-10-16T23:32:57.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Blessed%20Book",
+      "sha256": "5cb7611ef5b775833da119ab416e8690be484ba8234c263cbf5bf5c2f089ea39",
+      "bytes": 24490,
+      "fetchedAt": "2026-10-16T23:33:22.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Boots%20of%20Elvenkind",
+      "sha256": "ce0c9c228e64f7a960a923fe2b6b3c9e6ab61d615b7cee7c35660b80b522c811",
+      "bytes": 23836,
+      "fetchedAt": "2026-10-16T23:33:23.549Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Boots%20of%20Levitation",
+      "sha256": "5467cff6290f57e3ac53ff9cabf38f0be362b750a02f2818cbab77f7b11e6b4e",
+      "bytes": 23970,
+      "fetchedAt": "2026-10-16T23:33:24.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Boots%20of%20Speed",
+      "sha256": "dbdf451b1543072253891dbd17b66328acf8268d8a8d416140d4af0dfb0ae0aa",
+      "bytes": 23800,
+      "fetchedAt": "2026-10-16T23:33:25.719Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Boots%20of%20Striding%20and%20Springing",
+      "sha256": "8798defad3d3ba0d9855522d56f5a9271977c41269f79d29abe2505acb521784",
+      "bytes": 24140,
+      "fetchedAt": "2026-10-16T23:33:26.531Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Boots%20of%20Teleportation",
+      "sha256": "e3f1f8d5859bacb0afe51ca6b82496c4b818635fd059b24f7872efb4e799bc54",
+      "bytes": 23887,
+      "fetchedAt": "2026-10-16T23:33:27.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Boots%20of%20the%20Winterlands",
+      "sha256": "deb3b6c300a2bff39e31e7731cd79a62f426644826d8625fe462e39e91b830a5",
+      "bytes": 24655,
+      "fetchedAt": "2026-10-16T23:33:28.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bottle%20of%20Air",
+      "sha256": "4530cb5a53bf23b7ea16ac151b254c76592ec2620db0a5400f3f933ef0faa3d9",
+      "bytes": 24584,
+      "fetchedAt": "2026-10-16T23:33:29.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bracelet%20of%20Friends",
+      "sha256": "b47f958389645488560b02ce2ab506c02381ff24e1ffc1255fcca6e38367768e",
+      "bytes": 25849,
+      "fetchedAt": "2026-10-16T23:33:30.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bracers%20of%20Archery%20(Greater)",
+      "sha256": "1514a573c250fe6610761ae14908468d34ae5844b5ab401f4b7b0792ef5db7fb",
+      "bytes": 24515,
+      "fetchedAt": "2026-10-16T23:33:31.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bracers%20of%20Archery%20(Lesser)",
+      "sha256": "a8e85d28520e4083d0a9351fd083868abb9c4c50be8116f273050707e16ee97d",
+      "bytes": 24222,
+      "fetchedAt": "2026-10-16T23:33:32.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bracers%20of%20Armor1",
+      "sha256": "888309e5242d9b4369a2d73659961037b11a841492a31ab518ef4ac35e4144d6",
+      "bytes": 30078,
+      "fetchedAt": "2026-10-16T23:31:42.555Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bracers%20of%20Armor2",
+      "sha256": "83ada4325c3fe8e88a516dbcef9566b424da0836aed3b03ce2492b76746eb783",
+      "bytes": 28559,
+      "fetchedAt": "2026-10-16T23:32:05.537Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bracers%20of%20Armor3",
+      "sha256": "204a5661e713e0314200bcf3f4a50fbce4d5cd9a243069d523c645e01b759ac0",
+      "bytes": 28668,
+      "fetchedAt": "2026-10-16T23:32:12.539Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bracers%20of%20Armor4",
+      "sha256": "4463ce0d93b531fc7153905a0922180500b81b033418613411348ad48090d5d7",
+      "bytes": 28668,
+      "fetchedAt": "2026-10-16T23:32:35.551Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bracers%20of%20Armor5",
+      "sha256": "3002f6cf2500a39a355f9576956d16212ae05b88a681739ae6a9fd782d15332e",
+      "bytes": 28559,
+      "fetchedAt": "2026-10-16T23:32:42.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bracers%20of%20Armor6",
+      "sha256": "d94d12945c169550c6122fb5c94a350303b536cdafd2e04a108a35f39ca33856",
+      "bytes": 28559,
+      "fetchedAt": "2026-10-16T23:32:58.555Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bracers%20of%20Armor7",
+      "sha256": "2f2ca4ec3c0e607584893b6a3dfccbd9ea11ab30cc51e48d2bad7650402b0676",
+      "bytes": 28668,
+      "fetchedAt": "2026-10-16T23:33:01.550Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bracers%20of%20Armor8",
+      "sha256": "dd65c16c34c6bec3ba37962099e91ec13dcafbb993d521de4cad8b405972b07c",
+      "bytes": 28559,
+      "fetchedAt": "2026-10-16T23:33:02.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Brooch%20of%20Shielding",
+      "sha256": "a94b57310c80e66dba53eaa4135aec191948b2eb8b88947e4153a59e5429d6b7",
+      "bytes": 24194,
+      "fetchedAt": "2026-10-16T23:33:34.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Broom%20of%20Flying",
+      "sha256": "4d954577b7dc3660f23f0b5d99c50055a1d676b285e17ca3acf7c222f1ca4a24",
+      "bytes": 25166,
+      "fetchedAt": "2026-10-16T23:33:35.553Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Candle%20of%20Invocation",
+      "sha256": "82b4d19512920a26d4117a4dbf2fb3338e81545229d49a15aab388c4b118337c",
+      "bytes": 27147,
+      "fetchedAt": "2026-10-16T23:33:36.595Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Candle%20of%20Truth",
+      "sha256": "9ff9ef15d69f18c9494a5ba52eaa226f80679d1d64ce9465564ca85d9a4f276a",
+      "bytes": 23945,
+      "fetchedAt": "2026-10-16T23:33:37.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cape%20of%20the%20Mountebank",
+      "sha256": "6bf5f123c53095468b42ecdcc7761bd8edbd076bc56709e91ea699909eb87eeb",
+      "bytes": 23917,
+      "fetchedAt": "2026-10-16T23:33:38.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Carpet%20of%20Flying10-ft.-by-10-ft.",
+      "sha256": "55b68b689797fbf5b0bcdeafe910030f1055e3315ad852984b173faea85420ea",
+      "bytes": 26585,
+      "fetchedAt": "2026-10-16T23:33:03.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Carpet%20of%20Flying5-ft.-by-10-ft.",
+      "sha256": "9f434b7a350c0411a69b954dea7ee6271bdfc701c1e26f92c84be623299e6132",
+      "bytes": 26687,
+      "fetchedAt": "2026-10-16T23:33:08.553Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Carpet%20of%20Flying5-ft.-by-5-ft.",
+      "sha256": "717e7bd561bcd87cf9b0fa780282f66f2ad1a9a111774a49267acd6cf31a4419",
+      "bytes": 28089,
+      "fetchedAt": "2026-10-16T23:33:09.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Chime%20of%20Interruption",
+      "sha256": "406927812da1482e67524d1d3af2a1b12342d599e8152270bd356fdd42d4c9cc",
+      "bytes": 24047,
+      "fetchedAt": "2026-10-16T23:33:39.599Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Chime%20of%20Opening",
+      "sha256": "a1447a7280f9a95a2300070ef2ffefeefa26bcb6a186b7d728ba7c1983715965",
+      "bytes": 26865,
+      "fetchedAt": "2026-10-16T23:33:40.591Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Circlet%20of%20Persuasion",
+      "sha256": "ad80705f129508ef1017e64f4e821408fa0783b73558ef8473fff9a7e9fc9a76",
+      "bytes": 23503,
+      "fetchedAt": "2026-10-16T23:33:41.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cloak%20of%20Arachnida",
+      "sha256": "5888c4a488de4d5b2604192a90b9f77d9f4b2deb4f4f4e0ff8d183eb2115d77f",
+      "bytes": 24836,
+      "fetchedAt": "2026-10-16T23:33:43.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cloak%20of%20Displacement%20(Major)",
+      "sha256": "fc429f132c098756a455c37d8ffab8e0049afb0a77d0517299a808a2134981ce",
+      "bytes": 24316,
+      "fetchedAt": "2026-10-16T23:33:44.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cloak%20of%20Displacement%20(Minor)",
+      "sha256": "0042047b7f59b6bd0b5e2739ba3f692494a49d754e4b3e24e8e4b5afcde7ba20",
+      "bytes": 24307,
+      "fetchedAt": "2026-10-16T23:33:45.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cloak%20of%20Elvenkind",
+      "sha256": "b0af5e1576c3e59e767ce0d888976544187068a2485a75bd32038914d5eaca75",
+      "bytes": 24059,
+      "fetchedAt": "2026-10-16T23:33:46.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cloak%20of%20Etherealness",
+      "sha256": "cf415b1e4a8b2603af7e2341999e23de181f5e64ff204dacb68140712d935fa5",
+      "bytes": 24274,
+      "fetchedAt": "2026-10-16T23:33:47.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cloak%20of%20Resistance1",
+      "sha256": "2ce06482d0fe2ba47aac1a05d527832d4820e3d7cefff2942b6c581e880921bb",
+      "bytes": 25198,
+      "fetchedAt": "2026-10-16T23:31:43.530Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cloak%20of%20Resistance2",
+      "sha256": "0fe204959777e2e14a562ed44744e8ef8c2fb7613afc86b277b2310884468eba",
+      "bytes": 24860,
+      "fetchedAt": "2026-10-16T23:32:01.929Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cloak%20of%20Resistance3",
+      "sha256": "2872fdf88bed2f78c609cf51cd06abd90f42428aed405f5a1cc967846bb14813",
+      "bytes": 24969,
+      "fetchedAt": "2026-10-16T23:32:13.535Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cloak%20of%20Resistance4",
+      "sha256": "950b9d20dbea6a66129f10d24af00d7c8d7e23b07abf3d806e100eeaa799f215",
+      "bytes": 24969,
+      "fetchedAt": "2026-10-16T23:32:31.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cloak%20of%20Resistance5",
+      "sha256": "77aeb7425a53eef79815b69abbb6343f89843329120581c91eac2aca23302c1c",
+      "bytes": 24969,
+      "fetchedAt": "2026-10-16T23:32:43.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cloak%20of%20the%20Bat",
+      "sha256": "39813e52af1ae5261aac5de2f34bdc0fd6922e0301dd93773f5dcec4412ed7cc",
+      "bytes": 25911,
+      "fetchedAt": "2026-10-16T23:33:48.613Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cloak%20of%20the%20Manta%20Ray",
+      "sha256": "c6634beb0ee329c5de2bdb21520640edc93900ba32e96d7d754ef32f49bd246f",
+      "bytes": 25717,
+      "fetchedAt": "2026-10-16T23:33:49.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Crown%20of%20Blasting%20(Major)",
+      "sha256": "ebb8f01a963a5832df828a59ec218848a611e23a1b7ee1743c6f35e35bfe587b",
+      "bytes": 23539,
+      "fetchedAt": "2026-10-16T23:33:50.600Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Crown%20of%20Blasting%20(Minor)",
+      "sha256": "2b1a1950fe892215805b2f5e0a9806bb2f43a23685c903f29178880546bdf73e",
+      "bytes": 23537,
+      "fetchedAt": "2026-10-16T23:33:51.539Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Crystal%20BallDetect%20Thoughts",
+      "sha256": "5db31037231f81641c50f87dbdeedf73c75c0447809ef38eafca076cfd6a99b5",
+      "bytes": 28104,
+      "fetchedAt": "2026-10-16T23:33:58.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Crystal%20BallNormal",
+      "sha256": "386ffb03c3421bd357b5dbcbe59e05d57ca1d169e86ad798a1df852f392b41d0",
+      "bytes": 29728,
+      "fetchedAt": "2026-10-16T23:35:16.549Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Crystal%20BallSee%20Invisibility",
+      "sha256": "de846b6b74eec0f774ded2043872732e9d9572969a2e424dcb42c4214e675652",
+      "bytes": 28002,
+      "fetchedAt": "2026-10-16T23:35:46.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Crystal%20BallTelepathy",
+      "sha256": "71a79bfe72edbd5306a2767ebd7d09948273fe00498efb6daf2d1ccd39624f17",
+      "bytes": 28078,
+      "fetchedAt": "2026-10-16T23:36:01.549Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Crystal%20BallTrue%20Seeing",
+      "sha256": "6dfa4984b437d2598554df51c7c6b3e8b36fd905b459f685e48a44f5933b9af4",
+      "bytes": 27979,
+      "fetchedAt": "2026-10-16T23:36:03.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cube%20of%20Force",
+      "sha256": "9ce23cc79155bdfcb40064e56f89d4a3aef4ebbeb154dc9d81a4b65041a741a6",
+      "bytes": 31299,
+      "fetchedAt": "2026-10-16T23:33:52.550Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cube%20of%20Frost%20Resistance",
+      "sha256": "7c139dcf94f65878b61270b9783c0ced41c1d3469e6901f00dd1cadb9b2d295a",
+      "bytes": 25149,
+      "fetchedAt": "2026-10-16T23:33:53.551Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Cubic%20Gate",
+      "sha256": "72be4609a1d6fd6986d8416cf1a9243c99f3a51d63cb8b2cfc97fd92002b18d8",
+      "bytes": 26166,
+      "fetchedAt": "2026-10-16T23:33:54.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Darkskull",
+      "sha256": "c3599571d9858cb312d77ac2c1de60ae938eedfa650441704e1f092839b94d02",
+      "bytes": 24028,
+      "fetchedAt": "2026-10-16T23:33:55.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Decanter%20of%20Endless%20Water",
+      "sha256": "b29b58aaef544401811aeb80270af71bd14d63ce951bc5ce0f5a262cbb1ef1ca",
+      "bytes": 26908,
+      "fetchedAt": "2026-10-16T23:33:56.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Deck%20of%20Illusions",
+      "sha256": "02281e9cd4190cc992034442e402d8c3e787d0856e526db2ce8e554303adcddc",
+      "bytes": 38856,
+      "fetchedAt": "2026-10-16T23:33:57.551Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Dimensional%20Shackles",
+      "sha256": "d29cd0b3aebd56695924e9343815a6cdc35f937dcc4c30cbb46da3655fc92853",
+      "bytes": 24068,
+      "fetchedAt": "2026-10-16T23:33:59.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Druid's%20Vestment",
+      "sha256": "37b73535ee68c6a75ccdb5c03704f022e1b9292ba16b29ddeeb9510d8bcfa0c0",
+      "bytes": 24074,
+      "fetchedAt": "2026-10-16T23:34:00.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Drums%20of%20Panic",
+      "sha256": "c8c35b5e04806ccad050fe9a994fefd290a835d0c4479d93379bb07c8d6dac04",
+      "bytes": 24296,
+      "fetchedAt": "2026-10-16T23:34:01.606Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Dust%20of%20Appearance",
+      "sha256": "7220181158934a3e3b490511573f14113b5c4fcf4a2957fd7803bba052780e5a",
+      "bytes": 25195,
+      "fetchedAt": "2026-10-16T23:34:02.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Dust%20of%20Disappearance",
+      "sha256": "949363ae9688b77aec832c2a7caea6daf78f18da6e67b4920221467175daee98",
+      "bytes": 25284,
+      "fetchedAt": "2026-10-16T23:34:03.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Dust%20of%20Dryness",
+      "sha256": "6ae683599331b9630386187f24654c357c68336e6f4c907d1b972f86180e7fdf",
+      "bytes": 25172,
+      "fetchedAt": "2026-10-16T23:34:04.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Dust%20of%20Illusion",
+      "sha256": "a960724e1a25cf263e77310842f3b1c81c65639098cf5021a33575e860430859",
+      "bytes": 24446,
+      "fetchedAt": "2026-10-16T23:34:05.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Dust%20of%20Tracelessness",
+      "sha256": "a3cebbdd34f971742320ec79f7f9db4a25ca541dd2963c986f8f3b32224b62d4",
+      "bytes": 25561,
+      "fetchedAt": "2026-10-16T23:34:06.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Efficient%20Quiver",
+      "sha256": "2701e0e84583f632f04e8873e1a16353e92941de4dc7555c7fc4837c49fa3da7",
+      "bytes": 25809,
+      "fetchedAt": "2026-10-16T23:34:08.549Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Efreeti%20Bottle",
+      "sha256": "37427c3d1d4e5f0eaeba3508ee2f60a11fc32ce4074aa9fee8cbc8ce8447555d",
+      "bytes": 26004,
+      "fetchedAt": "2026-10-16T23:34:09.549Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Elemental%20Gem",
+      "sha256": "e80946f3e26aa46574edfed8b36a30ed1460027bbea591aa0afb1a6d0609b80f",
+      "bytes": 25463,
+      "fetchedAt": "2026-10-16T23:34:10.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Elixir%20of%20Fire%20Breath",
+      "sha256": "c03cce944b48ecead494e73563f479b87e71a23f91e4bb624123aa799a03f0ef",
+      "bytes": 24272,
+      "fetchedAt": "2026-10-16T23:34:11.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Elixir%20of%20Hiding",
+      "sha256": "92e5f30c20d600c182bac07361a388bc1429d9314f9f5009649dd3e95c2fdad3",
+      "bytes": 23508,
+      "fetchedAt": "2026-10-16T23:34:12.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Elixir%20of%20Love",
+      "sha256": "0b5aa06364af67f26242da90a4b21260e372020b57c7ea708e353f20f01c1a74",
+      "bytes": 23915,
+      "fetchedAt": "2026-10-16T23:34:13.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Elixir%20of%20Swimming",
+      "sha256": "11c05d8b27b3db55659deeb4d41b79c20c3859ca29ea40efc4a5b4e87432288b",
+      "bytes": 23809,
+      "fetchedAt": "2026-10-16T23:34:14.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Elixir%20of%20Truth",
+      "sha256": "06431c39e49abab7c8248e5ba79c31e366b197ddbe6f822ecb6ee83926563975",
+      "bytes": 24862,
+      "fetchedAt": "2026-10-16T23:34:15.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Elixir%20of%20Tumbling",
+      "sha256": "37cc79d5a38b28a24fe857697ec4b152b39c1cb9ea298505315d801bf7897f10",
+      "bytes": 23665,
+      "fetchedAt": "2026-10-16T23:34:16.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Elixir%20of%20Vision",
+      "sha256": "b5cfb3d9074d9effb91f5f7bc1f81946cd8f35bfc05e80f9a6aa5be78699f806",
+      "bytes": 23585,
+      "fetchedAt": "2026-10-16T23:34:17.539Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Eversmoking%20Bottle",
+      "sha256": "a008dc38d8ed568e011a275dcae2dc393171b6f22472f41502c7eb9c58d3be99",
+      "bytes": 25411,
+      "fetchedAt": "2026-10-16T23:34:18.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Eyes%20of%20Charming",
+      "sha256": "683930907c921be64e568d0b8684ed6af6a8fc266972eff82acc717a1f1a9f98",
+      "bytes": 24015,
+      "fetchedAt": "2026-10-16T23:34:19.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Eyes%20of%20Doom",
+      "sha256": "d0af3bfcc821bb2f0f2bab002345e655cb0df7a8d0dcc21163394903f6de5feb",
+      "bytes": 25034,
+      "fetchedAt": "2026-10-16T23:34:20.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Eyes%20of%20the%20Eagle",
+      "sha256": "fba32929025073a32a2a634e753eec6d6234af4a88d39b3b496544d99e8224a0",
+      "bytes": 23990,
+      "fetchedAt": "2026-10-16T23:34:21.555Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Feather%20TokenAnchor",
+      "sha256": "a3b0d9cc0a52db8d5fb975341724c6cf370c519fa9909a20715fa4f0d96e5b9c",
+      "bytes": 34546,
+      "fetchedAt": "2026-10-16T23:33:17.794Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Feather%20TokenBird",
+      "sha256": "bf1f6caf5dd1a431a047afc895380e0d4301b87bdb1d835e5b624bb8d08001b8",
+      "bytes": 34613,
+      "fetchedAt": "2026-10-16T23:33:21.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Feather%20TokenFan",
+      "sha256": "6c1f55ad19c9124de96718e1cc2742fe8e839712298b6f7c2477d42cddf85057",
+      "bytes": 34934,
+      "fetchedAt": "2026-10-16T23:34:22.556Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Feather%20TokenSwan%20Boat",
+      "sha256": "8ea3d157ad6e9f39c543bb97d6071a2a7d26e8ad341b98d5bee512fe6ede3c44",
+      "bytes": 34767,
+      "fetchedAt": "2026-10-16T23:35:59.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Feather%20TokenTree",
+      "sha256": "59b504da731619e341bb26d2429fce969433cffa7526c4e7ddec2ecb6e3d75d5",
+      "bytes": 34691,
+      "fetchedAt": "2026-10-16T23:36:02.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Feather%20TokenWhip",
+      "sha256": "e4204ce6b162dae389d62e548c2eba85f5ed792211d3bbd0a52b6b4d196f9e33",
+      "bytes": 34836,
+      "fetchedAt": "2026-10-16T23:36:20.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Figurine%20of%20Wondrous%20PowerBronze%20Griffon",
+      "sha256": "3a5e6dd4147dacd2e80fc866b76b9cddfb7aa3f789d1daafbf0d923a0b10bec8",
+      "bytes": 74549,
+      "fetchedAt": "2026-10-16T23:33:33.553Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Figurine%20of%20Wondrous%20PowerEbony%20Fly",
+      "sha256": "6f6692ef7f9abd5397c6a23e97f598ee4d29f3332fbafc563467f33e111d5ad4",
+      "bytes": 74420,
+      "fetchedAt": "2026-10-16T23:34:07.775Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Figurine%20of%20Wondrous%20PowerGolden%20Lions",
+      "sha256": "4e350d80cdbbbaef0ea6018d6e362e847ab4f2ae32cee932463dc486dae30b0a",
+      "bytes": 74415,
+      "fetchedAt": "2026-10-16T23:34:33.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Figurine%20of%20Wondrous%20PowerIvory%20Goats",
+      "sha256": "b2373ee0aaddad8bdcc11bc85495532fd6bfa423628fe6c2dd12db31a1e190bf",
+      "bytes": 75696,
+      "fetchedAt": "2026-10-16T23:34:59.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Figurine%20of%20Wondrous%20PowerMarble%20Elephant",
+      "sha256": "da8d9361715aa0a45166eec4fd41dbffb3cbfbfcb12efa6427bae165c319280d",
+      "bytes": 74573,
+      "fetchedAt": "2026-10-16T23:35:06.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Figurine%20of%20Wondrous%20PowerObsidian%20Steed",
+      "sha256": "ed368551e647701b9f36c5af308bc69e08eeaf705b5e5d924df6fae2df676693",
+      "bytes": 75102,
+      "fetchedAt": "2026-10-16T23:35:17.555Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Figurine%20of%20Wondrous%20PowerOnyx%20Dog",
+      "sha256": "0b6c37ea7946f0eb2573b7365564b2cbb28788dad2ad17ed2b080b63ec407b05",
+      "bytes": 74677,
+      "fetchedAt": "2026-10-16T23:35:18.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Figurine%20of%20Wondrous%20PowerSerpentine%20Owl",
+      "sha256": "d3bc3bc2bdd143ea9c6b93805fe8e4fa62f469e8222a29fa9901be58b6a5221a",
+      "bytes": 74595,
+      "fetchedAt": "2026-10-16T23:35:47.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Figurine%20of%20Wondrous%20PowerSilver%20Raven",
+      "sha256": "936f1dabcc8c5b5d139a9dfd8d50afbeb50ca02ea6372721c3371d5d0ba3e8c3",
+      "bytes": 74755,
+      "fetchedAt": "2026-10-16T23:35:48.549Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Folding%20Boat",
+      "sha256": "4dfe2a48c71e2fc9bb980d3a53374966e389eb6f76ad81a85e30933fb6fd1b3a",
+      "bytes": 26949,
+      "fetchedAt": "2026-10-16T23:34:24.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Gauntlet%20of%20Rust",
+      "sha256": "847b9fabafec1e725c08563ccd934eafbcea4b8f05f333c683a66e4672ac43d4",
+      "bytes": 23973,
+      "fetchedAt": "2026-10-16T23:34:25.600Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Gem%20of%20Brightness",
+      "sha256": "2f5800edb2d1ac89001d0228af9192933a2d07437fbf476b39444fc98bcc090c",
+      "bytes": 27209,
+      "fetchedAt": "2026-10-16T23:34:26.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Gem%20of%20Seeing",
+      "sha256": "ffa3db56fed9926586a040dd7ccca86642433cc18417de1ed8d6c859a8b0d219",
+      "bytes": 24347,
+      "fetchedAt": "2026-10-16T23:34:27.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Glove%20of%20Storing",
+      "sha256": "669330d8b5925eec8645ebce162c99cb1540222e5bcc1f41612f57012e5cb6af",
+      "bytes": 25827,
+      "fetchedAt": "2026-10-16T23:34:28.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Gloves%20of%20Arrow%20Snaring",
+      "sha256": "deb2ec7ddf21657a04b90677770c75e371ca1eabca2d17c6a2e54e655bb02d01",
+      "bytes": 24337,
+      "fetchedAt": "2026-10-16T23:34:29.525Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Gloves%20of%20Swimming%20and%20Climbing",
+      "sha256": "623d432036527c7fc543937cf5458b80380d2f2fb1e640cd1063f85b19b75308",
+      "bytes": 23834,
+      "fetchedAt": "2026-10-16T23:34:30.607Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Goggles%20of%20Minute%20Seeing",
+      "sha256": "758860b0568f547d24605a2b57e4dd7f231dc2a4ad72431180811c5cf6ba9493",
+      "bytes": 24433,
+      "fetchedAt": "2026-10-16T23:34:31.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Goggles%20of%20Night",
+      "sha256": "af6bd9915e5ccc8d83d4e5c9f4dde0de58f1641c831e8fc902030bd6dee71c96",
+      "bytes": 23996,
+      "fetchedAt": "2026-10-16T23:34:32.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Golem%20ManualClay",
+      "sha256": "7c223efc6751aa57c73122b4a50056541fd448abc2b240c9016f10ed1c861eb5",
+      "bytes": 129166,
+      "fetchedAt": "2026-10-16T23:33:42.549Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Golem%20ManualFlesh",
+      "sha256": "d18008869b5cda5581fcedc39f1035b50001bfbe8559432c3442d301ac833b01",
+      "bytes": 129163,
+      "fetchedAt": "2026-10-16T23:34:23.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Golem%20ManualIron",
+      "sha256": "2e131ec51aa52eb59645efa01c1392abfb38c22a12d249b041b3ea935c489fc4",
+      "bytes": 129052,
+      "fetchedAt": "2026-10-16T23:34:56.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Golem%20ManualStone",
+      "sha256": "0fad211632404ad874ee618862dcc465a8440d8bab968f6d7be37e1156ca092c",
+      "bytes": 129061,
+      "fetchedAt": "2026-10-16T23:35:53.846Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Golem%20ManualStone%20Guardian",
+      "sha256": "7e7297cca3913dec6e0979183d22cbbf46575626cd69d96522463c1163896795",
+      "bytes": 129168,
+      "fetchedAt": "2026-10-16T23:35:54.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Golembane%20Scarab",
+      "sha256": "1f16697b421a43140eb8e14ffd1f9698158c51090e6f28e216a954abf62adb39",
+      "bytes": 24229,
+      "fetchedAt": "2026-10-16T23:34:34.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Hand%20of%20Glory",
+      "sha256": "465528a75730ac41625189b749cc1de9145ee0b0fc948ea0371915bec8a3af38",
+      "bytes": 25246,
+      "fetchedAt": "2026-10-16T23:34:37.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Hand%20of%20the%20Mage",
+      "sha256": "1570901917e5fc92cad9c8a83dee8f4481e1178d96dc933efddf0be797240cb8",
+      "bytes": 23713,
+      "fetchedAt": "2026-10-16T23:34:38.527Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Handy%20Haversack",
+      "sha256": "92b6c63c4e279a7174276b56468563cd8511fbffa14fbea7b8925f00ef2d9fd7",
+      "bytes": 26101,
+      "fetchedAt": "2026-10-16T23:34:39.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Harp%20of%20Charming",
+      "sha256": "1c7843cf749968db30350718310d0d2e6e4b46c8c874a8ef8dd51584e616d3de",
+      "bytes": 24678,
+      "fetchedAt": "2026-10-16T23:34:40.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Hat%20of%20Disguise",
+      "sha256": "57994741e10188436ed7bc1f1c25c856d175a506049c7372227309385e125c94",
+      "bytes": 23889,
+      "fetchedAt": "2026-10-16T23:34:41.538Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Alluring%20Charisma2",
+      "sha256": "6e3ce7f27644d919aeac0bec1df5f50a63af73bae3fdc482014f5d6e50ccfe23",
+      "bytes": 24682,
+      "fetchedAt": "2026-10-16T23:31:57.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Alluring%20Charisma4",
+      "sha256": "50c237f33c4968b9155f7f27d4fd00053a59fb256a8c17788f03132b877ee1ef",
+      "bytes": 24406,
+      "fetchedAt": "2026-10-16T23:32:30.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Alluring%20Charisma6",
+      "sha256": "2f447ff83b672123205cb3ecd2dd011fc3b58a3537fe6774d1830bf1da5f866b",
+      "bytes": 24406,
+      "fetchedAt": "2026-10-16T23:32:51.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Inspired%20Wisdom2",
+      "sha256": "31553581cc588fccfd19b35c6eb9178f05c86ba8fe431c9135dfedeeaf7c21bf",
+      "bytes": 24648,
+      "fetchedAt": "2026-10-16T23:31:58.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Inspired%20Wisdom4",
+      "sha256": "09cc9f0c8cdc5f873d6083cfbac6899fa173e205ce5cb8579f3b154865e89dc0",
+      "bytes": 24376,
+      "fetchedAt": "2026-10-16T23:32:29.550Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Inspired%20Wisdom6",
+      "sha256": "9dcacd112da1e9fd1eafb7c25aaf65dbab93b3cc292dfb799290ad55d9d173ab",
+      "bytes": 24267,
+      "fetchedAt": "2026-10-16T23:32:52.550Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Mental%20Prowess2",
+      "sha256": "cbfe8aa731d0099e5f40f895f75517f033340e2ed4d478f8eb444f3f9deb0c2c",
+      "bytes": 26529,
+      "fetchedAt": "2026-10-16T23:31:59.554Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Mental%20Prowess4",
+      "sha256": "f4b212cdf35e651254ad142a3a26bb7b718cc4a7147487bae22f77beca4773d2",
+      "bytes": 25719,
+      "fetchedAt": "2026-10-16T23:32:28.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Mental%20Prowess6",
+      "sha256": "c098846f17f6660cd760f2b5aa4c0aa91659d39b6e28fcc1fcae45f384dcbfae",
+      "bytes": 25610,
+      "fetchedAt": "2026-10-16T23:32:53.618Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Mental%20Superiority2",
+      "sha256": "17743dc4b7cdf51b6af3c4323e2592da04db4b3cf21887842423c78521a02ac2",
+      "bytes": 25089,
+      "fetchedAt": "2026-10-16T23:32:00.646Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Mental%20Superiority4",
+      "sha256": "29986643d6cec3e25ecad41acca2315046a6e5db44e672c070890264e284374c",
+      "bytes": 24797,
+      "fetchedAt": "2026-10-16T23:32:27.549Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Mental%20Superiority6",
+      "sha256": "a40be326fda101a67da258e35e1eaf8ee20101a92fcae173e44eb46240817c97",
+      "bytes": 24688,
+      "fetchedAt": "2026-10-16T23:32:54.554Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Vast%20Intelligence2",
+      "sha256": "ceb35953354a0e6175c3d773a233edaee950519d1a2234e0e20ee38009dd3c31",
+      "bytes": 26249,
+      "fetchedAt": "2026-10-16T23:31:56.553Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Vast%20Intelligence4",
+      "sha256": "5b13e90501e6fcfafa2733b3a9ea8740ef950c87346d349757e00e2195d9329a",
+      "bytes": 25388,
+      "fetchedAt": "2026-10-16T23:32:26.617Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Headband%20of%20Vast%20Intelligence6",
+      "sha256": "a7213ae1d2419414f73a0fa3a544d31e2c1c89f5ee90ab19d4f5d54d3cd8779b",
+      "bytes": 25497,
+      "fetchedAt": "2026-10-16T23:32:50.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Helm%20of%20Brilliance",
+      "sha256": "31162225795b64367ad1004d9e1200ae205aa81b1f31584881e2e712f48c9d12",
+      "bytes": 30561,
+      "fetchedAt": "2026-10-16T23:34:42.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Helm%20of%20Comprehend%20Languages%20and%20Read%20Magic",
+      "sha256": "36864020196c51056d038ee688bfbe4df868cb29f8c7deef8a21b0b788bb21fa",
+      "bytes": 24830,
+      "fetchedAt": "2026-10-16T23:34:43.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Helm%20of%20Telepathy",
+      "sha256": "5bf98040ead40e63fafad798dae73a53b50a3bcadc9157f165f2c7e0736f1cea",
+      "bytes": 24378,
+      "fetchedAt": "2026-10-16T23:34:44.708Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Helm%20of%20Teleportation",
+      "sha256": "3e24e622e00c7502495e4293b4c6f31b6e7e52f650bc78d3d0e64f60e0ee950e",
+      "bytes": 23808,
+      "fetchedAt": "2026-10-16T23:34:45.597Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Helm%20of%20Underwater%20Action",
+      "sha256": "880219f4464c4a8728db8409d5317d09b1771158504fdeec092cc1447fee6a0f",
+      "bytes": 25118,
+      "fetchedAt": "2026-10-16T23:34:46.598Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Horn%20of%20Blasting",
+      "sha256": "f974115f6df02ced2a28b7100d90f40d55de67093dd5e6554ad8ffea7e93ea78",
+      "bytes": 25388,
+      "fetchedAt": "2026-10-16T23:34:47.608Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Horn%20of%20Blasting%20(Greater)",
+      "sha256": "4f87474b54a23f99ae03e10c7c7076755fac669345bceace1f44761375fbc390",
+      "bytes": 24776,
+      "fetchedAt": "2026-10-16T23:34:48.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Horn%20of%20Fog",
+      "sha256": "438f4ecb9fcd141f8886bcaf3aa4e88136e8d514edb5a772dcaeef7781049cb4",
+      "bytes": 25249,
+      "fetchedAt": "2026-10-16T23:34:49.550Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Horn%20of%20Goodness%2FEvil",
+      "sha256": "153a945ae3cf340090364517479b405e3203e13bccf9aeb2bdb0099ba22240f1",
+      "bytes": 24700,
+      "fetchedAt": "2026-10-16T23:34:50.663Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Horn%20of%20Valhalla",
+      "sha256": "6fb85abfe6fa88f19458b3bdab2d86a11cb3af7cf418d31d14a4d3ccb37631d9",
+      "bytes": 28542,
+      "fetchedAt": "2026-10-16T23:34:51.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Horseshoes%20of%20Speed",
+      "sha256": "1e936effca061723897ce9c5a896aa9027dbfbc934e1b6d47d5d619d0e895ab7",
+      "bytes": 24156,
+      "fetchedAt": "2026-10-16T23:34:53.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Horseshoes%20of%20a%20Zephyr",
+      "sha256": "99060b71ff92bdd818302a94e6a98fe0544c3c7233950e8aadc7745e0d5c643d",
+      "bytes": 24985,
+      "fetchedAt": "2026-10-16T23:34:52.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Incense%20of%20Meditation",
+      "sha256": "4bc2c21f2d431b24f6f0742bd00994d61e5e457ee21ae0adad1255162f37c89c",
+      "bytes": 26177,
+      "fetchedAt": "2026-10-16T23:34:54.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Instant%20Fortress",
+      "sha256": "5c4c92a6b209fc8fc5102f6def827d8d41d80af35440372ce48ee499fc3cf4fa",
+      "bytes": 27097,
+      "fetchedAt": "2026-10-16T23:34:55.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Clear%20Spindle",
+      "sha256": "9aaf10c6d1dad34c5c1e03d91a8f6e4d55ca889831b325d46fd3e841ee6b4937",
+      "bytes": 29300,
+      "fetchedAt": "2026-10-16T23:36:24.539Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Dark%20Blue%20Rhomboid",
+      "sha256": "81ac498bcb20bca669255b4f6eafc9a7b67cd534565fad5e11958189722576b3",
+      "bytes": 29349,
+      "fetchedAt": "2026-10-16T23:36:25.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Deep%20Red%20Sphere",
+      "sha256": "6df805b0c0a83801b8b4f3e3ec4be8b0b85cedc149f58b6917bb9e0492b55d7f",
+      "bytes": 27788,
+      "fetchedAt": "2026-10-16T23:36:26.551Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Dusty%20Rose%20Prism",
+      "sha256": "ae5d951b8b10f54c7b30cef7a53842fc1f6ffb664ebe98272058eef383b39aa2",
+      "bytes": 27821,
+      "fetchedAt": "2026-10-16T23:36:27.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Incandescent%20Blue%20Sphere",
+      "sha256": "cf15e180f312828a03d0b4fc28817e533028ab7f2095a6429b83cb95cbec2029",
+      "bytes": 27692,
+      "fetchedAt": "2026-10-16T23:36:28.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Iridescent%20Spindle",
+      "sha256": "a6cf669d38f57ca01f27ed140a6a009e83ac875ec37b3e99f7bb1816ff7b3121",
+      "bytes": 28603,
+      "fetchedAt": "2026-10-16T23:36:29.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Lavender%20and%20Green%20Ellipsoid",
+      "sha256": "cc7e1fa786bd9f28a0c39c76b7742363a9d7ae39f3e479a7d25d30577d268cda",
+      "bytes": 29542,
+      "fetchedAt": "2026-10-16T23:36:31.566Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Orange%20Prism",
+      "sha256": "07aec860f8284161cf3e03ff451b6016c8b300090939d599951f022432e4bd30",
+      "bytes": 29050,
+      "fetchedAt": "2026-10-16T23:36:32.572Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Pale%20Blue%20Rhomboid",
+      "sha256": "2c69cc39eb1753978e75babc765b494eaa47802098cd2c4171080427e0a7ba3d",
+      "bytes": 27726,
+      "fetchedAt": "2026-10-16T23:36:33.578Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Pale%20Green%20Prism",
+      "sha256": "9762bbfdcf9d99bd380125019f77bb6b608cc8da602cc72579e6d782a26ebcdc",
+      "bytes": 28788,
+      "fetchedAt": "2026-10-16T23:36:33.745Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Pale%20Lavender%20Ellipsoid",
+      "sha256": "ea95d6c10580f0bfc9a5190c33a0314ea3e9bfd946ee16874f7cebe444718233",
+      "bytes": 29477,
+      "fetchedAt": "2026-10-16T23:36:35.605Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Pearly%20White%20Spindle",
+      "sha256": "73c895538e21298d3d0b1d8480d97895e22331f623ad50818533b781f268e699",
+      "bytes": 28107,
+      "fetchedAt": "2026-10-16T23:36:35.762Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Pink%20Rhomboid",
+      "sha256": "cf4d93fede222c51ab464bd1e35edb126d5bb5ebd81d26f87363962e1ee570b3",
+      "bytes": 27847,
+      "fetchedAt": "2026-10-16T23:36:36.790Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Pink%20and%20Green%20Sphere",
+      "sha256": "dbe58b50fab76cb6a83a05d62f7e22765a9a964e2a7aeb3a00419bd23ca97b27",
+      "bytes": 27805,
+      "fetchedAt": "2026-10-16T23:36:37.782Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Scarlet%20and%20Blue%20Sphere",
+      "sha256": "6c4c04322560fc04be0a6fc3e9a2a2af5c78122efcfba0871b548eb044cda9dd",
+      "bytes": 27909,
+      "fetchedAt": "2026-10-16T23:36:38.781Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Vibrant%20Purple%20Prism",
+      "sha256": "6f31736b0f01709fbd493ebc882be565cb544288652361caafe328bf5d69216f",
+      "bytes": 29557,
+      "fetchedAt": "2026-10-16T23:36:39.779Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Iron%20Bands%20of%20Binding",
+      "sha256": "7662d45606462d668dcdb53dd01ead0493653c678324daa21623b52aebee0ec3",
+      "bytes": 25245,
+      "fetchedAt": "2026-10-16T23:34:57.597Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Iron%20Flask",
+      "sha256": "acd5f9a45304d3cf77eb82fe34cd67f825e5514ee307077470770030ba3c9b70",
+      "bytes": 31313,
+      "fetchedAt": "2026-10-16T23:34:58.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Lantern%20of%20Revealing",
+      "sha256": "2c1b603407e92de11ab8fff9f66f33208f2ac108e5ab941fc30442d3db018615",
+      "bytes": 23762,
+      "fetchedAt": "2026-10-16T23:35:00.536Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Lens%20of%20Detection",
+      "sha256": "497c0128c138018ac0b798d26d451d1df2fb2f22f6c5378dd73668bfba0fb9a1",
+      "bytes": 21099,
+      "fetchedAt": "2026-10-16T23:35:01.538Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Lyre%20of%20Building",
+      "sha256": "503a34ea52f3a3c76b69073c31e15442f2017f9bb1d600a1c5057aa4502f5a2e",
+      "bytes": 26405,
+      "fetchedAt": "2026-10-16T23:35:03.538Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Mantle%20of%20Faith",
+      "sha256": "d131abb4cdb201306ad423c58983e3dfd1abd20c83d0e5757c912e3f5337870c",
+      "bytes": 23708,
+      "fetchedAt": "2026-10-16T23:35:04.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Mantle%20of%20Spell%20Resistance",
+      "sha256": "3cf63ca392df6511f4575109f18b3d05930bd17210ca2f158f089c178a0a4df6",
+      "bytes": 23714,
+      "fetchedAt": "2026-10-16T23:35:05.550Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Bodily%20Health1",
+      "sha256": "951ea6da836aa5193551d4cf0f085892fc7431084f5a64d9834da1671ae07175",
+      "bytes": 25701,
+      "fetchedAt": "2026-10-16T23:31:44.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Bodily%20Health2",
+      "sha256": "29fdfd462d08d2a489ca0b292988ae0d428ba778975b0691b76b424bc4397e2a",
+      "bytes": 25185,
+      "fetchedAt": "2026-10-16T23:31:55.811Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Bodily%20Health3",
+      "sha256": "b93e181d5a51b26a34e99e2c9f58be98baa068071baa3de744db8e447588a571",
+      "bytes": 25185,
+      "fetchedAt": "2026-10-16T23:32:14.537Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Bodily%20Health4",
+      "sha256": "68b21454853916704b24094d54d468186d721682e9be674503a1f02c09dbc9c9",
+      "bytes": 25185,
+      "fetchedAt": "2026-10-16T23:32:25.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Bodily%20Health5",
+      "sha256": "aa10f25cf23245878bc5ec8c00b0042c89e00db06e0ff049064d9057b1054a7a",
+      "bytes": 25294,
+      "fetchedAt": "2026-10-16T23:32:44.538Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Gainful%20Exercise1",
+      "sha256": "57c396d29ead107dfe4845cc6766d663f235b2a735b0a2f1817c740dbb292960",
+      "bytes": 25643,
+      "fetchedAt": "2026-10-16T23:31:46.553Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Gainful%20Exercise2",
+      "sha256": "d2c5f10d4d39138bf530c9a43048e0d95a930c475c2d0219667e3b8fd123088c",
+      "bytes": 25225,
+      "fetchedAt": "2026-10-16T23:31:53.551Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Gainful%20Exercise3",
+      "sha256": "853d989e564a6e2f613db844c8f96ee12640fe3e8a7498f67c066a8ed430221f",
+      "bytes": 25225,
+      "fetchedAt": "2026-10-16T23:32:16.643Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Gainful%20Exercise4",
+      "sha256": "70647c693782ab7dcf039b1ccb1e10a0abdb73febade4d5d0f8eca47cedee6ec",
+      "bytes": 25225,
+      "fetchedAt": "2026-10-16T23:32:23.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Gainful%20Exercise5",
+      "sha256": "60c2ab1b722ae0cd413b1fa603e3bf608ffb10558b0ffac0450482cd7545a846",
+      "bytes": 25334,
+      "fetchedAt": "2026-10-16T23:32:46.553Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Quickness%20of%20Action1",
+      "sha256": "fe6cdda056cf1bc1207b9d25ff427cd7364e4875a723038910208ea9e0c6774d",
+      "bytes": 25660,
+      "fetchedAt": "2026-10-16T23:31:45.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Quickness%20of%20Action2",
+      "sha256": "ec4ef740db8556c3c80603ff1e892b89a5770f567bca83461eb38a87636f8139",
+      "bytes": 25242,
+      "fetchedAt": "2026-10-16T23:31:54.555Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Quickness%20of%20Action3",
+      "sha256": "4a70775c674c104616758f845406b85caca441fd070c72eb7aa0bb886f34a57f",
+      "bytes": 25242,
+      "fetchedAt": "2026-10-16T23:32:15.716Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Quickness%20of%20Action4",
+      "sha256": "75f4768528e6bdf0c5fa14dfcf89f191754cc00f082f9bb102ab83b29a3e36c0",
+      "bytes": 25242,
+      "fetchedAt": "2026-10-16T23:32:24.535Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Quickness%20of%20Action5",
+      "sha256": "6e80e0f2c86da7261d9b6a924c00cc65aa92060dbcd0120d2d1257c1c0d98fe0",
+      "bytes": 25351,
+      "fetchedAt": "2026-10-16T23:32:45.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Marvelous%20Pigments",
+      "sha256": "14e15af183a0a286958cc252cda5e207d8443b608042cd9de2f4e6fd6f8920fe",
+      "bytes": 26873,
+      "fetchedAt": "2026-10-16T23:35:07.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Mask%20of%20the%20Skull",
+      "sha256": "bedc11c19d9bce3360af68999f1803c9c7c8786c38fad2dbf8368e8363470de9",
+      "bytes": 26396,
+      "fetchedAt": "2026-10-16T23:35:08.551Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Mattock%20of%20the%20Titans",
+      "sha256": "85e2dabef36346a75715e160fee8d0ec2325906d808a71f3e3ae3f19722d51d3",
+      "bytes": 24336,
+      "fetchedAt": "2026-10-16T23:35:09.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Maul%20of%20the%20Titans",
+      "sha256": "f0754d91d2eea16f8fd2b3ce194f25ea02c2c34e9cce9f15420ad2ab626c5280",
+      "bytes": 23978,
+      "fetchedAt": "2026-10-16T23:35:10.549Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Medallion%20of%20Thoughts",
+      "sha256": "13137b5c9f6db8812a683f3dbd47835cd7c3b678e6937bae2cfeb4589bd6b04e",
+      "bytes": 23767,
+      "fetchedAt": "2026-10-16T23:35:11.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Mirror%20of%20Life%20Trapping",
+      "sha256": "0df3f6dcc13e2f2580eb2b0d9676f4c83fc4d3ae03efb982d0fbf74475d1657c",
+      "bytes": 28853,
+      "fetchedAt": "2026-10-16T23:35:12.678Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Mirror%20of%20Opposition",
+      "sha256": "c2cee7943a7add61a4b7557e6378afe692c44e097112b54e36fe05abbde6c404",
+      "bytes": 25426,
+      "fetchedAt": "2026-10-16T23:35:13.701Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Monk's%20Robe",
+      "sha256": "1c747304a39d427eca694a5e69d75a5e1fae0cd6811dace6d9ae3a9c32e3d3af",
+      "bytes": 24812,
+      "fetchedAt": "2026-10-16T23:35:14.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Necklace%20of%20Adaptation",
+      "sha256": "b0720d511093b638356a8e40f79328800baabeaa444ccdddf5826345a9340322",
+      "bytes": 24180,
+      "fetchedAt": "2026-10-16T23:35:15.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Necklace%20of%20FireballsType%20I",
+      "sha256": "f065ea08ae74ecd5e9a3172e0380c5a36b732d42e2e966fcd5f8805608f5f027",
+      "bytes": 34473,
+      "fetchedAt": "2026-10-16T23:36:05.551Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Necklace%20of%20FireballsType%20II",
+      "sha256": "38ac5e996a403829337d910759ddb1d98a2e8a8f675338ac262cd7de8ff33734",
+      "bytes": 31169,
+      "fetchedAt": "2026-10-16T23:36:08.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Necklace%20of%20FireballsType%20III",
+      "sha256": "e52fccb242052d4d172f6a09495aa5aae8915ec3cffa1a2f34923285695a7b6f",
+      "bytes": 31172,
+      "fetchedAt": "2026-10-16T23:36:09.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Necklace%20of%20FireballsType%20IV",
+      "sha256": "c2d02db257af39802da6a86982a35ede72f23b450c3ecf913b600a692a0d802d",
+      "bytes": 31169,
+      "fetchedAt": "2026-10-16T23:36:12.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Necklace%20of%20FireballsType%20V",
+      "sha256": "f9bf79b5ead75ff02d44b6daf02cb9fcc71ffae4a4f901805d1203f32c34e048",
+      "bytes": 31057,
+      "fetchedAt": "2026-10-16T23:36:13.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Necklace%20of%20FireballsType%20VI",
+      "sha256": "aa80ad0b6d5a3094038a59ad3d635b557683f6fc4491d9637b32b8db35479dab",
+      "bytes": 31060,
+      "fetchedAt": "2026-10-16T23:36:14.535Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Necklace%20of%20FireballsType%20VII",
+      "sha256": "c2875f16d30172894a08f887c5b91e834bcb1bf3d04e681ce1b6a4fc75ab0b71",
+      "bytes": 31063,
+      "fetchedAt": "2026-10-16T23:36:15.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Orb%20of%20Storms",
+      "sha256": "f5cd27cf25f486808917fc94e36b5dfd37ae55646c2fc77b063c4ebe8fa774eb",
+      "bytes": 24428,
+      "fetchedAt": "2026-10-16T23:35:19.527Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pearl%20of%20Power1st",
+      "sha256": "e5f56d118d78201a10c1f9e543f7398aaa455962f7ad53955e07050fc57ec659",
+      "bytes": 27885,
+      "fetchedAt": "2026-10-16T23:33:04.554Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pearl%20of%20Power2nd",
+      "sha256": "a1aa747b1bd2e35958845b90e340a505a84d7542b36550b814bd2abe939fb6de",
+      "bytes": 27194,
+      "fetchedAt": "2026-10-16T23:33:05.771Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pearl%20of%20Power3rd",
+      "sha256": "c5f3991709af7935e1d0db735e29fe953750ed44c1994084392b6477f87db3ff",
+      "bytes": 27303,
+      "fetchedAt": "2026-10-16T23:33:06.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pearl%20of%20Power4th",
+      "sha256": "a8e1cf871dc97dcf954b77dfeac0ce601285d3c9f6f54e37613cd8146b502e61",
+      "bytes": 27303,
+      "fetchedAt": "2026-10-16T23:33:07.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pearl%20of%20Power5th",
+      "sha256": "eda210631b74690bc5746f8f584ca0fd59a5457e3a92b9d0bda23ee00a046407",
+      "bytes": 27303,
+      "fetchedAt": "2026-10-16T23:33:10.553Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pearl%20of%20Power6th",
+      "sha256": "c05314df76ae0bb3a9d1e3deac277a63afd4ea99db2573ed5785ba224722c982",
+      "bytes": 27194,
+      "fetchedAt": "2026-10-16T23:33:11.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pearl%20of%20Power7th",
+      "sha256": "e37b20f5cd878c23b44a8851b49cb771b413b66c5dff41ecedbb2017e23b9c06",
+      "bytes": 27194,
+      "fetchedAt": "2026-10-16T23:33:12.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pearl%20of%20Power8th",
+      "sha256": "b12923d5a5ac328fbb4df388c90bb1473b60f7e7f5e15892ab724596d70b42bc",
+      "bytes": 27303,
+      "fetchedAt": "2026-10-16T23:33:13.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pearl%20of%20Power9th",
+      "sha256": "14dfc555dae8a06da89418ed021fb376b9401beab1cf0576925b0f2e3684e732",
+      "bytes": 27194,
+      "fetchedAt": "2026-10-16T23:33:14.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pearl%20of%20PowerTwo%20Spells",
+      "sha256": "08d8f9826dc1d66110eccb3d7b9e225d33d15c4ee025749c5d36ac2917b668e8",
+      "bytes": 27223,
+      "fetchedAt": "2026-10-16T23:36:04.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pearl%20of%20the%20Sirines",
+      "sha256": "55f566a9f3f43c31c283240697c5889c0795428bc240ecfb3d8a386c7b12788d",
+      "bytes": 24673,
+      "fetchedAt": "2026-10-16T23:35:20.539Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Periapt%20of%20Health",
+      "sha256": "6fdc30394c4ed2b517d456e0d27d3475fe92842251418065332bf04ef2648c3b",
+      "bytes": 23630,
+      "fetchedAt": "2026-10-16T23:35:21.602Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Periapt%20of%20Proof%20against%20Poison",
+      "sha256": "aadb23cf956565a1bfcca068ee09db47bdea7c5491aff2f00ace48a20cbfacb3",
+      "bytes": 23916,
+      "fetchedAt": "2026-10-16T23:35:22.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Periapt%20of%20Wound%20Closure",
+      "sha256": "6aa26036defc02241fb0889bd69cdef4eb8c1db70fd5483f179d378f19529eb8",
+      "bytes": 24892,
+      "fetchedAt": "2026-10-16T23:35:23.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Phylactery%20of%20Faithfulness",
+      "sha256": "1e361c465d8e16abf134f9c99d2858b222de75c022fe40723be8e258d6e9dc27",
+      "bytes": 25255,
+      "fetchedAt": "2026-10-16T23:35:24.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Phylactery%20of%20Negative%20Channeling",
+      "sha256": "99dc79a4451683cda334bb276d71a6a59f3ceacaee1d1ce55509e86a9919fc77",
+      "bytes": 23848,
+      "fetchedAt": "2026-10-16T23:35:25.608Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Phylactery%20of%20Positive%20Channeling",
+      "sha256": "e030082791fcdee5f0de39a00fcd553933bdc2e3efda27cb81a7f86aaf6267b3",
+      "bytes": 23875,
+      "fetchedAt": "2026-10-16T23:35:26.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pipes%20of%20Haunting",
+      "sha256": "8804dcdbcdae930da45bbf28c2a14b013df08dd7a1c3d0d66d6573439d61a632",
+      "bytes": 24305,
+      "fetchedAt": "2026-10-16T23:35:27.686Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pipes%20of%20Sounding",
+      "sha256": "bf7487903231348439fa066a767089465a0b46570fa5d553e017ddced8af8734",
+      "bytes": 23873,
+      "fetchedAt": "2026-10-16T23:35:28.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Pipes%20of%20the%20Sewers",
+      "sha256": "a4c54c3ff68bada322e45398bd8444453961719164fed31c3f78645bdab7baf5",
+      "bytes": 26354,
+      "fetchedAt": "2026-10-16T23:35:29.535Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Portable%20Hole",
+      "sha256": "370ced8f5a1941c0d213c0d1d853c29a2b30f7d00561b0b1319680623b0fc9a6",
+      "bytes": 27757,
+      "fetchedAt": "2026-10-16T23:35:30.585Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Restorative%20Ointment",
+      "sha256": "0e07147c653b3f4a1fba09c09352d34bcf7fb1a539010c100ef758f2722b4cf6",
+      "bytes": 24712,
+      "fetchedAt": "2026-10-16T23:35:31.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ring%20Gates",
+      "sha256": "405f132b9486881d99e4f13c0ae80dadebf9522888993889aac41db6c49af6c2",
+      "bytes": 26389,
+      "fetchedAt": "2026-10-16T23:35:32.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Robe%20of%20Blending",
+      "sha256": "5071d84a942aaedd507e86689e3dee74406b0edfe4368b8a74332d10d0d655a4",
+      "bytes": 24517,
+      "fetchedAt": "2026-10-16T23:35:33.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Robe%20of%20Bones",
+      "sha256": "15d207ebbd6b0f3033a792718299a0d3daf01501c9355c256c1e16ceb02543fc",
+      "bytes": 26263,
+      "fetchedAt": "2026-10-16T23:35:34.540Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Robe%20of%20Eyes",
+      "sha256": "74d35621c7b394f604b08f9deee8153d538d4b9c75676cfd4438ec831cd469d6",
+      "bytes": 25916,
+      "fetchedAt": "2026-10-16T23:35:35.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Robe%20of%20Scintillating%20Colors",
+      "sha256": "fcec37d47d2156f24c64a85197c46c4e3b236cbce9b9d452fa9ec180b9b4f041",
+      "bytes": 26488,
+      "fetchedAt": "2026-10-16T23:35:36.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Robe%20of%20Stars",
+      "sha256": "eb207b9d95b03c020cc5859b0b486dbb47004f9091f47caf8b7553f8bb39eae7",
+      "bytes": 25760,
+      "fetchedAt": "2026-10-16T23:35:37.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Robe%20of%20Useful%20Items",
+      "sha256": "4644388a732ecfe3ff8f27d458b8c2d2f0e76757259655c1e8077b1fb6641fa0",
+      "bytes": 29960,
+      "fetchedAt": "2026-10-16T23:35:39.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Robe%20of%20the%20Archmagi",
+      "sha256": "fd64e0b505d9289d76c63bdf49d879ecd0d07ce6c21bb69df17eb4f51560df07",
+      "bytes": 27556,
+      "fetchedAt": "2026-10-16T23:35:38.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Rope%20of%20Climbing",
+      "sha256": "39dbc8372f72cd288a20b1e781047c469f4b0ee186f29d81d297092c7c370974",
+      "bytes": 25287,
+      "fetchedAt": "2026-10-16T23:35:40.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Rope%20of%20Entanglement",
+      "sha256": "27b9fb0a8a41479e5b35c9a31223fffbe542ad03bdd71bac16d64707a608eb70",
+      "bytes": 25018,
+      "fetchedAt": "2026-10-16T23:35:41.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Salve%20of%20Slipperiness",
+      "sha256": "a89731acfed96fec83e0cdff1427b9d000e0a70a974e508593b9c3794adf5c0a",
+      "bytes": 25539,
+      "fetchedAt": "2026-10-16T23:35:43.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Scabbard%20of%20Keen%20Edges",
+      "sha256": "2e72719f464e4bce13a905e24c7d036cd145297b5334be22b431eea5188be552",
+      "bytes": 24614,
+      "fetchedAt": "2026-10-16T23:35:44.608Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Scarab%20of%20Protection",
+      "sha256": "b0b97560bc313782ecf63dedd21916a71ed92c561c926c88cda4c8e5a8b96034",
+      "bytes": 24664,
+      "fetchedAt": "2026-10-16T23:35:45.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Silversheen",
+      "sha256": "71b29c282df536014f51ee912cca5d54b58fcb7361fd2b57748d2704b3e02abc",
+      "bytes": 23972,
+      "fetchedAt": "2026-10-16T23:35:49.537Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Slippers%20of%20Spider%20Climbing",
+      "sha256": "6172cfb3c50306dc788a06eb1366ddea0ed84e44043168832b65a4c414255fa9",
+      "bytes": 24328,
+      "fetchedAt": "2026-10-16T23:35:50.600Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Sovereign%20Glue",
+      "sha256": "b573f43fc1ffe0d1288b1222b3584964ca55a192e23bb54e7569d6fd52a87156",
+      "bytes": 27255,
+      "fetchedAt": "2026-10-16T23:35:51.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Stone%20Salve",
+      "sha256": "0efab5c05fc7e078f55be8f089752a59fda238214db54cd656e87fd21d100858",
+      "bytes": 24229,
+      "fetchedAt": "2026-10-16T23:35:57.545Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Stone%20of%20Alarm",
+      "sha256": "6080eb6f2755f2f3a87175c6f6a5f2cc3f3504fbbf2ec215d48c06081bbca0da",
+      "bytes": 24058,
+      "fetchedAt": "2026-10-16T23:35:55.549Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Stone%20of%20Good%20Luck%20(Luckstone)",
+      "sha256": "dd247af2d45b431936ac0e735d1c8a56da66fa98edb4e4ae72d7bf03b22589c4",
+      "bytes": 23559,
+      "fetchedAt": "2026-10-16T23:35:56.526Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Strand%20of%20Prayer%20BeadsGreater",
+      "sha256": "8dece1db7534d97eb16e0e5d987cd9b9603ef211c0187cf8ef24ecde8f145691",
+      "bytes": 31043,
+      "fetchedAt": "2026-10-16T23:34:36.531Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Strand%20of%20Prayer%20BeadsLesser",
+      "sha256": "541bf169b5fa8e928917cdc31f0f99756357db691b20df83e071fbe49a281d3d",
+      "bytes": 34004,
+      "fetchedAt": "2026-10-16T23:35:02.536Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Strand%20of%20Prayer%20BeadsStandard",
+      "sha256": "b33d0f3f4f1f8a1ffc1d044d249ffc0c09090dc387b689bd36d01ed20e305487",
+      "bytes": 30937,
+      "fetchedAt": "2026-10-16T23:35:52.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Sustaining%20Spoon",
+      "sha256": "841b7482317ecbd45b3107095e8d03e94368156f498dd07a87ec927fe89f52d0",
+      "bytes": 24233,
+      "fetchedAt": "2026-10-16T23:35:58.693Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Clear%20Thought1",
+      "sha256": "6b3232ad891c9cc67303b4b7517a3b71ac5e9c1368f29929e7049d5a73059652",
+      "bytes": 25626,
+      "fetchedAt": "2026-10-16T23:31:47.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Clear%20Thought2",
+      "sha256": "ed037d74e6cce8d27f1faec1d79059e86cd38e4cb038d6a574d9592961488374",
+      "bytes": 25205,
+      "fetchedAt": "2026-10-16T23:31:52.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Clear%20Thought3",
+      "sha256": "60030c83fe7afec63529decd2b1065140d6336d47bbe59f0f813665031a47267",
+      "bytes": 25205,
+      "fetchedAt": "2026-10-16T23:32:17.714Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Clear%20Thought4",
+      "sha256": "9ec90b8c9efa64ef9b279762af76ca5ab201831c84db7d7ee0304c64dc1e72bd",
+      "bytes": 25205,
+      "fetchedAt": "2026-10-16T23:32:22.544Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Clear%20Thought5",
+      "sha256": "99ecdc327dae3803964342a9fbdf161026422db8b69aaa150e6db4278bb9c02c",
+      "bytes": 25205,
+      "fetchedAt": "2026-10-16T23:32:47.676Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Leadership%20and%20Influence1",
+      "sha256": "2cc3f5f1bebb48629e572c93f86c2f44b8a49cadfbb601ab8928090fe43920c3",
+      "bytes": 25695,
+      "fetchedAt": "2026-10-16T23:31:48.554Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Leadership%20and%20Influence2",
+      "sha256": "afba287f210b97cf570e8e9a4e9f064fdb1a1a7076bccb5ddc30a873b68411ce",
+      "bytes": 25272,
+      "fetchedAt": "2026-10-16T23:31:51.547Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Leadership%20and%20Influence3",
+      "sha256": "1586ea6fcb783fabbdaaf8a0ac14855cf8b5e40cfd76d63eeea0f7748d8d0211",
+      "bytes": 25272,
+      "fetchedAt": "2026-10-16T23:32:18.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Leadership%20and%20Influence4",
+      "sha256": "4e839cee813f81ffdee5285828ec36e3905e8824e4092a9d52ff62b840128e2f",
+      "bytes": 25272,
+      "fetchedAt": "2026-10-16T23:32:21.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Leadership%20and%20Influence5",
+      "sha256": "ede556d83b3d815c3ce3f6d905bd880f70a4284f37b056b9db25b7e3a8c34bdb",
+      "bytes": 25381,
+      "fetchedAt": "2026-10-16T23:32:48.542Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Understanding1",
+      "sha256": "432227bde39b5a1a5a8f6b4f5fffb56f4a9000baa5428c0041a1f4bd863af18e",
+      "bytes": 25713,
+      "fetchedAt": "2026-10-16T23:31:49.541Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Understanding2",
+      "sha256": "a2cfa29b7dd04acca9d560236eb05749065aac0507b9cc9362a99bceab2b76ec",
+      "bytes": 25190,
+      "fetchedAt": "2026-10-16T23:31:50.552Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Understanding3",
+      "sha256": "6d0f32edcd7dd3ac7996c6c7f0ec1237d021f4b6b7db05ab4d8ad46d4a53bfa5",
+      "bytes": 25190,
+      "fetchedAt": "2026-10-16T23:32:19.550Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Understanding4",
+      "sha256": "16da882a7477a4083d8109b79e55776a4ad066060a75da458b1507416ad9bc55",
+      "bytes": 25190,
+      "fetchedAt": "2026-10-16T23:32:20.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Understanding5",
+      "sha256": "07f6cb627e242c5d0435fc07ef3e8ff6fa69331fe5e2fe91b6c8896bbd07f2d2",
+      "bytes": 25190,
+      "fetchedAt": "2026-10-16T23:32:49.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Unguent%20of%20Timelessness",
+      "sha256": "13051e6a884919b6d21d4d02d7dd8bf027b53d0554f0547ad0eafc1e6bb15c47",
+      "bytes": 25075,
+      "fetchedAt": "2026-10-16T23:36:16.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Universal%20Solvent",
+      "sha256": "bf06404dddfd67c0e48c3930d1e32eafe1be7232f4d5546671fa34e158bed294",
+      "bytes": 23556,
+      "fetchedAt": "2026-10-16T23:36:17.587Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Vest%20of%20Escape",
+      "sha256": "069b69261254b2f469fe79e1c432c5cc8276761b6c184ebc95833c3f609c0dd4",
+      "bytes": 24144,
+      "fetchedAt": "2026-10-16T23:36:18.548Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Well%20of%20Many%20Worlds",
+      "sha256": "875252a621aea916db31c74785bdfe4da6db37efbbc10356c384e383d8470f86",
+      "bytes": 24735,
+      "fetchedAt": "2026-10-16T23:36:19.543Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Wind%20Fan",
+      "sha256": "80dd94a4ea069458bf70d5a4bf858d4dbefd09a625eb263ed82cfac7b78322da",
+      "bytes": 24366,
+      "fetchedAt": "2026-10-16T23:36:21.546Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Winged%20Boots",
+      "sha256": "174ca779fafc8de3829e293e1d91b2330f65ae3a498bef3d2d9f6db9a172e904",
+      "bytes": 24080,
+      "fetchedAt": "2026-10-16T23:36:22.551Z"
+    },
+    {
+      "url": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Wings%20of%20Flying",
+      "sha256": "96eacaf22ef33afbc3a8e56ce224d803329d253ff9e7e261ad3c53e008cad9f8",
+      "bytes": 24368,
+      "fetchedAt": "2026-10-16T23:36:23.548Z"
+    },
+    {
+      "url": "https://aonprd.com/Rules.aspx?ID=365",
+      "sha256": "2c73bfdfb7389d94bc2705695c5c6377532a769f5f4041665e4b74dfc9f7cbc6",
+      "bytes": 317358,
+      "fetchedAt": "2026-10-16T19:00:54.398Z"
+    },
+    {
+      "url": "https://aonprd.com/SourceDisplay.aspx?FixedSource=PRPG Core Rulebook",
+      "sha256": "94461065d4d1448c610be1f56161a6f1f6af9d825d8c1a1bdfd0d81f46f83599",
+      "bytes": 374126,
+      "fetchedAt": "2026-10-16T14:04:46.083Z"
+    }
+  ],
+  "expectedCountByKind": {
+    "general": 21,
+    "armor-ability": 17,
+    "artifact": 12,
+    "cursed": 29,
+    "ring": 34,
+    "rod": 24,
+    "shield-ability": 14,
+    "specific-armor": 12,
+    "specific-shield": 8,
+    "specific-weapon": 30,
+    "staff": 21,
+    "weapon-ability": 30,
+    "wondrous": 190
+  },
+  "importedKinds": [
+    "armor-ability",
+    "artifact",
+    "cursed",
+    "general",
+    "ring",
+    "rod",
+    "shield-ability",
+    "specific-armor",
+    "specific-shield",
+    "specific-weapon",
+    "staff",
+    "weapon-ability",
+    "wondrous"
+  ]
+}

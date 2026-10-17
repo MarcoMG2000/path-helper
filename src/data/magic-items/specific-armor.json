@@ -1,0 +1,450 @@
+[
+  {
+    "id": "adamantine-breastplate",
+    "name": "Adamantine Breastplate",
+    "textEn": "**Aura** no aura (nonmagical); **Slot** armor; **Price** 10,200 gp; **Weight** 30 lbs.\n\n**Description**\n\nThis nonmagical breastplate is made of adamantine, giving its wearer damage reduction 2/—.",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Adamantine%20Breastplate",
+    "sourceRef": "PRPG Core Rulebook pg. 464",
+    "book": "CRB",
+    "kind": "specific-armor",
+    "slot": "armor",
+    "aura": "no aura (nonmagical)",
+    "weightLb": 30,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 124, PRPG Core Rulebook pg. 464",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 124"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "10,200 gp",
+        "priceCp": 1020000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "breastplate",
+    "abilityIds": [],
+    "baseEvidence": "nonmagical breastplate"
+  },
+  {
+    "id": "banded-mail-of-luck",
+    "name": "Banded Mail of Luck",
+    "textEn": "**Aura** strong enchantment; **CL** 12th; **Slot** armor; **Price** 18,900 gp; **Weight** 35 lbs.\n\n**Description**\n\nTen 100-gp gems adorn this *+3 banded mail*. Once per week, the armor allows its wearer to require that an attack roll made against him be rerolled. He must take whatever consequences come from the second roll. The wearer’s player must decide whether to have the attack roll rerolled before damage is rolled.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *bless*; **Price** 9,650 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Banded%20Mail%20of%20Luck",
+    "sourceRef": "PRPG Core Rulebook pg. 464",
+    "book": "CRB",
+    "kind": "specific-armor",
+    "slot": "armor",
+    "aura": "strong enchantment",
+    "weightLb": 35,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, bless",
+      "costRaw": "9,650 gp",
+      "costCp": 965000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 124, PRPG Core Rulebook pg. 464",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 124"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 12,
+        "priceRaw": "18,900 gp",
+        "priceCp": 1890000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "banded-mail",
+    "enhancement": {
+      "on": "armor",
+      "bonus": 3
+    },
+    "abilityIds": [],
+    "baseEvidence": "+3 banded mail"
+  },
+  {
+    "id": "breastplate-of-command",
+    "name": "Breastplate of Command",
+    "textEn": "**Aura** strong enchantment; **CL** 15th; **Slot** armor; **Price** 25,400 gp; **Weight** 30 lbs.\n\n**Description**\n\nThis *+2 breastplate* typically bears the image of a rampant grizzly bear or other impressive predator. It bestows a commanding aura upon its wearer. The wearer gains a +2 competence bonus on all Charisma checks, including Charisma-based skill checks. The wearer also gains a +2 competence bonus to his Leadership score. Friendly troops within 360 feet of the user become braver than normal, gaining a +2 resistance bonus on saving throws against fear. Since the effect arises in great part from the distinctiveness of the armor, it does not function if the wearer hides or conceals herself in any way.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *mass charm monster*; **Price** 12,875 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Breastplate%20of%20Command",
+    "sourceRef": "PRPG Core Rulebook pg. 464",
+    "book": "CRB",
+    "kind": "specific-armor",
+    "slot": "armor",
+    "aura": "strong enchantment",
+    "weightLb": 30,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, mass charm monster",
+      "costRaw": "12,875 gp",
+      "costCp": 1287500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 124, PRPG Core Rulebook pg. 464",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 124"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "25,400 gp",
+        "priceCp": 2540000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "breastplate",
+    "enhancement": {
+      "on": "armor",
+      "bonus": 2
+    },
+    "abilityIds": [],
+    "baseEvidence": "+2 breastplate"
+  },
+  {
+    "id": "celestial-armor",
+    "name": "Celestial Armor",
+    "textEn": "**Aura** faint transmutation [good]; **CL** 5th; **Slot** armor; **Price** 22,400 gp; **Weight** 20 lbs.\n\n**Description**\n\nThis *+3 chainmail* is so fine and light that it can be worn under normal clothing without betraying its presence. It has a maximum Dexterity bonus of +8, an armor check penalty of –2, and an arcane spell failure chance of 15%. It is considered light armor and allows the wearer to use *fly* on command (as the spell) once per day.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *fly*, creator must be good; **Price** 11,350 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Celestial%20Armor",
+    "sourceRef": "PRPG Core Rulebook pg. 464",
+    "book": "CRB",
+    "kind": "specific-armor",
+    "slot": "armor",
+    "aura": "faint transmutation [good]",
+    "weightLb": 20,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, fly, creator must be good",
+      "costRaw": "11,350 gp",
+      "costCp": 1135000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 125, PRPG Core Rulebook pg. 464",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 125"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "22,400 gp",
+        "priceCp": 2240000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "chainmail",
+    "enhancement": {
+      "on": "armor",
+      "bonus": 3
+    },
+    "abilityIds": [],
+    "baseEvidence": "+3 chainmail"
+  },
+  {
+    "id": "demon-armor",
+    "name": "Demon Armor",
+    "textEn": "**Aura** strong necromancy [evil]; **CL** 13th; **Slot** armor; **Price** 52,260 gp; **Weight** 50 lbs.\n\n**Description**\n\nThis plate armor is fashioned to make the wearer appear to be a demon. Glowing red energy emanates from sigils engraved on the armor’s key plates and joints, and the runes intermittently surge with fiendish power. This *+4 full plate* allows the wearer to make claw attacks that deal 1d10 points of damage, strike as +1 weapons, and afflict the target as if she had been struck by a *contagion* spell (Fortitude DC 14 negates). Use of *contagion* requires a normal melee attack with the claws. The “claws” are built into the armor’s vambraces and gauntlets, and cannot be disarmed.\n\nA suit of *demon armor* is infused with evil, and as a result it bestows one negative level on any nonevil creature wearing it. This negative level persists as long as the armor is worn and disappears when the armor is removed. The negative level cannot be overcome in any way (including *restoration* spells) while the armor is worn.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *contagion*; **Price** 26,955 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Demon%20Armor",
+    "sourceRef": "PRPG Core Rulebook pg. 464",
+    "book": "CRB",
+    "kind": "specific-armor",
+    "slot": "armor",
+    "aura": "strong necromancy [evil]",
+    "weightLb": 50,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, contagion",
+      "costRaw": "26,955 gp",
+      "costCp": 2695500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 125, PRPG Core Rulebook pg. 464",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 125"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "52,260 gp",
+        "priceCp": 5226000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "full-plate",
+    "enhancement": {
+      "on": "armor",
+      "bonus": 4
+    },
+    "abilityIds": [],
+    "baseEvidence": "+4 full plate"
+  },
+  {
+    "id": "dragonhide-plate",
+    "name": "Dragonhide Plate",
+    "textEn": "**Aura** no aura (nonmagical); **Slot** armor; **Price** 3,300 gp; **Weight** 50 lbs.\n\n**Description**\n\nThis suit of full plate is made of dragonhide, rather than metal, so druids can wear it. It is otherwise identical to masterwork full plate.\n\nThe wearer of dragonhide plate tends to draw the ire of dragons of the same type as that used in the armor’s creation.",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Dragonhide%20Plate",
+    "sourceRef": "PRPG Core Rulebook pg. 464",
+    "book": "CRB",
+    "kind": "specific-armor",
+    "slot": "armor",
+    "aura": "no aura (nonmagical)",
+    "weightLb": 50,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 126, PRPG Core Rulebook pg. 464",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 126"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "3,300 gp",
+        "priceCp": 330000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "full-plate",
+    "abilityIds": [],
+    "baseEvidence": "suit of full plate"
+  },
+  {
+    "id": "dwarven-plate",
+    "name": "Dwarven Plate",
+    "textEn": "**Aura** no aura (nonmagical); **Slot** armor; **Price** 16,500 gp; **Weight** 50 lbs.\n\n**Description**\n\nThis full plate is made of adamantine, giving its wearer damage reduction 3/—.",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Dwarven%20Plate",
+    "sourceRef": "PRPG Core Rulebook pg. 464",
+    "book": "CRB",
+    "kind": "specific-armor",
+    "slot": "armor",
+    "aura": "no aura (nonmagical)",
+    "weightLb": 50,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 126, PRPG Core Rulebook pg. 464",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 126"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "16,500 gp",
+        "priceCp": 1650000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "full-plate",
+    "abilityIds": [],
+    "baseEvidence": "This full plate"
+  },
+  {
+    "id": "elven-chain",
+    "name": "Elven Chain",
+    "textEn": "**Aura** no aura (nonmagical); **Slot** armor; **Price** 5,150 gp; **Weight** 20 lbs.\n\n**Description**\n\nThis extremely light chainmail is made of very fine mithral links. This armor is treated, in all ways, like light armor, including when determining proficiency. The armor has an arcane spell failure chance of 20%, a maximum Dexterity bonus of +4, and an armor check penalty of –2.",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Elven%20Chain",
+    "sourceRef": "PRPG Core Rulebook pg. 464",
+    "book": "CRB",
+    "kind": "specific-armor",
+    "slot": "armor",
+    "aura": "no aura (nonmagical)",
+    "weightLb": 20,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 126, PRPG Core Rulebook pg. 464",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 126"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "5,150 gp",
+        "priceCp": 515000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "chainmail",
+    "abilityIds": [],
+    "baseEvidence": "This extremely light chainmail"
+  },
+  {
+    "id": "mithral-full-plate-of-speed",
+    "name": "Mithral Full Plate of Speed",
+    "textEn": "**Aura** faint transmutation; **CL** 5th; **Slot** armor; **Price** 26,500 gp; **Weight** 25 lbs.\n\n**Description**\n\nAs a free action, the wearer of this fine set of *+1 mithral full plate* can activate it, enabling him to act as though affected by a *haste* spell for up to 10 rounds each day. The duration of the *haste* effect need not be consecutive rounds. The armor has an arcane spell failure chance of 25%, a maximum Dexterity bonus of +3, and an armor check penalty of –3. It is considered medium armor, except that you must be proficient in heavy armor to avoid taking nonproficiency penalties.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *haste*; **Price** 18,500 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Mithral%20Full%20Plate%20of%20Speed",
+    "sourceRef": "PRPG Core Rulebook pg. 464",
+    "book": "CRB",
+    "kind": "specific-armor",
+    "slot": "armor",
+    "aura": "faint transmutation",
+    "weightLb": 25,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, haste",
+      "costRaw": "18,500 gp",
+      "costCp": 1850000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 128, PRPG Core Rulebook pg. 464",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 128"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "26,500 gp",
+        "priceCp": 2650000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "full-plate",
+    "enhancement": {
+      "on": "armor",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "+1 mithral full plate"
+  },
+  {
+    "id": "mithral-shirt",
+    "name": "Mithral Shirt",
+    "textEn": "**Aura** no aura (nonmagical); **Slot** armor; **Price** 1,100 gp; **Weight** 10 lbs.\n\n**Description**\n\nThis extremely light chain shirt is made of very fine mithral links. The armor has an arcane spell failure chance of 10%, a maximum Dexterity bonus of +6, and no armor check penalty. It is considered light armor.",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Mithral%20Shirt",
+    "sourceRef": "PRPG Core Rulebook pg. 464",
+    "book": "CRB",
+    "kind": "specific-armor",
+    "slot": "armor",
+    "aura": "no aura (nonmagical)",
+    "weightLb": 10,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 128, PRPG Core Rulebook pg. 464",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 128"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "1,100 gp",
+        "priceCp": 110000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "chain-shirt",
+    "abilityIds": [],
+    "baseEvidence": "This extremely light chain shirt"
+  },
+  {
+    "id": "plate-armor-of-the-deep",
+    "name": "Plate Armor of the Deep",
+    "textEn": "**Aura** moderate abjuration; **CL** 11th; **Slot** armor; **Price** 24,650 gp; **Weight** 50 lbs.\n\n**Description**\n\nThis *+1 full plate* is decorated with a wave and fish motif and often has tiny fins and scales worked into the design. Although the armor remains as heavy and bulky as normal full plate, the wearer of *plate armor of the deep* is treated as unarmored for purposes of Swim checks. The wearer can breathe underwater and can converse with any waterbreathing creature with a language.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *freedom of movement*, *tongues*, *water breathing*; **Price** 13,150 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Plate%20Armor%20of%20the%20Deep",
+    "sourceRef": "PRPG Core Rulebook pg. 464",
+    "book": "CRB",
+    "kind": "specific-armor",
+    "slot": "armor",
+    "aura": "moderate abjuration",
+    "weightLb": 50,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, freedom of movement, tongues, water breathing",
+      "costRaw": "13,150 gp",
+      "costCp": 1315000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 128, PRPG Core Rulebook pg. 464",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 128"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 11,
+        "priceRaw": "24,650 gp",
+        "priceCp": 2465000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "full-plate",
+    "enhancement": {
+      "on": "armor",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "+1 full plate"
+  },
+  {
+    "id": "rhino-hide",
+    "name": "Rhino Hide",
+    "textEn": "**Aura** moderate transmutation; **CL** 9th; **Slot** armor; **Price** 5,165 gp; **Weight** 25 lbs.\n\n**Description**\n\nThis *+2 hide armor* is made from rhinoceros hide. In addition to granting a +2 enhancement bonus to AC, it has a –1 armor check penalty and deals an additional 2d6 points of damage on any successful charge attack made by the wearer, including a mounted charge.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *bull’s strength*; **Price** 2,665 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Rhino%20Hide",
+    "sourceRef": "PRPG Core Rulebook pg. 464",
+    "book": "CRB",
+    "kind": "specific-armor",
+    "slot": "armor",
+    "aura": "moderate transmutation",
+    "weightLb": 25,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, bull’s strength",
+      "costRaw": "2,665 gp",
+      "costCp": 266500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 129, PRPG Core Rulebook pg. 464",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 129"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 9,
+        "priceRaw": "5,165 gp",
+        "priceCp": 516500,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "hide",
+    "enhancement": {
+      "on": "armor",
+      "bonus": 2
+    },
+    "abilityIds": [],
+    "baseEvidence": "+2 hide armor"
+  }
+]

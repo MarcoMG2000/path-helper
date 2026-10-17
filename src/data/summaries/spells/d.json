@@ -1,0 +1,222 @@
+{
+  "dancing-lights": {
+    "summaryEs": "Según la versión, creas hasta cuatro luces como linternas o antorchas, hasta cuatro esferas brillantes, o una forma humanoide tenue. Deben estar a un radio de 10 pies entre sí y se mueven hasta 100 pies por asalto sin concentración. Solo puedes tener un dancing lights activo.",
+    "status": "draft"
+  },
+  "darkness": {
+    "summaryEs": "Un objeto irradia oscuridad en un radio de 20 pies, que baja un paso el nivel de iluminación. Todas las criaturas ganan ocultación (20% de fallo) con luz tenue y ocultación total (50% de fallo) en la oscuridad; quien tiene darkvision ve sin penalización. No se apila consigo mismo.",
+    "status": "draft"
+  },
+  "darkvision": {
+    "summaryEs": "El sujeto gana la capacidad de ver 60 pies incluso en total oscuridad, solo en blanco y negro pero por lo demás como la vista normal. Puede hacerse permanente con permanency.",
+    "status": "draft"
+  },
+  "daylight": {
+    "summaryEs": "Tocas un objeto y emite luz brillante en un radio de 60 pies; la iluminación sube un paso otros 60 pies más. No equivale a la luz del día para criaturas dañadas por ella. Anula o disipa los conjuros de oscuridad de nivel igual o menor, como darkness.",
+    "status": "draft"
+  },
+  "daze": {
+    "summaryEs": "Nubla la mente de una criatura humanoide de 4 o menos Dados de Golpe, que no realiza acciones. Los humanoides de 5 o más DG no se ven afectados. No queda aturdida, así que los atacantes no obtienen ventaja. Después es inmune a este conjuro durante 1 minuto.",
+    "status": "draft"
+  },
+  "daze-monster": {
+    "summaryEs": "Funciona como daze, pero puede afectar a cualquier criatura viva de cualquier tipo. Las criaturas de 7 o más DG no se ven afectadas.",
+    "status": "draft"
+  },
+  "death-knell": {
+    "summaryEs": "Tocas a una criatura viva con -1 o menos puntos de golpe; si falla su salvación muere y tú ganas 1d8 puntos de golpe temporales, +2 de mejora a Fuerza y +1 a tu nivel de lanzador efectivo (sin acceso a más conjuros). Los efectos duran 10 minutos por DG del sujeto.",
+    "status": "draft"
+  },
+  "death-ward": {
+    "summaryEs": "El sujeto gana +4 moral a las salvaciones contra conjuros de muerte y efectos mágicos de muerte, con salvación incluso si normalmente no la hay, y es inmune a drenaje de energía y a energía negativa. No elimina niveles negativos ya ganados, pero suprime sus penalizaciones.",
+    "status": "draft"
+  },
+  "deathwatch": {
+    "summaryEs": "Con la necromancia sabes al instante si cada criatura del área está muerta, frágil (viva con 3 o menos puntos de golpe), luchando contra la muerte (viva con 4 o más), sana, no muerta o ni viva ni muerta. Ve a través de cualquier efecto que permita fingir la muerte.",
+    "status": "draft"
+  },
+  "deep-slumber": {
+    "summaryEs": "Funciona como sleep, pero afecta a 10 DG de objetivos.",
+    "status": "draft"
+  },
+  "deeper-darkness": {
+    "summaryEs": "Funciona como darkness, pero los objetos irradian oscuridad en un radio de 60 pies y la luz baja dos pasos; ni siquiera quien tiene darkvision puede ver dentro. No se apila consigo mismo. Anula o disipa los conjuros de luz de nivel igual o menor.",
+    "status": "draft"
+  },
+  "delay-poison": {
+    "summaryEs": "El sujeto se vuelve temporalmente inmune al veneno: el que tenga en su organismo o al que se exponga durante el conjuro no le afecta hasta que termine. No cura el daño que el veneno ya haya hecho.",
+    "status": "draft"
+  },
+  "delayed-blast-fireball": {
+    "summaryEs": "Como fireball, pero más potente: 1d6 de daño de fuego por nivel de lanzador (máximo 20d6) y puedes retrasar la detonación hasta 5 asaltos. La cuenta brillante puede ser lanzada como arma arrojadiza (incremento de 10 pies); si se manipula en el asalto de la detonación hay 25% de que estalle.",
+    "status": "draft"
+  },
+  "demand": {
+    "summaryEs": "Como sending, pero el mensaje también puede incluir una suggestion que el sujeto intenta cumplir; la salvación de Voluntad niega la suggestion, no el contacto. El mensaje debe tener 25 palabras o menos, incluida la suggestion, y la criatura puede dar una breve respuesta.",
+    "status": "draft"
+  },
+  "desecrate": {
+    "summaryEs": "Imbuye un área de energía negativa: +3 profano a la CD para resistir energía negativa canalizada; los no muertos que entran ganan +1 profano a ataques, daño y salvaciones, y +1 punto de golpe por DG si se crean allí. Con un altar de tu deidad se duplica. Anula y disipa consecrate.",
+    "status": "draft"
+  },
+  "destruction": {
+    "summaryEs": "Causa de inmediato 10 puntos de daño por nivel de lanzador. Si mata al objetivo, consume sus restos en fuego sagrado o profano (no su equipo). Si supera la salvación de Fortaleza, sufre 10d6 de daño. Solo true resurrection, wish seguido de resurrection o miracle pueden devolverle la vida.",
+    "status": "draft"
+  },
+  "detect-animals-or-plants": {
+    "summaryEs": "Detectas un tipo concreto de animal o planta en un cono. 1.er asalto, presencia o ausencia; 2.º, número de individuos y estado del más sano; 3.er, estado y ubicación de cada uno. Puedes cambiar de tipo cada asalto. Lo bloquea 1 pie de piedra, 1 pulgada de metal común o 3 pies de madera o tierra.",
+    "status": "draft"
+  },
+  "detect-chaos": {
+    "summaryEs": "Funciona como detect evil, pero detecta auras de criaturas caóticas, clérigos de deidades caóticas, conjuros caóticos y objetos mágicos caóticos; si eres legal, eres vulnerable a un aura caótica abrumadora.",
+    "status": "draft"
+  },
+  "detect-evil": {
+    "summaryEs": "Percibes la presencia del mal. 1.er asalto, presencia o ausencia; 2.º asalto, número de auras y poder de la más potente; 3.er asalto, poder y ubicación de cada una. Si eres bueno y el aura es abrumadora y su fuente tiene al menos el doble de tu nivel, quedas aturdido 1 asalto y el conjuro termina.",
+    "status": "draft"
+  },
+  "detect-good": {
+    "summaryEs": "Funciona como detect evil, pero detecta auras de criaturas buenas, clérigos o paladines de deidades buenas, conjuros buenos y objetos mágicos buenos; si eres malvado, eres vulnerable a un aura buena abrumadora.",
+    "status": "draft"
+  },
+  "detect-law": {
+    "summaryEs": "Funciona como detect evil, pero detecta auras de criaturas legales, clérigos de deidades legales, conjuros legales y objetos mágicos legales; si eres caótico, eres vulnerable a un aura legal abrumadora.",
+    "status": "draft"
+  },
+  "detect-magic": {
+    "summaryEs": "Detectas auras mágicas. 1.er asalto, presencia o ausencia; 2.º, número de auras y poder de la más potente; 3.er, fuerza y ubicación de cada una, con pruebas de Knowledge (arcana) para su escuela (CD 15 + nivel del conjuro). Puede hacerse permanente con permanency.",
+    "status": "draft"
+  },
+  "detect-poison": {
+    "summaryEs": "Determinas si una criatura, objeto o zona está envenenada o es venenosa. Puedes identificar el veneno exacto con una prueba de Sabiduría CD 20, o con Craft (alchemy) CD 20. Lo bloquea 1 pie de piedra, 1 pulgada de metal común o 3 pies de madera o tierra.",
+    "status": "draft"
+  },
+  "detect-scrying": {
+    "summaryEs": "Te das cuenta al instante de cualquier intento de observarte mediante adivinación (scrying) y conoces la ubicación de cada sensor mágico en el área. Si el intento viene de fuera, haces una prueba de nivel de lanzador (1d20 + nivel) enfrentada y, si igualas, ves una imagen del observador.",
+    "status": "draft"
+  },
+  "detect-secret-doors": {
+    "summaryEs": "Detectas puertas secretas, compartimentos y escondrijos construidos para pasar inadvertidos. 1.er asalto, presencia o ausencia; 2.º, número y ubicación; cada asalto adicional, el mecanismo de una puerta que examines. Lo bloquea 1 pie de piedra, 1 pulgada de metal común o 3 pies de madera o tierra.",
+    "status": "draft"
+  },
+  "detect-snares-and-pits": {
+    "summaryEs": "Detectas fosos, trampas de derrumbe y lazos sencillos, y trampas mecánicas de materiales naturales, además de peligros como arenas movedizas. No detecta trampas complejas ni mágicas (salvo foso, derrumbe o lazo). 1.er asalto, presencia; 2.º, número y ubicación; después, tipo y activador de uno.",
+    "status": "draft"
+  },
+  "detect-thoughts": {
+    "summaryEs": "Detectas pensamientos superficiales. 1.er asalto, presencia o ausencia; 2.º, número de mentes e Inteligencia de cada una; 3.er, los pensamientos de una mente, que su salvación de Voluntad impide leer. Si la mayor Inteligencia es 26 o más (y 10 más que la tuya), quedas aturdido 1 asalto.",
+    "status": "draft"
+  },
+  "detect-undead": {
+    "summaryEs": "Detectas el aura de los no muertos. 1.er asalto, presencia o ausencia; 2.º, número de auras y fuerza de la mayor; 3.er, fuerza y ubicación de cada una. La fuerza depende de los DG. Si eres bueno, el aura es abrumadora y sus DG son al menos el doble de tu nivel, quedas aturdido 1 asalto.",
+    "status": "draft"
+  },
+  "dictum": {
+    "summaryEs": "Las criaturas no legales en el área sufren según sus DG respecto a tu nivel de lanzador: ensordecidas (1d4 asaltos), tambaleantes (2d4), paralizadas (1d10 minutos) o muertas, acumulativos; Voluntad los reduce o anula. Los extraplanarios no legales son desterrados al menos 24 horas.",
+    "status": "draft"
+  },
+  "dimension-door": {
+    "summaryEs": "Te transportas al instante a cualquier punto dentro del alcance y no puedes actuar más hasta tu siguiente turno. Puedes llevar objetos según tu carga máxima y una criatura Medium dispuesta por cada tres niveles de lanzador. Si el destino está ocupado, sufres 1d6 de daño y te desplazan.",
+    "status": "draft"
+  },
+  "dimensional-anchor": {
+    "summaryEs": "Un rayo verde exige un ataque de toque a distancia; la criatura u objeto alcanzado queda cubierto por un campo esmeralda que bloquea el viaje extradimensional (astral projection, blink, dimension door, gate, plane shift, teleport...). No afecta a quienes ya están en forma etérea o astral.",
+    "status": "draft"
+  },
+  "dimensional-lock": {
+    "summaryEs": "Creas una barrera esmeralda que bloquea por completo el viaje extradimensional (astral projection, blink, dimension door, gate, plane shift, teleport...) hacia el área y desde ella. No afecta a quienes ya están en forma etérea o astral ni a la percepción o los ataques extradimensionales.",
+    "status": "draft"
+  },
+  "diminish-plants": {
+    "summaryEs": "Dos versiones. Prune growth reduce la vegetación normal en alcance largo (400 pies + 40 pies por nivel) a un tercio de su tamaño y disipa conjuros que realzan plantas. Stunt growth afecta a plantas normales en 1/2 milla y reduce a la mitad su productividad del año siguiente.",
+    "status": "draft"
+  },
+  "discern-lies": {
+    "summaryEs": "Cada asalto te concentras en un objetivo a alcance y sabes si miente deliberadamente y a sabiendas. No revela la verdad, ni errores involuntarios, ni necesariamente evasivas. Cada asalto puedes cambiar de objetivo.",
+    "status": "draft"
+  },
+  "discern-location": {
+    "summaryEs": "Es uno de los medios más potentes para localizar: solo mind blank o la intervención de una deidad impide conocer la ubicación exacta de un individuo u objeto. Para una criatura debes haberla visto o tener algo suyo; para un objeto, haberlo tocado al menos una vez.",
+    "status": "draft"
+  },
+  "disguise-self": {
+    "summaryEs": "Cambias tu apariencia, con ropa, armadura y equipo: puedes parecer 1 pie más alto o bajo, delgado o gordo, otra persona o género. No cambia tu tipo de criatura ni el tacto o sonido. Recibes +10 a la prueba de Disguise; quien interactúe con la ilusión tiene una salvación de Voluntad.",
+    "status": "draft"
+  },
+  "disintegrate": {
+    "summaryEs": "Un rayo verde (ataque de toque a distancia) causa 2d6 de daño por nivel de lanzador (máximo 40d6); quien quede a 0 o menos puntos de golpe se desintegra por completo, sin su equipo. Contra objetos desintegra hasta un cubo de 10 pies. Con Fortaleza exitosa sufre solo 5d6.",
+    "status": "draft"
+  },
+  "dismissal": {
+    "summaryEs": "Obliga a una criatura extraplanaria a volver a su plano si falla una salvación de Voluntad, aunque hay 20% de probabilidad de enviarla a un plano distinto del suyo.",
+    "status": "draft"
+  },
+  "dispel-chaos": {
+    "summaryEs": "Funciona como dispel evil, pero te rodea energía legal azul constante y el conjuro afecta a criaturas y conjuros caóticos en lugar de malvados.",
+    "status": "draft"
+  },
+  "dispel-evil": {
+    "summaryEs": "Energía sagrada blanca te rodea con tres efectos: +4 de desvío a la CA contra ataques de criaturas malvadas; un toque cuerpo a cuerpo puede devolver a su plano a una criatura malvada de otro plano (Voluntad niega); y un toque disipa un encantamiento de una criatura malvada o un conjuro maligno.",
+    "status": "draft"
+  },
+  "dispel-good": {
+    "summaryEs": "Funciona como dispel evil, pero te rodea energía profana oscura y el conjuro afecta a criaturas y conjuros buenos en lugar de malvados.",
+    "status": "draft"
+  },
+  "dispel-law": {
+    "summaryEs": "Funciona como dispel evil, pero te rodea energía caótica amarilla titilante y el conjuro afecta a criaturas y conjuros legales en lugar de malvados.",
+    "status": "draft"
+  },
+  "dispel-magic": {
+    "summaryEs": "Termina un conjuro en curso sobre una criatura u objeto, suprime temporalmente un objeto mágico o contrarresta el conjuro de otro lanzador. En el dispel dirigido haces una prueba de 1d20 + nivel de lanzador contra CD 11 + nivel de lanzador del conjuro; un objeto mágico queda suprimido 1d4 asaltos.",
+    "status": "draft"
+  },
+  "dispel-magic-greater": {
+    "summaryEs": "Como dispel magic, pero puede terminar varios conjuros sobre un objetivo (uno por cada cuatro niveles de lanzador) y afectar a varios; también puede disipar maldiciones. Puede usarse como dispel dirigido, de área (explosión de radio 20 pies) o como contrahechizo con +4 a la prueba.",
+    "status": "draft"
+  },
+  "displacement": {
+    "summaryEs": "El sujeto parece estar a unos 2 pies de su ubicación real y tiene 50% de probabilidad de fallo como con ocultación total, sin impedir que se le pueda elegir como objetivo normalmente. True seeing revela su ubicación y anula el fallo.",
+    "status": "draft"
+  },
+  "disrupt-undead": {
+    "summaryEs": "Diriges un rayo de energía positiva; exige un ataque de toque a distancia y, si alcanza a un no muerto, le causa 1d6 de daño.",
+    "status": "draft"
+  },
+  "disrupting-weapon": {
+    "summaryEs": "Convierte un arma cuerpo a cuerpo en mortal para los no muertos: uno con DG iguales o menores a tu nivel de lanzador que sea golpeado debe superar Voluntad o es destruido por completo. La resistencia a conjuros no se aplica.",
+    "status": "draft"
+  },
+  "divination": {
+    "summaryEs": "Similar a augury pero más potente: da un consejo útil sobre un objetivo, suceso o actividad que ocurrirá en 1 semana, como una frase corta o un verso críptico. La probabilidad base de acierto es 70% + 1% por nivel de lanzador, hasta 90%. Repetirla sobre el mismo tema da el mismo resultado.",
+    "status": "draft"
+  },
+  "divine-favor": {
+    "summaryEs": "Invocando a una deidad ganas un bonificador de suerte de +1 a las tiradas de ataque y de daño con armas por cada tres niveles de lanzador (mínimo +1, máximo +3). No se aplica al daño de conjuros.",
+    "status": "draft"
+  },
+  "divine-power": {
+    "summaryEs": "Ganas +1 de suerte a ataques, daño con armas, pruebas de Fuerza y habilidades basadas en Fuerza por cada tres niveles de lanzador (máximo +6), y 1 punto de golpe temporal por nivel. En un ataque completo haces un ataque adicional con tu ataque base completo, no acumulable con efectos como haste.",
+    "status": "draft"
+  },
+  "dominate-animal": {
+    "summaryEs": "Hechizas a un animal y lo diriges con órdenes mentales silenciosas sencillas (Attack, Run, Fetch). Se ignoran las órdenes suicidas, incluso atacar a una criatura dos o más categorías de tamaño mayor. No necesitas verlo; cambiar las instrucciones es una acción de movimiento.",
+    "status": "draft"
+  },
+  "dominate-monster": {
+    "summaryEs": "Funciona como dominate person, pero no está restringido por tipo de criatura.",
+    "status": "draft"
+  },
+  "dominate-person": {
+    "summaryEs": "Controlas a un humanoide mediante un enlace telepático. Si compartís idioma, lo obligas a actuar como quieras dentro de sus capacidades; si no, solo órdenes básicas. Cambiar órdenes es una acción de movimiento. Quien actúe contra su naturaleza tiene nueva salvación con +2.",
+    "status": "draft"
+  },
+  "doom": {
+    "summaryEs": "Llena a un único sujeto de un pavor terrible que lo deja shaken.",
+    "status": "draft"
+  },
+  "dream": {
+    "summaryEs": "Tú, o un mensajero al que toques, envías un mensaje en forma de sueño a un destinatario que debes nombrar o identificar sin dudas. El mensaje puede tener cualquier longitud y se recuerda perfectamente, pero es de un solo sentido. No se puede contactar a criaturas que no duermen ni sueñan.",
+    "status": "draft"
+  }
+}

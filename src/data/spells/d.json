@@ -1,0 +1,3322 @@
+[
+  {
+    "id": "dancing-lights",
+    "name": "Dancing Lights",
+    "textEn": "Depending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o'-wisps), or one faintly glowing, vaguely humanoid shape. The *dancing lights* must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell's range.\n\nYou can only have one *dancing lights* spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent, it does not count against this limit.\n\n*Dancing lights* can be made permanent with a *permanency* spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dancing Lights",
+    "sourceRef": "PRPG Core Rulebook pg. 263",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "light"
+    ],
+    "levels": {
+      "bard": 0,
+      "sorcerer": 0,
+      "wizard": 0
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "up to four lights, all within a 10-ft.-radius area"
+      }
+    ],
+    "duration": {
+      "raw": "1 minute (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Creates torches or other lights."
+  },
+  {
+    "id": "darkness",
+    "name": "Darkness",
+    "textEn": "This spell causes an object to radiate darkness out to a 20-foot radius. This darkness causes the illumination level in the area to drop one step, from bright light to normal light, from normal light to dim light, or from dim light to darkness. This spell has no effect in an area that is already dark. Creatures with light vulnerability or sensitivity take no penalties in normal light. All creatures gain concealment (20% miss chance) in dim light. All creatures gain total concealment (50% miss chance) in darkness. Creatures with darkvision can see in an area of dim light or darkness without penalty. Nonmagical sources of light, such as torches and lanterns, do not increase the light level in an area of darkness. Magical light sources only increase the light level in an area if they are of a higher spell level than *darkness*.\n\nIf *darkness* is cast on a small object that is then placed inside or under a lightproof covering, the spell's effect is blocked until the covering is removed.\n\nThis spell does not stack with itself. Darkness can be used to counter or dispel any light spell of equal or lower spell level.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Darkness",
+    "sourceRef": "PRPG Core Rulebook pg. 263",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "darkness"
+    ],
+    "levels": {
+      "bard": 2,
+      "cleric": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, M/DF (bat fur and a piece of coal)",
+      "details": {
+        "material": "bat fur and a piece of coal"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "object touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "20-ft. radius of supernatural shadow."
+  },
+  {
+    "id": "darkvision",
+    "name": "Darkvision",
+    "textEn": "The subject gains the ability to see 60 feet even in total darkness. Darkvision is black and white only but otherwise like normal sight.\n\n*Darkvision* can be made permanent with a *permanency* spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Darkvision",
+    "sourceRef": "PRPG Core Rulebook pg. 264",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "ranger": 3,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (either a pinch of dried carrot or an agate)",
+      "details": {
+        "material": "either a pinch of dried carrot or an agate"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "See 60 ft. in total darkness."
+  },
+  {
+    "id": "daylight",
+    "name": "Daylight",
+    "textEn": "You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot radius. This illumination increases the light level for an additional 60 feet by one step (darkness becomes dim light, dim light becomes normal light, and normal light becomes bright light). Creatures that take penalties in bright light take them while within the 60-foot radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that are damaged or destroyed by such light.\n\nIf *daylight* is cast on a small object that is then placed inside or under a light-proof covering, the spell's effects are blocked until the covering is removed.\n\n*Daylight* brought into an area of magical darkness (or vice versa) is temporarily negated, so that the otherwise prevailing light conditions exist in the overlapping areas of effect.\n\n*Daylight* counters or dispels any darkness spell of equal or lower level, such as *darkness*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Daylight",
+    "sourceRef": "PRPG Core Rulebook pg. 264",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "light"
+    ],
+    "levels": {
+      "bard": 3,
+      "cleric": 3,
+      "druid": 3,
+      "paladin": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "object touched"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "60-ft. radius of bright light."
+  },
+  {
+    "id": "daze",
+    "name": "Daze",
+    "textEn": "This spell clouds the mind of a humanoid creature with 4 or fewer Hit Dice so that it takes no actions. Humanoids of 5 or more HD are not affected. A dazed subject is not stunned, so attackers get no special advantage against it. After a creature has been dazed by this spell, it is immune to the effects of this spell for 1 minute.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Daze",
+    "sourceRef": "PRPG Core Rulebook pg. 264",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 0,
+      "sorcerer": 0,
+      "wizard": 0
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a pinch of wool or similar substance)",
+      "details": {
+        "material": "a pinch of wool or similar substance"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one humanoid creature of 4 HD or less"
+      }
+    ],
+    "duration": {
+      "raw": "1 round",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Humanoid creature of 4 HD or less loses next action."
+  },
+  {
+    "id": "daze-monster",
+    "name": "Daze Monster",
+    "textEn": "This spell functions like *daze*, but can affect any one living creature of any type. Creatures of 7 or more HD are not affected.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Daze Monster",
+    "sourceRef": "PRPG Core Rulebook pg. 264",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a pinch of wool or similar substance)",
+      "details": {
+        "material": "a pinch of wool or similar substance"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature of 6 HD or less"
+      }
+    ],
+    "duration": {
+      "raw": "1 round",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Living creature of 6 HD or less loses next action."
+  },
+  {
+    "id": "death-knell",
+    "name": "Death Knell",
+    "textEn": "You draw forth the ebbing life force of a creature and use it to fuel your own power. Upon casting this spell, you touch a living creature that has –1 or fewer hit points. If the subject fails its saving throw, it dies, and you gain 1d8 temporary hit points and a +2 enhancement bonus to Strength. Additionally, your effective caster level goes up by +1, improving spell effects dependent on caster level. This increase in effective caster level does not grant you access to more spells. These effects last for 10 minutes per HD of the subject creature.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Death Knell",
+    "sourceRef": "PRPG Core Rulebook pg. 264",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [
+      "death",
+      "evil"
+    ],
+    "levels": {
+      "cleric": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "living creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous/10 minutes per HD of subject; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Kills dying creature; you gain 1d8 temporary hp, +2 to Str, and +1 caster level."
+  },
+  {
+    "id": "death-ward",
+    "name": "Death Ward",
+    "textEn": "The subject gains a +4 morale bonus on saves against all death spells and magical death effects. The subject is granted a save to negate such effects even if one is not normally allowed. The subject is immune to energy drain and any negative energy effects, including channeled negative energy.\n\nThis spell does not remove negative levels that the subject has already gained, but it does remove the penalties from negative levels for the duration of its effect.\n\n*Death ward* does not protect against other sorts of attacks, even if those attacks might be lethal.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Death Ward",
+    "sourceRef": "PRPG Core Rulebook pg. 264",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 4,
+      "druid": 5,
+      "paladin": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "living creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Grants bonuses against death spells and negative energy."
+  },
+  {
+    "id": "deathwatch",
+    "name": "Deathwatch",
+    "textEn": "Using the powers of necromancy, you can determine the condition of creatures near death within the spell's range. You instantly know whether each creature within the area is dead, fragile (alive and wounded, with 3 or fewer hit points left), fighting off death (alive with 4 or more hit points), healthy, undead, or neither alive nor dead (such as a construct). *Deathwatch* sees through any spell or ability that allows creatures to feign death.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Deathwatch",
+    "sourceRef": "PRPG Core Rulebook pg. 265",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "30 ft.",
+      "kind": "fixed",
+      "fixedFt": 30
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped emanation"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Reveals how near death subjects within 30 ft. are."
+  },
+  {
+    "id": "deep-slumber",
+    "name": "Deep Slumber",
+    "textEn": "This spell functions like *sleep*, except that it affects 10 HD of targets.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Deep Slumber",
+    "sourceRef": "PRPG Core Rulebook pg. 265",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 round",
+      "unit": "round",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (fine sand, rose petals, or a live cricket)",
+      "details": {
+        "material": "fine sand, rose petals, or a live cricket"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "one or more living creatures within a 10-ft.-radius burst"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Puts 10 HD of creatures to sleep."
+  },
+  {
+    "id": "deeper-darkness",
+    "name": "Deeper Darkness",
+    "textEn": "This spell functions as *darkness*, except that objects radiate darkness in a 60-foot radius and the light level is lowered by two steps. Bright light becomes dim light and normal light becomes darkness. Areas of dim light and darkness become supernaturally dark. This functions like darkness, but even creatures with darkvision cannot see within the spell's confines.\n\nThis spell does not stack with itself. *Deeper darkness* can be used to counter or dispel any light spell of equal or lower spell level.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Deeper Darkness",
+    "sourceRef": "PRPG Core Rulebook pg. 265",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "darkness"
+    ],
+    "levels": {
+      "cleric": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, M/DF (bat fur and a piece of coal)",
+      "details": {
+        "material": "bat fur and a piece of coal"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "object touched"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Object sheds supernatural shadow in 60-ft. radius."
+  },
+  {
+    "id": "delay-poison",
+    "name": "Delay Poison",
+    "textEn": "The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it is exposed during the spell's duration does not affect the subject until the spell's duration has expired. *Delay poison* does not cure any damage that poison may have already done.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Delay Poison",
+    "sourceRef": "PRPG Core Rulebook pg. 265",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "bard": 2,
+      "cleric": 2,
+      "druid": 2,
+      "paladin": 2,
+      "ranger": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Fortitude negates (harmless)",
+      "kind": "fortitude",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Stops poison from harming target for 1 hour/level."
+  },
+  {
+    "id": "delayed-blast-fireball",
+    "name": "Delayed Blast Fireball",
+    "textEn": "This spell functions like *fireball*, except that it is more powerful and can detonate up to 5 rounds after the spell is cast. The burst of flame deals 1d6 points of fire damage per caster level (maximum 20d6). The glowing bead created by *delayed blast fireball* can detonate immediately if you desire, or you can choose to delay the burst for as many as 5 rounds. You select the amount of delay upon completing the spell, and that time cannot change once it has been set unless someone touches the bead. If you choose a delay, the glowing bead sits at its destination until it detonates. A creature can pick up and hurl the bead as a thrown weapon (range increment 10 feet). If a creature handles and moves the bead within 1 round of its detonation, there is a 25% chance that the bead detonates while being handled.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Delayed Blast Fireball",
+    "sourceRef": "PRPG Core Rulebook pg. 265",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "fire"
+    ],
+    "levels": {
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a ball of bat guano and sulfur)",
+      "details": {
+        "material": "a ball of bat guano and sulfur"
+      }
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "20-ft.-radius spread"
+      }
+    ],
+    "duration": {
+      "raw": "5 rounds or less; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Reflex half",
+      "kind": "reflex",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "1d6/level fire damage; you can postpone blast for up to 5 rounds."
+  },
+  {
+    "id": "demand",
+    "name": "Demand",
+    "textEn": "This spell functions like *sending*, but the message can also contain a *suggestion* (see the *suggestion* spell), which the subject does its best to carry out. A successful Will save negates the *suggestion* effect but not the contact itself. The *demand*, if received, is understood even if the subject's Intelligence score is as low as 1. If the message is impossible or meaningless according to the circumstances that exist for the subject at the time the *demand* is issued, the message is understood but the *suggestion* is ineffective.\n\nThe *demand*'s message to the creature must be 25 words or less, including the *suggestion*. The creature can also give a short reply immediately.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Demand",
+    "sourceRef": "PRPG Core Rulebook pg. 265",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (fine copper wire)",
+      "details": {
+        "material": "fine copper wire"
+      }
+    },
+    "range": {
+      "raw": "see text",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature"
+      }
+    ],
+    "duration": {
+      "raw": "1 round; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will partial",
+      "kind": "will",
+      "effect": "partial",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As sending, plus you can send suggestion."
+  },
+  {
+    "id": "desecrate",
+    "name": "Desecrate",
+    "textEn": "This spell imbues an area with negative energy. The DC to resist negative channeled energy within this area gains a +3 profane bonus. Every undead creature entering a *desecrated* area gains a +1 profane bonus on all attack rolls, damage rolls, and saving throws. An undead creature created within or summoned into such an area gains +1 hit points per HD.\n\nIf the *desecrated* area contains an altar, shrine, or other permanent fixture dedicated to your deity or aligned higher power, the modifiers given above are doubled (+6 profane bonus to negative channeled energy DCs, +2 profane bonus and +2 hit points per HD for undead created in the area).\n\nFurthermore, anyone who casts *animate dead* within this area may create as many as double the normal amount of undead (that is, 4 HD per caster level rather than 2 HD per caster level).\n\nIf the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron, the *desecrate* spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above.\n\n*Desecrate* counters and dispels *consecrate*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Desecrate",
+    "sourceRef": "PRPG Core Rulebook pg. 265",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "evil"
+    ],
+    "levels": {
+      "cleric": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M (a vial of unholy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area), DF",
+      "details": {
+        "material": "a vial of unholy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "20-ft.-radius emanation"
+      }
+    ],
+    "duration": {
+      "raw": "2 hours/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 2,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Fills area with negative energy, making undead stronger."
+  },
+  {
+    "id": "destruction",
+    "name": "Destruction",
+    "textEn": "This spell instantly delivers 10 points of damage per caster level. If the spell slays the target, it consumes the remains utterly in holy (or unholy) fire (but not its equipment or possessions). If the target's Fortitude saving throw succeeds, it instead takes 10d6 points of damage. The only way to restore life to a character who has failed to save against this spell (and was slain) is to use *true resurrection*, a carefully worded *wish* spell followed by *resurrection*, or *miracle*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Destruction",
+    "sourceRef": "PRPG Core Rulebook pg. 266",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [
+      "death"
+    ],
+    "levels": {
+      "cleric": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, F (holy or unholy symbol costing 500 gp)",
+      "details": {
+        "focus": "holy or unholy symbol costing 500 gp"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Fortitude partial",
+      "kind": "fortitude",
+      "effect": "partial",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Kills subject and destroys remains."
+  },
+  {
+    "id": "detect-animals-or-plants",
+    "name": "Detect Animals or Plants",
+    "textEn": "You can detect a particular kind of animal or plant in a cone emanating out from you in whatever direction you face. You must think of a kind of animal or plant when using the spell, but you can change the animal or plant kind each round. The amount of information revealed depends on how long you search a particular area or focus on a specific kind of animal or plant.\n\n*1st Round*: Presence or absence of that kind of animal or plant in the area.\n\n*2nd Round*: Number of individuals of the specified kind in the area and the condition of the healthiest specimen.\n\n*3rd Round*: The condition (see below) and location of each individual present. If an animal or a plant is outside your line of sight, then you discern its direction but not its exact location.\n\n*Conditions*: For purposes of this spell, the categories of condition are as follows:\n\nNormal: Has at least 90% of full normal hit points, free of disease.\n\nFair: 30% to 90% of full normal hit points remaining.\n\nPoor: Less than 30% of full normal hit points remaining, afflicted with a disease, or suffering from a debilitating injury.\n\nWeak: 0 or fewer hit points remaining, afflicted with a disease that has reduced an ability score to 5 or less, or crippled.\n\nIf a creature falls into more than one category, the spell indicates the weaker of the two.\n\nEach round you can turn to detect a kind of animal or plant in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Animals or Plants",
+    "sourceRef": "PRPG Core Rulebook pg. 266",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "druid": 1,
+      "ranger": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped emanation"
+      }
+    ],
+    "duration": {
+      "raw": "concentration, up to 10 min./level (D)",
+      "kind": "concentration",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Detects kinds of animals or plants."
+  },
+  {
+    "id": "detect-chaos",
+    "name": "Detect Chaos",
+    "textEn": "This spell functions like *detect evil*, except that it detects the auras of chaotic creatures, clerics of chaotic deities, chaotic spells, and chaotic magic items, and you are vulnerable to an overwhelming chaotic aura if you are lawful.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Chaos",
+    "sourceRef": "PRPG Core Rulebook pg. 266",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "cleric": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "60 ft.",
+      "kind": "fixed",
+      "fixedFt": 60
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped emanation"
+      }
+    ],
+    "duration": {
+      "raw": "concentration, up to 10 min./level (D)",
+      "kind": "concentration",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Reveals creatures, spells, or objects of selected alignment."
+  },
+  {
+    "id": "detect-evil",
+    "name": "Detect Evil",
+    "textEn": "You can sense the presence of evil. The amount of information revealed depends on how long you study a particular area or subject.\n\n*1st Round*: Presence or absence of evil.\n\n*2nd Round*: Number of evil auras (creatures, objects, or spells) in the area and the power of the most potent evil aura present.\n\nIf you are of good alignment, and the strongest evil aura's power is overwhelming (see below), and the HD or level of the aura's source is at least twice your character level, you are stunned for 1 round and the spell ends.\n\n*3rd Round*: The power and location of each aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.\n\n*Aura Power*: An evil aura's power depends on the type of evil creature or object that you're detecting and its HD, caster level, or (in the case of a cleric) class level; see the table below. If an aura falls into more than one strength category, the spell indicates the stronger of the two.\n\n*Lingering Aura*: An evil aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a creature or magic item). If *detect evil* is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:\n\n| **Original Strength** | **Duration of Lingering Aura** |\n| --- | --- |\n| Faint | 1d6 rounds |\n| Moderate | 1d6 minutes |\n| Strong | 1d6 x 10 minutes |\n| Overwhelming | 1d6 days |\n\nAnimals, traps, poisons, and other potential perils are not evil, and as such this spell does not detect them. Creatures with actively evil intents count as evil creatures for the purpose of this spell.\n\nEach round, you can turn to detect evil in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.\n\n| **Creature/Object** | **Aura Power** |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| **None** | **Faint** | **Moderate** | **Strong** | **Overwhelming** |  |\n| Aligned creature1 (HD) | 4 or lower | 5-10 | 11-25 | 26-50 | 51 or higher |\n| Aligned Undead (HD) | — | 2 or lower | 3-8 | 9-20 | 21 or higher |\n| Aligned outsider (HD) | — | 1 or lower | 2-4 | 5-10 | 11 or higher |\n| Cleric or paladin of an aligned deity2 (class levels) | — | 1 | 2-4 | 5-10 | 11 or higher |\n| Aligned magic item or spell (caster level) | 5th or lower | 6th-10th | 11th-15th | 16th-20th | 21st or higher |\n| 1 Except for undead and outsiders, which have their own entries on the table. 2 Some characters who are not clerics may radiate an aura of equivalent power. The class description will indicate whether this applies. |  |  |  |  |  |",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Evil",
+    "sourceRef": "PRPG Core Rulebook pg. 266",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "cleric": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "60 ft.",
+      "kind": "fixed",
+      "fixedFt": 60
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped emanation"
+      }
+    ],
+    "duration": {
+      "raw": "concentration, up to 10 min./level (D)",
+      "kind": "concentration",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Reveals creatures, spells, or objects of selected alignment."
+  },
+  {
+    "id": "detect-good",
+    "name": "Detect Good",
+    "textEn": "This spell functions like *detect evil*, except that it detects the auras of good creatures, clerics or paladins of good deities, good spells, and good magic items, and you are vulnerable to an overwhelming good aura if you are evil.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Good",
+    "sourceRef": "PRPG Core Rulebook pg. 267",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "cleric": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "60 ft.",
+      "kind": "fixed",
+      "fixedFt": 60
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped emanation"
+      }
+    ],
+    "duration": {
+      "raw": "concentration, up to 10 min./level (D)",
+      "kind": "concentration",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Reveals creatures, spells, or objects of selected alignment."
+  },
+  {
+    "id": "detect-law",
+    "name": "Detect Law",
+    "textEn": "This spell functions like *detect evil*, except that it detects the auras of lawful creatures, clerics of lawful deities, lawful spells, and lawful magic items, and you are vulnerable to an overwhelming lawful aura if you are chaotic.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Law",
+    "sourceRef": "PRPG Core Rulebook pg. 267",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "cleric": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "60 ft.",
+      "kind": "fixed",
+      "fixedFt": 60
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped emanation"
+      }
+    ],
+    "duration": {
+      "raw": "concentration, up to 10 min./level (D)",
+      "kind": "concentration",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Reveals creatures, spells, or objects of selected alignment."
+  },
+  {
+    "id": "detect-magic",
+    "name": "Detect Magic",
+    "textEn": "You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject.\n\n*1st Round*: Presence or absence of magical auras.\n\n*2nd Round*: Number of different magical auras and the power of the most potent aura.\n\n*3rd Round*: The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Knowledge (arcana) skill checks to determine the school of magic involved in each. (Make one check per aura: DC 15 + spell level, or 15 + 1/2 caster level for a nonspell effect.) If the aura eminates from a magic item, you can attempt to identify its properties (see Spellcraft).\n\nMagical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.\n\n*Aura Strength*: An aura's power depends on a spell's functioning spell level or an item's caster level; see the accompanying table. If an aura falls into more than one category, *detect magic* indicates the stronger of the two.\n\n*Lingering Aura*: A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:\n\n| **Original Strength** | **Duration of Lingering Aura** |\n| --- | --- |\n| Faint | 1d6 rounds |\n| Moderate | 1d6 minutes |\n| Strong | 1d6 x 10 minutes |\n| Overwhelming | 1d6 days |\n\nOutsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.\n\n*Detect magic* can be made permanent with a *permanency* spell.\n\n| **Spell or Object** | **Aura Power** |  |  |  |\n| --- | --- | --- | --- | --- |\n| **Faint** | **Moderate** | **Strong** | **Overwhelming** |  |\n| Functioning spell (spell level) | 3rd or lower | 4th-6th | 7th-9th | 10th+ (deity-level) |\n| Magic item (caster level) | 5th or lower | 6th-11th | 12th-20th | 21st+ (artifact) |",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Magic",
+    "sourceRef": "PRPG Core Rulebook pg. 267",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "bard": 0,
+      "cleric": 0,
+      "druid": 0,
+      "sorcerer": 0,
+      "wizard": 0
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "60 ft.",
+      "kind": "fixed",
+      "fixedFt": 60
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped emanation"
+      }
+    ],
+    "duration": {
+      "raw": "concentration, up to 1 min./level (D)",
+      "kind": "concentration",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Detects spells and magic items within 60 ft."
+  },
+  {
+    "id": "detect-poison",
+    "name": "Detect Poison",
+    "textEn": "You determine whether a creature, object, or area has been poisoned or is poisonous. You can determine the exact type of poison with a DC 20 Wisdom check. A character with the Craft (alchemy) skill may try a DC 20 Craft (alchemy) check if the Wisdom check fails, or may try the Craft (alchemy) check prior to the Wisdom check. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Poison",
+    "sourceRef": "PRPG Core Rulebook pg. 268",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "cleric": 0,
+      "druid": 0,
+      "paladin": 1,
+      "ranger": 1,
+      "sorcerer": 0,
+      "wizard": 0
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "other",
+        "raw": "one creature, one object, or a 5-ft. cube"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Detects poison in one creature or object."
+  },
+  {
+    "id": "detect-scrying",
+    "name": "Detect Scrying",
+    "textEn": "You immediately become aware of any attempt to observe you by means of a divination (scrying) spell or effect. The spell's area radiates from you and moves as you move. You know the location of every magical sensor within the spell's area.\n\nIf the scrying attempt originates within the area, you also know its location; otherwise, you and the scrier immediately make opposed caster level checks (1d20 + caster level). If you at least match the scrier's result, you get a visual image of the scrier and an accurate sense of his direction and distance from you.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Scrying",
+    "sourceRef": "PRPG Core Rulebook pg. 268",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "bard": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a piece of mirror and a miniature brass hearing trumpet)",
+      "details": {
+        "material": "a piece of mirror and a miniature brass hearing trumpet"
+      }
+    },
+    "range": {
+      "raw": "40 ft.",
+      "kind": "fixed",
+      "fixedFt": 40
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "40-ft.-radius emanation centered on you"
+      }
+    ],
+    "duration": {
+      "raw": "24 hours",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 24,
+      "unit": "hour",
+      "perLevel": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Alerts you to magical eavesdropping."
+  },
+  {
+    "id": "detect-secret-doors",
+    "name": "Detect Secret Doors",
+    "textEn": "You can detect secret doors, compartments, caches, and so forth. Only passages, doors, or openings that have been specifically constructed to escape detection are detected by this spell. The amount of information revealed depends on how long you study a particular area or subject.\n\n*1st Round*: Presence or absence of secret doors.\n\n*2nd Round*: Number of secret doors and the location of each. If an aura is outside your line of sight, then you discern its direction but not its exact location.\n\n*Each Additional Round*: The mechanism or trigger for one particular secret portal closely examined by you. Each round, you can turn to detect secret doors in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Secret Doors",
+    "sourceRef": "PRPG Core Rulebook pg. 268",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "bard": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "60 ft.",
+      "kind": "fixed",
+      "fixedFt": 60
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped emanation"
+      }
+    ],
+    "duration": {
+      "raw": "concentration, up to 1 min./level (D)",
+      "kind": "concentration",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Reveals hidden doors within 60 ft."
+  },
+  {
+    "id": "detect-snares-and-pits",
+    "name": "Detect Snares and Pits",
+    "textEn": "You can detect simple pits, deadfalls, and snares as well as mechanical traps constructed of natural materials. The spell does not detect complex traps, including trapdoor traps.\n\n*Detect snares and pits* does detect certain natural hazards—quicksand (a snare), a sinkhole (a pit), or unsafe walls of natural rock (a deadfall). It does not reveal other potentially dangerous conditions. The spell does not detect magic traps (except those that operate by pit, deadfall, or snaring; see the spell snare), nor mechanically complex ones, nor those that have been rendered safe or inactive.\n\nThe amount of information revealed depends on how long you study a particular area.\n\n*1st Round*: Presence or absence of hazards.\n\n*2nd Round*: Number of hazards and the location of each. If a hazard is outside your line of sight, then you discern its direction but not its exact location.\n\n*Each Additional Round*: The general type and trigger for one particular hazard closely examined by you.\n\nEach round, you can turn to examine a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Snares and Pits",
+    "sourceRef": "PRPG Core Rulebook pg. 268",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "druid": 1,
+      "ranger": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "60 ft.",
+      "kind": "fixed",
+      "fixedFt": 60
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped emanation"
+      }
+    ],
+    "duration": {
+      "raw": "concentration, up to 10 min./level (D)",
+      "kind": "concentration",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Reveals natural or primitive traps."
+  },
+  {
+    "id": "detect-thoughts",
+    "name": "Detect Thoughts",
+    "textEn": "You detect surface thoughts. The amount of information revealed depends on how long you study a particular area or subject.\n\n*1st Round*: Presence or absence of thoughts (from conscious creatures with Intelligence scores of 1 or higher).\n\n*2nd Round*: Number of thinking minds and the Intelligence score of each. If the highest Intelligence is 26 or higher (and at least 10 points higher than your own Intelligence score), you are stunned for 1 round and the spell ends. This spell does not let you determine the location of the thinking minds if you can't see the creatures whose thoughts you are detecting.\n\n*3rd Round*: Surface thoughts of any mind in the area. A target's Will save prevents you from reading its thoughts, and you must cast detect thoughts again to have another chance. Creatures of animal intelligence (Int 1 or 2) have simple, instinctual thoughts.\n\nEach round, you can turn to detect thoughts in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Thoughts",
+    "sourceRef": "PRPG Core Rulebook pg. 268",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, F/DF (a copper piece)",
+      "details": {
+        "focus": "a copper piece"
+      }
+    },
+    "range": {
+      "raw": "60 ft.",
+      "kind": "fixed",
+      "fixedFt": 60
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped emanation"
+      }
+    ],
+    "duration": {
+      "raw": "concentration, up to 1 min./level (D)",
+      "kind": "concentration",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Will negates; see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Allows “listening” to surface thoughts."
+  },
+  {
+    "id": "detect-undead",
+    "name": "Detect Undead",
+    "textEn": "You can detect the aura that surrounds undead creatures. The amount of information revealed depends on how long you study a particular area.\n\n*1st Round*: Presence or absence of undead auras.\n\n*2nd Round*: Number of undead auras in the area and the strength of the strongest undead aura present. If you are of good alignment, and the strongest undead aura's strength is overwhelming (see below), and the creature has HD of at least twice your character level, you are stunned for 1 round and the spell ends.\n\n*3rd Round*: The strength and location of each undead aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.\n\n*Aura Strength*: The strength of an undead aura is determined by the HD of the undead creature, as given on the table below.\n\n*Lingering Aura*: An undead aura lingers after its original source is destroyed. If detect undead is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power, as given on the table below.\n\n| **HD** | **Strength** | **Lingering Aura Duration** |\n| --- | --- | --- |\n| 1 or lower | Faint | 1d6 rounds |\n| 2-4 | Moderate | 1d6 minutes |\n| 5-10 | Strong | 1d6 x 10 minutes |\n| 11 or higher | Overwhelming | 1d6 days |\n\nEach round, you can turn to detect undead in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Undead",
+    "sourceRef": "PRPG Core Rulebook pg. 269",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "cleric": 1,
+      "paladin": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (earth from a grave)",
+      "details": {
+        "material": "earth from a grave"
+      }
+    },
+    "range": {
+      "raw": "60 ft.",
+      "kind": "fixed",
+      "fixedFt": 60
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped emanation"
+      }
+    ],
+    "duration": {
+      "raw": "concentration, up to 1 min./level",
+      "kind": "concentration",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Reveals undead within 60 ft."
+  },
+  {
+    "id": "dictum",
+    "name": "Dictum",
+    "textEn": "Any nonlawful creature within the area of a *dictum* spell suffers the following ill effects.\n\n| **HD** | **Effect** |\n| --- | --- |\n| Equal to caster level | Deafened |\n| Up to caster level -1 | Staggered, deafened |\n| Up to caster level -5 | Paralyzed, staggered, deafened |\n| Up to caster level -10 | Killed, paralyzed, staggered, deafened |\n\nThe effects are cumulative and concurrent. A successful Will save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.\n\n*Deafened*: The creature is deafened for 1d4 rounds. Save negates.\n\n*Staggered*: The creature is staggered for 2d4 rounds. Save reduces the staggered effect to 1d4 rounds.\n\n*Paralyzed*: The creature is paralyzed and helpless for 1d10 minutes. Save reduces the paralyzed effect to 1 round.\n\n*Killed*: Living creatures die. Undead creatures are destroyed. Save negates. If the save is successful, the creature instead takes 3d6 points of damage + 1 point per caster level (maximum +25).\n\nFurthermore, if you are on your home plane when you cast this spell, nonlawful extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the *dictum* or not. The banishment effect allows a Will save (at a –4 penalty) to negate.\n\nCreatures whose Hit Dice exceed your caster level are unaffected by *dictum*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dictum",
+    "sourceRef": "PRPG Core Rulebook pg. 269",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "lawful",
+      "sonic"
+    ],
+    "levels": {
+      "cleric": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "40 ft.",
+      "kind": "fixed",
+      "fixedFt": 40
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "nonlawful creatures in a 40-ft.-radius spread centered on you"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none or Will negates; see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Kills, paralyzes, staggers, or deafens nonlawful targets."
+  },
+  {
+    "id": "dimension-door",
+    "name": "Dimension Door",
+    "textEn": "You instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired—whether by simply visualizing the area or by stating direction. After using this spell, you can't take any other actions until your next turn. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.\n\nIf you arrive in a place that is already occupied by a solid body, you and each creature traveling with you take 1d6 points of damage and are shunted to a random open space on a suitable surface within 100 feet of the intended location.\n\nIf there is no free space within 100 feet, you and each creature traveling with you take an additional 2d6 points of damage and are shunted to a free space within 1,000 feet. If there is no free space within 1,000 feet, you and each creature travelling with you take an additional 4d6 points of damage and the spell simply fails.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dimension Door",
+    "sourceRef": "PRPG Core Rulebook pg. 269",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "teleportation",
+    "descriptors": [],
+    "levels": {
+      "bard": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you and touched objects or other touched willing creatures"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none and Will negates (object)",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no and yes (object)",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Teleports you a short distance."
+  },
+  {
+    "id": "dimensional-anchor",
+    "name": "Dimensional Anchor",
+    "textEn": "A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel. Forms of movement barred by a *dimensional anchor* include *astral projection*, *blink*, *dimension door*, *ethereal jaunt*, *etherealness*, *gate*, *maze*, *plane shift*, *shadow walk*, *teleport*, and similar spell-like abilities. The spell also prevents the use of a *gate* or *teleportation circle* for the duration of the spell.\n\nA *dimensional anchor* does not interfere with the movement of creatures already in ethereal or astral form when the spell is cast, nor does it block extradimensional perception or attack forms. Also, *dimensional anchor* does not prevent summoned creatures from disappearing at the end of a summoning spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dimensional Anchor",
+    "sourceRef": "PRPG Core Rulebook pg. 270",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "cleric": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "ray"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (object)",
+      "applies": "yes",
+      "harmless": false,
+      "object": true
+    },
+    "shortDescriptionEn": "Bars extradimensional movement."
+  },
+  {
+    "id": "dimensional-lock",
+    "name": "Dimensional Lock",
+    "textEn": "You create a shimmering emerald barrier that completely blocks extradimensional travel. Forms of movement barred include *astral projection*, *blink*, *dimension door*, *ethereal jaunt*, *etherealness*, *gate*, *maze*, *plane shift*, *shadow walk*, *teleport*, and similar spell-like abilities. Once *dimensional lock* is in place, extradimensional travel into or out of the area is not possible.\n\nA *dimensional lock* does not interfere with the movement of creatures already in ethereal or astral form when the spell is cast, nor does it block extradimensional perception or attack forms. Also, the spell does not prevent summoned creatures from disappearing at the end of a summoning spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dimensional Lock",
+    "sourceRef": "PRPG Core Rulebook pg. 270",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "cleric": 8,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "20-ft.-radius emanation centered on a point in space"
+      }
+    ],
+    "duration": {
+      "raw": "1 day/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "day",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Teleportation and interplanar travel blocked for 1 day/level."
+  },
+  {
+    "id": "diminish-plants",
+    "name": "Diminish Plants",
+    "textEn": "This spell has two versions.\n\n*Prune Growth*: This version of the spell causes normal vegetation within long range (400 feet + 40 feet per level) to shrink to about one-third normal size, becoming untangled and less bushy. The affected vegetation appears to have been carefully pruned and trimmed. This version of *diminish plants* automatically dispels any spells or effects that enhance plants, such as *entangle*, *plant growth*, and *wall of thorns*.\n\nAt your option, the area can be a 100-foot-radius circle, a 150-foot-radius semicircle, or a 200-foot-radius quarter-circle. You may also designate portions of the area that are not affected.\n\n*Stunt Growth*: This version of the spell targets all normal plants within a range of 1/2 mile, reducing their potential productivity over the course of the following year to half normal.\n\nThis spell has no effect on plant creatures.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Diminish Plants",
+    "sourceRef": "PRPG Core Rulebook pg. 270",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "druid": 3,
+      "ranger": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "see text",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "other",
+        "raw": "see text"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Reduces size or blights the growth of normal plants."
+  },
+  {
+    "id": "discern-lies",
+    "name": "Discern Lies",
+    "textEn": "Each round, you concentrate on one target, who must be within range. You know if the target deliberately and knowingly speaks a lie by discerning disturbances in its aura caused by lying. The spell does not reveal the truth, uncover unintentional inaccuracies, or necessarily reveal evasions.\n\nEach round, you may concentrate on a different target.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Discern Lies",
+    "sourceRef": "PRPG Core Rulebook pg. 270",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "cleric": 4,
+      "paladin": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "concentration, up to 1 round/level",
+      "kind": "concentration",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Reveals deliberate falsehoods."
+  },
+  {
+    "id": "discern-location",
+    "name": "Discern Location",
+    "textEn": "A *discern location* spell is among the most powerful means of locating creatures or objects. Nothing short of a *mind blank* spell or the direct intervention of a deity keeps you from learning the exact location of a single individual or object. *Discern location* circumvents normal means of protection from scrying or location. The spell reveals the name of the creature or object's location (place, name, business name, building name, or the like), community, county (or similar political division), country, continent, and the plane of existence where the target lies.\n\nTo find a creature with the spell, you must have seen the creature or have some item that once belonged to it. To find an object, you must have touched it at least once.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Discern Location",
+    "sourceRef": "PRPG Core Rulebook pg. 270",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "cleric": 8,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "unlimited",
+      "kind": "unlimited"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature or object"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Reveals exact location of creature or object."
+  },
+  {
+    "id": "disguise-self",
+    "name": "Disguise Self",
+    "textEn": "You make yourself—including clothing, armor, weapons, and equipment—look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.\n\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile (touch) or audible (sound) properties of you or your equipment. If you use this spell to create a disguise, you get a +10 bonus on the Disguise check. A creature that interacts with the glamer gets a Will save to recognize it as an illusion.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Disguise Self",
+    "sourceRef": "PRPG Core Rulebook pg. 271",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "glamer",
+    "descriptors": [],
+    "levels": {
+      "bard": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Changes your appearance."
+  },
+  {
+    "id": "disintegrate",
+    "name": "Disintegrate",
+    "textEn": "A thin, green ray springs from your pointing finger. You must make a successful ranged touch attack to hit. Any creature struck by the ray takes 2d6 points of damage per caster level (to a maximum of 40d6). Any creature reduced to 0 or fewer hit points by this spell is entirely disintegrated, leaving behind only a trace of fine dust. A disintegrated creature's equipment is unaffected.\n\nWhen used against an object, the ray simply disintegrates as much as a 10-foot cube of nonliving matter. Thus, the spell disintegrates only part of any very large object or structure targeted. The ray affects even objects constructed entirely of force, such as *forceful hand* or a *wall of force*, but not magical effects such as a *globe of invulnerability* or an *antimagic field*.\n\nA creature or object that makes a successful Fortitude save is partially affected, taking only 5d6 points of damage. If this damage reduces the creature or object to 0 or fewer hit points, it is entirely disintegrated.\n\nOnly the first creature or object struck can be affected; that is, the ray affects only one target per casting.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Disintegrate",
+    "sourceRef": "PRPG Core Rulebook pg. 271",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (a lodestone and a pinch of dust)",
+      "details": {
+        "material": "a lodestone and a pinch of dust"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "ray"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Fortitude partial (object)",
+      "kind": "fortitude",
+      "effect": "partial",
+      "harmless": false,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Reduces one creature or object to dust."
+  },
+  {
+    "id": "dismissal",
+    "name": "Dismissal",
+    "textEn": "This spell forces an extraplanar creature back to its proper plane if it fails a Will save. If the spell is successful, the creature is instantly whisked away, but there is a 20% chance of actually sending the subject to a plane other than its own.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dismissal",
+    "sourceRef": "PRPG Core Rulebook pg. 271",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "cleric": 4,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one extraplanar creature"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates; see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Forces a creature to return to native plane."
+  },
+  {
+    "id": "dispel-chaos",
+    "name": "Dispel Chaos",
+    "textEn": "This spell functions like *dispel evil*, except that you are surrounded by constant, blue lawful energy, and the spell affects chaotic creatures and spells rather than evil ones.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dispel Chaos",
+    "sourceRef": "PRPG Core Rulebook pg. 271",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [
+      "lawful"
+    ],
+    "levels": {
+      "cleric": 5,
+      "paladin": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "other",
+        "raw": "you and a touched evil creature from another plane, or you and an enchantment or evil spell on a touched creature or object"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level or until discharged, whichever comes first",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "see text",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "+4 bonus against attacks."
+  },
+  {
+    "id": "dispel-evil",
+    "name": "Dispel Evil",
+    "textEn": "Shimmering, white holy energy surrounds you. This energy has three effects.\n\nFirst, you gain a +4 deflection bonus to AC against attacks by evil creatures.\n\nSecond, on making a successful melee touch attack against an evil creature from another plane, you can choose to drive that creature back to its home plane. The creature can negate the effects with a successful Will save (spell resistance applies). This use discharges and ends the spell.\n\nThird, with a touch you can automatically dispel any one enchantment spell cast by an evil creature or any one evil spell. Spells that can't be dispelled by *dispel magic* also can't be dispelled by *dispel evil*. Saving throws and spell resistance do not apply to this effect. This use discharges and ends the spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dispel Evil",
+    "sourceRef": "PRPG Core Rulebook pg. 271",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [
+      "good"
+    ],
+    "levels": {
+      "cleric": 5,
+      "paladin": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "other",
+        "raw": "you and a touched evil creature from another plane, or you and an enchantment or evil spell on a touched creature or object"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level or until discharged, whichever comes first",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "see text",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "+4 bonus against attacks."
+  },
+  {
+    "id": "dispel-good",
+    "name": "Dispel Good",
+    "textEn": "This spell functions like *dispel evil*, except that you are surrounded by dark, wavering unholy energy, and the spell affects good creatures and spells rather than evil ones.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dispel Good",
+    "sourceRef": "PRPG Core Rulebook pg. 272",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [
+      "evil"
+    ],
+    "levels": {
+      "cleric": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "other",
+        "raw": "you and a touched evil creature from another plane, or you and an enchantment or evil spell on a touched creature or object"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level or until discharged, whichever comes first",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "see text",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "+4 bonus against attacks."
+  },
+  {
+    "id": "dispel-law",
+    "name": "Dispel Law",
+    "textEn": "This spell functions like *dispel evil*, except that you are surrounded by flickering, yellow chaotic energy, and the spell affects lawful creatures and spells rather than evil ones.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dispel Law",
+    "sourceRef": "PRPG Core Rulebook pg. 272",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [
+      "chaotic"
+    ],
+    "levels": {
+      "cleric": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "other",
+        "raw": "you and a touched evil creature from another plane, or you and an enchantment or evil spell on a touched creature or object"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level or until discharged, whichever comes first",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "see text",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "+4 bonus against attacks."
+  },
+  {
+    "id": "dispel-magic",
+    "name": "Dispel Magic",
+    "textEn": "You can use *dispel magic* to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by *dispel magic*. *Dispel magic* can dispel (but not counter) spell-like effects just as it does spells. The effect of a spell with an instantaneous duration can't be dispelled, because the magical effect is already over before the *dispel magic* can take effect.\n\nYou choose to use *dispel magic* in one of two ways: a targeted dispel or a counterspell.\n\n*Targeted Dispel*: One object, creature, or spell is the target of the dispel magic spell. You make one dispel check (1d20 + your caster level) and compare that to the spell with highest caster level (DC = 11 + the spell's caster level). If successful, that spell ends. If not, compare the same result to the spell with the next highest caster level. Repeat this process until you have dispelled one spell affecting the target, or you have failed to dispel every spell.\n\nFor example, a 7th-level caster casts *dispel magic*, targeting a creature affected by *stoneskin* (caster level 12th) and *fly* (caster level 6th). The caster level check results in a 19. This check is not high enough to end the *stoneskin* (which would have required a 23 or higher), but it is high enough to end the *fly* (which only required a 17). Had the dispel check resulted in a 23 or higher, the *stoneskin* would have been dispelled, leaving the *fly* intact. Had the dispel check been a 16 or less, no spells would have been affected.\n\nYou can also use a targeted dispel to specifically end one spell affecting the target or one spell affecting an area (such as a *wall of fire*). You must name the specific spell effect to be targeted in this way. If your caster level check is equal to or higher than the DC of that spell, it ends. No other spells or effects on the target are dispelled if your check is not high enough to end the targeted effect.\n\nIf you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by *summon monster*), you make a dispel check to end the spell that conjured the object or creature.\n\nIf the object that you target is a magic item, you make a dispel check against the item's caster level (DC = 11 + the item's caster level). If you succeed, all the item's magical properties are suppressed for 1d4 rounds, after which the item recovers its magical properties. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional opening (such as a bag of holding) is temporarily closed. A magic item's physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.\n\nYou automatically succeed on your dispel check against any spell that you cast yourself.\n\n*Counterspell*: When *dispel magic* is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, *dispel magic* may not work; you must make a dispel check to counter the other spellcaster's spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dispel Magic",
+    "sourceRef": "PRPG Core Rulebook pg. 272",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "bard": 3,
+      "cleric": 3,
+      "druid": 4,
+      "paladin": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "other",
+        "raw": "one spellcaster, creature, or object"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Cancels one magical spell or effect."
+  },
+  {
+    "id": "dispel-magic-greater",
+    "name": "Dispel Magic, Greater",
+    "textEn": "This spell functions like *dispel magic*, except that it can end more than one spell on a target and it can be used to target multiple creatures.\n\nYou choose to use *greater dispel magic* in one of three ways: a targeted dispel, area dispel, or a counterspell:\n\n*Targeted Dispel*: This functions as a targeted *dispel magic*, but it can dispel one spell for every four caster levels you possess, starting with the highest level spells and proceeding to lower level spells.\n\nAdditionally, *greater dispel magic* has a chance to dispel any effect that *remove curse* can remove, even if *dispel magic* can't dispel that effect. The DC of this check is equal to the curse's DC.\n\n*Area Dispel*: When *greater dispel magic* is used in this way, the spell affects everything within a 20-foot-radius burst. Roll one dispel check and apply that check to each creature in the area, as if targeted by *dispel magic*. For each object within the area that is the target of one or more spells, apply the dispel check as with creatures. Magic items are not affected by an area dispel.\n\nFor each ongoing area or effect spell whose point of origin is within the area of the *greater dispel magic spell*, apply the dispel check to dispel the spell. For each ongoing spell whose area overlaps that of the *greater dispel magic* spell, apply the dispel check to end the effect, but only within the overlapping area.\n\nIf an object or creature that is the effect of an ongoing spell (such as a monster summoned by *summon monster*) is in the area, apply the dispel check to end the spell that conjured that object or creature (returning it whence it came) in addition to attempting to dispel one spell targeting the creature or object.\n\nYou may choose to automatically succeed on dispel checks against any spell that you have cast.\n\n*Counterspell*: This functions as *dispel magic*, but you receive a +4 bonus on your dispel check to counter the other spellcaster's spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dispel Magic, Greater",
+    "sourceRef": "PRPG Core Rulebook pg. 272",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "bard": 5,
+      "cleric": 6,
+      "druid": 6,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "other",
+        "raw": "one spellcaster, creature, object, or a 20-ft.-radius burst"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Works as dispel magic, but can affect multiple targets."
+  },
+  {
+    "id": "displacement",
+    "name": "Displacement",
+    "textEn": "The subject of this spell appears to be about 2 feet away from its true location. The creature benefits from a 50% miss chance as if it had total concealment. Unlike actual total concealment, *displacement* does not prevent enemies from targeting the creature normally. *True seeing* reveals its true location and negates the miss chance.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Displacement",
+    "sourceRef": "PRPG Core Rulebook pg. 273",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "glamer",
+    "descriptors": [],
+    "levels": {
+      "bard": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, M (a small loop of leather)",
+      "details": {
+        "material": "a small loop of leather"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Attacks miss subject 50% of the time."
+  },
+  {
+    "id": "disrupt-undead",
+    "name": "Disrupt Undead",
+    "textEn": "You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals 1d6 points of damage to it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Disrupt Undead",
+    "sourceRef": "PRPG Core Rulebook pg. 273",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 0,
+      "wizard": 0
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "ray"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Deals 1d6 damage to one undead."
+  },
+  {
+    "id": "disrupting-weapon",
+    "name": "Disrupting Weapon",
+    "textEn": "This spell makes a melee weapon deadly to undead. Any undead creature with HD equal to or less than your caster level must succeed on a Will save or be destroyed utterly if struck in combat with this weapon. Spell resistance does not apply against the destruction effect.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Disrupting Weapon",
+    "sourceRef": "PRPG Core Rulebook pg. 273",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one melee weapon"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless, object); see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (harmless, object)",
+      "applies": "yes",
+      "harmless": true,
+      "object": true
+    },
+    "shortDescriptionEn": "Melee weapon destroys undead."
+  },
+  {
+    "id": "divination",
+    "name": "Divination",
+    "textEn": "Similar to *augury* but more powerful, a *divination* spell can provide you with a useful piece of advice in reply to a question concerning a specific goal, event, or activity that is to occur within 1 week. The advice granted by the spell can be as simple as a short phrase, or it might take the form of a cryptic rhyme or omen. If your party doesn't act on the information, the conditions may change so that the information is no longer useful. The base chance for a correct *divination* is 70% + 1% per caster level, to a maximum of 90%. If the die roll fails, you know the spell failed, unless specific magic yielding false information is at work.\n\nAs with *augury*, multiple *divinations* about the same topic by the same caster use the same dice result as the first *divination* spell and yield the same answer each time.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Divination",
+    "sourceRef": "PRPG Core Rulebook pg. 273",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "cleric": 4
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (incense and an appropriate offering worth 25 gp)",
+      "details": {
+        "material": "incense and an appropriate offering worth 25 gp"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Provides useful advice for specific proposed actions."
+  },
+  {
+    "id": "divine-favor",
+    "name": "Divine Favor",
+    "textEn": "Calling upon the strength and wisdom of a deity, you gain a +1 luck bonus on attack and weapon damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn't apply to spell damage.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Divine Favor",
+    "sourceRef": "PRPG Core Rulebook pg. 273",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 1,
+      "paladin": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 minute",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": false
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You gain +1 per three levels on attack and damage rolls."
+  },
+  {
+    "id": "divine-power",
+    "name": "Divine Power",
+    "textEn": "Calling upon the divine power of your patron, you imbue yourself with strength and skill in combat. You gain a +1 luck bonus on attack rolls, weapon damage rolls, Strength checks, and Strength-based skill checks for every three caster levels you have (maximum +6). You also gain 1 temporary hit point per caster level. Whenever you make a full-attack action, you can make an additional attack at your full base attack bonus, plus any appropriate modifiers. This additional attack is not cumulative with similar effects, such as *haste* or weapons with the *speed* special ability.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Divine Power",
+    "sourceRef": "PRPG Core Rulebook pg. 273",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You gain attack bonuses and 1 hp/level."
+  },
+  {
+    "id": "dominate-animal",
+    "name": "Dominate Animal",
+    "textEn": "This spell allows you to enchant the targeted animal and direct it with simple commands such as “Attack,” “Run,” and “Fetch.” Suicidal or self-destructive commands (including an order to attack a creature two or more size categories larger than the dominated animal) are simply ignored.\n\n*Dominate animal* establishes a mental link between you and the subject creature. The animal can be directed by silent mental command as long as it remains in range. You need not see the creature to control it. You do not receive direct sensory input from the creature, but you know what it is experiencing. Because you are directing the animal with your own intelligence, it may be able to undertake actions normally beyond its own comprehension. You need not concentrate exclusively on controlling the creature unless you are trying to direct it to do something it normally couldn't do. Changing your instructions or giving a dominated creature a new command is the equivalent of redirecting a spell, so it is a move action.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dominate Animal",
+    "sourceRef": "PRPG Core Rulebook pg. 273",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "druid": 3
+    },
+    "castingTime": {
+      "raw": "1 round",
+      "unit": "round",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one animal"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "One animal obeys your silent mental commands and orders."
+  },
+  {
+    "id": "dominate-monster",
+    "name": "Dominate Monster",
+    "textEn": "This spell functions like *dominate person*, except that the spell is not restricted by creature type.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dominate Monster",
+    "sourceRef": "PRPG Core Rulebook pg. 274",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "castingTime": {
+      "raw": "1 round",
+      "unit": "round",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature"
+      }
+    ],
+    "duration": {
+      "raw": "1 day/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "day",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As dominate person, but any creature."
+  },
+  {
+    "id": "dominate-person",
+    "name": "Dominate Person",
+    "textEn": "You can control the actions of any humanoid creature through a telepathic link that you establish with the subject's mind.\n\nIf you and the subject have a common language, you can generally force the subject to perform as you desire, within the limits of its abilities. If no common language exists, you can communicate only basic commands, such as “Come here,” “Go there,” “Fight,” and “Stand still.” You know what the subject is experiencing, but you do not receive direct sensory input from it, nor can it communicate with you telepathically.\n\nOnce you have given a dominated creature a command, it continues to attempt to carry out that command to the exclusion of all other activities except those necessary for day-to-day survival (such as sleeping, eating, and so forth). Because of this limited range of activity, a Sense Motive check against DC 15 (rather than DC 25) can determine that the subject's behavior is being influenced by an enchantment effect (see the Sense Motive skill description).\n\nChanging your orders or giving a dominated creature a new command is a move action.\n\nBy concentrating fully on the spell (a standard action), you can receive full sensory input as interpreted by the mind of the subject, though it still can't communicate with you. You can't actually see through the subject's eyes, so it's not as good as being there yourself, but you still get a good idea of what's going on.\n\nSubjects resist this control, and any subject forced to take actions against its nature receives a new saving throw with a +2 bonus. Obviously self-destructive orders are not carried out. Once control is established, the range at which it can be exercised is unlimited, as long as you and the subject are on the same plane. You need not see the subject to control it.\n\nIf you don't spend at least 1 round concentrating on the spell each day, the subject receives a new saving throw to throw off the domination.\n\n*Protection from evil* or a similar spell can prevent you from exercising control or using the telepathic link while the subject is so warded, but such an effect does not automatically dispel it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dominate Person",
+    "sourceRef": "PRPG Core Rulebook pg. 274",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 4,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 round",
+      "unit": "round",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one humanoid"
+      }
+    ],
+    "duration": {
+      "raw": "1 day/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "day",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Controls humanoid telepathically."
+  },
+  {
+    "id": "doom",
+    "name": "Doom",
+    "textEn": "This spell fills a single subject with a feeling of horrible dread that causes it to become shaken.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Doom",
+    "sourceRef": "PRPG Core Rulebook pg. 274",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [
+      "emotion",
+      "fear",
+      "mind-affecting"
+    ],
+    "levels": {
+      "cleric": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "One subject takes –2 on attack rolls, damage rolls, saves, and checks."
+  },
+  {
+    "id": "dream",
+    "name": "Dream",
+    "textEn": "You, or a messenger you touch, send a message to others in the form of a dream. At the beginning of the spell, you must name the recipient or identify him or her by some title that leaves no doubt as to identity. The messenger then enters a trance, appears in the intended recipient's dream, and delivers the message. The message can be of any length, and the recipient remembers it perfectly upon waking. The communication is one-way. The recipient cannot ask questions or offer information, nor can the messenger gain any information by observing the dreams of the recipient.\n\nOnce the message is delivered, the messenger's mind returns instantly to its body. The duration of the spell is the time required for the messenger to enter the recipient's dream and deliver the message.\n\nIf the recipient is awake when the spell begins, the messenger can choose to wake up (ending the spell) or remain in the trance. The messenger can remain in the trance until the recipient goes to sleep, then enter the recipient's dream and deliver the message as normal. A messenger that is disturbed during the trance comes awake, ending the spell.\n\nCreatures who don't sleep or don't dream cannot be contacted by this spell.\n\nThe messenger is unaware of its own surroundings or of the activities around it while in the trance. It is defenseless both physically and mentally (always failing any saving throw) while in the trance.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dream",
+    "sourceRef": "PRPG Core Rulebook pg. 274",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "phantasm",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 minute",
+      "unit": "minute",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "unlimited",
+      "kind": "unlimited"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Sends message to anyone sleeping."
+  }
+]

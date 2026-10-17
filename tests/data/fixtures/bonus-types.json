@@ -1,0 +1,24 @@
+{
+  "source": "specs/f2-rules-engine-core/design.md §3 (BONUS_TYPES, R7)",
+  "bonusTypes": [
+    "alchemical",
+    "armor",
+    "circumstance",
+    "competence",
+    "deflection",
+    "dodge",
+    "enhancement",
+    "inherent",
+    "insight",
+    "luck",
+    "morale",
+    "naturalArmor",
+    "profane",
+    "racial",
+    "resistance",
+    "sacred",
+    "shield",
+    "size",
+    "untyped"
+  ]
+}

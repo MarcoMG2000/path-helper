@@ -1,0 +1,1137 @@
+[
+  {
+    "id": "staff-of-abjuration",
+    "name": "Staff of Abjuration",
+    "textEn": "**Aura** strong abjuration; **CL** 13th; **Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.\n\n**Description**\n\nUsually carved from the heartwood of an ancient oak, ash, sequoia, or other large tree, this staff allows use of the following spells:\n\n- *Dispel magic* (1 charge)\n- *Resist energy* (1 charge)\n- *Shield* (1 charge)\n- *Dismissal* (2 charges)\n- *Lesser globe of invulnerability* (2 charges)\n- *Repulsion* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *dismissal*, *dispel magic*, *lesser globe of invulnerability*, *repulsion*, *resist energy*, *shield*; **Cost** 41,000 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Abjuration",
+    "sourceRef": "PRPG Core Rulebook pg. 492",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong abjuration",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, dismissal, dispel magic, lesser globe of invulnerability, repulsion, resist energy, shield",
+      "costRaw": "41,000 gp",
+      "costCp": 4100000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 194, PRPG Core Rulebook pg. 492",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 194"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "82,000 gp",
+        "priceCp": 8200000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Dispel magic",
+        "spellId": "dispel-magic"
+      },
+      {
+        "name": "Resist energy",
+        "spellId": "resist-energy"
+      },
+      {
+        "name": "Shield",
+        "spellId": "shield"
+      },
+      {
+        "name": "Dismissal",
+        "spellId": "dismissal"
+      },
+      {
+        "name": "Lesser globe of invulnerability",
+        "spellId": "globe-of-invulnerability-lesser"
+      },
+      {
+        "name": "Repulsion",
+        "spellId": "repulsion"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-charming",
+    "name": "Staff of Charming",
+    "textEn": "**Aura** moderate enchantment; **CL** 8th; **Slot** none; **Price** 17,600 gp; **Weight** 5 lbs.\n\n**Description**\n\nMade of twisting wood ornately shaped and carved, this staff allows use of the following spells:\n\n- *Charm person* (1 charge)\n- *Charm monster* (2 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *charm monster*, *charm person*; **Cost** 8,800 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Charming",
+    "sourceRef": "PRPG Core Rulebook pg. 492",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "moderate enchantment",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, charm monster, charm person",
+      "costRaw": "8,800 gp",
+      "costCp": 880000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 195, PRPG Core Rulebook pg. 492",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 195"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 8,
+        "priceRaw": "17,600 gp",
+        "priceCp": 1760000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Charm person",
+        "spellId": "charm-person"
+      },
+      {
+        "name": "Charm monster",
+        "spellId": "charm-monster"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-conjuration",
+    "name": "Staff of Conjuration",
+    "textEn": "**Aura** strong conjuration; **CL** 13th; **Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis staff is usually made of ash or walnut and bears ornate carvings of many different kinds of creatures. It allows use of the following spells:\n\n- *Stinking cloud* (1 charge)\n- *Summon swarm* (1 charge)\n- *Unseen servant* (1 charge)\n- *Cloudkill* (2 charges)\n- *Minor creation* (2 charges)\n- *Summon monster VI* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *cloudkill*, *minor creation*, *stinking cloud*, *summon monster VI*, *summon swarm*, *unseen servant*; **Cost** 41,000 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Conjuration",
+    "sourceRef": "PRPG Core Rulebook pg. 492",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong conjuration",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, cloudkill, minor creation, stinking cloud, summon monster VI, summon swarm, unseen servant",
+      "costRaw": "41,000 gp",
+      "costCp": 4100000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 195, PRPG Core Rulebook pg. 492",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 195"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "82,000 gp",
+        "priceCp": 8200000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Stinking cloud",
+        "spellId": "stinking-cloud"
+      },
+      {
+        "name": "Summon swarm",
+        "spellId": "summon-swarm"
+      },
+      {
+        "name": "Unseen servant",
+        "spellId": "unseen-servant"
+      },
+      {
+        "name": "Cloudkill",
+        "spellId": "cloudkill"
+      },
+      {
+        "name": "Minor creation",
+        "spellId": "minor-creation"
+      },
+      {
+        "name": "Summon monster VI",
+        "spellId": "summon-monster-6"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-defense",
+    "name": "Staff of Defense",
+    "textEn": "**Aura** strong abjuration; **CL** 15th; **Slot** none; **Price** 62,000 gp; **Weight** 5 lbs.\n\n**Description**\n\nThe *staff of defense* is a simple-looking polished wooden staff that throbs with power when held defensively. It allows use of the following spells:\n\n- *Shield* (1 charge)\n- *Shield of faith* (1 charge)\n- *Shield other* (1 charge)\n- *Shield of law* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *shield*, *shield of faith*, *shield of law*, *shield other*, creator must be lawful; **Cost** 31,000 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Defense",
+    "sourceRef": "PRPG Core Rulebook pg. 492",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong abjuration",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, shield, shield of faith, shield of law, shield other, creator must be lawful",
+      "costRaw": "31,000 gp",
+      "costCp": 3100000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 196, PRPG Core Rulebook pg. 492",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 196"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "62,000 gp",
+        "priceCp": 6200000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Shield",
+        "spellId": "shield"
+      },
+      {
+        "name": "Shield of faith",
+        "spellId": "shield-of-faith"
+      },
+      {
+        "name": "Shield other",
+        "spellId": "shield-other"
+      },
+      {
+        "name": "Shield of law",
+        "spellId": "shield-of-law"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-divination",
+    "name": "Staff of Divination",
+    "textEn": "**Aura** strong divination; **CL** 13th; **Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.\n\n**Description**\n\nMade from a supple length of willow carefully selected to have a crooked, forked tip, a *staff of divination* allows use of the following spells:\n\n- *Detect secret doors* (1 charge)\n- *Locate object* (1 charge)\n- *Tongues* (1 charge)\n- *Locate creature* (2 charges)\n- *Prying eyes* (2 charges)\n- *True seeing* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *detect secret doors*, *locate creature*, *locate object*, *prying eyes*, *tongues*, *true seeing*; **Cost** 41,000 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Divination",
+    "sourceRef": "PRPG Core Rulebook pg. 293",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong divination",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, detect secret doors, locate creature, locate object, prying eyes, tongues, true seeing",
+      "costRaw": "41,000 gp",
+      "costCp": 4100000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 196, PRPG Core Rulebook pg. 293",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 196"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "82,000 gp",
+        "priceCp": 8200000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Detect secret doors",
+        "spellId": "detect-secret-doors"
+      },
+      {
+        "name": "Locate object",
+        "spellId": "locate-object"
+      },
+      {
+        "name": "Tongues",
+        "spellId": "tongues"
+      },
+      {
+        "name": "Locate creature",
+        "spellId": "locate-creature"
+      },
+      {
+        "name": "Prying eyes",
+        "spellId": "prying-eyes"
+      },
+      {
+        "name": "True seeing",
+        "spellId": "true-seeing"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-earth-and-stone",
+    "name": "Staff of Earth and Stone",
+    "textEn": "**Aura** moderate transmutation; **CL** 11th; **Slot** none; **Price** 85,800 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis staff is topped with a fist-sized emerald that gleams with smoldering power. It allows the use of the following spells:\n\n- *Move earth* (1 charge)\n- *Passwall* (1 charge)\n\n**Construction**\n\n**Requirements** Craft Staff, *move earth*, *passwall*; **Cost** 42,900 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Earth%20and%20Stone",
+    "sourceRef": "PRPG Core Rulebook pg. 492",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "moderate transmutation",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, move earth, passwall",
+      "costRaw": "42,900 gp",
+      "costCp": 4290000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 196, PRPG Core Rulebook pg. 492",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 196"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 11,
+        "priceRaw": "85,800 gp",
+        "priceCp": 8580000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Move earth",
+        "spellId": "move-earth"
+      },
+      {
+        "name": "Passwall",
+        "spellId": "passwall"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-enchantment",
+    "name": "Staff of Enchantment",
+    "textEn": "**Aura** strong enchantment; **CL** 13th; **Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.\n\n**Description**\n\nOften made from applewood and topped with a clear crystal, this staff allows use of the following spells:\n\n- *Hideous laughter* (1 charge)\n- *Sleep* (1 charge)\n- *Suggestion* (1 charge)\n- *Crushing despair* (2 charges)\n- *Mind fog* (2 charges)\n- *Mass suggestion* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *crushing despair*, *hideous laughter*, *mass suggestion*, *mind fog*, *sleep*, *suggestion*; **Cost** 41,000 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Enchantment",
+    "sourceRef": "PRPG Core Rulebook pg. 493",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong enchantment",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, crushing despair, hideous laughter, mass suggestion, mind fog, sleep, suggestion",
+      "costRaw": "41,000 gp",
+      "costCp": 4100000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 196, PRPG Core Rulebook pg. 493",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 196"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "82,000 gp",
+        "priceCp": 8200000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Hideous laughter",
+        "spellId": "hideous-laughter"
+      },
+      {
+        "name": "Sleep",
+        "spellId": "sleep"
+      },
+      {
+        "name": "Suggestion",
+        "spellId": "suggestion"
+      },
+      {
+        "name": "Crushing despair",
+        "spellId": "crushing-despair"
+      },
+      {
+        "name": "Mind fog",
+        "spellId": "mind-fog"
+      },
+      {
+        "name": "Mass suggestion",
+        "spellId": "suggestion-mass"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-evocation",
+    "name": "Staff of Evocation",
+    "textEn": "**Aura** strong evocation; **CL** 13th; **Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis smooth staff carved from hickory or yew allows use of the following spells:\n\n- *Fireball* (1 charge)\n- *Magic missile* (1 charge)\n- *Shatter* (1 charge)\n- *Ice storm* (2 charges)\n- *Wall of force* (2 charges)\n- *Chain lightning* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *chain lightning*, *fireball*, *ice storm*, *magic missile*, *shatter*, *wall of force*; **Cost** 41,000 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Evocation",
+    "sourceRef": "PRPG Core Rulebook pg. 493",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong evocation",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, chain lightning, fireball, ice storm, magic missile, shatter, wall of force",
+      "costRaw": "41,000 gp",
+      "costCp": 4100000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 196, PRPG Core Rulebook pg. 493",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 196"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "82,000 gp",
+        "priceCp": 8200000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Fireball",
+        "spellId": "fireball"
+      },
+      {
+        "name": "Magic missile",
+        "spellId": "magic-missile"
+      },
+      {
+        "name": "Shatter",
+        "spellId": "shatter"
+      },
+      {
+        "name": "Ice storm",
+        "spellId": "ice-storm"
+      },
+      {
+        "name": "Wall of force",
+        "spellId": "wall-of-force"
+      },
+      {
+        "name": "Chain lightning",
+        "spellId": "chain-lightning"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-fire",
+    "name": "Staff of Fire",
+    "textEn": "**Aura** moderate evocation; **CL** 8th; **Slot** none; **Price** 18,950 gp; **Weight** 5 lbs.\n\n**Description**\n\nCrafted from bronzewood with brass bindings, this staff allows use of the following spells:\n\n- *Burning hands* (1 charge)\n- *Fireball* (2 charges)\n- *Wall of fire* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *burning hands*, *fireball*, *wall of fire*; **Cost** 9,475 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Fire",
+    "sourceRef": "PRPG Core Rulebook pg. 494",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "moderate evocation",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, burning hands, fireball, wall of fire",
+      "costRaw": "9,475 gp",
+      "costCp": 947500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 197, PRPG Core Rulebook pg. 494",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 197"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 8,
+        "priceRaw": "18,950 gp",
+        "priceCp": 1895000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Burning hands",
+        "spellId": "burning-hands"
+      },
+      {
+        "name": "Fireball",
+        "spellId": "fireball"
+      },
+      {
+        "name": "Wall of fire",
+        "spellId": "wall-of-fire"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-frost",
+    "name": "Staff of Frost",
+    "textEn": "**Aura** moderate evocation; **CL** 10th; **Slot** none; **Price** 41,400 gp; **Weight** 5 lbs.\n\n**Description**\n\nTipped on either end with a glistening diamond, this runecovered staff allows use of the following spells:\n\n- *Ice storm* (1 charge)\n- *Wall of ice* (2 charges)\n- *Cone of cold* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *cone of cold*, *ice storm*, *wall of ice*; **Cost** 20,700 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Frost",
+    "sourceRef": "PRPG Core Rulebook pg. 494",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "moderate evocation",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, cone of cold, ice storm, wall of ice",
+      "costRaw": "20,700 gp",
+      "costCp": 2070000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 197, PRPG Core Rulebook pg. 494",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 197"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 10,
+        "priceRaw": "41,400 gp",
+        "priceCp": 4140000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Ice storm",
+        "spellId": "ice-storm"
+      },
+      {
+        "name": "Wall of ice",
+        "spellId": "wall-of-ice"
+      },
+      {
+        "name": "Cone of cold",
+        "spellId": "cone-of-cold"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-healing",
+    "name": "Staff of Healing",
+    "textEn": "**Aura** moderate conjuration; **CL** 8th; **Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis white ash staff is decorated with inlaid silver runes. It allows use of the following spells:\n\n- *Cure serious wounds* (1 charge)\n- *Lesser restoration* (1 charge)\n- *Remove blindness/deafness* (2 charges)\n- *Remove disease* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *cure serious wounds*, *lesser restoration*, *remove blindness/deafness*, *remove disease*; **Cost** 14,800 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Healing",
+    "sourceRef": "PRPG Core Rulebook pg. 494",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "moderate conjuration",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, cure serious wounds, lesser restoration, remove blindness/deafness, remove disease",
+      "costRaw": "14,800 gp",
+      "costCp": 1480000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 197, PRPG Core Rulebook pg. 494",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 197"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 8,
+        "priceRaw": "29,600 gp",
+        "priceCp": 2960000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Cure serious wounds",
+        "spellId": "cure-serious-wounds"
+      },
+      {
+        "name": "Lesser restoration",
+        "spellId": "restoration-lesser"
+      },
+      {
+        "name": "Remove blindness/deafness",
+        "spellId": "remove-blindness-deafness"
+      },
+      {
+        "name": "Remove disease",
+        "spellId": "remove-disease"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-illumination",
+    "name": "Staff of Illumination",
+    "textEn": "**Aura** strong evocation; **CL** 15th; **Slot** none; **Price** 51,500 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis staff is usually sheathed in a layer of silver and decorated with gold and amber sunbursts. A staff of illumination allows use of the following spells:\n\n- *Dancing lights* (1 charge)\n- *Flare* (1 charge)\n- *Daylight* (2 charges)\n- *Sunburst* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *dancing lights*, *daylight*, *flare*, *sunburst*; **Cost** 25,750 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Illumination",
+    "sourceRef": "PRPG Core Rulebook pg. 494",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong evocation",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, dancing lights, daylight, flare, sunburst",
+      "costRaw": "25,750 gp",
+      "costCp": 2575000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 197, PRPG Core Rulebook pg. 494",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 197"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "51,500 gp",
+        "priceCp": 5150000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Dancing lights",
+        "spellId": "dancing-lights"
+      },
+      {
+        "name": "Flare",
+        "spellId": "flare"
+      },
+      {
+        "name": "Daylight",
+        "spellId": "daylight"
+      },
+      {
+        "name": "Sunburst",
+        "spellId": "sunburst"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-illusion",
+    "name": "Staff of Illusion",
+    "textEn": "**Aura** strong illusion; **CL** 13th; **Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis staff is made from ebony or other dark wood and carved into an intricately twisted, fluted, or spiral shape. It allows use of the following spells:\n\n- *Disguise self* (1 charge)\n- *Major image* (1 charge)\n- *Mirror image* (1 charge)\n- *Persistent image* (2 charges)\n- *Rainbow pattern* (2 charges)\n- *Mislead* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *disguise self*, *major image*, *mirror image*, *mislead*, *persistent image*, *rainbow pattern*; **Cost** 41,000 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Illusion",
+    "sourceRef": "PRPG Core Rulebook pg. 494",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong illusion",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, disguise self, major image, mirror image, mislead, persistent image, rainbow pattern",
+      "costRaw": "41,000 gp",
+      "costCp": 4100000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 198, PRPG Core Rulebook pg. 494",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 198"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "82,000 gp",
+        "priceCp": 8200000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Disguise self",
+        "spellId": "disguise-self"
+      },
+      {
+        "name": "Major image",
+        "spellId": "major-image"
+      },
+      {
+        "name": "Mirror image",
+        "spellId": "mirror-image"
+      },
+      {
+        "name": "Persistent image",
+        "spellId": "persistent-image"
+      },
+      {
+        "name": "Rainbow pattern",
+        "spellId": "rainbow-pattern"
+      },
+      {
+        "name": "Mislead",
+        "spellId": "mislead"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-life",
+    "name": "Staff of Life",
+    "textEn": "**Aura** moderate conjuration; **CL** 11th; **Slot** none; **Price** 109,400 gp; **Weight** 5 lbs.\n\n**Description**\n\nA *staff of life* is made of thick polished oak shod in gold and decorated with sinuous runes of silver or ivory, which depict various cycles of life and death according to different cultures. This staff allows use of the following spells:\n\n- *Heal* (1 charge)\n- *Raise dead* (5 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *heal*, *raise dead*; **Cost** 79,700 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Life",
+    "sourceRef": "PRPG Core Rulebook pg. 494",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "moderate conjuration",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, heal, raise dead",
+      "costRaw": "79,700 gp",
+      "costCp": 7970000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 198, PRPG Core Rulebook pg. 494",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 198"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 11,
+        "priceRaw": "109,400 gp",
+        "priceCp": 10940000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Heal",
+        "spellId": "heal"
+      },
+      {
+        "name": "Raise dead",
+        "spellId": "raise-dead"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-necromancy",
+    "name": "Staff of Necromancy",
+    "textEn": "**Aura** strong necromancy; **CL** 13th; **Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis staff is made from ebony or other dark wood and carved with images of bones and skulls mingled with strange spidery runes. It allows use of the following spells:\n\n- *Cause fear* (1 charge)\n- *Ghoul touch* (1 charge)\n- *Halt undead* (1 charge)\n- *Enervation* (2 charges)\n- *Waves of fatigue* (2 charges)\n- *Circle of death* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *cause fear*, *circle of death*, *enervation*, *ghoul touch*, *halt undead*, *waves of fatigue*; **Cost** 41,000 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Necromancy",
+    "sourceRef": "PRPG Core Rulebook pg. 494",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong necromancy",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, cause fear, circle of death, enervation, ghoul touch, halt undead, waves of fatigue",
+      "costRaw": "41,000 gp",
+      "costCp": 4100000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 198, PRPG Core Rulebook pg. 494",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 198"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "82,000 gp",
+        "priceCp": 8200000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Cause fear",
+        "spellId": "cause-fear"
+      },
+      {
+        "name": "Ghoul touch",
+        "spellId": "ghoul-touch"
+      },
+      {
+        "name": "Halt undead",
+        "spellId": "halt-undead"
+      },
+      {
+        "name": "Enervation",
+        "spellId": "enervation"
+      },
+      {
+        "name": "Waves of fatigue",
+        "spellId": "waves-of-fatigue"
+      },
+      {
+        "name": "Circle of death",
+        "spellId": "circle-of-death"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-passage",
+    "name": "Staff of Passage",
+    "textEn": "**Aura** strong varies; **CL** 17th; **Slot** none; **Price** 206,900 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis potent item allows use of the following spells:\n\n- *Dimension door* (1 charge)\n- *Passwall* (1 charge)\n- *Astral projection* (2 charges)\n- *Greater teleport* (2 charges)\n- *Phase door* (2 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *astral projection*, *dimension door*, *greater teleport*, *passwall*, *phase door*; **Cost** 115,950 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Passage",
+    "sourceRef": "PRPG Core Rulebook pg. 495",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong varies",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, astral projection, dimension door, greater teleport, passwall, phase door",
+      "costRaw": "115,950 gp",
+      "costCp": 11595000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 199, PRPG Core Rulebook pg. 495",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 199"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 17,
+        "priceRaw": "206,900 gp",
+        "priceCp": 20690000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Dimension door",
+        "spellId": "dimension-door"
+      },
+      {
+        "name": "Passwall",
+        "spellId": "passwall"
+      },
+      {
+        "name": "Astral projection",
+        "spellId": "astral-projection"
+      },
+      {
+        "name": "Greater teleport",
+        "spellId": "teleport-greater"
+      },
+      {
+        "name": "Phase door",
+        "spellId": "phase-door"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-power",
+    "name": "Staff of Power",
+    "textEn": "**Aura** strong varies; **CL** 15th; **Slot** none; **Price** 235,000 gp; **Weight** 5 lbs.\n\n**Description**\n\nA *staff of power* is a potent magic item with varied offensive and defensive abilities, carved from magically hardened wood. It is usually topped with a glistening gem or orb that burns from within with a flickering red light. The staff allows the use of the following spells:\n\n- *Continual flame* (1 charge)\n- *Fireball* (heightened to 5th level, 1 charge)\n- *Levitate* (1 charge)\n- *Lightning bolt* (heightened to 5th level, 1 charge)\n- *Magic missile* (1 charge)\n- *Ray of enfeeblement* (heightened to 5th level, 1 charge)\n- *Cone of cold* (2 charges)\n- *Globe of invulnerability* (2 charges)\n- *Hold monster* (2 charges)\n- *Wall of force* (in a 10-ft.-diameter hemisphere around the caster only, 2 charges)\n\nThe wielder of a *staff of power* gains a +2 luck bonus to AC and on saving throws. The staff is also a *+2 quarterstaff*, and its wielder may use it to smite opponents. If 1 charge is expended (a free action), the staff deals double damage (×3 on a critical hit) for 1 round.\n\nA *staff of power* can be used for a retributive strike, requiring it to be broken by its wielder. (If this breaking of the staff is purposeful and declared by the wielder, it can be performed as a standard action that does not require the wielder to make a Strength check.) All charges currently in the staff are instantly released in a 30-foot spread. All creatures and objects within 2 squares of the broken staff take an amount of damage equal to 20 × the number of charges in the staff, those 3 or 4 squares away take an amount of damage equal to 15 × the number of charges, and those 5 or 6 squares away take an amount of damage equal to 10 × the number of charges. All those affected can make DC 17 Reflex saves to reduce the damage by half.\n\nThe character breaking the staff has a 50% chance of traveling to another plane of existence (01–50 on a d%), but if she does not, the explosive release of spell energy instantly destroys her. Only certain items, including the *staff of the magi* and the *staff of power*, are capable of being used for a retributive strike.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, Craft Staff, *cone of cold*, *continual flame*, heightened *fireball*, *globe of invulnerability*, *hold monster*, *levitate*, heightened *lightning bolt*, *magic missile*, heightened *ray of enfeeblement*, *wall of force*; **Cost** 117,500 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Power",
+    "sourceRef": "PRPG Core Rulebook pg. 495",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong varies",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, Craft Staff, cone of cold, continual flame, heightened fireball, globe of invulnerability, hold monster, levitate, heightened lightning bolt, magic missile, heightened ray of enfeeblement, wall of force",
+      "costRaw": "117,500 gp",
+      "costCp": 11750000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 199, PRPG Core Rulebook pg. 495",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 199"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "235,000 gp",
+        "priceCp": 23500000,
+        "effects": [
+          {
+            "target": "ac",
+            "bonusType": "luck",
+            "value": 2,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+2 luck bonus to AC and on saving throws"
+          },
+          {
+            "target": "save.all",
+            "bonusType": "luck",
+            "value": 2,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+2 luck bonus to AC and on saving throws"
+          }
+        ],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Continual flame",
+        "spellId": "continual-flame"
+      },
+      {
+        "name": "Fireball",
+        "spellId": "fireball"
+      },
+      {
+        "name": "Levitate",
+        "spellId": "levitate"
+      },
+      {
+        "name": "Lightning bolt",
+        "spellId": "lightning-bolt"
+      },
+      {
+        "name": "Magic missile",
+        "spellId": "magic-missile"
+      },
+      {
+        "name": "Ray of enfeeblement",
+        "spellId": "ray-of-enfeeblement"
+      },
+      {
+        "name": "Cone of cold",
+        "spellId": "cone-of-cold"
+      },
+      {
+        "name": "Globe of invulnerability",
+        "spellId": "globe-of-invulnerability"
+      },
+      {
+        "name": "Hold monster",
+        "spellId": "hold-monster"
+      },
+      {
+        "name": "Wall of force",
+        "spellId": "wall-of-force"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-size-alteration",
+    "name": "Staff of Size Alteration",
+    "textEn": "**Aura** moderate transmutation; **CL** 8th; **Slot** none; **Price** 26,150 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis staff of dark wood is stouter and sturdier than most magical staves, with a gnarled and twisted knot of wood at the top end. It allows use of the following spells:\n\n- *Enlarge person* (1 charge)\n- *Reduce person* (1 charge)\n- *Shrink item* (2 charges)\n- *Mass enlarge person* (3 charges)\n- *Mass reduce person* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *enlarge person*, *mass enlarge person*, *mass reduce person*, *reduce person*, *shrink item*; **Cost** 13,075 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Size%20Alteration",
+    "sourceRef": "PRPG Core Rulebook pg. 495",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "moderate transmutation",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, enlarge person, mass enlarge person, mass reduce person, reduce person, shrink item",
+      "costRaw": "13,075 gp",
+      "costCp": 1307500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 200, PRPG Core Rulebook pg. 495",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 200"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 8,
+        "priceRaw": "26,150 gp",
+        "priceCp": 2615000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Enlarge person",
+        "spellId": "enlarge-person"
+      },
+      {
+        "name": "Reduce person",
+        "spellId": "reduce-person"
+      },
+      {
+        "name": "Shrink item",
+        "spellId": "shrink-item"
+      },
+      {
+        "name": "Mass enlarge person",
+        "spellId": "enlarge-person-mass"
+      },
+      {
+        "name": "Mass reduce person",
+        "spellId": "reduce-person-mass"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-swarming-insects",
+    "name": "Staff of Swarming Insects",
+    "textEn": "**Aura** moderate conjuration; **CL** 9th; **Slot** none; **Price** 22,800 gp; **Weight** 5 lbs.\n\n**Description**\n\nMade of twisted darkwood covered with knots and nodules resembling crawling insects (which occasionally seem to move), this staff allows use of the following spells:\n\n- *Summon swarm* (1 charge)\n- *Insect plague* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *insect plague*, *summon swarm*; **Cost** 11,400 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Swarming%20Insects",
+    "sourceRef": "PRPG Core Rulebook pg. 495",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "moderate conjuration",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, insect plague, summon swarm",
+      "costRaw": "11,400 gp",
+      "costCp": 1140000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 201, PRPG Core Rulebook pg. 495",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 201"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 9,
+        "priceRaw": "22,800 gp",
+        "priceCp": 2280000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Summon swarm",
+        "spellId": "summon-swarm"
+      },
+      {
+        "name": "Insect plague",
+        "spellId": "insect-plague"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-the-woodlands",
+    "name": "Staff of the Woodlands",
+    "textEn": "**Aura** strong varies; **CL** 13th; **Slot** none; **Price** 100,400 gp; **Weight** 5 lbs.\n\n**Description**\n\nAppearing to have grown naturally into its shape, this oak, ash, or yew staff allows use of the following spells:\n\n- *Charm animal* (1 charge)\n- *Speak with animals* (1 charge)\n- *Barkskin* (2 charges)\n- *Summon nature’s ally VI* (3 charges)\n- *Wall of thorns* (3 charges)\n- *Animate plants* (4 charges)\n\nThe staff may be used as a weapon, functioning as a *+2 quarterstaff*. The *staff of the woodlands* also allows its wielder to cast *pass without trace* at will, with no charge cost. These two attributes continue to function after all the charges are expended.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, Craft Staff, *animate plants*, *barkskin*, *charm animal*, *pass without trace*, *speak with animals*, *summon nature’s ally VI*, *wall of thorns*; **Cost** 50,500 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20the%20Woodlands",
+    "sourceRef": "PRPG Core Rulebook pg. 496",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong varies",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, Craft Staff, animate plants, barkskin, charm animal, pass without trace, speak with animals, summon nature’s ally VI, wall of thorns",
+      "costRaw": "50,500 gp",
+      "costCp": 5050000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 202, PRPG Core Rulebook pg. 496",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 202"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "100,400 gp",
+        "priceCp": 10040000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Charm animal",
+        "spellId": "charm-animal"
+      },
+      {
+        "name": "Speak with animals",
+        "spellId": "speak-with-animals"
+      },
+      {
+        "name": "Barkskin",
+        "spellId": "barkskin"
+      },
+      {
+        "name": "Summon nature’s ally VI",
+        "spellId": "summon-natures-ally-6"
+      },
+      {
+        "name": "Wall of thorns",
+        "spellId": "wall-of-thorns"
+      },
+      {
+        "name": "Animate plants",
+        "spellId": "animate-plants"
+      },
+      {
+        "name": "pass without trace",
+        "spellId": "pass-without-trace"
+      }
+    ]
+  },
+  {
+    "id": "staff-of-transmutation",
+    "name": "Staff of Transmutation",
+    "textEn": "**Aura** strong transmutation; **CL** 13th; **Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis staff is generally carved from or decorated with petrified wood or fossilized bone that has been etched with tiny but complex runes. It allows use of the following spells:\n\n- *Alter self* (1 charge)\n- *Blink* (1 charge)\n- *Expeditious retreat* (1 charge)\n- *Baleful polymorph* (2 charges)\n- *Polymorph* (2 charges)\n- *Disintegrate* (3 charges)\n\n**Construction**\n\n**Requirements** Craft Staff, *alter self*, *baleful polymorph*, *blink*, *disintegrate*, *expeditious retreat*, *polymorph*; **Cost** 41,000 gp",
+    "source": "https://aonprd.com/MagicStavesDisplay.aspx?ItemName=Staff%20of%20Transmutation",
+    "sourceRef": "PRPG Core Rulebook pg. 495",
+    "book": "CRB",
+    "kind": "staff",
+    "slot": "none",
+    "aura": "strong transmutation",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Staff, alter self, baleful polymorph, blink, disintegrate, expeditious retreat, polymorph",
+      "costRaw": "41,000 gp",
+      "costCp": 4100000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 202, PRPG Core Rulebook pg. 495",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 202"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "82,000 gp",
+        "priceCp": 8200000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "spellRefs": [
+      {
+        "name": "Alter self",
+        "spellId": "alter-self"
+      },
+      {
+        "name": "Blink",
+        "spellId": "blink"
+      },
+      {
+        "name": "Expeditious retreat",
+        "spellId": "expeditious-retreat"
+      },
+      {
+        "name": "Baleful polymorph",
+        "spellId": "baleful-polymorph"
+      },
+      {
+        "name": "Polymorph",
+        "spellId": "polymorph"
+      },
+      {
+        "name": "Disintegrate",
+        "spellId": "disintegrate"
+      }
+    ]
+  }
+]

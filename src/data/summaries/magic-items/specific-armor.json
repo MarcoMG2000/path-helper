@@ -1,0 +1,50 @@
+{
+  "adamantine-breastplate": {
+    "summaryEs": "Coraza no mágica de adamantina que da al portador reducción de daño 2/—.",
+    "status": "draft"
+  },
+  "banded-mail-of-luck": {
+    "summaryEs": "Cota de bandas +3 adornada con diez gemas de 100 po. Una vez por semana, el portador puede obligar a repetir una tirada de ataque hecha contra él; debe aceptar el resultado de la segunda. Debe decidirlo antes de tirar el daño.",
+    "status": "draft"
+  },
+  "breastplate-of-command": {
+    "summaryEs": "Coraza +2 que da +2 de competencia a todas las pruebas de Carisma y +2 a la puntuación de Leadership. Las tropas amigas a 360 pies reciben +2 de resistencia a salvaciones contra miedo. No funciona si el portador se oculta.",
+    "status": "draft"
+  },
+  "celestial-armor": {
+    "summaryEs": "Cota de mallas +3 tan ligera que puede llevarse bajo la ropa. Máx. Des +8, penalización por armadura –2 y 15% de fallo de conjuros arcanos. Cuenta como armadura ligera y permite usar fly una vez al día.",
+    "status": "draft"
+  },
+  "demon-armor": {
+    "summaryEs": "Armadura de placas completa +4 con garras en las manoplas: causan 1d10, cuentan como armas +1 y contagian (Fortaleza CD 14 niega). Es maligna: otorga un nivel negativo a quien la lleve sin ser malvado.",
+    "status": "draft"
+  },
+  "dragonhide-plate": {
+    "summaryEs": "Armadura de placas completa hecha de piel de dragón, no de metal, por lo que los druidas pueden llevarla. Por lo demás es igual que una de calidad maestra; el portador tiende a atraer la ira de dragones del mismo tipo.",
+    "status": "draft"
+  },
+  "dwarven-plate": {
+    "summaryEs": "Armadura de placas completa de adamantina que da al portador reducción de daño 3/—.",
+    "status": "draft"
+  },
+  "elven-chain": {
+    "summaryEs": "Cota de mallas extremadamente ligera de eslabones de mithral; se trata en todo como armadura ligera. 20% de fallo de conjuros arcanos, Des máx. +4 y penalización por armadura –2.",
+    "status": "draft"
+  },
+  "mithral-full-plate-of-speed": {
+    "summaryEs": "Armadura de placas completa de mithral +1: como acción gratuita actúa como bajo haste hasta 10 asaltos al día. 25% de fallo de conjuros arcanos, Des máx. +3 y penalización –3. Cuenta como intermedia, pero exige competencia en pesada.",
+    "status": "draft"
+  },
+  "mithral-shirt": {
+    "summaryEs": "Camisa de mallas extremadamente ligera de eslabones de mithral. 10% de fallo de conjuros arcanos, Des máx. +6 y sin penalización por armadura. Se considera armadura ligera.",
+    "status": "draft"
+  },
+  "plate-armor-of-the-deep": {
+    "summaryEs": "Armadura de placas completa +1 con motivos de olas y peces. El portador se trata como sin armadura en pruebas de Swim, puede respirar bajo el agua y hablar con criaturas acuáticas que tengan lenguaje.",
+    "status": "draft"
+  },
+  "rhino-hide": {
+    "summaryEs": "Armadura de pieles +2 de rinoceronte: +2 de mejora a la CA, penalización por armadura –1 y 2d6 de daño adicional en cualquier carga exitosa del portador, incluida la montada.",
+    "status": "draft"
+  }
+}

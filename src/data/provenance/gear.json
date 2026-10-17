@@ -1,0 +1,1173 @@
+{
+  "license": "OGL-1.0a",
+  "category": "gear",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Extra",
+      "sha256": "c299997366a62bad27ca1ca7e552bba5d60391504e7a6e57dd099de7d28cea8e",
+      "bytes": 21701,
+      "fetchedAt": "2026-10-16T23:57:53.549Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Heavy",
+      "sha256": "7dbef6841ae71a82e42eeb5f0b1fc08396b04d976864346bcc4d6f07f36f7191",
+      "bytes": 32282,
+      "fetchedAt": "2026-10-16T23:57:51.547Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Light",
+      "sha256": "30a43c5c6b5c60b7ba87066a1f08c4da5bb732dc9942f61bff5e2d196d24f173",
+      "bytes": 34987,
+      "fetchedAt": "2026-10-16T23:57:49.849Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Medium",
+      "sha256": "09281a425fdad7590630388b87edebe2ec13cac528654f1540aac7e184b61c77",
+      "bytes": 30563,
+      "fetchedAt": "2026-10-16T23:57:50.544Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Shield",
+      "sha256": "1b2d2ac2a8d1ce4e10cd3b01d9bf51b7b13a5c063d98e8ea73e029443dc78c28",
+      "bytes": 31656,
+      "fetchedAt": "2026-10-16T23:57:52.553Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Armor%20spikes",
+      "sha256": "20a27f1e0fd7ee303d4d1d4a1cf5ca6cf2e6b1e3415ec4ae414fb36b8b6b838a",
+      "bytes": 23216,
+      "fetchedAt": "2026-10-16T23:40:04.435Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Locked%20gauntlet",
+      "sha256": "fb062ad347de3c0b15c93dbd532d885022337bf7d7fb7314ffe808e47d7b316a",
+      "bytes": 24044,
+      "fetchedAt": "2026-10-16T23:40:06.450Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Shield%20spikes",
+      "sha256": "2d32094b5d9055ffd5714d581f668e47878b825554e47e1b516abe679f509b02",
+      "bytes": 23203,
+      "fetchedAt": "2026-10-17T00:06:04.125Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=AdventuringGear",
+      "sha256": "84fb54f37e95dec5d637344c070338d061682fd70d196aea8abba96e335d6adb",
+      "bytes": 266861,
+      "fetchedAt": "2026-10-16T23:57:54.558Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=AlchemicalRemedies",
+      "sha256": "a095f7b4c010f549012021d714063598b5847874312fb9c07b261afed4aaa154",
+      "bytes": 71607,
+      "fetchedAt": "2026-10-16T23:57:55.546Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=AlchemicalTools",
+      "sha256": "5c8cf1fa7419d3e014ea2a7ca44bc6132e8d083a6dcd92af06651501bb396647",
+      "bytes": 155070,
+      "fetchedAt": "2026-10-16T23:57:56.550Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=AlchemicalWeapons",
+      "sha256": "6be598fa3935a27a78505125c6126cb7242d23290362a5b6f8ba621a5bbba51a",
+      "bytes": 118551,
+      "fetchedAt": "2026-10-16T23:57:57.561Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=AnimalGear",
+      "sha256": "b2679c37d64730c0dc7499a9bdfefe20509a168cc098d10a99332edcaf4d7b45",
+      "bytes": 56755,
+      "fetchedAt": "2026-10-16T23:57:58.555Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=BlackMarket",
+      "sha256": "2c86f592f1b1eec23c6098f17736317f3296215c6b84625f2f98c607283e0353",
+      "bytes": 43969,
+      "fetchedAt": "2026-10-16T23:57:59.545Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=ChannelFoci",
+      "sha256": "5ccbef8d825b59e1ff9212894bab3d28f017aa2e071f619ced53ceffd1331765",
+      "bytes": 41326,
+      "fetchedAt": "2026-10-16T23:58:00.553Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=Clothing",
+      "sha256": "3741776f89dfb827b8033d2f54648817cedfef98da658dcfea608aa4f7ef2454",
+      "bytes": 83010,
+      "fetchedAt": "2026-10-16T23:58:01.553Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=Concoction",
+      "sha256": "b7fce645e7bc3553a6bc1bcc62069ca967f0081b554b1c4c1140b97e1a600c0c",
+      "bytes": 39163,
+      "fetchedAt": "2026-10-16T23:58:02.545Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=Dragoncraft",
+      "sha256": "eafbc5f3eb0b4ed13be53b7902d1219fc5cebffc4ec62f775c6731763a341650",
+      "bytes": 28209,
+      "fetchedAt": "2026-10-16T23:58:03.545Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=DungeonGuides",
+      "sha256": "68ecc27c051820cba86a1bc138f5f043c9ead0e5dd1de9f5df61d9008e1527ac",
+      "bytes": 34014,
+      "fetchedAt": "2026-10-16T23:58:05.374Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=Entertainment",
+      "sha256": "d7a242053f87f4a861e57a3ddf62c3a2a6bb2558fc22f2e6b055d3adfdd5e55d",
+      "bytes": 43082,
+      "fetchedAt": "2026-10-16T23:58:05.546Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=FoodDrink",
+      "sha256": "810c91f1ddb3ccf6ffb159086e98410b2025cead8dde80ad0f88901bb56c594c",
+      "bytes": 74050,
+      "fetchedAt": "2026-10-16T23:58:06.558Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=Herbs",
+      "sha256": "ee95c02db251dbebc9974b4f60858e87c0b14c4677e583b523f9b256fe899cd2",
+      "bytes": 63856,
+      "fetchedAt": "2026-10-16T23:58:07.552Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=Kit",
+      "sha256": "5d347356ca5b97ff2a54c293235bc56676565a35a199934326464c4c8a335165",
+      "bytes": 97626,
+      "fetchedAt": "2026-10-16T23:58:08.555Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=LodgingServices",
+      "sha256": "83e19d9dd434836cc1ec757c9a9ddcbb1b6e39e98db5820fb9aec2281fbb0939",
+      "bytes": 41973,
+      "fetchedAt": "2026-10-16T23:58:09.553Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=MountsPets",
+      "sha256": "d8f260b323ca38a5f59899eddd20cc4640fd119e485dd40a44cbee892d413980",
+      "bytes": 214046,
+      "fetchedAt": "2026-10-16T23:58:10.563Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=PFChronicle",
+      "sha256": "ae42b004a25419289da612401acbb07215b333165d2a5db1ae44ecaa6eeef7fc",
+      "bytes": 39283,
+      "fetchedAt": "2026-10-16T23:58:11.546Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=Tincture",
+      "sha256": "61b54940d576154ad5af5d720e71d4ea2e3f55903481275f4a64cda981e6d2d3",
+      "bytes": 36577,
+      "fetchedAt": "2026-10-16T23:58:12.557Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=Tools",
+      "sha256": "cbd5686ab7ecf083627724c9507c1559994ff7818636a77a7527f84dc5555b47",
+      "bytes": 119136,
+      "fetchedAt": "2026-10-16T23:58:13.554Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=Torture",
+      "sha256": "c4a468e6626d890f2c4b6cf75d2dbf21c5975588f5417b629ad915f4cc0c83c2",
+      "bytes": 30093,
+      "fetchedAt": "2026-10-16T23:58:14.553Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=TransportAir",
+      "sha256": "4bdf074d11007eb4db2ec11a404f51bc120de5a9b51702c28e031d488cb009d9",
+      "bytes": 25974,
+      "fetchedAt": "2026-10-16T23:58:15.556Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=TransportLand",
+      "sha256": "413e4448f8b8e1274cbdbd26a521c92bb746f06cc7a7bed0c7c546cce99649b2",
+      "bytes": 32673,
+      "fetchedAt": "2026-10-16T23:58:17.239Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMisc.aspx?Category=TransportSea",
+      "sha256": "08bef25abf437a1ac241a2201ad0a49bcda3efe84b46c5067c98c84d4c303131",
+      "bytes": 29695,
+      "fetchedAt": "2026-10-16T23:58:17.547Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Acid",
+      "sha256": "82c8238f7011354ae952e9c43dfca1b63c95ae49fabb35f839874175f3804f41",
+      "bytes": 51693,
+      "fetchedAt": "2026-10-16T23:40:11.446Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Alchemist's%20fire",
+      "sha256": "877ac68fd5f874385b6f50fb2b794915ed90549dd0c36eb6b088c7bfe3575fee",
+      "bytes": 53830,
+      "fetchedAt": "2026-10-17T00:02:53.061Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Alchemist's%20lab",
+      "sha256": "54ddb2a2229dd19fc2d5e962164d28f1676efa33a9653a87ee22865866331b46",
+      "bytes": 51170,
+      "fetchedAt": "2026-10-17T00:02:53.622Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Ale%20(gallon)",
+      "sha256": "c600b47429c446888eb4f25a6436f9b918138d1403f30e323c0a46054c7cd37b",
+      "bytes": 50354,
+      "fetchedAt": "2026-10-17T00:02:54.607Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Ale%20(mug)",
+      "sha256": "394589a4cecd98d5dc6ec980277cfc48b34a4751515eab03a10d2b0754fce37a",
+      "bytes": 50456,
+      "fetchedAt": "2026-10-17T00:02:55.620Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Antitoxin",
+      "sha256": "85c848d63016d0aeb56769ae5cb569828eb6d4637e95c08d101440eec44e8d40",
+      "bytes": 51316,
+      "fetchedAt": "2026-10-17T00:02:56.619Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Artisan's%20outfit",
+      "sha256": "afb29c1f2f5d1957f75ed893189c7efd322b2b66c3ede07d196c7d9a6967d098",
+      "bytes": 51347,
+      "fetchedAt": "2026-10-17T00:02:57.618Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Artisan's%20tools%20(common)",
+      "sha256": "c8f43688e88d8e33506a9e255bf6460b5fc4fb2cb5d5641a0f2610cd95034def",
+      "bytes": 50733,
+      "fetchedAt": "2026-10-17T00:02:58.619Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Artisan's%20tools%20(masterwork)",
+      "sha256": "fd322a6b1b544ea64a45e6f500900a67f9c17e2047af222c01475227871939fd",
+      "bytes": 50745,
+      "fetchedAt": "2026-10-17T00:02:59.623Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Backpack%20(common)",
+      "sha256": "4cc997de8668f4a2b9fec64815346284b8afc464e03e84b15ea65dcdf3b69ef4",
+      "bytes": 56478,
+      "fetchedAt": "2026-10-16T23:40:07.440Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Banquet%20(per%20person)",
+      "sha256": "3b315d70c788f10fbda835fa655ac7d0c9f43291d193aedda1dc52ff919094e4",
+      "bytes": 51023,
+      "fetchedAt": "2026-10-17T00:03:00.614Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Barding%20(Large%20creature)",
+      "sha256": "73fe9a98c3671bf9778e2b87bbbc0bc8f84f02cceb10e90cfb6b71b1002cf280",
+      "bytes": 53915,
+      "fetchedAt": "2026-10-17T00:03:01.614Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Barding%20(Medium%20creature)",
+      "sha256": "c0b12309fe231609b80ebf872b9f75461909d122bb22fdf7abc6ada6c59f25a6",
+      "bytes": 53916,
+      "fetchedAt": "2026-10-17T00:03:02.615Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Barrel",
+      "sha256": "b818f8cea76aaa80059478b1693da7d847bb9b638bb2ba30975342eaab3711e9",
+      "bytes": 50236,
+      "fetchedAt": "2026-10-17T00:03:03.614Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Basket",
+      "sha256": "0a412b515bc52cc08a153aa62488fa2e84b302899f10d402f0727226ade34acf",
+      "bytes": 50170,
+      "fetchedAt": "2026-10-17T00:03:04.616Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Bedroll",
+      "sha256": "770f0768d791f0a6c607fe323f876b82ada327015386a8ccca3abe0cec92d89c",
+      "bytes": 51210,
+      "fetchedAt": "2026-10-17T00:03:05.623Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Bell",
+      "sha256": "fb3ea902faa986b2cb8480b8044db85ad423022f4330c5c7301729320d3a3954",
+      "bytes": 50121,
+      "fetchedAt": "2026-10-17T00:03:06.609Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Bit%20and%20bridle",
+      "sha256": "1d74263029dfa6c846003df25d9f87cac3374418e981b3f1a3b5717c865d3b11",
+      "bytes": 50767,
+      "fetchedAt": "2026-10-17T00:03:07.620Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Blanket",
+      "sha256": "d64bc1918426c25d65331240fb4b342635168f9a3bb6f899dbc029a14587533e",
+      "bytes": 51194,
+      "fetchedAt": "2026-10-17T00:03:08.612Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Block%20and%20tackle",
+      "sha256": "d91a418bfc408bc1f03e3d0950adf356cd52853adbaa761a9c8b34a63c0f4b53",
+      "bytes": 51467,
+      "fetchedAt": "2026-10-17T00:03:09.612Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Bottle",
+      "sha256": "e5a5235b56c3b4f11454c96d2ea72d99ddaae8decba28bbc97eaa126f46ea704",
+      "bytes": 50061,
+      "fetchedAt": "2026-10-17T00:03:10.618Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Bread",
+      "sha256": "c93f3a6d4c7fd07c61b8257c33a38ee6cb5ab3f068a54a21dc23979a3e274b90",
+      "bytes": 51674,
+      "fetchedAt": "2026-10-17T00:03:11.612Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Bucket",
+      "sha256": "ecc1f89cbf5cb41fd8db2a10abf53cdf9a12723a2046fc2c43f1675734f1d23e",
+      "bytes": 50112,
+      "fetchedAt": "2026-10-17T00:03:12.619Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Bullseye%20lantern",
+      "sha256": "ed652faf4840bbfd20c54d19cc3dc5feea69b55d794fdd072b32e0c51b56299c",
+      "bytes": 51316,
+      "fetchedAt": "2026-10-17T00:03:13.608Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Caltrops",
+      "sha256": "f0092f888e6d936ee6c6a5fec678e2c980d6c72129af13d09cca08cb337a35ed",
+      "bytes": 54399,
+      "fetchedAt": "2026-10-17T00:03:14.612Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Candle",
+      "sha256": "ca499d2a7931ea7c5927c004709afd50e50b7f97ea34026a4df04e88d1044612",
+      "bytes": 50819,
+      "fetchedAt": "2026-10-17T00:03:15.617Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Canvas%20(sq.%20yd.)",
+      "sha256": "4c467373404848f12d8e7c14ae2abb3a78e007ce5b43836587d29c8d40aca9dd",
+      "bytes": 50802,
+      "fetchedAt": "2026-10-17T00:03:16.618Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Carriage",
+      "sha256": "4d640596a5a0551584a38f8d338fa7362a01ea4e52b887b4753a302700aff32a",
+      "bytes": 50536,
+      "fetchedAt": "2026-10-17T00:03:17.614Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Cart",
+      "sha256": "082d1bac26c79a0b6aa5292f2dea812cd5a53975efc1c28d1543bcbaca31074b",
+      "bytes": 50347,
+      "fetchedAt": "2026-10-17T00:03:18.611Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Chain%20(10%20ft.)",
+      "sha256": "75f71a42004e9b7e869f42b41e9fa8575ea1a54a6222ccf5123d0f3d756493be",
+      "bytes": 50698,
+      "fetchedAt": "2026-10-17T00:03:19.618Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Chalk",
+      "sha256": "4be5ef3df161fe02095a778361495c55e99d62da904480d9f70c7a3e882487c8",
+      "bytes": 50678,
+      "fetchedAt": "2026-10-17T00:03:20.612Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Cheese",
+      "sha256": "3eb1a36977f2ae4015a322202eb3ceb43de76c78d9c69b0bb3149bad711d5540",
+      "bytes": 50476,
+      "fetchedAt": "2026-10-17T00:03:21.607Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Chest%20(small)",
+      "sha256": "338f79d9ed46e8e4ed32fe28f2fe3fd4df77c5bdd935fbdc1ac39bbf06a631fd",
+      "bytes": 52048,
+      "fetchedAt": "2026-10-17T00:03:25.499Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Cleric's%20vestments",
+      "sha256": "a7369b614cc7e626b5fe03934c4e998cf663b0b2f948a7c610949865686b3ad4",
+      "bytes": 51319,
+      "fetchedAt": "2026-10-17T00:03:25.649Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Climber's%20kit",
+      "sha256": "eea9300f4c9479bf9dfc62c2f0de7fca11dcac56aba18c626f295da9e160f428",
+      "bytes": 50322,
+      "fetchedAt": "2026-10-17T00:03:26.655Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Coach%20cab",
+      "sha256": "1bc461ba91a26c2be0c30ba3dc1856b5211a6af3643489f2a4f3b1bd5934c3f4",
+      "bytes": 50416,
+      "fetchedAt": "2026-10-17T00:03:27.658Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Cold-weather%20outfit",
+      "sha256": "7dbd0a19754024f0d3035a7db35d3151c2851e10c7eaa33cad22734051f8f735",
+      "bytes": 51686,
+      "fetchedAt": "2026-10-17T00:03:28.663Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Courtier's%20outfit",
+      "sha256": "9b231ea1aee974665e78b56ba0292d423bc40d3cb87969f4397b19c0eb267450",
+      "bytes": 51367,
+      "fetchedAt": "2026-10-17T00:03:29.664Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Crowbar",
+      "sha256": "b12b93349a1fdbe83401063d6fc16599ba1447a49750f3fb894a621d9cd19941",
+      "bytes": 51030,
+      "fetchedAt": "2026-10-17T00:03:30.663Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Disguise%20kit",
+      "sha256": "0275fcdc2e9791de5dac63a5a739a80668def221f59f6cefcc76ba47230a6e99",
+      "bytes": 50515,
+      "fetchedAt": "2026-10-17T00:03:31.660Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Dog%20(guard)",
+      "sha256": "205793b6e4c8e195a13bbf68b37462c3d0167ec9c90293c2f0deb29610fbfad4",
+      "bytes": 54580,
+      "fetchedAt": "2026-10-17T00:03:32.657Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Dog%20(riding)",
+      "sha256": "e869f84f02cd7f2fd61fb0aa3766be46b526cd8495128833616b9538be122f81",
+      "bytes": 54472,
+      "fetchedAt": "2026-10-17T00:03:33.664Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Entertainer's%20outfit",
+      "sha256": "d8f3770ddb0edeaa160d5292faca08f71e9f077e5ee94388b2d28b73dbbc9838",
+      "bytes": 51175,
+      "fetchedAt": "2026-10-17T00:03:34.663Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Everburning%20torch",
+      "sha256": "4ec28e6df6c64c7416c6fea3bf9ebf34f92a449919e2869d8b44e6f162f4fc70",
+      "bytes": 50701,
+      "fetchedAt": "2026-10-17T00:03:35.654Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Explorer's%20outfit",
+      "sha256": "146d0e7bda9ca175cb9415080a2c57b66d0b6460c9f902f1363c52eccaf1f5bf",
+      "bytes": 51475,
+      "fetchedAt": "2026-10-17T00:03:36.652Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Feed%20(per%20day)",
+      "sha256": "da47fb114409584c2c02143c63004c406815eb6286878020a19aee0cf711b90f",
+      "bytes": 51125,
+      "fetchedAt": "2026-10-17T00:03:37.665Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Firewood%20(per%20day)",
+      "sha256": "dd8a0f414514d84a45d1e3ac9029c3f20d3a9bc01c38f66611df3c65c53cdb5c",
+      "bytes": 50214,
+      "fetchedAt": "2026-10-17T00:03:38.664Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Fishhook",
+      "sha256": "62721c79b3a9aba30bf20e3137b987f82b2132122805e28e509f2b45036fdd82",
+      "bytes": 50185,
+      "fetchedAt": "2026-10-17T00:03:39.653Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Fishing%20net",
+      "sha256": "d40684e9e4f05a6106b7a698dd28c659e652da5d554fe24b2932446889a9818f",
+      "bytes": 50323,
+      "fetchedAt": "2026-10-17T00:03:40.651Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Flask",
+      "sha256": "065d235f4660eef939c066b69a3466e99cb49a3ce9f0444d46981217eb9a7f94",
+      "bytes": 50726,
+      "fetchedAt": "2026-10-17T00:03:41.660Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Flint%20and%20steel",
+      "sha256": "267de506d80803a2558bee64c8504c8ed3024b6ff5c1121690d69d9c3611364e",
+      "bytes": 50442,
+      "fetchedAt": "2026-10-17T00:03:42.657Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Galley",
+      "sha256": "953f9601d6b92194592cb7ceefbd4a2ed7942a279bf252bac0bf0a5125698ac8",
+      "bytes": 51136,
+      "fetchedAt": "2026-10-17T00:03:43.653Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Grappling%20hook%20(common)",
+      "sha256": "b61eb2a8e5c56be9c857e6e6eba8d46ece7103554156f3d6284fdd343aba0c97",
+      "bytes": 50737,
+      "fetchedAt": "2026-10-17T00:03:44.656Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Hammer",
+      "sha256": "8c0a41741c540fcd24116eaf5c802f9dc352569927df7017fdaa423ee6314ab4",
+      "bytes": 50487,
+      "fetchedAt": "2026-10-17T00:03:45.653Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Healer's%20kit",
+      "sha256": "c58a2d4264a0dd76d33ec2a75e1aedaaf3cce355a5e1680a61b4cb57f77db081",
+      "bytes": 50319,
+      "fetchedAt": "2026-10-17T00:03:49.307Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Hireling%20(trained)",
+      "sha256": "db314c4757e1116f260cf07ac729160949d5e99093a2ef96d455c495156ce7eb",
+      "bytes": 52136,
+      "fetchedAt": "2026-10-16T23:40:10.445Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Hireling%20(untrained)",
+      "sha256": "2cfd72f857ef231e465fd6db319fccb7ae54bd1bffb4ca0a15ea275a31ac52be",
+      "bytes": 52138,
+      "fetchedAt": "2026-10-17T00:03:49.461Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Holly%20and%20mistletoe",
+      "sha256": "1b8444ae61e6a7f3002f4db6f68683b4d4198f2ce3383dc1589da68c3be9769c",
+      "bytes": 49815,
+      "fetchedAt": "2026-10-17T00:03:53.289Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Holy%20symbol%20(silver)",
+      "sha256": "4bcad66ee7b106d0e391da65e6fc04e9346b7dea9584ceaf791b2555dda3896e",
+      "bytes": 52399,
+      "fetchedAt": "2026-10-17T00:03:56.053Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Holy%20symbol%20(wooden)",
+      "sha256": "f12bb1b3226e314a960ec937b52d986a0ea65e3176ea7b98a9fe0b4f2798ea50",
+      "bytes": 52508,
+      "fetchedAt": "2026-10-17T00:03:56.206Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Holy%20water",
+      "sha256": "4daa70ee6965a243b0a997105640779da52a1f3e56dddddb9b25c09c70d2c39a",
+      "bytes": 53178,
+      "fetchedAt": "2026-10-17T00:03:57.216Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Hooded%20lantern",
+      "sha256": "6af3df6d685ca44cad95bcd202d93909d647b792ea1f9a89d29b4a40a296b76a",
+      "bytes": 51269,
+      "fetchedAt": "2026-10-17T00:03:58.207Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Horse%20(heavy%2C%20combat%20trained)",
+      "sha256": "e1629de6e13f9a854e2ed146716e81a9974b243faa5b123f4862a8dc1cd0de23",
+      "bytes": 57946,
+      "fetchedAt": "2026-10-17T00:04:01.878Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Horse%20(heavy)",
+      "sha256": "74a82d25eff584ad320d8a1ebc648411bafcebaa18d265eff5e20508f87470bd",
+      "bytes": 57908,
+      "fetchedAt": "2026-10-16T23:40:08.451Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Horse%20(light%2C%20combat%20trained)",
+      "sha256": "801e0a5713374581ef8d546c853a9391fb112f57d183feec39a6de86d34bc68a",
+      "bytes": 58055,
+      "fetchedAt": "2026-10-17T00:04:03.046Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Horse%20(light)",
+      "sha256": "2c61da358aec0033de26965541e6a9658f432079087c646b7b9caca1794927fc",
+      "bytes": 58017,
+      "fetchedAt": "2026-10-17T00:04:02.035Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Horse%20(pony%2C%20combat%20trained)",
+      "sha256": "77ff883d4d611f12ca978441d3a0b6767dde8cb728ca45f02f3db394a8941c59",
+      "bytes": 57580,
+      "fetchedAt": "2026-10-17T00:04:05.045Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Horse%20(pony)",
+      "sha256": "ae497450e711dd7b9b18d7f0a53e804a517b7edf31dbe1c4fd1c587186d67a2b",
+      "bytes": 57538,
+      "fetchedAt": "2026-10-17T00:04:04.043Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Hourglass",
+      "sha256": "8e0f59bcb5c432809333ad3ec7e99262cfbb56cad555c1dc5a6689ed56ca60b8",
+      "bytes": 49789,
+      "fetchedAt": "2026-10-17T00:04:06.036Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Ink",
+      "sha256": "af2a02747e68905ecf0a416558c8b4652622be5936c29e9d15efd122723e73f0",
+      "bytes": 50252,
+      "fetchedAt": "2026-10-17T00:04:07.040Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Inkpen",
+      "sha256": "c215f289270fa0961ace77ab3f09610aaaa3e27cbbc24e32b94942555c15613d",
+      "bytes": 50349,
+      "fetchedAt": "2026-10-17T00:04:08.046Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Inn%20stay%20(common)",
+      "sha256": "428ec98c947054d75a4d56854505f647d1452fd0186b4ee457695c9b7fee54b9",
+      "bytes": 53547,
+      "fetchedAt": "2026-10-17T00:04:09.037Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Inn%20stay%20(good)",
+      "sha256": "2b0f4b116ba73c69e49d96507e6332dd42ba79d9927d7877b6cdeb51622524f9",
+      "bytes": 53650,
+      "fetchedAt": "2026-10-17T00:04:10.035Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Inn%20stay%20(poor)",
+      "sha256": "0ee35fbad07897ee9c4139ee86970cc73ce79bec790619777ec2509f835c9e47",
+      "bytes": 53541,
+      "fetchedAt": "2026-10-17T00:04:13.930Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Jug",
+      "sha256": "d688001bfa1d262f5b637dd2bf418f2ef1d139c93169931b2525b0b8770dc1b5",
+      "bytes": 50554,
+      "fetchedAt": "2026-10-17T00:04:14.082Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Keelboat",
+      "sha256": "f90757a8ae8571fdfbd4ed0be1417d3d8795a021538732bbfabe07ec9359c986",
+      "bytes": 50911,
+      "fetchedAt": "2026-10-17T00:04:15.082Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Ladder",
+      "sha256": "cc7adaa032a9c323d0dfe4242ffd28861c19eccd43ad5f547a36e7f274ee9c5e",
+      "bytes": 50247,
+      "fetchedAt": "2026-10-17T00:04:19.013Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Lamp",
+      "sha256": "848e8aa55539a3fd899d7f3de41d170746c4477fd4a7967c0b41ba30f7556483",
+      "bytes": 51250,
+      "fetchedAt": "2026-10-17T00:04:19.173Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Lock%20(average)",
+      "sha256": "76a8e08f952a73e174c7cd467f6990d580635a9add57c55e3b387933015391da",
+      "bytes": 51320,
+      "fetchedAt": "2026-10-17T00:04:20.186Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Lock%20(good)",
+      "sha256": "1c023f2f154541a528d66950c8d3c6b14d2c17ef1273db105bef1d544d8cb246",
+      "bytes": 51313,
+      "fetchedAt": "2026-10-17T00:04:21.189Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Lock%20(simple)",
+      "sha256": "e9b447bca51ddeb7b9d035993359ecbfb30b361e29eff38d249b6e9b81d2e1e1",
+      "bytes": 51315,
+      "fetchedAt": "2026-10-17T00:04:22.175Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Lock%20(superior)",
+      "sha256": "46d026584af888ce2623051fae96e2b5055f187952196b2ca6011dabf145c6d4",
+      "bytes": 51430,
+      "fetchedAt": "2026-10-17T00:04:23.174Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Longship",
+      "sha256": "ea99b62623fc908504ce985dff69a0724a9237c9d5258c69c160792dcaa7eaaa",
+      "bytes": 50660,
+      "fetchedAt": "2026-10-17T00:04:24.176Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Magnifying%20glass",
+      "sha256": "b9d5eb111879d796a6a7b2e17c3bec2cefd6ac418e8acbcd1d7fb7050ec4a879",
+      "bytes": 51359,
+      "fetchedAt": "2026-10-17T00:04:25.177Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Manacles%20(common)",
+      "sha256": "7d47ead014e5b8b64ad7bd7eea9c9d511d541f1b324c10ccee7f3a728a5b78f4",
+      "bytes": 59388,
+      "fetchedAt": "2026-10-17T00:04:26.178Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Manacles%20(masterwork)",
+      "sha256": "9f36df0dfe65017c8fdbbd8ec926dd898f320c0b91f1730b47d5eeff83961ff6",
+      "bytes": 59287,
+      "fetchedAt": "2026-10-17T00:04:27.176Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Masterwork%20tool",
+      "sha256": "3a85e2c0d52ca419cc4b21b18ba6ba2f38bfb92b5f8072846806338d0a8c5088",
+      "bytes": 55951,
+      "fetchedAt": "2026-10-17T00:04:28.187Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Meal%20(common%2C%20per%20day)",
+      "sha256": "a8037833a2b73346d15d8428c33d6be26b445ba192f00e4457aa77484955727e",
+      "bytes": 51211,
+      "fetchedAt": "2026-10-17T00:04:29.182Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Meal%20(good%2C%20per%20day)",
+      "sha256": "51562a77054f34e6127ac9085ceffbf84d15ebb0b2b42dd5bb3643c8bf369e8d",
+      "bytes": 51314,
+      "fetchedAt": "2026-10-17T00:04:30.180Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Meal%20(poor%2C%20per%20day)",
+      "sha256": "7ff922148a65f99ebb4424fd7e6922c500b3f6cba43780fa7b68f8a6f1d95529",
+      "bytes": 51314,
+      "fetchedAt": "2026-10-17T00:04:31.184Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Meat",
+      "sha256": "547f55bb488957470e5d7d5f4f60956dffd08e738a58d6b17f169b4dc5cd7e64",
+      "bytes": 52301,
+      "fetchedAt": "2026-10-17T00:04:32.176Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Merchant's%20scale",
+      "sha256": "d9ad3119c56118e8053c94d6f707aa43e4dda4e58ba776049d61905fbdf4d8c3",
+      "bytes": 50743,
+      "fetchedAt": "2026-10-17T00:04:33.185Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Messenger",
+      "sha256": "4f2e2a2ba72cdca4da3d04e3cb525a07aa82d5104d933d4404aded27d328236f",
+      "bytes": 52597,
+      "fetchedAt": "2026-10-17T00:04:34.185Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Miner's%20pick",
+      "sha256": "7c64563e69d003ced618ff7936ab0ec3b5f82996ac8a0bc99272baab7c974f05",
+      "bytes": 50524,
+      "fetchedAt": "2026-10-17T00:04:35.178Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Mirror",
+      "sha256": "b47c4b2fe35d25b4d7c6668c05d260725c65bbd7a5cbe3eddf6e6f38b19d1c05",
+      "bytes": 50625,
+      "fetchedAt": "2026-10-17T00:04:36.183Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Monk's%20outfit",
+      "sha256": "a914b6882570bae56dcd02a5b0762d139eeb149de9d6919fa36c387031920184",
+      "bytes": 51070,
+      "fetchedAt": "2026-10-17T00:04:37.172Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Mug%2Ftankard",
+      "sha256": "c37a863b29f12d42b35bb57c38f51b9be74733a92dc1a9e13f08ef1cb59a9d62",
+      "bytes": 50715,
+      "fetchedAt": "2026-10-17T00:04:38.190Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Musical%20instrument%20(common)",
+      "sha256": "720dc23334392026ed39d96c6e48dabb94655978665b60ab5552ccaba6cbfb53",
+      "bytes": 51697,
+      "fetchedAt": "2026-10-17T00:04:39.176Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Musical%20instrument%20(masterwork)",
+      "sha256": "3987ac21b0ee39b668710f58bb3985f20518687ad12b2b777d5cabb1183e2afe",
+      "bytes": 51709,
+      "fetchedAt": "2026-10-17T00:04:40.180Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Noble's%20outfit",
+      "sha256": "ff21da5660c96fc5cc1118c9f3f1d480d9661249594d56b617101d4fa45424b2",
+      "bytes": 51297,
+      "fetchedAt": "2026-10-17T00:04:41.178Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Oar",
+      "sha256": "2fdc3fb331000d28a55b0aa72ff78df4a84813c302f57726b1c2c9122a6b0faa",
+      "bytes": 49869,
+      "fetchedAt": "2026-10-17T00:04:42.177Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Oil",
+      "sha256": "33daa07b7f6a53a7feb2cf0e10fe4bb450bac0418324c92337b21c740affd764",
+      "bytes": 51711,
+      "fetchedAt": "2026-10-17T00:04:43.177Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Pack%20animal%20(donkey%2Fmule)",
+      "sha256": "84fe729afef8bd47d16f848b0d914a07a19b0aaccc91597cceef8ae4e5363ad8",
+      "bytes": 52993,
+      "fetchedAt": "2026-10-17T00:04:44.191Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Paper%20(sheet)",
+      "sha256": "23ceb228838e0d4bad233164520d4994804a3eb48287f898aff2a0759ef4ab85",
+      "bytes": 51202,
+      "fetchedAt": "2026-10-17T00:04:45.181Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Parchment%20(sheet)",
+      "sha256": "54146417ae1affffa7cae9abaec4aeb2d672a02af7423e401c8b95d85bbba105",
+      "bytes": 50481,
+      "fetchedAt": "2026-10-17T00:04:46.185Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Peasant's%20outfit",
+      "sha256": "8038d7414d6be8d1f83cc441ed6bf0982c9cd0ec540c1a6bb8e6be4fb67fc0de",
+      "bytes": 51039,
+      "fetchedAt": "2026-10-17T00:04:47.175Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Pitcher",
+      "sha256": "4860b6900597390b1f579b2ddeb10cc23a855937d4201bfa0f656b5fa06b63e9",
+      "bytes": 50710,
+      "fetchedAt": "2026-10-17T00:04:48.176Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Piton",
+      "sha256": "c6300218a9eda416a7411e91ef4d1204a5108c0685044a36f472a7beb311ed3c",
+      "bytes": 50150,
+      "fetchedAt": "2026-10-17T00:04:49.182Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Pole",
+      "sha256": "1000c9feee817359d23c5602be8aca3d06829c48db15a229ba08f26326639d3b",
+      "bytes": 50220,
+      "fetchedAt": "2026-10-17T00:04:53.032Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Portable%20ram",
+      "sha256": "7b033f9a5752a42a62de2a5716007c3a42abf6ac2457746adbe7babd12073271",
+      "bytes": 50633,
+      "fetchedAt": "2026-10-17T00:04:53.185Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Pot%20(common)",
+      "sha256": "f89213e8f56c9a7ddb68055b975b35eab109bff69881a43d19178e12f6f7d502",
+      "bytes": 50715,
+      "fetchedAt": "2026-10-17T00:04:54.189Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Pouch%2C%20belt%20(empty)",
+      "sha256": "74e6663e01d410fead3398e1100ea997d58ad97674d5336d340969e045e88786",
+      "bytes": 49959,
+      "fetchedAt": "2026-10-17T00:04:55.200Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Road%20or%20gate%20toll",
+      "sha256": "4a387c4964ba5e409b59a93f5828083bf0d6e3e6377862539d41d71baff1c061",
+      "bytes": 51009,
+      "fetchedAt": "2026-10-17T00:04:56.197Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Rope%20(50%20ft.)",
+      "sha256": "b7e0914feb738aa5fe23db918ffd14ffb8e38424b6a7cbe3f508c03170645152",
+      "bytes": 50232,
+      "fetchedAt": "2026-10-17T00:05:00.018Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Rowboat",
+      "sha256": "3d7b602c832192f801611a2159e50bfc27602aa22e3c9428da1020cd5e80786c",
+      "bytes": 50485,
+      "fetchedAt": "2026-10-17T00:05:00.176Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Royal%20outfit",
+      "sha256": "ba66112252cd02971f7684963acd59e208e5efecee7d6afc3a637beeaa91b76d",
+      "bytes": 51340,
+      "fetchedAt": "2026-10-17T00:05:01.184Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Sack",
+      "sha256": "c7e1e2c855a74f239f7a6ae1e2bf0939c201bb9b8d36f8e4e15904c814516a2d",
+      "bytes": 50632,
+      "fetchedAt": "2026-10-17T00:05:02.180Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Saddle%20(exotic%2C%20military)",
+      "sha256": "1f50dcc838b9fae6cfac719f275129d5a2510b62832ee02a8e4ebc06b8b4a88c",
+      "bytes": 53639,
+      "fetchedAt": "2026-10-17T00:05:03.178Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Saddle%20(exotic%2C%20pack)",
+      "sha256": "c7d30b014dcfe62532cccb821aa9acf4ac7f7f508aed1538bc824e8ece449b77",
+      "bytes": 53627,
+      "fetchedAt": "2026-10-17T00:05:04.180Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Saddle%20(exotic%2C%20riding)",
+      "sha256": "a33350b66ca0614ca16afa604228e1a2468425d7f1160e4c8d342917ea115f02",
+      "bytes": 53742,
+      "fetchedAt": "2026-10-17T00:05:05.185Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Saddle%20(military)",
+      "sha256": "ac5ba017a14390e2bbbc99dff4fc2c4107c14cf8afa90e941976c2029acec7e1",
+      "bytes": 53726,
+      "fetchedAt": "2026-10-17T00:05:06.186Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Saddle%20(pack)",
+      "sha256": "ec8ca1a8d7bf2fd16a6472fc2d078141979ea255eac8326f0744235987ab39a8",
+      "bytes": 53718,
+      "fetchedAt": "2026-10-17T00:05:07.189Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Saddle%20(riding)",
+      "sha256": "cf27ed7c529e5611ea9443bdee22f818763e9ffdc11ed303a68bf934c91d2008",
+      "bytes": 53611,
+      "fetchedAt": "2026-10-17T00:05:11.313Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Saddlebags",
+      "sha256": "c2e9e0ff76d40990c894fa87db744ffa7faafd78bee5ba91adde9145d8a54082",
+      "bytes": 50998,
+      "fetchedAt": "2026-10-17T00:05:11.465Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Sailing%20ship",
+      "sha256": "7e0ebe146c68ef99b578796765d310cc38c47636ccc06dca9288e9056b33954f",
+      "bytes": 50441,
+      "fetchedAt": "2026-10-17T00:05:15.488Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Scholar's%20outfit",
+      "sha256": "331bd3b0f6e4c4137b49263a78c46c8a8410f909c5f32b92ab6a095af3396126",
+      "bytes": 50357,
+      "fetchedAt": "2026-10-17T00:05:15.640Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Scroll%20case",
+      "sha256": "b04df9d8caf683e40bd7e4c0c5fcb0e7865522576ac7bbb3e2796a0317e1a516",
+      "bytes": 51879,
+      "fetchedAt": "2026-10-17T00:05:16.644Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Sealing%20wax",
+      "sha256": "edd5e598d3e4d8257896f40d4ae36f11f8410be0eaa9b120bb06ab93f6083487",
+      "bytes": 50316,
+      "fetchedAt": "2026-10-17T00:05:17.653Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Sewing%20needle",
+      "sha256": "f49b1eb765726060dbba3f4e46ac67f9c705004ff64f07d0dd148e9ba331c25f",
+      "bytes": 50155,
+      "fetchedAt": "2026-10-17T00:05:21.834Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Ship's%20passage",
+      "sha256": "cf6d44b3d27133b36bb4f1ed23acb9522327eea5d49436848f67b00bc3f9e2c9",
+      "bytes": 50516,
+      "fetchedAt": "2026-10-17T00:05:21.991Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Shovel%2C%20common",
+      "sha256": "51138ab32335fd4d9e897ec4eb6b3174a027ed0179f501eb4df4123db1ed2cb5",
+      "bytes": 50163,
+      "fetchedAt": "2026-10-17T00:05:23.009Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Signet%20ring",
+      "sha256": "241757a7d3b3bf9121819f5c4785ebef2be69fc12e152cd472779ed6fd154da1",
+      "bytes": 50425,
+      "fetchedAt": "2026-10-17T00:05:28.769Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Silk%20rope%20(50%20ft.)",
+      "sha256": "a4851c0a05f85505d84a95ea8a0759e4821a0aa103f8c73f5a3d4c70aa263de2",
+      "bytes": 50265,
+      "fetchedAt": "2026-10-17T00:05:31.593Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Sled",
+      "sha256": "8c8ecc410f0fa6be9b75cbb8926145ddd6bb0c55bb063357b97cfef1c2dfa911",
+      "bytes": 50092,
+      "fetchedAt": "2026-10-17T00:05:31.746Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Sledge",
+      "sha256": "70d4d4d1d80292b2465dcffbcb48186494e02700fdcc1b56ac3d3a97d3b8d98c",
+      "bytes": 50858,
+      "fetchedAt": "2026-10-17T00:05:32.747Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Smokestick",
+      "sha256": "19ce445590dfdc180e764797de0e50ee2f3146811af9ae1d707bde6cc6a51c1c",
+      "bytes": 51874,
+      "fetchedAt": "2026-10-17T00:05:33.749Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Soap",
+      "sha256": "f89be219c6d2ef166e0d4ab3bf98573a3f3dac1c875421e1ee87be703ac06ec9",
+      "bytes": 51081,
+      "fetchedAt": "2026-10-17T00:05:34.749Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Spell%20component%20pouch",
+      "sha256": "186c39d75a341ca3e7566868bce6744938be09922d1502ae369897a709cdf105",
+      "bytes": 51117,
+      "fetchedAt": "2026-10-17T00:05:35.752Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Spellbook",
+      "sha256": "d2c2b17afaceba182a0f9b88825743916f69587f96a9cc07738f0bafc80deed1",
+      "bytes": 50910,
+      "fetchedAt": "2026-10-17T00:05:36.754Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Spellcasting",
+      "sha256": "31735a9ebf9da44f6195d665c9445f71c71a1697353303c7960777037a72c6f2",
+      "bytes": 57785,
+      "fetchedAt": "2026-10-16T23:40:09.445Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Spyglass",
+      "sha256": "9354cd88c0969f239aee65986f6446af4409b0e92e78fd7f122e2b300b98bd49",
+      "bytes": 50585,
+      "fetchedAt": "2026-10-17T00:05:40.400Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Stabling%20(per%20day)",
+      "sha256": "8a515ef3ad60ccd0c9191992f67838e86441f5aaf7ca758e86e728ea6ebff8c0",
+      "bytes": 50753,
+      "fetchedAt": "2026-10-17T00:05:40.551Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Sunrod",
+      "sha256": "fe2230764450df36e44e8e9d55572eb6cc9e650780f5f1c70dfc61f65c58a993",
+      "bytes": 52182,
+      "fetchedAt": "2026-10-17T00:05:41.559Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Tanglefoot%20bag",
+      "sha256": "05eb5228c53e01ee2a70f2687a0d1207a985990d6aac4561a975ac675c0df888",
+      "bytes": 56549,
+      "fetchedAt": "2026-10-17T00:05:42.555Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Tent",
+      "sha256": "8b44d3609b3d25762408ef500a2032a0e6403a7487b20146af16cccf36d7dd7e",
+      "bytes": 49768,
+      "fetchedAt": "2026-10-17T00:05:46.335Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Thieves'%20tools%20(common)",
+      "sha256": "bb6670bbc19e05120c6606ccdf975a57e565ec63a6d1aaa479e1f70b5382918d",
+      "bytes": 51173,
+      "fetchedAt": "2026-10-17T00:05:46.489Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Thieves'%20tools%20(masterwork)",
+      "sha256": "c72a19c17b1c5ba9f98938230d3d05891cfaecfe6650afaccf72ecbc28eb52dc",
+      "bytes": 51181,
+      "fetchedAt": "2026-10-17T00:05:47.495Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Thunderstone",
+      "sha256": "96c2e9b5aa449b1c16e440805bab0f159739411234316f6aa6bbd972733ac71a",
+      "bytes": 53070,
+      "fetchedAt": "2026-10-17T00:05:48.493Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Tindertwig",
+      "sha256": "13058aee5d4d14c275153510dec5797c1101f82a13370fb5b4f350a10a733cf8",
+      "bytes": 52586,
+      "fetchedAt": "2026-10-17T00:05:49.502Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Torch",
+      "sha256": "c413ee02c63de3fa7af8d59fd05c84bb411984d6fd3c97f025b0195c16593068",
+      "bytes": 51529,
+      "fetchedAt": "2026-10-17T00:05:50.503Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Trail%20rations",
+      "sha256": "785de4f36faa00f3619e42bf1b8d9871c815ebd9b2af1d70eec35e2fa06eb1a5",
+      "bytes": 50901,
+      "fetchedAt": "2026-10-17T00:05:51.497Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Traveler's%20outfit",
+      "sha256": "ded55e91497259379211696e7c307bf0a6d21a49d7a676ac12623db4cf239805",
+      "bytes": 50536,
+      "fetchedAt": "2026-10-17T00:05:52.491Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Vial",
+      "sha256": "5416e8a74fe6be9b4f060f8e7809a6343b60024e22d52293fdea2418363b7ba5",
+      "bytes": 50189,
+      "fetchedAt": "2026-10-17T00:05:53.498Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Wagon%20(light)",
+      "sha256": "630943e23ff4e1faf513b96d2de1bd95736a3ee410bc62b789af9806ec1c8d86",
+      "bytes": 52206,
+      "fetchedAt": "2026-10-16T23:40:12.444Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Warship",
+      "sha256": "582152f9bbf61636ae90d4af32eb8d911dc3d6ef8a88fc04b200c1fa3f8a8ff3",
+      "bytes": 51012,
+      "fetchedAt": "2026-10-17T00:05:57.962Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Water%20clock",
+      "sha256": "8ec78d8ff9272b710a168d04f09c9b7f1b022317c1afa5d55792aebbad19aca1",
+      "bytes": 50689,
+      "fetchedAt": "2026-10-17T00:05:58.112Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Waterskin",
+      "sha256": "88d2bff93ed0a4d0757e4325a98e7cd4a4d11a28ab598274cee2bb4f2d684c27",
+      "bytes": 50656,
+      "fetchedAt": "2026-10-17T00:05:59.125Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Whetstone",
+      "sha256": "c83856fbaa9dc1555b215bf385f72a0eeed869b5f0c930495ea508d800d510ea",
+      "bytes": 51302,
+      "fetchedAt": "2026-10-17T00:06:00.129Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Whistle%20(signal)",
+      "sha256": "4693c359000b038475260b5d047d1ebd3821960dd49f0087b6b3ef24b9a0bfe5",
+      "bytes": 51816,
+      "fetchedAt": "2026-10-17T00:06:01.125Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Wine%20(common%2C%20pitcher)",
+      "sha256": "e7a68ece0c1c6714545c07e1bf00045dd6c35d947164d8fe69f88cd4b752d895",
+      "bytes": 51245,
+      "fetchedAt": "2026-10-17T00:06:02.120Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Wine%20(fine%2C%20bottle)",
+      "sha256": "48a61c40a64441a5ebea803d2d75ce74a9415554e870445f61d212c72f1f9e39",
+      "bytes": 51347,
+      "fetchedAt": "2026-10-17T00:06:03.117Z"
+    },
+    {
+      "url": "https://aonprd.com/SourceDisplay.aspx?FixedSource=PRPG Core Rulebook",
+      "sha256": "94461065d4d1448c610be1f56161a6f1f6af9d825d8c1a1bdfd0d81f46f83599",
+      "bytes": 374126,
+      "fetchedAt": "2026-10-16T14:04:46.083Z"
+    }
+  ],
+  "expectedCount": 164
+}

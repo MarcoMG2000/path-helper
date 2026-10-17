@@ -1,0 +1,254 @@
+{
+  "term:alchemical-bonus": {
+    "es": "Bonificador alquímico",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:animal-companion": {
+    "es": "Compañero animal",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:armor-bonus": {
+    "es": "Bonificador de armadura",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:armor-class": {
+    "es": "Clase de Armadura",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:bardic-performance": {
+    "es": "Interpretación de bardo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:base-attack-bonus": {
+    "es": "Bonificador base de ataque",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:channel-energy": {
+    "es": "Canalizar energía",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:charisma": {
+    "es": "Carisma",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:circumstance-bonus": {
+    "es": "Bonificador de circunstancia",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:competence-bonus": {
+    "es": "Bonificador de competencia",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:constitution": {
+    "es": "Constitución",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:deflection-bonus": {
+    "es": "Bonificador de desvío",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:dexterity": {
+    "es": "Destreza",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:dodge-bonus": {
+    "es": "Bonificador de esquiva",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:enhancement-bonus": {
+    "es": "Bonificador de mejora",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:favored-enemy": {
+    "es": "Enemigo predilecto",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:flat-footed": {
+    "es": "Desprevenido",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:fortitude-save": {
+    "es": "Salvación de Fortaleza",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:inherent-bonus": {
+    "es": "Bonificador inherente",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:initiative": {
+    "es": "Iniciativa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:insight-bonus": {
+    "es": "Bonificador de perspicacia",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:inspire-courage": {
+    "es": "Inspirar valor",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:intelligence": {
+    "es": "Inteligencia",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:lay-on-hands": {
+    "es": "Imposición de manos",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:luck-bonus": {
+    "es": "Bonificador de suerte",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:morale-bonus": {
+    "es": "Bonificador de moral",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:natural-armor-bonus": {
+    "es": "Bonificador de armadura natural",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:power-attack": {
+    "es": "Ataque poderoso",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:profane-bonus": {
+    "es": "Bonificador profano",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:racial-bonus": {
+    "es": "Bonificador racial",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:rage": {
+    "es": "Furia",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:reflex-save": {
+    "es": "Salvación de Reflejos",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:resistance-bonus": {
+    "es": "Bonificador de resistencia",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:sacred-bonus": {
+    "es": "Bonificador sagrado",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:shield-bonus": {
+    "es": "Bonificador de escudo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:smite-evil": {
+    "es": "Castigar el mal",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:sneak-attack": {
+    "es": "Ataque furtivo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:strength": {
+    "es": "Fuerza",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:touch-ac": {
+    "es": "CA de toque",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:wild-shape": {
+    "es": "Forma salvaje",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:will-save": {
+    "es": "Salvación de Voluntad",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  },
+  "term:wisdom": {
+    "es": "Sabiduría",
+    "verified": false,
+    "origin": "draft",
+    "kind": "term"
+  }
+}

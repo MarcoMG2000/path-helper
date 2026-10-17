@@ -1,0 +1,176 @@
+{
+  "spells:hallow": {
+    "es": "Consagrar",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:hallucinatory-terrain": {
+    "es": "Terreno alucinatorio",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:halt-undead": {
+    "es": "Detener muertos vivientes",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:harm": {
+    "es": "Dañar",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:haste": {
+    "es": "Celeridad",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:heal": {
+    "es": "Curar",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:heal-mass": {
+    "es": "Curar, en masa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:heal-mount": {
+    "es": "Curar montura",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:heat-metal": {
+    "es": "Calentar metal",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:helping-hand": {
+    "es": "Mano auxiliadora",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:heroes-feast": {
+    "es": "Festín de héroes",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:heroism": {
+    "es": "Heroísmo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:heroism-greater": {
+    "es": "Heroísmo, mayor",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:hide-from-animals": {
+    "es": "Esconderse de los animales",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:hide-from-undead": {
+    "es": "Esconderse de los muertos vivientes",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:hideous-laughter": {
+    "es": "Risa horrible",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:hold-animal": {
+    "es": "Retener animal",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:hold-monster": {
+    "es": "Retener monstruo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:hold-monster-mass": {
+    "es": "Retener monstruo, en masa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:hold-person": {
+    "es": "Retener persona",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:hold-person-mass": {
+    "es": "Retener persona, en masa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:hold-portal": {
+    "es": "Mantener portal",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:holy-aura": {
+    "es": "Aura sagrada",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:holy-smite": {
+    "es": "Castigo sagrado",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:holy-sword": {
+    "es": "Espada sagrada",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:holy-word": {
+    "es": "Palabra sagrada",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:horrid-wilting": {
+    "es": "Marchitamiento horrible",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:hypnotic-pattern": {
+    "es": "Patrón hipnótico",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:hypnotism": {
+    "es": "Hipnotismo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  }
+}

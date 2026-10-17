@@ -1,0 +1,42 @@
+{
+  "legend-lore": {
+    "summaryEs": "Te trae a la mente leyendas sobre una persona, lugar o cosa importante. El tiempo de lanzamiento es de 1d4 × 10 minutos si la tienes a mano, 1d10 días si solo tienes información detallada y 2d6 semanas si solo conoces rumores. Sin importancia legendaria, no obtienes información.",
+    "status": "draft"
+  },
+  "levitate": {
+    "summaryEs": "Permite mover hacia arriba o abajo a ti, a otra criatura voluntaria o a un objeto sin vigilar, hasta 20 pies por asalto (acción de movimiento). No hay movimiento horizontal directo. Quien ataca en levitación sufre una penalización creciente: –1 el primer ataque, –2 el segundo, hasta –5.",
+    "status": "draft"
+  },
+  "light": {
+    "summaryEs": "Hace que un objeto tocado brille como una antorcha: luz normal en un radio de 20 pies y un paso más de luz en otros 20 pies. Es inmóvil, pero puede lanzarse sobre un objeto móvil. Solo puedes tener un conjuro luz activo. Puede contrarrestar conjuros de oscuridad de nivel igual o inferior.",
+    "status": "draft"
+  },
+  "lightning-bolt": {
+    "summaryEs": "Lanzas un rayo eléctrico que causa 1d6 puntos de daño de electricidad por nivel de lanzador (máximo 10d6) a cada criatura en su área. Prende combustibles, daña objetos en su trayecto y puede fundir metales de bajo punto de fusión. Si rompe una barrera, puede continuar si el alcance lo permite.",
+    "status": "draft"
+  },
+  "limited-wish": {
+    "summaryEs": "Crea casi cualquier efecto: duplica conjuros de hechicero/mago de nivel 6 o inferior, o de otras clases de nivel 5 o inferior (menos si son de escuelas de oposición), deshace efectos dañinos u otros de potencia similar. La CD es la de un conjuro de nivel 7. Requiere un diamante de 1,500 po.",
+    "status": "draft"
+  },
+  "liveoak": {
+    "summaryEs": "Convierte un roble sano y Enorme en un protector que se anima como un treant al oír una frase desencadenante de hasta una palabra por nivel de lanzador. Solo puedes tener un árbol así a la vez. Si se disipa, el árbol echa raíces donde esté; si lo liberas, intenta volver a su ubicación original.",
+    "status": "draft"
+  },
+  "locate-creature": {
+    "summaryEs": "Funciona como localizar objeto, pero localiza a una criatura conocida: sientes la dirección en que se encuentra, si está a alcance, y hacia dónde se mueve. Para una clase de criatura debes haber visto una de cerca (30 pies). El agua corriente lo bloquea. No detecta objetos.",
+    "status": "draft"
+  },
+  "locate-object": {
+    "summaryEs": "Percibes la dirección de un objeto bien conocido o claramente visualizado. Con objetos generales localizas el más cercano; para uno concreto necesitas una imagen mental exacta. Una fina lámina de plomo lo bloquea y no encuentra criaturas.",
+    "status": "draft"
+  },
+  "longstrider": {
+    "summaryEs": "Te da un bonificador de mejora de +10 pies a tu velocidad base. No afecta a otros modos de movimiento, como excavar, trepar, volar o nadar.",
+    "status": "draft"
+  },
+  "lullaby": {
+    "summaryEs": "Toda criatura en el área que falle una salvación de Voluntad queda somnolienta y desatenta: sufre un penalizador de –5 a las pruebas de Percepción y de –2 a las salvaciones de Voluntad contra efectos de sueño. Dura mientras te concentras, más hasta 1 asalto por nivel de lanzador después.",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "ring-of-animal-friendship": {
+    "summaryEs": "Por orden, afecta a un animal como charm animal, que pasa a considerar al portador un amigo de confianza.",
+    "status": "draft"
+  },
+  "ring-of-blinking": {
+    "summaryEs": "Por orden, hace que el portador parpadee (blink), como el conjuro.",
+    "status": "draft"
+  },
+  "ring-of-chameleon-power": {
+    "summaryEs": "Como acción gratuita, el portador se mimetiza con el entorno: +10 de competencia a las pruebas de Stealth. Como acción estándar puede usar disguise self tantas veces como quiera.",
+    "status": "draft"
+  },
+  "ring-of-climbing": {
+    "summaryEs": "Otorga de forma continua +5 de competencia a las pruebas de Climb.",
+    "status": "draft"
+  },
+  "ring-of-climbing-improved": {
+    "summaryEs": "Funciona como el ring of climbing, pero otorga +10 de competencia a las pruebas de Climb.",
+    "status": "draft"
+  },
+  "ring-of-counterspells": {
+    "summaryEs": "Parece un ring of spell storing: admite un conjuro de 1.er a 6.º nivel, pero no puede lanzarse desde el anillo. Si ese conjuro se lanza sobre el portador, queda contrarrestado sin acción alguna; el conjuro se gasta y puede cargarse otro.",
+    "status": "draft"
+  },
+  "ring-of-djinni-calling": {
+    "summaryEs": "Al frotarlo (acción estándar) llama a un djinni concreto del Plano del Aire, que llega al asalto siguiente y sirve al portador un máximo de 1 hora al día. Si el djinni muere, el anillo pierde su magia.",
+    "status": "draft"
+  },
+  "ring-of-elemental-command": {
+    "summaryEs": "Existe en cuatro versiones, una por elemento. Hasta activarse por completo parece un anillo menor. Los elementales del plano afín no pueden atacar al portador ni acercarse a menos de 5 pies; otorga más poderes comunes y propios.",
+    "status": "draft"
+  },
+  "ring-of-energy-resistance": {
+    "summaryEs": "Protege de forma continua contra un tipo de energía (ácido, frío, electricidad, fuego o sónico): resta su valor al daño. El minor resiste 10 puntos, el major 20 y el greater 30.",
+    "status": "draft"
+  },
+  "ring-of-evasion": {
+    "summaryEs": "Otorga de forma continua evasion: al superar una salvación de Reflejos que reduciría el daño a la mitad, no recibe daño.",
+    "status": "draft"
+  },
+  "ring-of-feather-falling": {
+    "summaryEs": "Actúa exactamente como el conjuro feather fall y se activa de inmediato si el portador cae más de 5 pies.",
+    "status": "draft"
+  },
+  "ring-of-force-shield": {
+    "summaryEs": "Genera un escudo de fuerza que se maneja como un escudo pesado (+2 a la CA), sin penalización por armadura ni fallo de conjuros arcanos. Se activa y desactiva a voluntad como acción gratuita.",
+    "status": "draft"
+  },
+  "ring-of-freedom-of-movement": {
+    "summaryEs": "El portador actúa como si estuviera continuamente bajo el efecto de freedom of movement.",
+    "status": "draft"
+  },
+  "ring-of-friend-shield": {
+    "summaryEs": "Los anillos vienen en pares y uno solo es inútil. Cualquiera de los dos portadores puede ordenar a su anillo lanzar shield other con el portador del otro anillo como receptor, sin límite de alcance.",
+    "status": "draft"
+  },
+  "ring-of-invisibility": {
+    "summaryEs": "Al activarlo, el portador se beneficia de invisibility, como el conjuro.",
+    "status": "draft"
+  },
+  "ring-of-jumping": {
+    "summaryEs": "Otorga de forma continua +5 de competencia a todas sus pruebas de Acrobatics para saltos altos o largos.",
+    "status": "draft"
+  },
+  "ring-of-jumping-improved": {
+    "summaryEs": "Funciona como el ring of jumping, pero otorga +10 de competencia a las pruebas de Acrobatics para saltos altos o largos.",
+    "status": "draft"
+  },
+  "ring-of-mind-shielding": {
+    "summaryEs": "El portador es continuamente inmune a detect thoughts, discern lies y a cualquier intento de averiguar su alineamiento por medios mágicos.",
+    "status": "draft"
+  },
+  "ring-of-protection": {
+    "summaryEs": "Concede un bono de desvío (deflection) de +1 a +5 a la CA según la versión: +1 cuesta 2.000 po, +2 8.000 po, +3 18.000 po, +4 32.000 po y +5 50.000 po.",
+    "status": "draft"
+  },
+  "ring-of-regeneration": {
+    "summaryEs": "Un portador vivo cura 1 punto de daño por asalto (y otro tanto de daño no letal) y es inmune al sangrado. Si pierde un miembro u órgano, el anillo lo regenera como regenerate; solo cura el daño sufrido con él puesto.",
+    "status": "draft"
+  },
+  "ring-of-shooting-stars": {
+    "summaryEs": "Tiene dos modos según haya poca luz o sea de noche al aire libre, o se esté bajo tierra o en interiores de noche. Por orden da dancing lights, light, ball lightning y shooting stars con distintos usos por hora, noche o semana.",
+    "status": "draft"
+  },
+  "ring-of-spell-storing": {
+    "summaryEs": "Contiene hasta 5 niveles de conjuros (divinos, arcanos o mezcla) que el portador puede lanzar sin componentes materiales ni fallo por armadura. El tiempo de activación es el del conjuro, mínimo 1 acción estándar.",
+    "status": "draft"
+  },
+  "ring-of-spell-storing-major": {
+    "summaryEs": "Como el ring of spell storing, pero contiene hasta 10 niveles de conjuros.",
+    "status": "draft"
+  },
+  "ring-of-spell-storing-minor": {
+    "summaryEs": "Como el ring of spell storing, pero contiene hasta 3 niveles de conjuros.",
+    "status": "draft"
+  },
+  "ring-of-spell-turning": {
+    "summaryEs": "Hasta tres veces al día, por orden, refleja automáticamente los siguientes nueve niveles de conjuros lanzados contra el portador, exactamente como spell turning.",
+    "status": "draft"
+  },
+  "ring-of-sustenance": {
+    "summaryEs": "Alimenta de forma continua al portador y le basta dormir 2 horas al día para obtener el beneficio de 8. Hay que llevarlo una semana completa antes de que funcione; si se quita, otra semana más para sintonizarlo.",
+    "status": "draft"
+  },
+  "ring-of-swimming": {
+    "summaryEs": "Otorga de forma continua +5 de competencia a las pruebas de Swim.",
+    "status": "draft"
+  },
+  "ring-of-swimming-improved": {
+    "summaryEs": "Como el ring of swimming, pero otorga +10 de competencia a las pruebas de Swim.",
+    "status": "draft"
+  },
+  "ring-of-telekinesis": {
+    "summaryEs": "Permite usar el conjuro telekinesis por orden, levantando y manipulando objetos a distancia solo con la mente.",
+    "status": "draft"
+  },
+  "ring-of-the-ram": {
+    "summaryEs": "Por orden, lanza una fuerza con forma de cabeza de carnero contra un objetivo (ataque a distancia, alcance máximo de 50 pies): 1d6 de daño gastando 1 carga, 2d6 con 2 y 3d6 con 3 (máximo).",
+    "status": "draft"
+  },
+  "ring-of-three-wishes": {
+    "summaryEs": "Engastado con tres rubíes, cada uno guarda un conjuro wish que el anillo activa; al usarlo el rubí desaparece. Cuando se gastan todos los deseos, el anillo queda sin magia.",
+    "status": "draft"
+  },
+  "ring-of-water-walking": {
+    "summaryEs": "Permite al portador usar de forma continua los efectos del conjuro water walk.",
+    "status": "draft"
+  },
+  "ring-of-wizardry": {
+    "summaryEs": "Solo útil para lanzadores arcanos: duplica los conjuros arcanos por día de un nivel concreto. La versión I duplica los de 1.er nivel, la II los de 2.º, la III los de 3.º y la IV los de 4.º. Los conjuros adicionales por característica o especialidad no se duplican.",
+    "status": "draft"
+  },
+  "ring-of-x-ray-vision": {
+    "summaryEs": "Por orden, permite ver a través de la materia sólida con alcance de 20 pies: atraviesa 1 pie de piedra, 1 pulgada de metal común o 3 pies de madera o tierra. Tras los primeros 10 minutos al día causa 1 punto de daño de Constitución por minuto.",
+    "status": "draft"
+  }
+}

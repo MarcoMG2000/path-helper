@@ -1,0 +1,118 @@
+{
+  "scorpion-style": {
+    "summaryEs": "Un ataque desarmado como acción estándar: si impacta, daño normal y la velocidad terrestre base del objetivo baja a 5 pies durante asaltos igual a tu modificador de Sabiduría, salvo salvación de Fortitude (CD 10 + 1/2 tu nivel + Sabiduría).",
+    "status": "draft"
+  },
+  "scribe-scroll": {
+    "summaryEs": "Creas pergaminos de cualquier conjuro que conozcas: 2 horas si el precio base es 250 po o menos; si no, 1 día por cada 1.000 po. Cuesta la mitad del precio base en materiales.",
+    "status": "draft"
+  },
+  "selective-channeling": {
+    "summaryEs": "Al canalizar energía, eliges un número de objetivos del área hasta tu modificador de Carisma que no son afectados.",
+    "status": "draft"
+  },
+  "self-sufficient": {
+    "summaryEs": "+2 a las pruebas de Heal y Survival; pasa a +4 en la habilidad en la que tengas 10 o más rangos.",
+    "status": "draft"
+  },
+  "shatter-defenses": {
+    "summaryEs": "Todo oponente asustado, aterrado o presa del pánico al que impactes este asalto queda desprevenido ante tus ataques hasta el final de tu próximo turno.",
+    "status": "draft"
+  },
+  "shield-focus": {
+    "summaryEs": "Aumentas en 1 la bonificación a la CA de cualquier escudo que uses.",
+    "status": "draft"
+  },
+  "shield-master": {
+    "summaryEs": "Sin penalizaciones a los ataques con escudo mientras empuñas otra arma. Sumas la mejora del escudo a las tiradas de ataque y daño con él como si fuera una mejora de arma.",
+    "status": "draft"
+  },
+  "shield-proficiency": {
+    "summaryEs": "Al usar un escudo (salvo escudo pavés), su penalización de armadura solo afecta a habilidades de Fuerza y Destreza. Muchas clases (ver texto) la tienen automáticamente.",
+    "status": "draft"
+  },
+  "shield-slam": {
+    "summaryEs": "Los oponentes golpeados por tu golpe de escudo sufren también una embestida gratuita sin ataque de oportunidad. Si no pueden retroceder, caen derribados. Puedes moverte con el objetivo.",
+    "status": "draft"
+  },
+  "shot-on-the-run": {
+    "summaryEs": "Como acción de asalto completo, te mueves hasta tu velocidad y haces un solo ataque a distancia en cualquier punto del movimiento.",
+    "status": "draft"
+  },
+  "sickening-critical": {
+    "summaryEs": "Tu crítico deja al oponente enfermo durante 1 minuto. No se acumula; más impactos alargan la duración. Solo un efecto de dote crítica por crítico salvo Critical Mastery.",
+    "status": "draft"
+  },
+  "silent-spell": {
+    "summaryEs": "El conjuro se lanza sin componentes verbales. Ocupa un espacio de conjuro un nivel superior al real. No sirve para conjuros de bardo.",
+    "status": "draft"
+  },
+  "simple-weapon-proficiency": {
+    "summaryEs": "Haces tiradas de ataque con armas simples sin penalización (la penalización por falta de competencia es –4). Todos salvo druidas, monjes y magos las dominan automáticamente.",
+    "status": "draft"
+  },
+  "skill-focus": {
+    "summaryEs": "+3 a todas las pruebas de la habilidad elegida; pasa a +6 con 10 o más rangos. Se puede tomar varias veces, sin acumularse, para una habilidad nueva cada vez.",
+    "status": "draft"
+  },
+  "snatch-arrows": {
+    "summaryEs": "Al usar Deflect Arrows, puedes atrapar el arma en lugar de desviarla; las arrojadizas pueden lanzarse de vuelta contra el atacante o guardarse. Debes tener una mano libre.",
+    "status": "draft"
+  },
+  "spell-focus": {
+    "summaryEs": "Sumas +1 a la CD de las salvaciones contra conjuros de la escuela elegida. Se puede tomar varias veces, sin acumularse, para una escuela distinta.",
+    "status": "draft"
+  },
+  "spell-mastery": {
+    "summaryEs": "Eliges tantos conjuros que ya conozcas como tu modificador de Inteligencia: los preparas sin consultar el libro de conjuros. Cada vez que tomas la dote, eliges más.",
+    "status": "draft"
+  },
+  "spell-penetration": {
+    "summaryEs": "+2 a las pruebas de nivel de lanzador (1d20 + nivel de lanzador) para superar la resistencia a conjuros de una criatura.",
+    "status": "draft"
+  },
+  "spellbreaker": {
+    "summaryEs": "Los enemigos de tu zona amenazada que fallen al lanzar conjuros a la defensiva provocan ataques de oportunidad tuyos.",
+    "status": "draft"
+  },
+  "spirited-charge": {
+    "summaryEs": "Montado y con la acción de carga, haces doble daño con un arma cuerpo a cuerpo (triple con lanza de caballería).",
+    "status": "draft"
+  },
+  "spring-attack": {
+    "summaryEs": "Como acción de asalto completo, te mueves hasta tu velocidad y haces un ataque cuerpo a cuerpo sin provocar ataques de oportunidad del objetivo. Debes moverte al menos 10 pies antes del ataque y no puedes atacar a quien esté adyacente al empezar tu turno.",
+    "status": "draft"
+  },
+  "staggering-critical": {
+    "summaryEs": "Tu crítico deja al oponente tambaleante 1d4+1 asaltos; una salvación de Fortitude (CD 10 + tu bonificador base de ataque) lo reduce a 1 asalto. No se acumula; más impactos alargan la duración.",
+    "status": "draft"
+  },
+  "stand-still": {
+    "summaryEs": "Cuando un enemigo provoca tu ataque de oportunidad al moverse por casillas adyacentes, puedes hacer una prueba de maniobra de combate: si tiene éxito, no puede moverse más ese turno.",
+    "status": "draft"
+  },
+  "stealthy": {
+    "summaryEs": "+2 a las pruebas de Escape Artist y Stealth; pasa a +4 en la habilidad en la que tengas 10 o más rangos.",
+    "status": "draft"
+  },
+  "step-up": {
+    "summaryEs": "Cuando un enemigo adyacente da un paso de 5 pies para alejarse, puedes dar también un paso de 5 pies (acción inmediata) si acabas adyacente a él. No podrás dar un paso de 5 pies en tu próximo turno.",
+    "status": "draft"
+  },
+  "still-spell": {
+    "summaryEs": "El conjuro se lanza sin componentes somáticos. Ocupa un espacio de conjuro un nivel superior al real.",
+    "status": "draft"
+  },
+  "strike-back": {
+    "summaryEs": "Puedes preparar una acción para atacar cuerpo a cuerpo a cualquier enemigo que te ataque en cuerpo a cuerpo, aunque esté fuera de tu alcance.",
+    "status": "draft"
+  },
+  "stunning-critical": {
+    "summaryEs": "Tu crítico deja al oponente aturdido 1d4 asaltos; una salvación de Fortitude (CD 10 + tu bonificador base de ataque) lo reduce a tambaleante 1d4 asaltos. No se acumula; más impactos alargan la duración.",
+    "status": "draft"
+  },
+  "stunning-fist": {
+    "summaryEs": "Declaras el uso antes del ataque: un enemigo dañado por tu golpe desarmado hace una salvación de Fortitude (CD 10 + 1/2 tu nivel + Sabiduría) o queda aturdido 1 asalto. Una vez al día por cada cuatro niveles, máximo una por asalto.",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "dwarf": {
+    "summaryEs": "Raza Dwarf: +2 Constitución, +2 Sabiduría, -2 Carisma; Medium; velocidad base 20 pies sin penalización por armadura o carga. Darkvision 60 pies, Hardy (+2 contra veneno, conjuros y habilidades sortílegas), +4 de esquiva a la CA contra gigantes, +1 al ataque contra orcos y goblinoides.",
+    "status": "draft"
+  },
+  "elf": {
+    "summaryEs": "Raza Elf: +2 Destreza, +2 Inteligencia, -2 Constitución; Medium; velocidad base 30 pies. Low-Light Vision, inmune a sueño mágico, +2 contra encantamientos, +2 en Perception, +2 en pruebas de nivel de lanzador contra resistencia a conjuros y en Spellcraft para identificar objetos mágicos.",
+    "status": "draft"
+  },
+  "gnome": {
+    "summaryEs": "Raza Gnome: +2 Constitución, +2 Carisma, -2 Fuerza; Small; velocidad base 20 pies. Low-Light Vision, +4 de esquiva a la CA contra gigantes, +2 contra ilusiones, +2 en Perception, +1 al ataque contra reptilianos y goblinoides, +2 a un Craft o Profession elegido y gnome magic.",
+    "status": "draft"
+  },
+  "half-elf": {
+    "summaryEs": "Raza Half-Elf: +2 a una característica a elección; Medium; velocidad base 30 pies. Low-Light Vision, Skill Focus como dote adicional en el nivel 1, cuenta como elfo y humano, inmune a sueño mágico, +2 contra encantamientos, +2 en Perception y dos clases predilectas.",
+    "status": "draft"
+  },
+  "half-orc": {
+    "summaryEs": "Raza Half-Orc: +2 a una característica a elección; Medium; velocidad base 30 pies. Darkvision 60 pies, +2 en Intimidate, cuenta como humano y orco, Orc Ferocity una vez al día (seguir luchando 1 asalto por debajo de 0 puntos de golpe) y competencia con greataxes y falchions.",
+    "status": "draft"
+  },
+  "halfling": {
+    "summaryEs": "Raza Halfling: +2 Destreza, +2 Carisma, -2 Fuerza; Small; velocidad base 20 pies. +2 a todas las salvaciones contra el miedo, +1 a todas las salvaciones (Halfling Luck), +2 en Perception, +2 en Acrobatics y Climb y competencia con slings.",
+    "status": "draft"
+  },
+  "human": {
+    "summaryEs": "Raza Human: +2 a una característica a elegir; Medium; velocidad base 30 pies. Una dote adicional en el nivel 1 y 1 rango de habilidad adicional en el nivel 1 y en cada nivel posterior. Idiomas: Common y su idioma étnico; con Inteligencia alta, cualquiera.",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "spells:obscure-object": {
+    "es": "Obscure Object",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:obscuring-mist": {
+    "es": "Obscuring Mist",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:open-close": {
+    "es": "Open/Close",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:orders-wrath": {
+    "es": "Order's Wrath",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:overland-flight": {
+    "es": "Overland Flight",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:owls-wisdom": {
+    "es": "Owl's Wisdom",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
+  "spells:owls-wisdom-mass": {
+    "es": "Owl's Wisdom, Mass",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  }
+}

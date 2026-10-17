@@ -1,0 +1,34 @@
+{
+  "absorbing-shield": {
+    "summaryEs": "Escudo pesado de acero +1, negro mate. Una vez cada 2 días, por orden, desintegra un objeto que toque (como el conjuro, con ataque de toque cuerpo a cuerpo). Solo funciona como ataque.",
+    "status": "draft"
+  },
+  "casters-shield": {
+    "summaryEs": "Escudo ligero de madera +1 con una tira de cuero en la que un lanzador puede escribir un conjuro (hasta 3.er nivel) con la mitad del coste de materiales. 5% de fallo de conjuros arcanos.",
+    "status": "draft"
+  },
+  "darkwood-buckler": {
+    "summaryEs": "Rodela de maestría no mágica de madera oscura (darkwood), más ligera que una normal. Sin bono de mejora y sin penalización por armadura.",
+    "status": "draft"
+  },
+  "darkwood-shield": {
+    "summaryEs": "Escudo pesado de madera de maestría no mágico, de madera oscura (darkwood), más ligero que uno normal. Sin bono de mejora y sin penalización por armadura.",
+    "status": "draft"
+  },
+  "lions-shield": {
+    "summaryEs": "Escudo pesado de acero +2 con forma de cabeza de león. Tres veces al día, como acción gratuita, la cabeza muerde por sí sola con el bono base de ataque del portador y causa 2d6 de daño.",
+    "status": "draft"
+  },
+  "mithral-heavy-shield": {
+    "summaryEs": "Escudo pesado de mithral, mucho más ligero que uno de acero. 5% de fallo de conjuros arcanos y sin penalización por armadura.",
+    "status": "draft"
+  },
+  "spined-shield": {
+    "summaryEs": "Escudo pesado de acero +1 cubierto de espinas (actúa como escudo con pinchos). Hasta tres veces al día puede disparar una espina: +1 de mejora, incremento de 120 pies y 1d10 de daño (19–20/×2). Se regeneran cada día.",
+    "status": "draft"
+  },
+  "winged-shield": {
+    "summaryEs": "Escudo pesado de madera con +3 de mejora y alas talladas. Una vez al día vuela por orden (como el conjuro) llevando al portador: hasta 133 libras a 60 pies por asalto, o 266 libras a 40 pies por asalto.",
+    "status": "draft"
+  }
+}

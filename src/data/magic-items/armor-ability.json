@@ -1,0 +1,698 @@
+[
+  {
+    "id": "energy-resistance-armor",
+    "name": "Energy Resistance",
+    "textEn": "**Aura** faint abjuration; **CL** 3rd; **Slot** armor/shield quality; **Price** +18,000 gp; **Weight** —\n\n**Description**\n\nA suit of armor or a shield with this special ability protects against one type of energy (acid, cold, electricity, fire, or sonic) and is designed with patterns depicting the element it protects against. The armor absorbs the first 10 points of energy damage per attack that the wearer would normally take (similar to the *resist energy* spell).\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *resist energy*; **Price** +9,000 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Energy%20Resistance",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor/shield quality",
+    "aura": "faint abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, resist energy",
+      "costRaw": "+9,000 gp",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 117, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 117"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 3,
+        "priceRaw": "+18,000 gp",
+        "priceCp": 1800000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "energy-resistance-greater-armor",
+    "name": "Energy Resistance, Greater",
+    "textEn": "**Aura** moderate abjuration; **CL** 11th; **Slot** armor/shield quality; **Price** +66,000 gp; **Weight** —\n\n**Description**\n\nAs *energy resistance*, except it absorbs the first 30 points of energy damage per attack.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *resist energy*; **Price** +33,000 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Energy%20Resistance%2C%20Greater",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor/shield quality",
+    "aura": "moderate abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, resist energy",
+      "costRaw": "+33,000 gp",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 117, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 117"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 11,
+        "priceRaw": "+66,000 gp",
+        "priceCp": 6600000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "energy-resistance-improved-armor",
+    "name": "Energy Resistance, Improved",
+    "textEn": "**Aura** moderate abjuration; **CL** 7th; **Slot** armor/shield quality; **Price** +42,000 gp; **Weight** —\n\n**Description**\n\nAs *energy resistance*, except it absorbs the first 20 points of energy damage per attack.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *resist energy*; **Price** +21,000 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Energy%20Resistance%2C%20Improved",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor/shield quality",
+    "aura": "moderate abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, resist energy",
+      "costRaw": "+21,000 gp",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 117, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 117"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "+42,000 gp",
+        "priceCp": 4200000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "etherealness",
+    "name": "Etherealness",
+    "textEn": "**Aura** strong transmutation; **CL** 13th; **Slot** armor quality; **Price** +49,000 gp; **Weight** —\n\n**Description**\n\nOn command, this ability allows the wearer of the armor to become ethereal (as the *ethereal jaunt* spell) once per day. The character can remain ethereal for as long as desired, but once he returns to normal, he cannot become ethereal again that day.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *ethereal jaunt*; **Price** +24,500 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Etherealness",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor quality",
+    "aura": "strong transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, ethereal jaunt",
+      "costRaw": "+24,500 gp",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 118, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 118"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "+49,000 gp",
+        "priceCp": 4900000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "fortification-armor",
+    "name": "Fortification",
+    "textEn": "**Aura** strong abjuration; **CL** 13th; **Slot** armor/shield quality; **Price** light (+1 bonus), moderate (+3 bonus), heavy (+5 bonus); **Weight** —\n\n**Description**\n\nThis suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally. The chance is 25% for *light fortification*, 50% for *moderate fortification*, and 75% for *heavy fortification*.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *limited wish* or *miracle*; **Price** varies",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(heavy)",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor/shield quality",
+    "aura": "strong abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, limited wish or miracle",
+      "costRaw": "varies",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 118, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 118"
+    ],
+    "variants": [
+      {
+        "variantId": "light",
+        "label": "light",
+        "casterLevel": 13,
+        "priceRaw": "light (+1 bonus)",
+        "priceCp": null,
+        "bonusEquivalent": 1,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "moderate",
+        "label": "moderate",
+        "casterLevel": 13,
+        "priceRaw": "moderate (+3 bonus)",
+        "priceCp": null,
+        "bonusEquivalent": 3,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "heavy",
+        "label": "heavy",
+        "casterLevel": 13,
+        "priceRaw": "heavy (+5 bonus)",
+        "priceCp": null,
+        "bonusEquivalent": 5,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "ghost-touch-armor",
+    "name": "Ghost Touch",
+    "textEn": "**Aura** strong transmutation; **CL** 15th; **Slot** armor/shield quality; **Price** +3 bonus; **Weight** —\n\n**Description**\n\nThis armor or shield seems almost translucent. Both its enhancement bonus and its armor bonus count against the attacks of corporeal and incorporeal creatures. It can be picked up, moved, and worn by corporeal and incorporeal creatures alike. Incorporeal creatures gain the armor’s or shield’s enhancement bonus against both corporeal and incorporeal attacks, and they can still pass freely through solid objects.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *etherealness*; **Price** +3 bonus",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Ghost%20Touch",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor/shield quality",
+    "aura": "strong transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, etherealness",
+      "costRaw": "+3 bonus",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 119, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 119"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "+3 bonus",
+        "priceCp": null,
+        "bonusEquivalent": 3,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "glamered",
+    "name": "Glamered",
+    "textEn": "**Aura** moderate illusion; **CL** 10th; **Slot** armor quality; **Price** +2,700 gp; **Weight** —\n\n**Description**\n\nUpon command, a suit of *glamered* armor changes shape and appearance to assume the form of a normal set of clothing. The armor retains all its properties (including weight) when it is so disguised. Only a *true seeing* spell or similar magic reveals the true nature of the armor when it is disguised.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *disguise self*; **Price** +1,350 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Glamered",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor quality",
+    "aura": "moderate illusion",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, disguise self",
+      "costRaw": "+1,350 gp",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 119, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 119"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 10,
+        "priceRaw": "+2,700 gp",
+        "priceCp": 270000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "invulnerability",
+    "name": "Invulnerability",
+    "textEn": "**Aura** strong varies; **CL** 18th; **Slot** armor quality; **Price** +3 bonus; **Weight** —\n\n**Description**\n\nThis suit of armor grants the wearer damage reduction 5/magic. *Invulnerable* armor emits a strong aura of abjuration (and evocation if *miracle* is used).\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *stoneskin*, *wish* or *miracle*; **Price** +3 bonus",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Invulnerability",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor quality",
+    "aura": "strong varies",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, stoneskin, wish or miracle",
+      "costRaw": "+3 bonus",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 120, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 120"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 18,
+        "priceRaw": "+3 bonus",
+        "priceCp": null,
+        "bonusEquivalent": 3,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "shadow",
+    "name": "Shadow",
+    "textEn": "**Aura** faint illusion; **CL** 5th; **Slot** armor quality; **Price** +3,750 gp; **Weight** —\n\n**Description**\n\nThis armor blurs the wearer whenever she tries to hide, while also dampening the sound around her, granting a +5 competence bonus on Stealth checks. The armor’s armor check penalty still applies normally.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *invisibility*, *silence*; **Price** +1,875 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Shadow",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor quality",
+    "aura": "faint illusion",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, invisibility, silence",
+      "costRaw": "+1,875 gp",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 121, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 121"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "+3,750 gp",
+        "priceCp": 375000,
+        "effects": [
+          {
+            "target": "skill.stealth",
+            "bonusType": "competence",
+            "value": 5,
+            "appliesTo": "wearer",
+            "conditional": true,
+            "conditionText": "This armor blurs the wearer whenever she tries to hide, while also dampening the sound around her, granting a +5 competence bonus on Stealth checks.",
+            "evidence": "+5 competence bonus on Stealth checks"
+          }
+        ],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "shadow-greater",
+    "name": "Shadow, Greater",
+    "textEn": "**Aura** strong illusion; **CL** 15th; **Slot** armor quality; **Price** +33,750 gp; **Weight** —\n\n**Description**\n\nAs *shadow*, except it grants a +15 competence bonus on Stealth checks.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *invisibility*, *silence*; **Price** +16,875 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Shadow%2C%20Greater",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor quality",
+    "aura": "strong illusion",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, invisibility, silence",
+      "costRaw": "+16,875 gp",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 122, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 122"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "+33,750 gp",
+        "priceCp": 3375000,
+        "effects": [
+          {
+            "target": "skill.stealth",
+            "bonusType": "competence",
+            "value": 15,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+15 competence bonus on Stealth checks"
+          }
+        ],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "shadow-improved",
+    "name": "Shadow, Improved",
+    "textEn": "**Aura** moderate illusion; **CL** 10th; **Slot** armor quality; **Price** +15,000 gp; **Weight** —\n\n**Description**\n\nAs *shadow*, except it grants a +10 competence bonus on Stealth checks.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *invisibility*, *silence*; **Price** +7,500 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Shadow%2C%20Improved",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor quality",
+    "aura": "moderate illusion",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, invisibility, silence",
+      "costRaw": "+7,500 gp",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 122, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 122"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 10,
+        "priceRaw": "+15,000 gp",
+        "priceCp": 1500000,
+        "effects": [
+          {
+            "target": "skill.stealth",
+            "bonusType": "competence",
+            "value": 10,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+10 competence bonus on Stealth checks"
+          }
+        ],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "slick",
+    "name": "Slick",
+    "textEn": "**Aura** faint conjuration; **CL** 4th; **Slot** armor quality; **Price** +3,750 gp; **Weight** —\n\n**Description**\n\n*Slick* armor seems coated at all times with a slightly greasy oil. It provides a +5 competence bonus on its wearer’s Escape Artist checks. The armor’s armor check penalty still applies normally.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *grease*; **Price** +1,875 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Slick",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor quality",
+    "aura": "faint conjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, grease",
+      "costRaw": "+1,875 gp",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 122, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 122"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 4,
+        "priceRaw": "+3,750 gp",
+        "priceCp": 375000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "slick-greater",
+    "name": "Slick, Greater",
+    "textEn": "**Aura** strong conjuration; **CL** 15th; **Slot** armor quality; **Price** +33,750 gp; **Weight** —\n\n**Description**\n\nAs *slick*, except it grants a +15 competence bonus on Escape Artist checks.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *grease*; **Price** +16,875 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Slick%2C%20Greater",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor quality",
+    "aura": "strong conjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, grease",
+      "costRaw": "+16,875 gp",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 122, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 122"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "+33,750 gp",
+        "priceCp": 3375000,
+        "effects": [
+          {
+            "target": "skill.escape-artist",
+            "bonusType": "competence",
+            "value": 15,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+15 competence bonus on Escape Artist checks"
+          }
+        ],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "slick-improved",
+    "name": "Slick, Improved",
+    "textEn": "**Aura** moderate conjuration; **CL** 10th; **Slot** armor quality; **Price** +15,000 gp; **Weight** —\n\n**Description**\n\nAs *slick*, except it grants a +10 competence bonus on Escape Artist checks.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *grease*; **Price** +7,500 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Slick%2C%20Improved",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor quality",
+    "aura": "moderate conjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, grease",
+      "costRaw": "+7,500 gp",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 122, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 122"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 10,
+        "priceRaw": "+15,000 gp",
+        "priceCp": 1500000,
+        "effects": [
+          {
+            "target": "skill.escape-artist",
+            "bonusType": "competence",
+            "value": 10,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+10 competence bonus on Escape Artist checks"
+          }
+        ],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "spell-resistance-armor",
+    "name": "Spell Resistance",
+    "textEn": "**Aura** strong abjuration; **CL** 15th; **Slot** armor/shield quality; **Price** 13 (+2 bonus), 15 (+3 bonus), 17 (+4 bonus), 19 (+5 bonus); **Weight** —\n\n**Description**\n\nThis special ability grants the armor or shield’s wearer spell resistance while the armor or shield is worn.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *spell resistance*; **Price** varies",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(13)",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor/shield quality",
+    "aura": "strong abjuration",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, spell resistance",
+      "costRaw": "varies",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 122, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 122"
+    ],
+    "variants": [
+      {
+        "variantId": "13",
+        "label": "13",
+        "casterLevel": 15,
+        "priceRaw": "13 (+2 bonus)",
+        "priceCp": null,
+        "bonusEquivalent": 2,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "15",
+        "label": "15",
+        "casterLevel": 15,
+        "priceRaw": "15 (+3 bonus)",
+        "priceCp": null,
+        "bonusEquivalent": 3,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "17",
+        "label": "17",
+        "casterLevel": 15,
+        "priceRaw": "17 (+4 bonus)",
+        "priceCp": null,
+        "bonusEquivalent": 4,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "19",
+        "label": "19",
+        "casterLevel": 15,
+        "priceRaw": "19 (+5 bonus)",
+        "priceCp": null,
+        "bonusEquivalent": 5,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "undead-controlling-armor",
+    "name": "Undead Controlling",
+    "textEn": "**Aura** strong necromancy; **CL** 13th; **Slot** armor/shield quality; **Price** +49,000 gp; **Weight** —\n\n**Description**\n\n*Undead controlling* armor and shields often have skeletal or other grisly decorations or flourishes to their decor. They let the user control up to 26 Hit Dice of undead per day, as the *control undead* spell. At dawn each day, the wearer loses control of any undead still under his sway. Armor or a shield with this ability appears to be made of bone; this feature is entirely decorative and has no other effect on the armor.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *control undead*; **Price** +24,500 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Undead%20Controlling",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor/shield quality",
+    "aura": "strong necromancy",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, control undead",
+      "costRaw": "+24,500 gp",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 123, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 123"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "+49,000 gp",
+        "priceCp": 4900000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  },
+  {
+    "id": "wild-armor",
+    "name": "Wild",
+    "textEn": "**Aura** moderate transmutation; **CL** 9th; **Slot** armor/shield quality; **Price** +3 bonus; **Weight** —\n\n**Description**\n\nArmor with this special ability usually appears to be made from magically hardened animal pelt. The wearer of a suit of armor or a shield with this ability preserves his armor bonus (and any enhancement bonus) while in a wild shape. Armor and shields with this ability usually appear to be covered in leaf patterns. While the wearer is in a wild shape, the armor cannot be seen.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *baleful polymorph*; **Price** +3 bonus",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Wild",
+    "sourceRef": "PRPG Core Rulebook pg. 463",
+    "book": "CRB",
+    "kind": "armor-ability",
+    "slot": "armor/shield quality",
+    "aura": "moderate transmutation",
+    "weightLb": null,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, baleful polymorph",
+      "costRaw": "+3 bonus",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 123, PRPG Core Rulebook pg. 463",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 123"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 9,
+        "priceRaw": "+3 bonus",
+        "priceCp": null,
+        "bonusEquivalent": 3,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "legalFor": {
+      "raw": ""
+    }
+  }
+]

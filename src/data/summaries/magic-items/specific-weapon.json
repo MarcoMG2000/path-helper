@@ -1,0 +1,122 @@
+{
+  "adamantine-battleaxe": {
+    "summaryEs": "Hacha de batalla no mágica hecha de adamantina. Por ser un arma de calidad maestra tiene +1 de mejora a las tiradas de ataque.",
+    "status": "draft"
+  },
+  "adamantine-dagger": {
+    "summaryEs": "Daga no mágica hecha de adamantina. Por ser un arma de calidad maestra tiene +1 de mejora a las tiradas de ataque.",
+    "status": "draft"
+  },
+  "assassins-dagger": {
+    "summaryEs": "Daga curva +2 que da +1 a la CD de la salvación de Fortaleza provocada por el ataque mortal (death attack) de un asesino.",
+    "status": "draft"
+  },
+  "cold-iron-masterwork-longsword": {
+    "summaryEs": "Espada larga no mágica de hierro frío. Por ser un arma de calidad maestra tiene +1 de mejora a las tiradas de ataque.",
+    "status": "draft"
+  },
+  "dagger-of-venom": {
+    "summaryEs": "Daga negra +1 con filo dentado. Una vez al día el portador puede usar un efecto de veneno (como el conjuro, CD 14) sobre la criatura golpeada, como acción gratuita en el mismo asalto del impacto.",
+    "status": "draft"
+  },
+  "dwarven-thrower": {
+    "summaryEs": "Martillo de guerra +2; en manos de un enano gana +1 de mejora adicional (total +3) y la habilidad returning. Se arroja con incremento de 30 pies y causa 2d8 de daño extra a gigantes o 1d8 a otros objetivos.",
+    "status": "draft"
+  },
+  "flame-tongue": {
+    "summaryEs": "Espada larga +1 flaming burst. Una vez al día puede lanzar un rayo de fuego a un objetivo a 30 pies (ataque de toque a distancia) que causa 4d6 de daño de fuego al impactar.",
+    "status": "draft"
+  },
+  "frost-brand": {
+    "summaryEs": "Espadón +3 frost que da luz si la temperatura baja de 0° F. Protege del fuego (absorbe los primeros 10 puntos de daño por asalto) y apaga fuegos no mágicos en un radio de 20 pies; puede disipar conjuros de fuego duraderos.",
+    "status": "draft"
+  },
+  "holy-avenger": {
+    "summaryEs": "Espada larga de hierro frío +2 que en manos de un paladín pasa a +5 holy. Da al paladín y a los adyacentes resistencia a conjuros de 5 + su nivel de clase y le permite usar greater dispel magic (solo versión de área) una vez por asalto.",
+    "status": "draft"
+  },
+  "javelin-of-lightning": {
+    "summaryEs": "Jabalina que al arrojarse se convierte en un lightning bolt de 5d6 (Reflejos CD 14 mitad). Se consume en el ataque.",
+    "status": "draft"
+  },
+  "life-drinker": {
+    "summaryEs": "Hacha grande +1 que inflige dos niveles negativos al daño y otro al portador (dura 1 hora). Tras un día, el objetivo debe superar Fortaleza CD 16 por nivel o se vuelven permanentes. Muertos vivientes y constructos no sufren sus inconvenientes.",
+    "status": "draft"
+  },
+  "luck-blade": {
+    "summaryEs": "Espada corta +2 que da +1 de suerte a todas las salvaciones y, una vez al día, permite repetir una tirada. Puede contener hasta tres deseos (wishes). Al gastar el último sigue siendo espada +2 con sus bonos.",
+    "status": "draft"
+  },
+  "mace-of-smiting": {
+    "summaryEs": "Maza pesada de adamantina: la lesser es +1 con +3 de mejora contra constructos; la normal es +3 con +5 contra constructos. Sus críticos contra constructos y ultraplanares multiplican más (o destruyen al constructo).",
+    "status": "draft"
+  },
+  "mace-of-terror": {
+    "summaryEs": "Maza pesada +2 que, por orden, transforma al portador en una ilusión de horror: las criaturas vivas en un cono de 30 pies quedan aterradas (Voluntad CD 16 parcial), con –2 a salvaciones, y huyen. Hasta tres veces al día.",
+    "status": "draft"
+  },
+  "masterwork-silver-dagger": {
+    "summaryEs": "Daga de plata alquímica de calidad maestra, no mágica. Tiene +1 de mejora a las tiradas de ataque (pero no al daño).",
+    "status": "draft"
+  },
+  "nine-lives-stealer": {
+    "summaryEs": "Espada larga +2 que, nueve veces, puede matar a un oponente en un crítico (Fortaleza CD 20 evita). Después sigue siendo una espada larga +2. Es maligna: un personaje bueno que la empuñe recibe dos niveles negativos.",
+    "status": "draft"
+  },
+  "oathbow": {
+    "summaryEs": "Arco largo compuesto +2 (bono de Fuerza +2). Una vez al día, al jurar matar a un objetivo, tiene +5 de mejora contra él y 2d6 de daño adicional; contra los demás solo es de calidad maestra. Dura 7 días.",
+    "status": "draft"
+  },
+  "rapier-of-puncturing": {
+    "summaryEs": "Estoque +2 wounding. Tres veces al día permite un ataque de toque que causa 1d6 de daño de Constitución al drenar sangre. Las criaturas inmunes a los críticos son inmunes.",
+    "status": "draft"
+  },
+  "screaming-bolt": {
+    "summaryEs": "Virote +2 que grita al dispararse: los enemigos del tirador a 20 pies de su trayectoria deben superar Voluntad CD 14 o quedar abatidos (shaken) durante 1 asalto. Es un efecto de miedo que afecta a la mente.",
+    "status": "draft"
+  },
+  "shatterspike": {
+    "summaryEs": "Espada larga con ganchos y dientes. Se usa como +1 salvo que quien la use tenga Improved Sunder: entonces es +4 al intentar romper el arma de un oponente. Puede dañar armas con mejora de +4 o menos.",
+    "status": "draft"
+  },
+  "shifters-sorrow": {
+    "summaryEs": "Espada de dos hojas +1/+1 de plata alquímica. Causa 2d6 de daño extra a criaturas cambiaformas; al golpearlas deben superar Voluntad CD 15 o volver a su forma natural.",
+    "status": "draft"
+  },
+  "slaying-arrow": {
+    "summaryEs": "Flecha +1 afinada a un tipo de criatura: si la golpea, debe superar Fortaleza CD 20 o sufre 50 puntos de daño. La versión greater tiene CD 23 y causa 100 puntos. El tipo se determina con una tabla.",
+    "status": "draft"
+  },
+  "sleep-arrow": {
+    "summaryEs": "Flecha +1 pintada de blanco: al impactar causa daño no letal en lugar de letal y el objetivo debe superar Voluntad CD 11 o se duerme.",
+    "status": "draft"
+  },
+  "sun-blade": {
+    "summaryEs": "Espada del tamaño de una bastarda que se maneja como una corta. Es +2 en combate normal y +4 contra criaturas malignas. Quien sea competente en espada bastarda o corta lo es con ella.",
+    "status": "draft"
+  },
+  "sword-of-life-stealing": {
+    "summaryEs": "Espada larga +2 de hierro negro que inflige un nivel negativo en un crítico y da al portador 1d6 puntos de golpe temporales (24 horas). El objetivo debe superar Fortaleza CD 16 por nivel o se vuelve permanente.",
+    "status": "draft"
+  },
+  "sword-of-subtlety": {
+    "summaryEs": "Espada corta +1 que da +4 a las tiradas de ataque y daño de su portador al hacer un ataque furtivo con ella.",
+    "status": "draft"
+  },
+  "sword-of-the-planes": {
+    "summaryEs": "Espada larga cuya mejora depende del plano: +1 en el plano Material, +2 en planos elementales, +3 en los planos Astral y Etéreo y +4 en cualquier otro plano o contra ultraplanares.",
+    "status": "draft"
+  },
+  "sylvan-scimitar": {
+    "summaryEs": "Cimitarra +3 que, usada al aire libre en clima templado, concede el uso de la dote Cleave y causa 1d6 de daño extra.",
+    "status": "draft"
+  },
+  "trident-of-fish-command": {
+    "summaryEs": "Tridente +1 que permite encantar hasta 14 Dados de Golpe de animales acuáticos (como charm animals, Voluntad CD 16 niega) hasta tres veces al día, y comunicarse con ellos como speak with animals.",
+    "status": "draft"
+  },
+  "trident-of-warning": {
+    "summaryEs": "Permite a quien lo empuña y apunta determinar ubicación, profundidad, tipo y número de depredadores acuáticos en 680 pies (1 asalto por hemisferio). Por lo demás es un tridente +2.",
+    "status": "draft"
+  }
+}

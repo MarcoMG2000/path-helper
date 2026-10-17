@@ -1,0 +1,134 @@
+{
+  "air": {
+    "summaryEs": "Dominio del aire: manipula rayos, niebla y viento, trata con criaturas del aire y resiste la electricidad. Poderes: Lightning Arc y Electricity Resistance.",
+    "status": "draft"
+  },
+  "animal": {
+    "summaryEs": "Dominio animal: habla con animales y se hace amigo de ellos; Knowledge (nature) es habilidad de clase. Poderes: Speak with Animals y Animal Companion.",
+    "status": "draft"
+  },
+  "artifice": {
+    "summaryEs": "Dominio del ingenio: repara objetos, anima objetos y crea objetos de la nada. Poderes: Artificer's Touch y Dancing Weapons.",
+    "status": "draft"
+  },
+  "chaos": {
+    "summaryEs": "Dominio del caos: su toque infunde caos a seres y armas. Poderes: Touch of Chaos y Chaos Blade.",
+    "status": "draft"
+  },
+  "charm": {
+    "summaryEs": "Dominio del encanto: confunde y fascina a los enemigos con un toque o una sonrisa. Poderes: Dazing Touch y Charming Smile.",
+    "status": "draft"
+  },
+  "community": {
+    "summaryEs": "Dominio de la comunidad: su toque cura y su presencia fomenta la unidad. Poderes: Calming Touch y Unity.",
+    "status": "draft"
+  },
+  "darkness": {
+    "summaryEs": "Dominio de la oscuridad: manipula sombras y oscuridad y recibe Blind-Fight como dote adicional. Poderes: Touch of Darkness y Eyes of Darkness.",
+    "status": "draft"
+  },
+  "death": {
+    "summaryEs": "Dominio de la muerte: hace sangrar a los vivos con un toque y consuela a los muertos. Poderes: Bleeding Touch y Death's Embrace.",
+    "status": "draft"
+  },
+  "destruction": {
+    "summaryEs": "Dominio de la destrucción: ataques especialmente destructivos. Poderes: Destructive Smite y Destructive Aura.",
+    "status": "draft"
+  },
+  "earth": {
+    "summaryEs": "Dominio de la tierra: domina tierra, metal y piedra, lanza dardos de ácido y manda sobre criaturas de tierra. Poderes: Acid Dart y Acid Resistance.",
+    "status": "draft"
+  },
+  "evil": {
+    "summaryEs": "Dominio del mal: siniestro y cruel, entrega su alma a la causa del mal. Poderes: Touch of Evil y Scythe of Evil.",
+    "status": "draft"
+  },
+  "fire": {
+    "summaryEs": "Dominio del fuego: invoca fuego, manda sobre criaturas del infierno y su carne no arde. Poderes: Fire Bolt y Fire Resistance.",
+    "status": "draft"
+  },
+  "glory": {
+    "summaryEs": "Dominio de la gloria: enemigo de los no muertos; al canalizar energía positiva contra ellos, la CD para reducir el daño a la mitad sube 2. Poderes: Touch of Glory y Divine Presence.",
+    "status": "draft"
+  },
+  "good": {
+    "summaryEs": "Dominio del bien: vida y alma entregadas a la bondad y la pureza. Poderes: Touch of Good y Holy Lance.",
+    "status": "draft"
+  },
+  "healing": {
+    "summaryEs": "Dominio de la curación: su toque aleja el dolor y la muerte y sus conjuros de curación son más potentes. Poderes: Rebuke Death y Healer's Blessing.",
+    "status": "draft"
+  },
+  "knowledge": {
+    "summaryEs": "Dominio del conocimiento: sabio y erudito; trata todas las habilidades Knowledge como de clase. Poderes: Lore Keeper y Remote Viewing.",
+    "status": "draft"
+  },
+  "law": {
+    "summaryEs": "Dominio de la ley: sigue un código estricto de leyes. Poderes: Touch of Law y Staff of Order.",
+    "status": "draft"
+  },
+  "liberation": {
+    "summaryEs": "Dominio de la liberación: espíritu de libertad contra la opresión. Poderes: Liberation y Freedom's Call.",
+    "status": "draft"
+  },
+  "luck": {
+    "summaryEs": "Dominio de la suerte: su presencia reparte buena fortuna. Poderes: Bit of Luck y Good Fortune.",
+    "status": "draft"
+  },
+  "madness": {
+    "summaryEs": "Dominio de la locura: libera su locura para trastornar a sus enemigos o sacrificar habilidades para afinar otras. Poderes: Vision of Madness y Aura of Madness.",
+    "status": "draft"
+  },
+  "magic": {
+    "summaryEs": "Dominio de la magia: estudioso de lo místico, ve lo divino en la pureza de la magia. Poderes: Hand of the Acolyte y Dispelling Touch.",
+    "status": "draft"
+  },
+  "nobility": {
+    "summaryEs": "Dominio de la nobleza: gran líder que inspira a quienes siguen su fe. Poderes: Inspiring Word y Leadership.",
+    "status": "draft"
+  },
+  "plant": {
+    "summaryEs": "Dominio de las plantas: halla consuelo en lo verde, hace crecer espinas defensivas y se comunica con las plantas. Poderes: Wooden Fist y Bramble Armor.",
+    "status": "draft"
+  },
+  "protection": {
+    "summaryEs": "Dominio de la protección: defiende a otros con su fe y obtiene +1 de resistencia a las salvaciones (+1 más cada 5 niveles). Poderes: Resistant Touch y Aura of Protection.",
+    "status": "draft"
+  },
+  "repose": {
+    "summaryEs": "Dominio del reposo: ve la muerte como un descanso final y considera la no muerte una burla. Poderes: Gentle Rest y Ward Against Death.",
+    "status": "draft"
+  },
+  "rune": {
+    "summaryEs": "Dominio de las runas: encuentra magia potente en runas arcanas y recibe Scribe Scroll como dote adicional. Poderes: Blast Rune y Spell Rune.",
+    "status": "draft"
+  },
+  "strength": {
+    "summaryEs": "Dominio de la fuerza: su fe le da un poder y una fuerza increíbles. Poderes: Strength Surge y Might of the Gods.",
+    "status": "draft"
+  },
+  "sun": {
+    "summaryEs": "Dominio del sol: halla la verdad en la luz del sol y usa su bendición o su ira. Poderes: Sun's Blessing y Nimbus of Light.",
+    "status": "draft"
+  },
+  "travel": {
+    "summaryEs": "Dominio del viaje: explorador que disfruta del viaje a pie, en montura o por magia; su velocidad base aumenta 10 pies. Poderes: Agile Feet y Dimensional Hop.",
+    "status": "draft"
+  },
+  "trickery": {
+    "summaryEs": "Dominio del engaño: maestro de ilusiones; Bluff, Disguise y Stealth son habilidades de clase. Poderes: Copycat y Master's Illusion.",
+    "status": "draft"
+  },
+  "war": {
+    "summaryEs": "Dominio de la guerra: cruzado siempre dispuesto a luchar por su fe. Poderes: Battle Rage y Weapon Master.",
+    "status": "draft"
+  },
+  "water": {
+    "summaryEs": "Dominio del agua: manipula agua, niebla y hielo, conjura criaturas de agua y resiste el frío. Poderes: Icicle y Cold Resistance.",
+    "status": "draft"
+  },
+  "weather": {
+    "summaryEs": "Dominio del clima: con poder sobre tormenta y cielo, descarga la ira de los dioses. Poderes: Storm Burst y Lightning Lord.",
+    "status": "draft"
+  }
+}

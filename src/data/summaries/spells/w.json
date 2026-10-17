@@ -1,0 +1,90 @@
+{
+  "wail-of-the-banshee": {
+    "summaryEs": "Emites un grito escalofriante que posiblemente mata a las criaturas que lo oigan (excepto tú). Afecta hasta a una criatura por nivel de lanzador, infligiendo 10 puntos de daño por nivel; se afecta primero a las más cercanas al origen.",
+    "status": "draft"
+  },
+  "wall-of-fire": {
+    "summaryEs": "Surge una cortina inmóvil de fuego violeta: un lado emite calor, 2d4 de daño de fuego a criaturas a 10 pies y 1d4 entre 10 y 20 pies. Quien la atraviesa sufre 2d6 + 1 por nivel (máximo +20); doble a no muertos. 20 puntos de frío en un tramo de 5 pies en 1 asalto lo eliminan.",
+    "status": "draft"
+  },
+  "wall-of-force": {
+    "summaryEs": "Crea un muro invisible de fuerza, inmóvil, inmune a dispel magic (no a mage's disjunction) y destruido por disintegrate. Tiene dureza 30 y 20 puntos de golpe por nivel de lanzador. Bloquea alientos y conjuros, no miradas. Es plano y vertical de hasta un cuadrado de 10 pies por nivel.",
+    "status": "draft"
+  },
+  "wall-of-ice": {
+    "summaryEs": "Crea un plano de hielo anclado o un hemisferio. El plano tiene 1 pulgada de grosor por nivel, cubre hasta 10 pies cuadrados por nivel y 3 puntos de golpe por pulgada; romperlo exige Fuerza CD 15 + nivel. Al romperse deja aire gélido (1d6 de frío + 1 por nivel). El fuego lo derrite con daño completo.",
+    "status": "draft"
+  },
+  "wall-of-iron": {
+    "summaryEs": "Haces surgir un muro vertical de hierro de 1 pulgada de grosor por cada cuatro niveles (puedes doblar su área reduciendo a la mitad el grosor). Cada cuadrado de 5 pies tiene 30 puntos de golpe por pulgada y dureza 10; romperlo exige Fuerza CD 25 + 2 por pulgada. Puede caer sobre criaturas (10d6).",
+    "status": "draft"
+  },
+  "wall-of-stone": {
+    "summaryEs": "Crea un muro de roca fusionado con la piedra adyacente, de 1 pulgada de grosor por cada cuatro niveles y hasta un cuadrado de 5 pies por nivel; puedes moldearlo casi a voluntad. Cada cuadrado tiene dureza 8 y 15 puntos de golpe por pulgada; romperlo exige Fuerza CD 20 + 2 por pulgada.",
+    "status": "draft"
+  },
+  "wall-of-thorns": {
+    "summaryEs": "Crea una barrera de maleza con espinas: quien se mueva por ella sufre cada asalto daño perforante igual a 25 menos su CA (sin Destreza ni esquiva). Puede ser de solo 5 pies de grosor. Se fuerza con Fuerza, se abre con armas cortantes o se quema con fuego mágico en 10 minutos.",
+    "status": "draft"
+  },
+  "warp-wood": {
+    "summaryEs": "Deformas madera, destruyendo permanentemente su forma y resistencia: una puerta se abre o se atasca, un barco hace agua, las armas a distancia son inútiles y un arma cuerpo a cuerpo sufre –4 al ataque. Afecta a un objeto Pequeño o menor (o equivalente) por nivel. También puede deshacerse.",
+    "status": "draft"
+  },
+  "water-breathing": {
+    "summaryEs": "Las criaturas transmutadas pueden respirar agua libremente. Divide la duración a partes iguales entre todas las criaturas que toques. El conjuro no les impide respirar aire.",
+    "status": "draft"
+  },
+  "water-walk": {
+    "summaryEs": "Las criaturas transmutadas caminan sobre cualquier líquido como si fuera suelo firme (barro, aceite, nieve, agua corriente, hielo e incluso lava, que sigue dañando por el calor). Si se lanza bajo el agua, los sujetos son llevados a la superficie a 60 pies por asalto.",
+    "status": "draft"
+  },
+  "waves-of-exhaustion": {
+    "summaryEs": "Ondas de energía negativa dejan exhausted a todas las criaturas vivas del área. No tiene efecto en una criatura ya exhausta.",
+    "status": "draft"
+  },
+  "waves-of-fatigue": {
+    "summaryEs": "Ondas de energía negativa dejan fatigued a todas las criaturas vivas del área. No tiene efecto en una criatura ya fatigada.",
+    "status": "draft"
+  },
+  "web": {
+    "summaryEs": "Crea una masa de hebras fuertes y pegajosas, anclada a dos o más puntos opuestos, que deja grappled a quien queda atrapado. Quien esté en el área hace una salvación de Reflejos; si falla, queda grappled y puede liberarse con una maniobra o Escapismo. Es terreno difícil y las hebras son inflamables.",
+    "status": "draft"
+  },
+  "weird": {
+    "summaryEs": "Funciona como phantasmal killer, salvo que puede afectar a más de una criatura. Solo los afectados ven a las criaturas fantasmales; tú las ves como formas sombrías. Si superan la salvación de Fortaleza, aun así sufren 3d6 de daño, quedan aturdidas 1 asalto y sufren 1d4 de daño de Fuerza.",
+    "status": "draft"
+  },
+  "whirlwind": {
+    "summaryEs": "Crea un ciclón que se mueve a 60 pies por asalto; dirigirlo es una acción estándar. Las criaturas Grandes o menores en contacto superan una salvación de Reflejos o sufren 3d6 de daño; las Medianas o menores pueden ser alzadas y sufrir 1d8 de daño cada asalto.",
+    "status": "draft"
+  },
+  "whispering-wind": {
+    "summaryEs": "Envías un mensaje o sonido en el viento a un lugar conocido dentro del alcance, donde lo entrega aunque nadie lo oiga, y luego se disipa. Puede llevar un mensaje de no más de 25 palabras, otros sonidos durante 1 asalto o ser solo una brisa. Viaja de 1 milla por hora a 1 milla por 10 minutos.",
+    "status": "draft"
+  },
+  "wind-walk": {
+    "summaryEs": "Alteras tu cuerpo a un vapor similar a una nube (como gaseous form) y te mueves por el aire; puedes llevar a otras criaturas. Vuelas a velocidad 10 pies, o hasta 600 pies por asalto (60 mph) con maniobrabilidad pobre. Cada cambio de forma tarda 5 asaltos.",
+    "status": "draft"
+  },
+  "wind-wall": {
+    "summaryEs": "Aparece una cortina invisible de viento de 2 pies de grosor que dispersa aves pequeñas y arranca papeles; las criaturas voladoras Menudas y Pequeñas no la cruzan. Las flechas se desvían y otras armas a distancia normales tienen un 30% de fallo. Los gases no la atraviesan.",
+    "status": "draft"
+  },
+  "wish": {
+    "summaryEs": "El conjuro más poderoso de un mago o hechicero: hablando alteras la realidad. Puede duplicar conjuros, deshacer efectos dañinos, otorgar un bonificador inherente de +1 a una característica (hasta +5 con varios), curar, revivir, transportar o deshacer una desgracia. Exige diamante de 25,000 gp.",
+    "status": "draft"
+  },
+  "wood-shape": {
+    "summaryEs": "Moldeas una pieza de madera existente en la forma que te convenga. Puedes hacer cofres y puertas toscas, pero no detalles finos; hay un 30% de probabilidad de que una forma con partes móviles no funcione.",
+    "status": "draft"
+  },
+  "word-of-chaos": {
+    "summaryEs": "Toda criatura no caótica del área sufre efectos acumulativos según sus HD respecto a tu nivel de lanzador: sordera, aturdimiento, confusión o muerte. Voluntad los reduce o elimina. En tu plano natal, las extraplanares no caóticas son desterradas (Voluntad con –4 niega) 24 horas al menos.",
+    "status": "draft"
+  },
+  "word-of-recall": {
+    "summaryEs": "Te teletransporta al instante a tu santuario al pronunciar la palabra; debes designarlo al preparar el conjuro, un lugar muy familiar (área de hasta 10 pies por 10 pies). Solo dentro de un plano. Puedes llevar objetos y una criatura voluntaria Mediana o menor por cada tres niveles.",
+    "status": "draft"
+  }
+}

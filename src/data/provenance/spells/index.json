@@ -1,0 +1,22 @@
+{
+  "license": "OGL-1.0a",
+  "category": "spells",
+  "batch": "index",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://www.aonprd.com/SourceDisplay.aspx?FixedSource=PRPG Core Rulebook",
+      "sha256": "94461065d4d1448c610be1f56161a6f1f6af9d825d8c1a1bdfd0d81f46f83599",
+      "bytes": 374126,
+      "fetchedAt": "2026-10-16T13:53:37.385Z"
+    },
+    {
+      "url": "https://www.aonprd.com/Spells.aspx?Class=All",
+      "sha256": "7b1d7a01e8545411f3e4ba5eb0ae5fac652b1ac7be2c1eef8c5a7e4caa5d3139",
+      "bytes": 2106091,
+      "fetchedAt": "2026-10-16T13:52:16.080Z"
+    }
+  ],
+  "expectedCount": 623
+}

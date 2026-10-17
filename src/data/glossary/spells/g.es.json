@@ -1,0 +1,140 @@
+{
+  "spells:gaseous-form": {
+    "es": "Forma gaseosa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:gate": {
+    "es": "Puerta",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:geas-lesser": {
+    "es": "Geas menor",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:geas-quest": {
+    "es": "Geas/Misión",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:gentle-repose": {
+    "es": "Descanso apacible",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:ghost-sound": {
+    "es": "Sonido fantasmal",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:ghoul-touch": {
+    "es": "Toque de ghoul",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:giant-form-i": {
+    "es": "Forma de gigante I",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:giant-form-ii": {
+    "es": "Forma de gigante II",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:giant-vermin": {
+    "es": "Alimañas gigantes",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:glibness": {
+    "es": "Labia",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:glitterdust": {
+    "es": "Polvo brillante",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:globe-of-invulnerability": {
+    "es": "Globo de invulnerabilidad",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:globe-of-invulnerability-lesser": {
+    "es": "Globo de invulnerabilidad, menor",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:glyph-of-warding": {
+    "es": "Glifo custodio",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:glyph-of-warding-greater": {
+    "es": "Glifo custodio, mayor",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:good-hope": {
+    "es": "Buena esperanza",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:goodberry": {
+    "es": "Baya buena",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:grasping-hand": {
+    "es": "Mano aferradora",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:grease": {
+    "es": "Grasa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:guards-and-wards": {
+    "es": "Guardias y protecciones",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:guidance": {
+    "es": "Guía",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:gust-of-wind": {
+    "es": "Ráfaga de viento",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  }
+}

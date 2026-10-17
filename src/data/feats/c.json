@@ -1,0 +1,284 @@
+[
+  {
+    "id": "catch-off-guard",
+    "name": "Catch Off-Guard",
+    "textEn": "Foes are surprised by your skilled use of unorthodox and improvised weapons.\n\n**Benefit**: You do not suffer any penalties for using an improvised melee weapon. Unarmed opponents are flat-footed against any attacks you make with an improvised melee weapon.\n\n**Normal**: You take a –4 penalty on attack rolls made with an improvised weapon.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Catch%20Off-Guard",
+    "sourceRef": "PRPG Core Rulebook pg. 119",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You do not suffer any penalties for using an improvised melee weapon. Unarmed opponents are flat-footed against any attacks you make with an improvised melee weapon.",
+    "normal": "You take a –4 penalty on attack rolls made with an improvised weapon."
+  },
+  {
+    "id": "channel-smite",
+    "name": "Channel Smite",
+    "textEn": "You can channel your divine energy through a melee weapon you wield.\n\n**Prerequisites**: Channel energy class feature.\n\n**Benefit**: Before you make a melee attack roll, you can choose to spend one use of your channel energy ability as a swift action. If you channel positive energy and you hit an undead creature, that creature takes an amount of additional damage equal to the damage dealt by your channel positive energy ability. If you channel negative energy and you hit a living creature, that creature takes an amount of additional damage equal to the damage dealt by your channel negative energy ability. Your target can make a Will save, as normal, to halve this additional damage. If your attack misses, the channel energy ability is still expended with no effect.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Channel%20Smite",
+    "sourceRef": "PRPG Core Rulebook pg. 119",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Channel energy class feature.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Channel energy class feature"
+      ]
+    },
+    "benefit": "Before you make a melee attack roll, you can choose to spend one use of your channel energy ability as a swift action. If you channel positive energy and you hit an undead creature, that creature takes an amount of additional damage equal to the damage dealt by your channel positive energy ability. If you channel negative energy and you hit a living creature, that creature takes an amount of additional damage equal to the damage dealt by your channel negative energy ability. Your target can make a Will save, as normal, to halve this additional damage. If your attack misses, the channel energy ability is still expended with no effect."
+  },
+  {
+    "id": "cleave",
+    "name": "Cleave",
+    "textEn": "You can strike two adjacent foes with a single swing.\n\n**Prerequisites**: Str 13, Power Attack, base attack bonus +1.\n\n**Benefit**: As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the first and also within reach. You can only make one additional attack per round with this feat. When you use this feat, you take a –2 penalty to your Armor Class until your next turn.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Cleave",
+    "sourceRef": "PRPG Core Rulebook pg. 119",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Str 13, Power Attack, base attack bonus +1.",
+      "abilities": {
+        "str": 13
+      },
+      "bab": 1,
+      "featIds": [
+        "power-attack"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the first and also within reach. You can only make one additional attack per round with this feat. When you use this feat, you take a –2 penalty to your Armor Class until your next turn."
+  },
+  {
+    "id": "combat-casting",
+    "name": "Combat Casting",
+    "textEn": "You are adept at spellcasting when threatened or distracted.\n\n**Benefit**: You get a +4 bonus on concentration checks made to cast a spell or use a spell-like ability when casting on the defensive or while grappled.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Casting",
+    "sourceRef": "PRPG Core Rulebook pg. 119",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You get a +4 bonus on concentration checks made to cast a spell or use a spell-like ability when casting on the defensive or while grappled."
+  },
+  {
+    "id": "combat-expertise",
+    "name": "Combat Expertise",
+    "textEn": "You can increase your defense at the expense of your accuracy.\n\n**Prerequisites**: Int 13.\n\n**Benefit**: You can choose to take a –1 penalty on melee attack rolls and combat maneuver checks to gain a +1 dodge bonus to your Armor Class. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by –1 and the dodge bonus increases by +1. You can only choose to use this feat when you declare that you are making an attack or a full-attack action with a melee weapon. The effects of this feat last until your next turn.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Expertise",
+    "sourceRef": "PRPG Core Rulebook pg. 119",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Int 13.",
+      "abilities": {
+        "int": 13
+      },
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can choose to take a –1 penalty on melee attack rolls and combat maneuver checks to gain a +1 dodge bonus to your Armor Class. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by –1 and the dodge bonus increases by +1. You can only choose to use this feat when you declare that you are making an attack or a full-attack action with a melee weapon. The effects of this feat last until your next turn."
+  },
+  {
+    "id": "combat-reflexes",
+    "name": "Combat Reflexes",
+    "textEn": "You can make additional attacks of opportunity.\n\n**Benefit**: You may make a number of additional attacks of opportunity per round equal to your Dexterity bonus. With this feat, you may also make attacks of opportunity while flat-footed.\n\n**Normal**: A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed.\n\n**Special**: The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Reflexes",
+    "sourceRef": "PRPG Core Rulebook pg. 119",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You may make a number of additional attacks of opportunity per round equal to your Dexterity bonus. With this feat, you may also make attacks of opportunity while flat-footed.",
+    "normal": "A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed.",
+    "special": "The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round."
+  },
+  {
+    "id": "command-undead",
+    "name": "Command Undead",
+    "textEn": "Using foul powers of necromancy, you can command undead creatures, making them into your servants.\n\n**Prerequisites**: Channel negative energy class feature.\n\n**Benefit**: As a standard action, you can use one of your uses of channel negative energy to enslave undead within 30 feet. Undead receive a Will save to negate the effect. The DC for this Will save is equal to 10 + 1/2 your cleric level + your Charisma modifier. Undead that fail their saves fall under your control, obeying your commands to the best of their ability, as if under the effects of *control undead*. Intelligent undead receive a new saving throw each day to resist your command. You can control any number of undead, so long as their total Hit Dice do not exceed your cleric level. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures). If an undead creature is under the control of another creature, you must make an opposed Charisma check whenever your orders conflict.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Command%20Undead",
+    "sourceRef": "PRPG Core Rulebook pg. 120",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Channel negative energy class feature.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Channel negative energy class feature"
+      ]
+    },
+    "benefit": "As a standard action, you can use one of your uses of channel negative energy to enslave undead within 30 feet. Undead receive a Will save to negate the effect. The DC for this Will save is equal to 10 + 1/2 your cleric level + your Charisma modifier. Undead that fail their saves fall under your control, obeying your commands to the best of their ability, as if under the effects of *control undead*. Intelligent undead receive a new saving throw each day to resist your command. You can control any number of undead, so long as their total Hit Dice do not exceed your cleric level. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures). If an undead creature is under the control of another creature, you must make an opposed Charisma check whenever your orders conflict."
+  },
+  {
+    "id": "craft-magic-arms-and-armor",
+    "name": "Craft Magic Arms and Armor",
+    "textEn": "You can create magic armor, shields, and weapons.\n\n**Prerequisites**: Caster level 5th.\n\n**Benefit**: You can create magic weapons, armor, or shields. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must use up raw materials costing half of this total price. See the magic item creation rules in Magic Items for more information.\n\nThe weapon, armor, or shield to be enhanced must be a masterwork item that you provide. Its cost is not included in the above cost.\n\nYou can also mend a broken magic weapon, suit of armor, or shield if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item in the first place.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Craft%20Magic%20Arms%20and%20Armor",
+    "sourceRef": "PRPG Core Rulebook pg. 120",
+    "book": "CRB",
+    "types": [
+      "Item Creation"
+    ],
+    "prerequisites": {
+      "raw": "Caster level 5th.",
+      "casterLevel": 5,
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can create magic weapons, armor, or shields. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must use up raw materials costing half of this total price. See the magic item creation rules in Magic Items for more information.\n\nThe weapon, armor, or shield to be enhanced must be a masterwork item that you provide. Its cost is not included in the above cost.\n\nYou can also mend a broken magic weapon, suit of armor, or shield if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item in the first place."
+  },
+  {
+    "id": "craft-rod",
+    "name": "Craft Rod",
+    "textEn": "You can create magic rods.\n\n**Prerequisites**: Caster level 9th.\n\n**Benefit**: You can create magic rods. Crafting a rod takes 1 day for each 1,000 gp in its base price. To craft a rod, you must use up raw materials costing half of its base price. See the magic item creation rules in Magic Items for more information.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Craft%20Rod",
+    "sourceRef": "PRPG Core Rulebook pg. 120",
+    "book": "CRB",
+    "types": [
+      "Item Creation"
+    ],
+    "prerequisites": {
+      "raw": "Caster level 9th.",
+      "casterLevel": 9,
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can create magic rods. Crafting a rod takes 1 day for each 1,000 gp in its base price. To craft a rod, you must use up raw materials costing half of its base price. See the magic item creation rules in Magic Items for more information."
+  },
+  {
+    "id": "craft-staff",
+    "name": "Craft Staff",
+    "textEn": "You can create magic staves.\n\n**Prerequisites**: Caster level 11th.\n\n**Benefit**: You can create any staff whose prerequisites you meet. Crafting a staff takes 1 day for each 1,000 gp in its base price. To craft a staff, you must use up raw materials costing half of its base price. A newly created staff has 10 charges. See the magic item creation rules in Magic Items for more information.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Craft%20Staff",
+    "sourceRef": "PRPG Core Rulebook pg. 120",
+    "book": "CRB",
+    "types": [
+      "Item Creation"
+    ],
+    "prerequisites": {
+      "raw": "Caster level 11th.",
+      "casterLevel": 11,
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can create any staff whose prerequisites you meet. Crafting a staff takes 1 day for each 1,000 gp in its base price. To craft a staff, you must use up raw materials costing half of its base price. A newly created staff has 10 charges. See the magic item creation rules in Magic Items for more information."
+  },
+  {
+    "id": "craft-wand",
+    "name": "Craft Wand",
+    "textEn": "You can create magic wands.\n\n**Prerequisites**: Caster level 5th.\n\n**Benefit**: You can create a wand of any 4th-level or lower spell that you know. Crafting a wand takes 1 day for each 1,000 gp in its base price. To craft a wand, you must use up raw materials costing half of this base price. A newly created wand has 50 charges. See the magic item creation rules in Magic Items for more information.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Craft%20Wand",
+    "sourceRef": "PRPG Core Rulebook pg. 120",
+    "book": "CRB",
+    "types": [
+      "Item Creation"
+    ],
+    "prerequisites": {
+      "raw": "Caster level 5th.",
+      "casterLevel": 5,
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can create a wand of any 4th-level or lower spell that you know. Crafting a wand takes 1 day for each 1,000 gp in its base price. To craft a wand, you must use up raw materials costing half of this base price. A newly created wand has 50 charges. See the magic item creation rules in Magic Items for more information."
+  },
+  {
+    "id": "craft-wondrous-item",
+    "name": "Craft Wondrous Item",
+    "textEn": "You can create wondrous items, a type of magic item.\n\n**Prerequisites**: Caster level 3rd.\n\n**Benefit**: You can create a wide variety of magic wondrous items. Crafting a wondrous item takes 1 day for each 1,000 gp in its price. To create a wondrous item, you must use up raw materials costing half of its base price. See the magic item creation rules in Magic Items for more information.\n\nYou can also mend a broken wondrous item if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Craft%20Wondrous%20Item",
+    "sourceRef": "PRPG Core Rulebook pg. 120",
+    "book": "CRB",
+    "types": [
+      "Item Creation"
+    ],
+    "prerequisites": {
+      "raw": "Caster level 3rd.",
+      "casterLevel": 3,
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can create a wide variety of magic wondrous items. Crafting a wondrous item takes 1 day for each 1,000 gp in its price. To create a wondrous item, you must use up raw materials costing half of its base price. See the magic item creation rules in Magic Items for more information.\n\nYou can also mend a broken wondrous item if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item."
+  },
+  {
+    "id": "critical-focus",
+    "name": "Critical Focus",
+    "textEn": "You are trained in the art of causing pain.\n\n**Prerequisites**: Base attack bonus +9.\n\n**Benefit**: You receive a +4 circumstance bonus on attack rolls made to confirm critical hits.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Critical%20Focus",
+    "sourceRef": "PRPG Core Rulebook pg. 120",
+    "book": "CRB",
+    "types": [
+      "Combat",
+      "Critical"
+    ],
+    "prerequisites": {
+      "raw": "Base attack bonus +9.",
+      "bab": 9,
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You receive a +4 circumstance bonus on attack rolls made to confirm critical hits."
+  },
+  {
+    "id": "critical-mastery",
+    "name": "Critical Mastery",
+    "textEn": "Your critical hits cause two additional effects.\n\n**Prerequisites**: Critical Focus, any two critical feats, 14th-level fighter.\n\n**Benefit**: When you score a critical hit, you can apply the effects of two critical feats in addition to the damage dealt.\n\n**Normal**: You can only apply the effects of one critical feat to a given critical hit in addition to the damage dealt.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Critical%20Mastery",
+    "sourceRef": "PRPG Core Rulebook pg. 120",
+    "book": "CRB",
+    "types": [
+      "Combat",
+      "Critical"
+    ],
+    "prerequisites": {
+      "raw": "Critical Focus, any two critical feats, 14th-level fighter.",
+      "featIds": [
+        "critical-focus"
+      ],
+      "skills": [],
+      "other": [
+        "any two critical feats",
+        "14th-level fighter"
+      ]
+    },
+    "benefit": "When you score a critical hit, you can apply the effects of two critical feats in addition to the damage dealt.",
+    "normal": "You can only apply the effects of one critical feat to a given critical hit in addition to the damage dealt."
+  }
+]

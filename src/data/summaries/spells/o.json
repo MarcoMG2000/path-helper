@@ -1,0 +1,30 @@
+{
+  "obscure-object": {
+    "summaryEs": "Oculta un objeto de los efectos de adivinación de escrutinio, como el conjuro escrutar o una bola de cristal. El intento falla automáticamente si la adivinación se dirige al objeto, o no percibe el objeto si se dirige a un lugar, objeto o persona cercanos.",
+    "status": "draft"
+  },
+  "obscuring-mist": {
+    "summaryEs": "Un vapor inmóvil surge a tu alrededor y oculta toda visión, incluida la visión en la oscuridad, más allá de 5 pies. A 5 pies hay ocultación (20% de fallo); más lejos, ocultación total (50% de fallo). Un viento moderado la dispersa en 4 asaltos y uno fuerte en 1.",
+    "status": "draft"
+  },
+  "open-close": {
+    "summaryEs": "Abres o cierras a voluntad una puerta, cofre, caja, ventana, bolsa, bolsillo, botella, barril u otro contenedor. Si algo lo impide (una barra o cerradura), el conjuro falla. Solo afecta a cosas de 30 libras o menos.",
+    "status": "draft"
+  },
+  "orders-wrath": {
+    "summaryEs": "Canalizas poder legal que solo daña a criaturas caóticas y neutrales. Causa 1d8 de daño por cada dos niveles de lanzador (máximo 5d8) a caóticas, o 1d6 por nivel (máximo 10d6) a ajenos caóticos, y las aturde 1 asalto. Una salvación de Voluntad reduce el daño a la mitad y niega el aturdimiento.",
+    "status": "draft"
+  },
+  "overland-flight": {
+    "summaryEs": "Funciona como volar, pero vuelas a velocidad de 40 pies (30 pies con armadura o carga media o pesada) con un bonificador a Volar igual a la mitad de tu nivel de lanzador. En viajes largos puedes apresurarte sin sufrir daño no letal. Así cubres 64 millas en 8 horas de vuelo (48 millas a 30 pies).",
+    "status": "draft"
+  },
+  "owls-wisdom": {
+    "summaryEs": "La criatura transmutada se vuelve más sabia: recibe un bonificador de mejora de +4 a Sabiduría, con el beneficio habitual en habilidades basadas en Sabiduría. Clérigos, druidas y exploradores no ganan conjuros adicionales por el aumento, pero sí suben las CD de salvación de sus conjuros.",
+    "status": "draft"
+  },
+  "owls-wisdom-mass": {
+    "summaryEs": "Funciona como sabiduría del búho, pero afecta a varias criaturas.",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,27 @@
+# Documentación y artefactos del flujo de agentes: no se reformatean
+.claude/
+docs/
+specs/
+progress/
+AGENTS.md
+CLAUDE.md
+CHECKPOINTS.md
+README.md
+feature-list.json
+package-lock.json
+dist/
+node_modules/
+coverage/
+
+# Datos SRD (f3): fixtures HTML y aviso legal deben conservarse byte a byte
+tests/fixtures/
+LICENSE-OGL.md
+
+# Cachés y informes generados (f3)
+.cache/
+reports/
+
+# Datos SRD generados (f3): su formato lo fija el pipeline, no prettier
+src/data/*/*.json
+src/data/provenance/
+scripts/srd/config/*.json

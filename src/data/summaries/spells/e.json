@@ -1,0 +1,90 @@
+{
+  "eagles-splendor": {
+    "summaryEs": "Una criatura tocada obtiene un bonificador de mejora de +4 a Carisma, con sus beneficios habituales en pruebas de habilidad. Los lanzadores que dependen de Carisma no ganan conjuros adicionales, pero sí suben las CD de los conjuros que lanzan.",
+    "status": "draft"
+  },
+  "eagles-splendor-mass": {
+    "summaryEs": "Funciona como esplendor de águila, pero afecta a varias criaturas.",
+    "status": "draft"
+  },
+  "earthquake": {
+    "summaryEs": "Un temblor intenso y localizado dura 1 asalto: las criaturas en el suelo no pueden moverse ni atacar, y los lanzadores en el suelo deben superar una prueba de Concentración (CD 20 + nivel del conjuro) o perder el conjuro. El efecto concreto depende del terreno.",
+    "status": "draft"
+  },
+  "elemental-body-i": {
+    "summaryEs": "Adoptas la forma de un elemental Pequeño de aire, tierra, fuego o agua y obtienes las capacidades de ese tipo (bonificadores de tamaño y de armadura natural, visión en la oscuridad y otras habilidades según el elemento).",
+    "status": "draft"
+  },
+  "elemental-body-ii": {
+    "summaryEs": "Funciona como cuerpo elemental I, pero permite adoptar la forma de un elemental Mediano de aire, tierra, fuego o agua, con bonificadores de tamaño y de armadura natural distintos según el elemento.",
+    "status": "draft"
+  },
+  "elemental-body-iii": {
+    "summaryEs": "Funciona como cuerpo elemental II, pero permite adoptar la forma de un elemental Grande de aire, tierra, fuego o agua. En forma elemental eres inmune al daño por sangrado, a los golpes críticos y a los ataques furtivos.",
+    "status": "draft"
+  },
+  "elemental-body-iv": {
+    "summaryEs": "Funciona como cuerpo elemental III, pero permite adoptar la forma de un elemental Enorme de aire, tierra, fuego o agua. En forma elemental eres inmune al sangrado, a los golpes críticos y a los ataques furtivos, y obtienes RD 5/—.",
+    "status": "draft"
+  },
+  "elemental-swarm": {
+    "summaryEs": "Abre un portal a un Plano Elemental y convoca elementales: al terminar aparecen 2d4 elementales Grandes, 1d4 Enormes diez minutos después y un elemental superior otros diez minutos más tarde. Te obedecen toda la duración, nunca te atacan y puedes despedirlos en cualquier momento.",
+    "status": "draft"
+  },
+  "endure-elements": {
+    "summaryEs": "La criatura protegida no sufre daño por un entorno cálido o frío y puede estar cómoda entre –50 y 140 grados Fahrenheit sin tiradas de Fortaleza; su equipo también queda protegido. No protege del daño de fuego o frío ni de otros peligros ambientales.",
+    "status": "draft"
+  },
+  "energy-drain": {
+    "summaryEs": "Funciona como enervación, pero la criatura golpeada recibe 2d4 niveles negativos temporales; veinticuatro horas después debe hacer una salvación de Fortaleza por cada nivel y, si falla, ese nivel se vuelve permanente. Un muerto viviente gana 2d4 × 5 puntos de golpe temporales durante 1 hora.",
+    "status": "draft"
+  },
+  "enervation": {
+    "summaryEs": "Disparas un rayo negro de energía negativa (ataque de toque a distancia): la criatura viva golpeada recibe 1d4 niveles negativos temporales, que recupera pasadas tantas horas como tu nivel de lanzador (máximo 15). Un muerto viviente gana 1d4 × 5 puntos de golpe temporales durante 1 hora.",
+    "status": "draft"
+  },
+  "enlarge-person": {
+    "summaryEs": "Hace crecer de golpe a una criatura humanoide: duplica su altura, multiplica su peso por 8 y sube una categoría de tamaño. Obtiene +2 de bonificador de tamaño a Fuerza, –2 a Destreza (mínimo 1) y –1 a ataques y CA. Su equipo crece con ella.",
+    "status": "draft"
+  },
+  "enlarge-person-mass": {
+    "summaryEs": "Funciona como agrandar persona, pero afecta a varias criaturas.",
+    "status": "draft"
+  },
+  "entangle": {
+    "summaryEs": "Hierba, maleza y otras plantas envuelven a las criaturas del área o que entran en ella: quien falla la salvación queda enredado. Quien la supera se mueve con normalidad, pero debe repetirla al final de tu turno si permanece en el área. Toda el área es terreno difícil.",
+    "status": "draft"
+  },
+  "enthrall": {
+    "summaryEs": "Si tienes la atención de un grupo, lo embelesas hablando o cantando sin interrupción 1 asalto completo: los afectados te prestan toda su atención con actitud amistosa mientras sigas, hasta 1 hora como máximo. Los de 4 o más DG o Sabiduría 16 o más siguen atentos a su entorno.",
+    "status": "draft"
+  },
+  "entropic-shield": {
+    "summaryEs": "Un campo mágico de colores caóticos te rodea y desvía flechas, rayos y otros ataques a distancia: cada ataque a distancia dirigido contra ti que requiera tirada de ataque tiene un 20% de probabilidad de fallo (similar a la ocultación).",
+    "status": "draft"
+  },
+  "erase": {
+    "summaryEs": "Borra escritura mágica o mundana de un pergamino o de una o dos páginas; puede eliminar runas explosivas, un glifo custodio, un sigilo de serpiente sepia o una marca arcana, pero no escritura ilusoria ni un símbolo. La escritura mágica exige tocarla y una prueba de nivel de lanzador contra CD 15.",
+    "status": "draft"
+  },
+  "ethereal-jaunt": {
+    "summaryEs": "Te vuelves etéreo con tu equipo mientras dura el conjuro: estás en el Plano Etéreo, invisible e incorpóreo, y te mueves en cualquier dirección a la mitad de la velocidad normal, atravesando objetos sólidos. Ves y oyes el Plano Material en gris, hasta 60 pies, y no puedes atacar criaturas materiales.",
+    "status": "draft"
+  },
+  "etherealness": {
+    "summaryEs": "Funciona como salto etéreo, pero tú y otras criaturas voluntarias unidas de las manos, con su equipo, os volvéis etéreos; puedes llevar a una criatura por cada tres niveles de lanzador. Una vez etéreos, los sujetos no tienen que permanecer juntos.",
+    "status": "draft"
+  },
+  "expeditious-retreat": {
+    "summaryEs": "Aumenta tu velocidad base en tierra en 30 pies, como bonificador de mejora. No afecta a otros tipos de movimiento (excavar, trepar, volar, nadar), pero sí a tu distancia de salto.",
+    "status": "draft"
+  },
+  "explosive-runes": {
+    "summaryEs": "Trazas runas sobre un libro, mapa o pergamino que detonan al leerlas e infligen 6d6 puntos de daño de fuerza. Quien está junto a ellas recibe el daño completo sin salvación; otras criaturas a 10 pies tienen Reflejos por la mitad. Tú y quien designes podéis leerlas sin activarlas.",
+    "status": "draft"
+  },
+  "eyebite": {
+    "summaryEs": "Cada asalto puedes elegir una criatura viva a la que golpeas con ondas de poder; según sus DG sufre hasta tres efectos acumulativos y simultáneos: enfermo (10 DG o más), pánico y enfermo (5-9 DG) o coma, pánico y enfermo (4 DG o menos).",
+    "status": "draft"
+  }
+}

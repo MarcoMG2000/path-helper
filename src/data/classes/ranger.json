@@ -1,0 +1,642 @@
+[
+  {
+    "id": "ranger",
+    "name": "Ranger",
+    "textEn": "For those who relish the thrill of the hunt, there are only predators and prey. Be they scouts, trackers, or bounty hunters, rangers share much in common: unique mastery of specialized weapons, skill at stalking even the most elusive game, and the expertise to defeat a wide range of quarries. Knowledgeable, patient, and skilled hunters, these rangers hound man, beast, and monster alike, gaining insight into the way of the predator, skill in varied environments, and ever more lethal martial prowess. While some track man-eating creatures to protect the frontier, others pursue more cunning game—even fugitives among their own people.\n\n**Role**: Rangers are deft skirmishers, either in melee or at range, capable of skillfully dancing in and out of battle. Their abilities allow them to deal significant harm to specific types of foes, but their skills are valuable against all manner of enemies.\n\n**Alignment**: Any.\n**Hit Die**: d10.\n**Starting Wealth**: 5d6 x 10 gp (average 175 gp).\n\n**Class Skills**\n\nThe Ranger's class skills are Climb (Str), Craft (Int), Handle Animal (Cha), Heal (Wis), Intimidate (Cha), Knowledge (dungeoneering) (Int), Knowledge (geography) (Int), Knowledge (nature) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Spellcraft (Int), Stealth (Dex), Survival (Wis), and Swim (Str).\n\n**Skill Points at each Level**: 6 + Int modifier.\n\n**Class Features**\n\n**Spells Per Day**\n\n| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | 1st | 2nd | 3rd | 4th |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1st | +1 | +2 | +2 | +0 | 1st favored enemy, track, wild empathy | - | - | - | - |\n| 2nd | +2 | +3 | +3 | +0 | Combat style feat | - | - | - | - |\n| 3rd | +3 | +3 | +3 | +1 | Endurance, 1st favored terrain | - | - | - | - |\n| 4th | +4 | +4 | +4 | +1 | Hunter's bond | 0 | - | - | - |\n| 5th | +5 | +4 | +4 | +1 | 2nd favored enemy | 1 | - | - | - |\n| 6th | +6/+1 | +5 | +5 | +2 | Combat style feat | 1 | - | - | - |\n| 7th | +7/+2 | +5 | +5 | +2 | Woodland stride | 1 | 0 | - | - |\n| 8th | +8/+3 | +6 | +6 | +2 | Swift tracker, 2nd favored terrain | 1 | 1 | - | - |\n| 9th | +9/+4 | +6 | +6 | +3 | Evasion | 2 | 1 | - | - |\n| 10th | +10/+5 | +7 | +7 | +3 | 3rd favored enemy, combat style feat | 2 | 1 | 0 | - |\n| 11th | +11/+6/+1 | +7 | +7 | +3 | Quarry | 2 | 1 | 1 | - |\n| 12th | +12/+7/+2 | +8 | +8 | +4 | Camouflage | 2 | 2 | 1 | - |\n| 13th | +13/+8/+3 | +8 | +8 | +4 | 3rd favored terrain | 3 | 2 | 1 | 0 |\n| 14th | +14/+9/+4 | +9 | +9 | +4 | Combat style feat | 3 | 2 | 1 | 1 |\n| 15th | +15/+10/+5 | +9 | +9 | +5 | 4th favored enemy | 3 | 2 | 2 | 1 |\n| 16th | +16/+11/+6/+1 | +10 | +10 | +5 | Improved evasion | 3 | 3 | 2 | 1 |\n| 17th | +17/+12/+7/+2 | +10 | +10 | +5 | Hide in plain sight | 4 | 3 | 2 | 1 |\n| 18th | +18/+13/+8/+3 | +11 | +11 | +6 | 4th favored terrain, combat style feat | 4 | 3 | 2 | 2 |\n| 19th | +19/+14/+9/+4 | +11 | +11 | +6 | Improved quarry | 4 | 3 | 3 | 2 |\n| 20th | +20/+15/+10/+5 | +12 | +12 | +6 | 5th favored enemy, master hunter | 4 | 4 | 3 | 3 |",
+    "source": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Ranger",
+    "sourceRef": "PRPG Core Rulebook pg. 64",
+    "book": "CRB",
+    "hitDie": 10,
+    "skillRanksPerLevel": 6,
+    "classSkills": [
+      "climb",
+      "craft",
+      "handle-animal",
+      "heal",
+      "intimidate",
+      "knowledge-dungeoneering",
+      "knowledge-geography",
+      "knowledge-nature",
+      "perception",
+      "profession",
+      "ride",
+      "spellcraft",
+      "stealth",
+      "survival",
+      "swim"
+    ],
+    "alignment": "Any",
+    "startingWealthDice": "5d6",
+    "proficiencies": {
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium"
+      ],
+      "shields": [
+        "all-except-tower"
+      ]
+    },
+    "progression": {
+      "bab": "full",
+      "fort": "good",
+      "ref": "good",
+      "will": "poor"
+    },
+    "table": [
+      {
+        "level": 1,
+        "bab": [
+          1
+        ],
+        "fort": 2,
+        "ref": 2,
+        "will": 0,
+        "special": [
+          "1st favored enemy",
+          "track",
+          "wild empathy"
+        ],
+        "specialIds": [
+          "ranger.favored-enemy",
+          "ranger.track",
+          "ranger.wild-empathy"
+        ],
+        "spellsPerDay": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 2,
+        "bab": [
+          2
+        ],
+        "fort": 3,
+        "ref": 3,
+        "will": 0,
+        "special": [
+          "Combat style feat"
+        ],
+        "specialIds": [
+          "ranger.combat-style-feat"
+        ],
+        "spellsPerDay": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 3,
+        "bab": [
+          3
+        ],
+        "fort": 3,
+        "ref": 3,
+        "will": 1,
+        "special": [
+          "Endurance",
+          "1st favored terrain"
+        ],
+        "specialIds": [
+          "ranger.endurance",
+          "ranger.favored-terrain"
+        ],
+        "spellsPerDay": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 4,
+        "bab": [
+          4
+        ],
+        "fort": 4,
+        "ref": 4,
+        "will": 1,
+        "special": [
+          "Hunter's bond"
+        ],
+        "specialIds": [
+          "ranger.hunters-bond"
+        ],
+        "spellsPerDay": [
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 5,
+        "bab": [
+          5
+        ],
+        "fort": 4,
+        "ref": 4,
+        "will": 1,
+        "special": [
+          "2nd favored enemy"
+        ],
+        "specialIds": [
+          "ranger.favored-enemy"
+        ],
+        "spellsPerDay": [
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 6,
+        "bab": [
+          6,
+          1
+        ],
+        "fort": 5,
+        "ref": 5,
+        "will": 2,
+        "special": [
+          "Combat style feat"
+        ],
+        "specialIds": [
+          "ranger.combat-style-feat"
+        ],
+        "spellsPerDay": [
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 7,
+        "bab": [
+          7,
+          2
+        ],
+        "fort": 5,
+        "ref": 5,
+        "will": 2,
+        "special": [
+          "Woodland stride"
+        ],
+        "specialIds": [
+          "ranger.woodland-stride"
+        ],
+        "spellsPerDay": [
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 8,
+        "bab": [
+          8,
+          3
+        ],
+        "fort": 6,
+        "ref": 6,
+        "will": 2,
+        "special": [
+          "Swift tracker",
+          "2nd favored terrain"
+        ],
+        "specialIds": [
+          "ranger.swift-tracker",
+          "ranger.favored-terrain"
+        ],
+        "spellsPerDay": [
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 9,
+        "bab": [
+          9,
+          4
+        ],
+        "fort": 6,
+        "ref": 6,
+        "will": 3,
+        "special": [
+          "Evasion"
+        ],
+        "specialIds": [
+          "ranger.evasion"
+        ],
+        "spellsPerDay": [
+          null,
+          2,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 10,
+        "bab": [
+          10,
+          5
+        ],
+        "fort": 7,
+        "ref": 7,
+        "will": 3,
+        "special": [
+          "3rd favored enemy",
+          "combat style feat"
+        ],
+        "specialIds": [
+          "ranger.favored-enemy",
+          "ranger.combat-style-feat"
+        ],
+        "spellsPerDay": [
+          null,
+          2,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 11,
+        "bab": [
+          11,
+          6,
+          1
+        ],
+        "fort": 7,
+        "ref": 7,
+        "will": 3,
+        "special": [
+          "Quarry"
+        ],
+        "specialIds": [
+          "ranger.quarry"
+        ],
+        "spellsPerDay": [
+          null,
+          2,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 12,
+        "bab": [
+          12,
+          7,
+          2
+        ],
+        "fort": 8,
+        "ref": 8,
+        "will": 4,
+        "special": [
+          "Camouflage"
+        ],
+        "specialIds": [
+          "ranger.camouflage"
+        ],
+        "spellsPerDay": [
+          null,
+          2,
+          2,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 13,
+        "bab": [
+          13,
+          8,
+          3
+        ],
+        "fort": 8,
+        "ref": 8,
+        "will": 4,
+        "special": [
+          "3rd favored terrain"
+        ],
+        "specialIds": [
+          "ranger.favored-terrain"
+        ],
+        "spellsPerDay": [
+          null,
+          3,
+          2,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 14,
+        "bab": [
+          14,
+          9,
+          4
+        ],
+        "fort": 9,
+        "ref": 9,
+        "will": 4,
+        "special": [
+          "Combat style feat"
+        ],
+        "specialIds": [
+          "ranger.combat-style-feat"
+        ],
+        "spellsPerDay": [
+          null,
+          3,
+          2,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 15,
+        "bab": [
+          15,
+          10,
+          5
+        ],
+        "fort": 9,
+        "ref": 9,
+        "will": 5,
+        "special": [
+          "4th favored enemy"
+        ],
+        "specialIds": [
+          "ranger.favored-enemy"
+        ],
+        "spellsPerDay": [
+          null,
+          3,
+          2,
+          2,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 16,
+        "bab": [
+          16,
+          11,
+          6,
+          1
+        ],
+        "fort": 10,
+        "ref": 10,
+        "will": 5,
+        "special": [
+          "Improved evasion"
+        ],
+        "specialIds": [
+          "ranger.improved-evasion"
+        ],
+        "spellsPerDay": [
+          null,
+          3,
+          3,
+          2,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 17,
+        "bab": [
+          17,
+          12,
+          7,
+          2
+        ],
+        "fort": 10,
+        "ref": 10,
+        "will": 5,
+        "special": [
+          "Hide in plain sight"
+        ],
+        "specialIds": [
+          "ranger.hide-in-plain-sight"
+        ],
+        "spellsPerDay": [
+          null,
+          4,
+          3,
+          2,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 18,
+        "bab": [
+          18,
+          13,
+          8,
+          3
+        ],
+        "fort": 11,
+        "ref": 11,
+        "will": 6,
+        "special": [
+          "4th favored terrain",
+          "combat style feat"
+        ],
+        "specialIds": [
+          "ranger.favored-terrain",
+          "ranger.combat-style-feat"
+        ],
+        "spellsPerDay": [
+          null,
+          4,
+          3,
+          2,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 19,
+        "bab": [
+          19,
+          14,
+          9,
+          4
+        ],
+        "fort": 11,
+        "ref": 11,
+        "will": 6,
+        "special": [
+          "Improved quarry"
+        ],
+        "specialIds": [
+          "ranger.improved-quarry"
+        ],
+        "spellsPerDay": [
+          null,
+          4,
+          3,
+          3,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 20,
+        "bab": [
+          20,
+          15,
+          10,
+          5
+        ],
+        "fort": 12,
+        "ref": 12,
+        "will": 6,
+        "special": [
+          "5th favored enemy",
+          "master hunter"
+        ],
+        "specialIds": [
+          "ranger.favored-enemy",
+          "ranger.master-hunter"
+        ],
+        "spellsPerDay": [
+          null,
+          4,
+          4,
+          3,
+          3,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "casting": {
+      "ability": "wis",
+      "tradition": "divine",
+      "prepared": true,
+      "spellListId": "ranger"
+    }
+  }
+]

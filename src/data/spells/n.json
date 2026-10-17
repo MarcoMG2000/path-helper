@@ -1,0 +1,191 @@
+[
+  {
+    "id": "neutralize-poison",
+    "name": "Neutralize Poison",
+    "textEn": "You detoxify any sort of venom in the creature or object touched. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each poison affecting the target. Success means that the poison is neutralized. A cured creature suffers no additional effects from the poison, and any temporary effects are ended, but the spell does not reverse instantaneous effects, such as hit point damage, temporary ability damage, or effects that don't go away on their own.\n\nThis spell can instead neutralize the poison in a poisonous creature or object for 10 minutes per level, at the caster's option. If cast on a creature, the creature receives a Will save to negate the effect.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Neutralize Poison",
+    "sourceRef": "PRPG Core Rulebook pg. 316",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "bard": 4,
+      "cleric": 4,
+      "druid": 3,
+      "paladin": 4,
+      "ranger": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (charcoal)",
+      "details": {
+        "material": "charcoal"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature or object of up to 1 cu. ft./level touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous or 10 min./level; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless, object)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (harmless, object)",
+      "applies": "yes",
+      "harmless": true,
+      "object": true
+    },
+    "shortDescriptionEn": "Immunizes subject against poison, detoxifies venom in or on subject."
+  },
+  {
+    "id": "nightmare",
+    "name": "Nightmare",
+    "textEn": "You send a hideous and unsettling phantasmal vision to a specific creature that you name or otherwise specifically designate.\n\nThe *nightmare* prevents restful sleep and causes 1d10 points of damage. The *nightmare* leaves the subject fatigued and unable to regain arcane spells for the next 24 hours.\n\nThe difficulty of the save depends on your knowledge the subject and the physical connection (if any) you have to that creature.\n\n| **Knowledge** | **Will Save Modifier** |\n| --- | --- |\n| None* | +10 |\n| Secondhand (you have heard of the subject) | +5 |\n| Firsthand (you have met the subject) | +0 |\n| Familiar (you know the subject well) | -5 |\n\n| **Connection** | **Will Save Modifier** |\n| --- | --- |\n| Likeness or picture | -2 |\n| Possession or garment | -4 |\n| Body part, lock of hair, bit of nail,etc. | -10 |\n| *You must have some sort of connection to a creature of which you have no knowledge. |  |\n\n*Dispel evil* cast on the subject while you are casting the spell dispels the *nightmare* and causes you to be stunned for 10 minutes per caster level of the *dispel evil*.\n\nIf the recipient is awake when the spell begins, you can choose to cease casting (ending the spell) or to enter a trance until the recipient goes to sleep, whereupon you become alert again and complete the casting. If you are disturbed during the trance, you must succeed on a Concentration check as if you were in the midst of casting a spell or the spell ends.\n\nIf you choose to enter a trance, you are not aware of your surroundings or the activities around you while in the trance.\n\nYou are defenseless, both physically and mentally, while in the trance. (You always fail Reflex and Will saving throws, for example.)\n\nCreatures who don't sleep (such as outsiders) or dream are immune to this spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Nightmare",
+    "sourceRef": "PRPG Core Rulebook pg. 316",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "phantasm",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "unlimited",
+      "kind": "unlimited"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates; see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Sends vision dealing 1d10 damage, fatigue."
+  },
+  {
+    "id": "nondetection",
+    "name": "Nondetection",
+    "textEn": "The warded creature or object becomes difficult to detect by divination spells such as *clairaudience/clairvoyance*, *locate object*, and *detect* spells. *Nondetection* also prevents location by such magic items as *crystal balls*. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast *nondetection*. If you cast *nondetection* on yourself or on an item currently in your possession, the DC is 15 + your caster level.\n\nIf cast on a creature, *nondetection* wards the creature's gear as well as the creature itself.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Nondetection",
+    "sourceRef": "PRPG Core Rulebook pg. 317",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "ranger": 4,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (diamond dust worth 50 gp)",
+      "details": {
+        "material": "diamond dust worth 50 gp"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature or object touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless, object)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (harmless, object)",
+      "applies": "yes",
+      "harmless": true,
+      "object": true
+    },
+    "shortDescriptionEn": "Hides subject from divination, scrying."
+  }
+]

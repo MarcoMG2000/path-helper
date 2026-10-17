@@ -1,0 +1,371 @@
+[
+  {
+    "id": "undeath-to-death",
+    "name": "Undeath to Death",
+    "textEn": "This spell functions like *circle of death*, except that it destroys undead creatures as noted above.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Undeath to Death",
+    "sourceRef": "PRPG Core Rulebook pg. 363",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 6,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (diamond powder worth 500 gp)",
+      "details": {
+        "material": "diamond powder worth 500 gp"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "several undead creatures within a 40-ft.-radius burst"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Destroys 1d4 HD/level undead (max. 20d4)."
+  },
+  {
+    "id": "undetectable-alignment",
+    "name": "Undetectable Alignment",
+    "textEn": "An *undetectable alignment* spell conceals the alignment of an object or a creature from all forms of divination.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Undetectable Alignment",
+    "sourceRef": "PRPG Core Rulebook pg. 363",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "bard": 1,
+      "cleric": 2,
+      "paladin": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature or object"
+      }
+    ],
+    "duration": {
+      "raw": "24 hours",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 24,
+      "unit": "hour",
+      "perLevel": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (object)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (object)",
+      "applies": "yes",
+      "harmless": false,
+      "object": true
+    },
+    "shortDescriptionEn": "Conceals alignment for 24 hours."
+  },
+  {
+    "id": "unhallow",
+    "name": "Unhallow",
+    "textEn": "*Unhallow* makes a particular site, building, or structure an unholy site. This has three major effects.\n\nFirst, the site or structure is guarded by a *magic circle against good* effect.\n\nSecond, the DC to resist negative channeled energy within the spell's area of effect gains a +4 profane bonus and the DC to resist positive energy is reduced by 4. Spell resistance does not apply to this effect. This provision does not apply to the druid version of the spell.\n\nFinally, you may choose to fix a single spell effect to the *unhallowed* site. The spell effect lasts for 1 year and functions throughout the entire site, regardless of its normal duration and area or effect. You may designate whether the effect applies to all creatures, creatures that share your faith or alignment, or creatures that adhere to another faith or alignment. At the end of the year, the chosen effect lapses, but it can be renewed or replaced simply by casting unhallow again.\n\nSpell effects that may be tied to an unhallowed site include *aid*, *bane*, *bless*, *cause fear*, *darkness*, *daylight*, *death ward*, *deeper darkness*, *detect magic*, *detect good*, *dimensional anchor*, *discern lies*, *dispel magic*, *endure elements*, *freedom of movement*, *invisibility purge*, *protection from energy*, *remove fear*, *resist energy*, *silence*, *tongues*, and *zone of truth*.\n\nSaving throws and spell resistance might apply to these spells' effects. (See the individual spell descriptions for details.)\n\nAn area can receive only one *unhallow* spell (and its associated spell effect) at a time.\n\n*Unhallow* counters but does not dispel *hallow*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Unhallow",
+    "sourceRef": "PRPG Core Rulebook pg. 363",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "evil"
+    ],
+    "levels": {
+      "cleric": 5,
+      "druid": 5
+    },
+    "castingTime": {
+      "raw": "24 hours",
+      "unit": "hour",
+      "amount": 24
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the spell to be tied to the *unhallowed* area)",
+      "details": {
+        "material": "herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the spell to be tied to the *unhallowed* area"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "40-ft. radius emanating from the touched point"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "see text",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Designates location as unholy."
+  },
+  {
+    "id": "unholy-aura",
+    "name": "Unholy Aura",
+    "textEn": "A malevolent darkness surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by good creatures, and weakening good creatures when they strike the subjects. This abjuration has four effects.\n\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike the effect of *protection from good*, this benefit applies against all attacks, not just against attacks by good creatures.\n\nSecond, a warded creature gains SR 25 against good spells and spells cast by good creatures.\n\nThird, the abjuration protects the subjects from possession and mental influence, just as *protection from good* does.\n\nFinally, if a good creature succeeds on a melee attack against a warded creature, the offending attacker takes 1d6 points of Strength damage (Fortitude negates).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Unholy Aura",
+    "sourceRef": "PRPG Core Rulebook pg. 364",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [
+      "evil"
+    ],
+    "levels": {
+      "cleric": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, F (a tiny reliquary worth 500 gp)",
+      "details": {
+        "focus": "a tiny reliquary worth 500 gp"
+      }
+    },
+    "range": {
+      "raw": "20 ft.",
+      "kind": "fixed",
+      "fixedFt": 20
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level in a 20-ft.-radius burst centered on you"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "+4 to AC, +4 resistance, and SR 25 against good spells."
+  },
+  {
+    "id": "unholy-blight",
+    "name": "Unholy Blight",
+    "textEn": "You call up unholy power to smite your enemies. The power takes the form of a cold, cloying miasma of greasy darkness. Only good and neutral (not evil) creatures are harmed by the spell.\n\nThe spell deals 1d8 points of damage per two caster levels (maximum 5d8) to a good creature (or 1d6 per caster level, maximum 10d6, to a good outsider) and causes it to be sickened for 1d4 rounds. A successful Will save reduces damage to half and negates the sickened effect. The effects cannot be negated by *remove disease* or *heal*, but *remove curse* is effective.\n\nThe spell deals only half damage to creatures who are neither evil nor good, and they are not sickened. Such a creature can reduce the damage by half again (down to one-quarter) with a successful Will save.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Unholy Blight",
+    "sourceRef": "PRPG Core Rulebook pg. 364",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "evil"
+    ],
+    "levels": {
+      "cleric": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "20-ft.-radius spread"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous (1d4 rounds); see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will partial",
+      "kind": "will",
+      "effect": "partial",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Harms and sickens good creatures (1d8 damage/2 levels)."
+  },
+  {
+    "id": "unseen-servant",
+    "name": "Unseen Servant",
+    "textEn": "An *unseen servant* is an invisible, mindless, shapeless force that performs simple tasks at your command. It can run and fetch things, open unstuck doors, and hold chairs, as well as clean and mend. The servant can perform only one activity at a time, but it repeats the same activity over and over again if told to do so as long as you remain within range. It can open only normal doors, drawers, lids, and the like. It has an effective Strength score of 2 (so it can lift 20 pounds or drag 100 pounds). It can trigger traps and such, but it can exert only 20 pounds of force, which is not enough to activate certain pressure plates and other devices. It can't perform any task that requires a skill check with a DC higher than 10 or that requires a check using a skill that can't be used untrained. This servant cannot fly, climb, or even swim (though it can walk on water). Its base speed is 15 feet.\n\nThe servant cannot attack in any way; it is never allowed an attack roll. It cannot be killed, but it dissipates if it takes 6 points of damage from area attacks. (It gets no saves against attacks.) If you attempt to send it beyond the spell's range (measured from your current position), the servant ceases to exist.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Unseen Servant",
+    "sourceRef": "PRPG Core Rulebook pg. 364",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "creation",
+    "descriptors": [],
+    "levels": {
+      "bard": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a piece of string and a bit of wood)",
+      "details": {
+        "material": "a piece of string and a bit of wood"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "one invisible, mindless, shapeless servant"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Invisible force obeys your commands."
+  }
+]

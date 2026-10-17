@@ -1,0 +1,1671 @@
+[
+  {
+    "id": "ice-storm",
+    "name": "Ice Storm",
+    "textEn": "Great magical hailstones pound down upon casting this spell, dealing 3d6 points of bludgeoning damage and 2d6 points of cold damage to every creature in the area. This damage only occurs once, when the spell is cast. For the remaining duration of the spell, heavy snow and sleet rains down in the area. Creatures inside this area take a –4 penalty on Perception skill checks and the entire area is treated as difficult terrain. At the end of the duration, the snow and hail disappear, leaving no aftereffects (other than the damage dealt).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Ice Storm",
+    "sourceRef": "PRPG Core Rulebook pg. 298",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "cold"
+    ],
+    "levels": {
+      "druid": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (dust and water)",
+      "details": {
+        "material": "dust and water"
+      }
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cylinder (20-ft. radius, 40 ft. high)"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Hail deals 5d6 damage in cylinder 40 ft. across."
+  },
+  {
+    "id": "identify",
+    "name": "Identify",
+    "textEn": "This spell functions as *detect magic*, except that it gives you a +10 enhancement bonus on Spellcraft checks made to identify the properties and command words of magic items in your possession. This spell does not allow you to identify artifacts.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Identify",
+    "sourceRef": "PRPG Core Rulebook pg. 299",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "bard": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (wine stirred with an owl's feather)",
+      "details": {
+        "material": "wine stirred with an owl's feather"
+      }
+    },
+    "range": {
+      "raw": "60 ft.",
+      "kind": "fixed",
+      "fixedFt": 60
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped emanation"
+      }
+    ],
+    "duration": {
+      "raw": "3 rounds/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 3,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Gives +10 bonus to identify magic items."
+  },
+  {
+    "id": "illusory-script",
+    "name": "Illusory Script",
+    "textEn": "You write instructions or other information on parchment, paper, or any suitable writing material. The *illusory script* appears to be some form of foreign or magical writing. Only the person (or people) designated by you at the time of the casting can read the writing; it's unintelligible to any other character.\n\nAny unauthorized creature attempting to read the script triggers a potent illusory effect and must make a saving throw. A successful saving throw means the creature can look away with only a mild sense of disorientation. Failure means the creature is subject to a *suggestion* implanted in the script by you at the time the *illusory script* spell was cast. The *suggestion* lasts only 30 minutes. Typical *suggestions* include “Close the book and leave,” “Forget the existence of this note,” and so forth. If successfully dispelled by *dispel magic*, the *illusory script* and its secret message disappear. The hidden message can be read by a combination of the *true seeing* spell with the *read magic* or *comprehend languages* spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Illusory Script",
+    "sourceRef": "PRPG Core Rulebook pg. 299",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "phantasm",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 minute per page",
+      "unit": "other",
+      "amount": null
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (lead-based ink worth 50 gp)",
+      "details": {
+        "material": "lead-based ink worth 50 gp"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one touched object weighing no more than 10 lbs."
+      }
+    ],
+    "duration": {
+      "raw": "one day/level (D)",
+      "kind": "other",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Will negates; see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Only select creatures can read text."
+  },
+  {
+    "id": "illusory-wall",
+    "name": "Illusory Wall",
+    "textEn": "This spell creates the illusion of a wall, floor, ceiling, or similar surface. It appears absolutely real when viewed, but physical objects can pass through it without difficulty. When the spell is used to hide pits, traps, or normal doors, any detection abilities that do not require sight work normally. Touch or a probing search reveals the true nature of the surface, though such measures do not cause the illusion to disappear. Although the caster can see through his *illusory wall*, other creatures cannot, even if they succeed at their will save (but they do learn that it is not real).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Illusory Wall",
+    "sourceRef": "PRPG Core Rulebook pg. 299",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "figment",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "image 1 ft. by 10 ft. by 10 ft."
+      }
+    ],
+    "duration": {
+      "raw": "permanent",
+      "kind": "permanent",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will disbelief (if interacted with)",
+      "kind": "will",
+      "effect": "disbelief",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Wall, floor, or ceiling looks real, but anything can pass through."
+  },
+  {
+    "id": "imbue-with-spell-ability",
+    "name": "Imbue with Spell Ability",
+    "textEn": "You transfer some of your currently prepared spells, and the ability to cast them, to another creature. Only a creature with an Intelligence score of at least 5 and a Wisdom score of at least 9 can receive this boon. Only cleric spells from the schools of abjuration, divination, and conjuration (healing) can be transferred. The number and level of spells that the subject can be granted depends on its Hit Dice; even multiple castings of *imbue with spell* ability can't exceed this limit.\n\n| **HD of Recipient** | **Spells Imbued** |\n| --- | --- |\n| 2 or lower | One 1st-level spell |\n| 3-4 | One or two 1st-level spells |\n| 5 or higher | One or two 1st-level spells and one 2nd-level spell |\n\nThe transferred spell's variable characteristics (range, duration, area, and the like) function according to your level, not the level of the recipient.\n\nOnce you cast *imbue with spell ability*, you cannot prepare a new 4th-level spell to replace it until the recipient uses the imbued spells or is slain, or until you dismiss the *imbue with spell ability* spell. In the meantime, you remain responsible to your deity or your principles for the use to which the spell is put. If the number of 4th-level spells you can cast decreases, and that number drops below your current number of active *imbue with spell ability* spells, the more recently cast imbued spells are dispelled.\n\nTo cast a spell with a verbal component, the subject must be able to speak. To cast a spell with a somatic component, it must be able to move freely. To cast a spell with a material component or focus, it must have the materials or focus.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Imbue with Spell Ability",
+    "sourceRef": "PRPG Core Rulebook pg. 299",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 4
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched; see text"
+      }
+    ],
+    "duration": {
+      "raw": "permanent until discharged (D)",
+      "kind": "other",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Transfer spells to subject."
+  },
+  {
+    "id": "implosion",
+    "name": "Implosion",
+    "textEn": "This spell causes a destructive resonance in a corporeal creature's body. Each round you concentrate (including the first), you can cause one creature to collapse in on itself, inflicting 10 points of damage per caster level. If you break concentration, the spell immediately ends, though any implosions that have already happened remain in effect. You can target a particular creature only once with each casting of the spell. Implosion has no effect on creatures in gaseous form or on incorporeal creatures.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Implosion",
+    "sourceRef": "PRPG Core Rulebook pg. 299",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 9
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one corporeal creature/round"
+      }
+    ],
+    "duration": {
+      "raw": "concentration (up to 1 round per 2 levels)",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Fortitude negates",
+      "kind": "fortitude",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Inflict 10 damage/level to one creature/round."
+  },
+  {
+    "id": "imprisonment",
+    "name": "Imprisonment",
+    "textEn": "When you cast *imprisonment* and touch a creature, it is entombed in a state of suspended animation (see the *temporal stasis* spell) in a small sphere far beneath the surface of the ground. The subject remains there unless a *freedom* spell is cast at the locale where the imprisonment took place. Magical search by a *crystal ball*, a *locate object* spell, or some other similar divination does not reveal the fact that a creature is imprisoned, but *discern location* does. A *wish* or *miracle* spell will not free the recipient, but will reveal where it is entombed. If you know the target's name and some facts about its life, the target takes a –4 penalty on its save.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Imprisonment",
+    "sourceRef": "PRPG Core Rulebook pg. 300",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates; see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Entombs subject beneath the earth."
+  },
+  {
+    "id": "incendiary-cloud",
+    "name": "Incendiary Cloud",
+    "textEn": "An incendiary cloud spell creates a cloud of roiling smoke shot through with white-hot embers. The smoke obscures all sight as a *fog cloud* does. In addition, the white-hot embers within the cloud deal 6d6 points of fire damage to everything within the cloud on your turn each round. All targets can make Reflex saves each round to take half damage.\n\nAs with a *cloudkill* spell, the smoke moves away from you at 10 feet per round. Figure out the smoke's new spread each round based on its new point of origin, which is 10 feet farther away from where you were when you cast the spell. By concentrating, you can make the cloud move as much as 60 feet each round. Any portion of the cloud that would extend beyond your maximum range dissipates harmlessly, reducing the remainder's spread thereafter.\n\nAs with *fog cloud*, wind disperses the smoke, and the spell can't be cast underwater.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Incendiary Cloud",
+    "sourceRef": "PRPG Core Rulebook pg. 300",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "creation",
+    "descriptors": [
+      "fire"
+    ],
+    "levels": {
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cloud spreads in 20-ft. radius, 20 ft. high"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Reflex half, see text",
+      "kind": "reflex",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Cloud deals 6d6 fire damage/round."
+  },
+  {
+    "id": "inflict-critical-wounds",
+    "name": "Inflict Critical Wounds",
+    "textEn": "This spell functions like *inflict light wounds*, except that you deal 4d8 points of damage + 1 point per caster level (maximum +20).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Inflict Critical Wounds",
+    "sourceRef": "PRPG Core Rulebook pg. 300",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half",
+      "kind": "will",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Touch attack, 4d8 damage + 1/level (max +20)."
+  },
+  {
+    "id": "inflict-critical-wounds-mass",
+    "name": "Inflict Critical Wounds, Mass",
+    "textEn": "This spell functions like *mass inflict light wounds*, except that it deals 4d8 points of damage + 1 point per caster level (maximum +40).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Inflict Critical Wounds, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 300",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half",
+      "kind": "will",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Deals 4d8 damage + 1/level, affects 1 subject/level."
+  },
+  {
+    "id": "inflict-light-wounds",
+    "name": "Inflict Light Wounds",
+    "textEn": "When laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage + 1 point per caster level (maximum +5).\n\nSince undead are powered by negative energy, this spell cures such a creature of a like amount of damage, rather than harming it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Inflict Light Wounds",
+    "sourceRef": "PRPG Core Rulebook pg. 300",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half",
+      "kind": "will",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Touch deals 1d8 damage +1/level (max +5)."
+  },
+  {
+    "id": "inflict-light-wounds-mass",
+    "name": "Inflict Light Wounds, Mass",
+    "textEn": "Negative energy spreads out in all directions from the point of origin, dealing 1d8 points of damage + 1 point per caster level (maximum +25) to nearby living enemies.\n\nLike other *inflict* spells, *mass inflict light wounds* cures undead in its area rather than damaging them. A cleric capable of spontaneously casting *inflict* spells can also spontaneously cast *mass inflict* spells.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Inflict Light Wounds, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 300",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half",
+      "kind": "will",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Deals 1d8 damage + 1/level, affects 1 subject/level."
+  },
+  {
+    "id": "inflict-moderate-wounds",
+    "name": "Inflict Moderate Wounds",
+    "textEn": "This spell functions like *inflict light wounds*, except that you deal 2d8 points of damage + 1 point per caster level (maximum +10).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Inflict Moderate Wounds",
+    "sourceRef": "PRPG Core Rulebook pg. 300",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half",
+      "kind": "will",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Touch attack, 2d8 damage + 1/level (max +10)."
+  },
+  {
+    "id": "inflict-moderate-wounds-mass",
+    "name": "Inflict Moderate Wounds, Mass",
+    "textEn": "This spell functions like *mass inflict light wounds*, except that it deals 2d8 points of damage + 1 point per caster level (maximum +30).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Inflict Moderate Wounds, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 300",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half",
+      "kind": "will",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Deals 2d8 damage + 1/level, affects 1 subject/level."
+  },
+  {
+    "id": "inflict-serious-wounds",
+    "name": "Inflict Serious Wounds",
+    "textEn": "This spell functions like *inflict light wounds*, except that it deals 3d8 + 1 point per caster level (maximum +15).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Inflict Serious Wounds",
+    "sourceRef": "PRPG Core Rulebook pg. 301",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half",
+      "kind": "will",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Touch attack, 3d8 damage + 1/level (max +15)."
+  },
+  {
+    "id": "inflict-serious-wounds-mass",
+    "name": "Inflict Serious Wounds, Mass",
+    "textEn": "This spell functions like *mass inflict light wounds*, except that it deals 3d8 points of damage + 1 point per caster level (maximum +35).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Inflict Serious Wounds, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 301",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half",
+      "kind": "will",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Deals 3d8 damage + 1/level, affects 1 subject/level."
+  },
+  {
+    "id": "insanity",
+    "name": "Insanity",
+    "textEn": "The affected creature suffers from a continuous *confusion* effect, as the spell.\n\nRemove curse does not remove *insanity*. *Greater restoration*, *heal*, *limited wish*, *miracle*, or *wish* can restore the creature.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Insanity",
+    "sourceRef": "PRPG Core Rulebook pg. 301",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Subject suffers continuous confusion."
+  },
+  {
+    "id": "insect-plague",
+    "name": "Insect Plague",
+    "textEn": "You summon a number of swarms of wasps (one per three levels, to a maximum of six swarms at 18th level). The swarms must be summoned so that each one is adjacent to at least one other swarm (that is, the swarms must fill one contiguous area). You may summon the wasp swarms so that they share the area of other creatures. Each swarm attacks any creatures occupying its area. The swarms are stationary after being summoned, and won't pursue creatures that flee.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Insect Plague",
+    "sourceRef": "PRPG Core Rulebook pg. 301",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "summoning",
+    "descriptors": [],
+    "levels": {
+      "cleric": 5,
+      "druid": 5
+    },
+    "castingTime": {
+      "raw": "1 round",
+      "unit": "round",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "one swarm of wasps per three levels, each of which be adjacent to at least one other swarm"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Wasp swarms attack creatures."
+  },
+  {
+    "id": "instant-summons",
+    "name": "Instant Summons",
+    "textEn": "You call some nonliving item directly to your hand from virtually any location.\n\nFirst, you must place your *arcane mark* on the item. Then you cast this spell, which magically and invisibly inscribes the name of the item on a sapphire worth at least 1,000 gp. Thereafter, you can summon the item by speaking a special word (set by you when the spell is cast) and crushing the gem. The item appears instantly in your hand. Only you can use the gem in this way.\n\nIf the item is in the possession of another creature, the spell does not work, but you know who the possessor is and roughly where that creature is located when the summons occurs.\n\nThe inscription on the gem is invisible. It is also unreadable, except by means of a *read magic* spell, to anyone but you.\n\nThe item can be summoned from another plane, but only if no other creature has claimed ownership of it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Instant Summons",
+    "sourceRef": "PRPG Core Rulebook pg. 301",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "summoning",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (sapphire worth 1,000 gp)",
+      "details": {
+        "material": "sapphire worth 1,000 gp"
+      }
+    },
+    "range": {
+      "raw": "see text",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one object weighing 10 lbs. or less whose longest dimension is 6 ft. or less"
+      }
+    ],
+    "duration": {
+      "raw": "permanent until discharged",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Prepared object appears in your hand."
+  },
+  {
+    "id": "interposing-hand",
+    "name": "Interposing Hand",
+    "textEn": "*Interposing hand* creates a Large magic hand that appears between you and one opponent. This floating, disembodied hand then moves to remain between the two of you, regardless of where you move or how the opponent tries to get around it, providing cover (+4 AC) for you against that opponent. Nothing can fool the hand—it sticks with the selected opponent in spite of *darkness*, invisibility, polymorphing, or any other attempt at hiding or disguise. The hand does not pursue an opponent, however.\n\nAn *interposing hand* is 10 feet long and about that wide with its fingers outstretched. It has as many hit points as you do when you're undamaged, and is AC 20 (–1 size, +11 natural). It takes damage as a normal creature, but most magical effects that don't cause damage do not affect it.\n\nThe hand never provokes attacks of opportunity from opponents. It cannot push through a *wall of force* or enter an *antimagic field*, but it suffers the full effect of a *prismatic wall* or *prismatic sphere*. The hand makes saving throws as its caster.\n\n*Disintegrate* or a successful *dispel magic* destroys it.\n\nAny creature weighing 2,000 pounds or less that tries to push past the hand is slowed to half its normal speed. The hand cannot reduce the speed of a creature weighing more than 2,000 pounds, but it still affects the creature's attacks.\n\nDirecting the spell to a new target is a move action.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Interposing Hand",
+    "sourceRef": "PRPG Core Rulebook pg. 301",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "force"
+    ],
+    "levels": {
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, F (a soft glove)",
+      "details": {
+        "focus": "a soft glove"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "10-ft. hand"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Hand provides cover against 1 opponent."
+  },
+  {
+    "id": "invisibility",
+    "name": "Invisibility",
+    "textEn": "The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\n\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible.\n\nOf course, the subject is not magically silenced, and certain other conditions can render the recipient detectable (such as swimming in water or stepping in a puddle). If a check is required, a stationary invisible creature has a +40 bonus on its Stealth checks. This bonus is reduced to +20 if the creature is moving. The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any spell targeting a foe or whose area or effect includes a foe. Exactly who is a foe depends on the invisible character's perceptions. Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as *bless* that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.\n\n*Invisibility* can be made permanent (on objects only) with a *permanency* spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Invisibility",
+    "sourceRef": "PRPG Core Rulebook pg. 301",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "glamer",
+    "descriptors": [],
+    "levels": {
+      "bard": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (an eyelash encased in gum arabic)",
+      "details": {
+        "material": "an eyelash encased in gum arabic"
+      }
+    },
+    "range": {
+      "raw": "personal or touch",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you or a creature or object weighing no more than 100 lbs./level"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless) or Will negates (harmless, object)",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless) or yes (harmless, object)",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Subject is invisible for 1 min./level or until it attacks."
+  },
+  {
+    "id": "invisibility-greater",
+    "name": "Invisibility, Greater",
+    "textEn": "This spell functions like *invisibility*, except that it doesn't end if the subject attacks.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Invisibility, Greater",
+    "sourceRef": "PRPG Core Rulebook pg. 302",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "glamer",
+    "descriptors": [],
+    "levels": {
+      "bard": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "personal or touch",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you or creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "As invisibility, but subject can attack and stay invisible."
+  },
+  {
+    "id": "invisibility-mass",
+    "name": "Invisibility, Mass",
+    "textEn": "This spell functions like *invisibility*, except that the effect moves with the group and is broken when anyone in the group attacks. Individuals in the group cannot see each other. The spell is broken for any individual who moves more than 180 feet from the nearest member of the group. If only two individuals are affected, the one moving away from the other one loses its invisibility. If both are moving away from each other, they both become visible when the distance between them exceeds 180 feet.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Invisibility, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 302",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "glamer",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (an eyelash encased in gum arabic)",
+      "details": {
+        "material": "an eyelash encased in gum arabic"
+      }
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "any number of creatures, no two of which can be more than 180 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "As invisibility, but affects all in range."
+  },
+  {
+    "id": "invisibility-purge",
+    "name": "Invisibility Purge",
+    "textEn": "You surround yourself with a sphere of power with a radius of 5 feet per caster level that negates all forms of invisibility.\n\nAnything invisible becomes visible while in the area.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Invisibility Purge",
+    "sourceRef": "PRPG Core Rulebook pg. 302",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Dispels invisibility within 5 ft./level."
+  },
+  {
+    "id": "invisibility-sphere",
+    "name": "Invisibility Sphere",
+    "textEn": "This spell functions like *invisibility*, except that this spell confers invisibility upon all creatures within 10 feet of the recipient at the time the spell is cast. The center of the effect is mobile with the recipient.\n\nThose affected by this spell can see each other and themselves as if unaffected by the spell. Any affected creature moving out of the area becomes visible, but creatures moving into the area after the spell is cast do not become invisible. Affected creatures (other than the recipient) who attack negate the invisibility only for themselves. If the spell recipient attacks, the *invisibility sphere* ends.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Invisibility Sphere",
+    "sourceRef": "PRPG Core Rulebook pg. 302",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "glamer",
+    "descriptors": [],
+    "levels": {
+      "bard": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M"
+    },
+    "range": {
+      "raw": "personal or touch",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "10-ft.-radius emanation around the creature"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Makes everyone within 10 feet invisible."
+  },
+  {
+    "id": "iron-body",
+    "name": "Iron Body",
+    "textEn": "This spell transforms your body into living iron, which grants you several powerful resistances and abilities. You gain damage reduction 15/adamantine. You are immune to blindness, critical hits, ability score damage, deafness, disease, drowning, electricity, poison, stunning, and all spells or attacks that affect your physiology or respiration, because you have no physiology or respiration while this spell is in effect. You take only half damage from acid and fire. However, you also become vulnerable to all special attacks that affect iron golems.\n\nYou gain a +6 enhancement bonus to your Strength score, but you take a –6 penalty to Dexterity as well (to a minimum Dexterity score of 1), and your speed is reduced to half normal. You have an arcane spell failure chance of 35% and a –6 armor check penalty, just as if you were clad in full plate armor. You cannot drink (and thus can't use potions) or play wind instruments.\n\nYour unarmed attack deals damage equal to a club sized for you (1d4 for Small characters or 1d6 for Medium characters), and you are considered armed when making unarmed attacks.\n\nYour weight increases by a factor of 10, causing you to sink in water like a stone. However, you could survive the lack of air at the bottom of the ocean—at least until the spell duration expires.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Iron Body",
+    "sourceRef": "PRPG Core Rulebook pg. 302",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (a piece of iron from an iron golem, a hero's armor, or a war machine)",
+      "details": {
+        "material": "a piece of iron from an iron golem, a hero's armor, or a war machine"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Your body becomes living iron."
+  },
+  {
+    "id": "ironwood",
+    "name": "Ironwood",
+    "textEn": "*Ironwood* is a magical substance created by druids from normal wood. While remaining natural wood in almost every way, *ironwood* is as strong, heavy, and resistant to fire as steel. Spells that affect metal or iron do not function on *ironwood*. Spells that affect wood do affect *ironwood*, although *ironwood* does not burn. Using this spell with *wood shape* or a wood-related Craft check, you can fashion wooden items that function as steel items. Thus, wooden plate armor and wooden swords can be created that are as durable as their normal steel counterparts. These items are freely usable by druids.\n\nFurther, if you make only half as much *ironwood* as the spell would normally allow, any weapon, shield, or suit of armor so created is treated as a magic item with a +1 enhancement bonus.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Ironwood",
+    "sourceRef": "PRPG Core Rulebook pg. 303",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "druid": 6
+    },
+    "castingTime": {
+      "raw": "1 minute/lb. created",
+      "unit": "other",
+      "amount": null
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, F (wood to be transformed)",
+      "details": {
+        "focus": "wood to be transformed"
+      }
+    },
+    "range": {
+      "raw": "0 ft.",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "an *ironwood* object weighing up to 5 lbs./level"
+      }
+    ],
+    "duration": {
+      "raw": "1 day/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "day",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Magic wood is as strong as steel."
+  },
+  {
+    "id": "irresistible-dance",
+    "name": "Irresistible Dance",
+    "textEn": "The subject feels an undeniable urge to dance and begins doing so, complete with foot shuffling and tapping. The spell effect makes it impossible for the subject to do anything other than caper and prance in place. The effect imposes a –4 penalty to Armor Class and a –10 penalty on Reflex saves, and it negates any AC bonus granted by a shield the target holds. The dancing subject provokes attacks of opportunity each round on its turn. A successful Will save reduces the duration of this effect to 1 round.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Irresistible Dance",
+    "sourceRef": "PRPG Core Rulebook pg. 303",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 6,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "living creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1d4+1 rounds",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will partial",
+      "kind": "will",
+      "effect": "partial",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Forces subject to dance."
+  }
+]

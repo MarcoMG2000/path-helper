@@ -1,0 +1,225 @@
+{
+  "license": "OGL-1.0a",
+  "category": "domains",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://www.aonprd.com/ClericDomains.aspx",
+      "sha256": "842de4cb273fbe6478eb98071255973a011d2ba5c962c7ad8aa0bba86ad8f8a2",
+      "bytes": 321769,
+      "fetchedAt": "2026-10-16T13:53:30.606Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Air",
+      "sha256": "9a2cdfb35f4708c3722431b36d76cc3c95da7d11e6e4ee35550c029f75dc7c36",
+      "bytes": 49794,
+      "fetchedAt": "2026-10-16T13:54:42.564Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Animal",
+      "sha256": "a6829b5b72ed8faec08e6796840e36e3e5f6cadccb93eb205f596aaa5592511e",
+      "bytes": 57467,
+      "fetchedAt": "2026-10-16T14:00:54.987Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Artifice",
+      "sha256": "494f56401280d4705d2283b558cc028494890ebcfe098d5d873049cc5231e109",
+      "bytes": 58156,
+      "fetchedAt": "2026-10-16T14:00:55.550Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Chaos",
+      "sha256": "365598bf94e2a2559106e816048a9c0702b5b709c559b98a9afe8439291011c1",
+      "bytes": 100622,
+      "fetchedAt": "2026-10-16T14:00:56.553Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Charm",
+      "sha256": "fd537e7d1f0e19477fffc8313b6a666f4911da1cf4c1293432e5fd7276c7f2e7",
+      "bytes": 53100,
+      "fetchedAt": "2026-10-16T14:00:57.557Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Community",
+      "sha256": "c83a2eb7ceefe263a3e13269b2c66805722fab18d10468a4e9d30606ec957d46",
+      "bytes": 56416,
+      "fetchedAt": "2026-10-16T14:00:59.852Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Darkness",
+      "sha256": "e69c13cf0290d5b0c9fe92256f9ab4b2cd7dec4edacfe918518ddfb917f4edc5",
+      "bytes": 58766,
+      "fetchedAt": "2026-10-16T14:01:00.002Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Death",
+      "sha256": "941bc1ddf29a45fc482077a836f74cb81deb0da6b6df057c9d955eb69dd7fe38",
+      "bytes": 68637,
+      "fetchedAt": "2026-10-16T14:01:01.006Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Destruction",
+      "sha256": "c0620711bd41cc233978268783a880d39ced177cfe2e53f17ba44d8d2038a3cb",
+      "bytes": 65579,
+      "fetchedAt": "2026-10-16T14:01:02.005Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Earth",
+      "sha256": "08dd115293002b0dfa98992d13412594462ced5fc7b01b35b83146e738f39dbb",
+      "bytes": 55039,
+      "fetchedAt": "2026-10-16T14:01:03.006Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Evil",
+      "sha256": "4246a5affa0d5f57ad8a5f8131485d835f9340694e5b1e40fdfaa4efb6268cc3",
+      "bytes": 135319,
+      "fetchedAt": "2026-10-16T14:01:04.010Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Fire",
+      "sha256": "d018a2532ab805bd4ead0c0b33aaed63eb0b86f2a13afb721de322b7c0f4d30d",
+      "bytes": 51852,
+      "fetchedAt": "2026-10-16T14:01:05.009Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Glory",
+      "sha256": "e2950469d71eafbfdd1cc2b8aeb4f5910eb9c92ceae737373c329f7fbc6c55dc",
+      "bytes": 57755,
+      "fetchedAt": "2026-10-16T14:01:06.017Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Good",
+      "sha256": "1cfea879e0810f4dae0cdc76d6df351fe9b35d03eb29e8c34374657465cdf572",
+      "bytes": 74251,
+      "fetchedAt": "2026-10-16T14:01:07.012Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Healing",
+      "sha256": "c5987ad21898084fac33b5a3391edc13c96d1b0311c8ae4d265c39a4a1a4adce",
+      "bytes": 53228,
+      "fetchedAt": "2026-10-16T14:01:08.017Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Knowledge",
+      "sha256": "9494f860afb6856f72ffd036f3e00ae472d38d1b7eec05ca6ef7086bc572d836",
+      "bytes": 69923,
+      "fetchedAt": "2026-10-16T14:01:09.007Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Law",
+      "sha256": "e26007d3aae4b0f13baed65e771e71a7441cc6a951570c6fca6a32093516e764",
+      "bytes": 105772,
+      "fetchedAt": "2026-10-16T14:01:10.014Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Liberation",
+      "sha256": "950691dce08024c0bd3943e481a9b449543b18cdae9696a09bed01531fa14418",
+      "bytes": 48456,
+      "fetchedAt": "2026-10-16T14:01:11.013Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Luck",
+      "sha256": "eb520de995425a4156b67e3e0bdc5d9b56b00363e04dd356576bca710eef224b",
+      "bytes": 46270,
+      "fetchedAt": "2026-10-16T14:01:12.013Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Madness",
+      "sha256": "cf9e731eb027699836f203b5622a003895cc01ad97ed4dfd004f59de30571040",
+      "bytes": 53073,
+      "fetchedAt": "2026-10-16T14:01:13.013Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Magic",
+      "sha256": "44b410b95cfd105dc4cabaf0c03626ab14b293622bfb944f4c5984834f4a5d54",
+      "bytes": 56390,
+      "fetchedAt": "2026-10-16T14:01:14.005Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Nobility",
+      "sha256": "5c7591267048620a5166841f3194a7d7e35e5418f28352d5cf16a882f05b62f0",
+      "bytes": 60613,
+      "fetchedAt": "2026-10-16T14:01:15.009Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Plant",
+      "sha256": "f56ad9d02f4978039cd59243f0beb262d9bbbca3ca66db86a7b6acd267472844",
+      "bytes": 52916,
+      "fetchedAt": "2026-10-16T14:01:16.009Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Protection",
+      "sha256": "32d16f22638cbef96420533323dd3bdd6aa814e89fc17619df64601b251345c9",
+      "bytes": 57395,
+      "fetchedAt": "2026-10-16T14:01:17.013Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Repose",
+      "sha256": "8db954e05a8ea54f3c2e10c3375767011f7e289497d9427923c8ef71ed21e862",
+      "bytes": 55543,
+      "fetchedAt": "2026-10-16T14:01:18.012Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Rune",
+      "sha256": "9b12d66ba2e728f622b677e16ce4a6385078feced33ba12facdca48a77bfdd91",
+      "bytes": 49276,
+      "fetchedAt": "2026-10-16T14:01:19.014Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Scalykind",
+      "sha256": "8171f4dcaaef5e43380b1188af05608c3fb2e0ec815db32eef0c546f008ffd38",
+      "bytes": 47096,
+      "fetchedAt": "2026-10-16T14:01:20.003Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Strength",
+      "sha256": "1d268b381058c8effcd0acbd810a735bfb806825519b1d638abbebf6cb7a46e2",
+      "bytes": 62089,
+      "fetchedAt": "2026-10-16T14:01:21.006Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Sun",
+      "sha256": "2eb389bf0a88dab9cbd82122fb5f5cd48b0b205ee5b9b685c0513e06bf9fc895",
+      "bytes": 49484,
+      "fetchedAt": "2026-10-16T14:01:22.011Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Travel",
+      "sha256": "226c7bbd38a3c96fe3a3a69572ebef3e8737a83955fe917dceebab245092a646",
+      "bytes": 53460,
+      "fetchedAt": "2026-10-16T14:01:23.008Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Trickery",
+      "sha256": "4f75107e4309bda0072c5c586de42d896cbac531289fa5ca5412ddf9b082a197",
+      "bytes": 77633,
+      "fetchedAt": "2026-10-16T14:01:24.012Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Void",
+      "sha256": "8d2b855504a5bbe83c5ed83ed2310639c134443ecddb14ed24284156f32c15e7",
+      "bytes": 53084,
+      "fetchedAt": "2026-10-16T14:01:25.014Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=War",
+      "sha256": "a29bc5fbf0cb9cbbc6267929c6d453e935e451085ec9d1d11807fd439de84338",
+      "bytes": 52928,
+      "fetchedAt": "2026-10-16T14:01:26.002Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Water",
+      "sha256": "45716fa328d930e6cf4f7f353c8edeaf5492f66320f0edcb4a9029ccc5243840",
+      "bytes": 57809,
+      "fetchedAt": "2026-10-16T14:01:27.007Z"
+    },
+    {
+      "url": "https://www.aonprd.com/DomainDisplay.aspx?ItemName=Weather",
+      "sha256": "a10f8682ad16f95ecda5d7b9882246c81d93b52032421e83dd001c87ade1601f",
+      "bytes": 48046,
+      "fetchedAt": "2026-10-16T13:54:43.281Z"
+    }
+  ],
+  "expectedCount": 33
+}

@@ -1,0 +1,238 @@
+{
+  "call-lightning": {
+    "summaryEs": "Al terminar el conjuro y una vez por asalto, haces caer un rayo vertical de 5 pies de ancho y 30 de largo que causa 3d6 de daño eléctrico en el punto que elijas. Cada rayo tras el primero cuesta una acción estándar; máximo tantos rayos como tu nivel (hasta 10). Con tormenta en exteriores, 3d10.",
+    "status": "draft"
+  },
+  "call-lightning-storm": {
+    "summaryEs": "Funciona como call lightning, pero cada rayo causa 5d6 de daño eléctrico (5d10 en exteriores con tormenta) y puedes invocar un máximo de 15 rayos.",
+    "status": "draft"
+  },
+  "calm-animals": {
+    "summaryEs": "Calma a animales ordinarios (Inteligencia 1 o 2) del mismo tipo, a no más de 30 pies entre sí, hasta 2d4 + nivel de lanzador DG. Quedan dóciles, no atacan ni huyen, y se defienden normalmente; cualquier amenaza rompe el conjuro sobre la criatura amenazada.",
+    "status": "draft"
+  },
+  "calm-emotions": {
+    "summaryEs": "Calma a criaturas agitadas: no pueden realizar acciones violentas (aunque sí defenderse) ni destructivas. Suprime los bonificadores morales de bless, good hope y rage, la inspiración del bardo, la furia del bárbaro, el miedo y la condición confused. Una acción agresiva contra uno rompe el conjuro.",
+    "status": "draft"
+  },
+  "cats-grace": {
+    "summaryEs": "El sujeto se vuelve más grácil y ágil: bonificador de mejora de +4 a Destreza, con los beneficios habituales a la CA, las salvaciones de Reflejos y demás usos del modificador de Destreza.",
+    "status": "draft"
+  },
+  "cats-grace-mass": {
+    "summaryEs": "Funciona como cat's grace, pero afecta a varias criaturas.",
+    "status": "draft"
+  },
+  "cause-fear": {
+    "summaryEs": "La criatura afectada queda asustada (frightened). Si supera una salvación de Voluntad, queda sacudida (shaken) durante 1 asalto. Las criaturas con 6 o más DG son inmunes. Anula y disipa remove fear.",
+    "status": "draft"
+  },
+  "chain-lightning": {
+    "summaryEs": "Una descarga eléctrica golpea a un objetivo principal y salta a objetivos secundarios, hasta tu nivel de lanzador (máximo 20). Causa 1d6 de daño eléctrico por nivel (máximo 20d6) a cada uno; Reflejos para la mitad, con CD 2 menor para los secundarios, que deben estar a 30 pies del principal.",
+    "status": "draft"
+  },
+  "changestaff": {
+    "summaryEs": "Conviertes un bastón especialmente preparado en una criatura Huge parecida a un treant, de unos 24 pies, que te defiende y obedece tus órdenes habladas. No es un treant auténtico. Si queda a 0 o menos puntos de golpe, se deshace en polvo y el bastón se destruye; si no, vuelve a ser bastón al acabar.",
+    "status": "draft"
+  },
+  "chaos-hammer": {
+    "summaryEs": "Una explosión de energía caótica daña solo a criaturas legales y neutrales: 1d8 por cada dos niveles de lanzador (máximo 5d8) a las legales, que además quedan ralentizadas 1d6 asaltos; Voluntad reduce el daño a la mitad y niega la ralentización. A las ni legales ni caóticas, solo la mitad del daño.",
+    "status": "draft"
+  },
+  "charm-animal": {
+    "summaryEs": "Funciona como charm person, pero afecta a una criatura del tipo animal.",
+    "status": "draft"
+  },
+  "charm-monster": {
+    "summaryEs": "Funciona como charm person, pero el efecto no está restringido por tipo ni tamaño de criatura.",
+    "status": "draft"
+  },
+  "charm-monster-mass": {
+    "summaryEs": "Funciona como charm monster, pero afecta a criaturas cuyos DG combinados no superen el doble de tu nivel, o al menos a una criatura sea cual sea su DG. Eliges los objetivos de uno en uno hasta llegar a uno con demasiados DG.",
+    "status": "draft"
+  },
+  "charm-person": {
+    "summaryEs": "Un humanoide te considera un amigo y aliado de confianza (actitud amistosa); si tú o tus aliados lo amenazan o atacan, recibe +5 a su salvación. No lo controlas como a un autómata: para que haga algo inusual debes ganar una prueba de Carisma enfrentada. Nunca obedece órdenes suicidas.",
+    "status": "draft"
+  },
+  "chill-metal": {
+    "summaryEs": "El metal se enfría mucho y daña a quien lo toca: sin daño el primer y último asalto, 1d4 en el segundo y penúltimo, y 2d4 en los asaltos centrales; sin armadura, escudo ni arma afectados solo sufre el daño mínimo. El metal mágico tiene salvación. Anula y disipa heat metal.",
+    "status": "draft"
+  },
+  "chill-touch": {
+    "summaryEs": "Tu mano brillante canaliza energía negativa en un ataque de toque cuerpo a cuerpo, tantos toques como tu nivel: 1d6 de daño y 1 punto de daño de Fuerza salvo salvación de Fortaleza. Un no muerto no sufre daño, pero huye aterrorizado 1d4 asaltos + 1 por nivel de lanzador si falla Voluntad.",
+    "status": "draft"
+  },
+  "circle-of-death": {
+    "summaryEs": "Apaga la fuerza vital de criaturas vivas y las mata al instante: 1d4 DG de criaturas por nivel de lanzador (máximo 20d4), empezando por las de menos DG y, en empate, las más cercanas al origen. No afecta a criaturas de 9 o más DG.",
+    "status": "draft"
+  },
+  "clairaudience-clairvoyance": {
+    "summaryEs": "Creas un sensor mágico invisible en un lugar conocido o evidente que te permite oír o ver (a tu elección) casi como si estuvieras allí, sin línea de visión ni de efecto. No se mueve, pero puedes girarlo. En oscuridad mágica no ves nada; en oscuridad natural ves en un radio de 10 pies.",
+    "status": "draft"
+  },
+  "clenched-fist": {
+    "summaryEs": "Como interposing hand, pero la mano también puede empujar o golpear a un oponente; se mueve hasta 60 pies y ataca una vez por asalto, causando 1d8+11 de daño; el golpeado debe superar Fortaleza o queda aturdido 1 asalto. También puede interponerse o hacer embestida como forceful hand.",
+    "status": "draft"
+  },
+  "cloak-of-chaos": {
+    "summaryEs": "Un patrón de colores protege a los sujetos: +4 de desvío a la CA y +4 de resistencia a salvaciones contra todos los ataques, resistencia a conjuros 25 contra conjuros legales, protección contra posesión e influencia mental, y el atacante legal que golpee cuerpo a cuerpo queda confused 1 asalto.",
+    "status": "draft"
+  },
+  "clone": {
+    "summaryEs": "Crea un duplicado inerte de una criatura a partir de un trozo de su carne de al menos 1 pulgada cúbica; crece en un laboratorio 2d4 meses. Si el original muere, su alma pasa al clon, que gana dos niveles negativos permanentes (si es de nivel 1, 2 puntos de drenaje de Con). Falla si murió por vejez.",
+    "status": "draft"
+  },
+  "cloudkill": {
+    "summaryEs": "Genera una niebla amarillo verdosa y venenosa que mata sin salvación a criaturas vivas de 3 o menos DG; con 4 a 6 DG mueren salvo salvación de Fortaleza (si no, sufren 1d4 de daño de Constitución por asalto); con 6 o más DG sufren 1d4 de daño de Constitución por asalto. Se aleja 10 pies por asalto.",
+    "status": "draft"
+  },
+  "color-spray": {
+    "summaryEs": "Un cono de colores aturde, quizá ciega y deja inconscientes a criaturas según sus DG: con 2 o menos DG, inconsciente, cegada y aturdida 2d4 asaltos y luego cegada y aturdida 1d4 y aturdida 1; con 3 o 4 DG, cegada y aturdida 1d4 asaltos y luego aturdida 1; con 5 o más, aturdida 1 asalto.",
+    "status": "draft"
+  },
+  "command": {
+    "summaryEs": "Das una única orden que el sujeto cumple en su siguiente turno si puede: Approach (acercarse), Drop (soltar lo que sostiene), Fall (caer al suelo, derribado 1 asalto), Flee (alejarse) o Halt (quedarse quieto 1 asalto sin ser indefenso). Si no puede cumplirla, el conjuro falla.",
+    "status": "draft"
+  },
+  "command-greater": {
+    "summaryEs": "Funciona como command, pero afecta hasta una criatura por nivel y la orden dura más de 1 asalto. Al inicio de cada acción tras la primera, cada criatura repite la salvación de Voluntad para liberarse. Todas deben recibir la misma orden.",
+    "status": "draft"
+  },
+  "command-plants": {
+    "summaryEs": "Controlas en parte a criaturas planta: te entienden, te perciben con actitud amistosa y no te atacan. Para que hagan algo inusual debes ganar una prueba de Carisma enfrentada; nunca obedecen órdenes suicidas. Afecta a criaturas cuyo nivel o DG combinados no superen el doble de tu nivel.",
+    "status": "draft"
+  },
+  "command-undead": {
+    "summaryEs": "Controlas en parte a un no muerto: si es inteligente te percibe con actitud amistosa y no te ataca, y para órdenes inusuales debes ganar una prueba de Carisma enfrentada. Un no muerto sin inteligencia no tiene salvación y solo entiende órdenes básicas. Amenazarlo rompe el conjuro.",
+    "status": "draft"
+  },
+  "commune": {
+    "summaryEs": "Contactas con tu deidad o sus agentes y haces una pregunta de sí o no por nivel de lanzador. Las respuestas son correctas dentro del conocimiento de la entidad; puede responder «poco claro» o con una frase de cinco palabras o menos. Si te distraes o hablas de otra cosa, el conjuro termina.",
+    "status": "draft"
+  },
+  "commune-with-nature": {
+    "summaryEs": "Conoces al instante hasta tres datos sobre el territorio circundante (terreno, plantas, minerales, agua, gente, animales, criaturas, estado general). Radio de 1 milla por nivel de lanzador en exteriores, o 100 pies por nivel bajo tierra; no funciona donde hay construcciones.",
+    "status": "draft"
+  },
+  "comprehend-languages": {
+    "summaryEs": "Entiendes palabras habladas o lees mensajes escritos incomprensibles, pero no puedes hablar ni escribir el idioma. Lees una página (250 palabras) por minuto. No lee escritura mágica ni descifra códigos. Puede hacerse permanente con permanency.",
+    "status": "draft"
+  },
+  "cone-of-cold": {
+    "summaryEs": "Un cono de frío extremo parte de tu mano y drena el calor, causando 1d6 de daño de frío por nivel de lanzador (máximo 15d6).",
+    "status": "draft"
+  },
+  "confusion": {
+    "summaryEs": "Los objetivos no pueden decidir sus acciones: al inicio de su turno tiran d%. 01-25 actúa con normalidad; 26-50 solo balbucea; 51-75 se causa 1d8 de daño más su modificador de Fuerza; 76-100 ataca a la criatura más cercana. Quien sea atacado ataca a su agresor en su siguiente turno.",
+    "status": "draft"
+  },
+  "confusion-lesser": {
+    "summaryEs": "Una sola criatura queda confused durante 1 asalto.",
+    "status": "draft"
+  },
+  "consecrate": {
+    "summaryEs": "Bendice un área con energía positiva: +3 sagrado a la CD para resistir energía positiva canalizada, y los no muertos que entran sufren -1 a ataque, daño y salvaciones; no se pueden crear ni invocar allí. Con un altar de tu deidad se duplica (+6 y -2). Anula y disipa desecrate.",
+    "status": "draft"
+  },
+  "contact-other-plane": {
+    "summaryEs": "Envías tu mente a otro plano para hacer preguntas, una por cada dos niveles de lanzador y una por asalto, con respuestas de una palabra. Debes superar una prueba de Inteligencia o tu Inteligencia y Carisma caen a 8. La respuesta puede ser cierta, de desconocimiento, mentira o inventada.",
+    "status": "draft"
+  },
+  "contagion": {
+    "summaryEs": "El sujeto contrae de inmediato una enfermedad a tu elección: blinding sickness, bubonic plague, cackle fever, filth fever, leprosy, mindfire, red ache, shakes o slimy doom. El periodo de incubación no se aplica; los efectos siguen la frecuencia y la CD de la enfermedad.",
+    "status": "draft"
+  },
+  "contingency": {
+    "summaryEs": "Colocas sobre ti otro conjuro, lanzado a la vez, que se activa al cumplirse una condición que dictes. Debe afectar a tu persona y ser de nivel no mayor a un tercio de tu nivel de lanzador (máximo 6). Condiciones complicadas pueden hacer fallar el conjunto. Solo puedes tener un contingency activo.",
+    "status": "draft"
+  },
+  "continual-flame": {
+    "summaryEs": "Una llama tan brillante como una antorcha surge de un objeto que tocas, sin calor y sin consumir oxígeno. Puede taparse y ocultarse, pero no sofocarse ni apagarse. Los conjuros de luz anulan y disipan los de oscuridad de nivel igual o menor.",
+    "status": "draft"
+  },
+  "control-plants": {
+    "summaryEs": "Controlas durante poco tiempo a una o más criaturas planta mediante órdenes de voz, que entienden en cualquier idioma. Aunque no puedas hablar, no te atacan. Al terminar vuelven a su comportamiento normal. Las órdenes suicidas se ignoran.",
+    "status": "draft"
+  },
+  "control-undead": {
+    "summaryEs": "Controlas durante poco tiempo a no muertos mediante órdenes de voz, que entienden en cualquier idioma; aunque no puedas hablar, no te atacan. Al terminar vuelven a su comportamiento normal. Los inteligentes recuerdan que los controlaste y pueden buscar venganza.",
+    "status": "draft"
+  },
+  "control-water": {
+    "summaryEs": "Dos versiones. Lower water reduce la profundidad del agua hasta 2 pies por nivel de lanzador (mínimo 1 pulgada) en una depresión de lado hasta nivel de lanzador × 10 pies; raise water la sube. En masas muy grandes crea un remolino. Puedes reducir a la mitad una dimensión y duplicar la otra.",
+    "status": "draft"
+  },
+  "control-weather": {
+    "summaryEs": "Cambias el clima local: tarda 10 minutos en lanzarse y otros 10 en manifestarse. Eliges tiempo apropiado al clima y estación (tornado, tormenta, ola de calor, ventisca...) o lo calmas; controlas tendencias generales, no detalles. Un druida duplica la duración y afecta un círculo de 3 millas.",
+    "status": "draft"
+  },
+  "control-winds": {
+    "summaryEs": "Alteras la fuerza del viento a tu alrededor (dirección, más o menos fuerza) y puedes crear un «ojo» de aire en calma de hasta 80 pies de diámetro. Cuatro patrones: downdraft, updraft, rotation o blast. Por cada tres niveles de lanzador cambias la fuerza un nivel; Fortaleza cada asalto.",
+    "status": "draft"
+  },
+  "create-food-and-water": {
+    "summaryEs": "Crea comida sencilla y muy nutritiva a tu elección, que se pudre y es incomestible tras 24 horas (otras 24 si lanzas purify food and water), y agua limpia como la de lluvia, que no se estropea.",
+    "status": "draft"
+  },
+  "create-greater-undead": {
+    "summaryEs": "Como create undead, pero creas no muertos más poderosos según tu nivel de lanzador: 15th o menos, shadow; 16th-17th, wraith; 18th-19th, spectre; 20th o más, devourer.",
+    "status": "draft"
+  },
+  "create-undead": {
+    "summaryEs": "Conjuro maligno, más potente que animate dead, que infunde un cadáver de energía negativa para crear no muertos según tu nivel de lanzador: 11th o menos, ghoul; 12th-14th, ghast; 15th-17th, mummy; 18th o más, mohrg. Solo puede lanzarse de noche; los creados no quedan automáticamente bajo tu control.",
+    "status": "draft"
+  },
+  "create-water": {
+    "summaryEs": "Genera agua potable limpia como agua de lluvia, en un área del tamaño del recipiente o tres veces mayor (puede causar un chaparrón). Desaparece tras 1 día si no se consume. El agua pesa unas 8 libras por galón; un pie cúbico contiene unos 8 galones y pesa unas 60 libras.",
+    "status": "draft"
+  },
+  "creeping-doom": {
+    "summaryEs": "Invocas cuatro enjambres masivos de insectos que aparecen adyacentes pero se mueven por separado. Usan las estadísticas de enjambres de ciempiés, con 60 puntos de golpe cada uno y 4d6 de daño. Como acción estándar los diriges a objetivos a menos de 100 pies de ti.",
+    "status": "draft"
+  },
+  "crushing-despair": {
+    "summaryEs": "Un cono invisible de desesperación causa a cada criatura afectada una penalización de -2 a ataques, salvaciones, pruebas de característica y de habilidad, y daño con armas. Anula y disipa good hope.",
+    "status": "draft"
+  },
+  "crushing-hand": {
+    "summaryEs": "Como interposing hand, pero también puede agarrar a un oponente como grasping hand, con bonificador +12 por Fuerza (35) y +1 por tamaño Large. Causa 2d6+12 de daño con cada presa exitosa. También puede embestir como forceful hand o interponerse.",
+    "status": "draft"
+  },
+  "cure-critical-wounds": {
+    "summaryEs": "Funciona como cure light wounds, pero cura 4d8 puntos de daño +1 por nivel de lanzador (máximo +20).",
+    "status": "draft"
+  },
+  "cure-critical-wounds-mass": {
+    "summaryEs": "Funciona como mass cure light wounds, pero cura 4d8 puntos de daño +1 por nivel de lanzador (máximo +40).",
+    "status": "draft"
+  },
+  "cure-light-wounds": {
+    "summaryEs": "Al imponer la mano canalizas energía positiva que cura 1d8 puntos de daño + 1 por nivel de lanzador (máximo +5). A los no muertos les causa daño en su lugar; pueden aplicar resistencia a conjuros y hacer una salvación de Voluntad para reducirlo a la mitad.",
+    "status": "draft"
+  },
+  "cure-light-wounds-mass": {
+    "summaryEs": "Canalizas energía positiva que cura 1d8 puntos de daño + 1 por nivel de lanzador (máximo +25) a cada criatura elegida. Daña a los no muertos del área, que pueden hacer una salvación de Voluntad para la mitad.",
+    "status": "draft"
+  },
+  "cure-moderate-wounds": {
+    "summaryEs": "Funciona como cure light wounds, pero cura 2d8 puntos de daño + 1 por nivel de lanzador (máximo +10).",
+    "status": "draft"
+  },
+  "cure-moderate-wounds-mass": {
+    "summaryEs": "Funciona como mass cure light wounds, pero cura 2d8 puntos de daño + 1 por nivel de lanzador (máximo +30).",
+    "status": "draft"
+  },
+  "cure-serious-wounds": {
+    "summaryEs": "Funciona como cure light wounds, pero cura 3d8 puntos de daño + 1 por nivel de lanzador (máximo +15).",
+    "status": "draft"
+  },
+  "cure-serious-wounds-mass": {
+    "summaryEs": "Funciona como mass cure light wounds, pero cura 3d8 puntos de daño + 1 por nivel de lanzador (máximo +35).",
+    "status": "draft"
+  },
+  "curse-water": {
+    "summaryEs": "Imbuye un frasco (1 pinta) de agua con energía negativa y la convierte en agua profana (unholy water), que daña a los outsiders buenos como el agua bendita daña a los no muertos y a los outsiders malvados.",
+    "status": "draft"
+  }
+}

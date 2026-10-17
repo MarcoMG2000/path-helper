@@ -1,0 +1,182 @@
+{
+  "mage-armor": {
+    "summaryEs": "Un campo de fuerza invisible pero tangible rodea al sujeto y le da un bonificador de armadura de +4 a la CA. A diferencia de la armadura normal, no tiene penalizador por armadura, probabilidad de fallo de conjuro arcano ni reducción de velocidad, y las criaturas incorpóreas no pueden eludirlo.",
+    "status": "draft"
+  },
+  "mage-hand": {
+    "summaryEs": "Señalas un objeto y puedes levantarlo y moverlo a distancia a voluntad. Como acción de movimiento puedes impulsarlo hasta 15 pies en cualquier dirección; el conjuro termina si la distancia entre tú y el objeto supera el alcance del conjuro.",
+    "status": "draft"
+  },
+  "mages-disjunction": {
+    "summaryEs": "Los efectos y objetos mágicos en el radio, salvo los que llevas o tocas, quedan disyuntos: los conjuros se deshacen y cada objeto permanente debe superar una salvación de Voluntad o volverse normal. Tiene un 1% por nivel de destruir un campo antimagia. También puede destruir artefactos.",
+    "status": "draft"
+  },
+  "mages-faithful-hound": {
+    "summaryEs": "Conjuras un perro guardián fantasmal, invisible salvo para ti, que vigila el área sin moverse. Ladra si una criatura Pequeña o mayor se acerca a 30 pies y muerde a quien llegue a 5 pies (+10 al ataque, 2d6+3 de daño perforante). Ve criaturas invisibles y etéreas. No puede ser atacado.",
+    "status": "draft"
+  },
+  "mages-lucubration": {
+    "summaryEs": "Preparas al instante un conjuro de nivel 5 o inferior que hayas lanzado en las últimas 24 horas. Queda almacenado en tu mente como si lo hubieras preparado de forma normal. Si requiere componentes materiales, debes proporcionarlos; sin ellos no puedes usarlo.",
+    "status": "draft"
+  },
+  "mages-magnificent-mansion": {
+    "summaryEs": "Conjuras una morada extradimensional con una única entrada, de 4 pies de ancho y 8 de alto, por la que solo pasan quienes designes. Contiene cámaras, comida para un banquete de nueve platos para una docena de personas por nivel de lanzador y hasta dos sirvientes casi transparentes por nivel.",
+    "status": "draft"
+  },
+  "mages-private-sanctum": {
+    "summaryEs": "Garantiza privacidad: desde fuera solo se ve una masa oscura y neblinosa, la visión en la oscuridad no la penetra y ningún sonido escapa. Quienes están dentro ven el exterior. Las adivinaciones de escrutinio no perciben nada dentro. Puede hacerse permanente.",
+    "status": "draft"
+  },
+  "mages-sword": {
+    "summaryEs": "Crea un plano de fuerza con forma de espada que ataca a un oponente una vez por asalto en tu turno: tu nivel de lanzador + Inteligencia o Carisma, con +3 de mejora. Causa 4d6+3 de daño de fuerza, amenaza 19–20 y multiplicador ×2. Cambiar de objetivo requiere una acción estándar.",
+    "status": "draft"
+  },
+  "magic-aura": {
+    "summaryEs": "Alteras el aura de un objeto para que los conjuros de detección lo registren como no mágico, como un objeto mágico que especifiques o como sujeto de un conjuro dado. Quien lo examine con identificar y supere una salvación de Voluntad nota que el aura es falsa.",
+    "status": "draft"
+  },
+  "magic-circle-against-chaos": {
+    "summaryEs": "Funciona como círculo mágico contra el mal, pero es similar a protección contra el caos en lugar de protección contra el mal, y puede aprisionar a una criatura convocada que no sea legal.",
+    "status": "draft"
+  },
+  "magic-circle-against-evil": {
+    "summaryEs": "Los efectos de protección contra el mal afectan a las criaturas del área y las criaturas malignas convocadas no pueden entrar. Dirigido hacia dentro, atrapa a una criatura convocada no buena hasta 24 horas por nivel de lanzador. Un diagrama especial lo hace más seguro.",
+    "status": "draft"
+  },
+  "magic-circle-against-good": {
+    "summaryEs": "Funciona como círculo mágico contra el mal, pero es similar a protección contra el bien en lugar de protección contra el mal, y puede aprisionar a una criatura convocada que no sea malvada.",
+    "status": "draft"
+  },
+  "magic-circle-against-law": {
+    "summaryEs": "Funciona como círculo mágico contra el mal, pero es similar a protección contra la ley en lugar de protección contra el mal, y puede aprisionar a una criatura convocada que no sea caótica.",
+    "status": "draft"
+  },
+  "magic-fang": {
+    "summaryEs": "Da a un arma natural o ataque sin armas del sujeto un bonificador de mejora de +1 a las tiradas de ataque y daño. Puede afectar un golpe, puño, mordisco u otra arma natural. No cambia el daño no letal de un ataque sin armas a letal. Puede hacerse permanente con permanencia.",
+    "status": "draft"
+  },
+  "magic-fang-greater": {
+    "summaryEs": "Funciona como colmillo mágico, pero el bonificador de mejora es de +1 por cuatro niveles de lanzador (máximo +5). No permite superar la reducción de daño salvo la mágica. También puedes dar +1 a todas las armas naturales de la criatura. Puede hacerse permanente con permanencia.",
+    "status": "draft"
+  },
+  "magic-jar": {
+    "summaryEs": "Colocas tu alma en una gema o cristal grande, dejando tu cuerpo sin vida, e intentas poseer un cuerpo cercano; su alma queda en la gema salvo que supere una salvación de Voluntad. Percibes vidas a 10 pies por nivel de lanzador. Destruir la gema termina el conjuro.",
+    "status": "draft"
+  },
+  "magic-missile": {
+    "summaryEs": "Un proyectil de energía mágica sale de tu dedo y causa 1d4+1 de daño de fuerza. Impacta sin fallar si el objetivo no tiene cobertura ni ocultación totales. Ganas un proyectil más por cada dos niveles de lanzador por encima del 1.º: dos al 3.º, tres al 5.º, cuatro al 7.º y cinco como máximo al 9.º.",
+    "status": "draft"
+  },
+  "magic-mouth": {
+    "summaryEs": "Dota a un objeto o criatura de una boca encantada que, la próxima vez que ocurra un suceso especificado, pronuncia un mensaje de 25 palabras o menos. Solo se activa con desencadenantes visuales o auditivos, a un alcance de 15 pies por nivel de lanzador. Puede hacerse permanente con permanencia.",
+    "status": "draft"
+  },
+  "magic-stone": {
+    "summaryEs": "Transmutas hasta tres guijarros, no mayores que balas de honda, para que golpeen con gran fuerza. Lanzados tienen un incremento de distancia de 20 pies; con honda, 50 pies. Dan +1 de mejora al ataque y al daño. Cada piedra que impacta causa 1d6+1 de daño, o 2d6+2 contra muertos vivientes.",
+    "status": "draft"
+  },
+  "magic-vestment": {
+    "summaryEs": "Imbuyes una armadura o escudo con un bonificador de mejora de +1 por cuatro niveles de lanzador (máximo +5 a nivel 20). Un conjunto de ropa normal cuenta como una armadura que no concede bonificador a la CA a efectos de este conjuro.",
+    "status": "draft"
+  },
+  "magic-weapon": {
+    "summaryEs": "Da a un arma un bonificador de mejora de +1 a las tiradas de ataque y daño. No se acumula con el +1 al ataque de un arma obra maestra. No puede lanzarse sobre un arma natural (para eso, colmillo mágico); el ataque sin armas de un monje se considera un arma y sí puede mejorarse.",
+    "status": "draft"
+  },
+  "magic-weapon-greater": {
+    "summaryEs": "Funciona como arma mágica, pero el bonificador de mejora es de +1 por cuatro niveles de lanzador (máximo +5), sin superar la reducción de daño salvo la mágica. Alternativamente afecta hasta 50 flechas, virotes o balas del mismo tipo y juntos; pierden la transmutación tras usarse.",
+    "status": "draft"
+  },
+  "major-creation": {
+    "summaryEs": "Funciona como creación menor, pero también crea objetos minerales: piedra, cristal, metal o similares. La duración depende de la dureza y rareza: 2 h/nivel materia vegetal, 1 h/nivel piedra, cristal y metales comunes, 20 min/nivel metales preciosos, 10 min/nivel gemas y 1 asalto/nivel metales raros.",
+    "status": "draft"
+  },
+  "major-image": {
+    "summaryEs": "Funciona como imagen silenciosa, pero la ilusión incluye también sonido, olor y efectos térmicos. Mientras te concentras, puedes mover la imagen dentro del alcance. La imagen desaparece al ser golpeada por un oponente, salvo que hagas que la ilusión reaccione de forma apropiada.",
+    "status": "draft"
+  },
+  "make-whole": {
+    "summaryEs": "Funciona como reparar, pero restaura 1d6 de daño por nivel a un objeto o constructo (máximo 5d6). Puede arreglar objetos mágicos destruidos y restaura sus propiedades si tu nivel de lanzador es al menos el doble que el del objeto. No repara objetos con cargas ni de un solo uso.",
+    "status": "draft"
+  },
+  "mark-of-justice": {
+    "summaryEs": "Marcas al sujeto y declaras una conducta que activará la marca; al activarse, lo maldice como infligir maldición. Tarda 10 minutos en lanzarse, por lo que solo vale con criaturas voluntarias o inmovilizadas. No puede disiparse, pero sí eliminarse con romper encantamiento, milagro o quitar maldición.",
+    "status": "draft"
+  },
+  "maze": {
+    "summaryEs": "Destierras al sujeto a un laberinto extradimensional. Cada asalto, en su turno, puede intentar una prueba de Inteligencia CD 20 para escapar como acción de asalto completo. Si no escapa, el laberinto desaparece tras 10 minutos. Al salir reaparece donde estaba. Los minotauros no se ven afectados.",
+    "status": "draft"
+  },
+  "meld-into-stone": {
+    "summaryEs": "Te fundes con tus posesiones en un bloque de piedra lo bastante grande, con no más de 100 libras de equipo no vivo. Oyes lo de fuera. Si la piedra se destruye parcialmente o el conjuro termina, eres expulsado y recibes 5d6 de daño. Destrucción total: muerte salvo Fortaleza CD 18.",
+    "status": "draft"
+  },
+  "mending": {
+    "summaryEs": "Repara objetos dañados, restaurando 1d4 puntos de golpe. Elimina la condición de roto si recupera al menos la mitad de sus puntos de golpe. Requiere todas las piezas. Repara objetos mágicos si tu nivel de lanzador es igual o superior. No afecta a criaturas ni constructos.",
+    "status": "draft"
+  },
+  "message": {
+    "summaryEs": "Susurras mensajes y recibes respuestas susurradas; quienes estén cerca los oyen con una prueba de Percepción CD 25. Lo bloquean un silencio mágico, 1 pie de piedra, 1 pulgada de metal común, una fina lámina de plomo o 3 pies de madera o tierra. Transmite sonido, no significado.",
+    "status": "draft"
+  },
+  "meteor-swarm": {
+    "summaryEs": "Cuatro esferas de 2 pies de diámetro salen de tu mano hacia los puntos que elijas. Una criatura alcanzada por un toque a distancia recibe 2d6 de daño contundente y –4 a la salvación contra el fuego. Cada esfera explota en radio de 40 pies y causa 6d6 de daño de fuego.",
+    "status": "draft"
+  },
+  "mind-blank": {
+    "summaryEs": "Protege al sujeto de los conjuros y dispositivos de adivinación que obtengan información sobre él. Da un bonificador de resistencia de +8 a las salvaciones contra efectos que afectan la mente. Frustra deseo limitado, milagro y deseo usados para informarse sobre el sujeto.",
+    "status": "draft"
+  },
+  "mind-fog": {
+    "summaryEs": "Produce un banco de niebla tenue: las criaturas en ella sufren –10 a las pruebas de Sabiduría y a las salvaciones de Voluntad mientras permanezcan y 2d6 asaltos después. Es estacionaria, dura 30 minutos o hasta que el viento la disperse, y apenas estorba la visión.",
+    "status": "draft"
+  },
+  "minor-creation": {
+    "summaryEs": "Creas un objeto no mágico y sin vigilar de materia vegetal no viva. Su volumen no puede superar 1 pie cúbico por nivel de lanzador. Para un objeto complejo debes superar una prueba de la habilidad de Oficio adecuada. Usar el objeto como componente material de un conjuro hace que el conjuro falle.",
+    "status": "draft"
+  },
+  "minor-image": {
+    "summaryEs": "Funciona como imagen silenciosa, pero la imagen menor incluye algunos sonidos menores, aunque no habla comprensible.",
+    "status": "draft"
+  },
+  "miracle": {
+    "summaryEs": "No lanzas un milagro, lo pides a tu deidad. Puede duplicar un conjuro de clérigo de nivel 8 o inferior o cualquier otro de nivel 7 o inferior, o deshacer efectos dañinos. Una petición muy poderosa cuesta 25,000 po en diamante en polvo.",
+    "status": "draft"
+  },
+  "mirage-arcana": {
+    "summaryEs": "Funciona como terreno alucinatorio, pero hace que cualquier área parezca otra cosa, con elementos audibles, visuales, táctiles y olfativos. A diferencia de aquel, puede alterar la apariencia de estructuras o añadirlas. No puede ocultar, disfrazar ni añadir criaturas.",
+    "status": "draft"
+  },
+  "mirror-image": {
+    "summaryEs": "Crea 1d4 imágenes ilusorias de ti, más una por cada tres niveles de lanzador (máximo ocho), que imitan tus movimientos. Un ataque contra ti puede dirigirse a una imagen; si impacta, se tira al azar si es real o ilusoria, y esta se destruye. Un fallo por 5 o menos destruye una.",
+    "status": "draft"
+  },
+  "misdirection": {
+    "summaryEs": "Desvías la información de los conjuros de adivinación que revelan auras (detectar el mal, detectar magia, discernir mentiras). Eliges otro objeto en alcance y el sujeto se detecta como si fuera ese objeto, salvo que quien detecta supere una salvación de Voluntad. No hay salvación contra el efecto.",
+    "status": "draft"
+  },
+  "mislead": {
+    "summaryEs": "Te vuelves invisible (como invisibilidad mayor) y aparece un doble ilusorio tuyo (como imagen mayor) que diriges concentrándote. Habla y gesticula, pero no ataca ni lanza conjuros. El doble dura mientras te concentras más 3 asaltos; la invisibilidad mayor dura 1 asalto por nivel.",
+    "status": "draft"
+  },
+  "mnemonic-enhancer": {
+    "summaryEs": "Eliges una de dos versiones. Preparar: preparas hasta tres niveles adicionales de conjuros (un truco cuenta como 1/2 nivel). Retener: recuperas un conjuro de nivel 3 o inferior que lanzaste hasta 1 asalto antes de empezar. En ambos casos, los conjuros se desvanecen tras 24 horas si no se lanzan.",
+    "status": "draft"
+  },
+  "modify-memory": {
+    "summaryEs": "Modificas hasta 5 minutos de recuerdos del sujeto: eliminar un suceso vivido, recordarlo con claridad perfecta, cambiar sus detalles o implantar un recuerdo falso. Lanzarlo lleva 1 asalto y, si falla la salvación, debes visualizar el recuerdo.",
+    "status": "draft"
+  },
+  "moment-of-prescience": {
+    "summaryEs": "Una vez durante la duración, usas un bonificador de perspicacia igual a tu nivel de lanzador (máximo +25) en una tirada de ataque, prueba de maniobra, prueba opuesta o salvación; o lo aplicas a tu CA contra un ataque. No requiere acción. Solo puedes tener uno activo.",
+    "status": "draft"
+  },
+  "mount": {
+    "summaryEs": "Invocas un caballo ligero o un poni (a tu elección) para que te sirva de montura. La montura sirve con voluntad y eficacia, y viene con bocado, brida y silla de montar.",
+    "status": "draft"
+  },
+  "move-earth": {
+    "summaryEs": "Mueve tierra (arcilla, marga, arena y suelo), pudiendo derrumbar terraplenes o desplazar colinas y dunas. No mueve rocas. Tarda 10 minutos por cada cuadrado de 150 pies (hasta 10 pies de profundidad); el máximo, 750 por 750 pies, tarda 4 horas y 10 minutos.",
+    "status": "draft"
+  }
+}

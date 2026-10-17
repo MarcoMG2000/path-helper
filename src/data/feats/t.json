@@ -1,0 +1,200 @@
+[
+  {
+    "id": "throw-anything",
+    "name": "Throw Anything",
+    "textEn": "You are used to throwing things you have on hand.\n\n**Benefit**: You do not suffer any penalties for using an improvised ranged weapon. You receive a +1 circumstance bonus on attack rolls made with thrown splash weapons.\n\n**Normal**: You take a –4 penalty on attack rolls made with an improvised weapon.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Throw%20Anything",
+    "sourceRef": "PRPG Core Rulebook pg. 135",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You do not suffer any penalties for using an improvised ranged weapon. You receive a +1 circumstance bonus on attack rolls made with thrown splash weapons.",
+    "normal": "You take a –4 penalty on attack rolls made with an improvised weapon."
+  },
+  {
+    "id": "tiring-critical",
+    "name": "Tiring Critical",
+    "textEn": "Your critical hits cause opponents to become fatigued.\n\n**Prerequisites**: Critical Focus, base attack bonus +13.\n\n**Benefit**: Whenever you score a critical hit, your opponent becomes fatigued. This feat has no additional effect on a fatigued or exhausted creature.\n\n**Special**: You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Tiring%20Critical",
+    "sourceRef": "PRPG Core Rulebook pg. 135",
+    "book": "CRB",
+    "types": [
+      "Combat",
+      "Critical"
+    ],
+    "prerequisites": {
+      "raw": "Critical Focus, base attack bonus +13.",
+      "bab": 13,
+      "featIds": [
+        "critical-focus"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Whenever you score a critical hit, your opponent becomes fatigued. This feat has no additional effect on a fatigued or exhausted creature.",
+    "special": "You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery."
+  },
+  {
+    "id": "toughness",
+    "name": "Toughness",
+    "textEn": "You have enhanced physical stamina.\n\n**Benefit**: You gain +3 hit points. For every Hit Die you possess beyond 3, you gain an additional +1 hit point. If you have more than 3 Hit Dice, you gain +1 hit points whenever you gain a Hit Die (such as when you gain a level).",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Toughness",
+    "sourceRef": "PRPG Core Rulebook pg. 135",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You gain +3 hit points. For every Hit Die you possess beyond 3, you gain an additional +1 hit point. If you have more than 3 Hit Dice, you gain +1 hit points whenever you gain a Hit Die (such as when you gain a level)."
+  },
+  {
+    "id": "tower-shield-proficiency",
+    "name": "Tower Shield Proficiency",
+    "textEn": "You are trained in how to properly use a tower shield.\n\n**Prerequisites**: Shield Proficiency.\n\n**Benefit**: When you use a tower shield, the shield's armor check penalty only applies to Strength and Dexterity-based skills.\n\n**Normal**: A character using a shield with which he is not proficient takes the shield's armor check penalty on attack rolls and on all skill checks that involve moving, including Ride.\n\n**Special**: Fighters automatically have Tower Shield Proficiency as a bonus feat. They need not select it.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Tower%20Shield%20Proficiency",
+    "sourceRef": "PRPG Core Rulebook pg. 135",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Shield Proficiency.",
+      "featIds": [
+        "shield-proficiency"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "When you use a tower shield, the shield's armor check penalty only applies to Strength and Dexterity-based skills.",
+    "normal": "A character using a shield with which he is not proficient takes the shield's armor check penalty on attack rolls and on all skill checks that involve moving, including Ride.",
+    "special": "Fighters automatically have Tower Shield Proficiency as a bonus feat. They need not select it."
+  },
+  {
+    "id": "trample",
+    "name": "Trample",
+    "textEn": "While mounted, you can ride down opponents and trample them under your mount.\n\n**Prerequisites**: Ride 1 rank, Mounted Combat.\n\n**Benefit**: When you attempt to overrun an opponent while mounted, your target may not choose to avoid you. Your mount may make one hoof attack against any target you knock down, gaining the standard +4 bonus on attack rolls against prone targets.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Trample",
+    "sourceRef": "PRPG Core Rulebook pg. 136",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Ride 1 rank, Mounted Combat.",
+      "featIds": [
+        "mounted-combat"
+      ],
+      "skills": [
+        {
+          "skillId": "ride",
+          "ranks": 1
+        }
+      ],
+      "other": []
+    },
+    "benefit": "When you attempt to overrun an opponent while mounted, your target may not choose to avoid you. Your mount may make one hoof attack against any target you knock down, gaining the standard +4 bonus on attack rolls against prone targets."
+  },
+  {
+    "id": "turn-undead",
+    "name": "Turn Undead",
+    "textEn": "Calling upon higher powers, you cause undead to flee from the might of your unleashed divine energy.\n\n**Prerequisites**: Channel positive energy class feature.\n\n**Benefit**: You can, as a standard action, use one of your uses of channel positive energy to cause all undead within 30 feet of you to flee, as if panicked. Undead receive a Will save to negate the effect. The DC for this Will save is equal to 10 + 1/2 your cleric level + your Charisma modifier. Undead that fail their save flee for 1 minute. Intelligent undead receive a new saving throw each round to end the effect. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures).",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Turn%20Undead",
+    "sourceRef": "PRPG Core Rulebook pg. 136",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Channel positive energy class feature.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Channel positive energy class feature"
+      ]
+    },
+    "benefit": "You can, as a standard action, use one of your uses of channel positive energy to cause all undead within 30 feet of you to flee, as if panicked. Undead receive a Will save to negate the effect. The DC for this Will save is equal to 10 + 1/2 your cleric level + your Charisma modifier. Undead that fail their save flee for 1 minute. Intelligent undead receive a new saving throw each round to end the effect. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures)."
+  },
+  {
+    "id": "two-weapon-defense",
+    "name": "Two-Weapon Defense",
+    "textEn": "You are skilled at defending yourself while dual-wielding.\n\n**Prerequisites**: Dex 15, Two-Weapon Fighting.\n\n**Benefit**: When wielding a double weapon or two weapons (not including natural weapons or unarmed strikes), you gain a +1 shield bonus to your AC. When you are fighting defensively or using the total defense action, this shield bonus increases to +2.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Defense",
+    "sourceRef": "PRPG Core Rulebook pg. 136",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 15, Two-Weapon Fighting.",
+      "abilities": {
+        "dex": 15
+      },
+      "featIds": [
+        "two-weapon-fighting"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "When wielding a double weapon or two weapons (not including natural weapons or unarmed strikes), you gain a +1 shield bonus to your AC. When you are fighting defensively or using the total defense action, this shield bonus increases to +2."
+  },
+  {
+    "id": "two-weapon-fighting",
+    "name": "Two-Weapon Fighting",
+    "textEn": "You can fight with a weapon wielded in each of your hands. You can make one extra attack each round with the secondary weapon.\n\n**Prerequisites**: Dex 15.\n\n**Benefit**: Your penalties on attack rolls for fighting with two weapons are reduced. The penalty for your primary hand lessens by 2 and the one for your off hand lessens by 6. See Two-Weapon Fighting in Combat.\n\n**Normal**: If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. When fighting in this way you suffer a –6 penalty with your regular attack or attacks with your primary hand and a –10 penalty to the attack with your off hand. If your off-hand weapon is light, the penalties are reduced by 2 each. An unarmed strike is always considered light.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Fighting",
+    "sourceRef": "PRPG Core Rulebook pg. 136",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 15.",
+      "abilities": {
+        "dex": 15
+      },
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Your penalties on attack rolls for fighting with two weapons are reduced. The penalty for your primary hand lessens by 2 and the one for your off hand lessens by 6. See Two-Weapon Fighting in Combat.",
+    "normal": "If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. When fighting in this way you suffer a –6 penalty with your regular attack or attacks with your primary hand and a –10 penalty to the attack with your off hand. If your off-hand weapon is light, the penalties are reduced by 2 each. An unarmed strike is always considered light."
+  },
+  {
+    "id": "two-weapon-rend",
+    "name": "Two-Weapon Rend",
+    "textEn": "Striking with both of your weapons simultaneously, you can use them to deliver devastating wounds.\n\n**Prerequisites**: Dex 17, Double Slice, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11.\n\n**Benefit**: If you hit an opponent with both your primary hand and your off-hand weapon, you deal an additional 1d10 points of damage plus 1-1/2 times your Strength modifier. You can only deal this additional damage once each round.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Rend",
+    "sourceRef": "PRPG Core Rulebook pg. 136",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 17, Double Slice, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11.",
+      "abilities": {
+        "dex": 17
+      },
+      "bab": 11,
+      "featIds": [
+        "double-slice",
+        "improved-two-weapon-fighting",
+        "two-weapon-fighting"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "If you hit an opponent with both your primary hand and your off-hand weapon, you deal an additional 1d10 points of damage plus 1-1/2 times your Strength modifier. You can only deal this additional damage once each round."
+  }
+]

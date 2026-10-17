@@ -1,0 +1,138 @@
+[
+  {
+    "id": "weapon-finesse",
+    "name": "Weapon Finesse",
+    "textEn": "You are trained in using your agility in melee combat, as opposed to brute strength.\n\n**Benefit**: With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.\n\n**Special**: Natural weapons are considered light weapons.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Finesse",
+    "sourceRef": "PRPG Core Rulebook pg. 136",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.",
+    "special": "Natural weapons are considered light weapons."
+  },
+  {
+    "id": "weapon-focus",
+    "name": "Weapon Focus",
+    "textEn": "Choose one type of weapon. You can also choose unarmed strike or grapple (or ray, if you are a spellcaster) as your weapon for the purposes of this feat.\n\n**Prerequisites**: Proficiency with selected weapon, base attack bonus +1.\n\n**Benefit**: You gain a +1 bonus on all attack rolls you make using the selected weapon.\n\n**Special**: You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Focus",
+    "sourceRef": "PRPG Core Rulebook pg. 136",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Proficiency with selected weapon, base attack bonus +1.",
+      "bab": 1,
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Proficiency with selected weapon"
+      ]
+    },
+    "benefit": "You gain a +1 bonus on all attack rolls you make using the selected weapon.",
+    "special": "You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon."
+  },
+  {
+    "id": "weapon-specialization",
+    "name": "Weapon Specialization",
+    "textEn": "You are skilled at dealing damage with one weapon. Choose one type of weapon (including unarmed strike or grapple) for which you have already selected the Weapon Focus feat. You deal extra damage when using this weapon.\n\n**Prerequisites**: Proficiency with selected weapon, Weapon Focus with selected weapon, fighter level 4th.\n\n**Benefit**: You gain a +2 bonus on all damage rolls you make using the selected weapon.\n\n**Special**: You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Specialization",
+    "sourceRef": "PRPG Core Rulebook pg. 137",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Proficiency with selected weapon, Weapon Focus with selected weapon, fighter level 4th.",
+      "featIds": [
+        "weapon-focus"
+      ],
+      "skills": [],
+      "other": [
+        "Proficiency with selected weapon",
+        "Weapon Focus with selected weapon",
+        "fighter level 4th"
+      ]
+    },
+    "benefit": "You gain a +2 bonus on all damage rolls you make using the selected weapon.",
+    "special": "You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon."
+  },
+  {
+    "id": "whirlwind-attack",
+    "name": "Whirlwind Attack",
+    "textEn": "You can strike out at every foe within reach.\n\n**Prerequisites**: Dex 13, Int 13, Combat Expertise, Dodge, Mobility, Spring Attack, base attack bonus +4.\n\n**Benefit**: When you use the full-attack action, you can give up your regular attacks and instead make one melee attack at your highest base attack bonus against each opponent within reach. You must make a separate attack roll against each opponent.\n\nWhen you use the Whirlwind Attack feat, you also forfeit any bonus or extra attacks granted by other feats, spells, or abilities.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Whirlwind%20Attack",
+    "sourceRef": "PRPG Core Rulebook pg. 137",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 13, Int 13, Combat Expertise, Dodge, Mobility, Spring Attack, base attack bonus +4.",
+      "abilities": {
+        "dex": 13,
+        "int": 13
+      },
+      "bab": 4,
+      "featIds": [
+        "combat-expertise",
+        "dodge",
+        "mobility",
+        "spring-attack"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "When you use the full-attack action, you can give up your regular attacks and instead make one melee attack at your highest base attack bonus against each opponent within reach. You must make a separate attack roll against each opponent.\n\nWhen you use the Whirlwind Attack feat, you also forfeit any bonus or extra attacks granted by other feats, spells, or abilities."
+  },
+  {
+    "id": "widen-spell",
+    "name": "Widen Spell",
+    "textEn": "You can cast your spells so that they occupy a larger space.\n\n**Benefit**: You can alter a burst, emanation, or spread-shaped spell to increase its area. Any numeric measurements of the spell's area increase by 100%. A widened spell uses up a spell slot three levels higher than the spell's actual level.\n\nSpells that do not have an area of one of these four sorts are not affected by this feat.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Widen%20Spell",
+    "sourceRef": "PRPG Core Rulebook pg. 137",
+    "book": "CRB",
+    "types": [
+      "Metamagic"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can alter a burst, emanation, or spread-shaped spell to increase its area. Any numeric measurements of the spell's area increase by 100%. A widened spell uses up a spell slot three levels higher than the spell's actual level.\n\nSpells that do not have an area of one of these four sorts are not affected by this feat."
+  },
+  {
+    "id": "wind-stance",
+    "name": "Wind Stance",
+    "textEn": "Your erratic movements make it difficult for enemies to pinpoint your location.\n\n**Prerequisites**: Dex 15, Dodge, base attack bonus +6.\n\n**Benefit**: If you move more than 5 feet this turn, you gain 20% concealment for 1 round against ranged attacks.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Wind%20Stance",
+    "sourceRef": "PRPG Core Rulebook pg. 137",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 15, Dodge, base attack bonus +6.",
+      "abilities": {
+        "dex": 15
+      },
+      "bab": 6,
+      "featIds": [
+        "dodge"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "If you move more than 5 feet this turn, you gain 20% concealment for 1 round against ranged attacks."
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "feats": {
+    "heavy-armor-proficiency": "armor-proficiency-heavy",
+    "light-armor-proficiency": "armor-proficiency-light",
+    "medium-armor-proficiency": "armor-proficiency-medium"
+  },
+  "magic-items": {
+    "armor-ability.energy-resistance": "energy-resistance-armor",
+    "armor-ability.energy-resistance-greater": "energy-resistance-greater-armor",
+    "armor-ability.energy-resistance-improved": "energy-resistance-improved-armor",
+    "armor-ability.fortification": "fortification-armor",
+    "armor-ability.ghost-touch": "ghost-touch-armor",
+    "armor-ability.spell-resistance": "spell-resistance-armor",
+    "armor-ability.undead-controlling": "undead-controlling-armor",
+    "armor-ability.wild": "wild-armor",
+    "shield-ability.energy-resistance": "energy-resistance-shield",
+    "shield-ability.energy-resistance-greater": "energy-resistance-greater-shield",
+    "shield-ability.energy-resistance-improved": "energy-resistance-improved-shield",
+    "shield-ability.fortification": "fortification-shield",
+    "shield-ability.ghost-touch": "ghost-touch-shield",
+    "shield-ability.spell-resistance": "spell-resistance-shield",
+    "shield-ability.undead-controlling": "undead-controlling-shield",
+    "shield-ability.wild": "wild-shield",
+    "weapon-ability.ghost-touch": "ghost-touch-weapon"
+  },
+  "shields": {
+    "heavy-steel": "heavy-steel-shield",
+    "heavy-wooden": "heavy-wooden-shield",
+    "light-steel": "light-steel-shield",
+    "light-wooden": "light-wooden-shield",
+    "tower": "tower-shield"
+  }
+}

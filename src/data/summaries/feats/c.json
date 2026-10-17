@@ -1,0 +1,58 @@
+{
+  "catch-off-guard": {
+    "summaryEs": "No sufres penalizaciones por armas cuerpo a cuerpo improvisadas, y los oponentes desarmados quedan desprevenidos ante ellas.",
+    "status": "draft"
+  },
+  "channel-smite": {
+    "summaryEs": "Antes de un ataque cuerpo a cuerpo, gastas un uso de canalizar energía (acción rápida): si impactas, el objetivo (no muerto con energía positiva, vivo con negativa) sufre el daño de la canalización además; salvación de Will para reducirlo a la mitad.",
+    "status": "draft"
+  },
+  "cleave": {
+    "summaryEs": "Como acción estándar, haces un ataque a tu máximo bonificador contra un enemigo a alcance y, si impactas, otro contra uno adyacente a él. Solo un ataque adicional por asalto. Sufres –2 a la CA hasta tu próximo turno.",
+    "status": "draft"
+  },
+  "combat-casting": {
+    "summaryEs": "+4 a las pruebas de concentración para lanzar conjuros o habilidades sortílegas a la defensiva o apresado.",
+    "status": "draft"
+  },
+  "combat-expertise": {
+    "summaryEs": "Puedes tomar –1 a ataques cuerpo a cuerpo y maniobras para ganar +1 de esquiva a la CA. Con bonificador base de ataque +4 y cada +4 más, la penalización sube –1 y el bonificador +1. Dura hasta tu próximo turno.",
+    "status": "draft"
+  },
+  "combat-reflexes": {
+    "summaryEs": "Haces ataques de oportunidad adicionales por asalto igual a tu bonificador de Destreza, y puedes hacerlos estando desprevenido. No permite a un pícaro usar su capacidad opportunist más de una vez por asalto.",
+    "status": "draft"
+  },
+  "command-undead": {
+    "summaryEs": "Como acción estándar, gastas un uso de canalizar energía negativa para esclavizar no muertos a 30 pies (salvación de Will, CD 10 + 1/2 tu nivel de clérigo + Carisma). Controlas no muertos con DG totales hasta tu nivel de clérigo.",
+    "status": "draft"
+  },
+  "craft-magic-arms-and-armor": {
+    "summaryEs": "Creas armas, armaduras o escudos mágicos: 1 día por cada 1.000 po del precio de sus propiedades y materiales por la mitad del precio. El objeto base debe ser obra maestra, aportado por ti. También reparas objetos rotos.",
+    "status": "draft"
+  },
+  "craft-rod": {
+    "summaryEs": "Creas varas mágicas: 1 día por cada 1.000 po del precio base, con materiales por la mitad de ese precio.",
+    "status": "draft"
+  },
+  "craft-staff": {
+    "summaryEs": "Creas bastones cuyos requisitos cumplas: 1 día por cada 1.000 po del precio base, con materiales por la mitad. Un bastón nuevo tiene 10 cargas.",
+    "status": "draft"
+  },
+  "craft-wand": {
+    "summaryEs": "Creas varitas de conjuros de nivel 4 o inferior que conozcas: 1 día por cada 1.000 po del precio base, con materiales por la mitad. Una varita nueva tiene 50 cargas.",
+    "status": "draft"
+  },
+  "craft-wondrous-item": {
+    "summaryEs": "Creas objetos maravillosos: 1 día por cada 1.000 po de su precio, con materiales por la mitad del precio base. También reparas objetos rotos que podrías haber hecho.",
+    "status": "draft"
+  },
+  "critical-focus": {
+    "summaryEs": "+4 de circunstancia a las tiradas de ataque para confirmar críticos.",
+    "status": "draft"
+  },
+  "critical-mastery": {
+    "summaryEs": "Al hacer un crítico, aplicas los efectos de dos dotes críticas además del daño (normalmente solo uno).",
+    "status": "draft"
+  }
+}

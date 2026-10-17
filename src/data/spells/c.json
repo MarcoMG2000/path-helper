@@ -1,0 +1,3636 @@
+[
+  {
+    "id": "call-lightning",
+    "name": "Call Lightning",
+    "textEn": "Immediately upon completion of the spell, and once per round thereafter, you may call down a 5-foot-wide, 30-foot-long, vertical bolt of lightning that deals 3d6 points of electricity damage. The bolt of lightning flashes down in a vertical stroke at whatever target point you choose within the spell's range (measured from your position at the time). Any creature in the target square or in the path of the bolt is affected.\n\nYou need not call a bolt of lightning immediately; other actions, even spellcasting, can be performed first. Each round after the first you may use a standard action (concentrating on the spell) to call a bolt. You may call a total number of bolts equal to your caster level (maximum 10 bolts).\n\nIf you are outdoors and in a stormy area—a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental of at least Large size)—each bolt deals 3d10 points of electricity damage instead of 3d6.\n\nThis spell functions indoors or underground but not underwater.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Call Lightning",
+    "sourceRef": "PRPG Core Rulebook pg. 251",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "electricity"
+    ],
+    "levels": {
+      "druid": 3
+    },
+    "castingTime": {
+      "raw": "1 round",
+      "unit": "round",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "one or more 30-ft.-long vertical lines of lightning"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Reflex half",
+      "kind": "reflex",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Calls down lightning bolts (3d6 per bolt) from sky."
+  },
+  {
+    "id": "call-lightning-storm",
+    "name": "Call Lightning Storm",
+    "textEn": "This spell functions like *call lightning*, except that each bolt deals 5d6 points of electricity damage (or 5d10 if created outdoors in a stormy area), and you may call a maximum of 15 bolts.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Call Lightning Storm",
+    "sourceRef": "PRPG Core Rulebook pg. 252",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "electricity"
+    ],
+    "levels": {
+      "druid": 5
+    },
+    "castingTime": {
+      "raw": "1 round",
+      "unit": "round",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "one or more 30-ft.-long vertical lines of lightning"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Reflex half",
+      "kind": "reflex",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As call lightning, but 5d6 damage per bolt."
+  },
+  {
+    "id": "calm-animals",
+    "name": "Calm Animals",
+    "textEn": "This spell soothes and quiets animals, rendering them docile and harmless. Only ordinary animals (those with Intelligence scores of 1 or 2) can be affected by this spell. All the subjects must be of the same kind, and no two may be more than 30 feet apart. The maximum number of HD of animals you can affect is equal to 2d4 + caster level.\n\nThe affected creatures remain where they are and do not attack or flee. They are not helpless and defend themselves normally if attacked. Any threat breaks the spell on the threatened creatures.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Calm Animals",
+    "sourceRef": "PRPG Core Rulebook pg. 252",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "levels": {
+      "druid": 1,
+      "ranger": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "animals within 30 ft. of each other"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Calms 2d4 + level HD of animals."
+  },
+  {
+    "id": "calm-emotions",
+    "name": "Calm Emotions",
+    "textEn": "This spell calms agitated creatures. You have no control over the affected creatures, but *calm emotions* can stop raging creatures from fighting or joyous ones from reveling. Creatures so affected cannot take violent actions (although they can defend themselves) or do anything destructive. Any aggressive action against or damage dealt to a calmed creature immediately breaks the spell on all calmed creatures.\n\nThis spell automatically suppresses (but does not dispel) any morale bonuses granted by spells such as *bless*, *good hope*, and *rage*, and also negates a bard's ability to inspire courage or a barbarian's rage ability. It also suppresses any fear effects and removes the *confused* condition from all targets. While the spell lasts, a suppressed spell, condition, or effect has no effect. When the *calm emotions* spell ends, the original spell or effect takes hold of the creature again, provided that its duration has not expired in the meantime.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Calm Emotions",
+    "sourceRef": "PRPG Core Rulebook pg. 252",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 2,
+      "cleric": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "creatures in a 20-ft.-radius spread"
+      }
+    ],
+    "duration": {
+      "raw": "concentration, up to 1 round/level (D)",
+      "kind": "concentration",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Calms creatures, negating emotion effects."
+  },
+  {
+    "id": "cats-grace",
+    "name": "Cat's Grace",
+    "textEn": "The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cat's Grace",
+    "sourceRef": "PRPG Core Rulebook pg. 252",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "bard": 2,
+      "druid": 2,
+      "ranger": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (pinch of cat fur)",
+      "details": {
+        "material": "pinch of cat fur"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Subject gains +4 to Dex for 1 min./level."
+  },
+  {
+    "id": "cats-grace-mass",
+    "name": "Cat's Grace, Mass",
+    "textEn": "This spell functions like *cat's grace*, except it affects multiple creatures.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cat's Grace, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 252",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "bard": 6,
+      "druid": 6,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (pinch of cat fur)",
+      "details": {
+        "material": "pinch of cat fur"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As cat's grace, affects 1 subject/level."
+  },
+  {
+    "id": "cause-fear",
+    "name": "Cause Fear",
+    "textEn": "The affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1 round. Creatures with 6 or more HD are immune to this effect. *Cause fear* counters and dispels *remove fear*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cause Fear",
+    "sourceRef": "PRPG Core Rulebook pg. 252",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [
+      "emotion",
+      "fear",
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 1,
+      "cleric": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature with 5 or fewer HD"
+      }
+    ],
+    "duration": {
+      "raw": "1d4 rounds or 1 round; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will partial",
+      "kind": "will",
+      "effect": "partial",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "One creature of 5 HD or less flees for 1d4 rounds."
+  },
+  {
+    "id": "chain-lightning",
+    "name": "Chain Lightning",
+    "textEn": "This spell creates an electrical discharge that begins as a single stroke commencing from your fingertips. Unlike *lightning bolt*, *chain lightning* strikes one object or creature initially, then arcs to other targets.\n\nThe bolt deals 1d6 points of electricity damage per caster level (maximum 20d6) to the primary target. After it strikes, lightning can arc to a number of secondary targets equal to your caster level (maximum 20). The secondary bolts each strike one target and deal as much damage as the primary bolt.\n\nEach target can attempt a Reflex saving throw for half damage. The Reflex DC to halve the damage of the secondary bolts is 2 lower than the DC to halve the damage of the primary bolt. You choose secondary targets as you like, but they must all be within 30 feet of the primary target, and no target can be struck more than once. You can choose to affect fewer secondary targets than the maximum.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Chain Lightning",
+    "sourceRef": "PRPG Core Rulebook pg. 253",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "electricity"
+    ],
+    "levels": {
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, F (a bit of fur, a piece of amber, glass, or a crystal rod; plus one silver pin per caster level)",
+      "details": {
+        "focus": "a bit of fur, a piece of amber, glass, or a crystal rod; plus one silver pin per caster level"
+      }
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one primary target, plus one secondary target/level (each of which must be within 30 ft. of the primary target)"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Reflex half",
+      "kind": "reflex",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "1d6/level damage and 1 secondary bolt/level."
+  },
+  {
+    "id": "changestaff",
+    "name": "Changestaff",
+    "textEn": "You change a specially prepared quarterstaff into a Huge treant-like creature, about 24 feet tall. When you plant the end of the staff in the ground and speak a special command to conclude the casting of the spell, your staff turns into a creature that looks and fights just like a treant. The staff-treant defends you and obeys any spoken commands. However, it is by no means a true treant; it cannot converse with actual treants or control trees. If the staff-treant is reduced to 0 or fewer hit points, it crumbles to powder and the staff is destroyed. Otherwise, the staff returns to its normal form when the spell duration expires (or when the spell is dismissed), and it can be used as the focus for another casting of the spell. The staff-treant is always at full strength when created, despite any wounds it may have incurred the last time it appeared.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Changestaff",
+    "sourceRef": "PRPG Core Rulebook pg. 253",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "druid": 7
+    },
+    "castingTime": {
+      "raw": "1 round",
+      "unit": "round",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, F (a quarterstaff that has been carved and polished for 28 days)",
+      "details": {
+        "focus": "a quarterstaff that has been carved and polished for 28 days"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "your touched staff"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Your staff becomes a treant on command."
+  },
+  {
+    "id": "chaos-hammer",
+    "name": "Chaos Hammer",
+    "textEn": "You unleash chaotic power to smite your enemies. The power takes the form of a multicolored explosion of leaping, ricocheting energy. Only lawful and neutral (not chaotic) creatures are harmed by the spell.\n\nThe spell deals 1d8 points of damage per two caster levels (maximum 5d8) to lawful creatures (or 1d6 points of damage per caster level, maximum 10d6, to lawful outsiders) and slows them for 1d6 rounds (see the *slow* spell). A successful Will save reduces the damage by half and negates the slow effect.\n\nThe spell deals only half damage against creatures who are neither lawful nor chaotic, and they are not slowed. Such a creature can reduce the damage by half again (down to one-quarter) with a successful Will save.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Chaos Hammer",
+    "sourceRef": "PRPG Core Rulebook pg. 254",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "chaotic"
+    ],
+    "levels": {
+      "cleric": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "20-ft.-radius burst"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous (1d6 rounds); see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will partial; see text",
+      "kind": "will",
+      "effect": "partial",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Harms and slows lawful creatures (1d8 damage/2 levels)."
+  },
+  {
+    "id": "charm-animal",
+    "name": "Charm Animal",
+    "textEn": "This spell functions like *charm person*, except that it affects a creature of the animal type.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Charm Animal",
+    "sourceRef": "PRPG Core Rulebook pg. 254",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "charm",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "druid": 1,
+      "ranger": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one animal"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Makes one animal your friend."
+  },
+  {
+    "id": "charm-monster",
+    "name": "Charm Monster",
+    "textEn": "This spell functions like *charm person*, except that the effect is not restricted by creature type or size.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Charm Monster",
+    "sourceRef": "PRPG Core Rulebook pg. 254",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "charm",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 3,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature"
+      }
+    ],
+    "duration": {
+      "raw": "1 day/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "day",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Makes monster believe it is your ally."
+  },
+  {
+    "id": "charm-monster-mass",
+    "name": "Charm Monster, Mass",
+    "textEn": "This spell functions like *charm monster*, except that *mass charm monster* affects a number of creatures whose combined HD do not exceed twice your level, or at least one creature regardless of HD. If there are more potential targets than you can affect, you choose them one at a time until you must choose a creature with too many HD to affect.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Charm Monster, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 254",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "charm",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 6,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one or more creatures, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 day/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "day",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As charm monster, but all within 30 ft."
+  },
+  {
+    "id": "charm-person",
+    "name": "Charm Person",
+    "textEn": "This charm makes a humanoid creature regard you as its trusted friend and ally (treat the target's attitude as friendly). If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus on its saving throw.\n\nThe spell does not enable you to control the charmed person as if it were an automaton, but it perceives your words and actions in the most favorable way. You can try to give the subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn't ordinarily do. (Retries are not allowed.) An affected creature never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing. Any act by you or your apparent allies that threatens the charmed person breaks the spell. You must speak the person's language to communicate your commands, or else be good at pantomiming.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Charm Person",
+    "sourceRef": "PRPG Core Rulebook pg. 254",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "charm",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one humanoid creature"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Makes one person your friend."
+  },
+  {
+    "id": "chill-metal",
+    "name": "Chill Metal",
+    "textEn": "*Chill metal* makes metal extremely cold. Unattended, nonmagical metal gets no saving throw. Magical metal is allowed a saving throw against the spell. An item in a creature's possession uses the creature's saving throw bonus unless its own is higher.\n\nA creature takes cold damage if its equipment is chilled. It takes full damage if its armor, shield, or weapon is affected. The creature takes minimum damage (1 point or 2 points; see the table) if it's not wearing or wielding such an item.\n\nOn the first round of the spell, the metal becomes chilly and uncomfortable to touch but deals no damage. The same effect also occurs on the last round of the spell's duration. During the second (and also the next-to-last) round, icy coldness causes pain and damage. In the third, fourth, and fifth rounds, the metal is freezing cold, and causes more damage, as shown on the table below.\n\n| **Round** | **Metal Temperature** | **Damage** |\n| --- | --- | --- |\n| 1 | Cold | None |\n| 2 | Icy | 1d4 points |\n| 3-5 | Freezing | 2d4 points |\n| 6 | Icy | 1d4 points |\n| 7 | Cold | None |\n\nAny heat intense enough to damage the creature negates cold damage from the spell (and vice versa) on a point-for-point basis. Underwater, *chill metal* deals no damage, but ice immediately forms around the affected metal, making it float if unattended.\n\n*Chill metal* counters and dispels *heat metal*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Chill Metal",
+    "sourceRef": "PRPG Core Rulebook pg. 254",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [
+      "cold"
+    ],
+    "levels": {
+      "druid": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart; or 25 lbs. of metal/level, none of which can be more than 30 ft. away from any of the rest"
+      }
+    ],
+    "duration": {
+      "raw": "7 rounds",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 7,
+      "unit": "round",
+      "perLevel": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (object)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (object)",
+      "applies": "yes",
+      "harmless": false,
+      "object": true
+    },
+    "shortDescriptionEn": "Cold metal damages those who touch it."
+  },
+  {
+    "id": "chill-touch",
+    "name": "Chill Touch",
+    "textEn": "A touch from your hand, which glows with blue energy, disrupts the life force of living creatures. Each touch channels negative energy that deals 1d6 points of damage. The touched creature also takes 1 point of Strength damage unless it makes a successful Fortitude saving throw. You can use this melee touch attack up to one time per level.\n\nAn undead creature you touch takes no damage of either sort, but it must make a successful Will saving throw or flee as if panicked for 1d4 rounds + 1 round per caster level.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Chill Touch",
+    "sourceRef": "PRPG Core Rulebook pg. 255",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature or creatures touched (up to one/level)"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Fortitude partial or Will negates; see text",
+      "kind": "multiple",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "One touch/level deals 1d6 damage and possibly 1 Str damage."
+  },
+  {
+    "id": "circle-of-death",
+    "name": "Circle of Death",
+    "textEn": "*Circle of death* snuffs out the life force of living creatures, killing them instantly. The spell slays 1d4 HD worth of living creatures per caster level (maximum 20d4). Creatures with the fewest HD are affected first; among creatures with equal HD, those who are closest to the burst's point of origin are affected first. No creature of 9 or more HD can be affected, and HD that are not sufficient to affect a creature are wasted.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Circle of Death",
+    "sourceRef": "PRPG Core Rulebook pg. 255",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [
+      "death"
+    ],
+    "levels": {
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a crushed black pearl worth 500 gp)",
+      "details": {
+        "material": "a crushed black pearl worth 500 gp"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "several living creatures within a 40-ft.-radius burst"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Fortitude negates",
+      "kind": "fortitude",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Kills 1d4/level HD of creatures."
+  },
+  {
+    "id": "clairaudience-clairvoyance",
+    "name": "Clairaudience/Clairvoyance",
+    "textEn": "*Clairaudience/clairvoyance* creates an invisible magical sensor at a specific location that enables you to hear or see (your choice) almost as if you were there. You don't need line of sight or line of effect, but the locale must be known—a place familiar to you, or an obvious one. Once you have selected the locale, the sensor doesn't move, but you can rotate it in all directions to view the area as desired. Unlike other scrying spells, this spell does not allow magically or supernaturally enhanced senses to work through it. If the chosen locale is magically dark, you see nothing. If it is naturally pitch black, you can see in a 10-foot radius around the center of the spell's effect. *Clairaudience/clairvoyance* functions only on the plane of existence you are currently occupying.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Clairaudience/Clairvoyance",
+    "sourceRef": "PRPG Core Rulebook pg. 255",
+    "book": "CRB",
+    "school": "divination",
+    "subschool": "scrying",
+    "descriptors": [],
+    "levels": {
+      "bard": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, F/DF (a small horn or a glass eye)",
+      "details": {
+        "focus": "a small horn or a glass eye"
+      }
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "magical sensor"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Hear or see at a distance for 1 min./level."
+  },
+  {
+    "id": "clenched-fist",
+    "name": "Clenched Fist",
+    "textEn": "This spell functions like *interposing hand*, except that the hand can also push or strike one opponent that you select. The floating hand can move as far as 60 feet and can attack in the same round. Since this hand is directed by you, its ability to notice or attack invisible or concealed creatures is no better than yours.\n\nThe hand attacks once per round, and its attack bonus equals your caster level + your Intelligence, Wisdom, or Charisma modifier (for a wizard, cleric, or sorcerer, respectively) + 11 for the hand's Strength score (33), – 1 for being Large. The hand deals 1d8+11 points of damage on each attack, and any creature struck must make a Fortitude save (against this spell's save DC) or be stunned for 1 round. Directing the spell to a new target is a move action.\n\nThe *clenched fist* can also interpose itself as *interposing hand* does, or it can bull rush an opponent as *forceful hand* does. Its CMB for bull rush checks uses your caster level in place of its base attack bonus, with a +11 bonus for its Strength score and a +1 bonus for being Large.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Clenched Fist",
+    "sourceRef": "PRPG Core Rulebook pg. 255",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "force"
+    ],
+    "levels": {
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, F/DF (a leather glove)",
+      "details": {
+        "focus": "a leather glove"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "10-ft. hand"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Large hand provides cover, pushes, or attacks your foes."
+  },
+  {
+    "id": "cloak-of-chaos",
+    "name": "Cloak of Chaos",
+    "textEn": "A random pattern of color surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by lawful creatures, and causing lawful creatures that strike the subjects to become *confused*. This abjuration has four effects.\n\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike *protection from law*, the benefit of this spell applies against all attacks, not just against attacks by lawful creatures.\n\nSecond, each warded creature gains spell resistance 25 against lawful spells and spells cast by lawful creatures.\n\nThird, the abjuration protects from possession and mental influence, just as *protection from law* does.\n\nFinally, if a lawful creature succeeds on a melee attack against a warded creature, the offending attacker is *confused* for 1 round (Will save negates, as with the *confusion* spell, but against the save DC of *cloak of chaos*).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cloak of Chaos",
+    "sourceRef": "PRPG Core Rulebook pg. 255",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [
+      "chaotic"
+    ],
+    "levels": {
+      "cleric": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, F (a tiny reliquary worth 500 gp)",
+      "details": {
+        "focus": "a tiny reliquary worth 500 gp"
+      }
+    },
+    "range": {
+      "raw": "20 ft.",
+      "kind": "fixed",
+      "fixedFt": 20
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level in a 20-ft.-radius burst centered on you"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "+4 to AC, +4 resistance, and SR 25 against lawful spells."
+  },
+  {
+    "id": "clone",
+    "name": "Clone",
+    "textEn": "This spell makes an inert duplicate of a creature. If the original individual has been slain, its soul immediately transfers to the clone, creating a replacement (provided that the soul is free and willing to return). The original's physical remains, should they still exist, become inert and cannot thereafter be restored to life. If the original creature has reached the end of its natural life span (that is, it has died of natural causes), any cloning attempt fails.\n\nTo create the duplicate, you must have a piece of flesh (not hair, nails, scales, or the like) with a volume of at least 1 cubic inch that was taken from the original creature's living body. The piece of flesh need not be fresh, but it must be kept from rotting. Once the spell is cast, the duplicate must be grown in a laboratory for 2d4 months.\n\nWhen the clone is completed, the original's soul enters it immediately, if that creature is already dead. The clone is physically identical to the original and possesses the same personality and memories as the original. In other respects, treat the clone as if it were the original character raised from the dead, including its gaining of two permanent negative levels, just as if it had been hit by an energy-draining creature. If the subject is 1st level, it takes 2 points of Constitution drain instead (if this would reduce its Con to 0 or less, it can't be cloned). If the original creature gained permanent negative levels since the flesh sample was taken, the clone gains these negative levels as well.\n\nThe spell duplicates only the original's body and mind, not its equipment. A duplicate can be grown while the original still lives, or when the original soul is unavailable, but the resulting body is merely a soulless bit of inert flesh which rots if not preserved.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Clone",
+    "sourceRef": "PRPG Core Rulebook pg. 256",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (laboratory supplies worth 1,000 gp), F (special laboratory equipment costing 500 gp)",
+      "details": {
+        "material": "laboratory supplies worth 1,000 gp",
+        "focus": "special laboratory equipment costing 500 gp"
+      }
+    },
+    "range": {
+      "raw": "0 ft.",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "one clone"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Duplicate awakens when original dies."
+  },
+  {
+    "id": "cloudkill",
+    "name": "Cloudkill",
+    "textEn": "This spell generates a bank of fog, similar to a *fog cloud*, except that its vapors are yellowish green and poisonous. These vapors automatically kill any living creature with 3 or fewer HD (no save). A living creature with 4 to 6 HD is slain unless it succeeds on a Fortitude save (in which case it takes 1d4 points of Constitution damage on your turn each round while in the cloud).\n\nA living creature with 6 or more HD takes 1d4 points of Constitution damage on your turn each round while in the cloud (a successful Fortitude save halves this damage). Holding one's breath doesn't help, but creatures immune to poison are unaffected by the spell.\n\nUnlike a *fog cloud*, the *cloudkill* moves away from you at 10 feet per round, rolling along the surface of the ground.\n\nFigure out the cloud's new spread each round based on its new point of origin, which is 10 feet farther away from the point of origin where you cast the spell.\n\nBecause the vapors are heavier than air, they sink to the lowest level of the land, even pouring down den or sinkhole openings. It cannot penetrate liquids, nor can it be cast underwater.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cloudkill",
+    "sourceRef": "PRPG Core Rulebook pg. 256",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "creation",
+    "descriptors": [
+      "poison"
+    ],
+    "levels": {
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "cloud spreads in 20-ft. radius, 20 ft. high"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Fortitude partial; see text",
+      "kind": "fortitude",
+      "effect": "partial",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Kills 3 HD or less; 4–6 HD save or die, 6+ HD take Con damage."
+  },
+  {
+    "id": "color-spray",
+    "name": "Color Spray",
+    "textEn": "A vivid cone of clashing colors springs forth from your hand, causing creatures to become stunned, perhaps also blinded, and possibly knocking them unconscious. Each creature within the cone is affected according to its HD.\n\n*2 HD or less*: The creature is unconscious, blinded, and stunned for 2d4 rounds, then blinded and stunned for 1d4 rounds, and then stunned for 1 round. (Only living creatures are knocked unconscious.)\n\n*3 or 4 HD*: The creature is blinded and stunned for 1d4 rounds, then stunned for 1 round.\n\n*5 or more HD*: The creature is stunned for 1 round.\n\nSightless creatures are not affected by *color spray*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Color Spray",
+    "sourceRef": "PRPG Core Rulebook pg. 256",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "pattern",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (red, yellow, and blue powder or colored sand)",
+      "details": {
+        "material": "red, yellow, and blue powder or colored sand"
+      }
+    },
+    "range": {
+      "raw": "15 ft.",
+      "kind": "fixed",
+      "fixedFt": 15
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped burst"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Knocks unconscious, blinds, and/or stuns weak creatures."
+  },
+  {
+    "id": "command",
+    "name": "Command",
+    "textEn": "You give the subject a single command, which it obeys to the best of its ability at its earliest opportunity. You may select from the following options.\n\n*Approach*: On its turn, the subject moves toward you as quickly and directly as possible for 1 round. The creature may do nothing but move during its turn, and it provokes attacks of opportunity for this movement as normal.\n\n*Drop*: On its turn, the subject drops whatever it is holding. It can't pick up any dropped item until its next turn.\n\n*Fall*: On its turn, the subject falls to the ground and remains prone for 1 round. It may act normally while prone but takes any appropriate penalties.\n\n*Flee*: On its turn, the subject moves away from you as quickly as possible for 1 round. It may do nothing but move during its turn, and it provokes attacks of opportunity for this movement as normal.\n\n*Halt*: The subject stands in place for 1 round. It may not take any actions but is not considered helpless.\n\nIf the subject can't carry out your command on its next turn, the spell automatically fails.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Command",
+    "sourceRef": "PRPG Core Rulebook pg. 256",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "language-dependent",
+      "mind-affecting"
+    ],
+    "levels": {
+      "cleric": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature"
+      }
+    ],
+    "duration": {
+      "raw": "1 round",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "One subject obeys selected command for 1 round."
+  },
+  {
+    "id": "command-greater",
+    "name": "Command, Greater",
+    "textEn": "This spell functions like *command*, except that up to one creature per level may be affected, and the activities continue beyond 1 round. At the start of each commanded creature's action after the first, it gets another Will save to attempt to break free from the spell. Each creature must receive the same command.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Command, Greater",
+    "sourceRef": "PRPG Core Rulebook pg. 257",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "language-dependent",
+      "mind-affecting"
+    ],
+    "levels": {
+      "cleric": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As command, but affects one subject/level."
+  },
+  {
+    "id": "command-plants",
+    "name": "Command Plants",
+    "textEn": "This spell allows you some degree of control over one or more plant creatures. Affected plant creatures can understand you, and they perceive your words and actions in the most favorable way (treat their attitude as friendly). They will not attack you while the spell lasts. You can try to give a subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn't ordinarily do. (Retries are not allowed.) A commanded plant never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing.\n\nYou can affect a number of plant creatures whose combined level or HD do not exceed twice your level.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Command Plants",
+    "sourceRef": "PRPG Core Rulebook pg. 257",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "druid": 4,
+      "ranger": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "up to 2 HD/level of plant creatures, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 day/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "day",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Sways the actions of plant creatures."
+  },
+  {
+    "id": "command-undead",
+    "name": "Command Undead",
+    "textEn": "This spell allows you a degree of control over an undead creature. If the subject is intelligent, it perceives your words and actions favorably (treat its attitude as friendly). It will not attack you while the spell lasts. You can give the subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn't ordinarily do. Retries are not allowed. An intelligent commanded undead never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing.\n\nA nonintelligent undead creature gets no saving throw against this spell. When you control a mindless being, you can communicate only basic commands, such as “come here,” “go there,” “fight,” “stand still,” and so on. Nonintelligent undead won't resist suicidal or obviously harmful orders.\n\nAny act by you or your apparent allies that threatens the commanded undead (regardless of its Intelligence) breaks the spell.\n\nYour commands are not telepathic. The undead creature must be able to hear you.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Command Undead",
+    "sourceRef": "PRPG Core Rulebook pg. 257",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a shread of raw meat and a splinter of bone)",
+      "details": {
+        "material": "a shread of raw meat and a splinter of bone"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one undead creature"
+      }
+    ],
+    "duration": {
+      "raw": "1 day/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "day",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates; see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Undead creature obeys your commands."
+  },
+  {
+    "id": "commune",
+    "name": "Commune",
+    "textEn": "You contact your deity—or agents thereof—and ask questions that can be answered by a simple yes or no. (A cleric of no particular deity contacts a philosophically allied deity.) You are allowed one such question per caster level. The answers given are correct within the limits of the entity's knowledge. “Unclear” is a legitimate answer, because powerful beings of the Outer Planes are not necessarily omniscient. In cases where a one-word answer would be misleading or contrary to the deity's interests, a short phrase (five words or less) may be given as an answer instead.\n\nThe spell, at best, provides information to aid character decisions. The entities contacted structure their answers to further their own purposes. If you lag, discuss the answers, or go off to do anything else, the spell ends.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Commune",
+    "sourceRef": "PRPG Core Rulebook pg. 257",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "cleric": 5
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M (holy or unholy water and incense worth 500 gp), DF",
+      "details": {
+        "material": "holy or unholy water and incense worth 500 gp"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Deity answers one yes-or-no question/level."
+  },
+  {
+    "id": "commune-with-nature",
+    "name": "Commune with Nature",
+    "textEn": "You become one with nature, attaining knowledge of the surrounding territory. You instantly gain knowledge of as many as three facts from among the following subjects: the ground or terrain, plants, minerals, bodies of water, people, general animal population, presence of woodland creatures, presence of powerful unnatural creatures, or even the general state of the natural setting.\n\nIn outdoor settings, the spell operates in a radius of 1 mile per caster level. In natural underground settings—caves, caverns, and the like—the spell is less powerful, and its radius is limited to 100 feet per caster level. The spell does not function where nature has been replaced by construction or settlement, such as in dungeons and towns.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Commune with Nature",
+    "sourceRef": "PRPG Core Rulebook pg. 258",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "druid": 5,
+      "ranger": 4
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Learn about terrain for 1 mile/level."
+  },
+  {
+    "id": "comprehend-languages",
+    "name": "Comprehend Languages",
+    "textEn": "You can understand the spoken words of creatures or read otherwise incomprehensible written messages. The ability to read does not necessarily impart insight into the material, merely its literal meaning. The spell enables you to understand or read an unknown language, not speak or write it.\n\nWritten material can be read at the rate of one page (250 words) per minute. Magical writing cannot be read, though the spell reveals that it is magical. This spell can be foiled by certain warding magic (such as the *secret page* and *illusory script* spells). It does not decipher codes or reveal messages concealed in otherwise normal text.\n\n*Comprehend languages* can be made permanent with a *permanency* spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Comprehend Languages",
+    "sourceRef": "PRPG Core Rulebook pg. 258",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "bard": 1,
+      "cleric": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (pinch of soot and salt)",
+      "details": {
+        "material": "pinch of soot and salt"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You understand all languages."
+  },
+  {
+    "id": "cone-of-cold",
+    "name": "Cone of Cold",
+    "textEn": "*Cone of cold* creates an area of extreme cold, originating at your hand and extending outward in a cone. It drains heat, dealing 1d6 points of cold damage per caster level (maximum 15d6).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cone of Cold",
+    "sourceRef": "PRPG Core Rulebook pg. 258",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "cold"
+    ],
+    "levels": {
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a small crystal or glass cone)",
+      "details": {
+        "material": "a small crystal or glass cone"
+      }
+    },
+    "range": {
+      "raw": "60 ft.",
+      "kind": "fixed",
+      "fixedFt": 60
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped burst"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Reflex half",
+      "kind": "reflex",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "1d6/level cold damage."
+  },
+  {
+    "id": "confusion",
+    "name": "Confusion",
+    "textEn": "This spell causes confusion in the targets, making them unable to determine their actions. Roll on the following table at the start of each subject's turn each round to see what it does in that round.\n\n| **d%** | **Behavior** |\n| --- | --- |\n| 01-25 | Act normally |\n| 26-50 | Do nothing but babble incoherently |\n| 51-75 | Deal 1d8 points of damage + Str modifier to self with item in hand |\n| 76-100 | Attack nearest creature (for this purpose, a familiar counts as part of the subject's self) |\n\nA confused character who can't carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically attacks its attackers on its next turn, as long as it is still confused when its turn comes. Note that a confused character will not make attacks of opportunity against any creature that it is not already devoted to attacking (either because of its most recent action or because it has just been attacked).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Confusion",
+    "sourceRef": "PRPG Core Rulebook pg. 258",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 3,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (three nutshells)",
+      "details": {
+        "material": "three nutshells"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "all creatures in a 15-ft.-radius burst"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Subjects behave oddly for 1 round/level."
+  },
+  {
+    "id": "confusion-lesser",
+    "name": "Confusion, Lesser",
+    "textEn": "This spell causes a single creature to become confused for 1 round.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Confusion, Lesser",
+    "sourceRef": "PRPG Core Rulebook pg. 258",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature"
+      }
+    ],
+    "duration": {
+      "raw": "1 round",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "One creature is confused for 1 round."
+  },
+  {
+    "id": "consecrate",
+    "name": "Consecrate",
+    "textEn": "This spell blesses an area with positive energy. The DC to resist positive channeled energy within this area gains a +3 sacred bonus. Every undead creature entering a consecrated area suffers minor disruption, suffering a –1 penalty on attack rolls, damage rolls, and saves. Undead cannot be created within or summoned into a consecrated area. If the consecrated area contains an altar, shrine, or other permanent fixture dedicated to your deity, pantheon, or aligned higher power, the modifiers given above are doubled (+6 sacred bonus to positive channeled energy DCs, –2 penalties for undead in the area).\n\nYou cannot consecrate an area with a similar fixture of a deity other than your own patron. Instead, the *consecrate* spell curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above.\n\n*Consecrate* counters and dispels *desecrate*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Consecrate",
+    "sourceRef": "PRPG Core Rulebook pg. 258",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "good"
+    ],
+    "levels": {
+      "cleric": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M (a vial of holy water and 25 gp worth of silver dust), DF",
+      "details": {
+        "material": "a vial of holy water and 25 gp worth of silver dust"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "20-ft. radius emanation"
+      }
+    ],
+    "duration": {
+      "raw": "2 hours/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 2,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Fills area with positive energy, weakening undead."
+  },
+  {
+    "id": "contact-other-plane",
+    "name": "Contact Other Plane",
+    "textEn": "You send your mind to another plane of existence (an Elemental Plane or some plane farther removed) in order to receive advice and information from powers there. See the accompanying table for possible consequences and results of the attempt. The powers reply in a language you understand, but they resent such contact and give only brief answers to your questions. All questions are answered with “yes,” “no,” “maybe,” “never,” “irrelevant,” or some other one-word answer.\n\nYou must concentrate on maintaining the spell (a standard action) in order to ask questions at the rate of one per round. A question is answered by the power during the same round. You may ask one question for every two caster levels.\n\nContact with minds far removed from your home plane increases the probability that you will incur a decrease in Intelligence and Charisma due to your brain being overwhelmed, but also increases the chance of the power knowing the answer and answering correctly. Once the Outer Planes are reached, the power of the deity contacted determines the effects. (Random results obtained from the table are subject to the personalities of individual deities.) On rare occasions, this divination may be blocked by an act of certain deities or forces.\n\n*Avoid Int/Cha Decrease*: You must succeed on an Intelligence check against this DC to avoid a decrease in Intelligence and Charisma. If the check fails, your Intelligence and Charisma scores each fall to 8 for the stated duration, and you become unable to cast arcane spells. You cannot take 10 on this check. If you lose Intelligence and Charisma, the effect strikes as soon as the first question is asked, and no answer is received. If a successful contact is made, roll d% to determine the type of answer you gain.\n\n*True Answer*: You get a true, one-word answer. Questions that cannot be answered in this way are answered randomly.\n\n*Don't Know*: The entity tells you that it doesn't know.\n\n*Lie*: The entity intentionally lies to you.\n\n*Random Answer*: The entity tries to lie but doesn't know the answer, so it makes one up.\n\n| **Plane Contacted** | **Avoid Int/Cha Decrease** | **True Answer** | **Don't Know** | **Lie** | **Random Answer** |\n| --- | --- | --- | --- | --- | --- |\n| Elemental Plane | DC 7/1 week | 01-34 | 35-62 | 63-83 | 84-100 |\n| Positive/Negative Energy Plane | DC 8/1 week | 01-39 | 40-65 | 66-86 | 87-100 |\n| Astral Plane | DC 9/1 week | 01-44 | 45-67 | 68-88 | 89-100 |\n| Outer Plane, demigod | DC 10/2 weeks | 01-49 | 50-70 | 71-91 | 92-100 |\n| Outer Plane, lesser deity | DC 12/3 weeks | 01-60 | 61-75 | 76-95 | 96-100 |\n| Outer Plane, intermediate deity | DC 14/4 weeks | 01-73 | 74-81 | 82-98 | 99-100 |\n| Outer Plane, greater deity | DC 16/5 weeks | 01-88 | 89-90 | 91-99 | 100 |",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Contact Other Plane",
+    "sourceRef": "PRPG Core Rulebook pg. 259",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "concentration",
+      "kind": "concentration",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Lets you ask question of extraplanar entity."
+  },
+  {
+    "id": "contagion",
+    "name": "Contagion",
+    "textEn": "The subject contracts one of the following diseases: blinding sickness, bubonic plague, cackle fever, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom. The disease is contracted immediately (the onset period does not apply). Use the disease's listed frequency and save DC to determine further effects. For more information see Diseases.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Contagion",
+    "sourceRef": "PRPG Core Rulebook pg. 259",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [
+      "disease",
+      "evil"
+    ],
+    "levels": {
+      "cleric": 3,
+      "druid": 3,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "living creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Fortitude negates",
+      "kind": "fortitude",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Infects subject with chosen disease."
+  },
+  {
+    "id": "contingency",
+    "name": "Contingency",
+    "textEn": "You can place another spell upon your person so that it comes into effect under some condition you dictate when casting *contingency*. The *contingency* spell and the companion spell are cast at the same time. The 10-minute casting time is the minimum total for both castings; if the companion spell has a casting time longer than 10 minutes, use that instead. You must pay any costs associated with the companion spell when you cast *contingency*.\n\nThe spell to be brought into effect by the *contingency* must be one that affects your person and be of a spell level no higher than one-third your caster level (rounded down, maximum 6th level).\n\nThe conditions needed to bring the spell into effect must be clear, although they can be general. In all cases, the *contingency* immediately brings into effect the companion spell, the latter being “cast” instantaneously when the prescribed circumstances occur. If complicated or convoluted conditions are prescribed, the whole spell combination (*contingency* and the companion magic) may fail when triggered. The companion spell occurs based solely on the stated conditions, regardless of whether you want it to.\n\nYou can use only one *contingency* spell at a time; if a second is cast, the first one (if still active) is dispelled.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Contingency",
+    "sourceRef": "PRPG Core Rulebook pg. 259",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "at least 10 minutes; see text",
+      "unit": "other",
+      "amount": null
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (quicksilver and an eyelash of a spell-using creature), F (ivory statuette of you worth 1,500 gp)",
+      "details": {
+        "material": "quicksilver and an eyelash of a spell-using creature",
+        "focus": "ivory statuette of you worth 1,500 gp"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 day/level (D) or until discharged",
+      "kind": "other",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Sets trigger condition for another spell."
+  },
+  {
+    "id": "continual-flame",
+    "name": "Continual Flame",
+    "textEn": "A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A *continual flame* can be covered and hidden but not smothered or quenched.\n\nLight spells counter and dispel darkness spells of an equal or lower level.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Continual Flame",
+    "sourceRef": "PRPG Core Rulebook pg. 260",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "light"
+    ],
+    "levels": {
+      "cleric": 3,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (ruby dust worth 50 gp)",
+      "details": {
+        "material": "ruby dust worth 50 gp"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "object touched"
+      },
+      {
+        "kind": "effect",
+        "raw": "magical, heatless flame"
+      }
+    ],
+    "duration": {
+      "raw": "permanent",
+      "kind": "permanent",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Makes a permanent, heatless light."
+  },
+  {
+    "id": "control-plants",
+    "name": "Control Plants",
+    "textEn": "This spell enables you to control the actions of one or more plant creatures for a short period of time. You command the creatures by voice and they understand you, no matter what language you speak. Even if vocal communication is impossible, the controlled plants do not attack you. At the end of the spell, the subjects revert to their normal behavior.\n\nSuicidal or self-destructive commands are simply ignored.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Control Plants",
+    "sourceRef": "PRPG Core Rulebook pg. 260",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "druid": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "up to 2 HD/level of plant creatures, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Controls actions of one or more plant creatures."
+  },
+  {
+    "id": "control-undead",
+    "name": "Control Undead",
+    "textEn": "This spell enables you to control undead creatures for a short period of time. You command them by voice and they understand you, no matter what language you speak. Even if vocal communication is impossible, the controlled undead do not attack you. At the end of the spell, the subjects revert to their normal behavior.\n\nIntelligent undead creatures remember that you controlled them, and they may seek revenge after the spell's effects end.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Control Undead",
+    "sourceRef": "PRPG Core Rulebook pg. 260",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a piece of bone and a piece of raw meat)",
+      "details": {
+        "material": "a piece of bone and a piece of raw meat"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "up to 2 HD/level of undead creatures, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Undead don't attack you while under your command."
+  },
+  {
+    "id": "control-water",
+    "name": "Control Water",
+    "textEn": "This spell has two different applications, both of which control water in different ways. The first version of this spell causes water in the area to swiftly evaporate or to sink into the ground below, lowering the water's depth. The second version causes the water to surge and rise, increasing its overall depth and possibly flooding nearby areas.\n\n*Lower Water*: This causes water or similar liquid to reduce its depth by as much as 2 feet per caster level (to a minimum depth of 1 inch). The water is lowered within a squarish depression whose sides are up to caster level × 10 feet long. In extremely large and deep bodies of water, such as a deep ocean, the spell creates a whirlpool that sweeps ships and similar craft downward, putting them at risk and rendering them unable to leave by normal movement for the duration of the spell. When cast on water elementals and other water-based creatures, this spell acts as a *slow* spell (Will negates). The spell has no effect on other creatures.\n\n*Raise Water*: This causes water or similar liquid to rise in height, just as the lower water version causes it to lower. Boats raised in this way slide down the sides of the hump that the spell creates. If the area affected by the spell includes riverbanks, a beach, or other land nearby, the water can spill over onto dry land.\n\nWith either version of this spell, you may reduce one horizontal dimension by half and double the other horizontal dimension to change the overall area of effect.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Control Water",
+    "sourceRef": "PRPG Core Rulebook pg. 260",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [
+      "water"
+    ],
+    "levels": {
+      "cleric": 4,
+      "druid": 4,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (a pinch of dust for *lower water* or a drop of water for *raise water*)",
+      "details": {
+        "material": "a pinch of dust for *lower water* or a drop of water for *raise water*"
+      }
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "water in a volume of 10 ft./level by 10 ft./level by 2 ft./level (S)"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none; see text",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Raises or lowers bodies of water."
+  },
+  {
+    "id": "control-weather",
+    "name": "Control Weather",
+    "textEn": "You change the weather in the local area. It takes 10 minutes to cast the spell and an additional 10 minutes for the effects to manifest. You can call forth weather appropriate to the climate and season of the area you are in. You can also use this spell to cause the weather in the area to become calm and normal for the season.\n\n| **Season** | **Possible Weather** |\n| --- | --- |\n| Spring | Tornado, thunderstorm, sleet storm, or hot weather |\n| Summer | Torrential rain, heat wave, or hailstorm |\n| Autumn | Hot or cold weather, fog, or sleet |\n| Winter | Frigid cold, blizzard, or thaw |\n| Late winter | Hurricane-force winds or early spring |\n\nYou control the general tendencies of the weather, such as the direction and intensity of the wind. You cannot control specific applications of the weather—where lightning strikes, for example, or the exact path of a tornado. The weather continues as you left it for the duration, or until you use a standard action to designate a new kind of weather (which fully manifests itself 10 minutes later). Contradictory conditions are not possible simultaneously.\n\n*Control weather* can do away with atmospheric phenomena (naturally occurring or otherwise) as well as create them.\n\nA druid casting this spell doubles the duration and affects a circle with a 3-mile radius.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Control Weather",
+    "sourceRef": "PRPG Core Rulebook pg. 261",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 7,
+      "druid": 7,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "castingTime": {
+      "raw": "10 minutes; see text",
+      "unit": "other",
+      "amount": null
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "2 miles",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "2-mile-radius circle, centered on you; see text"
+      }
+    ],
+    "duration": {
+      "raw": "4d12 hours; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Changes weather in local area."
+  },
+  {
+    "id": "control-winds",
+    "name": "Control Winds",
+    "textEn": "You alter wind force in the area surrounding you. You can make the wind blow in a certain direction or manner, increase its strength, or decrease its strength. The new wind direction and strength persist until the spell ends or until you choose to alter your handiwork, which requires concentration. You may create an “eye” of calm air up to 80 feet in diameter at the center of the area if you so desire, and you may choose to limit the area to any cylindrical area less than your full limit.\n\n*Wind Direction*: You may choose one of four basic wind patterns to function over the spell's area.\n\n- A downdraft blows from the center outward in equal strength in all directions.\n- An updraft blows from the outer edges in toward the center in equal strength from all directions, veering upward before impinging on the eye in the center.\n- Rotation causes the winds to circle the center in clockwise or counterclockwise fashion.\n- A blast simply causes the winds to blow in one direction across the entire area from one side to the other.\n\n*Wind Strength*: For every three caster levels, you can increase or decrease wind strength by one level. Each round on your turn, a creature in the wind must make a Fortitude save or suffer the effect of being in the windy area. See Environment for more details.\n\nStrong winds (21+ mph) make sailing difficult.\n\nA severe wind (31+ mph) causes minor ship and building damage.\n\nA windstorm (51+ mph) drives most flying creatures from the skies, uproots small trees, knocks down light wooden structures, tears off roofs, and endangers ships.\n\nHurricane force winds (75+ mph) destroy wooden buildings, uproot large trees, and cause most ships to founder.\n\nA tornado (175+ mph) destroys all nonfortified buildings and often uproots large trees.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Control Winds",
+    "sourceRef": "PRPG Core Rulebook pg. 261",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [
+      "air"
+    ],
+    "levels": {
+      "druid": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "40 ft./level",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "40 ft./level radius cylinder 40 ft. high"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Fortitude negates",
+      "kind": "fortitude",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Changes wind direction and speed."
+  },
+  {
+    "id": "create-food-and-water",
+    "name": "Create Food and Water",
+    "textEn": "The food that this spell creates is simple fare of your choice—highly nourishing, if rather bland. Food so created decays and becomes inedible after 24 hours, although it can be kept fresh for another 24 hours by casting a *purify food and water* spell on it. The water created by this spell is just like clean rain water, and it doesn't go bad as the food does.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Create Food and Water",
+    "sourceRef": "PRPG Core Rulebook pg. 261",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "creation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 3
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "food and water to sustain three humans or one horse/level for 24 hours"
+      }
+    ],
+    "duration": {
+      "raw": "24 hours; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Feeds three humans (or one horse)/level."
+  },
+  {
+    "id": "create-greater-undead",
+    "name": "Create Greater Undead",
+    "textEn": "This spell functions like *create undead*, except that you can create more powerful and intelligent sorts of undead: shadows, wraiths, spectres, and devourers. The type or types of undead created is based on caster level, as shown below.\n\n| **Caster Level** | **Undead Created** |\n| --- | --- |\n| 15th or lower | Shadow |\n| 16th-17th | Wraith |\n| 18th-19th | Spectre |\n| 20th or higher | Devourer |",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Create Greater Undead",
+    "sourceRef": "PRPG Core Rulebook pg. 261",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [
+      "evil"
+    ],
+    "levels": {
+      "cleric": 8,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "1 hour",
+      "unit": "hour",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a clay pot filled with grave dirt and an onyx gem worth at least 50 gp per HD of the undead to be created)",
+      "details": {
+        "material": "a clay pot filled with grave dirt and an onyx gem worth at least 50 gp per HD of the undead to be created"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one corpse"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Create shadows, wraiths, spectres, or devourers."
+  },
+  {
+    "id": "create-undead",
+    "name": "Create Undead",
+    "textEn": "A much more potent spell than *animate dead*, this evil spell allows you to infuse a dead body with negative energy to create more powerful sorts of undead: ghouls, ghasts, mummies, and mohrgs. The type or types of undead you can create are based on your caster level, as shown on the table below.\n\n| **Caster Level** | **Undead Created** |\n| --- | --- |\n| 11th or lower | Ghoul |\n| 12th-14th | Ghast |\n| 15th-17th | Mummy |\n| 18th or higher | Mohrg |\n\nYou may create less powerful undead than your level would allow if you choose. Created undead are not automatically under the control of their animator. If you are capable of commanding undead, you may attempt to command the undead creature as it forms.\n\nThis spell must be cast at night.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Create Undead",
+    "sourceRef": "PRPG Core Rulebook pg. 262",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [
+      "evil"
+    ],
+    "levels": {
+      "cleric": 6,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 hour",
+      "unit": "hour",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a clay pot filled with grave dirt and an onyx gem worth at least 50 gp per HD of the undead to be created)",
+      "details": {
+        "material": "a clay pot filled with grave dirt and an onyx gem worth at least 50 gp per HD of the undead to be created"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one corpse"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Create ghasts, ghouls, mohrgs, or mummies."
+  },
+  {
+    "id": "create-water",
+    "name": "Create Water",
+    "textEn": "This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large—possibly creating a downpour or filling many small receptacles. This water disappears after 1 day if not consumed.\n\n*Note*: Conjuration spells can't create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Create Water",
+    "sourceRef": "PRPG Core Rulebook pg. 262",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "creation",
+    "descriptors": [
+      "water"
+    ],
+    "levels": {
+      "cleric": 0,
+      "druid": 0,
+      "paladin": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "up to 2 gallons of water/level"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Creates 2 gallons/level of pure water."
+  },
+  {
+    "id": "creeping-doom",
+    "name": "Creeping Doom",
+    "textEn": "This spell summons four massive swarms of biting and stinging insects. These swarms appear adjacent to one another, but can be directed to move independently. Treat these swarms as centipede swarms with the following adjustments. The swarms have 60 hit points each and deal 4d6 points of damage with their swarm attack. The save to resist their poison and distraction effects is equal to the save DC of this spell. Creatures caught in multiple swarms only take damage and make saves once.\n\nYou may summon the swarms so that they share the area of other creatures. As a standard action, you can command any number of the swarms to move toward any target within 100 feet of you. You cannot command any swarm to move more than 100 feet away from you, and if you move more than 100 feet from any swarm, that swarm remains stationary, attacking any creatures in its area (but can be commanded again if you move within 100 feet).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Creeping Doom",
+    "sourceRef": "PRPG Core Rulebook pg. 262",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "summoning",
+    "descriptors": [],
+    "levels": {
+      "druid": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)/100 ft.; see text",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "four swarms of insects"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Fortitude partial, see text",
+      "kind": "fortitude",
+      "effect": "partial",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Swarms of centipedes attack at your command."
+  },
+  {
+    "id": "crushing-despair",
+    "name": "Crushing Despair",
+    "textEn": "An invisible cone of despair causes great sadness in the subjects. Each affected creature takes a –2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls.\n\n*Crushing despair* counters and dispels *good hope*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Crushing Despair",
+    "sourceRef": "PRPG Core Rulebook pg. 262",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 3,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M"
+    },
+    "range": {
+      "raw": "30 ft.",
+      "kind": "fixed",
+      "fixedFt": 30
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped burst"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Subjects take –2 on attack rolls, damage rolls, saves, and checks."
+  },
+  {
+    "id": "crushing-hand",
+    "name": "Crushing Hand",
+    "textEn": "This spell functions as *interposing hand*, except that it can also grapple one opponent as *grasping hand*. Its CMB and CMD for grapple checks use your caster level in place of its base attack bonus, with a +12 bonus for its Strength score (35) and a +1 bonus for being Large (its Dexterity is 10, granting no bonus to the CMD). A *crushing hand* deals 2d6+12 points of damage on each successful grapple check against an opponent. The *crushing hand* can instead be directed to bull rush a target (as *forceful hand*), using the same bonuses outlined above, or it can be directed to interpose itself, as *interposing hand* does.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Crushing Hand",
+    "sourceRef": "PRPG Core Rulebook pg. 262",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "force"
+    ],
+    "levels": {
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, F (a soft glove)",
+      "details": {
+        "focus": "a soft glove"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "10-ft.-hand"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Large hand provides cover, pushes, or crushes your foes."
+  },
+  {
+    "id": "cure-critical-wounds",
+    "name": "Cure Critical Wounds",
+    "textEn": "This spell functions like *cure light wounds*, except that it cures 4d8 points of damage +1 point per caster level (maximum +20).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Critical Wounds",
+    "sourceRef": "PRPG Core Rulebook pg. 262",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "bard": 4,
+      "cleric": 4,
+      "druid": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half (harmless)",
+      "kind": "will",
+      "effect": "half",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless); see text",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Cures 4d8 damage + 1/level (max +20)."
+  },
+  {
+    "id": "cure-critical-wounds-mass",
+    "name": "Cure Critical Wounds, Mass",
+    "textEn": "This spell functions like *mass cure light wounds*, except that it cures 4d8 points of damage +1 point per caster level (maximum +40).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Critical Wounds, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 262",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "cleric": 8,
+      "druid": 9
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half (harmless) or Will half; see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless) or yes; see text",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Cures 4d8 damage + 1/level for many creatures."
+  },
+  {
+    "id": "cure-light-wounds",
+    "name": "Cure Light Wounds",
+    "textEn": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Light Wounds",
+    "sourceRef": "PRPG Core Rulebook pg. 263",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "bard": 1,
+      "cleric": 1,
+      "druid": 1,
+      "paladin": 1,
+      "ranger": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half (harmless)",
+      "kind": "will",
+      "effect": "half",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless); see text",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Cures 1d8 damage + 1/level (max +5)."
+  },
+  {
+    "id": "cure-light-wounds-mass",
+    "name": "Cure Light Wounds, Mass",
+    "textEn": "You channel positive energy to cure 1d8 points of damage + 1 point per caster level (maximum +25) on each selected creature. Like other *cure* spells, *mass cure light wounds* deals damage to undead in its area rather than curing them. Each affected undead may attempt a Will save for half damage.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Light Wounds, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 263",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "bard": 5,
+      "cleric": 5,
+      "druid": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half (harmless) or Will half; see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless) or yes; see text",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Cures 1d8 damage + 1/level, affects 1 subject/level."
+  },
+  {
+    "id": "cure-moderate-wounds",
+    "name": "Cure Moderate Wounds",
+    "textEn": "This spell functions like *cure light wounds*, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Moderate Wounds",
+    "sourceRef": "PRPG Core Rulebook pg. 263",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "bard": 2,
+      "cleric": 2,
+      "druid": 3,
+      "paladin": 3,
+      "ranger": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half (harmless)",
+      "kind": "will",
+      "effect": "half",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless); see text",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Cures 2d8 damage + 1/level (max +10)."
+  },
+  {
+    "id": "cure-moderate-wounds-mass",
+    "name": "Cure Moderate Wounds, Mass",
+    "textEn": "This spell functions like *mass cure light wounds*, except that it cures 2d8 points of damage + 1 point per caster level (maximum +30).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Moderate Wounds, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 263",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "bard": 6,
+      "cleric": 6,
+      "druid": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half (harmless) or Will half; see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless) or yes; see text",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Cures 2d8 damage + 1/level, affects 1 subject/level."
+  },
+  {
+    "id": "cure-serious-wounds",
+    "name": "Cure Serious Wounds",
+    "textEn": "This spell functions like *cure light wounds*, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Serious Wounds",
+    "sourceRef": "PRPG Core Rulebook pg. 263",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "bard": 3,
+      "cleric": 3,
+      "druid": 4,
+      "paladin": 4,
+      "ranger": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half (harmless)",
+      "kind": "will",
+      "effect": "half",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless); see text",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Cures 3d8 damage + 1/level (max +15)."
+  },
+  {
+    "id": "cure-serious-wounds-mass",
+    "name": "Cure Serious Wounds, Mass",
+    "textEn": "This spell functions like *mass cure light wounds*, except that it cures 3d8 points of damage + 1 point per caster level (maximum +35).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Serious Wounds, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 263",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "cleric": 7,
+      "druid": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half (harmless) or Will half; see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless) or yes; see text",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Cures 3d8 damage + 1/level, affects 1 subject/level."
+  },
+  {
+    "id": "curse-water",
+    "name": "Curse Water",
+    "textEn": "This spell imbues a flask (1 pint) of water with negative energy, turning it into unholy water (see Equipment). Unholy water damages good outsiders the way holy water damages undead and evil outsiders.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Curse Water",
+    "sourceRef": "PRPG Core Rulebook pg. 263",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [
+      "evil"
+    ],
+    "levels": {
+      "cleric": 1
+    },
+    "castingTime": {
+      "raw": "1 minute",
+      "unit": "minute",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (5 lbs. of powdered silver worth 25 gp)",
+      "details": {
+        "material": "5 lbs. of powdered silver worth 25 gp"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "flask of water touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (object)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (object)",
+      "applies": "yes",
+      "harmless": false,
+      "object": true
+    },
+    "shortDescriptionEn": "Makes unholy water."
+  }
+]

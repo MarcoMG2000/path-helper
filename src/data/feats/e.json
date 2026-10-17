@@ -1,0 +1,287 @@
+[
+  {
+    "id": "elemental-channel",
+    "name": "Elemental Channel",
+    "textEn": "Choose one elemental subtype, such as air, earth, fire, or water. You can channel your divine energy to harm or heal outsiders that possess your chosen elemental subtype.\n\n**Prerequisites**: Channel energy class feature.\n\n**Benefit**: Instead of its normal effect, you can choose to have your ability to channel energy heal or harm outsiders of your chosen elemental subtype. You must make this choice each time you channel energy. If you choose to heal or harm creatures of your elemental subtype, your channel energy has no affect on other creatures. The amount of damage healed or dealt and the DC to halve the damage is otherwise unchanged.\n\n**Special**: You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new elemental subtype.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Elemental%20Channel",
+    "sourceRef": "PRPG Core Rulebook pg. 122",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Channel energy class feature.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Channel energy class feature"
+      ]
+    },
+    "benefit": "Instead of its normal effect, you can choose to have your ability to channel energy heal or harm outsiders of your chosen elemental subtype. You must make this choice each time you channel energy. If you choose to heal or harm creatures of your elemental subtype, your channel energy has no affect on other creatures. The amount of damage healed or dealt and the DC to halve the damage is otherwise unchanged.",
+    "special": "You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new elemental subtype."
+  },
+  {
+    "id": "empower-spell",
+    "name": "Empower Spell",
+    "textEn": "You can increase the power of your spells, causing them to deal more damage.\n\n**Benefit**: All variable, numeric effects of an empowered spell are increased by half including bonuses to those dice rolls.\n\nSaving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spell's actual level.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Empower%20Spell",
+    "sourceRef": "PRPG Core Rulebook pg. 122",
+    "book": "CRB",
+    "types": [
+      "Metamagic"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "All variable, numeric effects of an empowered spell are increased by half including bonuses to those dice rolls.\n\nSaving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spell's actual level."
+  },
+  {
+    "id": "endurance",
+    "name": "Endurance",
+    "textEn": "Harsh conditions or long exertions do not easily tire you.\n\n**Benefit**: You gain a +4 bonus on the following checks and saves: Swim checks made to resist nonlethal damage from exhaustion; Constitution checks made to continue running; Constitution checks made to avoid nonlethal damage from a forced march; Constitution checks made to hold your breath; Constitution checks made to avoid nonlethal damage from starvation or thirst; Fortitude saves made to avoid nonlethal damage from hot or cold environments; and Fortitude saves made to resist damage from suffocation.\n\nYou may sleep in light or medium armor without becoming fatigued.\n\n**Normal**: A character without this feat who sleeps in medium or heavier armor is fatigued the next day.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Endurance",
+    "sourceRef": "PRPG Core Rulebook pg. 122",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You gain a +4 bonus on the following checks and saves: Swim checks made to resist nonlethal damage from exhaustion; Constitution checks made to continue running; Constitution checks made to avoid nonlethal damage from a forced march; Constitution checks made to hold your breath; Constitution checks made to avoid nonlethal damage from starvation or thirst; Fortitude saves made to avoid nonlethal damage from hot or cold environments; and Fortitude saves made to resist damage from suffocation.\n\nYou may sleep in light or medium armor without becoming fatigued.",
+    "normal": "A character without this feat who sleeps in medium or heavier armor is fatigued the next day."
+  },
+  {
+    "id": "enlarge-spell",
+    "name": "Enlarge Spell",
+    "textEn": "You can increase the range of your spells.\n\n**Benefit**: You can alter a spell with a range of close, medium, or long to increase its range by 100%. An enlarged spell with a range of close now has a range of 50 ft. + 5 ft./level, while medium-range spells have a range of 200 ft. + 20 ft./level and long-range spells have a range of 800 ft. + 80 ft./level. An enlarged spell uses up a spell slot one level higher than the spell's actual level.\n\nSpells whose ranges are not defined by distance, as well as spells whose ranges are not close, medium, or long, do not benefit from this feat.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Enlarge%20Spell",
+    "sourceRef": "PRPG Core Rulebook pg. 122",
+    "book": "CRB",
+    "types": [
+      "Metamagic"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can alter a spell with a range of close, medium, or long to increase its range by 100%. An enlarged spell with a range of close now has a range of 50 ft. + 5 ft./level, while medium-range spells have a range of 200 ft. + 20 ft./level and long-range spells have a range of 800 ft. + 80 ft./level. An enlarged spell uses up a spell slot one level higher than the spell's actual level.\n\nSpells whose ranges are not defined by distance, as well as spells whose ranges are not close, medium, or long, do not benefit from this feat."
+  },
+  {
+    "id": "eschew-materials",
+    "name": "Eschew Materials",
+    "textEn": "You can cast many spells without needing to utilize minor material components.\n\n**Benefit**: You can cast any spell with a material component costing 1 gp or less without needing that component. The casting of the spell still provokes attacks of opportunity as normal. If the spell requires a material component that costs more than 1 gp, you must have the material component on hand to cast the spell, as normal.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Eschew%20Materials",
+    "sourceRef": "PRPG Core Rulebook pg. 123",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can cast any spell with a material component costing 1 gp or less without needing that component. The casting of the spell still provokes attacks of opportunity as normal. If the spell requires a material component that costs more than 1 gp, you must have the material component on hand to cast the spell, as normal."
+  },
+  {
+    "id": "exhausting-critical",
+    "name": "Exhausting Critical",
+    "textEn": "Your critical hits cause opponents to become exhausted.\n\n**Prerequisites**: Critical Focus, Tiring Critical, base attack bonus +15.\n\n**Benefit**: When you score a critical hit on a foe, your target immediately becomes exhausted. This feat has no effect on exhausted creatures.\n\n**Special**: You can only apply the effects of one critical feat to a given critical hit unless you possess the Critical Mastery feat.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Exhausting%20Critical",
+    "sourceRef": "PRPG Core Rulebook pg. 123",
+    "book": "CRB",
+    "types": [
+      "Combat",
+      "Critical"
+    ],
+    "prerequisites": {
+      "raw": "Critical Focus, Tiring Critical, base attack bonus +15.",
+      "bab": 15,
+      "featIds": [
+        "critical-focus",
+        "tiring-critical"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "When you score a critical hit on a foe, your target immediately becomes exhausted. This feat has no effect on exhausted creatures.",
+    "special": "You can only apply the effects of one critical feat to a given critical hit unless you possess the Critical Mastery feat."
+  },
+  {
+    "id": "exotic-weapon-proficiency",
+    "name": "Exotic Weapon Proficiency",
+    "textEn": "Choose one type of exotic weapon, such as the spiked chain or whip. You understand how to use that type of exotic weapon in combat, and can utilize any special tricks or qualities that exotic weapon might allow.\n\n**Prerequisites**: Base attack bonus +1.\n\n**Benefit**: You make attack rolls with the weapon normally.\n\n**Normal**: A character who uses a weapon with which he is not proficient takes a –4 penalty on attack rolls.\n\n**Special**: You can gain Exotic Weapon Proficiency multiple times. Each time you take the feat, it applies to a new type of exotic weapon.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Exotic%20Weapon%20Proficiency",
+    "sourceRef": "PRPG Core Rulebook pg. 123",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Base attack bonus +1.",
+      "bab": 1,
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You make attack rolls with the weapon normally.",
+    "normal": "A character who uses a weapon with which he is not proficient takes a –4 penalty on attack rolls.",
+    "special": "You can gain Exotic Weapon Proficiency multiple times. Each time you take the feat, it applies to a new type of exotic weapon."
+  },
+  {
+    "id": "extend-spell",
+    "name": "Extend Spell",
+    "textEn": "You can make your spells last twice as long.\n\n**Benefit**: An extended spell lasts twice as long as normal. A spell with a duration of concentration, instantaneous, or permanent is not affected by this feat. An extended spell uses up a spell slot one level higher than the spell's actual level.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extend%20Spell",
+    "sourceRef": "PRPG Core Rulebook pg. 123",
+    "book": "CRB",
+    "types": [
+      "Metamagic"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "An extended spell lasts twice as long as normal. A spell with a duration of concentration, instantaneous, or permanent is not affected by this feat. An extended spell uses up a spell slot one level higher than the spell's actual level."
+  },
+  {
+    "id": "extra-channel",
+    "name": "Extra Channel",
+    "textEn": "You can channel divine energy more often.\n\n**Prerequisites**: Channel energy class feature.\n\n**Benefit**: You can channel energy two additional times per day.\n\n**Special**: If a paladin with the ability to channel positive energy takes this feat, she can use lay on hands four additional times per day, but only to channel positive energy. If a warpriest with the ability to channel energy takes this feat, he gains four additional uses of fervor per day, but can use them only to channel energy.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Channel",
+    "sourceRef": "PRPG Core Rulebook pg. 123",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Channel energy class feature.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Channel energy class feature"
+      ]
+    },
+    "benefit": "You can channel energy two additional times per day.",
+    "special": "If a paladin with the ability to channel positive energy takes this feat, she can use lay on hands four additional times per day, but only to channel positive energy. If a warpriest with the ability to channel energy takes this feat, he gains four additional uses of fervor per day, but can use them only to channel energy.",
+    "needsReview": true
+  },
+  {
+    "id": "extra-ki",
+    "name": "Extra Ki",
+    "textEn": "You can use your *ki* pool more times per day than most.\n\n**Prerequisites**: *Ki* pool class feature.\n\n**Benefit**: Your *ki* pool increases by 2.\n\n**Special**: You can gain Extra *Ki* multiple times. Its effects stack.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Ki",
+    "sourceRef": "PRPG Core Rulebook pg. 123",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Ki pool class feature.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Ki pool class feature"
+      ]
+    },
+    "benefit": "Your *ki* pool increases by 2.",
+    "special": "You can gain Extra *Ki* multiple times. Its effects stack."
+  },
+  {
+    "id": "extra-lay-on-hands",
+    "name": "Extra Lay on Hands",
+    "textEn": "You can use your lay on hands ability more often.\n\n**Prerequisites**: Lay on hands class feature.\n\n**Benefit**: You can use your lay on hands ability two additional times per day.\n\n**Special**: You can gain Extra Lay On Hands multiple times. Its effects stack.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Lay%20on%20Hands",
+    "sourceRef": "PRPG Core Rulebook pg. 124",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Lay on hands class feature.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Lay on hands class feature"
+      ]
+    },
+    "benefit": "You can use your lay on hands ability two additional times per day.",
+    "special": "You can gain Extra Lay On Hands multiple times. Its effects stack."
+  },
+  {
+    "id": "extra-mercy",
+    "name": "Extra Mercy",
+    "textEn": "Your lay on hands ability adds an additional mercy.\n\n**Prerequisites**: Lay on hands class feature, mercy class feature.\n\n**Benefit**: Select one additional mercy for which you qualify. When you use lay on hands to heal damage to one target, it also receives the additional effects of this mercy.\n\n**Special**: You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, select a new mercy.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Mercy",
+    "sourceRef": "PRPG Core Rulebook pg. 124",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Lay on hands class feature, mercy class feature.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Lay on hands class feature",
+        "mercy class feature"
+      ]
+    },
+    "benefit": "Select one additional mercy for which you qualify. When you use lay on hands to heal damage to one target, it also receives the additional effects of this mercy.",
+    "special": "You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, select a new mercy."
+  },
+  {
+    "id": "extra-performance",
+    "name": "Extra Performance",
+    "textEn": "You can use your bardic performance ability more often than normal.\n\n**Prerequisites**: Bardic performance class feature.\n\n**Benefit**: You can use bardic performance for 6 additional rounds per day.\n\n**Special**: You can gain Extra Performance multiple times. Its effects stack.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Performance",
+    "sourceRef": "PRPG Core Rulebook pg. 124",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Bardic performance class feature.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Bardic performance class feature"
+      ]
+    },
+    "benefit": "You can use bardic performance for 6 additional rounds per day.",
+    "special": "You can gain Extra Performance multiple times. Its effects stack."
+  },
+  {
+    "id": "extra-rage",
+    "name": "Extra Rage",
+    "textEn": "You can use your rage ability more than normal.\n\n**Prerequisites**: Rage class feature.\n\n**Benefit**: You can rage for 6 additional rounds per day.\n\n**Special**: You can gain Extra Rage multiple times. Its effects stack.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Rage",
+    "sourceRef": "PRPG Core Rulebook pg. 124",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Rage class feature.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Rage class feature"
+      ]
+    },
+    "benefit": "You can rage for 6 additional rounds per day.",
+    "special": "You can gain Extra Rage multiple times. Its effects stack."
+  }
+]

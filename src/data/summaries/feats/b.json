@@ -1,0 +1,18 @@
+{
+  "bleeding-critical": {
+    "summaryEs": "Cuando haces un crítico con arma cortante o perforante, el oponente sufre 2d6 de daño por sangrado cada asalto (se detiene con Heal CD 15 o curación mágica). Se acumula. Solo un efecto de dote crítica por crítico salvo Critical Mastery.",
+    "status": "draft"
+  },
+  "blind-fight": {
+    "summaryEs": "En cuerpo a cuerpo, puedes repetir una vez la tirada de fallo por ocultación. Un atacante invisible no obtiene ventajas contra ti en cuerpo a cuerpo y puedes moverte a velocidad completa a ciegas sin pruebas de Acrobatics.",
+    "status": "draft"
+  },
+  "blinding-critical": {
+    "summaryEs": "Tu crítico deja al oponente ciego de forma permanente; un salvación de Fortitude (CD 10 + tu bonificador base de ataque) lo reduce a deslumbrado 1d4 asaltos. No afecta a criaturas sin ojos o con más de dos.",
+    "status": "draft"
+  },
+  "brew-potion": {
+    "summaryEs": "Creas pociones de conjuros de nivel 3 o inferior que conozcas y afecten a criaturas u objetos. Tarda 2 horas si el precio base es 250 po o menos; si no, 1 día por cada 1.000 po. Cuesta la mitad del precio base en materiales.",
+    "status": "draft"
+  }
+}

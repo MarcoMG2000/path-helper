@@ -1,0 +1,537 @@
+{
+  "license": "OGL-1.0a",
+  "category": "weapons",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Arrows%20(20)",
+      "sha256": "193c9a3badbceea41aab574ee385848bd843846f4bbe2afc15d9942e0938810a",
+      "bytes": 21929,
+      "fetchedAt": "2026-10-16T23:39:57.438Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Ballista%2C%20light",
+      "sha256": "bc9e5c7d75a916a0096b9566a8d3fc0bc73622ba8dbc2f254fdd663ff2c0a5ec",
+      "bytes": 25404,
+      "fetchedAt": "2026-10-16T23:40:00.448Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Bastard%20sword",
+      "sha256": "3e4c50edabedeaa41fb811eed1b3328cb9e07a86832beacb87d7de53a954ad67",
+      "bytes": 22331,
+      "fetchedAt": "2026-10-17T00:01:14.105Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Battleaxe",
+      "sha256": "580a5761db8e7c677feb84696f8a23f7d35cadaec036b10653fbdcd9b2474022",
+      "bytes": 22527,
+      "fetchedAt": "2026-10-17T00:01:14.811Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Blowgun",
+      "sha256": "86ea997c105aa7cd5bbd84fd208b297f7ac1e5d221b79320b1ce9c0731d66938",
+      "bytes": 22827,
+      "fetchedAt": "2026-10-17T00:01:15.832Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Blowgun%20darts%20(10)",
+      "sha256": "a50655bb84918cab03f5468ac20fc946d16d001aa67353edc5fb7e8340cebbab",
+      "bytes": 22187,
+      "fetchedAt": "2026-10-17T00:01:16.803Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Bolas",
+      "sha256": "43727c9f4088d9ccb32be0dad0018cd19c8acb698b877cc671c7c947b7ae33a3",
+      "bytes": 22763,
+      "fetchedAt": "2026-10-17T00:01:17.807Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Catapult%2C%20heavy",
+      "sha256": "f581f0c9905df1bbd04fd6a3b72a7a2adc645e744786dc28b732f54603287f09",
+      "bytes": 24190,
+      "fetchedAt": "2026-10-17T00:01:18.801Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Catapult%2C%20light",
+      "sha256": "05c0bb53eaa1d01922663bd56df8ef4eef63297cb06ab00a574e4f6c5f7b905e",
+      "bytes": 25592,
+      "fetchedAt": "2026-10-17T00:01:19.808Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Club",
+      "sha256": "e5e3f3effbd035e97704609e6e007434f348fbe1f7ebb9d2af5fecb5463ea0f3",
+      "bytes": 22014,
+      "fetchedAt": "2026-10-17T00:01:20.828Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Composite%20longbow",
+      "sha256": "a08e48b081a42b86e096503903afd335edee71031126daae24646acf15115a5a",
+      "bytes": 25656,
+      "fetchedAt": "2026-10-16T23:40:01.440Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Composite%20shortbow",
+      "sha256": "fd78030923772c55011aaf2bcc921a37c4968152812db270e77835039ead468c",
+      "bytes": 25716,
+      "fetchedAt": "2026-10-17T00:01:21.812Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Crossbow%20bolts%20(10)",
+      "sha256": "f6f886b7244dc1460b8222cc3ec6ba2c3cca6f83e89d064bf50bedbffde599c0",
+      "bytes": 22650,
+      "fetchedAt": "2026-10-17T00:01:22.808Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Dagger",
+      "sha256": "1d3f073bd06754dae6bb49f12e0a66a103213a3f21a2e9a9b3928e0128b3c0c6",
+      "bytes": 22925,
+      "fetchedAt": "2026-10-16T23:39:56.447Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Dart",
+      "sha256": "374b40a1a570605ba247ee587db1dd78be35484c253c3f8eb294eb738d946e5e",
+      "bytes": 22529,
+      "fetchedAt": "2026-10-17T00:01:23.807Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Dire%20flail",
+      "sha256": "38b75e976a4cace2261d6584e538129d82401e8aba07c3f5dbb4a39ab989267a",
+      "bytes": 22861,
+      "fetchedAt": "2026-10-17T00:01:24.797Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Dwarven%20urgrosh",
+      "sha256": "fa551c9d2c1e9d4a846b8f4d0cdaa8173c405cc7a1eefc6b8ddcafe4d69c939e",
+      "bytes": 23258,
+      "fetchedAt": "2026-10-17T00:01:25.831Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Dwarven%20waraxe",
+      "sha256": "ca553c2774510825c285ccc5ee68addfde0d24426a2d97039162ec27df2ae3a9",
+      "bytes": 22918,
+      "fetchedAt": "2026-10-17T00:01:26.802Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Elven%20curve%20blade",
+      "sha256": "16f4c140ac70f364b1b47620a05d50c7691fb36e798767e668ca64b3e20b23b7",
+      "bytes": 23634,
+      "fetchedAt": "2026-10-17T00:01:27.796Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Falchion",
+      "sha256": "a96d554e2d87e68152de6eb56bb1ffb0297d906a2fbd5328713f6b1eef91e1c8",
+      "bytes": 22343,
+      "fetchedAt": "2026-10-17T00:01:28.807Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Gauntlet",
+      "sha256": "e32e6fbebc367b274c80ab3db779d41cd441222ee4812e64d14aac7f8bfc7cdc",
+      "bytes": 22763,
+      "fetchedAt": "2026-10-17T00:01:29.800Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Glaive",
+      "sha256": "abc49241357fb970e3921bfee54465fab6d41379b5a7daf6ba1f15b3d4d62ee1",
+      "bytes": 21903,
+      "fetchedAt": "2026-10-17T00:01:30.804Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Gnome%20hooked%20hammer",
+      "sha256": "5ae8a422d6d84c0eafbec56cb26292be73f3698b27aba195ceac3d3000c13ccf",
+      "bytes": 23174,
+      "fetchedAt": "2026-10-17T00:01:31.806Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Greataxe",
+      "sha256": "b8147edc7456cfc839e25199b545031f281f1442a634b0a4a1d6b6e36e4f5715",
+      "bytes": 22565,
+      "fetchedAt": "2026-10-17T00:01:32.802Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Greatclub",
+      "sha256": "b43184849db30e04349e9711fe1488a4627181f2563ecbb7412751fa81e1e2cb",
+      "bytes": 22671,
+      "fetchedAt": "2026-10-17T00:01:33.804Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Greatsword",
+      "sha256": "1dc27661ec48795af277e047c9cf6ee6670f8657ba206db05bf3cabd94d5e3c8",
+      "bytes": 21945,
+      "fetchedAt": "2026-10-17T00:01:34.833Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Guisarme",
+      "sha256": "9c402af2cbdde1b049da7001f597b40d8f1d60f2620b97c0e53f8640c1b13c8b",
+      "bytes": 21882,
+      "fetchedAt": "2026-10-17T00:01:35.805Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Halberd",
+      "sha256": "e031d7009d5329a15943d73c0ce2521a0bef3d055c4bd0955aeaee5f3d0e3a2a",
+      "bytes": 21981,
+      "fetchedAt": "2026-10-17T00:01:36.795Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Halfling%20sling%20staff",
+      "sha256": "d4f5d724fcd168a3c36c17421f2ec4befb9c76114b849f0d53d52a21147d14d3",
+      "bytes": 25103,
+      "fetchedAt": "2026-10-17T00:01:37.808Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Hand%20crossbow",
+      "sha256": "d33daa8d6803d4c0ef0d05d61c5bc904863c59379f147cc1ea6ae8f255370011",
+      "bytes": 23434,
+      "fetchedAt": "2026-10-17T00:01:38.800Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Handaxe",
+      "sha256": "1bf48a422030f55ba304ff02589f70858ade3fbb576c83562501eef6157f1e07",
+      "bytes": 22594,
+      "fetchedAt": "2026-10-17T00:01:39.801Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Heavy%20crossbow",
+      "sha256": "44c11193866b59364d174438f8353c95f6bc8dde93222729a0ccd2b15735fdcc",
+      "bytes": 23864,
+      "fetchedAt": "2026-10-17T00:01:40.808Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Heavy%20flail",
+      "sha256": "62ba21485bfd732742a54a3034c69cf6ba100a94306ac55aadde3d0c9bae8151",
+      "bytes": 21941,
+      "fetchedAt": "2026-10-17T00:01:41.811Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Heavy%20mace",
+      "sha256": "12c56af9148618e259e836b136339c7367200de11229c06f9e112f7368da18c6",
+      "bytes": 21745,
+      "fetchedAt": "2026-10-17T00:01:42.804Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Heavy%20pick",
+      "sha256": "87ba5ba5a572f1c2d4c948a4ed402c0ce2b3121203201c6e5f3c315a2f7eb406",
+      "bytes": 22152,
+      "fetchedAt": "2026-10-17T00:01:43.834Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Heavy%20shield",
+      "sha256": "bac8dddfc2b1ff13209168293eeae0120ba1bdf779c21b3abc9c12871f8ddeb0",
+      "bytes": 22149,
+      "fetchedAt": "2026-10-16T23:39:58.451Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Javelin",
+      "sha256": "be3d80a25041f868241f32450679992f1a9c6e5f9b5ab03d7ba0ff4322e19d48",
+      "bytes": 22933,
+      "fetchedAt": "2026-10-17T00:01:44.807Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Kama",
+      "sha256": "6c20e40b84f2dc865f706f9648cba54c28b847b969d78a52405644dc8bbcce3f",
+      "bytes": 22394,
+      "fetchedAt": "2026-10-17T00:01:45.828Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Kukri",
+      "sha256": "1c7966f25574920eb0cdabd585527c21602bcc5fab6d2fc3325fac91f6bfc548",
+      "bytes": 21771,
+      "fetchedAt": "2026-10-17T00:01:46.807Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Lance",
+      "sha256": "75b47b13cc8e5e12851a5e995246f381dd9bcd31afea2969dba1ec67436d4386",
+      "bytes": 21999,
+      "fetchedAt": "2026-10-17T00:01:47.801Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Light%20crossbow",
+      "sha256": "e0422703b813e88367784409e8671604e43dc948f2a312a74f52c5676f52847d",
+      "bytes": 23804,
+      "fetchedAt": "2026-10-17T00:01:48.809Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Light%20flail",
+      "sha256": "6c7abea33be964578872f346f7f418a6a99d50e91514e67c7a3fa0a84b901460",
+      "bytes": 23062,
+      "fetchedAt": "2026-10-17T00:01:49.798Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Light%20hammer",
+      "sha256": "fc229002b9846c090afe38f8fbd6b476dd65b79a263b3a5d87612f4073af6a11",
+      "bytes": 22062,
+      "fetchedAt": "2026-10-17T00:01:50.801Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Light%20mace",
+      "sha256": "f5819a919010f81ce97323d0290bd770208b03f921f3077221ee3c10e4c9c566",
+      "bytes": 22414,
+      "fetchedAt": "2026-10-17T00:01:51.801Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Light%20pick",
+      "sha256": "20d4b1c800754c4c061f32ed21f1fa6273ae320b7caa841b39a66990324be972",
+      "bytes": 22036,
+      "fetchedAt": "2026-10-17T00:01:52.803Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Light%20shield",
+      "sha256": "ce0d90333a25a1f0f1bd4f0c44e4a9925c076dd1655fc9dcd033fcffc88af1e4",
+      "bytes": 22135,
+      "fetchedAt": "2026-10-17T00:01:53.806Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Longbow",
+      "sha256": "9bc5942bc0b9f1f552c74ee690ea6ceeac620a1580d40e006fa4cd0d769bdd84",
+      "bytes": 23339,
+      "fetchedAt": "2026-10-17T00:01:54.802Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Longspear",
+      "sha256": "5e3c3aadbe112b1bf51e61fbec8a291b1531f522b21c25a67605e33f4107765c",
+      "bytes": 21751,
+      "fetchedAt": "2026-10-17T00:01:55.798Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Longsword",
+      "sha256": "118bc17435d7c6963e3c4edf80eff1f042529afef449884014ac867ad6cdae00",
+      "bytes": 21783,
+      "fetchedAt": "2026-10-16T23:39:55.443Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Morningstar",
+      "sha256": "30c089b81d6c1d2b322207719a7906a94141b616de50d8f9afbdb4f1399d2407",
+      "bytes": 21830,
+      "fetchedAt": "2026-10-17T00:01:56.804Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Net",
+      "sha256": "385b1873f5198a4914d734c5c4a2b0a8ffc76cfe4befbf863009187e86f10a74",
+      "bytes": 26270,
+      "fetchedAt": "2026-10-17T00:01:57.797Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Nunchaku",
+      "sha256": "fcf7f48e6031e360ef0c1c019100d5e82fdb9f131237823fdec7f7adc386492c",
+      "bytes": 22016,
+      "fetchedAt": "2026-10-17T00:01:58.800Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Orc%20double%20axe",
+      "sha256": "6c60b5e804ad64698a829bde63373986a24a7f80c64b0b77d95ff51a2889562d",
+      "bytes": 23418,
+      "fetchedAt": "2026-10-17T00:01:59.812Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Punching%20dagger",
+      "sha256": "70adcb9051f56c244c0de207e795e2cb86e73b11e005b65d05088eddaa035de8",
+      "bytes": 21985,
+      "fetchedAt": "2026-10-17T00:02:00.797Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Quarterstaff",
+      "sha256": "95be93ed77b9823786597d692883be88fd40ed54b6b973bef485a1c2aa2bd3a0",
+      "bytes": 22474,
+      "fetchedAt": "2026-10-17T00:02:01.800Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Ram%2C%20Large",
+      "sha256": "38fc4346617d9cf134528a531ef073b127395f4ad9054160f2d893068da72526",
+      "bytes": 28487,
+      "fetchedAt": "2026-10-17T00:02:02.842Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Ranseur",
+      "sha256": "825e058381bba04576bdb1d8e318f9ef37530d58bb4549ddc96ca489911994d0",
+      "bytes": 22025,
+      "fetchedAt": "2026-10-17T00:02:03.811Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Rapier",
+      "sha256": "3ccfd2a88185ada224868e8fdfbd4e593ac4b0646dd201fd0b3aa22b2cbf374a",
+      "bytes": 22605,
+      "fetchedAt": "2026-10-17T00:02:04.804Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Repeating%20crossbow%20bolts%20(5)",
+      "sha256": "2d0b8b282b4c1819940804823e4b56d2e9e23e7a43b17dc495da5446cd390fba",
+      "bytes": 21967,
+      "fetchedAt": "2026-10-17T00:02:05.834Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Repeating%20heavy%20crossbow",
+      "sha256": "77316dd8c2545edd3bbcd0bfb1a04be502a3e927c341350aea1f911691177045",
+      "bytes": 23959,
+      "fetchedAt": "2026-10-17T00:02:06.806Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Repeating%20light%20crossbow",
+      "sha256": "17fb4bf52d76595415035e1af25d37b862d6d6debfc21c038253a81801ecf14c",
+      "bytes": 23146,
+      "fetchedAt": "2026-10-17T00:02:07.797Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Sai",
+      "sha256": "09ae5d0348ae2beef8c2de05067647b83aec628486d67fc56eb5526f0ea2b525",
+      "bytes": 22889,
+      "fetchedAt": "2026-10-17T00:02:08.810Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Sap",
+      "sha256": "002d9504a6521e394c3706261568781a29788a1f6138ca246c241511119ea774",
+      "bytes": 22391,
+      "fetchedAt": "2026-10-17T00:02:09.808Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Scimitar",
+      "sha256": "044f5bae0adc8d53afa99c0baf529777e796c3896c096911990bd806ae558379",
+      "bytes": 22213,
+      "fetchedAt": "2026-10-17T00:02:10.810Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Scythe",
+      "sha256": "7ffc5f557a18843329b2170bad69566fd7c2a27a977f011b8cf513cba5243ca2",
+      "bytes": 22916,
+      "fetchedAt": "2026-10-17T00:02:11.800Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Short%20sword",
+      "sha256": "2a427c8f964da759529f0798c46dfa293fec9aa9c3bb3ba3e3d967f74234b606",
+      "bytes": 23181,
+      "fetchedAt": "2026-10-17T00:02:12.840Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Shortbow",
+      "sha256": "d6943f801de97d49693b445dc9eb83af796367ba3a15a07c6630fff1a970dd11",
+      "bytes": 23211,
+      "fetchedAt": "2026-10-17T00:02:13.801Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Shortspear",
+      "sha256": "a99186fd64f448c0fc98a5ea6636159122233c634b7ba6f7f9fa470b9c231463",
+      "bytes": 22063,
+      "fetchedAt": "2026-10-17T00:02:14.807Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Shuriken%20(5)",
+      "sha256": "852a242373b7cfffcfc51c0b40276dea3233c06ea8fb1166d609c9afb1d15e13",
+      "bytes": 22958,
+      "fetchedAt": "2026-10-17T00:02:15.801Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Siangham",
+      "sha256": "51f84dc5c1a5424a7880c23a46a3963a0dc9f37bf012bb33108f7e109d91fcc3",
+      "bytes": 22087,
+      "fetchedAt": "2026-10-17T00:02:16.802Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Sickle",
+      "sha256": "8667481f223e452eefdc087d49e3a6a207ce4d475cb377f30611d62bb59697e3",
+      "bytes": 22681,
+      "fetchedAt": "2026-10-17T00:02:17.799Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Siege%20tower%2C%20Large",
+      "sha256": "059bfdf55a97120028ff20a1a5d8a37569149663853ef8e839718458ead42994",
+      "bytes": 26110,
+      "fetchedAt": "2026-10-17T00:02:18.804Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Sling",
+      "sha256": "9b2029077307619ad7e16e4ee1012ac1d7fc1108fd740a790dd809c19e7096ee",
+      "bytes": 24004,
+      "fetchedAt": "2026-10-17T00:02:19.806Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Sling%20bullets%20(10)",
+      "sha256": "6236b3c7ec9d4e0f1bd0d721bbb7e44599fc9dbc40911063dbd2f266e1695174",
+      "bytes": 21616,
+      "fetchedAt": "2026-10-17T00:02:20.806Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Spear",
+      "sha256": "ecb1d076220a1da362a2f6a6e99f87c90fa2a0a2ecf0332ca2326f24bea80d48",
+      "bytes": 21927,
+      "fetchedAt": "2026-10-17T00:02:21.808Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Spiked%20armor",
+      "sha256": "eac2af557b59720af29cf0351f3c7c12446d722323c19de759a3a15e3b718009",
+      "bytes": 22129,
+      "fetchedAt": "2026-10-17T00:02:22.830Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Spiked%20chain",
+      "sha256": "98044413d17ecdf083292aa7080e1d64a0de849b926ea435fcb407003f8ac537",
+      "bytes": 22663,
+      "fetchedAt": "2026-10-17T00:02:23.796Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Spiked%20gauntlet",
+      "sha256": "1670275744a2fc25d897c535be548c537f810857973c44b5a93d7eed15d08652",
+      "bytes": 22725,
+      "fetchedAt": "2026-10-17T00:02:24.807Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Spiked%20heavy%20shield",
+      "sha256": "92c21f637bda2a04aa4b046efd3b55e831c0bdd8917a0542cb4f1de009c187d1",
+      "bytes": 22758,
+      "fetchedAt": "2026-10-17T00:02:25.808Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Spiked%20light%20shield",
+      "sha256": "fd0476e88ba39e9fc3a992ba2b43f2e53c8ebe02845b2da4b75a42883530001c",
+      "bytes": 22083,
+      "fetchedAt": "2026-10-17T00:02:26.806Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Starknife",
+      "sha256": "0724a1f774530d98ced4016130675443797d66ea2a5f87452ec56d5e6afa1eec",
+      "bytes": 24730,
+      "fetchedAt": "2026-10-17T00:02:27.806Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Throwing%20axe",
+      "sha256": "d1dde9dafdf4fe1a73aee22facdb50779e9c3b211daa95926e1819d44f4ac232",
+      "bytes": 22959,
+      "fetchedAt": "2026-10-17T00:02:28.801Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Trident",
+      "sha256": "53a84e47e9f26f181e6b47701015184bb46287b0431c315cb480d844d6f8df01",
+      "bytes": 21886,
+      "fetchedAt": "2026-10-17T00:02:29.950Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Two-bladed%20sword",
+      "sha256": "fb8eed627364cdf158e8a0a032f068edbbc0b1e1b04d63482c5fba1e14f014dd",
+      "bytes": 22373,
+      "fetchedAt": "2026-10-17T00:02:30.811Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Unarmed%20strike",
+      "sha256": "af6851adcd5241ee4eb0de3bf68c0f9aea998f5cf1c998d2d3cf743a48fa1295",
+      "bytes": 23814,
+      "fetchedAt": "2026-10-16T23:39:59.440Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Warhammer",
+      "sha256": "07d47b8aaa5f16cbfd1ed3e324d23cd7b4f9f77c1ac44bd5820c82545ffbbce2",
+      "bytes": 22755,
+      "fetchedAt": "2026-10-17T00:02:31.806Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentWeaponsDisplay.aspx?ItemName=Whip",
+      "sha256": "a380a07d7df4cd7d61e6c06a832a81be57a5ae21a5ab4dfd7b6b28f86152d956",
+      "bytes": 24267,
+      "fetchedAt": "2026-10-17T00:02:32.798Z"
+    },
+    {
+      "url": "https://aonprd.com/SourceDisplay.aspx?FixedSource=PRPG Core Rulebook",
+      "sha256": "94461065d4d1448c610be1f56161a6f1f6af9d825d8c1a1bdfd0d81f46f83599",
+      "bytes": 374126,
+      "fetchedAt": "2026-10-16T14:04:46.083Z"
+    }
+  ],
+  "expectedCount": 87
+}

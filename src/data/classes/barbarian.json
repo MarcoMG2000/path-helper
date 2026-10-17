@@ -1,0 +1,395 @@
+[
+  {
+    "id": "barbarian",
+    "name": "Barbarian",
+    "textEn": "For some, there is only rage. In the ways of their people, in the fury of their passion, in the howl of battle, conflict is all these brutal souls know. Savages, hired muscle, masters of vicious martial techniques, they are not soldiers or professional warriors—they are the battle possessed, creatures of slaughter and spirits of war. Known as barbarians, these warmongers know little of training, preparation, or the rules of warfare; for them, only the moment exists, with the foes that stand before them and the knowledge that the next moment might hold their death. They possess a sixth sense in regard to danger and the endurance to weather all that might entail. These brutal warriors might rise from all walks of life, both civilized and savage, though whole societies embracing such philosophies roam the wild places of the world. Within barbarians storms the primal spirit of battle, and woe to those who face their rage.\n\n**Role**: Barbarians excel in combat, possessing the martial prowess and fortitude to take on foes seemingly far superior to themselves. With rage granting them boldness and daring beyond that of most other warriors, barbarians charge furiously into battle and ruin all who would stand in their way.\n\n**Alignment**: Any nonlawful.\n**Hit Die**: d12.\n**Starting Wealth**: 3d6 x 10 gp (average 105 gp).\n\n**Class Skills**\n\nThe Barbarian's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Handle Animal (Cha), Intimidate (Cha), Knowledge (nature) (Int), Perception (Wis), Ride (Dex), Survival (Wis), and Swim (Str).\n\n**Skill Points at each Level**: 4 + Int modifier.\n\n**Class Features**\n\n| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |\n| --- | --- | --- | --- | --- | --- |\n| 1st | +1 | +2 | +0 | +0 | Fast movement, rage |\n| 2nd | +2 | +3 | +0 | +0 | Rage power, uncanny dodge |\n| 3rd | +3 | +3 | +1 | +1 | Trap sense +1 |\n| 4th | +4 | +4 | +1 | +1 | Rage power |\n| 5th | +5 | +4 | +1 | +1 | Improved uncanny dodge |\n| 6th | +6/+1 | +5 | +2 | +2 | Rage power, Trap sense +2 |\n| 7th | +7/+2 | +5 | +2 | +2 | Damage reduction 1/- |\n| 8th | +8/+3 | +6 | +2 | +2 | Rage power |\n| 9th | +9/+4 | +6 | +3 | +3 | Trap sense +3 |\n| 10th | +10/+5 | +7 | +3 | +3 | Damage reduction 2/-, Rage power |\n| 11th | +11/+6/+1 | +7 | +3 | +3 | Greater rage |\n| 12th | +12/+7/+2 | +8 | +4 | +4 | Rage power, Trap sense +4 |\n| 13th | +13/+8/+3 | +8 | +4 | +4 | Damage reduction 3/- |\n| 14th | +14/+9/+4 | +9 | +4 | +4 | Indomitable will, Rage power |\n| 15th | +15/+10/+5 | +9 | +5 | +5 | Trap sense +5 |\n| 16th | +16/+11/+6/+1 | +10 | +5 | +5 | Damage reduction 4/-, Rage power |\n| 17th | +17/+12/+7/+2 | +10 | +5 | +5 | Tireless rage |\n| 18th | +18/+13/+8/+3 | +11 | +6 | +6 | Rage power, Trap sense +6 |\n| 19th | +19/+14/+9/+4 | +11 | +6 | +6 | Damage reduction 5/- |\n| 20th | +20/+15/+10/+5 | +12 | +6 | +6 | Mighty rage, Rage power |\n\n**Ex-Barbarians**\n\nA barbarian who becomes lawful loses the ability to rage and cannot gain more levels as a barbarian. She retains all other benefits of the class.",
+    "source": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Barbarian",
+    "sourceRef": "PRPG Core Rulebook pg. 31",
+    "book": "CRB",
+    "hitDie": 12,
+    "skillRanksPerLevel": 4,
+    "classSkills": [
+      "acrobatics",
+      "climb",
+      "craft",
+      "handle-animal",
+      "intimidate",
+      "knowledge-nature",
+      "perception",
+      "ride",
+      "survival",
+      "swim"
+    ],
+    "alignment": "Any nonlawful",
+    "startingWealthDice": "3d6",
+    "proficiencies": {
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium"
+      ],
+      "shields": [
+        "all-except-tower"
+      ]
+    },
+    "progression": {
+      "bab": "full",
+      "fort": "good",
+      "ref": "poor",
+      "will": "poor"
+    },
+    "table": [
+      {
+        "level": 1,
+        "bab": [
+          1
+        ],
+        "fort": 2,
+        "ref": 0,
+        "will": 0,
+        "special": [
+          "Fast movement",
+          "rage"
+        ],
+        "specialIds": [
+          "barbarian.fast-movement",
+          "barbarian.rage"
+        ]
+      },
+      {
+        "level": 2,
+        "bab": [
+          2
+        ],
+        "fort": 3,
+        "ref": 0,
+        "will": 0,
+        "special": [
+          "Rage power",
+          "uncanny dodge"
+        ],
+        "specialIds": [
+          "barbarian.rage-powers",
+          "barbarian.uncanny-dodge"
+        ]
+      },
+      {
+        "level": 3,
+        "bab": [
+          3
+        ],
+        "fort": 3,
+        "ref": 1,
+        "will": 1,
+        "special": [
+          "Trap sense +1"
+        ],
+        "specialIds": [
+          "barbarian.trap-sense"
+        ]
+      },
+      {
+        "level": 4,
+        "bab": [
+          4
+        ],
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
+        "special": [
+          "Rage power"
+        ],
+        "specialIds": [
+          "barbarian.rage-powers"
+        ]
+      },
+      {
+        "level": 5,
+        "bab": [
+          5
+        ],
+        "fort": 4,
+        "ref": 1,
+        "will": 1,
+        "special": [
+          "Improved uncanny dodge"
+        ],
+        "specialIds": [
+          "barbarian.improved-uncanny-dodge"
+        ]
+      },
+      {
+        "level": 6,
+        "bab": [
+          6,
+          1
+        ],
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
+        "special": [
+          "Rage power",
+          "Trap sense +2"
+        ],
+        "specialIds": [
+          "barbarian.rage-powers",
+          "barbarian.trap-sense"
+        ]
+      },
+      {
+        "level": 7,
+        "bab": [
+          7,
+          2
+        ],
+        "fort": 5,
+        "ref": 2,
+        "will": 2,
+        "special": [
+          "Damage reduction 1/-"
+        ],
+        "specialIds": [
+          "barbarian.damage-reduction"
+        ]
+      },
+      {
+        "level": 8,
+        "bab": [
+          8,
+          3
+        ],
+        "fort": 6,
+        "ref": 2,
+        "will": 2,
+        "special": [
+          "Rage power"
+        ],
+        "specialIds": [
+          "barbarian.rage-powers"
+        ]
+      },
+      {
+        "level": 9,
+        "bab": [
+          9,
+          4
+        ],
+        "fort": 6,
+        "ref": 3,
+        "will": 3,
+        "special": [
+          "Trap sense +3"
+        ],
+        "specialIds": [
+          "barbarian.trap-sense"
+        ]
+      },
+      {
+        "level": 10,
+        "bab": [
+          10,
+          5
+        ],
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
+        "special": [
+          "Damage reduction 2/-",
+          "Rage power"
+        ],
+        "specialIds": [
+          "barbarian.damage-reduction",
+          "barbarian.rage-powers"
+        ]
+      },
+      {
+        "level": 11,
+        "bab": [
+          11,
+          6,
+          1
+        ],
+        "fort": 7,
+        "ref": 3,
+        "will": 3,
+        "special": [
+          "Greater rage"
+        ],
+        "specialIds": [
+          "barbarian.greater-rage"
+        ]
+      },
+      {
+        "level": 12,
+        "bab": [
+          12,
+          7,
+          2
+        ],
+        "fort": 8,
+        "ref": 4,
+        "will": 4,
+        "special": [
+          "Rage power",
+          "Trap sense +4"
+        ],
+        "specialIds": [
+          "barbarian.rage-powers",
+          "barbarian.trap-sense"
+        ]
+      },
+      {
+        "level": 13,
+        "bab": [
+          13,
+          8,
+          3
+        ],
+        "fort": 8,
+        "ref": 4,
+        "will": 4,
+        "special": [
+          "Damage reduction 3/-"
+        ],
+        "specialIds": [
+          "barbarian.damage-reduction"
+        ]
+      },
+      {
+        "level": 14,
+        "bab": [
+          14,
+          9,
+          4
+        ],
+        "fort": 9,
+        "ref": 4,
+        "will": 4,
+        "special": [
+          "Indomitable will",
+          "Rage power"
+        ],
+        "specialIds": [
+          "barbarian.indomitable-will",
+          "barbarian.rage-powers"
+        ]
+      },
+      {
+        "level": 15,
+        "bab": [
+          15,
+          10,
+          5
+        ],
+        "fort": 9,
+        "ref": 5,
+        "will": 5,
+        "special": [
+          "Trap sense +5"
+        ],
+        "specialIds": [
+          "barbarian.trap-sense"
+        ]
+      },
+      {
+        "level": 16,
+        "bab": [
+          16,
+          11,
+          6,
+          1
+        ],
+        "fort": 10,
+        "ref": 5,
+        "will": 5,
+        "special": [
+          "Damage reduction 4/-",
+          "Rage power"
+        ],
+        "specialIds": [
+          "barbarian.damage-reduction",
+          "barbarian.rage-powers"
+        ]
+      },
+      {
+        "level": 17,
+        "bab": [
+          17,
+          12,
+          7,
+          2
+        ],
+        "fort": 10,
+        "ref": 5,
+        "will": 5,
+        "special": [
+          "Tireless rage"
+        ],
+        "specialIds": [
+          "barbarian.tireless-rage"
+        ]
+      },
+      {
+        "level": 18,
+        "bab": [
+          18,
+          13,
+          8,
+          3
+        ],
+        "fort": 11,
+        "ref": 6,
+        "will": 6,
+        "special": [
+          "Rage power",
+          "Trap sense +6"
+        ],
+        "specialIds": [
+          "barbarian.rage-powers",
+          "barbarian.trap-sense"
+        ]
+      },
+      {
+        "level": 19,
+        "bab": [
+          19,
+          14,
+          9,
+          4
+        ],
+        "fort": 11,
+        "ref": 6,
+        "will": 6,
+        "special": [
+          "Damage reduction 5/-"
+        ],
+        "specialIds": [
+          "barbarian.damage-reduction"
+        ]
+      },
+      {
+        "level": 20,
+        "bab": [
+          20,
+          15,
+          10,
+          5
+        ],
+        "fort": 12,
+        "ref": 6,
+        "will": 6,
+        "special": [
+          "Mighty rage",
+          "Rage power"
+        ],
+        "specialIds": [
+          "barbarian.mighty-rage",
+          "barbarian.rage-powers"
+        ]
+      }
+    ]
+  }
+]

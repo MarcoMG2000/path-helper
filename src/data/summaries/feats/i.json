@@ -1,0 +1,94 @@
+{
+  "improved-bull-rush": {
+    "summaryEs": "No provocas ataque de oportunidad al embestir, +2 a las pruebas de embestida y +2 a tu Combat Maneuver Defense contra embestidas.",
+    "status": "draft"
+  },
+  "improved-channel": {
+    "summaryEs": "Sumas 2 a la CD de las salvaciones contra tu canalización de energía.",
+    "status": "draft"
+  },
+  "improved-counterspell": {
+    "summaryEs": "Al contraconjurar, puedes usar un conjuro de la misma escuela de uno o más niveles superiores al objetivo.",
+    "status": "draft"
+  },
+  "improved-critical": {
+    "summaryEs": "Con el arma elegida, tu rango de amenaza se duplica. Se puede tomar varias veces, sin acumularse, para un tipo de arma nuevo cada vez.",
+    "status": "draft"
+  },
+  "improved-disarm": {
+    "summaryEs": "No provocas ataque de oportunidad al desarmar, +2 a las pruebas de desarmar y +2 a tu Combat Maneuver Defense contra desarmes.",
+    "status": "draft"
+  },
+  "improved-familiar": {
+    "summaryEs": "Al elegir familiar puedes escoger también criaturas de una lista ampliada, con alineamiento a un paso en cada eje. Por lo demás siguen las reglas de familiares normales, con dos excepciones (tipo y habla con los de su especie).",
+    "status": "draft"
+  },
+  "improved-feint": {
+    "summaryEs": "Haces la finta (Bluff) como acción de movimiento en lugar de acción estándar.",
+    "status": "draft"
+  },
+  "improved-grapple": {
+    "summaryEs": "No provocas ataque de oportunidad al apresar, +2 a las pruebas de presa y +2 a tu Combat Maneuver Defense contra presas.",
+    "status": "draft"
+  },
+  "improved-great-fortitude": {
+    "summaryEs": "Una vez al día puedes repetir una salvación de Fortitude; debes decidirlo antes de ver el resultado y quedarte con la segunda tirada.",
+    "status": "draft"
+  },
+  "improved-initiative": {
+    "summaryEs": "+4 a las pruebas de iniciativa.",
+    "status": "draft"
+  },
+  "improved-iron-will": {
+    "summaryEs": "Una vez al día puedes repetir una salvación de Will; debes decidirlo antes de ver el resultado y quedarte con la segunda tirada.",
+    "status": "draft"
+  },
+  "improved-lightning-reflexes": {
+    "summaryEs": "Una vez al día puedes repetir una salvación de Reflex; debes decidirlo antes de ver el resultado y quedarte con la segunda tirada.",
+    "status": "draft"
+  },
+  "improved-overrun": {
+    "summaryEs": "No provocas ataque de oportunidad al arrollar, +2 a las pruebas de arrollar y +2 a tu Combat Maneuver Defense contra arrollar. El objetivo no puede elegir evitarte.",
+    "status": "draft"
+  },
+  "improved-precise-shot": {
+    "summaryEs": "Tus ataques a distancia ignoran la bonificación a la CA de cualquier cobertura menor que total y la probabilidad de fallo de cualquier ocultación menor que total.",
+    "status": "draft"
+  },
+  "improved-shield-bash": {
+    "summaryEs": "Al golpear con el escudo, conservas su bonificador de escudo a la CA.",
+    "status": "draft"
+  },
+  "improved-sunder": {
+    "summaryEs": "No provocas ataque de oportunidad al romper, +2 a las pruebas de romper un objeto y +2 a tu Combat Maneuver Defense contra intentos de romper tu equipo.",
+    "status": "draft"
+  },
+  "improved-trip": {
+    "summaryEs": "No provocas ataque de oportunidad al derribar, +2 a las pruebas de derribar y +2 a tu Combat Maneuver Defense contra derribos.",
+    "status": "draft"
+  },
+  "improved-two-weapon-fighting": {
+    "summaryEs": "Además del ataque extra con el arma de la mano torpe, obtienes un segundo ataque con ella, con –5.",
+    "status": "draft"
+  },
+  "improved-unarmed-strike": {
+    "summaryEs": "Se te considera armado aunque no lo estés: no provocas ataques de oportunidad al atacar desarmado. Tus golpes desarmados pueden hacer daño letal o no letal, a tu elección.",
+    "status": "draft"
+  },
+  "improved-vital-strike": {
+    "summaryEs": "Con la acción de ataque, haces un ataque a tu máximo bonificador tirando los dados de daño del arma tres veces. Los dados extra no se multiplican en crítico.",
+    "status": "draft"
+  },
+  "improvised-weapon-mastery": {
+    "summaryEs": "Sin penalizaciones con armas improvisadas; su daño sube un paso (1d4 a 1d6) hasta 1d8 (2d6 si es a dos manos), con amenaza de 19–20 y multiplicador ×2.",
+    "status": "draft"
+  },
+  "intimidating-prowess": {
+    "summaryEs": "Sumas tu modificador de Fuerza a las pruebas de Intimidate, además del de Carisma.",
+    "status": "draft"
+  },
+  "iron-will": {
+    "summaryEs": "+2 a todas las salvaciones de Will.",
+    "status": "draft"
+  }
+}

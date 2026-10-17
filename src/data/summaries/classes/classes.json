@@ -1,0 +1,30 @@
+{
+  "barbarian": {
+    "summaryEs": "Guerrero salvaje que combate presa de la furia y resiste lo que otros no soportarían. Dado de golpe d12, 4 puntos de habilidad por nivel, alineamiento cualquiera no legal.",
+    "status": "draft"
+  },
+  "bard": {
+    "summaryEs": "Artista y lanzador arcano espontáneo que inspira a sus aliados y confunde a sus enemigos con su interpretación. Dado de golpe d8, 6 puntos de habilidad por nivel, cualquier alineamiento.",
+    "status": "draft"
+  },
+  "cleric": {
+    "summaryEs": "Emisario de una deidad que lanza conjuros divinos, canaliza energía y recibe poderes de dos dominios. Dado de golpe d8, 2 puntos de habilidad por nivel; su alineamiento debe ser cercano al de su deidad.",
+    "status": "draft"
+  },
+  "druid": {
+    "summaryEs": "Protector de la naturaleza que lanza conjuros divinos, se transforma con forma salvaje y cuenta con un compañero animal o un dominio. Dado de golpe d8, 4 puntos de habilidad por nivel, cualquier alineamiento neutral.",
+    "status": "draft"
+  },
+  "paladin": {
+    "summaryEs": "Campeón del bien y la ley que castiga el mal, impone las manos y lanza conjuros divinos. Dado de golpe d10, 2 puntos de habilidad por nivel, alineamiento legal bueno.",
+    "status": "draft"
+  },
+  "ranger": {
+    "summaryEs": "Explorador y cazador que se especializa en un tipo de presa, rastrea y lanza conjuros divinos desde el nivel 4. Dado de golpe d10, 6 puntos de habilidad por nivel, cualquier alineamiento.",
+    "status": "draft"
+  },
+  "rogue": {
+    "summaryEs": "Especialista en habilidades y en atacar por sorpresa que desactiva trampas y elude peligros. Dado de golpe d8, 8 puntos de habilidad por nivel, cualquier alineamiento.",
+    "status": "draft"
+  }
+}

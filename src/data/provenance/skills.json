@@ -1,0 +1,171 @@
+{
+  "license": "OGL-1.0a",
+  "category": "skills",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Acrobatics",
+      "sha256": "1563b55d57a84300265b1e5b58bf9fac63af81ac52d8ccb7bca2d048318007b2",
+      "bytes": 41695,
+      "fetchedAt": "2026-10-16T23:31:44.829Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Appraise",
+      "sha256": "1de023cdb8b308e999bb4214ad6afcc90502d168563991e52915f952d6a86592",
+      "bytes": 36691,
+      "fetchedAt": "2026-10-16T23:31:45.520Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Bluff",
+      "sha256": "d853041c76e048a3965bf21627c6e9632de4d98035766ee8b6a12d1a619c4199",
+      "bytes": 36293,
+      "fetchedAt": "2026-10-16T23:31:46.529Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Climb",
+      "sha256": "8bbf7b392e17441db9ba5be7d5a6deb939f53bc8e26d78bcf10163e1d705f2ae",
+      "bytes": 39750,
+      "fetchedAt": "2026-10-16T23:31:47.520Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Craft",
+      "sha256": "f909b5d4506bcaafccd1464454d867a2129f47f8ff2455bf10b605cc5438c827",
+      "bytes": 66250,
+      "fetchedAt": "2026-10-16T23:31:48.530Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Diplomacy",
+      "sha256": "fd8d6c63ba4d7f291aa85fb280f4fd200657cfba211745bcddf8749d3195bd15",
+      "bytes": 47577,
+      "fetchedAt": "2026-10-16T23:31:49.533Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Disable%20Device",
+      "sha256": "1de2fabb36f841138dcb6172fe7d783ab3bca7edb989cd5974ec566cccc29105",
+      "bytes": 40309,
+      "fetchedAt": "2026-10-16T23:31:50.526Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Disguise",
+      "sha256": "caea63417226fce11c66fdd14d60886b8a2e9644a68edc0127b0018bcdb822b4",
+      "bytes": 34415,
+      "fetchedAt": "2026-10-16T23:31:51.522Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Escape%20Artist",
+      "sha256": "d3f306065d3a90e037d87187505a393ee3092a9177a0b7ce5935e040e7419840",
+      "bytes": 33457,
+      "fetchedAt": "2026-10-16T23:31:52.522Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Fly",
+      "sha256": "fe287d4bb30504f508dae6bab2a3220a147409616bc9b8a87dd2bca54608be6f",
+      "bytes": 38322,
+      "fetchedAt": "2026-10-16T23:31:53.531Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Handle%20Animal",
+      "sha256": "d1d5bb3715ef49432062c7d8107601c6f1d03f56c7a723539c7ab6f81a5987cd",
+      "bytes": 118919,
+      "fetchedAt": "2026-10-16T23:31:54.531Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Heal",
+      "sha256": "a92201fe278a2700957dbb20ce517e2081eab80257bfb6ff0f4ed0889ef29e64",
+      "bytes": 53520,
+      "fetchedAt": "2026-10-16T23:31:55.532Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Intimidate",
+      "sha256": "cbfe183d5a8604667d1f9884d5bac3176ccdc4605a755ead8ce4ec546ab44a2b",
+      "bytes": 36789,
+      "fetchedAt": "2026-10-16T23:31:56.528Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Knowledge",
+      "sha256": "95d4f99123773cf696bd9a62fbcb857c4ca41b19193f7417e07a319c0e83cf79",
+      "bytes": 56073,
+      "fetchedAt": "2026-10-16T23:31:57.520Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Linguistics",
+      "sha256": "1dbee1aa305cb627fbd718f07326637e4175e5360a8e5e3a8aaeef789ade21d6",
+      "bytes": 46037,
+      "fetchedAt": "2026-10-16T23:31:58.524Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Perception",
+      "sha256": "11a74615aa73a39c6a458ebf9d0bcdec023852952302ceb9ff347e281f425e90",
+      "bytes": 47121,
+      "fetchedAt": "2026-10-16T23:31:59.525Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Perform",
+      "sha256": "e7551d1ddcc1ffdb7cc91165f728678d85bfe2b2af0e29360c20f1f98f67393f",
+      "bytes": 32917,
+      "fetchedAt": "2026-10-16T23:32:00.525Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Profession",
+      "sha256": "7e2aa24ab3185427c8c2bb21862a650d7096bf5abdb0a917145ded1d0ac8eedc",
+      "bytes": 38105,
+      "fetchedAt": "2026-10-16T23:32:01.516Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Ride",
+      "sha256": "532002f62bdaa06e8f3cfd180753a0205f8d755bf02f2ea9994d98014248e064",
+      "bytes": 36487,
+      "fetchedAt": "2026-10-16T23:32:02.529Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Sense%20Motive",
+      "sha256": "6d193a28db91364a6961ea96fe74ea8ad2a088091b481a20431c22f97bd16896",
+      "bytes": 40696,
+      "fetchedAt": "2026-10-16T23:32:03.523Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Sleight%20of%20Hand",
+      "sha256": "e9f88d86782c009afe46c0aa8826fce55fdd1e4dc0427effb9e93cf83a7ce068",
+      "bytes": 35235,
+      "fetchedAt": "2026-10-16T23:32:04.515Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Spellcraft",
+      "sha256": "451d15f593dcfd9d14d923ae99d1653e6a4d6b7ea4e976edb39cfe89c3128c2f",
+      "bytes": 44418,
+      "fetchedAt": "2026-10-16T23:32:05.529Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Stealth",
+      "sha256": "56e5f9f3cc94ea09d596f828064c4d5046a99c03fa94f2dcafe9c10622e805fc",
+      "bytes": 32358,
+      "fetchedAt": "2026-10-16T23:32:06.525Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Survival",
+      "sha256": "10647025e1793b75ed5a903661d4bc09d80d5ab07601c6ae1c53076fa6e07398",
+      "bytes": 75387,
+      "fetchedAt": "2026-10-16T23:32:07.530Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Swim",
+      "sha256": "dd92a67888efa7e4163155c0868fab48a960168ea1a0caee1210eaaa01832ff3",
+      "bytes": 31596,
+      "fetchedAt": "2026-10-16T23:32:08.527Z"
+    },
+    {
+      "url": "https://aonprd.com/Skills.aspx?ItemName=Use%20Magic%20Device",
+      "sha256": "6a3e8ae576c32a2d9e08172aecffaf14f0953d41dbfb84b5e089db3cabaf8928",
+      "bytes": 42683,
+      "fetchedAt": "2026-10-16T23:32:09.524Z"
+    },
+    {
+      "url": "https://aonprd.com/SourceDisplay.aspx?FixedSource=PRPG Core Rulebook",
+      "sha256": "94461065d4d1448c610be1f56161a6f1f6af9d825d8c1a1bdfd0d81f46f83599",
+      "bytes": 374126,
+      "fetchedAt": "2026-10-16T14:04:46.083Z"
+    }
+  ],
+  "expectedCount": 35
+}

@@ -1,0 +1,6 @@
+{
+  "quench": {
+    "summaryEs": "Extingue todos los fuegos no mágicos en su área y disipa los conjuros de fuego allí (prueba de disipación 1d20 +1 por nivel, máximo +15). Las criaturas con el subtipo fuego sufren 1d6 de daño por nivel (máximo 10d6, sin salvación). También puede apuntarse a un objeto mágico de llama.",
+    "status": "draft"
+  }
+}

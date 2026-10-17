@@ -1,0 +1,1331 @@
+[
+  {
+    "id": "wail-of-the-banshee",
+    "name": "Wail of the Banshee",
+    "textEn": "When you cast this spell, you emit a terrible, soul-chilling scream that possibly kills creatures that hear it (except for yourself). The spell affects up to one creature per caster level, inflicting 10 points of damage per caster level. Creatures closest to the point of origin are affected first.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Wail of the Banshee",
+    "sourceRef": "PRPG Core Rulebook pg. 365",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [
+      "death",
+      "sonic"
+    ],
+    "levels": {
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature/level within a 40-ft.-radius spread"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Fortitude negates",
+      "kind": "fortitude",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Deals 10 damage/level to 1 creature/level."
+  },
+  {
+    "id": "wall-of-fire",
+    "name": "Wall of Fire",
+    "textEn": "An immobile, blazing curtain of shimmering violet fire springs into existence. One side of the wall, selected by you, sends forth waves of heat, dealing 2d4 points of fire damage to creatures within 10 feet and 1d4 points of fire damage to those past 10 feet but within 20 feet. The wall deals this damage when it appears, and to all creatures in the area on your turn each round. In addition, the wall deals 2d6 points of fire damage + 1 point of fire damage per caster level (maximum +20) to any creature passing through it. The wall deals double damage to undead creatures.\n\nIf you evoke the wall so that it appears where creatures are, each creature takes damage as if passing through the wall. If any 5-foot length of wall takes 20 points or more of cold damage in 1 round, that length goes away. (Do not divide cold damage by 2, as normal for objects.)\n\n*Wall of fire* can be made permanent with a *permanency* spell. A permanent *wall of fire* that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Wall of Fire",
+    "sourceRef": "PRPG Core Rulebook pg. 365",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "fire"
+    ],
+    "levels": {
+      "druid": 5,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (a piece of phosphor)",
+      "details": {
+        "material": "a piece of phosphor"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "opaque sheet of flame up to 20 ft. long/level or a ring of fire with a radius of up to 5 ft./two levels; either form 20 ft. high"
+      }
+    ],
+    "duration": {
+      "raw": "concentration + 1 round/level",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level."
+  },
+  {
+    "id": "wall-of-force",
+    "name": "Wall of Force",
+    "textEn": "A *wall of force* creates an invisible wall of pure force. The wall cannot move and is not easily destroyed. A *wall of force* is immune to *dispel magic*, although a *mage's disjunction* can still dispel it. A *wall of force* can be damaged by spells as normal, except for *disintegrate*, which automatically destroys it. It can be damaged by weapons and supernatural abilities, but a *wall of force* has hardness 30 and a number of hit points equal to 20 per caster level. Contact with a *sphere of annihilation* or *rod of cancellation* instantly destroys a *wall of force*.\n\nBreath weapons and spells cannot pass through a *wall of force* in either direction, although *dimension door*, *teleport*, and similar effects can bypass the barrier. It blocks ethereal creatures as well as material ones (though ethereal creatures can usually circumvent the wall by going around it, through material floors and ceilings). Gaze attacks can operate through a *wall of force*.\n\nThe caster can form the wall into a flat, vertical plane whose area is up to one 10-foot square per level. The wall must be continuous and unbroken when formed. If its surface is broken by any object or creature, the spell fails.\n\n*Wall of force* can be made permanent with a *permanency* spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Wall of Force",
+    "sourceRef": "PRPG Core Rulebook pg. 365",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "force"
+    ],
+    "levels": {
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (powdered quartz)",
+      "details": {
+        "material": "powdered quartz"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "wall whose area is up to one 10-ft. square/level"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Wall is immune to damage."
+  },
+  {
+    "id": "wall-of-ice",
+    "name": "Wall of Ice",
+    "textEn": "This spell creates an anchored plane of ice or a hemisphere of ice, depending on the version selected. A *wall of ice* cannot form in an area occupied by physical objects or creatures. Its surface must be smooth and unbroken when created. Any creature adjacent to the wall when it is created may attempt a Reflex save to disrupt the wall as it is being formed. A successful save indicates that the spell automatically fails. Fire can melt a *wall of ice*, and it deals full damage to the wall (instead of the normal half damage taken by objects). Suddenly melting a *wall of ice* creates a great cloud of steamy fog that lasts for 10 minutes.\n\n*Ice Plane*: A sheet of strong, hard ice appears. The wall is 1 inch thick per caster level. It covers up to a 10-foot-square area per caster level (so a 10th-level wizard can create a *wall of ice* 100 feet long and 10 feet high, a wall 50 feet long and 20 feet high, or any other combination of length and height that does not exceed 1,000 square feet). The plane can be oriented in any fashion as long as it is anchored. A vertical wall need only be anchored on the floor, while a horizontal or slanting wall must be anchored on two opposite sides.\n\nEach 10-foot square of wall has 3 hit points per inch of thickness. Creatures can hit the wall automatically. A section of wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 15 + caster level.\n\nEven when the ice has been broken through, a sheet of frigid air remains. Any creature stepping through it (including the one who broke through the wall) takes 1d6 points of cold damage + 1 point per caster level (no save).\n\n*Hemisphere*: The wall takes the form of a hemisphere whose maximum radius is 3 feet + 1 foot per caster level. The hemisphere is as hard to break through as the *ice plane* form, but it does not deal damage to those who go through a breach.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Wall of Ice",
+    "sourceRef": "PRPG Core Rulebook pg. 366",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "cold"
+    ],
+    "levels": {
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a piece of quartz or rock crystal)",
+      "details": {
+        "material": "a piece of quartz or rock crystal"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "anchored plane of ice, up to one 10-ft. square/level, or hemisphere of ice with a radius of up to 3 ft. + 1 ft./level"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Reflex negates; see text",
+      "kind": "reflex",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Ice plane creates wall or hemisphere creates dome."
+  },
+  {
+    "id": "wall-of-iron",
+    "name": "Wall of Iron",
+    "textEn": "You cause a flat, vertical iron wall to spring into being. The wall inserts itself into any surrounding nonliving material if its area is sufficient to do so. The wall cannot be conjured so that it occupies the same space as a creature or another object. It must always be a flat plane, though you can shape its edges to fit the available space.\n\nA *wall of iron* is 1 inch thick per four caster levels. You can double the wall's area by halving its thickness. Each 5-foot square of the wall has 30 hit points per inch of thickness and hardness 10. A section of wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 25 + 2 per inch of thickness.\n\nIf you desire, the wall can be created vertically resting on a flat surface but not attached to the surface, so that it can be tipped over to fall on and crush creatures beneath it. The wall is 50% likely to tip in either direction if left unpushed. Creatures can push the wall in one direction rather than letting it fall randomly. A creature must make a DC 40 Strength check to push the wall over. Creatures with room to flee the falling wall may do so by making successful Reflex saves. Any Large or smaller creature that fails takes 10d6 points of damage while fleeing from the wall. The wall cannot crush Huge and larger creatures.\n\nLike any iron wall, this wall is subject to rust, perforation, and other natural phenomena. Iron created by this spell is not suitable for use in the creation of other objects and cannot be sold.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Wall of Iron",
+    "sourceRef": "PRPG Core Rulebook pg. 367",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "creation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a small iron sheet plus gold dust worth 50 gp)",
+      "details": {
+        "material": "a small iron sheet plus gold dust worth 50 gp"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "iron wall whose area is up to one 5-ft. square/level; see text"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "30 hp/four levels; can topple onto foes."
+  },
+  {
+    "id": "wall-of-stone",
+    "name": "Wall of Stone",
+    "textEn": "This spell creates a wall of rock that merges into adjoining rock surfaces. A *wall of stone* is 1 inch thick per four caster levels and composed of up to one 5-foot square per level. You can double the wall's area by halving its thickness. The wall cannot be conjured so that it occupies the same space as a creature or another object.\n\nUnlike a *wall of iron*, you can create a *wall of stone* in almost any shape you desire. The wall created need not be vertical, nor rest upon any firm foundation; however, it must merge with and be solidly supported by existing stone. It can be used to bridge a chasm, for instance, or as a ramp. For this use, if the span is more than 20 feet, the wall must be arched and buttressed. This requirement reduces the spell's area by half. The wall can be crudely shaped to allow crenellations, battlements, and so forth by likewise reducing the area.\n\nLike any other stone wall, this one can be destroyed by a *disintegrate* spell or by normal means such as breaking and chipping. Each 5-foot square of the wall has hardness 8 and 15 hit points per inch of thickness. A section of wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 20 + 2 per inch of thickness.\n\nIt is possible, but difficult, to trap mobile opponents within or under a *wall of stone*, provided the wall is shaped so it can hold the creatures. Creatures can avoid entrapment with successful Reflex saves.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Wall of Stone",
+    "sourceRef": "PRPG Core Rulebook pg. 367",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "creation",
+    "descriptors": [
+      "earth"
+    ],
+    "levels": {
+      "cleric": 5,
+      "druid": 6,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (a small block of granite)",
+      "details": {
+        "material": "a small block of granite"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "stone wall whose area is up to one 5-ft. square/level (S)"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Creates a stone wall that can be shaped."
+  },
+  {
+    "id": "wall-of-thorns",
+    "name": "Wall of Thorns",
+    "textEn": "A *wall of thorns* spell creates a barrier of very tough, pliable, tangled brush bearing needle-sharp thorns as long as a human's finger. Any creature forced into or attempting to move through a *wall of thorns* takes piercing damage per round of movement equal to 25 minus the creature's AC. Dexterity and dodge bonuses to AC do not count for this calculation. (Creatures with an AC of 25 or higher, without considering Dexterity and dodge bonuses, take no damage from contact with the wall.)\n\nYou can make the wall as thin as 5 feet thick, which allows you to shape the wall as a number of 10-by-10-by-5-foot blocks equal to twice your caster level. This has no effect on the damage dealt by the thorns, but any creature attempting to break through takes that much less time to force its way through the barrier.\n\nCreatures can force their way slowly through the wall by making a Strength check as a full-round action. For every 5 points by which the check exceeds 20, a creature moves 5 feet (up to a maximum distance equal to its normal land speed). Of course, moving or attempting to move through the thorns incurs damage as described above. A creature trapped in the thorns can choose to remain motionless in order to avoid taking any more damage.\n\nAny creature within the area of the spell when it is cast takes damage as if it had moved into the wall and is caught inside. In order to escape, it must attempt to push its way free, or it can wait until the spell ends. Creatures with the ability to pass through overgrown areas unhindered can pass through a wall of thorns at normal speed without taking damage.\n\nA *wall of thorns* can be breached by slow work with edged weapons. Chopping away at the wall creates a safe passage 1 foot deep for every 10 minutes of work. Normal fire cannot harm the barrier, but magical fire burns it away in 10 minutes.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Wall of Thorns",
+    "sourceRef": "PRPG Core Rulebook pg. 367",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "creation",
+    "descriptors": [],
+    "levels": {
+      "druid": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "wall of thorny brush, up to one 10-ft. cube/level (S)"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Thorns damage anyone who tries to pass."
+  },
+  {
+    "id": "warp-wood",
+    "name": "Warp Wood",
+    "textEn": "You cause wood to bend and warp, permanently destroying its straightness, form, and strength. A warped door springs open (or becomes stuck, requiring a Strength check to open, at your option). A boat or ship springs a leak. Warped ranged weapons are useless. A warped melee weapon causes a –4 penalty on attack rolls.\n\nYou may warp one Small or smaller object or its equivalent per caster level. A Medium object counts as two Small objects, a Large object as four, a Huge object as eight, a Gargantuan object as 16, and a Colossal object as 32.\n\nAlternatively, you can unwarp wood (effectively warping it back to normal) with this spell. *Make whole*, on the other hand, does no good in repairing a warped item.\n\nYou can combine multiple consecutive warp wood spells to warp (or unwarp) an object that is too large for you to warp with a single spell. Until the object is completely warped, it suffers no ill effects.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Warp Wood",
+    "sourceRef": "PRPG Core Rulebook pg. 368",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "druid": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "1 Small wooden object/level, all within a 20-ft. radius"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (object)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (object)",
+      "applies": "yes",
+      "harmless": false,
+      "object": true
+    },
+    "shortDescriptionEn": "Bends wood."
+  },
+  {
+    "id": "water-breathing",
+    "name": "Water Breathing",
+    "textEn": "The transmuted creatures can breathe water freely. Divide the duration evenly among all the creatures you touch. The spell does not make creatures unable to breathe air.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Water Breathing",
+    "sourceRef": "PRPG Core Rulebook pg. 368",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 3,
+      "druid": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (short reed or piece of straw)",
+      "details": {
+        "material": "short reed or piece of straw"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "living creatures touched"
+      }
+    ],
+    "duration": {
+      "raw": "2 hours/level; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Subjects can breathe underwater."
+  },
+  {
+    "id": "water-walk",
+    "name": "Water Walk",
+    "textEn": "The transmuted creatures can tread on any liquid as if it were firm ground. Mud, oil, snow, quicksand, running water, ice, and even lava can be traversed easily, since the subjects' feet hover an inch or two above the surface. Creatures crossing molten lava still take damage from the heat because they are near it. The subjects can walk, run, charge, or otherwise move across the surface as if it were normal ground.\n\nIf the spell is cast underwater (or while the subjects are partially or wholly submerged in whatever liquid they are in), the subjects are borne toward the surface at 60 feet per round until they can stand on it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Water Walk",
+    "sourceRef": "PRPG Core Rulebook pg. 368",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [
+      "water"
+    ],
+    "levels": {
+      "cleric": 3,
+      "ranger": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one touched creature/level"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Subject treads on water as if solid."
+  },
+  {
+    "id": "waves-of-exhaustion",
+    "name": "Waves of Exhaustion",
+    "textEn": "Waves of negative energy cause all living creatures in the spell's area to become exhausted. This spell has no effect on a creature that is already exhausted.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Waves of Exhaustion",
+    "sourceRef": "PRPG Core Rulebook pg. 368",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "60 ft.",
+      "kind": "fixed",
+      "fixedFt": 60
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped burst"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "no",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Several targets become exhausted."
+  },
+  {
+    "id": "waves-of-fatigue",
+    "name": "Waves of Fatigue",
+    "textEn": "Waves of negative energy render all living creatures in the spell's area fatigued. This spell has no effect on a creature that is already fatigued.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Waves of Fatigue",
+    "sourceRef": "PRPG Core Rulebook pg. 368",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "30 ft.",
+      "kind": "fixed",
+      "fixedFt": 30
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped burst"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "no",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Several targets become fatigued."
+  },
+  {
+    "id": "web",
+    "name": "Web",
+    "textEn": "*Web* creates a many-layered mass of strong, sticky strands. These strands trap those caught in them. The strands are similar to spiderwebs but far larger and tougher. These masses must be anchored to two or more solid and diametrically opposed points or else the web collapses upon itself and disappears. Creatures caught within a web become grappled by the sticky fibers. Attacking a creature in a web doesn't cause you to become grappled.\n\nAnyone in the effect's area when the spell is cast must make a Reflex save. If this save succeeds, the creature is inside the web but is otherwise unaffected. If the save fails, the creature gains the grappled condition, but can break free by making a combat maneuver check or Escape Artist check as a standard action against the DC of this spell. The entire area of the web is considered difficult terrain. Anyone moving through the webs must make a combat maneuver check or Escape Artist check as part of their move action, with a DC equal to the spell's DC. Creatures that fail lose their movement and become grappled in the first square of webbing that they enter.\n\nIf you have at least 5 feet of web between you and an opponent, it provides cover. If you have at least 20 feet of web between you, it provides total cover.\n\nThe strands of a *web* spell are flammable. A *flaming weapon* can slash them away as easily as a hand brushes away cobwebs. Any fire can set the webs alight and burn away one 5-foot square in 1 round. All creatures within flaming webs take 2d4 points of fire damage from the flames.\n\n*Web* can be made permanent with a *permanency* spell. A permanent web that is damaged (but not destroyed) regrows in 10 minutes.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Web",
+    "sourceRef": "PRPG Core Rulebook pg. 368",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "creation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (spider web)",
+      "details": {
+        "material": "spider web"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "webs in a 20-ft.-radius spread"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Reflex negates; see text",
+      "kind": "reflex",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Fills 20-ft.-radius spread with sticky spiderwebs that can grapple foes and impair movement."
+  },
+  {
+    "id": "weird",
+    "name": "Weird",
+    "textEn": "This spell functions like *phantasmal killer*, except it can affect more than one creature. Only the affected creatures see the phantasmal creatures attacking them, though you see the attackers as shadowy shapes.\n\nIf a subject's Fortitude save succeeds, it still takes 3d6 points of damage and is stunned for 1 round. The subject also takes 1d4 points of Strength damage.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Weird",
+    "sourceRef": "PRPG Core Rulebook pg. 369",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "phantasm",
+    "descriptors": [
+      "emotion",
+      "fear",
+      "mind-affecting"
+    ],
+    "levels": {
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "any number of creatures, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will disbelief, then Fortitude partial; see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As phantasmal killer, but affects all within 30 ft."
+  },
+  {
+    "id": "whirlwind",
+    "name": "Whirlwind",
+    "textEn": "This spell creates a powerful cyclone of raging wind that moves through the air, along the ground, or over water at a speed of 60 feet per round. You can concentrate on controlling the cyclone's every movement or specify a simple program. Directing the cyclone's movement or changing its programmed movement is a standard action for you. The cyclone always moves during your turn. If the cyclone exceeds the spell's range, it moves in a random, uncontrolled fashion for 1d3 rounds and then dissipates. (You can't regain control of the cyclone, even if it comes back within range.)\n\nAny Large or smaller creature that comes in contact with the spell effect must succeed on a Reflex save or take 3d6 points of damage. A Medium or smaller creature that fails its first save must succeed on a second one or be picked up bodily by the cyclone and held suspended in its powerful winds, taking 1d8 points of damage each round on your turn with no save allowed. You may direct the cyclone to eject any carried creatures whenever you wish, depositing the hapless souls wherever the cyclone happens to be when they are released.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Whirlwind",
+    "sourceRef": "PRPG Core Rulebook pg. 369",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "air"
+    ],
+    "levels": {
+      "druid": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "cyclone 10 ft. wide at base, 30 ft. wide at top, and 30 ft. tall"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Reflex negates; see text",
+      "kind": "reflex",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Cyclone deals damage and can pick up creatures."
+  },
+  {
+    "id": "whispering-wind",
+    "name": "Whispering Wind",
+    "textEn": "You send a message or sound on the wind to a designated spot. The *whispering wind* travels to a specific location within range that is familiar to you, provided that it can find a way to the location. A *whispering wind* is as gentle and unnoticed as a zephyr until it reaches the location. It then delivers its whisper-quiet message or other sound. Note that the message is delivered regardless of whether anyone is present to hear it. The wind then dissipates.\n\nYou can prepare the spell to bear a message of no more than 25 words, cause the spell to deliver other sounds for 1 round, or merely have the *whispering wind* seem to be a faint stirring of the air. You can likewise cause the *whispering wind* to move as slowly as 1 mile per hour or as quickly as 1 mile per 10 minutes.\n\nWhen the spell reaches its objective, it swirls and remains in place until the message is delivered. As with *magic mouth*, *whispering wind* cannot speak verbal components, use command words, or activate magical effects.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Whispering Wind",
+    "sourceRef": "PRPG Core Rulebook pg. 369",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [
+      "air"
+    ],
+    "levels": {
+      "bard": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "1 mile/level",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "10-ft.-radius spread"
+      }
+    ],
+    "duration": {
+      "raw": "no more than 1 hour/level or until discharged (destination is reached)",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Sends a short message 1 mile/level."
+  },
+  {
+    "id": "wind-walk",
+    "name": "Wind Walk",
+    "textEn": "You alter the substance of your body to a cloudlike vapor (as the *gaseous form* spell) and move through the air, possibly at great speed. You can take other creatures with you, each of which acts independently.\n\nNormally, a wind walker flies at a speed of 10 feet with perfect maneuverability. If desired by the subject, a magical wind wafts a wind walker along at up to 600 feet per round (60 mph) with poor maneuverability. Wind walkers are not invisible but rather appear misty and translucent. If fully clothed in white, they are 80% likely to be mistaken for clouds, fog, vapors, or the like.\n\nA wind walker can regain its physical form as desired and later resume the cloud form. Each change to and from vaporous form takes 5 rounds, which counts toward the duration of the spell (as does any time spent in physical form). As noted above, you can dismiss the spell, and you can even dismiss it for individual wind walkers and not others.\n\nFor the last minute of the spell's duration, a wind walker in cloud form automatically descends 60 feet per round (for a total of 600 feet), though it may descend faster if it wishes. This descent serves as a warning that the spell is about to end.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Wind Walk",
+    "sourceRef": "PRPG Core Rulebook pg. 369",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [
+      "air"
+    ],
+    "levels": {
+      "cleric": 6,
+      "druid": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you and one touched creature per three levels"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour/level (D); see text",
+      "kind": "other",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "no and Will negates (harmless)",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no and yes (harmless)",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You and your allies turn vaporous and travel fast."
+  },
+  {
+    "id": "wind-wall",
+    "name": "Wind Wall",
+    "textEn": "An invisible vertical curtain of wind appears. It is 2 feet thick and of considerable strength. It is a roaring blast sufficient to blow away any bird smaller than an eagle, or tear papers and similar materials from unsuspecting hands. (A Reflex save allows a creature to maintain its grasp on an object.) Tiny and Small flying creatures cannot pass through the barrier. Loose materials and cloth garments fly upward when caught in a *wind wall*. Arrows and bolts are deflected upward and miss, while any other normal ranged weapon passing through the wall has a 30% miss chance. (A giant-thrown boulder, a siege engine projectile, and other massive ranged weapons are not affected.) Gases, most gaseous breath weapons, and creatures in gaseous form cannot pass through the wall (although it is no barrier to incorporeal creatures).\n\nWhile the wall must be vertical, you can shape it in any continuous path along the ground that you like. It is possible to create cylindrical or square wind walls to enclose specific points.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Wind Wall",
+    "sourceRef": "PRPG Core Rulebook pg. 370",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "air"
+    ],
+    "levels": {
+      "cleric": 3,
+      "druid": 3,
+      "ranger": 2,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (a tiny fan and an exotic feather)",
+      "details": {
+        "material": "a tiny fan and an exotic feather"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "wall up to 10 ft./level long and 5 ft./level high (S)"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none; see text",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Deflects arrows, smaller creatures, and gases."
+  },
+  {
+    "id": "wish",
+    "name": "Wish",
+    "textEn": "*Wish* is the mightiest spell a wizard or sorcerer can cast. By simply speaking aloud, you can alter reality to better suit you. Even *wish*, however, has its limits. A *wish* can produce any one of the following effects.\n\n- Duplicate any sorcerer/wizard spell of 8th level or lower, provided the spell does not belong to one of your opposition schools.\n- Duplicate any non-sorcerer/wizard spell of 7th level or lower, provided the spell does not belong to one of your opposition schools.\n- Duplicate any sorcerer/wizard spell of 7th level or lower, even if it belongs to one of your opposition schools.\n- Duplicate any non-sorcerer/wizard spell of 6th level or lower, even if it belongs to one of your opposition schools.\n- Undo the harmful effects of many other spells, such as *geas/quest* or *insanity*.\n- Grant a creature a +1 inherent bonus to an ability score. Two to five *wish* spells cast in immediate succession can grant a creature a +2 to +5 inherent bonus to an ability score (two *wishes* for a +2 inherent bonus, three *wishes* for a +3 inherent bonus, and so on). Inherent bonuses are instantaneous, so they cannot be dispelled. *Note*: An inherent bonus may not exceed +5 for a single ability score, and inherent bonuses to a particular ability score do not stack, so only the best one applies.\n- Remove injuries and afflictions. A single *wish* can aid one creature per caster level, and all subjects are cured of the same kind of affliction. For example, you could heal all the damage you and your companions have taken, or remove all poison effects from everyone in the party, but not do both with the same *wish*.\n- Revive the dead. A *wish* can bring a dead creature back to life by duplicating a *resurrection* spell. A *wish* can revive a dead creature whose body has been destroyed, but the task takes two *wishes*: one to recreate the body and another to infuse the body with life again. A *wish* cannot prevent a character who was brought back to life from gaining a permanent negative level.\n- Transport travelers. A *wish* can lift one creature per caster level from anywhere on any plane and place those creatures anywhere else on any plane regardless of local conditions. An unwilling target gets a Will save to negate the effect, and spell resistance (if any) applies.\n- Undo misfortune. A *wish* can undo a single recent event. The *wish* forces a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a *wish* could undo an opponent's successful save, a foe's successful critical hit (either the attack roll or the critical roll), a friend's failed save, and so on. The reroll, however, may be as bad as or worse than the original roll. An unwilling target gets a Will save to negate the effect, and spell resistance (if any) applies.\n\nYou may try to use a *wish* to produce greater effects than these, but doing so is dangerous. (The *wish* may pervert your intent into a literal but undesirable fulfillment or only a partial fulfillment, at the GM's discretion.)\n\nDuplicated spells allow saves and spell resistance as normal (but save DCs are for 9th-level spells).\n\nWhen a *wish* duplicates a spell with a material component that costs more than 10,000 gp, you must provide that component (in addition to the 25,000 gp diamond component for this spell).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Wish",
+    "sourceRef": "PRPG Core Rulebook pg. 370",
+    "book": "CRB",
+    "school": "universal",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (diamond worth 25,000 gp)",
+      "details": {
+        "material": "diamond worth 25,000 gp"
+      }
+    },
+    "range": {
+      "raw": "see text",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "other",
+        "raw": "see text"
+      }
+    ],
+    "duration": {
+      "raw": "see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none, see text",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As limited wish, but with fewer limits."
+  },
+  {
+    "id": "wood-shape",
+    "name": "Wood Shape",
+    "textEn": "*Wood shape* enables you to form one existing piece of wood into any shape that suits your purpose. While it is possible to make crude coffers, doors, and so forth, fine detail isn't possible. There is a 30% chance that any shape that includes moving parts simply doesn't work.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Wood Shape",
+    "sourceRef": "PRPG Core Rulebook pg. 370",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "druid": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one touched piece of wood no larger than 10 cu. ft. + 1 cu. ft./level"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (object)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (object)",
+      "applies": "yes",
+      "harmless": false,
+      "object": true
+    },
+    "shortDescriptionEn": "Reshapes wooden objects to suit you."
+  },
+  {
+    "id": "word-of-chaos",
+    "name": "Word of Chaos",
+    "textEn": "Any nonchaotic creature within the area of a *word of chaos* spell suffers the following ill effects, depending on their HD.\n\n| **HD** | **Effect** |\n| --- | --- |\n| Equal to caster level | Deafened |\n| Up to caster level -1 | Stunned, deafened |\n| Up to caster level -5 | Confused, stunned, deafened |\n| Up to caster level -10 | Killed, confused, stunned, deafened |\n\nThe effects are cumulative and concurrent. A successful Will save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.\n\n*Deafened*: The creature is deafened for 1d4 rounds. Save negates.\n\n*Stunned*: The creature is stunned for 1 round. Save negates.\n\n*Confused*: The creature is confused for 1d10 minutes. This is a mind-affecting enchantment effect. Save reduces the confused effect to 1 round.\n\n*Killed*: Living creatures die. Undead creatures are destroyed. Save negates. If the save is successful, the creature instead takes 3d6 points of damage + 1 point per caster level (maximum +25).\n\nFurthermore, if you are on your home plane when you cast this spell, nonchaotic extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the *word of chaos* or not. The banishment effect allows a Will save (at a –4 penalty) to negate.\n\nCreatures whose HD exceed your caster level are unaffected by *word of chaos*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Word of Chaos",
+    "sourceRef": "PRPG Core Rulebook pg. 371",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "chaotic",
+      "sonic"
+    ],
+    "levels": {
+      "cleric": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "40 ft.",
+      "kind": "fixed",
+      "fixedFt": 40
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "nonchaotic creatures in a 40-ft. radius spread centered on you"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none or Will negates; see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Kills, confuses, stuns, or deafens nonchaotic subjects."
+  },
+  {
+    "id": "word-of-recall",
+    "name": "Word of Recall",
+    "textEn": "*Word of recall* teleports you instantly back to your sanctuary when the word is uttered. You must designate the sanctuary when you prepare the spell, and it must be a very familiar place. The actual point of arrival is a designated area no larger than 10 feet by 10 feet. You can be transported any distance within a plane but cannot travel between planes. You can transport, in addition to yourself, any objects you carry, as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you. Exceeding this limit causes the spell to fail.\n\nAn unwilling creature can't be teleported by *word of recall*. Likewise, a creature's Will save (or spell resistance) prevents items in its possession from being teleported. Unattended, nonmagical objects receive no saving throw.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Word of Recall",
+    "sourceRef": "PRPG Core Rulebook pg. 371",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "teleportation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 6,
+      "druid": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "unlimited",
+      "kind": "unlimited"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you and touched objects or other willing creatures"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none or Will negates (harmless, object)",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no or yes (harmless, object)",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Teleports you back to designated place."
+  }
+]

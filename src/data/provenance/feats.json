@@ -1,0 +1,1095 @@
+{
+  "license": "OGL-1.0a",
+  "category": "feats",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Acrobatic",
+      "sha256": "5a39bf2c1200bee178cde5e7f2c6f7db0932dc82b54dde57288f72f7040dc676",
+      "bytes": 26785,
+      "fetchedAt": "2026-10-16T13:58:25.884Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Acrobatic%20Steps",
+      "sha256": "058e604afef7f6899166eba4f184cad7c9d4a9c218b0da89d38279baa83098cc",
+      "bytes": 25727,
+      "fetchedAt": "2026-10-16T13:58:27.892Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Agile%20Maneuvers",
+      "sha256": "c909292b5b48694c358ecc3efa3582c2daa8fba986c943817c56b33787011310",
+      "bytes": 27305,
+      "fetchedAt": "2026-10-16T13:58:46.892Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Alertness",
+      "sha256": "c210efe31e41e9696a433c03e1748756e401d12da3642cdb1c57502ba310617e",
+      "bytes": 27035,
+      "fetchedAt": "2026-10-16T13:58:57.880Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Alignment%20Channel",
+      "sha256": "e78dec5356093340623fd84eccfb00fa3b470532defe9df01eccc21d42138e64",
+      "bytes": 28741,
+      "fetchedAt": "2026-10-16T13:59:01.889Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Animal%20Affinity",
+      "sha256": "7909c84f93a69967de76bf1a986f6fe3cbcb2119fe08076415ea1f29ae88df09",
+      "bytes": 26925,
+      "fetchedAt": "2026-10-16T13:59:32.887Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Arcane%20Armor%20Mastery",
+      "sha256": "87aac51abbb601002080e382e9a096c0f4c2c7512ca3c2081de082e397218dcd",
+      "bytes": 27331,
+      "fetchedAt": "2026-10-16T13:59:53.893Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Arcane%20Armor%20Training",
+      "sha256": "9ca765abd3aa396cd4fd603246f13a78a4144b73c8965e4416c575ee97452f09",
+      "bytes": 28194,
+      "fetchedAt": "2026-10-16T13:59:54.891Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Arcane%20Strike",
+      "sha256": "0a3a9e4896e2b222ec68188416589bfc2c5c00e27e552d2b71598cf3e917389c",
+      "bytes": 28920,
+      "fetchedAt": "2026-10-16T14:00:00.886Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Armor%20Proficiency%2C%20Heavy",
+      "sha256": "adc3b58e06530946365850547ca46f2564ef38ef4486267b0dfdbe504217315b",
+      "bytes": 25530,
+      "fetchedAt": "2026-10-16T14:00:22.882Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Armor%20Proficiency%2C%20Light",
+      "sha256": "9eb2d92e004f8e5947bf2c216ce192158d615ff91be7fd9c6dadf845f473ba4c",
+      "bytes": 25897,
+      "fetchedAt": "2026-10-16T14:00:23.884Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Armor%20Proficiency%2C%20Medium",
+      "sha256": "df9d0584cee26975e864cb429c8f64d7d98ab838a9cc22c4d4c6a2db79c02597",
+      "bytes": 25465,
+      "fetchedAt": "2026-10-16T14:00:25.078Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Athletic",
+      "sha256": "ff38c49e3f1181eaa58608c0e409504ca87815d8012fa39962db242ad63e8ab2",
+      "bytes": 26738,
+      "fetchedAt": "2026-10-16T14:00:48.881Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Augment%20Summoning",
+      "sha256": "9a622f5e14768614e0627bbf7c6df1892ade4c19139dbc04971ce77e6e248a95",
+      "bytes": 27524,
+      "fetchedAt": "2026-10-16T14:00:51.882Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Bleeding%20Critical",
+      "sha256": "0aa8e5f0112a0fc4e5dfdf68cdcbc95ad358eaa54d1139c358aca1e962deb12f",
+      "bytes": 29968,
+      "fetchedAt": "2026-10-16T14:02:18.887Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Blind-Fight",
+      "sha256": "bc0d04e86bfadd6193dbb7e12f3a3a77a1db40a4e690623bc61e49dc57c05190",
+      "bytes": 29622,
+      "fetchedAt": "2026-10-16T14:02:31.883Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Blinding%20Critical",
+      "sha256": "01e302f88de5b5f8851f783823dd926380de9f3c47180132f7e1d43ea5186d73",
+      "bytes": 27969,
+      "fetchedAt": "2026-10-16T14:02:32.883Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Brew%20Potion",
+      "sha256": "10f152cd8300cbe5fe2394e42241565ac6925b38496c5daa70c894b7204703ed",
+      "bytes": 26278,
+      "fetchedAt": "2026-10-16T14:03:46.887Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Catch%20Off-Guard",
+      "sha256": "8b203d3068fe578cb97db27d59f1598583a7d78329f56bb6e03a30a5e65a12fc",
+      "bytes": 28536,
+      "fetchedAt": "2026-10-16T14:00:14.881Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Channel%20Smite",
+      "sha256": "5899b2a9a9fb0813631643085c96ca564d4ae61d8963b32ffcaa3070925bf212",
+      "bytes": 30385,
+      "fetchedAt": "2026-10-16T14:05:26.882Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Cleave",
+      "sha256": "657c444c787f491bb5c4d11aa9081f6e5bee9b1ab8ed034c5126a801674b3048",
+      "bytes": 29354,
+      "fetchedAt": "2026-10-16T13:54:59.233Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Casting",
+      "sha256": "75e73a3d45845f49e9c1eb737215a07260ec803e119bc967f23943fcb9b5209b",
+      "bytes": 25111,
+      "fetchedAt": "2026-10-16T14:06:35.887Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Expertise",
+      "sha256": "dbdcb5ff6febb7429809e21249bd4c5e050f0fb0fb3f539942d1c2c84f00c980",
+      "bytes": 29489,
+      "fetchedAt": "2026-10-16T14:00:15.879Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Combat%20Reflexes",
+      "sha256": "b4f720c1e6d48f734f0ac257cf3cff382f7b64a4e08570ceb7fee1eca4a3d0f5",
+      "bytes": 29242,
+      "fetchedAt": "2026-10-16T14:06:40.889Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Command%20Undead",
+      "sha256": "4168ad75dab4682791297393acef40f3a989513d0d96c76edf1b40a8f413feea",
+      "bytes": 28921,
+      "fetchedAt": "2026-10-16T14:06:47.889Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Craft%20Magic%20Arms%20and%20Armor",
+      "sha256": "f99da8d83dd771c3ce08f7b9b459b3ce95b7d84571ba0d6ef65a27402ee32977",
+      "bytes": 26401,
+      "fetchedAt": "2026-10-16T14:08:03.884Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Craft%20Rod",
+      "sha256": "0355089a06981e209f3737d36ac43f40c7515d1f9a495dd3de246fe7d61a69bd",
+      "bytes": 25123,
+      "fetchedAt": "2026-10-16T14:08:08.891Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Craft%20Staff",
+      "sha256": "a79c67defb3c2abeb7e0fcb9c602957152ef1489198580584d02f060f5975325",
+      "bytes": 25197,
+      "fetchedAt": "2026-10-16T14:08:11.886Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Craft%20Wand",
+      "sha256": "b2116cd54171bf502ebe7d86c86b69b68118b012d0bbcc0512864a62596cfa8a",
+      "bytes": 25323,
+      "fetchedAt": "2026-10-16T14:08:14.890Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Craft%20Wondrous%20Item",
+      "sha256": "17720168b4d767e498ea1052c96530f8a04427970f5cf04da891fe54f4625c29",
+      "bytes": 25771,
+      "fetchedAt": "2026-10-16T14:08:15.886Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Critical%20Focus",
+      "sha256": "2cceebb2165e9e4f9e3e3dafaf3b85f2a351b2ad9dc414f2d90c472b5a8f2329",
+      "bytes": 28709,
+      "fetchedAt": "2026-10-16T14:08:37.209Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Critical%20Mastery",
+      "sha256": "54eaa63d9dd765534aaf3ceb30cfd443f78f8111736082ce08943430265bab3d",
+      "bytes": 28828,
+      "fetchedAt": "2026-10-16T14:08:37.889Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Dazzling%20Display",
+      "sha256": "89a6441178611fd9f332b3d1c9bfb8b60d53da7f6da0238660afb26b51505dca",
+      "bytes": 29411,
+      "fetchedAt": "2026-10-16T14:09:35.895Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Deadly%20Aim",
+      "sha256": "db4d078336f9daaafd2087c4f5e941dc13e29d13f881338908e4d48561a865c1",
+      "bytes": 28943,
+      "fetchedAt": "2026-10-16T14:09:40.894Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Deadly%20Stroke",
+      "sha256": "db4c4cbcc3f128cb9247e7c1961445ca244b4ff5b61f5b15f0adcc6fde214588",
+      "bytes": 30059,
+      "fetchedAt": "2026-10-16T14:09:46.883Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Deafening%20Critical",
+      "sha256": "6d92a8927711e0faab4ad6de0b7a31092199c9467c0fd93b211b53f633502be4",
+      "bytes": 27705,
+      "fetchedAt": "2026-10-16T14:09:50.117Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Deceitful",
+      "sha256": "f9188d2638158516f5d7cb4949d7709d291aadb46a2c1eb4f20f8248d727aecb",
+      "bytes": 26877,
+      "fetchedAt": "2026-10-16T14:10:01.887Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Defensive%20Combat%20Training",
+      "sha256": "9576e2e1f3ccff9e5afcd89c9198a1b28ba2bf23fbd2b689249285f9228f4559",
+      "bytes": 27569,
+      "fetchedAt": "2026-10-16T14:10:15.886Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Deflect%20Arrows",
+      "sha256": "1271ba61ed2d51a4e02911e3cbb7e0cb01e2324a8919ebbace29ac15114c53de",
+      "bytes": 29203,
+      "fetchedAt": "2026-10-16T14:10:18.885Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Deft%20Hands",
+      "sha256": "cb17bbe7455f1ca1314632ec8ccfc6096502238c9f4e987b93fd5b8a916ff1c1",
+      "bytes": 26897,
+      "fetchedAt": "2026-10-16T14:10:20.892Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Diehard",
+      "sha256": "96fbe9fc76b5930178a676b8c193db5d1e521c3c39ec36b7794c805cf83350a4",
+      "bytes": 27594,
+      "fetchedAt": "2026-10-16T18:45:54.451Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Disruptive",
+      "sha256": "2a3cdec4d2383679cb4f75fa51c8a6d59613cfe2778bf9080a461856481652c8",
+      "bytes": 29095,
+      "fetchedAt": "2026-10-16T18:45:55.030Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Dodge",
+      "sha256": "1dd5e3ca13d71af424a460454ea275d01f67e85aa8020e469f419b4214962fcf",
+      "bytes": 28081,
+      "fetchedAt": "2026-10-16T18:45:56.370Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Double%20Slice",
+      "sha256": "3ed7f0fe791716d6de6fe0eb357d7d0983802210d12680e0629deca4c9ecd514",
+      "bytes": 27354,
+      "fetchedAt": "2026-10-16T18:45:57.031Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Elemental%20Channel",
+      "sha256": "ceaf5b0d3c4363c77961c88129b209d7ff64826385faeeca4492a06ea089fe20",
+      "bytes": 28405,
+      "fetchedAt": "2026-10-16T18:45:58.038Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Empower%20Spell",
+      "sha256": "700f264b726757f8f08b800c7d42b930e4973a4c27f150c13c9982f753aab7bc",
+      "bytes": 25525,
+      "fetchedAt": "2026-10-16T13:55:02.238Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Endurance",
+      "sha256": "1378e0b84a2e39df1f1c36f161270844e74b93bb1d30598281ca3eab975241c0",
+      "bytes": 28108,
+      "fetchedAt": "2026-10-16T18:45:59.031Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Enlarge%20Spell",
+      "sha256": "1ac085a30204678d7e867547ad6fa7f192122863c63e7efc26e3903231195200",
+      "bytes": 25987,
+      "fetchedAt": "2026-10-16T18:46:00.035Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Eschew%20Materials",
+      "sha256": "76822a785257b7c4cae16a39ea1004c5f6fae0315d498b19eaf066eba6811178",
+      "bytes": 27836,
+      "fetchedAt": "2026-10-16T18:46:01.037Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Exhausting%20Critical",
+      "sha256": "ba6d6052efdfc4051972523805a7227f8b94b9bc48a9ca2615dcdd241cc05f49",
+      "bytes": 27517,
+      "fetchedAt": "2026-10-16T18:46:02.027Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Exotic%20Weapon%20Proficiency",
+      "sha256": "dd93325c47895b84cf28b7e0cd11eee0f524a567158e11d6b4b03cd603636fb9",
+      "bytes": 26118,
+      "fetchedAt": "2026-10-16T18:46:03.034Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extend%20Spell",
+      "sha256": "ed8ae4caaa7690d2008287698ed4c567601623577ebf1b67dba120ffd0528620",
+      "bytes": 25275,
+      "fetchedAt": "2026-10-16T18:46:04.027Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Channel",
+      "sha256": "27192c674d7c4f976690ee2405d5524a62712087d8a9561dc3ce05db863b343d",
+      "bytes": 26166,
+      "fetchedAt": "2026-10-16T18:46:05.034Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Ki",
+      "sha256": "2e1901460c7aa3c17e253dbb13e22eac3c0657d5e5b1d271802e4abcba8dadc6",
+      "bytes": 25180,
+      "fetchedAt": "2026-10-16T18:46:06.026Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Lay%20on%20Hands",
+      "sha256": "cc04667d4c719893023ea5f038cb47ec1c35a71e64bf843caf8073a32d8419f8",
+      "bytes": 25187,
+      "fetchedAt": "2026-10-16T18:46:07.032Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Mercy",
+      "sha256": "88d4f6bba81fe848f8ef02c2852a7bcee9a701e36ce54840f97a78bcfc69e0c5",
+      "bytes": 25640,
+      "fetchedAt": "2026-10-16T18:46:08.038Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Performance",
+      "sha256": "b9c9d50b9ce21c77d7f961d2e2243d9b857d7e70aeeebac3d3ea3be9f870ef81",
+      "bytes": 25339,
+      "fetchedAt": "2026-10-16T18:46:09.030Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Rage",
+      "sha256": "f7c4f2b5b77813f34c1d0e9fce9b900206cbe09270205c116a587f65255c08f4",
+      "bytes": 25142,
+      "fetchedAt": "2026-10-16T18:46:10.037Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Far%20Shot",
+      "sha256": "fe0b18b788a9b4449a794ba4f0b9086ee73c91a749b1ba74b586f0376a0f3373",
+      "bytes": 28112,
+      "fetchedAt": "2026-10-16T18:46:11.027Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Fleet",
+      "sha256": "d0c1630054dc373294ec6184c0d29a442a1f6a450bcbb27511fca606a446b8ba",
+      "bytes": 26935,
+      "fetchedAt": "2026-10-16T18:46:12.039Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Forge%20Ring",
+      "sha256": "03511b95228ebb3ddf2c8ad732c6d71def62ab0ac6d0e569c33dad380dcfeafd",
+      "bytes": 25574,
+      "fetchedAt": "2026-10-16T18:46:13.030Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Gorgon's%20Fist",
+      "sha256": "ca709f969677b9dd5d4182085347448a283cfc89e46a6482323cf87555a86dd4",
+      "bytes": 29082,
+      "fetchedAt": "2026-10-16T18:46:14.029Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Great%20Cleave",
+      "sha256": "b20aced7b5a8a7be22468f9ce7b3c9a83cabab198dacca9a00d7a9871099082e",
+      "bytes": 27905,
+      "fetchedAt": "2026-10-16T13:55:00.226Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Great%20Fortitude",
+      "sha256": "f2c8ad33d07e103baf29977ff15a050666a9b36662f7d5e843f7eee042e40546",
+      "bytes": 26355,
+      "fetchedAt": "2026-10-16T18:46:15.034Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Bull%20Rush",
+      "sha256": "fdb0ea84142bf9c16c5c424f5eb3549852115d7257b49af9325fbd0bd96a6185",
+      "bytes": 27471,
+      "fetchedAt": "2026-10-16T18:46:16.039Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Disarm",
+      "sha256": "fc2be7141e0945f2c65c839d2bcf1a0c83777c06d5ddb6676ca1c3ad41c62b06",
+      "bytes": 28204,
+      "fetchedAt": "2026-10-16T18:46:17.029Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Feint",
+      "sha256": "dda7fb03c984f9890b9fcaaa6cff97ac7f9d7fbf72c896536a0c1a81a1428f6f",
+      "bytes": 28013,
+      "fetchedAt": "2026-10-16T18:46:18.030Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Grapple",
+      "sha256": "61b931fa195b9d41eebc33b6804382d0f19813a7e5cbf999c77dc1ebeb131049",
+      "bytes": 28215,
+      "fetchedAt": "2026-10-16T18:46:19.040Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Overrun",
+      "sha256": "bb4bb4129f0481257e361507b729c1918894565ccb121b7019f93659f240ddcd",
+      "bytes": 27485,
+      "fetchedAt": "2026-10-16T18:46:20.034Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Penetrating%20Strike",
+      "sha256": "d8c66805091648975383ee15f0c5653b96c53d266ee09e80664aca795c6aea21",
+      "bytes": 27955,
+      "fetchedAt": "2026-10-16T18:46:21.024Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Shield%20Focus",
+      "sha256": "0f1f95a90cfdd405ecfe2131d8754da2b5392fe77f95d2a544da68c02705aef6",
+      "bytes": 27310,
+      "fetchedAt": "2026-10-16T18:46:22.024Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Spell%20Focus",
+      "sha256": "eee85f83f3282692a2d966a8ee548fbd6c3fc952dc30af72dcb2f83d742adb8c",
+      "bytes": 26134,
+      "fetchedAt": "2026-10-16T18:46:23.032Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Spell%20Penetration",
+      "sha256": "f43760c3e258ed7720a98aaab560989dbe2e5ab507a451b054b2119f90a85d59",
+      "bytes": 25600,
+      "fetchedAt": "2026-10-16T18:46:24.030Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Sunder",
+      "sha256": "d485d7845844b0975854992ed3849fad785272f16891a7c771a892568d986170",
+      "bytes": 27830,
+      "fetchedAt": "2026-10-16T18:46:25.028Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Trip",
+      "sha256": "e9d4613be4ac0af19eff65da42670326f0819b00175deff30064390c4eaf2946",
+      "bytes": 27729,
+      "fetchedAt": "2026-10-16T18:46:26.035Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Two-Weapon%20Fighting",
+      "sha256": "c46d9c0d141dfa3f9b8bdb48d7824fd3bd5ed2ae40d70a17aa34c4c374b75a15",
+      "bytes": 26994,
+      "fetchedAt": "2026-10-16T18:46:27.039Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Vital%20Strike",
+      "sha256": "1da7d04303a8f55560eaa1c6fd4dcbd4728353e3479bccf6d3f6e5e012dd8b7d",
+      "bytes": 27595,
+      "fetchedAt": "2026-10-16T18:46:28.040Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Weapon%20Focus",
+      "sha256": "3f3da15cbc20b505b7926c50db714f9b168688b571affef53b748d0f4348098f",
+      "bytes": 27415,
+      "fetchedAt": "2026-10-16T18:46:29.032Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Greater%20Weapon%20Specialization",
+      "sha256": "3273871f191a53db5fa9b2a079918a487ef27fadb61f0a1efeb77cef4b77179d",
+      "bytes": 27811,
+      "fetchedAt": "2026-10-16T18:46:30.039Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Heighten%20Spell",
+      "sha256": "439967740e4175551eb93c252b72166461c75486f1ec351f3f293a3b6a46c98d",
+      "bytes": 25750,
+      "fetchedAt": "2026-10-16T18:46:31.042Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Bull%20Rush",
+      "sha256": "899d8ca5860da722cc952e711d0e74a02b044ba4076ca3af39871e3c7b1fcb55",
+      "bytes": 29301,
+      "fetchedAt": "2026-10-16T14:08:47.894Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Channel",
+      "sha256": "a47566b2a57beeb750e8d4e0690c9695d604e4c6829ad332e50eb050f883b33a",
+      "bytes": 26563,
+      "fetchedAt": "2026-10-16T18:46:32.036Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Counterspell",
+      "sha256": "75434cbde305c9fd5d73bcc1ecf7a52311182b87b3d7140a62293a7d91f81918",
+      "bytes": 26989,
+      "fetchedAt": "2026-10-16T14:10:05.885Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Critical",
+      "sha256": "53fe3c172c5393a0ef98a0f64e3b1713eae5917c3f50cbd4da009c5a95d9b6ca",
+      "bytes": 29137,
+      "fetchedAt": "2026-10-16T18:46:33.033Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Disarm",
+      "sha256": "e960f7c5e1c7888cf5f77c51fc856a8a7b0e1fc186aab7f0ce728a16053f84b4",
+      "bytes": 29699,
+      "fetchedAt": "2026-10-16T14:00:16.896Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Familiar",
+      "sha256": "930de421361824e302064741bade8432aae2dee6c1c1b566d2bf93c4dc6ad4c0",
+      "bytes": 28512,
+      "fetchedAt": "2026-10-16T18:46:34.043Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Feint",
+      "sha256": "dfed3921bd4702f644710bff3de481b72a8bd7dfe79d887d0bb4ec7508348e36",
+      "bytes": 26881,
+      "fetchedAt": "2026-10-16T18:46:35.036Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Grapple",
+      "sha256": "358c002d7dcd0e0d9ca9bdce679de2312d8fe6381072c979d149bfa25e0d1a17",
+      "bytes": 29306,
+      "fetchedAt": "2026-10-16T18:46:36.045Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Great%20Fortitude",
+      "sha256": "53e69e2714662e543e939b2c370a10dae98d5af59ad5fce14adddac47619b481",
+      "bytes": 25623,
+      "fetchedAt": "2026-10-16T18:46:37.029Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Initiative",
+      "sha256": "0622b5a1366001730f3ef74c7a792c1d50fe351f3cd3864309b0a04780a6ca7f",
+      "bytes": 27747,
+      "fetchedAt": "2026-10-16T13:55:03.231Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Iron%20Will",
+      "sha256": "29c20be67af95c99891bf7bb1ae6d7450fc642d01b135efe733e5e41fd6f5fdc",
+      "bytes": 25473,
+      "fetchedAt": "2026-10-16T18:46:38.040Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Lightning%20Reflexes",
+      "sha256": "f817e87f374cf0c6f3ccf12ad2393bfec1200a22c3fbd21040adfe2aca428fa5",
+      "bytes": 25563,
+      "fetchedAt": "2026-10-16T18:46:39.034Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Overrun",
+      "sha256": "a2fe9b5c3858f5fecd4b44776de1b83518494f50bbf2d1138aa8b42ce1ec1a85",
+      "bytes": 29486,
+      "fetchedAt": "2026-10-16T18:46:40.042Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Precise%20Shot",
+      "sha256": "7a7f53888cf5917d87ec1be49329613ef12d9654ef801377dbc4980d8a1cf41d",
+      "bytes": 27413,
+      "fetchedAt": "2026-10-16T18:46:41.030Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Shield%20Bash",
+      "sha256": "74971b2a5a2e3304f53fc122d9bbeaf6f85c5752398dbec782ae9d7994263293",
+      "bytes": 27293,
+      "fetchedAt": "2026-10-16T18:46:42.041Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Sunder",
+      "sha256": "788e40e887b9ffc3871145a200da1e3c7450e31563793974d61aefa1640a7cf0",
+      "bytes": 29321,
+      "fetchedAt": "2026-10-16T18:46:43.036Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Trip",
+      "sha256": "5d3650d463dd759ff83f4353b486a25c8775305e968a20d9bf9bed2f67ecec8d",
+      "bytes": 29592,
+      "fetchedAt": "2026-10-16T18:46:44.029Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Two-Weapon%20Fighting",
+      "sha256": "e8bf4217804822b3025d309e00877d4773fcc3528b6377da80942d8b88171bd2",
+      "bytes": 27100,
+      "fetchedAt": "2026-10-16T18:46:45.036Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike",
+      "sha256": "23e8b7da6c3f16232922dcdc6b004d83f3a0580b60ce2245ab5b70d1ab9ca873",
+      "bytes": 28966,
+      "fetchedAt": "2026-10-16T14:00:46.890Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Vital%20Strike",
+      "sha256": "f86ffa9a70307e0419199eedca5d5e6c0d1b066cf4dc7924b66e14b9fb12b4d8",
+      "bytes": 27361,
+      "fetchedAt": "2026-10-16T18:46:46.041Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improvised%20Weapon%20Mastery",
+      "sha256": "05d9a9f5173c95fb9e75af45fc06bbfcf55ebaad0ba96d2907fbf2d6f8762f47",
+      "bytes": 27258,
+      "fetchedAt": "2026-10-16T18:46:47.034Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Intimidating%20Prowess",
+      "sha256": "43cba54bdbfe3f161c9a5f60d12e83b84e1d5a8331a48bff8d5f2e9676399e9f",
+      "bytes": 28256,
+      "fetchedAt": "2026-10-16T18:46:48.041Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Iron%20Will",
+      "sha256": "acb5dc60ab74b927d7866ea07b470e88976a1d06c976bbeec170c59793620426",
+      "bytes": 26209,
+      "fetchedAt": "2026-10-16T18:46:49.031Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Leadership",
+      "sha256": "c275895a511b31c71f8aeda39c2a256bd3d4689904b87799b46c1a35c7d2dcbc",
+      "bytes": 40991,
+      "fetchedAt": "2026-10-16T18:46:50.036Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Lightning%20Reflexes",
+      "sha256": "ba5139c96065a67cd4d420844c1852f40264b15bb2ff7a25fa1cbc1e5dc189c2",
+      "bytes": 26349,
+      "fetchedAt": "2026-10-16T18:46:51.040Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Lightning%20Stance",
+      "sha256": "db4c07d619052b2efca5b151096d4b0c7b591d74c442f2c6a05a2f4690fa50fc",
+      "bytes": 26918,
+      "fetchedAt": "2026-10-16T18:46:52.031Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Lunge",
+      "sha256": "2aae084de19713a62c88b2adb2e0b33b63886f6ad7bf34f6234db6d923ae5639",
+      "bytes": 28295,
+      "fetchedAt": "2026-10-16T18:46:53.030Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Magical%20Aptitude",
+      "sha256": "1190d00cdd633436098c555ec6770fa5902787f79dde028cb521fa79517644da",
+      "bytes": 27044,
+      "fetchedAt": "2026-10-16T18:46:54.033Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Manyshot",
+      "sha256": "b0183d3b0cdd519dca972cb2499e50d3daea631584c3c5ae0b5e8aeb52eb32dd",
+      "bytes": 29010,
+      "fetchedAt": "2026-10-16T18:46:55.030Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Martial%20Weapon%20Proficiency",
+      "sha256": "2c6d552078f0cf2bcd84f596574d15a0a7969185e1deb480be62fc5c8880e6d0",
+      "bytes": 26116,
+      "fetchedAt": "2026-10-16T18:46:56.037Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Master%20Craftsman",
+      "sha256": "f4760ac54845273bae505d2e5ec906ca142f4ebe184309eb17d0ecc10e308e2e",
+      "bytes": 26874,
+      "fetchedAt": "2026-10-16T18:46:57.041Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Maximize%20Spell",
+      "sha256": "f9778fbfe758732e239213cd6ac62bf893bd9ff19f2a72bc6bfab00bcc659a97",
+      "bytes": 25674,
+      "fetchedAt": "2026-10-16T18:46:58.033Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Medusa's%20Wrath",
+      "sha256": "3a2a7899309244348f964dca806408e5e144f0eaaa7c34e834b5e95a3841c9f4",
+      "bytes": 29818,
+      "fetchedAt": "2026-10-16T18:46:59.043Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Mobility",
+      "sha256": "fa19097ac19382161f9384ee056f0ae05a4328bcc35882ea0082c9879e4b8cc3",
+      "bytes": 29083,
+      "fetchedAt": "2026-10-16T18:47:00.040Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Mounted%20Archery",
+      "sha256": "f5bdf9ebc88d7bd56a0caa4332cfd981eeece1fc16c5544c3e7dff2780f7bd4f",
+      "bytes": 28781,
+      "fetchedAt": "2026-10-16T18:47:01.034Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Mounted%20Combat",
+      "sha256": "e3ea62318f89fedb95404dc334c0080fe8ed9f868133bef8ef4310d1505af3b1",
+      "bytes": 28553,
+      "fetchedAt": "2026-10-16T13:55:01.232Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Natural%20Spell",
+      "sha256": "a4ddb49fedd40ae9117eff0f414196c7093463dd775e63171899e71b2638f77c",
+      "bytes": 27801,
+      "fetchedAt": "2026-10-16T18:47:02.037Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Nimble%20Moves",
+      "sha256": "5462894c61f1d61920334e7f8ee205b7bc9f783511fc22c8acaa89ae159ebe65",
+      "bytes": 26903,
+      "fetchedAt": "2026-10-16T14:03:38.882Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Penetrating%20Strike",
+      "sha256": "7ef11c97256200b0e85ee26b25eb534466a2b5039ffdd0ede27290563f843c0f",
+      "bytes": 29552,
+      "fetchedAt": "2026-10-16T18:47:03.029Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Persuasive",
+      "sha256": "70e37d51c6d4bfc2aa5f8063532c3e104e867d87ebb5b5f88756816800d25fd0",
+      "bytes": 27051,
+      "fetchedAt": "2026-10-16T18:47:04.033Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Pinpoint%20Targeting",
+      "sha256": "0f39f5f622641e431339e515533b51a3d5cba8753ba4210681ad1f204447ec69",
+      "bytes": 29165,
+      "fetchedAt": "2026-10-16T18:47:05.027Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot",
+      "sha256": "a8e4b6e5e513526770d30052b7d6c1669562691d7ad1c312f4f2b147743d722b",
+      "bytes": 27823,
+      "fetchedAt": "2026-10-16T18:47:06.033Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Power%20Attack",
+      "sha256": "ad8f4e69c3c56766e0ab9a8f17e3bfd58502780e3702696aafb0ad6ff02e8d93",
+      "bytes": 30419,
+      "fetchedAt": "2026-10-16T13:54:58.531Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Precise%20Shot",
+      "sha256": "270fad016de2253d99b491b95aef46fbf98851f4c42e5535e1cb2d10ffe5489f",
+      "bytes": 27113,
+      "fetchedAt": "2026-10-16T18:47:07.032Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Quick%20Draw",
+      "sha256": "c7b007eaf80ac38793e3402e1697d2eb3ab1b5a29ad6e3f4047eb30613c668a8",
+      "bytes": 29033,
+      "fetchedAt": "2026-10-16T18:47:08.029Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Quicken%20Spell",
+      "sha256": "67a3cfdaa4cf7727e45213e7f8188f64f9af52163483c850663a4c1e5d985fe1",
+      "bytes": 26235,
+      "fetchedAt": "2026-10-16T18:47:09.028Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Rapid%20Reload",
+      "sha256": "2b558040926cae27720db732de5ac267dd7a99483bfebf6259a9aebfb3c4496e",
+      "bytes": 31885,
+      "fetchedAt": "2026-10-16T18:47:10.037Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Rapid%20Shot",
+      "sha256": "705b92986367d13efeee638c0800a30629be6372beb259cd69200790be66fff9",
+      "bytes": 28283,
+      "fetchedAt": "2026-10-16T18:47:11.040Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Ride-By%20Attack",
+      "sha256": "176a2b0fb41d6e2439f33672ebd68bc32526c4a0e8d82aface5931375ddf25d3",
+      "bytes": 29370,
+      "fetchedAt": "2026-10-16T18:47:12.032Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Run",
+      "sha256": "53186317c446c767778542af1d64e8f3e30a423a3f34859a0462189a06015fa6",
+      "bytes": 28328,
+      "fetchedAt": "2026-10-16T18:47:13.034Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Scorpion%20Style",
+      "sha256": "c56c0c29c6f3d109eb9c55d44c26f50b079246e1ba77c26278ca779c8c0c496d",
+      "bytes": 29519,
+      "fetchedAt": "2026-10-16T18:47:14.030Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Scribe%20Scroll",
+      "sha256": "3c6b69c2335a5275f7b2d34d493ea693186d91eeb1603844e8a1624d90fc6c32",
+      "bytes": 25421,
+      "fetchedAt": "2026-10-16T18:47:15.036Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Selective%20Channeling",
+      "sha256": "5bc3cdc39050fa22f6a25346e0cecad09abde4901303701e42a178950c43f9e4",
+      "bytes": 27605,
+      "fetchedAt": "2026-10-16T18:47:16.044Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Self-Sufficient",
+      "sha256": "ceb05a5ae5e02de3aed01843ae23c5449d0a4d44c4b94e8b957a6123b407b99f",
+      "bytes": 27033,
+      "fetchedAt": "2026-10-16T18:47:17.029Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Shatter%20Defenses",
+      "sha256": "36686bc4470eec7b75bd16719da5a6d996c92f8c18d8eac0b23d32a7b3700ab4",
+      "bytes": 29041,
+      "fetchedAt": "2026-10-16T18:47:18.029Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Shield%20Focus",
+      "sha256": "58a1333752e63b610d877f163c02f0274d3d8143348ae57115105948664211d9",
+      "bytes": 28423,
+      "fetchedAt": "2026-10-16T18:47:19.038Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Shield%20Master",
+      "sha256": "3bf77b58c97060e2e4e1e752afead167119d0789f24f4af18872554b3ec2367b",
+      "bytes": 27763,
+      "fetchedAt": "2026-10-16T18:47:20.029Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Shield%20Proficiency",
+      "sha256": "f61964fda1792f381c83ed352f1634cb3342d5cc714408f1438ac2593a246e6a",
+      "bytes": 25972,
+      "fetchedAt": "2026-10-16T18:47:21.042Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Shield%20Slam",
+      "sha256": "3d73c1f3e33ee2c9d5db2e89328876aa61b0e4c06eca81710f8f96f3ef12f68c",
+      "bytes": 30228,
+      "fetchedAt": "2026-10-16T18:47:22.033Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Shot%20on%20the%20Run",
+      "sha256": "eefeda4f2c8d1b005b6ab49af952dab46f1dbe360f21524db8e67415e20b5703",
+      "bytes": 28832,
+      "fetchedAt": "2026-10-16T18:47:23.030Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Sickening%20Critical",
+      "sha256": "ca404555e24ce48aaa10ae9fd592a0a62e6061ef90c12b1529c77e4ed2492e45",
+      "bytes": 27509,
+      "fetchedAt": "2026-10-16T18:47:24.178Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Silent%20Spell",
+      "sha256": "6b595fbd3902ff85afed7647d13b2b5731bbaa8d9bf91822fbed910bc5fde844",
+      "bytes": 25256,
+      "fetchedAt": "2026-10-16T18:47:25.042Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Simple%20Weapon%20Proficiency",
+      "sha256": "482e3a25d8d698a2074e2dc706a3e85b4540fc270fd41b1caa70fcada94a8dbc",
+      "bytes": 25640,
+      "fetchedAt": "2026-10-16T18:47:26.035Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Skill%20Focus",
+      "sha256": "c81a1057c281db43a88b5ef255e23d9492d868a2c467cff97ae1957ddb1b5054",
+      "bytes": 27221,
+      "fetchedAt": "2026-10-16T18:47:27.029Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Snatch%20Arrows",
+      "sha256": "1bea70eef28b14317bf6a0f73a369ce0eaafe23bce5b37374bb0ad3c4091aea6",
+      "bytes": 29416,
+      "fetchedAt": "2026-10-16T18:47:28.038Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Spell%20Focus",
+      "sha256": "7862f3648b8de7555fb8378ab3f3bfbf2652c8b34b939ca5e821182a0ae4491b",
+      "bytes": 27740,
+      "fetchedAt": "2026-10-16T18:47:29.028Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Spell%20Mastery",
+      "sha256": "a1f0a3fc47f1ba34a44c12538b98e4d6f3a86441fb6fb13ff2276abf8fa7b9fe",
+      "bytes": 27659,
+      "fetchedAt": "2026-10-16T18:47:30.037Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Spell%20Penetration",
+      "sha256": "3c33e6cff6b9119722d4c796733c9df53f8305b1bf976235cfb8fd20a65823d0",
+      "bytes": 26537,
+      "fetchedAt": "2026-10-16T18:47:31.033Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Spellbreaker",
+      "sha256": "623d77979a9e27af9d2281a4e50216e108b6e8772b7fde0edd95aa1f2f9c62fb",
+      "bytes": 29949,
+      "fetchedAt": "2026-10-16T18:47:32.043Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Spirited%20Charge",
+      "sha256": "f10beaac613ca2b83b433b9511242e3771679c87f161981c44b4966e2fc125bc",
+      "bytes": 29449,
+      "fetchedAt": "2026-10-16T18:47:33.038Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Spring%20Attack",
+      "sha256": "9ad5fffbc06879f8a398b1e4c6c3483c88b4dcf9229fcdae863a0d166db51ae2",
+      "bytes": 29394,
+      "fetchedAt": "2026-10-16T18:47:34.040Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Staggering%20Critical",
+      "sha256": "1c898cedc5f49f5fdfb0605f8e304220148a8b0d98a95e1dc77231d5b07b1409",
+      "bytes": 27629,
+      "fetchedAt": "2026-10-16T18:47:35.028Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Stand%20Still",
+      "sha256": "64f2e39a9e920ba89f0a8c6b5d6e34b851011248c010daa6aab2669c61b7ae92",
+      "bytes": 27467,
+      "fetchedAt": "2026-10-16T18:47:36.035Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Stealthy",
+      "sha256": "12e7df3c2632281fca54c2b25cf322b4493ad0286d0a5eb2ea37b113b801d440",
+      "bytes": 26886,
+      "fetchedAt": "2026-10-16T18:47:37.033Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Step%20Up",
+      "sha256": "cb070fac0264680c5062a2fba3f41cf4e72b3098858c29dce792e7b4972b929d",
+      "bytes": 27091,
+      "fetchedAt": "2026-10-16T18:47:38.039Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Still%20Spell",
+      "sha256": "2ff2ff136c51aa1093e9d348d633ff1120b1e50bab1fc935a4c9c4f5177c7153",
+      "bytes": 25163,
+      "fetchedAt": "2026-10-16T18:47:39.031Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Strike%20Back",
+      "sha256": "dd8e79245cbb2de0657a17533a55b13d5a07a258cc792211ce26acfaf061843d",
+      "bytes": 28618,
+      "fetchedAt": "2026-10-16T18:47:40.042Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Stunning%20Critical",
+      "sha256": "8c8c19329e7eeefd8f4931606ed4fd7ee4d24ecd4ac0efb05a3a287c9c4886c8",
+      "bytes": 27903,
+      "fetchedAt": "2026-10-16T18:47:41.029Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Stunning%20Fist",
+      "sha256": "ba5116c30deb76b1eb4bea6bcfae888388cf6d35b74794349683ee2e417371e8",
+      "bytes": 30692,
+      "fetchedAt": "2026-10-16T18:47:42.032Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Throw%20Anything",
+      "sha256": "759358d474dc66c9151f01d6ce136e528d30e0104b37c1b10b3bf1f4cba59176",
+      "bytes": 29237,
+      "fetchedAt": "2026-10-16T18:47:43.036Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Tiring%20Critical",
+      "sha256": "68020d18e03982d9ae5c07f3296347008954eb03fa464b632d7fd351ce72d844",
+      "bytes": 27144,
+      "fetchedAt": "2026-10-16T18:47:44.035Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Toughness",
+      "sha256": "ce409823164aabdc0bd6f4ec0938aa912588878b2ba197b197fa09012abdbd7e",
+      "bytes": 26660,
+      "fetchedAt": "2026-10-16T18:47:45.034Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Tower%20Shield%20Proficiency",
+      "sha256": "cc8011727da4fef96a051095febea900ec80c481cb06150ddee6782c450c52de",
+      "bytes": 26219,
+      "fetchedAt": "2026-10-16T18:47:46.030Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Trample",
+      "sha256": "86296a04f8d422397be0562e07b4be8561c1df864b402b490c3f63ec235aef65",
+      "bytes": 28959,
+      "fetchedAt": "2026-10-16T18:47:47.036Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Turn%20Undead",
+      "sha256": "0f7c9dc1d2c845e4186494ac090e92c006c31c74275237ba599cde7b9bad8fa1",
+      "bytes": 28785,
+      "fetchedAt": "2026-10-16T18:47:48.027Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Defense",
+      "sha256": "a5a74dbc6aab6612bc2cb39d3353a1c3512f5b6cc625c9c61fd2c69ff12bcfe6",
+      "bytes": 28412,
+      "fetchedAt": "2026-10-16T18:47:49.034Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Fighting",
+      "sha256": "a7692f8689c9837955614ca179c5a18f0536ea6cf59d5bbe66befe67ee2eed4a",
+      "bytes": 29585,
+      "fetchedAt": "2026-10-16T18:47:50.033Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Two-Weapon%20Rend",
+      "sha256": "de97bf17c8f6d0fa7d3235a39033305019963868d394b6f0ca2040819c1a37ca",
+      "bytes": 29072,
+      "fetchedAt": "2026-10-16T18:47:51.041Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Unseat",
+      "sha256": "94dd6e3c3ff52689b0be3c786da85c05c26197bbaf61dacff36093ea8588fd67",
+      "bytes": 29501,
+      "fetchedAt": "2026-10-16T18:47:52.034Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Vital%20Strike",
+      "sha256": "65cde64de5f2a6409d4bf9af4464c5c514ebbf422ddcd64ab70b7f7fad086bb5",
+      "bytes": 29430,
+      "fetchedAt": "2026-10-16T14:04:58.883Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Finesse",
+      "sha256": "f1e9cdb0d4a715ea68fb125385e70e29613b618b621dba849c6fb6bd230ab53c",
+      "bytes": 28500,
+      "fetchedAt": "2026-10-16T18:47:53.042Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Focus",
+      "sha256": "370f0904cc01e53a6176b795d703a823c54f897d96b6e6310f8d19c2d6f7e4e2",
+      "bytes": 29449,
+      "fetchedAt": "2026-10-16T14:08:00.883Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Weapon%20Specialization",
+      "sha256": "c3465f612a564da850e48c9dfd5b8380df0a7130ae62d2b164f67b3bbd0af8da",
+      "bytes": 29766,
+      "fetchedAt": "2026-10-16T18:47:54.034Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Whirlwind%20Attack",
+      "sha256": "38bcea34a4630e8d741662ac543ba4aecac57f7fef583e42e25db3e0dac3dc47",
+      "bytes": 28363,
+      "fetchedAt": "2026-10-16T18:47:55.043Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Widen%20Spell",
+      "sha256": "416fea3612028df6c2ba46e0797656d7978823e23bb5dca81336ad84e834b7d6",
+      "bytes": 25526,
+      "fetchedAt": "2026-10-16T18:47:56.029Z"
+    },
+    {
+      "url": "https://aonprd.com/FeatDisplay.aspx?ItemName=Wind%20Stance",
+      "sha256": "94da728362f2d06564c2a4d7706bae0ce2261a8cb082d86ee94cbb65f0e49bfd",
+      "bytes": 26564,
+      "fetchedAt": "2026-10-16T18:47:57.039Z"
+    },
+    {
+      "url": "https://aonprd.com/Feats.aspx?Category=Combat",
+      "sha256": "211ccb0cf7b639f2f51ccdfc0d65245a2062958590fcfef6ec80220541bd0ae8",
+      "bytes": 1092246,
+      "fetchedAt": "2026-10-16T13:54:03.540Z"
+    },
+    {
+      "url": "https://aonprd.com/Feats.aspx?Category=Critical",
+      "sha256": "73f26b83711f458f845b1b0a8a209150bc643336c307473a0f477c014e51ab2b",
+      "bytes": 54433,
+      "fetchedAt": "2026-10-16T13:54:06.107Z"
+    },
+    {
+      "url": "https://aonprd.com/Feats.aspx?Category=Item Creation",
+      "sha256": "d93f952ba363be366a4483374c28f66e5ff17f658d9da254f66ba8f217c7495f",
+      "bytes": 49578,
+      "fetchedAt": "2026-10-16T13:54:05.114Z"
+    },
+    {
+      "url": "https://aonprd.com/Feats.aspx?Category=Metamagic",
+      "sha256": "f2adb2da93363018c3e67c4c46a4c6daab58818bfaedba8168a6a235494fed7a",
+      "bytes": 91661,
+      "fetchedAt": "2026-10-16T13:54:04.121Z"
+    },
+    {
+      "url": "https://aonprd.com/SourceDisplay.aspx?FixedSource=PRPG Core Rulebook",
+      "sha256": "94461065d4d1448c610be1f56161a6f1f6af9d825d8c1a1bdfd0d81f46f83599",
+      "bytes": 374126,
+      "fetchedAt": "2026-10-16T14:04:46.083Z"
+    }
+  ],
+  "expectedCount": 176
+}

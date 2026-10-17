@@ -1,0 +1,122 @@
+{
+  "anarchic": {
+    "summaryEs": "Alinea el arma como caótica (supera la reducción de daño correspondiente) y causa 2d6 de daño extra a criaturas legales. Una criatura legal que la empuñe recibe un nivel negativo permanente mientras la tenga en la mano.",
+    "status": "draft"
+  },
+  "axiomatic": {
+    "summaryEs": "Alinea el arma como legal (supera la reducción de daño correspondiente) y causa 2d6 de daño extra a criaturas caóticas. Una criatura caótica que la empuñe recibe un nivel negativo permanente mientras la tenga en la mano.",
+    "status": "draft"
+  },
+  "bane": {
+    "summaryEs": "Contra un enemigo designado, el bono de mejora del arma es +2 mayor y causa 2d6 de daño extra. El enemigo designado se determina con una tabla de tipos de criatura (aberraciones, animales, constructos, dragones...).",
+    "status": "draft"
+  },
+  "brilliant-energy": {
+    "summaryEs": "El arma se transforma en luz y emite luz como una antorcha (radio de 20 pies). Ignora la materia no viva: los bonos de armadura y escudo a la CA no cuentan contra ella. No daña a muertos vivientes ni constructos.",
+    "status": "draft"
+  },
+  "dancing": {
+    "summaryEs": "Como acción estándar, el arma se suelta y ataca sola durante 4 asaltos con el bono base de ataque de quien la soltó; después cae. Mientras baila no puede hacer ataques de oportunidad y su dueño no cuenta como armado con ella.",
+    "status": "draft"
+  },
+  "defending": {
+    "summaryEs": "Permite transferir parte o todo el bono de mejora del arma a la CA del portador, como bono que se apila con todos los demás. Se reparte como acción gratuita al inicio del turno y dura hasta el siguiente. Solo armas cuerpo a cuerpo.",
+    "status": "draft"
+  },
+  "disruption": {
+    "summaryEs": "Azote de los muertos vivientes: el no muerto golpeado debe superar una salvación de Voluntad CD 14 o es destruido. El arma debe ser contundente y cuerpo a cuerpo.",
+    "status": "draft"
+  },
+  "distance": {
+    "summaryEs": "Solo se puede poner en un arma a distancia. Duplica el incremento de alcance del arma respecto a las de su tipo.",
+    "status": "draft"
+  },
+  "flaming": {
+    "summaryEs": "Por orden, el arma se envuelve en fuego y causa 1d6 de daño de fuego extra al impactar. El fuego no daña al portador y el efecto dura hasta recibir otra orden.",
+    "status": "draft"
+  },
+  "flaming-burst": {
+    "summaryEs": "Funciona como un arma flamígera (flaming) y además explota en un crítico: 1d10 de fuego extra en crítico, 2d10 si el multiplicador es 3 y 3d10 si es 4. El fuego no daña al portador.",
+    "status": "draft"
+  },
+  "frost": {
+    "summaryEs": "Por orden, el arma se envuelve en frío helado y causa 1d6 de daño de frío extra al impactar. El frío no daña al portador y el efecto dura hasta recibir otra orden.",
+    "status": "draft"
+  },
+  "ghost-touch-weapon": {
+    "summaryEs": "El arma daña con normalidad a criaturas incorpóreas, sin la reducción del 50% de las fuentes corpóreas, y una criatura incorpórea puede cogerla. Cuenta como corpórea e incorpórea. Solo en armas cuerpo a cuerpo y munición.",
+    "status": "draft"
+  },
+  "holy": {
+    "summaryEs": "Alinea el arma como buena (supera la reducción de daño correspondiente) y causa 2d6 de daño extra a criaturas malvadas. Una criatura malvada que la empuñe recibe un nivel negativo permanente mientras la tenga en la mano.",
+    "status": "draft"
+  },
+  "icy-burst": {
+    "summaryEs": "Funciona como un arma gélida (frost) y además explota en un crítico: 1d10 de frío extra en crítico, 2d10 si el multiplicador es ×3 y 3d10 si es ×4. El frío no daña al portador.",
+    "status": "draft"
+  },
+  "keen": {
+    "summaryEs": "Duplica el rango de amenaza del arma. Solo para armas cuerpo a cuerpo perforantes o cortantes. No se apila con otros efectos que amplíen el rango de amenaza (como el conjuro keen edge o la dote Improved Critical).",
+    "status": "draft"
+  },
+  "ki-focus": {
+    "summaryEs": "Solo para armas cuerpo a cuerpo. El arma canaliza el ki del portador, que puede usar sus ataques especiales de ki a través de ella como si fueran desarmados: ki strike, quivering palm y Stunning Fist.",
+    "status": "draft"
+  },
+  "merciful": {
+    "summaryEs": "El arma causa 1d6 de daño extra, pero todo el daño que inflige es no letal. Por orden, suprime la habilidad (daño letal, sin el daño extra) hasta que se le diga que continúe.",
+    "status": "draft"
+  },
+  "mighty-cleaving": {
+    "summaryEs": "Solo para armas cuerpo a cuerpo. Quien use Cleave puede hacer un ataque adicional si el primero impacta, siempre que el siguiente enemigo esté adyacente al primero y al alcance. No puede ser contra el primer enemigo.",
+    "status": "draft"
+  },
+  "returning": {
+    "summaryEs": "Solo para armas que se pueden arrojar. El arma vuelve volando al lanzador justo antes de su siguiente turno; atraparla es una acción gratuita. Si no puede atraparla o se ha movido, cae al suelo en la casilla desde la que se lanzó.",
+    "status": "draft"
+  },
+  "seeking": {
+    "summaryEs": "Solo para armas a distancia. El arma se desvía hacia su objetivo y anula los porcentajes de fallo (como los de ocultación). El portador debe apuntar a la casilla correcta: no alcanza enemigos invisibles si dispara a una casilla vacía.",
+    "status": "draft"
+  },
+  "shock": {
+    "summaryEs": "Por orden, el arma se envuelve en electricidad y causa 1d6 de daño de electricidad extra al impactar. No daña al portador y el efecto dura hasta recibir otra orden.",
+    "status": "draft"
+  },
+  "shocking-burst": {
+    "summaryEs": "Funciona como un arma eléctrica (shock) y además explota en un crítico: 1d10 de electricidad extra en crítico, 2d10 si el multiplicador es ×3 y 3d10 si es ×4. La electricidad no daña al portador.",
+    "status": "draft"
+  },
+  "speed": {
+    "summaryEs": "En una acción de ataque completo, el portador hace un ataque extra con el arma, con su bono base de ataque completo. No se acumula con efectos similares, como el conjuro haste.",
+    "status": "draft"
+  },
+  "spell-storing": {
+    "summaryEs": "Solo para armas cuerpo a cuerpo. Permite a un lanzador guardar en el arma un único conjuro dirigido de hasta 3.er nivel (tiempo de lanzamiento de 1 acción estándar); el arma lo lanza sobre la criatura que dañe como acción gratuita.",
+    "status": "draft"
+  },
+  "throwing": {
+    "summaryEs": "Solo para armas cuerpo a cuerpo. El arma gana un incremento de alcance de 10 pies y puede ser arrojada por quien sea competente en su uso normal.",
+    "status": "draft"
+  },
+  "thundering": {
+    "summaryEs": "Un ruido atronador al lograr un crítico: 1d8 de daño sónico extra, 2d8 si el multiplicador es ×3 y 3d8 si es ×4. Las criaturas golpeadas en crítico deben superar una salvación de Fortaleza CD 14 o quedar ensordecidas.",
+    "status": "draft"
+  },
+  "unholy": {
+    "summaryEs": "Alinea el arma como maligna (supera la reducción de daño correspondiente) y causa 2d6 de daño extra a criaturas buenas. Una criatura buena que la empuñe recibe un nivel negativo permanente mientras la tenga en la mano.",
+    "status": "draft"
+  },
+  "vicious": {
+    "summaryEs": "Solo para armas cuerpo a cuerpo. Al impactar, una descarga de energía causa 2d6 de daño extra al oponente y 1d6 de daño al portador.",
+    "status": "draft"
+  },
+  "vorpal": {
+    "summaryEs": "Con un 20 natural confirmado como crítico, el arma decapita al oponente (si tiene cabeza). Algunas criaturas no tienen cabeza o no les afecta perderla. El arma debe ser cortante y cuerpo a cuerpo.",
+    "status": "draft"
+  },
+  "wounding": {
+    "summaryEs": "Solo para armas cuerpo a cuerpo. Cada impacto causa 1 punto de daño por sangrado, que aumenta con impactos repetidos. Se detiene con una prueba de Heal CD 15 o con un conjuro que cure daño; un crítico no multiplica el sangrado.",
+    "status": "draft"
+  }
+}

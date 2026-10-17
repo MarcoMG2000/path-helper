@@ -1,0 +1,14 @@
+{
+  "far-shot": {
+    "summaryEs": "Sufres solo –1 por incremento de alcance completo con armas a distancia (normalmente –2).",
+    "status": "draft"
+  },
+  "fleet": {
+    "summaryEs": "Con armadura ligera o sin armadura, tu velocidad base aumenta 5 pies. La pierdes con carga media o pesada. Se puede tomar varias veces y se acumula.",
+    "status": "draft"
+  },
+  "forge-ring": {
+    "summaryEs": "Creas anillos mágicos: 1 día por cada 1.000 po del precio base, con materiales por la mitad. También reparas anillos rotos que podrías haber hecho.",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dazzling-display": {
+    "summaryEs": "Con el arma en que tienes Weapon Focus, como acción de asalto completo haces una exhibición y una prueba de Intimidate para desmoralizar a todos los enemigos que te vean a 30 pies.",
+    "status": "draft"
+  },
+  "deadly-aim": {
+    "summaryEs": "Puedes tomar –1 a todos los ataques a distancia para ganar +2 al daño a distancia. Con bonificador base de ataque +4 y cada +4 más, la penalización sube –1 y el daño +2. Se elige antes del ataque y dura hasta tu próximo turno.",
+    "status": "draft"
+  },
+  "deadly-stroke": {
+    "summaryEs": "Como acción estándar, un ataque con el arma de tu Greater Weapon Focus contra un oponente aturdido o desprevenido: si impacta, doble daño y 1 punto de sangrado de Constitución. No se multiplica en crítico.",
+    "status": "draft"
+  },
+  "deafening-critical": {
+    "summaryEs": "Tu crítico deja sordo al oponente de forma permanente; con una salvación de Fortitude (CD 10 + tu bonificador base de ataque) la sordera dura 1 asalto. Solo un efecto de dote crítica por crítico salvo Critical Mastery.",
+    "status": "draft"
+  },
+  "deceitful": {
+    "summaryEs": "+2 a las pruebas de Bluff y Disguise; pasa a +4 en la habilidad en la que tengas 10 o más rangos.",
+    "status": "draft"
+  },
+  "defensive-combat-training": {
+    "summaryEs": "Usas tus Dados de Golpe totales como bonificador base de ataque al calcular tu Combat Maneuver Defense.",
+    "status": "draft"
+  },
+  "deflect-arrows": {
+    "summaryEs": "Con una mano libre, una vez por asalto desvías un ataque a distancia que te impactaría y no recibes daño. Debes saberlo y no estar desprevenido. No desvía armas enormes ni ataques naturales o de conjuro.",
+    "status": "draft"
+  },
+  "deft-hands": {
+    "summaryEs": "+2 a las pruebas de Disable Device y Sleight of Hand; pasa a +4 en la habilidad en la que tengas 10 o más rangos.",
+    "status": "draft"
+  },
+  "diehard": {
+    "summaryEs": "Con menos de 0 puntos de golpe sin estar muerto, te estabilizas automáticamente y puedes actuar como discapacitado en vez de moribundo. Estás tambaleante; si haces una acción estándar o agotadora, sufres daño.",
+    "status": "draft"
+  },
+  "disruptive": {
+    "summaryEs": "La CD para lanzar conjuros a la defensiva sube +4 para los enemigos en tu zona amenazada, si conoces su posición y puedes hacer un ataque de oportunidad.",
+    "status": "draft"
+  },
+  "dodge": {
+    "summaryEs": "+1 de esquiva a la CA. Una condición que te hace perder el bonificador de Destreza a la CA también te hace perder este.",
+    "status": "draft"
+  },
+  "double-slice": {
+    "summaryEs": "Añades tu bonificador de Fuerza al daño con el arma de la mano torpe (normalmente solo la mitad).",
+    "status": "draft"
+  }
+}

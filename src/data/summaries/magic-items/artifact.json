@@ -1,0 +1,50 @@
+{
+  "axe-of-the-dwarvish-lords": {
+    "summaryEs": "Hacha de guerra enana +6 keen, throwing y goblinoid bane. Un enano duplica el alcance de su visión en la oscuridad; un no enano que la sujete sufre 4 puntos de daño temporal de Carisma. Da +10 a pruebas de Craft de armas, armaduras, joyas, piedra y trampas, e invoca un elemental de tierra.",
+    "status": "draft"
+  },
+  "book-of-infinite-spells": {
+    "summaryEs": "Tomo que permite usar los conjuros de sus páginas a cualquier portador de cualquier clase; quien no pueda lanzar conjuros gana un nivel negativo mientras lo tenga. Tiene 1d8+22 páginas, cada una un conjuro arcano o divino; pasar una página es irreversible.",
+    "status": "draft"
+  },
+  "codex-of-the-infinite-planes": {
+    "summaryEs": "Enorme libro (hacen falta dos hombres fuertes). Quien lo abre por primera vez es aniquilado como por destruction (Fortaleza CD 30). Los supervivientes pueden estudiarlo: cada día una prueba de Spellcraft CD 50 para aprender uno de sus poderes.",
+    "status": "draft"
+  },
+  "deck-of-many-things": {
+    "summaryEs": "Baraja de cartas o placas de marfil o pergamino grabadas con glifos. Al sacar una carta su magia se concede a quien la sacó, para bien o para mal. Hay que anunciar cuántas cartas se sacarán, que han de sacarse en 1 hora.",
+    "status": "draft"
+  },
+  "orbs-of-dragonkind": {
+    "summaryEs": "Cada orbe contiene la esencia y personalidad de un dragón antiguo de una de las diez variedades. Quien lo porta puede dominar, como acción estándar, a un dragón de su variedad a 500 pies (como dominate monster, Voluntad CD 25 la resiste). Otorga bonos de CA y salvaciones del dragón.",
+    "status": "draft"
+  },
+  "philosophers-stone": {
+    "summaryEs": "Roca negruzca que, rota (CD 20), revela una cavidad de azogue mágico con el que quien tenga 10 o más rangos en Craft (alchemy) transmuta hierro y plomo en plata y oro: hasta 5.000 libras de hierro en plata (25.000 po) o 1.000 libras de plomo en oro (50.000 po).",
+    "status": "draft"
+  },
+  "shadowstaff": {
+    "summaryEs": "Bastón negro tejido de sombra que hace al portador algo sombrío e incorpóreo: +4 a la CA y a las salvaciones de Reflejos. Con luz intensa o en oscuridad absoluta sufre –2 a ataques, salvaciones y pruebas. Tiene otros poderes, como convocar sombras tres veces al día.",
+    "status": "draft"
+  },
+  "sphere-of-annihilation": {
+    "summaryEs": "Globo de negrura absoluta de 2 pies de diámetro: toda materia que lo toca es absorbida y destruida; solo un dios puede restaurar a un personaje aniquilado. Es estático, pero puede moverse por esfuerzo mental.",
+    "status": "draft"
+  },
+  "staff-of-the-magi": {
+    "summaryEs": "Bastón de madera con hierro y runas, con 50 cargas, que no se recarga con normalidad ni pierde poderes al agotarse. Muchos poderes no gastan cargas: detect magic, enlarge person (Fortaleza CD 15 niega), hold portal, light, mage armor y mage hand, entre otros.",
+    "status": "draft"
+  },
+  "talisman-of-pure-good": {
+    "summaryEs": "Un lanzador divino bueno puede abrir una grieta en llamas bajo un lanzador divino maligno a 100 pies, que es tragado para siempre. Si el portador no es excepcionalmente puro, la víctima tiene una salvación de Reflejos CD 19 para saltar. Exige suelo sólido.",
+    "status": "draft"
+  },
+  "talisman-of-the-sphere": {
+    "summaryEs": "Asa con aro de adamantina. Quien no lance conjuros arcanos sufre 5d6 de daño solo por cogerlo. En manos de un lanzador arcano que controla una sphere of annihilation, duplica su modificador a las pruebas de control.",
+    "status": "draft"
+  },
+  "talisman-of-ultimate-evil": {
+    "summaryEs": "Un lanzador divino maligno puede abrir una grieta en llamas bajo un lanzador divino bueno a 100 pies, que es tragado para siempre. Si el portador no es excepcionalmente cruel, la víctima tiene una salvación de Reflejos CD 19 para saltar. Exige suelo sólido.",
+    "status": "draft"
+  }
+}

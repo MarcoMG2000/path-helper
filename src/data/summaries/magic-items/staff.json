@@ -1,0 +1,86 @@
+{
+  "staff-of-abjuration": {
+    "summaryEs": "Bastón de abjuración. Conjuros: dispel magic, resist energy y shield (1 carga cada uno), dismissal y lesser globe of invulnerability (2 cargas) y repulsion (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-charming": {
+    "summaryEs": "Bastón de madera retorcida y tallada. Conjuros: charm person (1 carga) y charm monster (2 cargas).",
+    "status": "draft"
+  },
+  "staff-of-conjuration": {
+    "summaryEs": "Bastón de convocación. Conjuros: stinking cloud, summon swarm y unseen servant (1 carga cada uno), cloudkill y minor creation (2 cargas) y summon monster VI (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-defense": {
+    "summaryEs": "Bastón sencillo de madera pulida. Conjuros: shield, shield of faith y shield other (1 carga cada uno) y shield of law (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-divination": {
+    "summaryEs": "Bastón de adivinación. Conjuros: detect secret doors, locate object y tongues (1 carga cada uno), locate creature y prying eyes (2 cargas) y true seeing (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-earth-and-stone": {
+    "summaryEs": "Bastón coronado por una esmeralda. Conjuros: move earth (1 carga) y passwall (1 carga).",
+    "status": "draft"
+  },
+  "staff-of-enchantment": {
+    "summaryEs": "Bastón de encantamiento. Conjuros: hideous laughter, sleep y suggestion (1 carga cada uno), crushing despair y mind fog (2 cargas) y mass suggestion (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-evocation": {
+    "summaryEs": "Bastón de evocación. Conjuros: fireball, magic missile y shatter (1 carga cada uno), ice storm y wall of force (2 cargas) y chain lightning (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-fire": {
+    "summaryEs": "Bastón de bronzewood con refuerzos de latón. Conjuros: burning hands (1 carga), fireball (2 cargas) y wall of fire (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-frost": {
+    "summaryEs": "Bastón rematado en ambos extremos por diamantes. Conjuros: ice storm (1 carga), wall of ice (2 cargas) y cone of cold (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-healing": {
+    "summaryEs": "Bastón de fresno blanco con runas de plata. Conjuros: cure serious wounds y lesser restoration (1 carga cada uno), remove blindness/deafness (2 cargas) y remove disease (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-illumination": {
+    "summaryEs": "Bastón forrado de plata con soles de oro y ámbar. Conjuros: dancing lights y flare (1 carga cada uno), daylight (2 cargas) y sunburst (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-illusion": {
+    "summaryEs": "Bastón de ébano de forma retorcida. Conjuros: disguise self, major image y mirror image (1 carga cada uno), persistent image y rainbow pattern (2 cargas) y mislead (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-life": {
+    "summaryEs": "Bastón de roble pulido con herrajes de oro y runas. Conjuros: heal (1 carga) y raise dead (5 cargas).",
+    "status": "draft"
+  },
+  "staff-of-necromancy": {
+    "summaryEs": "Bastón de ébano con huesos y calaveras. Conjuros: cause fear, ghoul touch y halt undead (1 carga cada uno), enervation y waves of fatigue (2 cargas) y circle of death (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-passage": {
+    "summaryEs": "Bastón potente. Conjuros: dimension door y passwall (1 carga cada uno), astral projection, greater teleport y phase door (2 cargas cada uno).",
+    "status": "draft"
+  },
+  "staff-of-power": {
+    "summaryEs": "Conjuros: continual flame, levitate, magic missile, ray of enfeeblement, fireball y lightning bolt (potenciados a 5.º nivel) con 1 carga; cone of cold, globe of invulnerability, hold monster y wall of force con 2. Da +2 de suerte a la CA y a las salvaciones; es un bastón +2.",
+    "status": "draft"
+  },
+  "staff-of-size-alteration": {
+    "summaryEs": "Bastón de madera oscura, más recio que otros. Conjuros: enlarge person y reduce person (1 carga), shrink item (2 cargas) y mass enlarge person y mass reduce person (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-swarming-insects": {
+    "summaryEs": "Bastón de madera oscura retorcida con nudos como insectos. Conjuros: summon swarm (1 carga) e insect plague (3 cargas).",
+    "status": "draft"
+  },
+  "staff-of-the-woodlands": {
+    "summaryEs": "Bastón de roble, fresno o tejo. Conjuros: charm animal y speak with animals (1 carga), barkskin (2), summon nature’s ally VI y wall of thorns (3) y animate plants (4). Funciona como bastón +2 y permite pass without trace a voluntad.",
+    "status": "draft"
+  },
+  "staff-of-transmutation": {
+    "summaryEs": "Bastón de madera petrificada o hueso fósil con runas. Conjuros: alter self, blink y expeditious retreat (1 carga cada uno), baleful polymorph y polymorph (2 cargas) y disintegrate (3 cargas).",
+    "status": "draft"
+  }
+}

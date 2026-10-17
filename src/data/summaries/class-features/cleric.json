@@ -1,0 +1,302 @@
+{
+  "cleric.aura": {
+    "summaryEs": "Un clérigo de una deidad caótica, mala, buena o legal tiene un aura especialmente poderosa que corresponde al alineamiento de su deidad.",
+    "status": "draft"
+  },
+  "cleric.bonus-languages": {
+    "summaryEs": "Puede elegir como idiomas adicionales celestial, abisal e infernal, además de los de su raza.",
+    "status": "draft"
+  },
+  "cleric.channel-energy": {
+    "summaryEs": "Libera energía positiva o negativa en una explosión de 30 pies para dañar o curar a vivos o a no muertos: 1d6 + 1d6 por cada dos niveles tras el 1.º. Voluntad a la mitad (CD 10 + 1/2 nivel + mod. de Carisma). 3 + mod. de Carisma veces al día, acción estándar.",
+    "status": "draft"
+  },
+  "cleric.chaotic-evil-good-and-lawful-spells": {
+    "summaryEs": "No puede lanzar conjuros de un alineamiento opuesto al suyo o al de su deidad.",
+    "status": "draft"
+  },
+  "cleric.domain.air.electricity-resistance": {
+    "summaryEs": "Nivel 6: resistencia a la electricidad 10, que sube a 20 a nivel 12; a nivel 20 es inmunidad.",
+    "status": "draft"
+  },
+  "cleric.domain.air.lightning-arc": {
+    "summaryEs": "Acción estándar: arco eléctrico a un enemigo a 30 pies (toque a distancia), 1d6 de daño eléctrico + 1 por cada dos niveles de clérigo. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.animal.animal-companion": {
+    "summaryEs": "Nivel 4: obtiene un compañero animal; su nivel efectivo de druida es su nivel de clérigo – 3.",
+    "status": "draft"
+  },
+  "cleric.domain.animal.speak-with-animals": {
+    "summaryEs": "Habla con los animales (como el conjuro) durante 3 + su nivel de clérigo asaltos al día.",
+    "status": "draft"
+  },
+  "cleric.domain.artifice.artificers-touch": {
+    "summaryEs": "Lanza mending a voluntad y daña objetos y constructos con un toque: 1d6 +1 por cada dos niveles, ignorando dureza y reducción de daño igual a su nivel. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.artifice.dancing-weapons": {
+    "summaryEs": "Nivel 8: da a un arma tocada la cualidad dancing durante 4 asaltos, una vez al día y una más cada cuatro niveles tras el 8.º.",
+    "status": "draft"
+  },
+  "cleric.domain.chaos.chaos-blade": {
+    "summaryEs": "Nivel 8: da a un arma tocada la cualidad anarchic durante 1/2 de su nivel de clérigo en asaltos, una vez al día y una más cada cuatro niveles tras el 8.º.",
+    "status": "draft"
+  },
+  "cleric.domain.chaos.touch-of-chaos": {
+    "summaryEs": "Toque cuerpo a cuerpo: durante el siguiente asalto el objetivo tira dos veces cada d20 y toma el peor resultado. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.charm.charming-smile": {
+    "summaryEs": "Nivel 8: lanza charm person como acción rápida (CD 10 + 1/2 nivel + mod. de Sabiduría), con un solo hechizado a la vez y tantos asaltos al día como su nivel de clérigo.",
+    "status": "draft"
+  },
+  "cleric.domain.charm.dazing-touch": {
+    "summaryEs": "Toque cuerpo a cuerpo: deja dazed 1 asalto a una criatura viva con no más dados de golpe que su nivel de clérigo. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.community.calming-touch": {
+    "summaryEs": "Acción estándar: cura 1d6 de daño no letal + 1 por nivel de clérigo y quita fatigued, shaken e sickened. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.community.unity": {
+    "summaryEs": "Nivel 8: acción inmediata para que los aliados a 30 pies usen su salvación en lugar de la suya; una vez al día y una más cada cuatro niveles tras el 8.º.",
+    "status": "draft"
+  },
+  "cleric.domain.darkness.eyes-of-darkness": {
+    "summaryEs": "Nivel 8: su visión no se ve afectada por la iluminación, ni siquiera en oscuridad absoluta o mágica, durante 1/2 de su nivel de clérigo en asaltos al día.",
+    "status": "draft"
+  },
+  "cleric.domain.darkness.touch-of-darkness": {
+    "summaryEs": "Toque cuerpo a cuerpo: el objetivo trata a todos como si tuvieran ocultación (20% de fallo) durante 1/2 de su nivel de clérigo en asaltos (mínimo 1). 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.death.bleeding-touch": {
+    "summaryEs": "Toque cuerpo a cuerpo: una criatura viva sufre 1d6 de daño por asalto durante 1/2 de su nivel de clérigo en asaltos (mínimo 1) o hasta que lo detenga una prueba de Heal CD 15 o una curación. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.death.deaths-embrace": {
+    "summaryEs": "Nivel 8: se cura con la energía negativa canalizada en lugar de sufrir daño; si esta afecta a no muertos, se cura como ellos.",
+    "status": "draft"
+  },
+  "cleric.domain.destruction.destructive-aura": {
+    "summaryEs": "Nivel 8: aura de 30 pies durante tantos asaltos al día como su nivel de clérigo; los ataques contra objetivos del aura ganan bono de moral al daño de 1/2 su nivel y las amenazas de crítico se confirman automáticamente.",
+    "status": "draft"
+  },
+  "cleric.domain.destruction.destructive-smite": {
+    "summaryEs": "Un único ataque cuerpo a cuerpo con bono de moral al daño igual a 1/2 de su nivel de clérigo (mínimo 1), declarado antes de atacar. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.earth.acid-dart": {
+    "summaryEs": "Acción estándar: dardo de ácido a un enemigo a 30 pies (toque a distancia), 1d6 de ácido + 1 por cada dos niveles de clérigo. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.earth.acid-resistance": {
+    "summaryEs": "Nivel 6: resistencia al ácido 10, que sube a 20 a nivel 12; a nivel 20 es inmunidad.",
+    "status": "draft"
+  },
+  "cleric.domain.evil.scythe-of-evil": {
+    "summaryEs": "Nivel 8: da a un arma tocada la cualidad unholy durante 1/2 de su nivel de clérigo en asaltos, una vez al día y una más cada cuatro niveles tras el 8.º.",
+    "status": "draft"
+  },
+  "cleric.domain.evil.touch-of-evil": {
+    "summaryEs": "Toque cuerpo a cuerpo: deja sickened a una criatura durante 1/2 de su nivel de clérigo en asaltos (mínimo 1), y cuenta como buena para los conjuros con el descriptor maligno. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.fire.fire-bolt": {
+    "summaryEs": "Acción estándar: rayo de fuego divino a un enemigo a 30 pies (toque a distancia), 1d6 de fuego + 1 por cada dos niveles de clérigo. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.fire.fire-resistance": {
+    "summaryEs": "Nivel 6: resistencia al fuego 10, que sube a 20 a nivel 12; a nivel 20 es inmunidad.",
+    "status": "draft"
+  },
+  "cleric.domain.glory.divine-presence": {
+    "summaryEs": "Nivel 8: aura de 30 pies durante tantos asaltos al día como su nivel de clérigo; los aliados cuentan como bajo sanctuary (CD 10 + 1/2 nivel + mod. de Sabiduría). Acción estándar.",
+    "status": "draft"
+  },
+  "cleric.domain.glory.touch-of-glory": {
+    "summaryEs": "Acción estándar: da a una criatura un bono igual a su nivel de clérigo en una prueba de habilidad o de característica de Carisma; dura 1 hora o hasta que se use. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.good.holy-lance": {
+    "summaryEs": "Nivel 8: da a un arma tocada la cualidad holy durante 1/2 de su nivel de clérigo en asaltos, una vez al día y una más cada cuatro niveles tras el 8.º.",
+    "status": "draft"
+  },
+  "cleric.domain.good.touch-of-good": {
+    "summaryEs": "Acción estándar: da a una criatura un bono sagrado a ataques, pruebas y salvaciones igual a la mitad de su nivel de clérigo (mínimo 1) durante 1 asalto. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.healing.healers-blessing": {
+    "summaryEs": "Nivel 6: sus conjuros de curación cuentan como potenciados (+50% de curación), sin efecto sobre no muertos ni acumulable con la dote Empower Spell.",
+    "status": "draft"
+  },
+  "cleric.domain.healing.rebuke-death": {
+    "summaryEs": "Acción estándar: cura 1d4 + 1 por cada dos niveles de clérigo a una criatura viva por debajo de 0 puntos de golpe. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.knowledge.lore-keeper": {
+    "summaryEs": "Con un toque obtiene información como si hubiera superado la prueba de Knowledge adecuada con 15 + su nivel de clérigo + mod. de Sabiduría.",
+    "status": "draft"
+  },
+  "cleric.domain.knowledge.remote-viewing": {
+    "summaryEs": "Nivel 6: usa clairvoyance/clairaudience a voluntad como aptitud sortílega durante tantos asaltos al día como su nivel de clérigo.",
+    "status": "draft"
+  },
+  "cleric.domain.law.staff-of-order": {
+    "summaryEs": "Nivel 8: da a un arma tocada la cualidad axiomatic durante 1/2 de su nivel de clérigo en asaltos, una vez al día y una más cada cuatro niveles tras el 8.º.",
+    "status": "draft"
+  },
+  "cleric.domain.law.touch-of-law": {
+    "summaryEs": "Acción estándar: una criatura voluntaria trata todos sus d20 de ataque, pruebas y salvaciones como un 11 natural durante 1 asalto. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.liberation.freedoms-call": {
+    "summaryEs": "Nivel 8: aura de 30 pies durante tantos asaltos al día como su nivel de clérigo; los aliados no sufren confused, grappled, frightened, panicked, paralyzed, pinned ni shaken mientras estén en ella.",
+    "status": "draft"
+  },
+  "cleric.domain.liberation.liberation": {
+    "summaryEs": "Se mueve con normalidad ante efectos mágicos que impiden el movimiento, como freedom of movement, durante tantos asaltos al día como su nivel de clérigo.",
+    "status": "draft"
+  },
+  "cleric.domain.luck.bit-of-luck": {
+    "summaryEs": "Acción estándar: una criatura voluntaria tira dos veces cada d20 durante el siguiente asalto y toma el mejor resultado. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.luck.good-fortune": {
+    "summaryEs": "Nivel 6: acción inmediata para repetir una tirada de d20 propia antes de conocer el resultado, aceptando el nuevo. Una vez al día y una más cada seis niveles tras el 6.º.",
+    "status": "draft"
+  },
+  "cleric.domain.madness.aura-of-madness": {
+    "summaryEs": "Nivel 8: aura de 30 pies durante tantos asaltos al día como su nivel de clérigo; los enemigos sufren confusion salvo que superen Voluntad (CD 10 + 1/2 nivel + mod. de Sabiduría), y quien la supere es inmune 24 horas.",
+    "status": "draft"
+  },
+  "cleric.domain.madness.vision-of-madness": {
+    "summaryEs": "Toque cuerpo a cuerpo: da bono de 1/2 de su nivel de clérigo (mínimo +1) a un tipo de tirada del objetivo y penalizador igual a los otros dos tipos; dura 3 asaltos. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.magic.dispelling-touch": {
+    "summaryEs": "Nivel 8: usa dispel magic dirigido como toque cuerpo a cuerpo, una vez al día y una más cada cuatro niveles de clérigo tras el 8.º.",
+    "status": "draft"
+  },
+  "cleric.domain.magic.hand-of-the-acolyte": {
+    "summaryEs": "Acción estándar: ataca con un arma cuerpo a cuerpo a 30 pies como ataque a distancia con arma arrojadiza, sumando su mod. de Sabiduría al ataque. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.nobility.inspiring-word": {
+    "summaryEs": "Acción estándar: una criatura a 30 pies obtiene +2 de moral a ataques, pruebas y salvaciones durante 1/2 de su nivel de clérigo en asaltos (mínimo 1). 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.nobility.leadership": {
+    "summaryEs": "Nivel 8: recibe la dote Leadership y +2 a su puntuación de liderazgo mientras respete los preceptos de su deidad.",
+    "status": "draft"
+  },
+  "cleric.domain.plant.bramble-armor": {
+    "summaryEs": "Nivel 6: acción gratuita; espinas de madera dañan (1d6 perforante + 1 por cada dos niveles) a quien le golpee sin armas o con arma sin alcance. Tantos asaltos al día como su nivel de clérigo.",
+    "status": "draft"
+  },
+  "cleric.domain.plant.wooden-fist": {
+    "summaryEs": "Acción gratuita: sus manos se vuelven de madera; sus golpes sin armas no provocan, causan daño letal y ganan bono al daño de 1/2 de su nivel de clérigo (mínimo +1). 3 + mod. de Sabiduría asaltos al día.",
+    "status": "draft"
+  },
+  "cleric.domain.protection.aura-of-protection": {
+    "summaryEs": "Nivel 8: aura de 30 pies durante tantos asaltos al día como su nivel de clérigo; él y sus aliados ganan +1 de desvío a la CA y resistencia 5 a los elementos (10 a nivel 14); el desvío sube +1 cada cuatro niveles tras el 8.º.",
+    "status": "draft"
+  },
+  "cleric.domain.protection.resistant-touch": {
+    "summaryEs": "Acción estándar: concede a un aliado su bono de resistencia durante 1 minuto, perdiendo él el suyo durante ese tiempo. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.repose.gentle-rest": {
+    "summaryEs": "Toque cuerpo a cuerpo: deja staggered 1 asalto a una criatura viva, o dormida 1 asalto si ya lo estaba; los no muertos quedan staggereds tantos asaltos como su mod. de Sabiduría. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.repose.ward-against-death": {
+    "summaryEs": "Nivel 8: aura de 30 pies durante tantos asaltos al día como su nivel de clérigo; los vivos dentro son inmunes a efectos de muerte, drenaje de energía y niveles negativos.",
+    "status": "draft"
+  },
+  "cleric.domain.rune.blast-rune": {
+    "summaryEs": "Acción estándar: crea una runa de explosión en una casilla adyacente que causa 1d6 + 1 por cada dos niveles de ácido, frío, electricidad o fuego. Dura tantos asaltos como su nivel de clérigo. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.rune.spell-rune": {
+    "summaryEs": "Nivel 8: une otro conjuro lanzado a una runa de explosión para que afecte también a quien la active; el conjuro debe ser al menos un nivel inferior al máximo que puede lanzar.",
+    "status": "draft"
+  },
+  "cleric.domain.strength.might-of-the-gods": {
+    "summaryEs": "Nivel 8: suma su nivel de clérigo como bono de mejora a su Fuerza solo para pruebas de Fuerza y habilidades de Fuerza, durante tantos asaltos al día como su nivel de clérigo.",
+    "status": "draft"
+  },
+  "cleric.domain.strength.strength-surge": {
+    "summaryEs": "Acción estándar: durante 1 asalto, bono de mejora de 1/2 de su nivel de clérigo (mínimo +1) a ataques cuerpo a cuerpo, maniobras y pruebas de Fuerza. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.sun.nimbus-of-light": {
+    "summaryEs": "Nivel 8: nimbo de luz de 30 pies (como daylight) durante tantos asaltos al día como su nivel de clérigo; los no muertos dentro sufren daño igual a su nivel por asalto.",
+    "status": "draft"
+  },
+  "cleric.domain.sun.suns-blessing": {
+    "summaryEs": "Al canalizar energía positiva para dañar no muertos, suma su nivel de clérigo al daño y los no muertos no añaden su resistencia a canalizar a sus salvaciones.",
+    "status": "draft"
+  },
+  "cleric.domain.travel.agile-feet": {
+    "summaryEs": "Acción gratuita: durante el siguiente asalto ignora el terreno difícil. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.travel.dimensional-hop": {
+    "summaryEs": "Nivel 8: se teletransporta hasta 10 pies por nivel de clérigo al día como acción de movimiento, en tramos de 5 pies y sin provocar; puede llevar a criaturas voluntarias.",
+    "status": "draft"
+  },
+  "cleric.domain.trickery.copycat": {
+    "summaryEs": "Acción de movimiento: crea un doble ilusorio (como mirror image) que dura tantos asaltos como su nivel de clérigo. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.trickery.masters-illusion": {
+    "summaryEs": "Nivel 8: crea una ilusión que oculta su aspecto y el de sus aliados a 30 pies durante 1 asalto por nivel (como veil); CD para descreerla 10 + 1/2 nivel + mod. de Sabiduría.",
+    "status": "draft"
+  },
+  "cleric.domain.war.battle-rage": {
+    "summaryEs": "Acción estándar: una criatura obtiene bono al daño cuerpo a cuerpo de 1/2 del nivel de clérigo (mínimo +1) durante 1 asalto. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.war.weapon-master": {
+    "summaryEs": "Nivel 8: acción rápida para usar una dote de combate durante tantos asaltos al día como su nivel de clérigo, cumpliendo sus requisitos.",
+    "status": "draft"
+  },
+  "cleric.domain.water.cold-resistance": {
+    "summaryEs": "Nivel 6: resistencia al frío 10, que sube a 20 a nivel 12; a nivel 20 es inmunidad.",
+    "status": "draft"
+  },
+  "cleric.domain.water.icicle": {
+    "summaryEs": "Acción estándar: carámbano a un enemigo a 30 pies (toque a distancia), 1d6 de frío + 1 por cada dos niveles de clérigo. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domain.weather.lightning-lord": {
+    "summaryEs": "Nivel 8: invoca tantos rayos al día como su nivel de clérigo (como call lightning), sin que dos objetivos estén a más de 30 pies ni reciban más de un rayo.",
+    "status": "draft"
+  },
+  "cleric.domain.weather.storm-burst": {
+    "summaryEs": "Acción estándar: ráfaga de tormenta a un enemigo a 30 pies (toque a distancia), 1d6 de daño no letal + 1 por cada dos niveles, y -2 al ataque 1 asalto. 3 + mod. de Sabiduría veces al día.",
+    "status": "draft"
+  },
+  "cleric.domains": {
+    "summaryEs": "Elige dos dominios de su deidad (un dominio de alineamiento solo si coincide con el suyo). Cada uno concede poderes según su nivel y conjuros adicionales, con un espacio de dominio por cada nivel de conjuro desde el 1.º.",
+    "status": "draft"
+  },
+  "cleric.orisons": {
+    "summaryEs": "Prepara trucos (conjuros de nivel 0) cada día, según la tabla; se lanzan como cualquier conjuro pero no se gastan y pueden repetirse.",
+    "status": "draft"
+  },
+  "cleric.spells": {
+    "summaryEs": "Lanza conjuros divinos de la lista de clérigo, que debe elegir y preparar de antemano. Necesita Sabiduría 10 + nivel del conjuro; CD de salvación 10 + nivel del conjuro + mod. de Sabiduría. Su alineamiento puede restringir conjuros.",
+    "status": "draft"
+  },
+  "cleric.spontaneous-casting": {
+    "summaryEs": "Un clérigo bueno puede convertir conjuros preparados (salvo trucos y de dominio) en conjuros de curación del mismo nivel o inferior; uno malo, en conjuros de infligir; uno neutral elige una vez y no puede revertirlo.",
+    "status": "draft"
+  },
+  "cleric.weapon-and-armor-proficiency": {
+    "summaryEs": "Competente con armas sencillas, armadura ligera y media y escudos (salvo tower shields), y con el arma predilecta de su deidad.",
+    "status": "draft"
+  }
+}

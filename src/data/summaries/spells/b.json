@@ -1,0 +1,114 @@
+{
+  "baleful-polymorph": {
+    "summaryEs": "Como beast shape III, pero conviertes al sujeto en un animal Small o menor de no más de 1 DG. Si falla una segunda salvación de Voluntad, pierde sus habilidades extraordinarias, sobrenaturales y sortílegas y sus conjuros, y adopta alineamiento y características mentales de la nueva forma.",
+    "status": "draft"
+  },
+  "bane": {
+    "summaryEs": "Llena de miedo y duda a tus enemigos: cada criatura afectada sufre una penalización de -1 a las tiradas de ataque y a las salvaciones contra miedo. Anula y disipa bless.",
+    "status": "draft"
+  },
+  "banishment": {
+    "summaryEs": "Versión más poderosa de dismissal: obliga a criaturas extraplanarias a salir de tu plano, hasta 2 Dados de Golpe por nivel de lanzador. Cada objeto o sustancia que el objetivo odie o tema da +1 a tu prueba de nivel de lanzador contra su resistencia a conjuros y sube la CD de la salvación en 2.",
+    "status": "draft"
+  },
+  "barkskin": {
+    "summaryEs": "Endurece la piel de una criatura: bonificador de mejora de +2 a su armadura natural existente. Sube 1 por cada tres niveles de lanzador por encima del 3.º, con máximo de +5 a nivel 12. Se acumula con la armadura natural, pero no con otros bonificadores de mejora a ella.",
+    "status": "draft"
+  },
+  "bears-endurance": {
+    "summaryEs": "El sujeto gana vitalidad: bonificador de mejora de +4 a Constitución, con los beneficios habituales en puntos de golpe, salvaciones de Fortaleza y pruebas de Constitución. Los puntos de golpe ganados no son temporales y se pierden al volver la Constitución a la normalidad.",
+    "status": "draft"
+  },
+  "bears-endurance-mass": {
+    "summaryEs": "Funciona como bear's endurance, pero afecta a varias criaturas.",
+    "status": "draft"
+  },
+  "beast-shape-i": {
+    "summaryEs": "Adoptas la forma de cualquier criatura Small o Medium del tipo animal y ganas habilidades como trepar 30 pies, volar 30 pies, nadar 30 pies, darkvision 60 pies, low-light vision o scent. Small: +2 de tamaño a Destreza y +1 de armadura natural. Medium: +2 de tamaño a Fuerza y +2 de armadura natural.",
+    "status": "draft"
+  },
+  "beast-shape-ii": {
+    "summaryEs": "Como beast shape I, pero también permite formas animales Tiny o Large, con habilidades como trepar, volar y nadar 60 pies, grab, pounce y trip. Tiny: +4 de tamaño a Destreza, -2 a Fuerza y +1 de armadura natural. Large: +4 de tamaño a Fuerza, -2 a Destreza y +4 de armadura natural.",
+    "status": "draft"
+  },
+  "beast-shape-iii": {
+    "summaryEs": "Como beast shape II, pero también permite animales Diminutive o Huge y bestias mágicas Small o Medium. Diminutive: +6 de tamaño a Des, -4 a Fue, +1 de armadura natural. Huge: +6 a Fue, -4 a Des, +6 de armadura natural. Bestia mágica Small: +4 Des y +2 armadura; Medium: +4 Fue y +4 armadura.",
+    "status": "draft"
+  },
+  "beast-shape-iv": {
+    "summaryEs": "Como beast shape III, pero también permite bestias mágicas Tiny o Large, con más habilidades (excavar 60 pies, volar 120 pies, etc.). Con inmunidad o resistencia a elementos ganas resistencia 20. Tiny: +8 Des, -2 Fue, +3 armadura natural. Large: +6 Fue, -2 Des, +2 Con, +6 armadura natural.",
+    "status": "draft"
+  },
+  "bestow-curse": {
+    "summaryEs": "Maldices al sujeto: -6 a una característica (mínimo 1); -4 a ataques, salvaciones y pruebas; o cada turno 50% de probabilidad de no actuar. Puedes inventar otra maldición no más poderosa. No se puede disipar, pero sí quitar con break enchantment, remove curse, miracle, limited wish o wish.",
+    "status": "draft"
+  },
+  "binding": {
+    "summaryEs": "Crea una atadura mágica que retiene a una criatura; solo tiene salvación inicial si sus DG alcanzan al menos la mitad de tu nivel de lanzador. Hasta seis ayudantes elevan tu nivel de lanzador. Seis versiones (chaining, slumber, bound slumber, hedged prison, metamorphosis, minimus containment).",
+    "status": "draft"
+  },
+  "black-tentacles": {
+    "summaryEs": "Aparece un campo de tentáculos que, al inicio de tu turno, hace una maniobra de presa contra cada criatura del área (tu nivel de lanzador como ataque base, +4 por Fuerza y +1 de tamaño). Si agarran, causan 1d6+4 de daño por asalto y el apresado queda grappled. El área es terreno difícil.",
+    "status": "draft"
+  },
+  "blade-barrier": {
+    "summaryEs": "Una cortina vertical e inmóvil de cuchillas de fuerza causa 1d6 de daño por nivel de lanzador (máximo 15d6) a quien la cruce; Reflejos para la mitad. Si aparece sobre criaturas, estas pueden evitarla con una salvación de Reflejos. Da cobertura (+4 a la CA, +2 a Reflejos).",
+    "status": "draft"
+  },
+  "blasphemy": {
+    "summaryEs": "Las criaturas no malvadas en el área sufren, según sus DG respecto a tu nivel de lanzador, aturdimiento, debilidad (Fuerza reducida en 2d6 durante 2d4 asaltos), parálisis (1d10 minutos) o muerte, acumulativos; Voluntad los reduce o anula. Los extraplanarios no malvados son desterrados 24 horas.",
+    "status": "draft"
+  },
+  "bleed": {
+    "summaryEs": "Obligas a una criatura viva estabilizada con -1 o menos puntos de golpe a volver a morir: sufre 1 punto de daño por asalto, y puede estabilizarse de nuevo normalmente. Si ya está muriendo, sufre 1 punto de daño.",
+    "status": "draft"
+  },
+  "bless": {
+    "summaryEs": "Llena de valor a tus aliados: cada uno gana un bonificador moral de +1 a las tiradas de ataque y a las salvaciones contra miedo. Anula y disipa bane.",
+    "status": "draft"
+  },
+  "bless-water": {
+    "summaryEs": "Esta transmutación imbuye un frasco (1 pinta) de agua con energía positiva y la convierte en agua bendita.",
+    "status": "draft"
+  },
+  "bless-weapon": {
+    "summaryEs": "Un arma cuenta como mejora de +1 para superar la RD de criaturas malvadas o golpear a incorpóreos malvados, y se vuelve de alineamiento bueno. Además, toda amenaza de crítico contra enemigos malvados es crítico automático, salvo en armas con efecto mágico de críticos como keen o vorpal.",
+    "status": "draft"
+  },
+  "blight": {
+    "summaryEs": "Marchita una planta de cualquier tamaño. Una criatura planta sufre 1d6 de daño por nivel (máximo 15d6) y puede hacer una salvación de Fortaleza para la mitad. Una planta que no es criatura no tiene salvación y muere. No afecta al suelo ni a la vegetación circundante.",
+    "status": "draft"
+  },
+  "blindness-deafness": {
+    "summaryEs": "Invocas el poder de la no-vida para dejar al sujeto cegado o ensordecido, a tu elección.",
+    "status": "draft"
+  },
+  "blink": {
+    "summaryEs": "Pasas al azar entre el Plano Material y el Etéreo: los ataques físicos contra ti tienen 50% de fallo (20% si pueden golpear etéreos o ver invisibles), los tuyos y tus conjuros 20%, y recibes la mitad del daño de áreas y caídas. Atraviesas objetos sólidos, con 50% de materializarte por cada 5 pies.",
+    "status": "draft"
+  },
+  "blur": {
+    "summaryEs": "El contorno del sujeto se ve borroso y le da ocultación (20% de fallo). See invisibility no lo contrarresta, pero true seeing sí. Los oponentes que no pueden ver al sujeto ignoran el efecto.",
+    "status": "draft"
+  },
+  "break-enchantment": {
+    "summaryEs": "Libra a las víctimas de encantamientos, transmutaciones y maldiciones, incluso efectos instantáneos. Por cada efecto haces una prueba de nivel de lanzador (1d20 + nivel, máximo +15) contra CD 11 + nivel de lanzador del efecto. Un conjuro no disipable solo se rompe si es de nivel 5 o menor.",
+    "status": "draft"
+  },
+  "breath-of-life": {
+    "summaryEs": "Cura 5d8 puntos de daño + 1 por nivel de lanzador (máximo +25) y puede devolver la vida a quien murió hace 1 asalto o menos, si sus puntos de golpe negativos son menores que su Constitución; gana un nivel negativo temporal durante 1 día. No salva de efectos de muerte. Daña a los no muertos.",
+    "status": "draft"
+  },
+  "bulls-strength": {
+    "summaryEs": "El sujeto se vuelve más fuerte: bonificador de mejora de +4 a Fuerza, con los beneficios habituales a ataques y daño cuerpo a cuerpo y demás usos del modificador de Fuerza.",
+    "status": "draft"
+  },
+  "bulls-strength-mass": {
+    "summaryEs": "Funciona como bull's strength, pero afecta a varias criaturas.",
+    "status": "draft"
+  },
+  "burning-hands": {
+    "summaryEs": "Un cono de llamas surge de tus dedos y causa 1d4 de daño de fuego por nivel de lanzador (máximo 5d4) a toda criatura en el área. Los materiales inflamables arden si las llamas los tocan; apagar un objeto en llamas es una acción de asalto completo.",
+    "status": "draft"
+  }
+}

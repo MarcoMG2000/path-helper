@@ -1,0 +1,94 @@
+{
+  "gaseous-form": {
+    "summaryEs": "El sujeto y su equipo se vuelven incorpóreos, brumosos y translúcidos: su armadura material no sirve, aunque siguen valiendo tamaño, Destreza y desvío. Obtiene RD 10/magia e inmunidad a veneno, ataques furtivos y golpes críticos; no puede atacar ni lanzar conjuros con ciertos componentes.",
+    "status": "draft"
+  },
+  "gate": {
+    "summaryEs": "Crea una conexión interdimensional entre tu plano y otro que especifiques, que permite viajar en ambos sentidos, y además puedes llamar a través de ella a un individuo o tipo de ser concreto. La puerta es un aro o disco de 5 a 20 pies de diámetro, a tu elección, con un frente y una parte trasera.",
+    "status": "draft"
+  },
+  "geas-lesser": {
+    "summaryEs": "Impone una orden mágica a una criatura de 7 DG o menos que te entienda, para cumplir un servicio o abstenerse de una acción; no puede obligarla a suicidarse. Debe seguir las instrucciones hasta completarlas; si no puede, el conjuro dura como máximo 1 día por nivel de lanzador.",
+    "status": "draft"
+  },
+  "geas-quest": {
+    "summaryEs": "Funciona de forma similar a geas menor, pero afecta a criaturas de cualquier DG y no permite salvación. Si el sujeto no puede obedecer durante 24 horas, sufre –3 a cada puntuación de característica; cada día se acumula otro –3, hasta –12 en total, sin bajar ninguna de 1.",
+    "status": "draft"
+  },
+  "gentle-repose": {
+    "summaryEs": "Preservas los restos de una criatura muerta para que no se descompongan, lo que amplía el límite de tiempo para resucitarla (los días bajo el conjuro no cuentan) y hace menos desagradable transportar a un compañero caído. También funciona con partes del cuerpo cercenadas.",
+    "status": "draft"
+  },
+  "ghost-sound": {
+    "summaryEs": "Creas un volumen de sonido que sube, baja, se acerca o permanece fijo; eliges su tipo al lanzarlo y luego no puedes cambiar su carácter básico. Puedes producir tanto ruido como cuatro humanos normales por nivel de lanzador (máximo 40 humanos): hablar, cantar, gritar, caminar, marchar o correr.",
+    "status": "draft"
+  },
+  "ghoul-touch": {
+    "summaryEs": "Imbuido de energía negativa, paralizas a un humanoide vivo mientras dure el conjuro con un ataque de toque cuerpo a cuerpo exitoso. El paralizado exhala un hedor a carroña que enferma a las criaturas vivas (salvo tú) en una dispersión de 10 pies de radio (Fortaleza niega). Es un efecto de veneno.",
+    "status": "draft"
+  },
+  "giant-form-i": {
+    "summaryEs": "Adoptas la forma de cualquier humanoide Grande del subtipo gigante: +6 de tamaño a Fuerza, –2 a Destreza, +4 a Constitución, +4 de armadura natural y visión con poca luz. Si esa forma tiene visión en la oscuridad 60 pies, rasgar (2d6), regeneración 5, atrapar o lanzar rocas, los obtienes.",
+    "status": "draft"
+  },
+  "giant-form-ii": {
+    "summaryEs": "Como forma de gigante I, pero con un gigante Enorme: +8 de tamaño a Fuerza, –2 a Destreza, +6 a Constitución, +6 de armadura natural, visión con poca luz y +10 pies de mejora a la velocidad. Obtienes habilidades de la forma, como nadar 60 pies o rasgar (2d8).",
+    "status": "draft"
+  },
+  "giant-vermin": {
+    "summaryEs": "Conviertes ciempiés, escorpiones o arañas normales en sus versiones gigantes; solo un tipo por lanzamiento y la cantidad depende de tu nivel de lanzador (tabla). No intentan dañarte, pero tu control se limita a órdenes simples; si no se les ordena otra cosa, atacan a quien esté cerca.",
+    "status": "draft"
+  },
+  "glibness": {
+    "summaryEs": "Tu discurso se vuelve fluido y creíble: +20 en las pruebas de Engañar para convencer de la verdad de tus palabras (no en fintas, distracciones ni mensajes ocultos). Un efecto mágico que detecte tus mentiras exige a su usuario una prueba de nivel de lanzador contra CD 15 + tu nivel de lanzador.",
+    "status": "draft"
+  },
+  "glitterdust": {
+    "summaryEs": "Una nube de partículas doradas cubre a todos en el área: las criaturas quedan cegadas y lo invisible queda perfilado mientras dure. El polvo no se puede quitar. Al final de su turno, las criaturas cegadas pueden repetir la salvación para acabar con la ceguera; el polvo impone –40 a Sigilo.",
+    "status": "draft"
+  },
+  "globe-of-invulnerability": {
+    "summaryEs": "Funciona como globo de invulnerabilidad menor, pero además excluye los conjuros y efectos sortílegos de nivel 4.",
+    "status": "draft"
+  },
+  "globe-of-invulnerability-lesser": {
+    "summaryEs": "Una esfera mágica inmóvil te rodea y excluye todos los efectos de conjuro de nivel 3 o inferior, incluidos los de objetos; esos conjuros no afectan a ningún objetivo dentro. Cualquier conjuro puede lanzarse a través o desde dentro. Los de nivel 4 o superior no se ven afectados.",
+    "status": "draft"
+  },
+  "glyph-of-warding": {
+    "summaryEs": "Esta poderosa inscripción daña a quienes entran, pasan o abren la zona u objeto protegido, como un puente, un portal o un cofre. Tú fijas las condiciones: normalmente, no decir una contraseña; también por características físicas, tipo de criatura o alineamiento, pero no por clase, DG o nivel.",
+    "status": "draft"
+  },
+  "glyph-of-warding-greater": {
+    "summaryEs": "Funciona como glifo custodio, pero un glifo explosivo mayor inflige hasta 10d8 de daño y un glifo de conjuro mayor almacena un conjuro de nivel 6 o inferior. Identificarlo con leer magia exige Conocimiento de conjuros CD 16. Componente material: incienso con diamante en polvo por 400 po.",
+    "status": "draft"
+  },
+  "good-hope": {
+    "summaryEs": "Infunde una esperanza poderosa: cada criatura afectada obtiene un bonificador de moral de +2 a las salvaciones, tiradas de ataque, pruebas de característica y de habilidad y tiradas de daño con arma. Contrarresta y disipa desesperación aplastante.",
+    "status": "draft"
+  },
+  "goodberry": {
+    "summaryEs": "Vuelve mágicas 2d4 bayas recién recogidas; tú y cualquier otro druida de nivel 3 o superior distinguís cuáles. Cada baya alimenta como una comida normal para una criatura Mediana y cura 1 punto de daño al comerla, con un máximo de 8 puntos curados así en 24 horas.",
+    "status": "draft"
+  },
+  "grasping-hand": {
+    "summaryEs": "Funciona como mano interpuesta, pero además puede agarrar a un oponente que elijas, con un ataque de presa por asalto que no provoca ataques de oportunidad. Su BMC y DMC usan tu nivel de lanzador en lugar del ataque base, con +10 por Fuerza (31) y +1 por ser Grande. Sujeta pero no daña.",
+    "status": "draft"
+  },
+  "grease": {
+    "summaryEs": "Cubre una superficie sólida con grasa resbaladiza: toda criatura en el área al lanzarlo debe superar Reflejos o caer. Se cruza a media velocidad con una prueba de Acrobacias CD 10; si falla, no puede moverse ese asalto, y si falla por 5 o más, cae. También puede engrasar un objeto.",
+    "status": "draft"
+  },
+  "guards-and-wards": {
+    "summaryEs": "Defiende una fortaleza: protege 200 pies cuadrados por nivel de lanzador, hasta 20 pies de alto y con la forma que desees; debes estar dentro del área. Crea varios efectos mágicos; por ejemplo, niebla que oscurece toda vista más allá de 5 pies, con ocultación (20% de fallo) o total (50%).",
+    "status": "draft"
+  },
+  "guidance": {
+    "summaryEs": "Imbuye al sujeto de un toque de guía divina: la criatura obtiene un bonificador de competencia de +1 en una sola tirada de ataque, salvación o prueba de habilidad. Debe decidir usarlo antes de hacer la tirada a la que se aplica.",
+    "status": "draft"
+  },
+  "gust-of-wind": {
+    "summaryEs": "Una ráfaga severa de aire (unas 50 mph) parte de ti y afecta a todas las criaturas en su camino: las voladoras sufren –4 a Volar; las Diminutas o menores deben superar Volar CD 25 o salen despedidas 2d6 × 10 pies y sufren 2d6 de daño. Las Pequeñas o menores necesitan Volar CD 20 para avanzar.",
+    "status": "draft"
+  }
+}

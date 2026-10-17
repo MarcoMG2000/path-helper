@@ -1,0 +1,26 @@
+{
+  "penetrating-strike": {
+    "summaryEs": "Tus ataques con armas elegidas con Weapon Focus ignoran hasta 5 puntos de reducción de daño; no afecta a la reducción sin tipo (como DR 10/—).",
+    "status": "draft"
+  },
+  "persuasive": {
+    "summaryEs": "+2 a las pruebas de Diplomacy e Intimidate; pasa a +4 en la habilidad en la que tengas 10 o más rangos.",
+    "status": "draft"
+  },
+  "pinpoint-targeting": {
+    "summaryEs": "Como acción estándar, un ataque a distancia en el que el objetivo no recibe bonificaciones de armadura, armadura natural ni escudo a la CA. No lo obtienes si te mueves este asalto.",
+    "status": "draft"
+  },
+  "point-blank-shot": {
+    "summaryEs": "+1 a las tiradas de ataque y daño con armas a distancia hasta 30 pies.",
+    "status": "draft"
+  },
+  "power-attack": {
+    "summaryEs": "Puedes tomar –1 a todos los ataques cuerpo a cuerpo y maniobras para ganar +2 al daño (+50% a dos manos, –50% con arma de la mano torpe). Con bonificador base de ataque +4 y cada 4 más, la penalización sube –1 y el daño +2.",
+    "status": "draft"
+  },
+  "precise-shot": {
+    "summaryEs": "Disparas o lanzas armas a distancia contra un oponente en cuerpo a cuerpo sin la penalización estándar de –4.",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,611 @@
+[
+  {
+    "id": "druid",
+    "name": "Druid",
+    "textEn": "Within the purity of the elements and the order of the wilds lingers a power beyond the marvels of civilization. Furtive yet undeniable, these primal magics are guarded over by servants of philosophical balance known as druids. Allies to beasts and manipulators of nature, these often misunderstood protectors of the wild strive to shield their lands from all who would threaten them and prove the might of the wilds to those who lock themselves behind city walls. Rewarded for their devotion with incredible powers, druids gain unparalleled shape-shifting abilities, the companionship of mighty beasts, and the power to call upon nature's wrath. The mightiest temper powers akin to storms, earthquakes, and volcanoes with primeval wisdom long abandoned and forgotten by civilization.\n\n**Role**: While some druids might keep to the fringe of battle, allowing companions and summoned creatures to fight while they confound foes with the powers of nature, others transform into deadly beasts and savagely wade into combat. Druids worship personifications of elemental forces, natural powers, or nature itself. Typically this means devotion to a nature deity, though druids are just as likely to revere vague spirits, animalistic demigods, or even specific awe-inspiring natural wonders.\n\n**Alignment**: Any neutral.\n**Hit Die**: d8.\n**Starting Wealth**: 2d6 x 10 gp (average 70 gp).\n\n**Class Skills**\n\nThe Druid's class skills are Climb (Str), Craft (Int), Fly (Dex), Handle Animal (Cha), Heal (Wis), Knowledge (geography) (Int), Knowledge (nature) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Spellcraft (Int), Survival (Wis), and Swim (Str).\n\n**Skill Points at each Level**: 4 + Int modifier.\n\n**Class Features**\n\n**Spells Per Day**\n\n| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1st | +0 | +2 | +0 | +2 | Nature bond, nature sense, orisons, wild empathy | 3 | 1 | - | - | - | - | - | - | - | - |\n| 2nd | +1 | +3 | +0 | +3 | Woodland stride | 4 | 2 | - | - | - | - | - | - | - | - |\n| 3rd | +2 | +3 | +1 | +3 | Trackless step | 4 | 2 | 1 | - | - | - | - | - | - | - |\n| 4th | +3 | +4 | +1 | +4 | Resist nature's lure, wild shape (1/day) | 4 | 3 | 2 | - | - | - | - | - | - | - |\n| 5th | +3 | +4 | +1 | +4 | — | 4 | 3 | 2 | 1 | - | - | - | - | - | - |\n| 6th | +4 | +5 | +2 | +5 | Wild shape (2/day) | 4 | 3 | 3 | 2 | - | - | - | - | - | - |\n| 7th | +5 | +5 | +2 | +5 | — | 4 | 4 | 3 | 2 | 1 | - | - | - | - | - |\n| 8th | +6/+1 | +6 | +2 | +6 | Wild shape (3/day) | 4 | 4 | 3 | 3 | 2 | - | - | - | - | - |\n| 9th | +6/+1 | +6 | +3 | +6 | Venom immunity | 4 | 4 | 4 | 3 | 2 | 1 | - | - | - | - |\n| 10th | +7/+2 | +7 | +3 | +7 | Wild shape (4/day) | 4 | 4 | 4 | 3 | 3 | 2 | - | - | - | - |\n| 11th | +8/+3 | +7 | +3 | +7 | — | 4 | 4 | 4 | 4 | 3 | 2 | 1 | - | - | - |\n| 12th | +9/+4 | +8 | +4 | +8 | Wild shape (5/day) | 4 | 4 | 4 | 4 | 3 | 3 | 2 | - | - | - |\n| 13th | +9/+4 | +8 | +4 | +8 | A thousand faces | 4 | 4 | 4 | 4 | 4 | 3 | 2 | 1 | - | - |\n| 14th | +10/+5 | +9 | +4 | +9 | Wild shape (6/day) | 4 | 4 | 4 | 4 | 4 | 3 | 3 | 2 | - | - |\n| 15th | +11/+6/+1 | +9 | +5 | +9 | Timeless body | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 2 | 1 | - |\n| 16th | +12/+7/+2 | +10 | +5 | +10 | Wild shape (7/day) | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 3 | 2 | - |\n| 17th | +12/+7/+2 | +10 | +5 | +10 | — | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 2 | 1 |\n| 18th | +13/+8/+3 | +11 | +6 | +11 | Wild shape (8/day) | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 3 | 2 |\n| 19th | +14/+9/+4 | +11 | +6 | +11 | — | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 3 |\n| 20th | +15/+10/+5 | +12 | +6 | +12 | Wild shape (at will) | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 |\n\n**Ex-Druids**\n\nA druid who ceases to revere nature, changes to a prohibited alignment, or teaches the Druidic language to a nondruid loses all spells and druid abilities (including her animal companion, but not including weapon, armor, and shield proficiencies). She cannot thereafter gain levels as a druid until she atones (see the *atonement* spell description).",
+    "source": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Druid",
+    "sourceRef": "PRPG Core Rulebook pg. 48",
+    "book": "CRB",
+    "hitDie": 8,
+    "skillRanksPerLevel": 4,
+    "classSkills": [
+      "climb",
+      "craft",
+      "fly",
+      "handle-animal",
+      "heal",
+      "knowledge-geography",
+      "knowledge-nature",
+      "perception",
+      "profession",
+      "ride",
+      "spellcraft",
+      "survival",
+      "swim"
+    ],
+    "alignment": "Any neutral",
+    "startingWealthDice": "2d6",
+    "proficiencies": {
+      "weapons": [
+        "club",
+        "dagger",
+        "dart",
+        "quarterstaff",
+        "scimitar",
+        "scythe",
+        "sickle",
+        "shortspear",
+        "sling",
+        "spear"
+      ],
+      "armor": [
+        "light",
+        "medium"
+      ],
+      "shields": [
+        "all-except-tower"
+      ]
+    },
+    "progression": {
+      "bab": "threeQuarters",
+      "fort": "good",
+      "ref": "poor",
+      "will": "good"
+    },
+    "table": [
+      {
+        "level": 1,
+        "bab": [
+          0
+        ],
+        "fort": 2,
+        "ref": 0,
+        "will": 2,
+        "special": [
+          "Nature bond",
+          "nature sense",
+          "orisons",
+          "wild empathy"
+        ],
+        "specialIds": [
+          "druid.nature-bond",
+          "druid.nature-sense",
+          "druid.orisons",
+          "druid.wild-empathy"
+        ],
+        "spellsPerDay": [
+          3,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 2,
+        "bab": [
+          1
+        ],
+        "fort": 3,
+        "ref": 0,
+        "will": 3,
+        "special": [
+          "Woodland stride"
+        ],
+        "specialIds": [
+          "druid.woodland-stride"
+        ],
+        "spellsPerDay": [
+          4,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 3,
+        "bab": [
+          2
+        ],
+        "fort": 3,
+        "ref": 1,
+        "will": 3,
+        "special": [
+          "Trackless step"
+        ],
+        "specialIds": [
+          "druid.trackless-step"
+        ],
+        "spellsPerDay": [
+          4,
+          2,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 4,
+        "bab": [
+          3
+        ],
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
+        "special": [
+          "Resist nature's lure",
+          "wild shape (1/day)"
+        ],
+        "specialIds": [
+          "druid.resist-natures-lure",
+          "druid.wild-shape"
+        ],
+        "spellsPerDay": [
+          4,
+          3,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 5,
+        "bab": [
+          3
+        ],
+        "fort": 4,
+        "ref": 1,
+        "will": 4,
+        "special": [],
+        "specialIds": [],
+        "spellsPerDay": [
+          4,
+          3,
+          2,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 6,
+        "bab": [
+          4
+        ],
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
+        "special": [
+          "Wild shape (2/day)"
+        ],
+        "specialIds": [
+          "druid.wild-shape"
+        ],
+        "spellsPerDay": [
+          4,
+          3,
+          3,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 7,
+        "bab": [
+          5
+        ],
+        "fort": 5,
+        "ref": 2,
+        "will": 5,
+        "special": [],
+        "specialIds": [],
+        "spellsPerDay": [
+          4,
+          4,
+          3,
+          2,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 8,
+        "bab": [
+          6,
+          1
+        ],
+        "fort": 6,
+        "ref": 2,
+        "will": 6,
+        "special": [
+          "Wild shape (3/day)"
+        ],
+        "specialIds": [
+          "druid.wild-shape"
+        ],
+        "spellsPerDay": [
+          4,
+          4,
+          3,
+          3,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 9,
+        "bab": [
+          6,
+          1
+        ],
+        "fort": 6,
+        "ref": 3,
+        "will": 6,
+        "special": [
+          "Venom immunity"
+        ],
+        "specialIds": [
+          "druid.venom-immunity"
+        ],
+        "spellsPerDay": [
+          4,
+          4,
+          4,
+          3,
+          2,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 10,
+        "bab": [
+          7,
+          2
+        ],
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
+        "special": [
+          "Wild shape (4/day)"
+        ],
+        "specialIds": [
+          "druid.wild-shape"
+        ],
+        "spellsPerDay": [
+          4,
+          4,
+          4,
+          3,
+          3,
+          2,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 11,
+        "bab": [
+          8,
+          3
+        ],
+        "fort": 7,
+        "ref": 3,
+        "will": 7,
+        "special": [],
+        "specialIds": [],
+        "spellsPerDay": [
+          4,
+          4,
+          4,
+          4,
+          3,
+          2,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 12,
+        "bab": [
+          9,
+          4
+        ],
+        "fort": 8,
+        "ref": 4,
+        "will": 8,
+        "special": [
+          "Wild shape (5/day)"
+        ],
+        "specialIds": [
+          "druid.wild-shape"
+        ],
+        "spellsPerDay": [
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 13,
+        "bab": [
+          9,
+          4
+        ],
+        "fort": 8,
+        "ref": 4,
+        "will": 8,
+        "special": [
+          "A thousand faces"
+        ],
+        "specialIds": [
+          "druid.a-thousand-faces"
+        ],
+        "spellsPerDay": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          2,
+          1,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 14,
+        "bab": [
+          10,
+          5
+        ],
+        "fort": 9,
+        "ref": 4,
+        "will": 9,
+        "special": [
+          "Wild shape (6/day)"
+        ],
+        "specialIds": [
+          "druid.wild-shape"
+        ],
+        "spellsPerDay": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 15,
+        "bab": [
+          11,
+          6,
+          1
+        ],
+        "fort": 9,
+        "ref": 5,
+        "will": 9,
+        "special": [
+          "Timeless body"
+        ],
+        "specialIds": [
+          "druid.timeless-body"
+        ],
+        "spellsPerDay": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          2,
+          1,
+          null
+        ]
+      },
+      {
+        "level": 16,
+        "bab": [
+          12,
+          7,
+          2
+        ],
+        "fort": 10,
+        "ref": 5,
+        "will": 10,
+        "special": [
+          "Wild shape (7/day)"
+        ],
+        "specialIds": [
+          "druid.wild-shape"
+        ],
+        "spellsPerDay": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          2,
+          null
+        ]
+      },
+      {
+        "level": 17,
+        "bab": [
+          12,
+          7,
+          2
+        ],
+        "fort": 10,
+        "ref": 5,
+        "will": 10,
+        "special": [],
+        "specialIds": [],
+        "spellsPerDay": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      {
+        "level": 18,
+        "bab": [
+          13,
+          8,
+          3
+        ],
+        "fort": 11,
+        "ref": 6,
+        "will": 11,
+        "special": [
+          "Wild shape (8/day)"
+        ],
+        "specialIds": [
+          "druid.wild-shape"
+        ],
+        "spellsPerDay": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          2
+        ]
+      },
+      {
+        "level": 19,
+        "bab": [
+          14,
+          9,
+          4
+        ],
+        "fort": 11,
+        "ref": 6,
+        "will": 11,
+        "special": [],
+        "specialIds": [],
+        "spellsPerDay": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3
+        ]
+      },
+      {
+        "level": 20,
+        "bab": [
+          15,
+          10,
+          5
+        ],
+        "fort": 12,
+        "ref": 6,
+        "will": 12,
+        "special": [
+          "Wild shape (at will)"
+        ],
+        "specialIds": [
+          "druid.wild-shape"
+        ],
+        "spellsPerDay": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "casting": {
+      "ability": "wis",
+      "tradition": "divine",
+      "prepared": true,
+      "spellListId": "druid"
+    }
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "rogue",
+    "name": "Rogue",
+    "textEn": "Life is an endless adventure for those who live by their wits. Ever just one step ahead of danger, rogues bank on their cunning, skill, and charm to bend fate to their favor. Never knowing what to expect, they prepare for everything, becoming masters of a wide variety of skills, training themselves to be adept manipulators, agile acrobats, shadowy stalkers, or masters of any of dozens of other professions or talents. Thieves and gamblers, fast talkers and diplomats, bandits and bounty hunters, and explorers and investigators all might be considered rogues, as well as countless other professions that rely upon wits, prowess, or luck. Although many rogues favor cities and the innumerable opportunities of civilization, some embrace lives on the road, journeying far, meeting exotic people, and facing fantastic danger in pursuit of equally fantastic riches. In the end, any who desire to shape their fates and live life on their own terms might come to be called rogues.\n\n**Role**: Rogues excel at moving about unseen and catching foes unaware, and tend to avoid head-to-head combat. Their varied skills and abilities allow them to be highly versatile, with great variations in expertise existing between different rogues. Most, however, excel in overcoming hindrances of all types, from unlocking doors and disarming traps to outwitting magical hazards and conning dull-witted opponents.\n\n**Alignment**: Any.\n**Hit Die**: d8.\n**Starting Wealth**: 4d6 x 10 gp (average 140 gp).\n\n**Class Skills**\n\nThe Rogue's class skills are Acrobatics (Dex), Appraise (Int), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Disable Device (Dex), Disguise (Cha), Escape Artist (Dex), Intimidate (Cha), Knowledge (dungeoneering) (Int), Knowledge (local) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Stealth (Dex), Swim (Str), and Use Magic Device (Cha).\n\n**Skill Points at each Level**: 8 + Int modifier.\n\n**Class Features**\n\n| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |\n| --- | --- | --- | --- | --- | --- |\n| 1st | +0 | +0 | +2 | +0 | Sneak attack +1d6, trapfinding |\n| 2nd | +1 | +0 | +3 | +0 | Evasion, rogue talent |\n| 3rd | +2 | +1 | +3 | +1 | Sneak attack +2d6, trap sense +1 |\n| 4th | +3 | +1 | +4 | +1 | Rogue talent, uncanny dodge |\n| 5th | +3 | +1 | +4 | +1 | Sneak attack +3d6 |\n| 6th | +4 | +2 | +5 | +2 | Rogue talent, trap sense +2 |\n| 7th | +5 | +2 | +5 | +2 | Sneak attack +4d6 |\n| 8th | +6/+1 | +2 | +6 | +2 | Improved uncanny dodge, rogue talent |\n| 9th | +6/+1 | +3 | +6 | +3 | Sneak attack +5d6, trap sense +3 |\n| 10th | +7/+2 | +3 | +7 | +3 | Advanced talents, rogue talent |\n| 11th | +8/+3 | +3 | +7 | +3 | Sneak attack +6d6 |\n| 12th | +9/+4 | +4 | +8 | +4 | Rogue talent, trap sense +4 |\n| 13th | +9/+4 | +4 | +8 | +4 | Sneak attack +7d6 |\n| 14th | +10/+5 | +4 | +9 | +4 | Rogue talent |\n| 15th | +11/+6/+1 | +5 | +9 | +5 | Sneak attack +8d6, trap sense +5 |\n| 16th | +12/+7/+2 | +5 | +10 | +5 | Rogue talent |\n| 17th | +12/+7/+2 | +5 | +10 | +5 | Sneak attack +9d6 |\n| 18th | +13/+8/+3 | +6 | +11 | +6 | Rogue talent, trap sense +6 |\n| 19th | +14/+9/+4 | +6 | +11 | +6 | Sneak attack +10d6 |\n| 20th | +15/+10/+5 | +6 | +12 | +6 | Master strike, rogue talent |",
+    "source": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Rogue",
+    "sourceRef": "PRPG Core Rulebook pg. 67",
+    "book": "CRB",
+    "hitDie": 8,
+    "skillRanksPerLevel": 8,
+    "classSkills": [
+      "acrobatics",
+      "appraise",
+      "bluff",
+      "climb",
+      "craft",
+      "diplomacy",
+      "disable-device",
+      "disguise",
+      "escape-artist",
+      "intimidate",
+      "knowledge-dungeoneering",
+      "knowledge-local",
+      "linguistics",
+      "perception",
+      "perform",
+      "profession",
+      "sense-motive",
+      "sleight-of-hand",
+      "stealth",
+      "swim",
+      "use-magic-device"
+    ],
+    "alignment": "Any",
+    "startingWealthDice": "4d6",
+    "proficiencies": {
+      "weapons": [
+        "simple",
+        "hand-crossbow",
+        "rapier",
+        "sap",
+        "shortbow",
+        "short-sword"
+      ],
+      "armor": [
+        "light"
+      ],
+      "shields": []
+    },
+    "progression": {
+      "bab": "threeQuarters",
+      "fort": "poor",
+      "ref": "good",
+      "will": "poor"
+    },
+    "table": [
+      {
+        "level": 1,
+        "bab": [
+          0
+        ],
+        "fort": 0,
+        "ref": 2,
+        "will": 0,
+        "special": [
+          "Sneak attack +1d6",
+          "trapfinding"
+        ],
+        "specialIds": [
+          "rogue.sneak-attack",
+          "rogue.trapfinding"
+        ]
+      },
+      {
+        "level": 2,
+        "bab": [
+          1
+        ],
+        "fort": 0,
+        "ref": 3,
+        "will": 0,
+        "special": [
+          "Evasion",
+          "rogue talent"
+        ],
+        "specialIds": [
+          "rogue.evasion",
+          "rogue.rogue-talents"
+        ]
+      },
+      {
+        "level": 3,
+        "bab": [
+          2
+        ],
+        "fort": 1,
+        "ref": 3,
+        "will": 1,
+        "special": [
+          "Sneak attack +2d6",
+          "trap sense +1"
+        ],
+        "specialIds": [
+          "rogue.sneak-attack",
+          "rogue.trap-sense"
+        ]
+      },
+      {
+        "level": 4,
+        "bab": [
+          3
+        ],
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
+        "special": [
+          "Rogue talent",
+          "uncanny dodge"
+        ],
+        "specialIds": [
+          "rogue.rogue-talents",
+          "rogue.uncanny-dodge"
+        ]
+      },
+      {
+        "level": 5,
+        "bab": [
+          3
+        ],
+        "fort": 1,
+        "ref": 4,
+        "will": 1,
+        "special": [
+          "Sneak attack +3d6"
+        ],
+        "specialIds": [
+          "rogue.sneak-attack"
+        ]
+      },
+      {
+        "level": 6,
+        "bab": [
+          4
+        ],
+        "fort": 2,
+        "ref": 5,
+        "will": 2,
+        "special": [
+          "Rogue talent",
+          "trap sense +2"
+        ],
+        "specialIds": [
+          "rogue.rogue-talents",
+          "rogue.trap-sense"
+        ]
+      },
+      {
+        "level": 7,
+        "bab": [
+          5
+        ],
+        "fort": 2,
+        "ref": 5,
+        "will": 2,
+        "special": [
+          "Sneak attack +4d6"
+        ],
+        "specialIds": [
+          "rogue.sneak-attack"
+        ]
+      },
+      {
+        "level": 8,
+        "bab": [
+          6,
+          1
+        ],
+        "fort": 2,
+        "ref": 6,
+        "will": 2,
+        "special": [
+          "Improved uncanny dodge",
+          "rogue talent"
+        ],
+        "specialIds": [
+          "rogue.improved-uncanny-dodge",
+          "rogue.rogue-talents"
+        ]
+      },
+      {
+        "level": 9,
+        "bab": [
+          6,
+          1
+        ],
+        "fort": 3,
+        "ref": 6,
+        "will": 3,
+        "special": [
+          "Sneak attack +5d6",
+          "trap sense +3"
+        ],
+        "specialIds": [
+          "rogue.sneak-attack",
+          "rogue.trap-sense"
+        ]
+      },
+      {
+        "level": 10,
+        "bab": [
+          7,
+          2
+        ],
+        "fort": 3,
+        "ref": 7,
+        "will": 3,
+        "special": [
+          "Advanced talents",
+          "rogue talent"
+        ],
+        "specialIds": [
+          "rogue.advanced-talents",
+          "rogue.rogue-talents"
+        ]
+      },
+      {
+        "level": 11,
+        "bab": [
+          8,
+          3
+        ],
+        "fort": 3,
+        "ref": 7,
+        "will": 3,
+        "special": [
+          "Sneak attack +6d6"
+        ],
+        "specialIds": [
+          "rogue.sneak-attack"
+        ]
+      },
+      {
+        "level": 12,
+        "bab": [
+          9,
+          4
+        ],
+        "fort": 4,
+        "ref": 8,
+        "will": 4,
+        "special": [
+          "Rogue talent",
+          "trap sense +4"
+        ],
+        "specialIds": [
+          "rogue.rogue-talents",
+          "rogue.trap-sense"
+        ]
+      },
+      {
+        "level": 13,
+        "bab": [
+          9,
+          4
+        ],
+        "fort": 4,
+        "ref": 8,
+        "will": 4,
+        "special": [
+          "Sneak attack +7d6"
+        ],
+        "specialIds": [
+          "rogue.sneak-attack"
+        ]
+      },
+      {
+        "level": 14,
+        "bab": [
+          10,
+          5
+        ],
+        "fort": 4,
+        "ref": 9,
+        "will": 4,
+        "special": [
+          "Rogue talent"
+        ],
+        "specialIds": [
+          "rogue.rogue-talents"
+        ]
+      },
+      {
+        "level": 15,
+        "bab": [
+          11,
+          6,
+          1
+        ],
+        "fort": 5,
+        "ref": 9,
+        "will": 5,
+        "special": [
+          "Sneak attack +8d6",
+          "trap sense +5"
+        ],
+        "specialIds": [
+          "rogue.sneak-attack",
+          "rogue.trap-sense"
+        ]
+      },
+      {
+        "level": 16,
+        "bab": [
+          12,
+          7,
+          2
+        ],
+        "fort": 5,
+        "ref": 10,
+        "will": 5,
+        "special": [
+          "Rogue talent"
+        ],
+        "specialIds": [
+          "rogue.rogue-talents"
+        ]
+      },
+      {
+        "level": 17,
+        "bab": [
+          12,
+          7,
+          2
+        ],
+        "fort": 5,
+        "ref": 10,
+        "will": 5,
+        "special": [
+          "Sneak attack +9d6"
+        ],
+        "specialIds": [
+          "rogue.sneak-attack"
+        ]
+      },
+      {
+        "level": 18,
+        "bab": [
+          13,
+          8,
+          3
+        ],
+        "fort": 6,
+        "ref": 11,
+        "will": 6,
+        "special": [
+          "Rogue talent",
+          "trap sense +6"
+        ],
+        "specialIds": [
+          "rogue.rogue-talents",
+          "rogue.trap-sense"
+        ]
+      },
+      {
+        "level": 19,
+        "bab": [
+          14,
+          9,
+          4
+        ],
+        "fort": 6,
+        "ref": 11,
+        "will": 6,
+        "special": [
+          "Sneak attack +10d6"
+        ],
+        "specialIds": [
+          "rogue.sneak-attack"
+        ]
+      },
+      {
+        "level": 20,
+        "bab": [
+          15,
+          10,
+          5
+        ],
+        "fort": 6,
+        "ref": 12,
+        "will": 6,
+        "special": [
+          "Master strike",
+          "rogue talent"
+        ],
+        "specialIds": [
+          "rogue.master-strike",
+          "rogue.rogue-talents"
+        ]
+      }
+    ]
+  }
+]

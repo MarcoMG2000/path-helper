@@ -1,0 +1,117 @@
+{
+  "license": "OGL-1.0a",
+  "category": "armor",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Extra",
+      "sha256": "c299997366a62bad27ca1ca7e552bba5d60391504e7a6e57dd099de7d28cea8e",
+      "bytes": 21701,
+      "fetchedAt": "2026-10-16T23:57:53.549Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Heavy",
+      "sha256": "7dbef6841ae71a82e42eeb5f0b1fc08396b04d976864346bcc4d6f07f36f7191",
+      "bytes": 32282,
+      "fetchedAt": "2026-10-16T23:57:51.547Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Light",
+      "sha256": "30a43c5c6b5c60b7ba87066a1f08c4da5bb732dc9942f61bff5e2d196d24f173",
+      "bytes": 34987,
+      "fetchedAt": "2026-10-16T23:57:49.849Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Medium",
+      "sha256": "09281a425fdad7590630388b87edebe2ec13cac528654f1540aac7e184b61c77",
+      "bytes": 30563,
+      "fetchedAt": "2026-10-16T23:57:50.544Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Shield",
+      "sha256": "1b2d2ac2a8d1ce4e10cd3b01d9bf51b7b13a5c063d98e8ea73e029443dc78c28",
+      "bytes": 31656,
+      "fetchedAt": "2026-10-16T23:57:52.553Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Banded%20mail",
+      "sha256": "78262affc4d9fc48a4066818c961a35c8cf8afb28bcacc983b84bc9240a57382",
+      "bytes": 22080,
+      "fetchedAt": "2026-10-17T00:02:33.798Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Breastplate",
+      "sha256": "d1ce8e355f3ab03ae361fa04e1c8895eb56c1b5742da146d5efa73c316a0f563",
+      "bytes": 22110,
+      "fetchedAt": "2026-10-17T00:02:34.807Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Chain%20shirt",
+      "sha256": "88abeff78df08850e50b3957cfc276a2ae99fb5c2d743aa20af2bbda4dc6dd7c",
+      "bytes": 21418,
+      "fetchedAt": "2026-10-17T00:02:35.800Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Chainmail",
+      "sha256": "98f97aaebd51beb05c458bb34a0c158abf761abe591fc9d021385081c2ab2962",
+      "bytes": 22068,
+      "fetchedAt": "2026-10-17T00:02:36.801Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Full%20plate",
+      "sha256": "efdee11b6f136bfe29d5752c3c3483e9e182362597e501fb453b1a07535b9727",
+      "bytes": 22930,
+      "fetchedAt": "2026-10-16T23:40:02.445Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Half-plate",
+      "sha256": "9ea6bb59fc40213028bf5740d0a49c6c49ea575ca2df68c27e5942c8b6d45a4b",
+      "bytes": 22452,
+      "fetchedAt": "2026-10-17T00:02:37.811Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Hide",
+      "sha256": "72b450ac6b2eebc979a5f5b38adc9340fddf8db76ba70b4daf8ddf7c2042a44f",
+      "bytes": 22301,
+      "fetchedAt": "2026-10-17T00:02:38.798Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Leather",
+      "sha256": "3e13e4ec1d20b01699873c5f314f7b57e01b7d4f244ab7bda1d7f20ef456e118",
+      "bytes": 22030,
+      "fetchedAt": "2026-10-17T00:02:39.805Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Padded",
+      "sha256": "1b463ba8ecbca243a7df3b81558eb6a7c3f16235dbf3909d494091b2d2583ed2",
+      "bytes": 22066,
+      "fetchedAt": "2026-10-17T00:02:40.797Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Scale%20mail",
+      "sha256": "4d25186bc45ca5d223035327f0882747fb80ce6a3bbd85c53fd20a9ecfa96bbc",
+      "bytes": 22223,
+      "fetchedAt": "2026-10-17T00:02:41.794Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Splint%20mail",
+      "sha256": "54028b06c9b3ce04bcbd620ec8f9198a6f659ba56ca94452ba50d8ab4ae95213",
+      "bytes": 22238,
+      "fetchedAt": "2026-10-17T00:02:42.810Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Studded%20leather",
+      "sha256": "f2d08a0e4376bdbd6255bcbe24c728e789807936e366c05272ef7ca0e461d07f",
+      "bytes": 22454,
+      "fetchedAt": "2026-10-17T00:02:44.847Z"
+    },
+    {
+      "url": "https://aonprd.com/SourceDisplay.aspx?FixedSource=PRPG Core Rulebook",
+      "sha256": "94461065d4d1448c610be1f56161a6f1f6af9d825d8c1a1bdfd0d81f46f83599",
+      "bytes": 374126,
+      "fetchedAt": "2026-10-16T14:04:46.083Z"
+    }
+  ],
+  "expectedCount": 12
+}

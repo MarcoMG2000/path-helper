@@ -1,0 +1,134 @@
+{
+  "rage": {
+    "summaryEs": "Cada criatura afectada gana +2 de moral a Fuerza y Constitución, +1 de moral a las salvaciones de Voluntad y –2 a la CA. El efecto es idéntico a la furia de un bárbaro, salvo que los sujetos no quedan fatigados al terminar.",
+    "status": "draft"
+  },
+  "rainbow-pattern": {
+    "summaryEs": "Un patrón luminoso de colores entrelazados fascina como máximo a 24 DG de criaturas, empezando por las de menos DG y, a igualdad, por las más cercanas. Con un gesto (acción libre) puedes moverlo hasta 30 pies por asalto y las criaturas fascinadas lo siguen. No afecta a criaturas sin vista.",
+    "status": "draft"
+  },
+  "raise-dead": {
+    "summaryEs": "Devuelve la vida a una criatura muerta hace no más de 1 día por nivel de lanzador; su alma debe estar libre y dispuesta. El sujeto gana dos niveles negativos permanentes. Vuelve con puntos de golpe igual a sus DG actuales. No funciona con constructos, elementales, ajenos ni muertos vivientes.",
+    "status": "draft"
+  },
+  "ray-of-enfeeblement": {
+    "summaryEs": "Un rayo centelleante sale de tu mano; debes acertar con un ataque de toque a distancia. El sujeto sufre un penalizador a Fuerza de 1d6+1 por cada dos niveles de lanzador (máximo 1d6+5), nunca por debajo de 1. Una salvación de Fortaleza lo reduce a la mitad. No se acumula consigo mismo.",
+    "status": "draft"
+  },
+  "ray-of-exhaustion": {
+    "summaryEs": "Un rayo negro sale de tu dedo; debes acertar con un ataque de toque a distancia. El sujeto queda agotado mientras dure el conjuro; con una salvación de Fortaleza queda solo fatigado. Si ya está fatigado, pasa a agotado. El efecto termina al expirar la duración.",
+    "status": "draft"
+  },
+  "ray-of-frost": {
+    "summaryEs": "Un rayo de aire helado y hielo sale de tu dedo. Debes acertar con un ataque de toque a distancia para dañar al objetivo. El rayo causa 1d3 de daño de frío.",
+    "status": "draft"
+  },
+  "read-magic": {
+    "summaryEs": "Descifras inscripciones mágicas en objetos (libros, pergaminos, armas) que de otro modo serían ininteligibles, sin invocar normalmente su magia. Después podrás leer esa escritura sin el conjuro. Lees una página (250 palabras) por minuto. Puede hacerse permanente.",
+    "status": "draft"
+  },
+  "reduce-animal": {
+    "summaryEs": "Funciona como reducir persona, pero afecta a un solo animal voluntario. Reduce el daño de sus ataques naturales según su nuevo tamaño.",
+    "status": "draft"
+  },
+  "reduce-person": {
+    "summaryEs": "Reduce al instante a una criatura humanoide: su altura, largo y ancho se reducen a la mitad, su peso se divide entre 8 y pasa a la categoría de tamaño inferior. Gana +2 de tamaño a Destreza, –2 a Fuerza (mínimo 1) y +1 al ataque y a la CA. Su equipo se reduce igual. Contrarresta agrandar persona.",
+    "status": "draft"
+  },
+  "reduce-person-mass": {
+    "summaryEs": "Funciona como reducir persona, pero afecta a varias criaturas.",
+    "status": "draft"
+  },
+  "refuge": {
+    "summaryEs": "Creas magia en un objeto preparado que transporta al instante a su poseedor, a cualquier distancia en el mismo plano, a tu morada. Debes entregarlo voluntariamente con una palabra de mando; el sujeto la dice al romperlo (acción estándar). Puedes alterarlo para transportarte a 10 pies del poseedor.",
+    "status": "draft"
+  },
+  "regenerate": {
+    "summaryEs": "Los miembros cercenados, huesos rotos y órganos arruinados del sujeto vuelven a crecer: en 1 asalto si las partes están presentes y en contacto, o en 2d10 asaltos si no. Cura además 4d8 de daño + 1 por nivel (máximo +35), elimina agotamiento y fatiga. No afecta a criaturas no vivas.",
+    "status": "draft"
+  },
+  "reincarnate": {
+    "summaryEs": "Devuelves a una criatura muerta en otro cuerpo, siempre que lleve muerta no más de 1 semana y su alma esté libre y dispuesta. Se crea un cuerpo nuevo de adulto joven; la criatura conserva la mayor parte de su vida anterior, pero gana dos niveles negativos permanentes.",
+    "status": "draft"
+  },
+  "remove-blindness-deafness": {
+    "summaryEs": "Cura la ceguera o la sordera (a tu elección), sea normal o mágica. No restaura ojos u oídos perdidos, pero sí los repara si están dañados. Contrarresta y disipa ceguera/sordera.",
+    "status": "draft"
+  },
+  "remove-curse": {
+    "summaryEs": "Puede eliminar todas las maldiciones de un objeto o criatura. En una criatura, haces una prueba de nivel de lanzador (1d20 + nivel) contra la CD de cada maldición. No quita la maldición de un escudo, arma o armadura maldecidos. Contrarresta infligir maldición.",
+    "status": "draft"
+  },
+  "remove-disease": {
+    "summaryEs": "Cura todas las enfermedades del sujeto. Haces una prueba de nivel de lanzador (1d20 + nivel) contra la CD de cada enfermedad; con éxito, queda curada. También mata algunos peligros y parásitos, como el limo verde. Al ser instantáneo, no evita una reinfección posterior.",
+    "status": "draft"
+  },
+  "remove-fear": {
+    "summaryEs": "Infundes valor al sujeto, que gana un bonificador de moral de +4 contra efectos de miedo durante 10 minutos. Si está bajo un efecto de miedo, queda suprimido mientras dure el conjuro. Contrarresta y disipa causar miedo.",
+    "status": "draft"
+  },
+  "remove-paralysis": {
+    "summaryEs": "Liberas a una o más criaturas de la parálisis temporal o magia relacionada, incluida la condición de tambaleante. Con una criatura, se niega la parálisis; con dos, cada una recibe otra salvación con +4 de resistencia; con tres o cuatro, con +2. No restaura características reducidas.",
+    "status": "draft"
+  },
+  "repel-metal-or-stone": {
+    "summaryEs": "Olas de energía invisible empujan lejos de ti los objetos de metal o piedra en su trayectoria, a 40 pies por asalto. No afecta a objetos fijos de más de 3 pulgadas de diámetro ni a sueltos de más de 500 libras. Los fijos más pequeños se doblan o rompen. Arrastra a quienes los porten.",
+    "status": "draft"
+  },
+  "repel-vermin": {
+    "summaryEs": "Una barrera invisible detiene a las sabandijas. Una sabandija con menos DG que un tercio de tu nivel no puede atravesarla. Una de un tercio de tu nivel o más puede hacerlo si supera una salvación de Voluntad, pero cruzar le causa 2d6 de daño y presionar la barrera causa dolor.",
+    "status": "draft"
+  },
+  "repel-wood": {
+    "summaryEs": "Olas de energía que salen de ti empujan lejos los objetos de madera en su trayectoria, a 40 pies por asalto. No afecta a objetos fijos de más de 3 pulgadas de diámetro; los fijos más pequeños se astillan. Escudos, lanzas y flechas son empujados con quien los porte.",
+    "status": "draft"
+  },
+  "repulsion": {
+    "summaryEs": "Un campo invisible y móvil te rodea e impide que las criaturas se te acerquen. Toda criatura que esté o entre en él debe hacer una salvación; si falla, no puede moverse hacia ti. Puede luchar, lanzar conjuros o atacarte a distancia, y atacarte cuerpo a cuerpo si te acercas.",
+    "status": "draft"
+  },
+  "resilient-sphere": {
+    "summaryEs": "Un globo de fuerza reluciente encierra a una criatura lo bastante pequeña para caber. Funciona como muro de fuerza, salvo que disipar magia puede anularlo. El sujeto respira con normalidad. La esfera no puede moverse físicamente, ni desde fuera ni por los esfuerzos de quien está dentro.",
+    "status": "draft"
+  },
+  "resist-energy": {
+    "summaryEs": "Concede protección limitada contra un tipo de energía a elegir: ácido, frío, electricidad, fuego o sónico. El sujeto gana resistencia a la energía 10, que sube a 20 al 7.º nivel y a un máximo de 30 al 11.º. Protege también el equipo. Se solapa con protección contra la energía sin acumularse.",
+    "status": "draft"
+  },
+  "resistance": {
+    "summaryEs": "Imbuyes al sujeto con energía mágica que lo protege del daño, otorgándole un bonificador de resistencia de +1 a las salvaciones. Puede hacerse permanente con permanencia.",
+    "status": "draft"
+  },
+  "restoration": {
+    "summaryEs": "Funciona como restauración menor, pero también disipa niveles negativos temporales o un nivel negativo permanente (diamante en polvo por 1,000 po). Cura todo el daño temporal de característica, restaura los puntos drenados de una característica y elimina fatiga y agotamiento.",
+    "status": "draft"
+  },
+  "restoration-greater": {
+    "summaryEs": "Funciona como restauración menor, pero disipa todos los niveles negativos y los efectos mágicos que penalizan las características; cura todo el daño temporal y restaura todos los puntos drenados. Elimina fatiga, agotamiento, locura, confusión y efectos mentales similares.",
+    "status": "draft"
+  },
+  "restoration-lesser": {
+    "summaryEs": "Disipa los efectos mágicos que reducen una característica del sujeto o cura 1d4 puntos de daño temporal a una característica. También elimina la fatiga y mejora el agotamiento a fatiga. No restaura el drenaje permanente de característica.",
+    "status": "draft"
+  },
+  "resurrection": {
+    "summaryEs": "Funciona como revivir a los muertos, pero restauras vida y fuerza completas a una criatura muerta hace no más de 10 años por nivel de lanzador. Vuelve con todos sus puntos de golpe y un solo nivel negativo permanente. Puede resucitar tras un efecto de muerte, no tras morir de vejez.",
+    "status": "draft"
+  },
+  "reverse-gravity": {
+    "summaryEs": "Invierte la gravedad en un área: los objetos y criaturas sueltos caen hacia arriba y llegan al tope en 1 asalto, golpeando lo que encuentren como en una caída normal. Quedan allí oscilando hasta que acaba el conjuro, y luego caen. Con algo a lo que agarrarse, se permite una salvación de Reflejos.",
+    "status": "draft"
+  },
+  "righteous-might": {
+    "summaryEs": "Tu altura se duplica y tu peso se multiplica por ocho; pasas a la categoría de tamaño superior. Ganas +4 de tamaño a Fuerza y Constitución, –2 a Destreza, +2 de mejora a la armadura natural y RD 5/maligno o 5/bueno (10 a nivel 15). Tu equipo se agranda igual.",
+    "status": "draft"
+  },
+  "rope-trick": {
+    "summaryEs": "Sobre una cuerda de 5 a 30 pies, un extremo se eleva hasta quedar perpendicular al suelo, sujeto a un espacio extradimensional donde caben hasta ocho criaturas ocultas. La cuerda soporta 16,000 libras. No se pueden lanzar conjuros a través de la interfaz.",
+    "status": "draft"
+  },
+  "rusting-grasp": {
+    "summaryEs": "Cualquier objeto de hierro o aleación que toques se desmorona en óxido. Los objetos mágicos de metal son inmunes. En combate, con un toque cuerpo a cuerpo destruye 1d6 puntos de CA de armadura metálica o un arma metálica. Contra criaturas ferrosas, 3d6 + 1 por nivel (máximo +15).",
+    "status": "draft"
+  }
+}

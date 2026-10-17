@@ -1,0 +1,18 @@
+{
+  "rapid-reload": {
+    "summaryEs": "Recargar tu tipo de arma elegido es una acción gratuita (ballesta de mano o ligera), de movimiento (pesada o arma de fuego a una mano) o estándar (arma de fuego a dos manos). Sigue provocando ataques de oportunidad.",
+    "status": "draft"
+  },
+  "rapid-shot": {
+    "summaryEs": "En un ataque completo a distancia, disparas una vez más este asalto a tu máximo bonificador, pero todas tus tiradas de ataque sufren –2.",
+    "status": "draft"
+  },
+  "ride-by-attack": {
+    "summaryEs": "Montado y con la acción de carga, te mueves y atacas como en una carga estándar y luego sigues moviéndote en línea recta, sin superar el doble de la velocidad de tu montura. Ni tú ni tu montura provocáis ataque de oportunidad del oponente.",
+    "status": "draft"
+  },
+  "run": {
+    "summaryEs": "Al correr, te mueves cinco veces tu velocidad (cuatro con armadura pesada o carga pesada). +4 a Acrobatics en saltos con carrerilla y conservas tu bonificador de Destreza a la CA al correr.",
+    "status": "draft"
+  }
+}

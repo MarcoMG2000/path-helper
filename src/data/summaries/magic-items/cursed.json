@@ -1,0 +1,118 @@
+{
+  "2-cursed-sword": {
+    "summaryEs": "Espada larga que rinde bien en la práctica, pero en combate su portador sufre –2 a las tiradas de ataque y todo el daño se reduce en 2 puntos (mínimo 1). Obliga a su dueño a usarla y a desenvainarla aunque quisiera otra arma.",
+    "status": "draft"
+  },
+  "amulet-of-inescapable-location": {
+    "summaryEs": "Parece impedir la localización, la adivinación y detect thoughts o la telepatía, como un amulet of proof against detection and location, pero en realidad da al portador –10 a todas las salvaciones contra adivinación.",
+    "status": "draft"
+  },
+  "armor-of-arrow-attraction": {
+    "summaryEs": "Parece una armadura de placas completa +3 normal; funciona con normalidad contra ataques cuerpo a cuerpo pero atrae las armas a distancia: el portador sufre –15 a la CA contra ellas. Su naturaleza no se revela hasta que le disparan en serio.",
+    "status": "draft"
+  },
+  "armor-of-rage": {
+    "summaryEs": "Parecida a una breastplate of command y funciona como coraza +1, pero el portador sufre –4 a Carisma y todas las criaturas hostiles a 300 pies ganan +1 de moral a las tiradas de ataque contra ella. El efecto no es perceptible.",
+    "status": "draft"
+  },
+  "bag-of-devouring": {
+    "summaryEs": "Parece un saco normal (y un bag of holding a la detección), pero es un orificio de alimentación de una criatura extradimensional que “traga” sustancias animales o vegetales. Ignora la primera intrusión con un 90% de probabilidad; después atrapa carne viva.",
+    "status": "draft"
+  },
+  "berserking-sword": {
+    "summaryEs": "Parece un espadón +2, pero su portador se enfurece en combate (con todos los beneficios y desventajas de la furia de bárbaro), ataca a la criatura más cercana y sigue hasta quedar inconsciente o muerto o no haber nada vivo a 30 pies.",
+    "status": "draft"
+  },
+  "boots-of-dancing": {
+    "summaryEs": "Parecen otras botas mágicas, pero cuando el portador está en (o huye de) combate cuerpo a cuerpo le impiden moverse, como bajo irresistible dance. Solo un remove curse permite quitárselas una vez revelada su naturaleza.",
+    "status": "draft"
+  },
+  "bracers-of-defenselessness": {
+    "summaryEs": "Parecen bracers of armor +5 y actúan así hasta que un enemigo con CR igual o superior al nivel de la portadora la ataca con ira; entonces dan –5 a la CA. Una vez activada la maldición solo se quitan con remove curse.",
+    "status": "draft"
+  },
+  "broom-of-animated-attack": {
+    "summaryEs": "Parece una escoba normal (y una broom of flying a las pruebas). Si alguien intenta volar, da una voltereta y lo tira de cabeza desde 1d4+5 pies sin daño por caída; luego lo ataca con la paja y el palo: dos ataques por asalto con cada extremo.",
+    "status": "draft"
+  },
+  "crystal-hypnosis-ball": {
+    "summaryEs": "Parece una bola de cristal normal. Quien intenta usarla queda fascinado 1d6 minutos y recibe una sugestión telepática (Voluntad CD 19 niega), cayendo bajo la influencia de un poderoso ser; cada nuevo uso aumenta su poder sobre el usuario.",
+    "status": "draft"
+  },
+  "cursed-backbiter-spear": {
+    "summaryEs": "Lanza corta +2 que, si el ataque cuerpo a cuerpo saca un 1 natural, daña a su portador en lugar del objetivo (se enrosca y le golpea en la espalda). Funciona también al arrojarla: entonces el daño al lanzador se duplica.",
+    "status": "draft"
+  },
+  "dust-of-sneezing-and-choking": {
+    "summaryEs": "Parece dust of appearance. Si se arroja al aire, quienes estén en 20 pies sufren ataques de estornudos y tos: los que fallan Fortaleza CD 15 reciben 3d6 de daño de Constitución; los que la superan quedan incapacitados (aturdidos) 5d4 asaltos.",
+    "status": "draft"
+  },
+  "flask-of-curses": {
+    "summaryEs": "Parece un recipiente normal. Al destaparlo por primera vez, todas las criaturas a 30 pies deben superar Voluntad CD 17 o quedar malditas con –2 a ataques, salvaciones y pruebas de habilidad hasta recibir un remove curse.",
+    "status": "draft"
+  },
+  "gauntlets-of-fumbling": {
+    "summaryEs": "Parecen normales hasta que el portador se ve atacado o en peligro de muerte; entonces se activa la maldición: 50% cada asalto de soltar lo que sostenga y su Destreza baja 2 puntos. Solo se quitan con remove curse, wish o miracle.",
+    "status": "draft"
+  },
+  "helm-of-opposite-alignment": {
+    "summaryEs": "Al ponerlo, la maldición actúa de inmediato (Voluntad CD 15 niega): el alineamiento del portador cambia al opuesto en lo posible, también mentalmente, y disfruta con su nueva visión. Quien supera la salvación puede seguir llevándolo.",
+    "status": "draft"
+  },
+  "incense-of-obsession": {
+    "summaryEs": "Parece incense of meditation. Si se medita mientras arde, el usuario se confía en que sus conjuros son superiores y los usa en cada ocasión, incluso inútiles, hasta gastarlos todos o pasar 24 horas.",
+    "status": "draft"
+  },
+  "mace-of-blood": {
+    "summaryEs": "Maza pesada +3 que debe cubrirse de sangre cada día o su bono se desvanece hasta que se cubra de nuevo. Quien la usa debe superar cada día una salvación de Voluntad CD 13 mientras la tenga o se vuelve caótico maligno.",
+    "status": "draft"
+  },
+  "medallion-of-thought-projection": {
+    "summaryEs": "Parece un medallion of thoughts, pero los pensamientos oídos son apagados y distorsionados (salvación de Voluntad CD 15 para ordenarlos) y en realidad son figments creados por el medallón, plausibles y engañosos.",
+    "status": "draft"
+  },
+  "necklace-of-strangulation": {
+    "summaryEs": "Parece una joya maravillosa. Al ponérselo se aprieta de inmediato causando 6 puntos de daño por asalto. Solo se quita con limited wish, wish o miracle y sigue cerrado tras la muerte; se afloja cuando la víctima es un esqueleto seco (hacia 1 mes).",
+    "status": "draft"
+  },
+  "net-of-snaring": {
+    "summaryEs": "Da +3 a las tiradas de ataque pero solo puede usarse bajo el agua. Bajo el agua puede lanzarse hasta 30 pies para atrapar a una criatura. Si se arroja en tierra, cambia de rumbo y apunta a quien la lanzó.",
+    "status": "draft"
+  },
+  "periapt-of-foul-rotting": {
+    "summaryEs": "Gema grabada de poco valor. Quien la tenga más de 24 horas contrae una podredumbre que drena permanentemente 1 punto de Destreza, Constitución y Carisma cada semana. Solo se elimina con remove curse seguido de cure disease y heal, miracle, limited wish o wish.",
+    "status": "draft"
+  },
+  "poisonous-cloak": {
+    "summaryEs": "Capa de lana o cuero con veneno en la tela. En cuanto alguien se la pone sufre 4d6 de daño de Constitución salvo que supere Fortaleza CD 28. Una vez puesta solo se quita con remove curse (lo que destruye su magia).",
+    "status": "draft"
+  },
+  "potion-of-poison": {
+    "summaryEs": "Poción que ha perdido sus propiedades beneficiosas y se ha vuelto un veneno potente: 1d3 de daño de Constitución por asalto durante 6 asaltos; Fortaleza CD 14 cada asalto niega el daño y termina la aflicción.",
+    "status": "draft"
+  },
+  "ring-of-clumsiness": {
+    "summaryEs": "Opera exactamente como un ring of feather falling, pero vuelve torpe al portador: –4 a Destreza y 20% de fallo al lanzar conjuros arcanos con componente somático (se acumula con otros fallos arcanos).",
+    "status": "draft"
+  },
+  "robe-of-powerlessness": {
+    "summaryEs": "Parece otra túnica mágica. Al ponérsela, el personaje sufre –10 a Fuerza y a Inteligencia, Sabiduría o Carisma, y olvida conjuros y conocimientos. Se quita con facilidad, pero para restaurarlo hace falta remove curse seguido de heal.",
+    "status": "draft"
+  },
+  "robe-of-vermin": {
+    "summaryEs": "Funciona con normalidad hasta que el portador se halla en una situación que exige concentración contra enemigos: entonces los insectos que infestan la prenda lo muerden y debe dejar toda otra actividad para rascarse y recolocarse la túnica.",
+    "status": "draft"
+  },
+  "scarab-of-death": {
+    "summaryEs": "Broche de escarabajo que, si se sostiene más de 1 asalto o se lleva 1 minuto entre las posesiones de una criatura viva, se transforma en un bicho que le llega al corazón en 1 asalto y la mata. Reflejos CD 25 permite arrancarlo, pero aún recibe 3d6 de daño.",
+    "status": "draft"
+  },
+  "stone-of-weight-loadstone": {
+    "summaryEs": "Piedra pulida oscura que reduce a la mitad la velocidad base en tierra del poseedor. Una vez cogida no puede deshacerse de ella por medios no mágicos (reaparece). Con remove curse puede descartarse con normalidad.",
+    "status": "draft"
+  },
+  "vacuous-grimoire": {
+    "summaryEs": "Parece un libro normal. Quien abra y lea una sola palabra debe superar dos salvaciones de Voluntad CD 15: una para evitar 1 punto de drenaje permanente de Inteligencia y Carisma y otra para evitar 2 de Sabiduría. Se destruye quemándolo mientras se lanza remove curse.",
+    "status": "draft"
+  }
+}

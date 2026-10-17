@@ -1,0 +1,86 @@
+{
+  "artifacts": {
+    "summaryEs": "Reglas de los artefactos: reliquias legendarias que no se compran ni aparecen en tesoros aleatorios y no se destruyen con facilidad (cada uno trae una forma de destruirlo en lugar de datos de fabricación). Pueden ser menores o mayores (únicos).",
+    "status": "draft"
+  },
+  "cursed-items": {
+    "summaryEs": "Reglas de los objetos malditos: objetos con un efecto potencialmente negativo, casi nunca hechos a propósito (fallo al crear con diferencia de 5 o más). Explica cómo identificar la maldición y cómo quitarse el objeto; incluye la Tabla 15–27 de maldiciones comunes.",
+    "status": "draft"
+  },
+  "damaging-magic-items": {
+    "summaryEs": "Un objeto mágico solo hace salvación si está sin atender, es objetivo directo del efecto o su portador saca un 1 natural. Su bono de salvación es 2 + la mitad de su nivel de lanzador. Sufre daño como uno no mágico; al perder más de la mitad de sus puntos de golpe queda roto (broken).",
+    "status": "draft"
+  },
+  "intelligent-items": {
+    "summaryEs": "Reglas de los objetos inteligentes: objetos permanentes con puntuaciones de Inteligencia, Sabiduría y Carisma, tratados como PNJ (y como constructos). Explica cómo diseñarlos: alineamiento, características, idiomas, sentidos, poderes, propósito especial, ego y conflicto con el portador.",
+    "status": "draft"
+  },
+  "magic-armor": {
+    "summaryEs": "La armadura mágica da bonos de mejora a la CA de hasta +5, que se apilan con la armadura normal y con el escudo. Con habilidades especiales, mejora más equivalentes no puede pasar de +10 y exige al menos +1 de mejora. Incluye la Tabla 15–3 con precios por bono.",
+    "status": "draft"
+  },
+  "magic-item-creation": {
+    "summaryEs": "Reglas de creación de objetos mágicos: tras invertir tiempo y dinero, el creador hace una prueba (normalmente Spellcraft) con CD 5 + nivel de lanzador del objeto; fallar por 5 o más crea un objeto maldito. Cada requisito no cumplido suma +5 a la CD. Incluye tablas de valor y de costes por clase.",
+    "status": "draft"
+  },
+  "magic-item-descriptions": {
+    "summaryEs": "Cómo se leen las descripciones de objetos mágicos: cada tipo tiene una descripción general (activación, generación aleatoria) y las específicas incluyen aura, nivel de lanzador, ranura, precio, peso y requisitos de construcción. Da CA, dureza y puntos de golpe típicos.",
+    "status": "draft"
+  },
+  "magic-items": {
+    "summaryEs": "Introducción al capítulo: los objetos mágicos se dividen en armadura, armas, pociones, anillos, varas, pergaminos, bastones, varitas y objetos maravillosos; algunos están malditos o son inteligentes. Los artefactos forman una categoría aparte (menores o mayores).",
+    "status": "draft"
+  },
+  "magic-items-and-detect-magic": {
+    "summaryEs": "Cuando detect magic revela la escuela de un objeto, es la del conjuro de la poción, pergamino o varita o la del requisito (el de mayor nivel). Sin conjuros: armaduras y protección = abjuración; armas y ofensivos = evocación; bonos a características y pruebas = transmutación.",
+    "status": "draft"
+  },
+  "magic-items-on-the-body": {
+    "summaryEs": "Un cuerpo humanoide puede llevar hasta 15 objetos mágicos a la vez, uno por cada ranura: armadura, cinturón, cuerpo, pecho, ojos, pies, manos, cabeza, diadema, cuello, anillos (hasta dos), escudo, hombros y muñeca.",
+    "status": "draft"
+  },
+  "magic-weapons": {
+    "summaryEs": "Las armas mágicas tienen bonos de mejora de +1 a +5, aplicados al ataque y al daño. Con habilidades especiales, mejora más equivalentes no puede pasar de +10 y exige al menos +1 de mejora. Incluye la Tabla 15–8 con precios por bono y reglas de munición y críticos.",
+    "status": "draft"
+  },
+  "potions": {
+    "summaryEs": "Pociones y aceites: un uso, replican un conjuro de hasta 3.er nivel con tiempo de lanzamiento menor de 1 minuto. Precio = nivel del conjuro × nivel de lanzador × 50 po. Beber o aplicar es una acción estándar que provoca ataques de oportunidad. Incluye la tabla de costes por clase.",
+    "status": "draft"
+  },
+  "purchasing-magic-items": {
+    "summaryEs": "Guía del GM para saber qué objetos mágicos hay en venta según el tamaño de la comunidad: cada una tiene un valor base y un 75% de probabilidad de que haya cualquier objeto de ese valor o menos, más otros objetos aleatorios por categoría (Tablas 15–1 y 15–2).",
+    "status": "draft"
+  },
+  "rings": {
+    "summaryEs": "Los anillos otorgan poderes al portador; casi todos son permanentes. Solo se pueden llevar dos anillos mágicos efectivos a la vez. Un anillo tiene CA 13, 2 puntos de golpe, dureza 10 y CD de rotura 25. Suelen activarse con una palabra de mando o funcionan de forma continua.",
+    "status": "draft"
+  },
+  "rods": {
+    "summaryEs": "Las varas son dispositivos como cetros con poderes únicos que normalmente no tienen cargas; cualquiera puede usarlas, normalmente empuñándolas. Pesan unas 5 libras y tienen CA 9, 10 puntos de golpe, dureza 10 y CD de rotura 27.",
+    "status": "draft"
+  },
+  "saving-throws-against-magic-item-powers": {
+    "summaryEs": "La CD de una salvación contra un efecto de un objeto mágico es 10 + nivel del conjuro o efecto + modificador de la característica mínima para lanzar ese nivel. Los bastones son la excepción: se tratan como si el portador lanzara el conjuro.",
+    "status": "draft"
+  },
+  "scrolls": {
+    "summaryEs": "Un pergamino guarda uno o varios conjuros por escrito; cada conjuro se usa una sola vez. Precio = nivel del conjuro × nivel de lanzador × 25 po. Usarlo es como lanzar el conjuro. Incluye la Tabla 15–15 con precios de muestra por clase.",
+    "status": "draft"
+  },
+  "staves": {
+    "summaryEs": "Un bastón guarda varios conjuros específicos y tiene 10 cargas al crearse. Usa la activación por disparo de conjuro (normalmente acción estándar sin ataques de oportunidad). Típicamente tiene CA 7, 10 puntos de golpe, dureza 5 y CD de rotura 24.",
+    "status": "draft"
+  },
+  "using-items": {
+    "summaryEs": "Para usar un objeto mágico hay que activarlo (a veces basta ponérselo); normalmente es una acción estándar que no provoca ataques de oportunidad. Hay cuatro métodos de activación, entre ellos la finalización de conjuro (pergaminos), que sí provoca ataques de oportunidad.",
+    "status": "draft"
+  },
+  "wands": {
+    "summaryEs": "Una varita contiene un único conjuro de 4.º nivel o menor y tiene 50 cargas al crearse. Precio = nivel del conjuro × nivel de lanzador × 750 po. Usa la activación por disparo de conjuro. Incluye la Tabla 15–17 con precios de muestra por clase.",
+    "status": "draft"
+  },
+  "wondrous-items": {
+    "summaryEs": "Categoría comodín para todo lo que no encaja en las demás. Cualquiera puede usar un objeto maravilloso salvo que se indique otra cosa; se activan por uso o palabra de mando. Con cargas, nunca son inteligentes.",
+    "status": "draft"
+  }
+}

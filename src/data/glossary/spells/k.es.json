@@ -1,0 +1,20 @@
+{
+  "spells:keen-edge": {
+    "es": "Filo afilado",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:knock": {
+    "es": "Apertura",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:know-direction": {
+    "es": "Conocer la dirección",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  }
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "id": "far-shot",
+    "name": "Far Shot",
+    "textEn": "You are more accurate at longer ranges.\n\n**Prerequisites**: Point-Blank Shot.\n\n**Benefit**: You only suffer a –1 penalty per full range increment between you and your target when using a ranged weapon.\n\n**Normal**: You suffer a –2 penalty per full range increment between you and your target.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Far%20Shot",
+    "sourceRef": "PRPG Core Rulebook pg. 124",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Point-Blank Shot.",
+      "featIds": [
+        "point-blank-shot"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You only suffer a –1 penalty per full range increment between you and your target when using a ranged weapon.",
+    "normal": "You suffer a –2 penalty per full range increment between you and your target."
+  },
+  {
+    "id": "fleet",
+    "name": "Fleet",
+    "textEn": "You are faster than most.\n\n**Benefit**: While you are wearing light or no armor, your base speed increases by 5 feet. You lose the benefits of this feat if you carry a medium or heavy load.\n\n**Special**: You can take this feat multiple times. The effects stack.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Fleet",
+    "sourceRef": "PRPG Core Rulebook pg. 124",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "While you are wearing light or no armor, your base speed increases by 5 feet. You lose the benefits of this feat if you carry a medium or heavy load.",
+    "special": "You can take this feat multiple times. The effects stack."
+  },
+  {
+    "id": "forge-ring",
+    "name": "Forge Ring",
+    "textEn": "You can create magic rings.\n\n**Prerequisites**: Caster level 7th.\n\n**Benefit**: You can create magic rings. Crafting a ring takes 1 day for each 1,000 gp in its base price. To craft a ring, you must use up raw materials costing half of the base price. See the magic item creation rules in Magic Items for more information.\n\nYou can also mend a broken ring if it is one that you could make. Doing so costs half the raw materials and half the time it would take to forge that ring in the first place.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Forge%20Ring",
+    "sourceRef": "PRPG Core Rulebook pg. 124",
+    "book": "CRB",
+    "types": [
+      "Item Creation"
+    ],
+    "prerequisites": {
+      "raw": "Caster level 7th.",
+      "casterLevel": 7,
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can create magic rings. Crafting a ring takes 1 day for each 1,000 gp in its base price. To craft a ring, you must use up raw materials costing half of the base price. See the magic item creation rules in Magic Items for more information.\n\nYou can also mend a broken ring if it is one that you could make. Doing so costs half the raw materials and half the time it would take to forge that ring in the first place."
+  }
+]

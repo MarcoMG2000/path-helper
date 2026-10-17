@@ -1,0 +1,10 @@
+{
+  "zone-of-silence": {
+    "summaryEs": "Manipulas el sonido para que tú y quienes estén en el área conversen con normalidad, pero nadie fuera oiga voces ni ruidos del interior, incluidos efectos sónicos o basados en el lenguaje. Está centrado en ti y se mueve contigo. Una prueba de Lingüística CD 20 para leer labios aún revela lo dicho.",
+    "status": "draft"
+  },
+  "zone-of-truth": {
+    "summaryEs": "Las criaturas dentro del área de emanación (o que entren) no pueden decir mentiras deliberadas. Cada criatura potencialmente afectada tiene una salvación al lanzarse el conjuro o al entrar. Las afectadas saben del hechizo y pueden evitar responder o ser evasivas. Quienes salen hablan libremente.",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "keen-edge": {
+    "summaryEs": "Hace que un arma sea mágicamente afilada y duplica su rango de amenaza: 20 pasa a 19–20, 19–20 a 17–20 y 18–20 a 15–20. Solo puede lanzarse sobre armas perforantes o cortantes. En flechas o virotes termina tras un uso; los shuriken se tratan como flechas. No funciona en armas naturales.",
+    "status": "draft"
+  },
+  "knock": {
+    "summaryEs": "Abre puertas atascadas, atrancadas o cerradas con llave, o sujetas a mantener portal o cerradura arcana. Haz una prueba de nivel de lanzador contra la CD de la cerradura con +10; si tiene éxito, abre hasta dos medios de cierre. Abre puertas secretas y cofres cerrados, y afloja grilletes o cadenas.",
+    "status": "draft"
+  },
+  "know-direction": {
+    "summaryEs": "Al lanzarlo conoces al instante la dirección del norte desde tu posición. Funciona donde exista el norte, pero puede no funcionar en entornos extraplanares. Es correcto al lanzarlo; puedes volver a perderte en poco tiempo si no tienes un punto de referencia.",
+    "status": "draft"
+  }
+}

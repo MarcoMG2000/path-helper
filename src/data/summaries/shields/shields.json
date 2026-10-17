@@ -1,0 +1,26 @@
+{
+  "buckler": {
+    "summaryEs": "Escudo: +1 a la CA, Des máx sin límite, penalizador de armadura -1, fallo de conjuro arcano 5%. Coste 5 gp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "heavy-steel-shield": {
+    "summaryEs": "Escudo: +2 a la CA, Des máx sin límite, penalizador de armadura -2, fallo de conjuro arcano 15%. Coste 20 gp, peso 15 lbs.",
+    "status": "draft"
+  },
+  "heavy-wooden-shield": {
+    "summaryEs": "Escudo: +2 a la CA, Des máx sin límite, penalizador de armadura -2, fallo de conjuro arcano 15%. Coste 7 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "light-steel-shield": {
+    "summaryEs": "Escudo: +1 a la CA, Des máx sin límite, penalizador de armadura -1, fallo de conjuro arcano 5%. Coste 9 gp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "light-wooden-shield": {
+    "summaryEs": "Escudo: +1 a la CA, Des máx sin límite, penalizador de armadura -1, fallo de conjuro arcano 5%. Coste 3 gp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "tower-shield": {
+    "summaryEs": "Escudo: +4 a la CA, Des máx +2, penalizador de armadura -10, fallo de conjuro arcano 50%. Coste 30 gp, peso 45 lbs.",
+    "status": "draft"
+  }
+}

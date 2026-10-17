@@ -1,0 +1,145 @@
+{
+  "source": "specs/f3-srd-data/design.md §14.8 (valores a confirmar contra la página de origen; comprobados el 2026-10-17 contra AoN)",
+  "entries": {
+    "keen": {
+      "kind": "weapon-ability",
+      "bonusEquivalent": 1,
+      "legalFor": {
+        "range": "melee",
+        "damageTypes": ["P", "S"]
+      },
+      "aura": "moderate transmutation",
+      "casterLevel": 10,
+      "sourceRef": "PRPG Core Rulebook pg. 469",
+      "reprintedInContains": "Ultimate Equipment"
+    },
+    "seeking": {
+      "kind": "weapon-ability",
+      "bonusEquivalent": 1,
+      "legalFor": {
+        "range": "ranged"
+      },
+      "casterLevel": 12
+    },
+    "flaming": {
+      "kind": "weapon-ability",
+      "extraDamage": [
+        {
+          "dice": "1d6",
+          "damageType": "fire",
+          "trigger": "always"
+        }
+      ]
+    },
+    "flame-tongue": {
+      "kind": "specific-weapon",
+      "baseItemId": "longsword",
+      "enhancement": {
+        "on": "weapon",
+        "bonus": 1
+      },
+      "abilityIds": ["flaming-burst"],
+      "specAbilityIds": ["flaming", "flaming-burst"],
+      "discrepancy": "El golden del spec lista `flaming` y `flaming-burst`; la fuente dice «This is a +1 flaming burst longsword» (una sola habilidad: flaming burst, que ya funciona como flaming). Se conserva el dato de la fuente y se anota aquí; el golden no se corrige."
+    }
+  },
+  "priced": {
+    "ring-of-protection": {
+      "variants": {
+        "plus-1": 200000,
+        "plus-2": 800000,
+        "plus-3": 1800000,
+        "plus-4": 3200000,
+        "plus-5": 5000000
+      },
+      "effect": {
+        "target": "ac",
+        "bonusType": "deflection"
+      },
+      "formulaCpPerBonusSquared": 200000
+    },
+    "cloak-of-resistance": {
+      "variants": {
+        "plus-1": 100000,
+        "plus-2": 400000,
+        "plus-3": 900000,
+        "plus-4": 1600000,
+        "plus-5": 2500000
+      },
+      "effect": {
+        "target": "save.all",
+        "bonusType": "resistance"
+      },
+      "formulaCpPerBonusSquared": 100000
+    },
+    "belt-of-giant-strength": {
+      "variants": {
+        "plus-2": 400000,
+        "plus-4": 1600000,
+        "plus-6": 3600000
+      },
+      "effect": {
+        "target": "ability.str",
+        "bonusType": "enhancement"
+      }
+    },
+    "amulet-of-natural-armor": {
+      "variants": {
+        "plus-1": 200000,
+        "plus-2": 800000,
+        "plus-3": 1800000,
+        "plus-4": 3200000,
+        "plus-5": 5000000
+      },
+      "effect": {
+        "target": "ac",
+        "bonusType": "enhancement",
+        "foldInto": "naturalArmor"
+      }
+    },
+    "bracers-of-armor": {
+      "variants": {
+        "plus-1": 100000,
+        "plus-2": 400000,
+        "plus-3": 900000,
+        "plus-4": 1600000,
+        "plus-5": 2500000,
+        "plus-6": 3600000,
+        "plus-7": 4900000,
+        "plus-8": 6400000
+      },
+      "effect": {
+        "target": "ac",
+        "bonusType": "armor"
+      }
+    }
+  },
+  "enhancementPrices": {
+    "magic-armor": [100000, 400000, 900000, 1600000, 2500000],
+    "magic-weapons": [200000, 800000, 1800000, 3200000, 5000000]
+  },
+  "potionAndWand": {
+    "note": "Pendiente de Q11: no hay entradas `potion`/`wand` (no existen páginas en la fuente). Los precios 50 gp (poción de cure light wounds) y 750 gp (varita) del golden salen de las tablas «Potion Costs» y «Wand Costs» dentro de las secciones general `potions` y `wands`.",
+    "textContains": {
+      "potions": "| 1st | 50 gp |",
+      "wands": "| 1st | 750 gp |"
+    }
+  },
+  "counts": {
+    "armor-ability": 17,
+    "shield-ability": 14,
+    "weapon-ability": 30,
+    "specific-armor": 12,
+    "specific-shield": 8,
+    "specific-weapon": 30,
+    "ring": 34,
+    "rod": 24,
+    "staff": 21,
+    "wondrous": 190,
+    "cursed": 29,
+    "artifact": 12,
+    "general": 21
+  },
+  "pendingKinds": ["potion", "oil", "wand"],
+  "emptyKinds": ["intelligent"]
+}

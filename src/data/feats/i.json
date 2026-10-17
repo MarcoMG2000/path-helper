@@ -1,0 +1,503 @@
+[
+  {
+    "id": "improved-bull-rush",
+    "name": "Improved Bull Rush",
+    "textEn": "You are skilled at pushing your foes around.\n\n**Prerequisites**: Str 13, Power Attack, base attack bonus +1.\n\n**Benefit**: You do not provoke an attack of opportunity when performing a bull rush combat maneuver. In addition, you receive a +2 bonus on checks made to bull rush a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to bull rush you.\n\n**Normal**: You provoke an attack of opportunity when performing a bull rush combat maneuver.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Bull%20Rush",
+    "sourceRef": "PRPG Core Rulebook pg. 126",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Str 13, Power Attack, base attack bonus +1.",
+      "abilities": {
+        "str": 13
+      },
+      "bab": 1,
+      "featIds": [
+        "power-attack"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You do not provoke an attack of opportunity when performing a bull rush combat maneuver. In addition, you receive a +2 bonus on checks made to bull rush a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to bull rush you.",
+    "normal": "You provoke an attack of opportunity when performing a bull rush combat maneuver."
+  },
+  {
+    "id": "improved-channel",
+    "name": "Improved Channel",
+    "textEn": "Your channeled energy is harder to resist.\n\n**Prerequisites**: Channel energy class feature.\n\n**Benefit**: Add 2 to the DC of saving throws made to resist the effects of your channel energy ability.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Channel",
+    "sourceRef": "PRPG Core Rulebook pg. 126",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Channel energy class feature.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Channel energy class feature"
+      ]
+    },
+    "benefit": "Add 2 to the DC of saving throws made to resist the effects of your channel energy ability."
+  },
+  {
+    "id": "improved-counterspell",
+    "name": "Improved Counterspell",
+    "textEn": "You are skilled at countering the spells of others using similar spells.\n\n**Benefit**: When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.\n\n**Normal**: Without this feat, you may counter a spell only with the same spell or with a spell specifically designated as countering the target spell.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Counterspell",
+    "sourceRef": "PRPG Core Rulebook pg. 126",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.",
+    "normal": "Without this feat, you may counter a spell only with the same spell or with a spell specifically designated as countering the target spell."
+  },
+  {
+    "id": "improved-critical",
+    "name": "Improved Critical",
+    "textEn": "Attacks made with your chosen weapon are quite deadly.\n\n**Prerequisites**: Proficient with weapon, base attack bonus +8.\n\n**Benefit**: When using the weapon you selected, your threat range is doubled.\n\n**Special**: You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn't stack with any other effect that expands the threat range of a weapon.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Critical",
+    "sourceRef": "PRPG Core Rulebook pg. 127",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Proficient with weapon, base attack bonus +8.",
+      "bab": 8,
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Proficient with weapon"
+      ]
+    },
+    "benefit": "When using the weapon you selected, your threat range is doubled.",
+    "special": "You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn't stack with any other effect that expands the threat range of a weapon."
+  },
+  {
+    "id": "improved-disarm",
+    "name": "Improved Disarm",
+    "textEn": "You are skilled at knocking weapons from a foe's grasp.\n\n**Prerequisites**: Int 13, Combat Expertise.\n\n**Benefit**: You do not provoke an attack of opportunity when performing a disarm combat maneuver. In addition, you receive a +2 bonus on checks made to disarm a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to disarm you.\n\n**Normal**: You provoke an attack of opportunity when performing a disarm combat maneuver.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Disarm",
+    "sourceRef": "PRPG Core Rulebook pg. 127",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Int 13, Combat Expertise.",
+      "abilities": {
+        "int": 13
+      },
+      "featIds": [
+        "combat-expertise"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You do not provoke an attack of opportunity when performing a disarm combat maneuver. In addition, you receive a +2 bonus on checks made to disarm a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to disarm you.",
+    "normal": "You provoke an attack of opportunity when performing a disarm combat maneuver."
+  },
+  {
+    "id": "improved-familiar",
+    "name": "Improved Familiar",
+    "textEn": "This feat allows you to acquire a powerful familiar, but only when you could normally acquire a new familiar.\n\n**Prerequisites**: Ability to acquire a new familiar, compatible alignment, sufficiently high level (see below).\n\n**Benefit**: When choosing a familiar, the creatures listed below are also available to you. You may choose a familiar with an alignment up to one step away on each alignment axis (lawful through chaotic, good through evil).\n\nYou can find the full list of available Improved Familiars here.\n\nImproved familiars otherwise use the rules for regular familiars, with two exceptions: if the creature's type is something other than animal, its type does not change; and improved familiars do not gain the ability to speak with other creatures of their kind (although many of them already have the ability to communicate).",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Familiar",
+    "sourceRef": "PRPG Core Rulebook pg. 127",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Ability to acquire a new familiar, compatible alignment, sufficiently high level (see below).",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Ability to acquire a new familiar",
+        "compatible alignment",
+        "sufficiently high level (see below)"
+      ]
+    },
+    "benefit": "When choosing a familiar, the creatures listed below are also available to you. You may choose a familiar with an alignment up to one step away on each alignment axis (lawful through chaotic, good through evil).\n\nYou can find the full list of available Improved Familiars here.\n\nImproved familiars otherwise use the rules for regular familiars, with two exceptions: if the creature's type is something other than animal, its type does not change; and improved familiars do not gain the ability to speak with other creatures of their kind (although many of them already have the ability to communicate)."
+  },
+  {
+    "id": "improved-feint",
+    "name": "Improved Feint",
+    "textEn": "You are skilled at fooling your opponents in combat.\n\n**Prerequisites**: Int 13, Combat Expertise.\n\n**Benefit**: You can make a Bluff check to feint in combat as a move action.\n\n**Normal**: Feinting in combat is a standard action.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Feint",
+    "sourceRef": "PRPG Core Rulebook pg. 127",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Int 13, Combat Expertise.",
+      "abilities": {
+        "int": 13
+      },
+      "featIds": [
+        "combat-expertise"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can make a Bluff check to feint in combat as a move action.",
+    "normal": "Feinting in combat is a standard action."
+  },
+  {
+    "id": "improved-grapple",
+    "name": "Improved Grapple",
+    "textEn": "You are skilled at grappling opponents.\n\n**Prerequisites**: Dex 13, Improved Unarmed Strike.\n\n**Benefit**: You do not provoke an attack of opportunity when performing a grapple combat maneuver. In addition, you receive a +2 bonus on checks made to grapple a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to grapple you.\n\n**Normal**: You provoke an attack of opportunity when performing a grapple combat maneuver.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Grapple",
+    "sourceRef": "PRPG Core Rulebook pg. 127",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 13, Improved Unarmed Strike.",
+      "abilities": {
+        "dex": 13
+      },
+      "featIds": [
+        "improved-unarmed-strike"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You do not provoke an attack of opportunity when performing a grapple combat maneuver. In addition, you receive a +2 bonus on checks made to grapple a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to grapple you.",
+    "normal": "You provoke an attack of opportunity when performing a grapple combat maneuver."
+  },
+  {
+    "id": "improved-great-fortitude",
+    "name": "Improved Great Fortitude",
+    "textEn": "You can draw upon an inner reserve to resist diseases, poisons, and other grievous harm.\n\n**Prerequisites**: Great Fortitude.\n\n**Benefit**: Once per day, you may reroll a Fortitude save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Great%20Fortitude",
+    "sourceRef": "PRPG Core Rulebook pg. 127",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Great Fortitude.",
+      "featIds": [
+        "great-fortitude"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Once per day, you may reroll a Fortitude save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse."
+  },
+  {
+    "id": "improved-initiative",
+    "name": "Improved Initiative",
+    "textEn": "Your quick reflexes allow you to react rapidly to danger.\n\n**Benefit**: You get a +4 bonus on initiative checks.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Initiative",
+    "sourceRef": "PRPG Core Rulebook pg. 127",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You get a +4 bonus on initiative checks."
+  },
+  {
+    "id": "improved-iron-will",
+    "name": "Improved Iron Will",
+    "textEn": "Your clarity of thought allows you to resist mental attacks.\n\n**Prerequisites**: Iron Will.\n\n**Benefit**: Once per day, you may reroll a Will save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Iron%20Will",
+    "sourceRef": "PRPG Core Rulebook pg. 127",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Iron Will.",
+      "featIds": [
+        "iron-will"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Once per day, you may reroll a Will save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse."
+  },
+  {
+    "id": "improved-lightning-reflexes",
+    "name": "Improved Lightning Reflexes",
+    "textEn": "You have a knack for avoiding danger all around you.\n\n**Prerequisites**: Lightning Reflexes.\n\n**Benefit**: Once per day, you may reroll a Reflex save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Lightning%20Reflexes",
+    "sourceRef": "PRPG Core Rulebook pg. 127",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Lightning Reflexes.",
+      "featIds": [
+        "lightning-reflexes"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Once per day, you may reroll a Reflex save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse."
+  },
+  {
+    "id": "improved-overrun",
+    "name": "Improved Overrun",
+    "textEn": "You are skilled at running down your foes.\n\n**Prerequisites**: Str 13, Power Attack, base attack bonus +1.\n\n**Benefit**: You do not provoke an attack of opportunity when performing an overrun combat maneuver. In addition, you receive a +2 bonus on checks made to overrrun a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to overrun you. Targets of your overrun attempt may not chose to avoid you.\n\n**Normal**: You provoke an attack of opportunity when performing an overrun combat maneuver.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Overrun",
+    "sourceRef": "PRPG Core Rulebook pg. 127",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Str 13, Power Attack, base attack bonus +1.",
+      "abilities": {
+        "str": 13
+      },
+      "bab": 1,
+      "featIds": [
+        "power-attack"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You do not provoke an attack of opportunity when performing an overrun combat maneuver. In addition, you receive a +2 bonus on checks made to overrrun a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to overrun you. Targets of your overrun attempt may not chose to avoid you.",
+    "normal": "You provoke an attack of opportunity when performing an overrun combat maneuver."
+  },
+  {
+    "id": "improved-precise-shot",
+    "name": "Improved Precise Shot",
+    "textEn": "Your ranged attacks ignore anything but total concealment and cover.\n\n**Prerequisites**: Dex 19, Point-Blank Shot, Precise Shot, base attack bonus +11.\n\n**Benefit**: Your ranged attacks ignore the AC bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks.\n\n**Normal**: See the normal rules on the effects of cover and concealment in Combat.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Precise%20Shot",
+    "sourceRef": "PRPG Core Rulebook pg. 128",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 19, Point-Blank Shot, Precise Shot, base attack bonus +11.",
+      "abilities": {
+        "dex": 19
+      },
+      "bab": 11,
+      "featIds": [
+        "point-blank-shot",
+        "precise-shot"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Your ranged attacks ignore the AC bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks.",
+    "normal": "See the normal rules on the effects of cover and concealment in Combat."
+  },
+  {
+    "id": "improved-shield-bash",
+    "name": "Improved Shield Bash",
+    "textEn": "You can protect yourself with your shield, even if you use it to attack.\n\n**Prerequisites**: Shield Proficiency.\n\n**Benefit**: When you perform a shield bash, you may still apply the shield's shield bonus to your AC.\n\n**Normal**: Without this feat, a character that performs a shield bash loses the shield's shield bonus to AC until his next turn (see Equipment).",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Shield%20Bash",
+    "sourceRef": "PRPG Core Rulebook pg. 128",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Shield Proficiency.",
+      "featIds": [
+        "shield-proficiency"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "When you perform a shield bash, you may still apply the shield's shield bonus to your AC.",
+    "normal": "Without this feat, a character that performs a shield bash loses the shield's shield bonus to AC until his next turn (see Equipment)."
+  },
+  {
+    "id": "improved-sunder",
+    "name": "Improved Sunder",
+    "textEn": "You are skilled at damaging your foes' weapons and armor.\n\n**Prerequisites**: Str 13, Power Attack, base attack bonus +1.\n\n**Benefit**: You do not provoke an attack of opportunity when performing a sunder combat maneuver. In addition, you receive a +2 bonus on checks made to sunder an item. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to sunder your gear.\n\n**Normal**: You provoke an attack of opportunity when performing a sunder combat maneuver.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Sunder",
+    "sourceRef": "PRPG Core Rulebook pg. 128",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Str 13, Power Attack, base attack bonus +1.",
+      "abilities": {
+        "str": 13
+      },
+      "bab": 1,
+      "featIds": [
+        "power-attack"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You do not provoke an attack of opportunity when performing a sunder combat maneuver. In addition, you receive a +2 bonus on checks made to sunder an item. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to sunder your gear.",
+    "normal": "You provoke an attack of opportunity when performing a sunder combat maneuver."
+  },
+  {
+    "id": "improved-trip",
+    "name": "Improved Trip",
+    "textEn": "You are skilled at sending your opponents to the ground.\n\n**Prerequisites**: Int 13, Combat Expertise.\n\n**Benefit**: You do not provoke an attack of opportunity when performing a trip combat maneuver. In addition, you receive a +2 bonus on checks made to trip a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to trip you.\n\n**Normal**: You provoke an attack of opportunity when performing a trip combat maneuver.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Trip",
+    "sourceRef": "PRPG Core Rulebook pg. 128",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Int 13, Combat Expertise.",
+      "abilities": {
+        "int": 13
+      },
+      "featIds": [
+        "combat-expertise"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You do not provoke an attack of opportunity when performing a trip combat maneuver. In addition, you receive a +2 bonus on checks made to trip a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to trip you.",
+    "normal": "You provoke an attack of opportunity when performing a trip combat maneuver."
+  },
+  {
+    "id": "improved-two-weapon-fighting",
+    "name": "Improved Two-Weapon Fighting",
+    "textEn": "You are skilled at fighting with two weapons.\n\n**Prerequisites**: Dex 17, Two-Weapon Fighting, base attack bonus +6.\n\n**Benefit**: In addition to the standard single extra attack you get with an off-hand weapon, you get a second attack with it, albeit at a –5 penalty.\n\n**Normal**: Without this feat, you can only get a single extra attack with an off-hand weapon.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Two-Weapon%20Fighting",
+    "sourceRef": "PRPG Core Rulebook pg. 128",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 17, Two-Weapon Fighting, base attack bonus +6.",
+      "abilities": {
+        "dex": 17
+      },
+      "bab": 6,
+      "featIds": [
+        "two-weapon-fighting"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "In addition to the standard single extra attack you get with an off-hand weapon, you get a second attack with it, albeit at a –5 penalty.",
+    "normal": "Without this feat, you can only get a single extra attack with an off-hand weapon."
+  },
+  {
+    "id": "improved-unarmed-strike",
+    "name": "Improved Unarmed Strike",
+    "textEn": "You are skilled at fighting while unarmed.\n\n**Benefit**: You are considered to be armed even when unarmed—you do not provoke attacks of opportunity when you attack foes while unarmed. Your unarmed strikes can deal lethal or nonlethal damage, at your choice.\n\n**Normal**: Without this feat, you are considered unarmed when attacking with an unarmed strike, and you can deal only nonlethal damage with such an attack.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike",
+    "sourceRef": "PRPG Core Rulebook pg. 128",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You are considered to be armed even when unarmed—you do not provoke attacks of opportunity when you attack foes while unarmed. Your unarmed strikes can deal lethal or nonlethal damage, at your choice.",
+    "normal": "Without this feat, you are considered unarmed when attacking with an unarmed strike, and you can deal only nonlethal damage with such an attack."
+  },
+  {
+    "id": "improved-vital-strike",
+    "name": "Improved Vital Strike",
+    "textEn": "You can make a single attack that deals a large amount of damage.\n\n**Prerequisites**: Vital Strike, base attack bonus +11.\n\n**Benefit**: When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack three times and add the results together before adding bonuses from Strength, weapon abilities (such as *flaming*), precision-based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improved%20Vital%20Strike",
+    "sourceRef": "PRPG Core Rulebook pg. 128",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Vital Strike, base attack bonus +11.",
+      "bab": 11,
+      "featIds": [
+        "vital-strike"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack three times and add the results together before adding bonuses from Strength, weapon abilities (such as *flaming*), precision-based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total."
+  },
+  {
+    "id": "improvised-weapon-mastery",
+    "name": "Improvised Weapon Mastery",
+    "textEn": "You can turn nearly any object into a deadly weapon, from a razor-sharp chair leg to a sack of flour.\n\n**Prerequisites**: Catch Off-Guard or Throw Anything, base attack bonus +8.\n\n**Benefit**: You do not suffer any penalties for using an improvised weapon. Increase the amount of damage dealt by the improvised weapon by one step (for example, 1d4 becomes 1d6) to a maximum of 1d8 (2d6 if the improvised weapon is two-handed). The improvised weapon has a critical threat range of 19–20, with a critical multiplier of ×2.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Improvised%20Weapon%20Mastery",
+    "sourceRef": "PRPG Core Rulebook pg. 128",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Catch Off-Guard or Throw Anything, base attack bonus +8.",
+      "bab": 8,
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "Catch Off-Guard or Throw Anything"
+      ]
+    },
+    "benefit": "You do not suffer any penalties for using an improvised weapon. Increase the amount of damage dealt by the improvised weapon by one step (for example, 1d4 becomes 1d6) to a maximum of 1d8 (2d6 if the improvised weapon is two-handed). The improvised weapon has a critical threat range of 19–20, with a critical multiplier of ×2."
+  },
+  {
+    "id": "intimidating-prowess",
+    "name": "Intimidating Prowess",
+    "textEn": "Your physical might is intimidating to others.\n\n**Benefit**: Add your Strength modifier to Intimidate skill checks in addition to your Charisma modifier.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Intimidating%20Prowess",
+    "sourceRef": "PRPG Core Rulebook pg. 128",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Add your Strength modifier to Intimidate skill checks in addition to your Charisma modifier."
+  },
+  {
+    "id": "iron-will",
+    "name": "Iron Will",
+    "textEn": "You are more resistant to mental effects.\n\n**Benefit**: You get a +2 bonus on all Will saving throws.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Iron%20Will",
+    "sourceRef": "PRPG Core Rulebook pg. 129",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You get a +2 bonus on all Will saving throws."
+  }
+]

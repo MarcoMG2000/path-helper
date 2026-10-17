@@ -1,0 +1,1773 @@
+[
+  {
+    "id": "hallow",
+    "name": "Hallow",
+    "textEn": "*Hallow* makes a particular site, building, or structure a holy site. This has four major effects.\n\nFirst, the site is warded by a *magic circle against evil* effect.\n\nSecond, the DC to resist positive channeled energy within this area gains a +4 sacred bonus and the DC to resist negative energy is reduced by 4. Spell resistance does not apply to this effect. This provision does not apply to the druid version of the spell.\n\nThird, any dead body interred in a *hallowed* site cannot be turned into an undead creature.\n\nFinally, you can fix a single spell effect to the *hallowed* site. The spell effect lasts for 1 year and functions throughout the entire site, regardless of the normal duration and area or effect. You may designate whether the effect applies to all creatures, creatures who share your faith or alignment, or creatures who adhere to another faith or alignment. At the end of the year, the chosen effect lapses, but it can be renewed or replaced simply by casting *hallow* again.\n\nSpell effects that may be tied to a *hallowed* site include *aid*, *bane*, *bless*, *cause fear*, *darkness*, *daylight*, *death ward*, *deeper darkness*, *detect evil*, *detect magic*, *dimensional anchor*, *discern lies*, *dispel magic*, *endure elements*, *freedom of movement*, *invisibility purge*, *protection from energy*, *remove fear*, *resist energy*, *silence*, *tongues*, and *zone of truth*. Saving throws and spell resistance might apply to these spells' effects. (See the individual spell descriptions for details.)\n\nAn area can receive only one *hallow* spell (and its associated spell effect) at a time. *Hallow* counters but does not dispel *unhallow*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hallow",
+    "sourceRef": "PRPG Core Rulebook pg. 293",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "good"
+    ],
+    "levels": {
+      "cleric": 5,
+      "druid": 5
+    },
+    "castingTime": {
+      "raw": "24 hours",
+      "unit": "hour",
+      "amount": 24
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M (herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of he spell to be included in the *hallowed* area), DF",
+      "details": {
+        "material": "herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of he spell to be included in the *hallowed* area"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "40-ft. radius emanating from the touched point"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "see text",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Designates location as holy."
+  },
+  {
+    "id": "hallucinatory-terrain",
+    "name": "Hallucinatory Terrain",
+    "textEn": "You make natural terrain look, sound, and smell like some other sort of natural terrain. Structures, equipment, and creatures within the area are not hidden or changed in appearance.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hallucinatory Terrain",
+    "sourceRef": "PRPG Core Rulebook pg. 293",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "glamer",
+    "descriptors": [],
+    "levels": {
+      "bard": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a stone, a twig, and a green leaf)",
+      "details": {
+        "material": "a stone, a twig, and a green leaf"
+      }
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "one 30-ft. cube/level (S)"
+      }
+    ],
+    "duration": {
+      "raw": "2 hours/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 2,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will disbelief (if interacted with)",
+      "kind": "will",
+      "effect": "disbelief",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Makes one type of terrain appear like another (field as forest, or the like)."
+  },
+  {
+    "id": "halt-undead",
+    "name": "Halt Undead",
+    "textEn": "This spell renders as many as three undead creatures immobile. A nonintelligent undead creature gets no saving throw; an intelligent undead creature does. If the spell is successful, it renders the undead creature immobile for the duration of the spell (similar to the effect of *hold person* on a living creature). The effect is broken if the *halted* creatures are attacked or take damage.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Halt Undead",
+    "sourceRef": "PRPG Core Rulebook pg. 293",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a pinch of sulfur and powdered garlic)",
+      "details": {
+        "material": "a pinch of sulfur and powdered garlic"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "up to three undead creatures, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (see text)",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Immobilizes undead for 1 round/level."
+  },
+  {
+    "id": "harm",
+    "name": "Harm",
+    "textEn": "*Harm* charges a subject with negative energy that deals 10 points of damage per caster level (to a maximum of 150 points at 15th level). If the creature successfully saves, *harm* deals half this amount. *Harm* cannot reduce the target's hit points to less than 1.\n\nIf used on an undead creature, *harm* acts like *heal*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Harm",
+    "sourceRef": "PRPG Core Rulebook pg. 293",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will half; see text",
+      "kind": "will",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Deals 10 points/level damage to target."
+  },
+  {
+    "id": "haste",
+    "name": "Haste",
+    "textEn": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\n\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a *speed* weapon, nor does it actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round.)\n\nA hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses.\n\nAll of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed. Multiple *haste* effects don't stack. *Haste* dispels and counters *slow*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Haste",
+    "sourceRef": "PRPG Core Rulebook pg. 293",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "bard": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a shaving of licorice root)",
+      "details": {
+        "material": "a shaving of licorice root"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Fortitude negates (harmless)",
+      "kind": "fortitude",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "One creature/level moves faster, receives +1 on attack rolls, AC, and Reflex saves."
+  },
+  {
+    "id": "heal",
+    "name": "Heal",
+    "textEn": "*Heal* enables you to channel positive energy into a creature to wipe away injury and afflictions. It immediately ends any and all of the following adverse conditions affecting the target: ability damage, blinded, confused, dazed, dazzled, deafened, diseased, exhausted, fatigued, feebleminded, insanity, nauseated, poisoned, sickened, and stunned. It also cures 10 hit points of damage per level of the caster, to a maximum of 150 points at 15th level.\n\n*Heal* does not remove negative levels or restore permanently drained ability score points.\n\nIf used against an undead creature, *heal* instead acts like *harm*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Heal",
+    "sourceRef": "PRPG Core Rulebook pg. 294",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "cleric": 6,
+      "druid": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Cures 10 points/level damage, all diseases and mental conditions."
+  },
+  {
+    "id": "heal-mass",
+    "name": "Heal, Mass",
+    "textEn": "This spell functions like *heal*, except as noted above. The maximum number of hit points restored to each creature is 250.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Heal, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 294",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "cleric": 9
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one or more creatures, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "As heal, but affects 1 subject/level."
+  },
+  {
+    "id": "heal-mount",
+    "name": "Heal Mount",
+    "textEn": "This spell functions like *heal*, but it affects only the paladin's special mount (typically a horse).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Heal Mount",
+    "sourceRef": "PRPG Core Rulebook pg. 294",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "paladin": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "your mount touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "As heal on horse or other special mount."
+  },
+  {
+    "id": "heat-metal",
+    "name": "Heat Metal",
+    "textEn": "*Heat metal* causes metal objects to become red-hot. Unattended, nonmagical metal gets no saving throw. Magical metal is allowed a saving throw against the spell. An item in a creature's possession uses the creature's saving throw bonus unless its own is higher.\n\nA creature takes fire damage if its equipment is heated. It takes full damage if its armor, shield, or weapon is affected. The creature takes minimum damage (1 point or 2 points; see the table) if it's not wearing or wielding such an item.\n\nOn the first round of the spell, the metal becomes warm and uncomfortable to touch but deals no damage. The same effect also occurs on the last round of the spell's duration. During the second (and also the next-to-last) round, intense heat causes pain and damage. In the third, fourth, and fifth rounds, the metal is searing hot, and causes more damage, as shown on the table below.\n\n| **Round** | **Metal Temperature** | **Damage** |\n| --- | --- | --- |\n| 1 | Warm | None |\n| 2 | Hot | 1d4 points |\n| 3-5 | Searing | 2d4 points |\n| 6 | Hot | 1d4 points |\n| 7 | Warm | None |\n\nAny cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, *heat metal* deals half damage and boils the surrounding water.\n\n*Heat metal* counters and dispels *chill metal*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Heat Metal",
+    "sourceRef": "PRPG Core Rulebook pg. 294",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [
+      "fire"
+    ],
+    "levels": {
+      "druid": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart, or 25 lbs. of metal/level, all of which must be within a 30-ft. circle"
+      }
+    ],
+    "duration": {
+      "raw": "7 rounds",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 7,
+      "unit": "round",
+      "perLevel": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (object)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (object)",
+      "applies": "yes",
+      "harmless": false,
+      "object": true
+    },
+    "shortDescriptionEn": "Makes metal so hot it damages those who touch it."
+  },
+  {
+    "id": "helping-hand",
+    "name": "Helping Hand",
+    "textEn": "You create the ghostly image of a hand, which you can send to find a creature within 5 miles. The hand then beckons to that creature and leads it to you if the creature is willing to follow.\n\nWhen the spell is cast, you specify a person (or any creature) by physical description, which can include race, gender, and appearance but not ambiguous factors such as level, alignment, or class. When the description is done, the hand streaks off in search of a subject that fits the description. The amount of time it takes to find the subject depends on how far away he is, as detailed on the following table.\n\n| **Distance** | **Time to Locate** |\n| --- | --- |\n| 100 ft. or less | 1 round |\n| 1,000 ft. | 1 minute |\n| 1 mile | 10 minutes |\n| 2 miles | 1 hour |\n| 3 miles | 2 hours |\n| 4 miles | 3 hours |\n| 5 miles | 4 hours |\n\nOnce the hand locates the subject, it beckons the creature to follow it. If the subject does so, the hand points in your direction, indicating the most direct, feasible route. The hand hovers 10 feet in front of the subject, moving before it at a speed of as much as 240 feet per round. Once the hand leads the subject back to you, it disappears.\n\nThe subject is not compelled to follow the hand or act in any particular way toward you. If the subject chooses not to follow, the hand continues to beckon for the duration of the spell, then disappears. If the spell expires while the subject is en route to you, the hand disappears; the subject must then rely on its own devices to locate you.\n\nIf more than one subject in a 5-mile radius meets the description, the hand locates the closest creature. If that creature refuses to follow the hand, the hand does not seek out a second subject.\n\nIf, at the end of 4 hours of searching, the hand has found no subject that matches the description within 5 miles, it returns to you, displays an outstretched palm (indicating that no such creature was found), and disappears.\n\nThe ghostly hand has no physical form. It is invisible to anyone except you and a potential subject. It cannot engage in combat or execute any other task aside from locating a subject and leading it back to you. The hand can't pass through solid objects but can ooze through small cracks and slits. The hand cannot travel more than 5 miles from the spot it appeared when you cast the spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Helping Hand",
+    "sourceRef": "PRPG Core Rulebook pg. 295",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "5 miles",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "ghostly hand"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Ghostly hand leads subject to you."
+  },
+  {
+    "id": "heroes-feast",
+    "name": "Heroes' Feast",
+    "textEn": "You bring forth a great feast, including a magnificent table, chairs, service, and food and drink. The feast takes 1 hour to consume, and the beneficial effects do not set in until this hour is over. Every creature partaking of the feast is cured of all sickness and nausea, receives the benefits of both *neutralize poison* and *remove disease*, and gains 1d8 temporary hit points + 1 point per two caster levels (maximum +10) after imbibing the nectar-like beverage that is part of the feast. The ambrosial food grants each creature that partakes a +1 morale bonus on attack rolls and Will saves and a +4 morale bonus on saving throws against poison and fear effects for 12 hours.\n\nIf the feast is interrupted for any reason, the spell is ruined and all effects of the spell are negated.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Heroes' Feast",
+    "sourceRef": "PRPG Core Rulebook pg. 295",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "creation",
+    "descriptors": [],
+    "levels": {
+      "bard": 6,
+      "cleric": 6
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "feast for one creature/level"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour plus 12 hours; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Food for one creature/level cures and grants combat bonuses."
+  },
+  {
+    "id": "heroism",
+    "name": "Heroism",
+    "textEn": "This spell imbues a single creature with great bravery and morale in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill checks.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Heroism",
+    "sourceRef": "PRPG Core Rulebook pg. 295",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 2,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Gives +2 on attack rolls, saves, skill checks."
+  },
+  {
+    "id": "heroism-greater",
+    "name": "Heroism, Greater",
+    "textEn": "This spell functions like *heroism*, except the creature gains a +4 morale bonus on attack rolls, saves, and skill checks, immunity to fear effects, and temporary hit points equal to your caster level (maximum 20).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Heroism, Greater",
+    "sourceRef": "PRPG Core Rulebook pg. 295",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 5,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp."
+  },
+  {
+    "id": "hide-from-animals",
+    "name": "Hide from Animals",
+    "textEn": "Animals cannot sense the warded creatures. Even extraordinary or supernatural sensory capabilities, such as blindsense, blindsight, scent, and tremorsense, cannot detect or locate warded creatures. Animals simply act as though the warded creatures are not there. If a warded character touches an animal or attacks any creature, even with a spell, the spell ends for all recipients.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hide from Animals",
+    "sourceRef": "PRPG Core Rulebook pg. 296",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "druid": 1,
+      "ranger": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": false,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature touched/level"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Animals can't perceive one subject/level."
+  },
+  {
+    "id": "hide-from-undead",
+    "name": "Hide from Undead",
+    "textEn": "Undead cannot see, hear, or smell creatures warded by this spell. Even extraordinary or supernatural sensory capabilities, such as blindsense, blindsight, scent, and tremorsense, cannot detect or locate warded creatures. Nonintelligent undead creatures (such as skeletons or zombies) are automatically affected and act as though the warded creatures are not there. An intelligent undead creature gets a single Will saving throw. If it fails, the subject can't see any of the warded creatures. If it has reason to believe unseen opponents are present, however, it can attempt to find or strike them. If a warded creature attempts to channel positive energy, turn or command undead, touches an undead creature, or attacks any creature (even with a spell), the spell ends for all recipients.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hide from Undead",
+    "sourceRef": "PRPG Core Rulebook pg. 296",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "cleric": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one touched creature/level"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless); see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Undead can't perceive one subject/level."
+  },
+  {
+    "id": "hideous-laughter",
+    "name": "Hideous Laughter",
+    "textEn": "This spell afflicts the subject with uncontrollable laughter. It collapses into gales of manic laughter, falling prone. The subject can take no actions while laughing, but is not considered helpless. After the spell ends, it can act normally. On the creature's next turn, it may attempt a new saving throw to end the effect. This is a full round action that does not provoke attacks of opportunity. If this save is successful, the effect ends. If not, the creature continues laughing for the entire duration.\n\nA creature with an Intelligence score of 2 or lower is not affected. A creature whose type is different from the caster's receives a +4 bonus on its saving throw, because humor doesn't “translate” well.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hideous Laughter",
+    "sourceRef": "PRPG Core Rulebook pg. 296",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 1,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (tiny fruit tarts and a feather)",
+      "details": {
+        "material": "tiny fruit tarts and a feather"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature; see text"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Subject loses actions for 1 round/ level."
+  },
+  {
+    "id": "hold-animal",
+    "name": "Hold Animal",
+    "textEn": "This spell functions like *hold person*, except that it affects an animal instead of a humanoid.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hold Animal",
+    "sourceRef": "PRPG Core Rulebook pg. 296",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "druid": 2,
+      "ranger": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one animal"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D); see text",
+      "kind": "other",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Will negates; see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Paralyzes one animal for 1 round/level."
+  },
+  {
+    "id": "hold-monster",
+    "name": "Hold Monster",
+    "textEn": "This spell functions like *hold person*, except that it affects any living creature that fails its Will save.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hold Monster",
+    "sourceRef": "PRPG Core Rulebook pg. 296",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 4,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (one hard metal bar or rod, which can be as small as a three-penny nail)",
+      "details": {
+        "material": "one hard metal bar or rod, which can be as small as a three-penny nail"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D); see text",
+      "kind": "other",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Will negates; see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As hold person, but any creature."
+  },
+  {
+    "id": "hold-monster-mass",
+    "name": "Hold Monster, Mass",
+    "textEn": "This spell functions like *hold person*, except that it affects multiple creatures and holds any living creature that fails its Will save.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hold Monster, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 296",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (one hard metal bar or rod, which can be as small as a three-penny nail)",
+      "details": {
+        "material": "one hard metal bar or rod, which can be as small as a three-penny nail"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one or more creatures, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D); see text",
+      "kind": "other",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Will negates; see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As hold monster, but all within 30 ft."
+  },
+  {
+    "id": "hold-person",
+    "name": "Hold Person",
+    "textEn": "The subject becomes paralyzed and freezes in place. It is aware and breathes normally but cannot take any actions, even speech. Each round on its turn, the subject may attempt a new saving throw to end the effect. This is a full-round action that does not provoke attacks of opportunity. A winged creature who is paralyzed cannot flap its wings and falls. A swimmer can't swim and may drown.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hold Person",
+    "sourceRef": "PRPG Core Rulebook pg. 296",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 2,
+      "cleric": 2,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, F/DF (a small, straight piece of iron)",
+      "details": {
+        "focus": "a small, straight piece of iron"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one humanoid creature"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D); see text",
+      "kind": "other",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Will negates; see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Paralyzes one humanoid for 1 round/level."
+  },
+  {
+    "id": "hold-person-mass",
+    "name": "Hold Person, Mass",
+    "textEn": "This spell functions like *hold person*, except as noted above.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hold Person, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 296",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, F/DF (a small, straight piece of iron)",
+      "details": {
+        "focus": "a small, straight piece of iron"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one or more humanoid creatures, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D); see text",
+      "kind": "other",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Will negates; see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As hold person, but all within 30 ft."
+  },
+  {
+    "id": "hold-portal",
+    "name": "Hold Portal",
+    "textEn": "This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A *knock* spell or a successful *dispel magic* spell can negate a *hold portal* spell.\n\nAdd 5 to the normal DC for forcing open a portal affected by this spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hold Portal",
+    "sourceRef": "PRPG Core Rulebook pg. 297",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one portal, up to 20 sq. ft./level"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Holds door shut."
+  },
+  {
+    "id": "holy-aura",
+    "name": "Holy Aura",
+    "textEn": "A brilliant divine radiance surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by evil creatures, and causing evil creatures to become blinded when they strike the subjects. This abjuration has four effects.\n\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike *protection from evil*, this benefit applies against all attacks, not just against attacks by evil creatures.\n\nSecond, each warded creature gains spell resistance 25 against evil spells and spells cast by evil creatures.\n\nThird, the abjuration protects the recipient from possession and mental influence, just as *protection from evil* does.\n\nFinally, if an evil creature succeeds on a melee attack against a creature warded by a *holy aura*, the offending attacker is blinded (Fortitude save negates, as *blindness/deafness*, but against *holy aura's* save DC).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Holy Aura",
+    "sourceRef": "PRPG Core Rulebook pg. 297",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [
+      "good"
+    ],
+    "levels": {
+      "cleric": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, F (a tiny reliquary worth 500 gp)",
+      "details": {
+        "focus": "a tiny reliquary worth 500 gp"
+      }
+    },
+    "range": {
+      "raw": "20 ft.",
+      "kind": "fixed",
+      "fixedFt": 20
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level in a 20-ft.-radius burst centered on you"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "+4 to AC, +4 resistance, and SR 25 against evil spells."
+  },
+  {
+    "id": "holy-smite",
+    "name": "Holy Smite",
+    "textEn": "You draw down holy power to smite your enemies. Only evil and neutral creatures are harmed by the spell; good creatures are unaffected.\n\nThe spell deals 1d8 points of damage per two caster levels (maximum 5d8) to each evil creature in the area (or 1d6 points of damage per caster level, maximum 10d6, to an evil outsider) and causes it to become blinded for 1 round. A successful Will saving throw reduces damage to half and negates the blinded effect.\n\nThe spell deals only half damage to creatures who are neither good nor evil, and they are not blinded. Such a creature can reduce that damage by half (down to one-quarter of the roll) with a successful Will save.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Holy Smite",
+    "sourceRef": "PRPG Core Rulebook pg. 297",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "good"
+    ],
+    "levels": {
+      "cleric": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "20-ft.-radius burst"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous (1 round); see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will partial; see text",
+      "kind": "will",
+      "effect": "partial",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Harms and possibly blinds evil creatures (1d8 damage/2 levels)."
+  },
+  {
+    "id": "holy-sword",
+    "name": "Holy Sword",
+    "textEn": "This spell allows you to channel holy power into your sword, or any other melee weapon you choose. The weapon acts as a *+5 holy weapon* (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against evil opponents). It also emits a *magic circle against evil* effect (as the spell). If the *magic circle* ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one *holy sword* at a time.\n\nIf this spell is cast on a magic weapon, the powers of the spell supercede any that the weapon normally has, rendering the normal enhancement bonus and powers of the weapon inoperative for the duration of the spell. This spell is not cumulative with *bless weapon* or any other spell that might modify the weapon in any way. This spell does not work on artifacts. A masterwork weapon's bonus to attack does not stack with an enhancement bonus to attack.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Holy Sword",
+    "sourceRef": "PRPG Core Rulebook pg. 297",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "good"
+    ],
+    "levels": {
+      "paladin": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "melee weapon touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Weapon becomes +5, deals +2d6 damage against evil."
+  },
+  {
+    "id": "holy-word",
+    "name": "Holy Word",
+    "textEn": "Any nongood creature within the area of a *holy word* spell suffers the following ill effects.\n\n| **HD** | **Effect** |\n| --- | --- |\n| Equal to caster level | Deafened |\n| Up to caster level -1 | Blinded, deafened |\n| Up to caster level -5 | Paralyzed, blinded, deafened |\n| Up to caster level -10 | Killed, paralyzed, blinded, deafened |\n\nThe effects are cumulative and concurrent. A successful Will save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.\n\n*Deafened*: The creature is deafened for 1d4 rounds. Save negates.\n\n*Blinded*: The creature is blinded for 2d4 rounds. Save reduces the blinded effect to 1d4 rounds.\n\n*Paralyzed*: The creature is paralyzed and helpless for 1d10 minutes. Save reduces the paralyzed effect to 1 round.\n\n*Killed*: Living creatures die. Undead creatures are destroyed. Save negates. If the save is successful, the creature instead takes 3d6 points of damage + 1 point per caster level (maximum +25).\n\nFurthermore, if you are on your home plane when you cast this spell, nongood extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the *holy word* or not. The banishment effect allows a Will save (at a –4 penalty) to negate.\n\nCreatures whose HD exceed your caster level are unaffected by *holy word*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Holy Word",
+    "sourceRef": "PRPG Core Rulebook pg. 297",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "good",
+      "sonic"
+    ],
+    "levels": {
+      "cleric": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "40 ft.",
+      "kind": "fixed",
+      "fixedFt": 40
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "nongood creatures in a 40-ft.-radius spread centered on you"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will partial",
+      "kind": "will",
+      "effect": "partial",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Kills, paralyzes, blinds, or deafens nongood subjects."
+  },
+  {
+    "id": "horrid-wilting",
+    "name": "Horrid Wilting",
+    "textEn": "This spell evaporates moisture from the body of each subject living creature, causing flesh to wither and crack and crumble to dust. This deals 1d6 points of damage per caster level (maximum 20d6). This spell is especially devastating to water elementals and plant creatures, which instead take 1d8 points of damage per caster level (maximum 20d8).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Horrid Wilting",
+    "sourceRef": "PRPG Core Rulebook pg. 298",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (a bit of sponge)",
+      "details": {
+        "material": "a bit of sponge"
+      }
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "living creatures, no two of which can be more than 60 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Fortitude half",
+      "kind": "fortitude",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Deals 1d6/level damage within 30 ft."
+  },
+  {
+    "id": "hypnotic-pattern",
+    "name": "Hypnotic Pattern",
+    "textEn": "A twisting pattern of subtle, shifting colors weaves through the air, fascinating creatures within it. Roll 2d4 and add your caster level (maximum 10) to determine the total number of HD of creatures affected. Creatures with the fewest HD are affected first; and, among creatures with equal HD, those who are closest to the spell's point of origin are affected first. HD that are not sufficient to affect a creature are wasted. Affected creatures become fascinated by the pattern of colors. Sightless creatures are not affected.\n\nA wizard or sorcerer need not utter a sound to cast this spell, but a bard must perform as a verbal component.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hypnotic Pattern",
+    "sourceRef": "PRPG Core Rulebook pg. 298",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "pattern",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V (bard only), S, M (a stick of incense or a crystal rod); see text",
+      "details": {
+        "material": "a stick of incense or a crystal rod"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "colorful lights in a 10-ft.-radius spread"
+      }
+    ],
+    "duration": {
+      "raw": "concentration + 2 rounds",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Fascinates (2d4 + level) HD of creatures."
+  },
+  {
+    "id": "hypnotism",
+    "name": "Hypnotism",
+    "textEn": "Your gestures and droning incantation fascinate nearby creatures, causing them to stop and stare blankly at you. In addition, you can use their rapt attention to make your suggestions and requests seem more plausible. Roll 2d4 to see how many total HD of creatures you affect. Creatures with fewer HD are affected before creatures with more HD. Only creatures that can see or hear you are affected, but they do not need to understand you to be fascinated.\n\nIf you use this spell in combat, each target gains a +2 bonus on its saving throw. If the spell affects only a single creature not in combat at the time, the saving throw has a penalty of –2.\n\nWhile the subject is fascinated by this spell, it reacts as though it were two steps more friendly in attitude. This allows you to make a single request of the affected creature (provided you can communicate with it). The request must be brief and reasonable. Even after the spell ends, the creature retains its new attitude toward you, but only with respect to that particular request.\n\nA creature that fails its saving throw does not remember that you enspelled it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Hypnotism",
+    "sourceRef": "PRPG Core Rulebook pg. 298",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 round",
+      "unit": "round",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "several living creatures, no two of which may be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "2d4 rounds (D)",
+      "kind": "other",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Fascinates 2d4 HD of creatures."
+  }
+]

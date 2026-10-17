@@ -1,0 +1,82 @@
+{
+  "classes": [
+    "Class Skills",
+    "Class Features",
+    "Ex-Barbarians",
+    "Ex-Clerics",
+    "Ex-Druids",
+    "Ex-Paladins"
+  ],
+  "class-features": [
+    "Class Skills",
+    "Class Features",
+    "Ex-Barbarians",
+    "Ex-Clerics",
+    "Ex-Druids",
+    "Ex-Paladins",
+    "Rogue Talents",
+    "Advanced Rogue Talents",
+    "Sneak Attack Talents",
+    "Other Talents",
+    "Barbarian Rage Powers",
+    "Offensive Rage Powers",
+    "Defensive Rage Powers",
+    "Miscellaneous Rage Powers",
+    "3rd-Level Mercies",
+    "6th-Level Mercies",
+    "9th-Level Mercies",
+    "12th-Level Mercies",
+    "Mercies",
+    "Ranger Combat Styles"
+  ],
+  "domains": [],
+  "races": [
+    "Racial Traits",
+    "Subraces",
+    "Alternate Racial Trait",
+    "Alternate Racial Traits",
+    "Favored Class Options"
+  ],
+  "skills": [
+    "Directing Crowds"
+  ],
+  "feats": [
+    "Source",
+    "Prerequisites",
+    "Prerequisite",
+    "Benefit",
+    "Normal",
+    "Special",
+    "Leadership Modifiers"
+  ],
+  "spells": [
+    "Casting",
+    "Effect",
+    "Description"
+  ],
+  "spell-lists": [],
+  "weapons": [
+    "Statistics",
+    "Description",
+    "Table 3-17: Siege Tower Complement"
+  ],
+  "armor": [
+    "Statistics",
+    "Description"
+  ],
+  "shields": [
+    "Statistics",
+    "Description"
+  ],
+  "gear": [
+    "Statistics",
+    "Description",
+    "Alchemical Recipe"
+  ],
+  "magic-items": [
+    "Description",
+    "Construction",
+    "Resonance",
+    "Destruction"
+  ]
+}

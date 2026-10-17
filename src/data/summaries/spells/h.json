@@ -1,0 +1,118 @@
+{
+  "hallow": {
+    "summaryEs": "Convierte un lugar en sagrado con cuatro efectos: lo protege un círculo mágico contra el mal; la CD para resistir energía positiva canalizada gana +4 y la de energía negativa baja 4; los cadáveres enterrados no pueden volverse muertos vivientes; y puedes fijar un efecto de conjuro durante 1 año.",
+    "status": "draft"
+  },
+  "hallucinatory-terrain": {
+    "summaryEs": "Haces que un terreno natural parezca, suene y huela como otro tipo de terreno natural. Las estructuras, el equipo y las criaturas del área no quedan ocultos ni cambian de aspecto.",
+    "status": "draft"
+  },
+  "halt-undead": {
+    "summaryEs": "Inmoviliza hasta tres muertos vivientes: uno sin inteligencia no tiene salvación y uno inteligente sí. Si tiene éxito, queda inmóvil mientras dure el conjuro (similar a retener persona sobre una criatura viva); el efecto se rompe si los detenidos son atacados o sufren daño.",
+    "status": "draft"
+  },
+  "harm": {
+    "summaryEs": "Carga al sujeto de energía negativa que inflige 10 puntos de daño por nivel de lanzador (máximo 150 al nivel 15); si salva, solo la mitad. No puede reducir sus puntos de golpe a menos de 1. Usado sobre un muerto viviente, actúa como curar.",
+    "status": "draft"
+  },
+  "haste": {
+    "summaryEs": "Las criaturas transmutadas actúan más deprisa: al hacer un ataque completo pueden hacer un ataque extra con un arma, con su ataque base completo (sin acción adicional). Obtienen también +1 a las tiradas de ataque y un bonificador de esquiva de +1 a la CA y a las salvaciones de Reflejos.",
+    "status": "draft"
+  },
+  "heal": {
+    "summaryEs": "Canalizas energía positiva en una criatura: termina de inmediato daño de característica, ceguera, confusión, sordera, enfermedad, agotamiento, fatiga, náuseas, envenenamiento y otras aflicciones, y cura 10 puntos de daño por nivel de lanzador (máximo 150). No quita niveles negativos.",
+    "status": "draft"
+  },
+  "heal-mass": {
+    "summaryEs": "Funciona como curar, salvo lo indicado antes. El máximo de puntos de golpe restaurados a cada criatura es 250.",
+    "status": "draft"
+  },
+  "heal-mount": {
+    "summaryEs": "Funciona como curar, pero solo afecta a la montura especial del paladín (normalmente un caballo).",
+    "status": "draft"
+  },
+  "heat-metal": {
+    "summaryEs": "Pone al rojo los objetos metálicos. El metal no mágico sin vigilar no tiene salvación; el mágico sí, y uno en poder de una criatura usa su bonificador de salvación si es mayor. La criatura sufre daño de fuego si su equipo se calienta, completo si afecta a armadura, escudo o arma; sigue una tabla.",
+    "status": "draft"
+  },
+  "helping-hand": {
+    "summaryEs": "Creas la imagen fantasmal de una mano que envías a encontrar a una criatura a menos de 5 millas; le hace señas y la guía hasta ti si quiere seguirla. Describes a la criatura por su aspecto físico (no por nivel, alineamiento o clase); el tiempo para hallarla depende de la distancia, según la tabla.",
+    "status": "draft"
+  },
+  "heroes-feast": {
+    "summaryEs": "Creas un gran festín con mesa, sillas, comida y bebida; consumirlo lleva 1 hora. Quien participa cura toda enfermedad y náusea, recibe neutralizar veneno y eliminar enfermedad, gana 1d8 puntos de golpe temporales + 1 por cada dos niveles (máximo +10) y bonificadores de moral durante 12 horas.",
+    "status": "draft"
+  },
+  "heroism": {
+    "summaryEs": "Infunde a una sola criatura gran valentía y moral en combate: el objetivo obtiene un bonificador de moral de +2 a las tiradas de ataque, las salvaciones y las pruebas de habilidad.",
+    "status": "draft"
+  },
+  "heroism-greater": {
+    "summaryEs": "Funciona como heroísmo, pero la criatura obtiene un bonificador de moral de +4 a las tiradas de ataque, las salvaciones y las pruebas de habilidad, inmunidad a efectos de miedo y puntos de golpe temporales iguales a tu nivel de lanzador (máximo 20).",
+    "status": "draft"
+  },
+  "hide-from-animals": {
+    "summaryEs": "Los animales no perciben a las criaturas protegidas, ni siquiera con sentidos extraordinarios o sobrenaturales como sentido ciego, vista ciega, olfato o sentido de temblor; actúan como si no estuvieran. Si una criatura protegida toca a un animal o ataca a cualquiera, el conjuro termina para todos.",
+    "status": "draft"
+  },
+  "hide-from-undead": {
+    "summaryEs": "Los muertos vivientes no pueden ver, oír ni oler a las criaturas protegidas, ni siquiera con sentidos extraordinarios o sobrenaturales. Los no inteligentes quedan afectados automáticamente; uno inteligente tiene una salvación de Voluntad. El conjuro termina para todos si un protegido ataca.",
+    "status": "draft"
+  },
+  "hideous-laughter": {
+    "summaryEs": "Aflige al sujeto con risa incontrolable: cae al suelo en carcajadas y no puede actuar mientras ríe, aunque no está indefenso. En su siguiente turno puede repetir la salvación para acabar con el efecto. No afecta a Inteligencia 2 o menos; un tipo distinto al del lanzador obtiene +4 a la salvación.",
+    "status": "draft"
+  },
+  "hold-animal": {
+    "summaryEs": "Funciona como retener persona, pero afecta a un animal en lugar de a un humanoide.",
+    "status": "draft"
+  },
+  "hold-monster": {
+    "summaryEs": "Funciona como retener persona, pero afecta a cualquier criatura viva que falle su salvación de Voluntad.",
+    "status": "draft"
+  },
+  "hold-monster-mass": {
+    "summaryEs": "Funciona como retener persona, pero afecta a varias criaturas y retiene a cualquier criatura viva que falle su salvación de Voluntad.",
+    "status": "draft"
+  },
+  "hold-person": {
+    "summaryEs": "El sujeto queda paralizado e inmóvil: es consciente y respira, pero no puede realizar ninguna acción, ni hablar. Cada asalto, en su turno, puede repetir la salvación para acabar con el efecto. Una criatura alada paralizada no puede batir las alas y cae; un nadador no puede nadar y puede ahogarse.",
+    "status": "draft"
+  },
+  "hold-person-mass": {
+    "summaryEs": "Funciona como retener persona, salvo lo indicado antes.",
+    "status": "draft"
+  },
+  "hold-portal": {
+    "summaryEs": "Mantiene cerrada por medios mágicos una puerta, portón, ventana o postigo de madera, metal o piedra, como si estuviera bien cerrada y con llave. Un conjuro knock o un disipar magia exitoso puede anularlo. Suma 5 a la CD normal para forzar el portal.",
+    "status": "draft"
+  },
+  "holy-aura": {
+    "summaryEs": "Un resplandor divino rodea a los sujetos: +4 de desvío a la CA y +4 de resistencia a las salvaciones contra todos los ataques, RC 25 contra conjuros malignos y de criaturas malignas, y protección contra posesión e influencia mental. Un maligno que los golpee cuerpo a cuerpo queda cegado.",
+    "status": "draft"
+  },
+  "holy-smite": {
+    "summaryEs": "Solo sufren daño criaturas malignas y neutrales: 1d8 por cada dos niveles (máximo 5d8) a cada criatura maligna del área (1d6 por nivel, máximo 10d6, a un ajeno maligno), y quedan cegadas 1 asalto. Voluntad reduce el daño a la mitad y niega la ceguera; las neutrales sufren solo la mitad del daño.",
+    "status": "draft"
+  },
+  "holy-sword": {
+    "summaryEs": "Canalizas poder sagrado en tu espada o en otra arma cuerpo a cuerpo: actúa como arma sagrada +5 (+5 de bonificador de mejora a ataque y daño, 2d6 extra contra oponentes malignos) y emite un círculo mágico contra el mal. El conjuro se cancela 1 asalto después de que el arma salga de tu mano.",
+    "status": "draft"
+  },
+  "holy-word": {
+    "summaryEs": "Toda criatura no buena en el área sufre efectos acumulativos y simultáneos según sus DG respecto a tu nivel de lanzador: ensordecida; cegada y ensordecida; paralizada, cegada y ensordecida; o muerta, paralizada, cegada y ensordecida. Una salvación de Voluntad exitosa reduce o elimina los efectos.",
+    "status": "draft"
+  },
+  "horrid-wilting": {
+    "summaryEs": "Evapora la humedad del cuerpo de cada criatura viva y hace que la carne se seque, se agriete y se deshaga en polvo: inflige 1d6 puntos de daño por nivel de lanzador (máximo 20d6). Es especialmente devastador para elementales de agua y criaturas vegetales, que sufren 1d8 por nivel (máximo 20d8).",
+    "status": "draft"
+  },
+  "hypnotic-pattern": {
+    "summaryEs": "Un patrón retorcido de colores sutiles y cambiantes fascina a las criaturas en su interior: tira 2d4 y suma tu nivel de lanzador (máximo 10) para saber el total de DG afectados; se afecta primero a las de menos DG y, a igualdad, a las más cercanas. Las criaturas sin vista no resultan afectadas.",
+    "status": "draft"
+  },
+  "hypnotism": {
+    "summaryEs": "Tus gestos y una letanía monótona fascinan a las criaturas cercanas; tira 2d4 para ver el total de DG afectados (primero las de menos DG). Solo afecta a quien pueda verte u oírte. En combate, cada objetivo obtiene +2 a su salvación; si es uno solo fuera de combate, –2.",
+    "status": "draft"
+  }
+}

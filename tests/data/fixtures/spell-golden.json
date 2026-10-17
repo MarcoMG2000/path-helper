@@ -1,0 +1,36 @@
+{
+  "_comment": "Valores de referencia de design.md §5 (R20). Solo se comparan claves de nivel CRB: las clases de otro libro (R97) se descartan al importar. Verificados el 2026-10-16 contra las páginas de Archives of Nethys (fixtures de tests/fixtures/srd-html/spells).",
+  "cure-light-wounds": {
+    "name": "Cure Light Wounds",
+    "school": "conjuration",
+    "subschool": "healing",
+    "levels": { "cleric": 1, "bard": 1, "druid": 1, "paladin": 1, "ranger": 2 },
+    "absentLevelKeys": ["sorcerer", "wizard"],
+    "castingTime": { "unit": "standard", "amount": 1 },
+    "savingThrow": { "kind": "will", "effect": "half", "harmless": true },
+    "spellResistance": { "applies": "yes", "harmless": true }
+  },
+  "magic-missile": {
+    "name": "Magic Missile",
+    "school": "evocation",
+    "levels": { "sorcerer": 1, "wizard": 1 },
+    "absentLevelKeys": ["cleric", "bard", "druid", "paladin", "ranger"],
+    "castingTime": { "unit": "standard", "amount": 1 },
+    "savingThrow": { "kind": "none" },
+    "spellResistance": { "applies": "yes" }
+  },
+  "burning-hands": {
+    "name": "Burning Hands",
+    "school": "evocation",
+    "levels": { "sorcerer": 1, "wizard": 1 },
+    "absentLevelKeys": ["cleric", "bard", "druid", "paladin", "ranger"],
+    "domainNames": ["Fire"],
+    "domainsNote": "Pertenencia al dominio de Fuego: se comprueba contra `domains` en el Lote Z (la línea Level no trae dominios)."
+  },
+  "wish": {
+    "name": "Wish",
+    "school": "universal",
+    "levels": { "sorcerer": 9, "wizard": 9 },
+    "components": { "material": true, "rawContains": "25,000 gp" }
+  }
+}

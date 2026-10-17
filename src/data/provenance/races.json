@@ -1,0 +1,57 @@
+{
+  "license": "OGL-1.0a",
+  "category": "races",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://aonprd.com/RacesDisplay.aspx?ItemName=Dwarf",
+      "sha256": "e1842881d773b312ba4eec8d8a2a9af7d34af7771ad193ac3e65e800ec4e793f",
+      "bytes": 203509,
+      "fetchedAt": "2026-10-16T23:31:34.103Z"
+    },
+    {
+      "url": "https://aonprd.com/RacesDisplay.aspx?ItemName=Elf",
+      "sha256": "83c8da6f0f2fcacc536d3de3aa90735fd56036e114937fffb86f38d852446c90",
+      "bytes": 211677,
+      "fetchedAt": "2026-10-16T23:31:34.421Z"
+    },
+    {
+      "url": "https://aonprd.com/RacesDisplay.aspx?ItemName=Gnome",
+      "sha256": "bc3734465478e0852972853b35dcaecb53c08329d76d9372cd79d81255de5a31",
+      "bytes": 196824,
+      "fetchedAt": "2026-10-16T23:31:35.412Z"
+    },
+    {
+      "url": "https://aonprd.com/RacesDisplay.aspx?ItemName=Half-Elf",
+      "sha256": "4648451e676d0af77bf90803806f31cdda4419c5fb69ee1bc1ca4f5488e9c00f",
+      "bytes": 197980,
+      "fetchedAt": "2026-10-16T23:31:36.447Z"
+    },
+    {
+      "url": "https://aonprd.com/RacesDisplay.aspx?ItemName=Half-Orc",
+      "sha256": "07c8fc24b6a8380cac03b2f6e79b53da606d49f64040c8e43c223f9f959c837f",
+      "bytes": 205143,
+      "fetchedAt": "2026-10-16T23:31:38.416Z"
+    },
+    {
+      "url": "https://aonprd.com/RacesDisplay.aspx?ItemName=Halfling",
+      "sha256": "ffcf82e44b808a995b6287453f4200d6ad6d8eb22d4e93c9d0ae6a40f8d0e708",
+      "bytes": 179272,
+      "fetchedAt": "2026-10-16T23:31:37.415Z"
+    },
+    {
+      "url": "https://aonprd.com/RacesDisplay.aspx?ItemName=Human",
+      "sha256": "d98c2cd944ad0a17ec569a54f04b62d93b9ee6d54d1072a4ab9c871f3f869194",
+      "bytes": 176819,
+      "fetchedAt": "2026-10-16T23:31:39.412Z"
+    },
+    {
+      "url": "https://aonprd.com/SourceDisplay.aspx?FixedSource=PRPG Core Rulebook",
+      "sha256": "94461065d4d1448c610be1f56161a6f1f6af9d825d8c1a1bdfd0d81f46f83599",
+      "bytes": 374126,
+      "fetchedAt": "2026-10-16T14:04:46.083Z"
+    }
+  ],
+  "expectedCount": 7
+}

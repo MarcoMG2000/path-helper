@@ -1,0 +1,9 @@
+{
+  "druid": { "hitDie": 8, "ranks": 4, "bab": "threeQuarters", "fort": "good", "ref": "poor", "will": "good" },
+  "rogue": { "hitDie": 8, "ranks": 8, "bab": "threeQuarters", "fort": "poor", "ref": "good", "will": "poor" },
+  "ranger": { "hitDie": 10, "ranks": 6, "bab": "full", "fort": "good", "ref": "good", "will": "poor" },
+  "barbarian": { "hitDie": 12, "ranks": 4, "bab": "full", "fort": "good", "ref": "poor", "will": "poor" },
+  "paladin": { "hitDie": 10, "ranks": 2, "bab": "full", "fort": "good", "ref": "poor", "will": "good" },
+  "bard": { "hitDie": 8, "ranks": 6, "bab": "threeQuarters", "fort": "poor", "ref": "good", "will": "good" },
+  "cleric": { "hitDie": 8, "ranks": 2, "bab": "threeQuarters", "fort": "good", "ref": "poor", "will": "good" }
+}

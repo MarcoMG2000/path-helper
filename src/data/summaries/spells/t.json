@@ -1,0 +1,98 @@
+{
+  "telekinesis": {
+    "summaryEs": "Mueves objetos o criaturas concentrándote, con tres versiones: fuerza sostenida (hasta 25 libras por nivel, máximo 375, 20 pies por asalto), maniobra de combate (embestida, desarme, presa o derribo) o empujón violento (un objeto o criatura por nivel, máximo 15).",
+    "status": "draft"
+  },
+  "telekinetic-sphere": {
+    "summaryEs": "Funciona como resilient sphere, pero lo contenido pesa solo una dieciseisava parte. Puedes levantar telequinéticamente hasta 5,000 libras y mover la esfera hasta 30 pies por asalto concentrándote, hasta alcance medio (100 pies + 10 pies por nivel). Cae a 60 pies por asalto sin dañar el contenido.",
+    "status": "draft"
+  },
+  "telepathic-bond": {
+    "summaryEs": "Forjas un vínculo telepático entre tú y criaturas voluntarias con Inteligencia 3 o más; se comunican a cualquier distancia (no entre planos) sin importar el idioma. Puedes excluirte. Puede hacerse permanente con permanency, pero solo une a dos criaturas por lanzamiento.",
+    "status": "draft"
+  },
+  "teleport": {
+    "summaryEs": "Te transporta al instante a un destino de hasta 100 millas por nivel de lanzador, sin viaje interplanar. Puedes llevar objetos hasta tu carga máxima y una criatura voluntaria Mediana o menor por cada tres niveles. Según tu familiaridad (tabla d%) llegas, te desvías o sufres un percance.",
+    "status": "draft"
+  },
+  "teleport-greater": {
+    "summaryEs": "Funciona como teleport, salvo que no hay límite de alcance ni probabilidad de desviarte. No necesitas haber visto el destino, pero sí una descripción fiable; con información insuficiente reapareces en tu posición original. No permite viaje interplanar.",
+    "status": "draft"
+  },
+  "teleport-object": {
+    "summaryEs": "Funciona como teleport, salvo que teletransporta un objeto, no a ti. No pueden teletransportarse criaturas ni fuerzas mágicas. El objeto puede enviarse al Plano Etéreo; un dispel magic dirigido al punto de origen lo trae de vuelta.",
+    "status": "draft"
+  },
+  "teleportation-circle": {
+    "summaryEs": "Creas en una superficie horizontal un círculo que teletransporta, como greater teleport, a quien se coloque sobre él a un lugar designado que no puede cambiarse. Es casi imposible de notar. Puede hacerse permanente. Trampa mágica difícil de detectar y neutralizar (CD 34).",
+    "status": "draft"
+  },
+  "temporal-stasis": {
+    "summaryEs": "Con un ataque de toque cuerpo a cuerpo con éxito, pones al sujeto en animación suspendida: el tiempo deja de fluir para él, no envejece y ninguna fuerza o efecto puede dañarlo. Persiste hasta que se elimine la magia (por ejemplo con dispel magic o freedom).",
+    "status": "draft"
+  },
+  "time-stop": {
+    "summaryEs": "Te aceleras tanto que los demás parecen congelados: actúas 1d4+1 asaltos de tiempo aparente. Fuego, frío y gases aún pueden dañarte. Los demás son invulnerables a tus ataques y conjuros, no puedes afectar objetos que lleven otras criaturas y eres indetectable.",
+    "status": "draft"
+  },
+  "tiny-hut": {
+    "summaryEs": "Creas una esfera opaca de fuerza inmóvil alrededor de ti, con sitio para otras nueve criaturas Medianas; si sales, termina. Mantiene 70° F si fuera hace entre 0° y 100° F y resiste vientos menores que un huracán. Es opaca desde fuera y transparente desde dentro.",
+    "status": "draft"
+  },
+  "tongues": {
+    "summaryEs": "El sujeto tocado puede hablar y entender el idioma de cualquier criatura inteligente, ya sea lengua racial o dialecto regional. Solo puede hablar un idioma a la vez y no puede comunicarse con criaturas que no hablan. Puede hacerse permanente con permanency.",
+    "status": "draft"
+  },
+  "touch-of-fatigue": {
+    "summaryEs": "Con un ataque de toque con éxito, canalizas energía negativa y el sujeto queda fatigued durante la duración. No tiene efecto en una criatura ya fatigada. A diferencia de la fatiga normal, el efecto termina en cuanto acaba la duración.",
+    "status": "draft"
+  },
+  "touch-of-idiocy": {
+    "summaryEs": "Con un ataque de toque cuerpo a cuerpo con éxito aplicas un penalizador de 1d6 a Inteligencia, Sabiduría y Carisma del objetivo, sin poder reducirlas por debajo de 1. Puede impedirle lanzar algunos o todos sus conjuros si la característica cae bajo el mínimo requerido.",
+    "status": "draft"
+  },
+  "transformation": {
+    "summaryEs": "Te conviertes en una máquina de combate: +4 de mejora a Fuerza, Destreza y Constitución, +4 de armadura natural, +5 de competencia a Fortaleza y competencia con armas simples y marciales; tu BAB iguala tu nivel de personaje. No puedes lanzar conjuros ni usar objetos mágicos de conjuros.",
+    "status": "draft"
+  },
+  "transmute-metal-to-wood": {
+    "summaryEs": "Cambia a madera los objetos metálicos del área, incluso los de criaturas. Un objeto mágico metálico tiene RC igual a 20 + su nivel de lanzador; los artefactos no se transmutan. Las armas sufren –2 al ataque y daño; la armadura pierde 2. Solo limited wish, miracle o wish lo revierten.",
+    "status": "draft"
+  },
+  "transmute-mud-to-rock": {
+    "summaryEs": "Transforma permanentemente barro o arenas movedizas normales, de cualquier profundidad, en piedra blanda. Las criaturas en el barro tienen una salvación de Reflejos para escapar antes de que se endurezca. Contrarresta y disipa transmute rock to mud.",
+    "status": "draft"
+  },
+  "transmute-rock-to-mud": {
+    "summaryEs": "Convierte roca natural sin trabajar en un volumen igual de barro de hasta 10 pies de profundidad; las criaturas atrapadas se hunden, con velocidad 5 pies y –2 a ataques y CA. En un techo, el derrumbe inflige 8d6 de daño contundente (mitad con Reflejos). Contrarresta y disipa transmute mud to rock.",
+    "status": "draft"
+  },
+  "transport-via-plants": {
+    "summaryEs": "Entras en una planta normal (de tu tamaño o mayor) y pasas a otra del mismo tipo a cualquier distancia en un asalto; deben estar vivas. Puedes llevar objetos hasta tu carga máxima y una criatura voluntaria Mediana o menor por cada tres niveles. No sirve con criaturas vegetales.",
+    "status": "draft"
+  },
+  "trap-the-soul": {
+    "summaryEs": "Fuerza la fuerza vital de una criatura (y su cuerpo) a una gema hasta que se rompa. Se activa por finalización de conjuro (Voluntad y resistencia a conjuros; decir su nombre ignora la resistencia y suma 2 a la CD) o por un objeto desencadenante, que atrapa al sujeto sin salvación.",
+    "status": "draft"
+  },
+  "tree-shape": {
+    "summaryEs": "Adoptas la forma de un árbol o arbusto vivo Grande, o un tronco muerto Grande, sin que ni la inspección más cercana revele la verdad. Puedes observar tu entorno; obtienes +10 de armadura natural, Destreza efectiva 0 y velocidad 0 pies, e inmunidad a críticos. Puedes terminarlo como acción gratuita.",
+    "status": "draft"
+  },
+  "tree-stride": {
+    "summaryEs": "Entras en un árbol y puedes teletransportarte a otro árbol vivo del mismo tipo y al menos tu grosor, dentro de un alcance según el tipo (de 1,000 a 3,000 pies). Puedes entrar en un árbol una vez por nivel de lanzador; cada transporte es una acción de asalto completo.",
+    "status": "draft"
+  },
+  "true-resurrection": {
+    "summaryEs": "Funciona como raise dead, pero resucita a una criatura muerta hace hasta 10 años por nivel de lanzador, incluso con el cuerpo destruido si la identificas inequívocamente. Queda con todos los puntos de golpe, sin niveles negativos y con sus conjuros preparados. No sirve con constructos ni no muertos.",
+    "status": "draft"
+  },
+  "true-seeing": {
+    "summaryEs": "El sujeto ve las cosas tal como son: atraviesa la oscuridad normal y mágica, ve puertas secretas mágicas, criaturas bajo blur o displacement, criaturas invisibles, ilusiones y formas verdaderas, y puede ver el Plano Etéreo. Alcance de 120 pies. No atraviesa objetos sólidos.",
+    "status": "draft"
+  },
+  "true-strike": {
+    "summaryEs": "Obtienes una intuición temporal del futuro inmediato: tu siguiente tirada de ataque (antes del final del siguiente asalto) gana un bonificador de intuición de +20. Además, no te afecta la probabilidad de fallo por camuflaje del objetivo.",
+    "status": "draft"
+  }
+}

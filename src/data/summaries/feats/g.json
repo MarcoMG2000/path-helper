@@ -1,0 +1,74 @@
+{
+  "gorgons-fist": {
+    "summaryEs": "Como acción estándar, un ataque desarmado contra un enemigo con velocidad reducida (p. ej. por Scorpion Style): si impacta, daño normal y queda tambaleante hasta el final de tu próximo turno salvo salvación de Fortitude (CD 10 + 1/2 tu nivel + Sabiduría).",
+    "status": "draft"
+  },
+  "great-cleave": {
+    "summaryEs": "Como acción estándar, atacas a tu máximo bonificador a un enemigo a alcance y, si impactas, continúas con enemigos adyacentes al anterior sin repetir ninguno. Sufres –2 a la CA hasta tu próximo turno.",
+    "status": "draft"
+  },
+  "great-fortitude": {
+    "summaryEs": "+2 a todas las salvaciones de Fortitude.",
+    "status": "draft"
+  },
+  "greater-bull-rush": {
+    "summaryEs": "+2 a las pruebas de embestida (se suma a Improved Bull Rush); el movimiento del embestido provoca ataques de oportunidad de tus aliados (no tuyos).",
+    "status": "draft"
+  },
+  "greater-disarm": {
+    "summaryEs": "+2 a las pruebas de desarmar (se suma a Improved Disarm); el arma desarmada cae a 15 pies de su dueño, en dirección aleatoria.",
+    "status": "draft"
+  },
+  "greater-feint": {
+    "summaryEs": "Quien pierde su bonificador de Destreza por tu finta lo pierde hasta el comienzo de tu próximo turno, además de contra tu siguiente ataque.",
+    "status": "draft"
+  },
+  "greater-grapple": {
+    "summaryEs": "+2 a las pruebas de presa (se suma a Improved Grapple). Mantener la presa es una acción de movimiento y puedes hacer dos pruebas de presa por asalto, bastando superar una.",
+    "status": "draft"
+  },
+  "greater-overrun": {
+    "summaryEs": "+2 a las pruebas de arrollar (se suma a Improved Overrun); los oponentes derribados por tu arrollar provocan ataques de oportunidad.",
+    "status": "draft"
+  },
+  "greater-penetrating-strike": {
+    "summaryEs": "Tus ataques con armas elegidas con Weapon Focus ignoran hasta 10 puntos de reducción de daño (5 si no tiene tipo, como DR 10/—).",
+    "status": "draft"
+  },
+  "greater-shield-focus": {
+    "summaryEs": "Aumentas en 1 la bonificación a la CA de cualquier escudo que uses. Se acumula con Shield Focus.",
+    "status": "draft"
+  },
+  "greater-spell-focus": {
+    "summaryEs": "Sumas +1 a la CD de las salvaciones contra conjuros de la escuela elegida (se acumula con Spell Focus). Se puede tomar varias veces, sin acumularse, para una escuela distinta.",
+    "status": "draft"
+  },
+  "greater-spell-penetration": {
+    "summaryEs": "+2 a las pruebas de nivel de lanzador (1d20 + nivel de lanzador) para superar la resistencia a conjuros; se suma al de Spell Penetration.",
+    "status": "draft"
+  },
+  "greater-sunder": {
+    "summaryEs": "+2 a las pruebas de romper un objeto (se suma a Improved Sunder); al destruir arma, escudo o armadura, el exceso de daño pasa a su portador.",
+    "status": "draft"
+  },
+  "greater-trip": {
+    "summaryEs": "+2 a las pruebas de derribar (se suma a Improved Trip); el oponente derribado provoca ataques de oportunidad.",
+    "status": "draft"
+  },
+  "greater-two-weapon-fighting": {
+    "summaryEs": "Obtienes un tercer ataque con el arma de la mano torpe, con –10.",
+    "status": "draft"
+  },
+  "greater-vital-strike": {
+    "summaryEs": "Con la acción de ataque, haces un ataque a tu máximo bonificador tirando los dados de daño del arma cuatro veces. Los dados extra no se multiplican en crítico.",
+    "status": "draft"
+  },
+  "greater-weapon-focus": {
+    "summaryEs": "+1 a las tiradas de ataque con el arma elegida (se acumula con Weapon Focus). Se puede tomar varias veces, sin acumularse, para un tipo de arma nuevo cada vez.",
+    "status": "draft"
+  },
+  "greater-weapon-specialization": {
+    "summaryEs": "+2 al daño con el arma elegida (se acumula con Weapon Specialization). Se puede tomar varias veces, sin acumularse, para un tipo de arma nuevo cada vez.",
+    "status": "draft"
+  }
+}

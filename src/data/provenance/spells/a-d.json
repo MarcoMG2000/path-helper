@@ -1,0 +1,1044 @@
+{
+  "license": "OGL-1.0a",
+  "category": "spells",
+  "batch": "a-d",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Acid Arrow",
+      "sha256": "23dbeeb6ad98a6883a564f03a1c4f8a22cbfd706c620c988b3a5e8c877d926ab",
+      "bytes": 26641,
+      "fetchedAt": "2026-10-16T18:51:47.353Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Acid Fog",
+      "sha256": "7d0188bef32e8505ef667f24a8ee4ac66ddf43eb6164b8a76bafc4ec0eafe06a",
+      "bytes": 26415,
+      "fetchedAt": "2026-10-16T18:51:47.938Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Acid Splash",
+      "sha256": "5d2eef0885f723aadfb0bb50f19f806b70fdd6e5d40fbdd642fe64de32a35607",
+      "bytes": 25859,
+      "fetchedAt": "2026-10-16T18:51:48.930Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Aid",
+      "sha256": "5f0c72fbce8c912fcbe4aba04638e803a769a325b0358a73ce4eec00acb90d3e",
+      "bytes": 25905,
+      "fetchedAt": "2026-10-16T18:51:50.231Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Air Walk",
+      "sha256": "ba2ae718e0e6e59feb6f53228a5a7ef8e1e2f2015a2371760315bc1ac62506ac",
+      "bytes": 32188,
+      "fetchedAt": "2026-10-16T18:51:50.934Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Alarm",
+      "sha256": "434a0eeb4159d0754aba46df8e826d3186148a35678d3828507eeee235a1f204",
+      "bytes": 38740,
+      "fetchedAt": "2026-10-16T18:51:51.941Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Align Weapon",
+      "sha256": "e7b8f6e198ebcad84710ab0c97e2ae937da8cb91ca9d58f29997753979ed78c5",
+      "bytes": 29442,
+      "fetchedAt": "2026-10-16T18:51:52.931Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Alter Self",
+      "sha256": "bb9910821308ba2a8ddee99c726e8d512219dc44474d28da861f71cc1f7cf8f4",
+      "bytes": 27015,
+      "fetchedAt": "2026-10-16T18:51:53.938Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Analyze Dweomer",
+      "sha256": "e3629dc6cb7a33f3c215a91dddd8b9aacf45e9e8cd33d2c3da81376ff5005c1c",
+      "bytes": 27949,
+      "fetchedAt": "2026-10-16T13:58:11.967Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Animal Growth",
+      "sha256": "d162436070cb8bad31fde83fd958dd1c904db9774451423fdf0641126908cfa7",
+      "bytes": 29551,
+      "fetchedAt": "2026-10-16T18:51:54.927Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Animal Messenger",
+      "sha256": "95d5d8a963dfa82d0779099c4af23493da1c57a5d36e96f4fec06fb77a1a3ce9",
+      "bytes": 29099,
+      "fetchedAt": "2026-10-16T18:51:55.940Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Animal Shapes",
+      "sha256": "f9fbf16cf88ef1a83eca028b8055813220d11d25ee9f1def17624832fc8be570",
+      "bytes": 26766,
+      "fetchedAt": "2026-10-16T18:51:56.929Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Animal Trance",
+      "sha256": "11f8d239a25086fa4b2d018bc9b4ca2fb3cd70d4dd2986e57c61bfc94975b2dc",
+      "bytes": 26728,
+      "fetchedAt": "2026-10-16T18:51:57.936Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Animate Dead",
+      "sha256": "83e5692dc3ce9695290fc47bce11d3714ad71c634851874d2309ac38855fa50a",
+      "bytes": 34973,
+      "fetchedAt": "2026-10-16T13:58:19.977Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Animate Objects",
+      "sha256": "d5e50ef820e8bfa11f18351248b8e5b1848ec8d8f938d209f7332f7531f878c2",
+      "bytes": 28589,
+      "fetchedAt": "2026-10-16T18:51:58.940Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Animate Plants",
+      "sha256": "2ec2fa55dae79d79cfa161c08181237c7f7963dee38105e37fca3559d757c28d",
+      "bytes": 29716,
+      "fetchedAt": "2026-10-16T18:51:59.933Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Animate Rope",
+      "sha256": "d79396ff70c4d28bf00a66a33efb8817ac5524d435c7c14a15b954bddbc63c39",
+      "bytes": 29858,
+      "fetchedAt": "2026-10-16T18:52:00.923Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Antilife Shell",
+      "sha256": "0f0f4790847f31242a7fd87c3ff3bb001abe9a94e1d2374c4b22b5cb94603600",
+      "bytes": 26590,
+      "fetchedAt": "2026-10-16T18:52:01.932Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Antimagic Field",
+      "sha256": "15a761f83c3e73a6e67b1aa477b347dfe18c08c5d09f1d34967602373f8fbcc8",
+      "bytes": 37475,
+      "fetchedAt": "2026-10-16T13:58:41.965Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Antipathy",
+      "sha256": "cb1b6b606ee3325ec712c8bd97586664ad00393a5023e19954e1e75e63a1494c",
+      "bytes": 28425,
+      "fetchedAt": "2026-10-16T18:52:02.930Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Antiplant Shell",
+      "sha256": "6ce3fd369bbbcc610d0446017c4af9ae61c97d7b13831291adf5244fc410134c",
+      "bytes": 25744,
+      "fetchedAt": "2026-10-16T18:52:03.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Arcane Eye",
+      "sha256": "222bf5a8f5c3fc0a8fe7979d928dd8fdf0685fc642703d5a26721cade3f62b4a",
+      "bytes": 32552,
+      "fetchedAt": "2026-10-16T18:52:04.936Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Arcane Lock",
+      "sha256": "a06f30788ea83252f4531cd3576e9685cabfa05a7cd2eb502681d6a61ffc7728",
+      "bytes": 27277,
+      "fetchedAt": "2026-10-16T18:52:05.932Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Arcane Mark",
+      "sha256": "ae6f30727a7f451975fda0068f825d6e3427f9bdfbe21e27440ec15c614cac87",
+      "bytes": 28467,
+      "fetchedAt": "2026-10-16T18:52:06.941Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Arcane Sight",
+      "sha256": "8b45590f2ad0a273aa09ee72d1e128e4994dd352873d37d2a704c799e5fdeaad",
+      "bytes": 31615,
+      "fetchedAt": "2026-10-16T18:52:07.933Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Arcane Sight, Greater",
+      "sha256": "49d2320df482d3ff4c8266b1428b5298c93b2b2777a695d6bec60f3384cb795f",
+      "bytes": 30551,
+      "fetchedAt": "2026-10-16T18:52:08.938Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Astral Projection",
+      "sha256": "6bb40d445a7ddca9248eccd70448eca43579018eec67684e095183c7f5af341d",
+      "bytes": 35494,
+      "fetchedAt": "2026-10-16T18:52:09.937Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Atonement",
+      "sha256": "bcb8967119f1d3d25704b99d42853041f0bc4aee2785ac34c359bebfe486f74b",
+      "bytes": 33167,
+      "fetchedAt": "2026-10-16T18:52:10.927Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Augury",
+      "sha256": "7b9e0ca7ff84d594c60694e098228ee436e94a6dbfc6cea5c566a4deb254b01f",
+      "bytes": 29090,
+      "fetchedAt": "2026-10-16T18:52:11.935Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Awaken",
+      "sha256": "bfea9ed884ea1e03a0b0feb68592ec32d9d651b2d09d01da1a5c1921421f58b1",
+      "bytes": 29102,
+      "fetchedAt": "2026-10-16T18:52:12.930Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Baleful Polymorph",
+      "sha256": "d12281d3976becea68ce14881f9f849b29948a7a605ae2ab7660c91fe9691491",
+      "bytes": 32290,
+      "fetchedAt": "2026-10-16T18:52:13.938Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bane",
+      "sha256": "fb268f4760549de5dad1ec3717f4303f6df75eee694a62b86936848da6cc0a88",
+      "bytes": 27178,
+      "fetchedAt": "2026-10-16T18:52:14.929Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Banishment",
+      "sha256": "767734cad6eaba301d323b908ffde0bce6f2803abc475d3f385f17d6513dc447",
+      "bytes": 27902,
+      "fetchedAt": "2026-10-16T18:52:15.941Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Barkskin",
+      "sha256": "29d9a50d26ae89706013851ff27506ca49c2e498187e880c553540d338d46be3",
+      "bytes": 27738,
+      "fetchedAt": "2026-10-16T18:52:16.926Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bear's Endurance",
+      "sha256": "c14d5de14561a5bb04cafd16b80807a38df637c43622608277eee70ef0dc7d45",
+      "bytes": 29623,
+      "fetchedAt": "2026-10-16T18:52:17.934Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bear's Endurance, Mass",
+      "sha256": "77b58dc08375bb80ae925082496a349a3357e33d4034e488a21d9473822008af",
+      "bytes": 29329,
+      "fetchedAt": "2026-10-16T18:52:18.935Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Beast Shape I",
+      "sha256": "bc62ba64d06a659153b84644c5a0fc07f73743a17da37d4da0a2f98497bb96db",
+      "bytes": 62529,
+      "fetchedAt": "2026-10-16T18:52:19.927Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Beast Shape II",
+      "sha256": "7696a44cbeebd6f9e43f7e733a4e79cab533344585350e5a06705fab7017cf6d",
+      "bytes": 62662,
+      "fetchedAt": "2026-10-16T18:52:20.931Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Beast Shape III",
+      "sha256": "815ec6e846ee52a6c117eea410f687bf3096cdbb21150ed43f298f79f13e4b24",
+      "bytes": 63236,
+      "fetchedAt": "2026-10-16T18:52:21.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Beast Shape IV",
+      "sha256": "77d50343056f25b96b28524579f218a27081e022a105e57299c84725228299ae",
+      "bytes": 63064,
+      "fetchedAt": "2026-10-16T18:52:22.928Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bestow Curse",
+      "sha256": "023aea810f17848724b3369c2fdb5d47421283038dd8a2488dee4178ba46fd5f",
+      "bytes": 38208,
+      "fetchedAt": "2026-10-16T13:58:42.978Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Binding",
+      "sha256": "d4b266ea52a42781b025819b88de5e67d2031efa43389a82b1ff8d3708960cbb",
+      "bytes": 41161,
+      "fetchedAt": "2026-10-16T18:52:23.930Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Black Tentacles",
+      "sha256": "8e73aa9ad647dd7f861c001a98f41a6146ee775e7a5227d384a92e7d84cc5396",
+      "bytes": 37186,
+      "fetchedAt": "2026-10-16T18:52:24.925Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Blade Barrier",
+      "sha256": "243a838c772f44e3e772183a9b152750628505de8c9180f2c29c9ce9c7298808",
+      "bytes": 29333,
+      "fetchedAt": "2026-10-16T18:52:25.933Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Blasphemy",
+      "sha256": "003c2cc6f118a0ba2ced9e59132b6713c0ef7449b580991976e0e98dd399c589",
+      "bytes": 32231,
+      "fetchedAt": "2026-10-16T18:52:26.928Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bleed",
+      "sha256": "42250a18115c7434c086fa3c1653e84e8205a50854643e471b8e490ed0c1d203",
+      "bytes": 26317,
+      "fetchedAt": "2026-10-16T18:52:27.936Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bless",
+      "sha256": "3f42cfe6c448a2c201c5b49a5f00a3d8a6748ed47121a92dc83cc73dc068daad",
+      "bytes": 27186,
+      "fetchedAt": "2026-10-16T13:58:12.972Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bless Water",
+      "sha256": "4fae2b09ef65405a56f3e9fc1e12afa4f806913665c56594252783a25f01bbd8",
+      "bytes": 25464,
+      "fetchedAt": "2026-10-16T18:52:28.928Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bless Weapon",
+      "sha256": "3e0013a1e76aedf0f04307166975dfbaa82aa8943d5b87aa64f6a798d224397f",
+      "bytes": 27715,
+      "fetchedAt": "2026-10-16T18:52:29.932Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Blight",
+      "sha256": "ceaf0e2a2e8971d3132304aa92340db00da9d0484aef57500c5997f94bef010e",
+      "bytes": 26050,
+      "fetchedAt": "2026-10-16T18:52:30.928Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Blindness/Deafness",
+      "sha256": "c720fbab17abb9ad0a83af1606521cb5f50ad32c29994df173499bef1c52a4ff",
+      "bytes": 26439,
+      "fetchedAt": "2026-10-16T13:58:58.345Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Blink",
+      "sha256": "8f4d752e6c14efd92fe460504626e384345c8b92bacea1a23f73beb2df4abea7",
+      "bytes": 35734,
+      "fetchedAt": "2026-10-16T18:52:31.936Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Blur",
+      "sha256": "434e4bdb2c8abc0c27cae2cc7fac8e04f69fdb76358aac733b2f03b0236eab6a",
+      "bytes": 26698,
+      "fetchedAt": "2026-10-16T18:52:32.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Break Enchantment",
+      "sha256": "726fae5fa17691c69f9a66578f26fba38850e5e3133ae3012d9ed27a57099d3c",
+      "bytes": 29784,
+      "fetchedAt": "2026-10-16T18:52:33.931Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Breath of Life",
+      "sha256": "f7dfc920b7bd9085ac4fe668ccc281cbeb3de209910954440ecea419a2fa9d7d",
+      "bytes": 30410,
+      "fetchedAt": "2026-10-16T18:52:34.934Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bull's Strength",
+      "sha256": "26bf59f2eab4c3fd4f3c2949ca0f08cfe3bdb7d3fa66dd95e3f4d13a62e03ca6",
+      "bytes": 28851,
+      "fetchedAt": "2026-10-16T18:52:35.930Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bull's Strength, Mass",
+      "sha256": "6c2b8948d624b2d3ef5d60599a0657e81595b4a3a4ea3ca62412beb68d877fb5",
+      "bytes": 28672,
+      "fetchedAt": "2026-10-16T18:52:36.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Burning Hands",
+      "sha256": "f33a88e377916c0a82df53cea9b614646fe4dba64a9cf5281e78bc8471285777",
+      "bytes": 26801,
+      "fetchedAt": "2026-10-16T13:58:08.975Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Call Lightning",
+      "sha256": "937e591a6f8a3221a0f358510ccc9bf9dc2d9c4f8522daa6c166d452722102ba",
+      "bytes": 32642,
+      "fetchedAt": "2026-10-16T18:52:37.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Call Lightning Storm",
+      "sha256": "2215116380be97378d8b0719e68817ffc836c17fc2511862ecdf306f52187217",
+      "bytes": 31750,
+      "fetchedAt": "2026-10-16T18:52:38.933Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Calm Animals",
+      "sha256": "1c35cbda881e5bfa554d99442500b75e72c0b8a34b52b793cf3c5667ec6f89aa",
+      "bytes": 27094,
+      "fetchedAt": "2026-10-16T18:52:39.933Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Calm Emotions",
+      "sha256": "d06d3fb30cf99e315163e376f9dc9adc95e2ebf7a4652fce3288bd51a3268687",
+      "bytes": 29020,
+      "fetchedAt": "2026-10-16T18:52:40.926Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cat's Grace",
+      "sha256": "e71b6c1358424fc961f089b649b1ecf72c44b0027abf60564e96e01a0e1aba05",
+      "bytes": 28545,
+      "fetchedAt": "2026-10-16T18:52:41.935Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cat's Grace, Mass",
+      "sha256": "8b4608891e773af0324fea828828a9705e55c7ab1a3deb287e1c5a0151dcb459",
+      "bytes": 28445,
+      "fetchedAt": "2026-10-16T18:52:42.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cause Fear",
+      "sha256": "06af3764ad8ef9f9d6adc0228d2f1d7db482bea56e4345686794521d6480fbff",
+      "bytes": 26538,
+      "fetchedAt": "2026-10-16T18:52:43.935Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Chain Lightning",
+      "sha256": "16724931ba45b8b8a9d6da4bf9f0e9f679ae0e775f3ab68bd3d5b48304e110e0",
+      "bytes": 29681,
+      "fetchedAt": "2026-10-16T18:52:45.178Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Changestaff",
+      "sha256": "22130b2b88572937a4e01aa4edc84d1d0269672c49fd50c07866312c0200b419",
+      "bytes": 28932,
+      "fetchedAt": "2026-10-16T18:52:45.933Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Chaos Hammer",
+      "sha256": "72026171e40df4633041e1711accdc1bdfe9c312fc8c8f8f2595e072f7b1297f",
+      "bytes": 28839,
+      "fetchedAt": "2026-10-16T18:52:46.937Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Charm Animal",
+      "sha256": "92c3555c4d43e82fa034adcf190340effd0396e890f6e433457e640fc91eaeca",
+      "bytes": 25403,
+      "fetchedAt": "2026-10-16T18:52:47.930Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Charm Monster",
+      "sha256": "cdb0f44fe7ebda21288d20550dc7c340438f4d5105019ff51f189b715ed82c7a",
+      "bytes": 29067,
+      "fetchedAt": "2026-10-16T18:52:48.928Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Charm Monster, Mass",
+      "sha256": "5244593cd424e9c503c297dd50f30599aa6fb6d75cc31efb4f732e1f156ea876",
+      "bytes": 29336,
+      "fetchedAt": "2026-10-16T18:52:49.927Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Charm Person",
+      "sha256": "4f8f2ec50bbed8f68a763bc78312e4a67307ed16356a280848a70a516731b9f7",
+      "bytes": 34501,
+      "fetchedAt": "2026-10-16T13:58:18.973Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Chill Metal",
+      "sha256": "565b4043210bbc69bfa29e6557ab7f089454f45b265270931cdef35a4b5c8464",
+      "bytes": 32183,
+      "fetchedAt": "2026-10-16T18:52:50.935Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Chill Touch",
+      "sha256": "885ac206fa154639703fb3625bf364bd8a75d87946aad3c9a966b3ec5d9fa9bd",
+      "bytes": 26840,
+      "fetchedAt": "2026-10-16T18:52:51.925Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Circle of Death",
+      "sha256": "fb207647c494977c3ec7274efa963ce43eb84cbd709b1ef664543cde427a3b35",
+      "bytes": 28270,
+      "fetchedAt": "2026-10-16T18:52:52.932Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Clairaudience/Clairvoyance",
+      "sha256": "d88df8790aae380f233b52c0bf58af797323ca4087ca21d7ffdf79d1d961f3a0",
+      "bytes": 28056,
+      "fetchedAt": "2026-10-16T18:52:53.936Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Clenched Fist",
+      "sha256": "84e2261f453b3bacf93f76e557d3954d605e90bb53aaa0a136355fc332502215",
+      "bytes": 28827,
+      "fetchedAt": "2026-10-16T18:52:54.930Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cloak of Chaos",
+      "sha256": "49ecc20bf9ca139f84a7e826571709a12fb224f926d7fd265c69611fc4838c70",
+      "bytes": 28418,
+      "fetchedAt": "2026-10-16T18:52:55.929Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Clone",
+      "sha256": "d9fd6a38343821a51dd8c8a905c80e4f74a55ada59c59b3b0901a7e3fc3d6fb2",
+      "bytes": 31066,
+      "fetchedAt": "2026-10-16T18:52:56.931Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cloudkill",
+      "sha256": "da7b316c032f9a79aa9abc9e7d529c903d719bc5bfc92e63cdd8f46dde5335dd",
+      "bytes": 30963,
+      "fetchedAt": "2026-10-16T18:52:57.928Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Color Spray",
+      "sha256": "38f103873ea44db8b09333c55aef7303fd62b59951fe1c242ea5f208b1cd28d6",
+      "bytes": 29072,
+      "fetchedAt": "2026-10-16T18:52:58.929Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Command",
+      "sha256": "705da9ef98fc7e5d61f1197b593d3ee1f379f79bea17f8d69c5b559c66c16718",
+      "bytes": 33695,
+      "fetchedAt": "2026-10-16T13:58:52.978Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Command Plants",
+      "sha256": "e6a3b0e2ccf13dc191906981ae99a2d737afcb9d8e566accc170d45e18360123",
+      "bytes": 27353,
+      "fetchedAt": "2026-10-16T18:52:59.930Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Command Undead",
+      "sha256": "0c340df3717bc52c61f4124bfbb00240a6f4deae85dee89d5b7dcbd296a740c5",
+      "bytes": 28642,
+      "fetchedAt": "2026-10-16T18:53:00.926Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Command, Greater",
+      "sha256": "c6c20d8035fc793cd4751d2017f201145f633ea18bcad00d6ef676e7be8f4d06",
+      "bytes": 32839,
+      "fetchedAt": "2026-10-16T18:53:01.937Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Commune",
+      "sha256": "5572107186605e71273d4de04d58d57014f72f66b8c9fe43d1ea18b665d1b1f9",
+      "bytes": 27565,
+      "fetchedAt": "2026-10-16T13:58:36.965Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Commune with Nature",
+      "sha256": "81866aab498f5c0ee6a9e8d50cd23e5e95beccbdec6ee3496567f945ce9300e7",
+      "bytes": 32778,
+      "fetchedAt": "2026-10-16T18:53:02.927Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Comprehend Languages",
+      "sha256": "a4b85d3e2be401ff37aae7e06e8a22fa9856268a564eb265c7fda29e5e7e422c",
+      "bytes": 27701,
+      "fetchedAt": "2026-10-16T18:53:03.934Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cone of Cold",
+      "sha256": "eee8cb6ee062db27e366794404486decbbfacdf87f1ba0e421a03aeb0049f099",
+      "bytes": 28146,
+      "fetchedAt": "2026-10-16T18:53:04.925Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Confusion",
+      "sha256": "6671a125a42e19feae7c1bcee9bd3026c9ce368c227c183826ef9bf520cc4cbe",
+      "bytes": 34641,
+      "fetchedAt": "2026-10-16T18:53:05.935Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Confusion, Lesser",
+      "sha256": "0e3d32fed963ce4c07324b91b07c20d9b2aee7704fbf6a45123e90d5290f048c",
+      "bytes": 33317,
+      "fetchedAt": "2026-10-16T18:53:06.927Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Consecrate",
+      "sha256": "a08f5e286a25ee5d5dea5801030e987ef142d217c8d756d217d00d72e7db3f12",
+      "bytes": 29590,
+      "fetchedAt": "2026-10-16T13:58:54.974Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Contact Other Plane",
+      "sha256": "74fe4079cdee66ab98faa9512e9760d63b7ca4d021c58d73075edff64f40c326",
+      "bytes": 36099,
+      "fetchedAt": "2026-10-16T18:53:07.933Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Contagion",
+      "sha256": "4bbf468a5a4f7a8327136bbae2d3cc8489fd472e3e1ebb7305e0c853cb00edae",
+      "bytes": 31049,
+      "fetchedAt": "2026-10-16T18:53:08.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Contingency",
+      "sha256": "ee54e5f391f7a89d204e8d890830af2db7801724e06541e649a2a860c96cf989",
+      "bytes": 35911,
+      "fetchedAt": "2026-10-16T13:58:24.965Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Continual Flame",
+      "sha256": "dbd13402bf7c82bc69e496e79f7636bc5ee5aeb00da0caa699a3cd008f4c7cf5",
+      "bytes": 26428,
+      "fetchedAt": "2026-10-16T18:53:09.935Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Control Plants",
+      "sha256": "81c1b8cf79d414a61e295183da78c894fb8b68eff2c63960d0bf2c142eccb82f",
+      "bytes": 26396,
+      "fetchedAt": "2026-10-16T18:53:10.940Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Control Undead",
+      "sha256": "04f6114de7eab4fd1b4440204418a9cb6470369b37cb6a110088ba7eeb629964",
+      "bytes": 26536,
+      "fetchedAt": "2026-10-16T18:53:11.933Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Control Water",
+      "sha256": "af97a17c375ea3223055fda20fa3ec560ff6ddd633a06c72eef129c8bbeef0be",
+      "bytes": 30542,
+      "fetchedAt": "2026-10-16T18:53:12.938Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Control Weather",
+      "sha256": "8b7a286b8367f8800aa8da82c3b4e3430dad31d6fd4f3de2ee8d8a0f5942cee1",
+      "bytes": 33704,
+      "fetchedAt": "2026-10-16T18:53:13.933Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Control Winds",
+      "sha256": "fe8944562f62b3735436b89a39c7c86750b9dd2396c6726aa675e97411ebc1b9",
+      "bytes": 31275,
+      "fetchedAt": "2026-10-16T18:53:14.937Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Create Food and Water",
+      "sha256": "3fd0416686f0a2e60843c122414a5e1b3c999023c311313e3b303bb934c149ca",
+      "bytes": 26443,
+      "fetchedAt": "2026-10-16T18:53:15.932Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Create Greater Undead",
+      "sha256": "33d5174bd34539ef5ecdeb4757f8e6674614b421e2438976da587f01c0d98805",
+      "bytes": 27097,
+      "fetchedAt": "2026-10-16T18:53:17.125Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Create Undead",
+      "sha256": "3f0942b16620b18a84f9eeb4565cf50b9748309c229e11c952028050bff65392",
+      "bytes": 28430,
+      "fetchedAt": "2026-10-16T18:53:17.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Create Water",
+      "sha256": "20ae70cc18654d5decc490607e21eab808fa4e41ddbcaa20a5fe58f0142e835a",
+      "bytes": 27079,
+      "fetchedAt": "2026-10-16T18:53:18.930Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Creeping Doom",
+      "sha256": "7ebb9c7f3d2da041e6273dddba6a02b5abbdcec73b186c02b7ed24ad9521e0d9",
+      "bytes": 28157,
+      "fetchedAt": "2026-10-16T18:53:20.147Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Crushing Despair",
+      "sha256": "389b8b164dd7625a69dfaea5517f063f1cd47137b5a01e3a99a69675400c9492",
+      "bytes": 26372,
+      "fetchedAt": "2026-10-16T18:53:20.930Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Crushing Hand",
+      "sha256": "c61ac4308ad51d39b43a8e083d26687732059864b19e70995b0e53b581fd1914",
+      "bytes": 27166,
+      "fetchedAt": "2026-10-16T18:53:21.934Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Critical Wounds",
+      "sha256": "2672f608208f1484258f17ecbcb16e87170266bf9f87082434360e34e0ce7106",
+      "bytes": 26916,
+      "fetchedAt": "2026-10-16T18:53:22.929Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Critical Wounds, Mass",
+      "sha256": "6622ae0c01f58be1fdb81f73f769d3b5e1c3051fc95521b06fe958b358eb60be",
+      "bytes": 25724,
+      "fetchedAt": "2026-10-16T18:53:23.926Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Light Wounds",
+      "sha256": "c478f043c769e2fbf5dd92134283581a93d3abf885bf86b1b37e921ab6ddc200",
+      "bytes": 27655,
+      "fetchedAt": "2026-10-16T13:58:08.261Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Light Wounds, Mass",
+      "sha256": "77b8618534721796a3089d62df6db920f3b34f5ca6db3e70c398d27be548eda7",
+      "bytes": 26538,
+      "fetchedAt": "2026-10-16T13:58:55.972Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Moderate Wounds",
+      "sha256": "4e2b087b77744640a2f44dcb394ee67ec64b720ff2adb88f1864617d7436e936",
+      "bytes": 26971,
+      "fetchedAt": "2026-10-16T18:53:24.937Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Moderate Wounds, Mass",
+      "sha256": "09b148d576977fc6c3db31dbf432bac61ad8bd805851e51307775f44246cf7ef",
+      "bytes": 25968,
+      "fetchedAt": "2026-10-16T18:53:25.933Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Serious Wounds",
+      "sha256": "a0cbb18884b228cec781af068ff69105ed532769a0df23c0e2de8ad087711c8b",
+      "bytes": 26962,
+      "fetchedAt": "2026-10-16T18:53:26.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Cure Serious Wounds, Mass",
+      "sha256": "1f5a2dc2cbab7d514283c4f20e6f53c511c26ba10277918b65e790e925dd86e7",
+      "bytes": 25831,
+      "fetchedAt": "2026-10-16T18:53:27.928Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Curse Water",
+      "sha256": "b8f1df36987c7e1db7923d3facabb8331cdee7db3a02cfcbe120a7a35d822f69",
+      "bytes": 25686,
+      "fetchedAt": "2026-10-16T18:53:29.151Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dancing Lights",
+      "sha256": "08750ac2f07810cd227c9f9411e4b072af2f7ae0527bfd69dd51fb3c3eaa6376",
+      "bytes": 28465,
+      "fetchedAt": "2026-10-16T18:53:29.931Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Darkness",
+      "sha256": "cdf63e94399562447cbe4fab9d6ed309f2b28c66318936010f1bde8989645b82",
+      "bytes": 30611,
+      "fetchedAt": "2026-10-16T18:53:30.925Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Darkvision",
+      "sha256": "19e81814dacefc8e135e87284f4d8cffeae9e58e333a88bc579a873689bdb200",
+      "bytes": 30921,
+      "fetchedAt": "2026-10-16T18:53:31.931Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Daylight",
+      "sha256": "8beee82b0a1062468ca0a13112710b0ac6da34f4c457fa5e4064176bb17d751e",
+      "bytes": 34150,
+      "fetchedAt": "2026-10-16T18:53:32.927Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Daze",
+      "sha256": "a63fc233d6edfce3531ab15a9c1436b3bd89b3cbdeeadfd4b5089ed717c1b553",
+      "bytes": 29443,
+      "fetchedAt": "2026-10-16T18:53:33.936Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Daze Monster",
+      "sha256": "0239aad763a86a9944a3d870a49fd9ebd95334e3fcb4a4e64c5a943fcbb4ca2f",
+      "bytes": 26030,
+      "fetchedAt": "2026-10-16T18:53:34.931Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Death Knell",
+      "sha256": "d192102dcc0ebb1ae08cfc586c3b6c75268e6f9f4f2381432121d5aeb1f4566d",
+      "bytes": 28760,
+      "fetchedAt": "2026-10-16T18:53:35.942Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Death Ward",
+      "sha256": "ad3ffee0bccb50e9cbd990827e13b516b132c5b1738e8b7a374e675ca91856a0",
+      "bytes": 27121,
+      "fetchedAt": "2026-10-16T18:53:36.934Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Deathwatch",
+      "sha256": "dce1578ed2a6d9efd3606dc3f8265f0cd133271abdfe0062529c3878769d90f6",
+      "bytes": 26351,
+      "fetchedAt": "2026-10-16T18:53:37.930Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Deep Slumber",
+      "sha256": "91df12192791053af6fd585e367d6627447a5e65f818a5cb3c52c823fea4e501",
+      "bytes": 27951,
+      "fetchedAt": "2026-10-16T18:53:38.937Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Deeper Darkness",
+      "sha256": "fa236c57a2eba28f26ee847deb1a55ed7c2a7b4f9f0a4758136dfd8ef2dc5bfa",
+      "bytes": 26932,
+      "fetchedAt": "2026-10-16T18:53:39.925Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Delay Poison",
+      "sha256": "bf94a4a1f2955c6f43ddb5621c3df2018cf441554c601a5a09e20834b019e396",
+      "bytes": 28817,
+      "fetchedAt": "2026-10-16T18:53:40.927Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Delayed Blast Fireball",
+      "sha256": "ff867c39bfb4b6d05348e4c6346ff309705313f6f36f0dac2b7710c210dde2e4",
+      "bytes": 27928,
+      "fetchedAt": "2026-10-16T18:53:41.936Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Demand",
+      "sha256": "69479d8e10e40d7ad7c664b09dd54afa4662cd4a6c156cc219727b40dc2fc7d3",
+      "bytes": 27748,
+      "fetchedAt": "2026-10-16T18:53:42.927Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Desecrate",
+      "sha256": "cfc5e178e0b9531bb73ed38ca571418816bedca90a0697ed8af31b076a047738",
+      "bytes": 30793,
+      "fetchedAt": "2026-10-16T18:53:43.941Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Destruction",
+      "sha256": "4db1307a1c303b5ff67c4aaa5e251b9f32eb5178e9bc0e320e37bb557897274c",
+      "bytes": 26832,
+      "fetchedAt": "2026-10-16T18:53:44.931Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Animals or Plants",
+      "sha256": "80cd1eff9295c7f159314781b105bf9309136eb364ae03d95069479a7ce96ba0",
+      "bytes": 30586,
+      "fetchedAt": "2026-10-16T18:53:45.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Chaos",
+      "sha256": "8f768c0d515757c20f133114b0e83204200828470e27fdd7953bc4d5c72033fb",
+      "bytes": 25783,
+      "fetchedAt": "2026-10-16T18:53:46.933Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Evil",
+      "sha256": "4e23cc9c8d9aa4711801a7cce35e8daa26c6f47dff8ed5245e23d364900b954e",
+      "bytes": 36873,
+      "fetchedAt": "2026-10-16T13:58:43.966Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Good",
+      "sha256": "8b4e52fa6679249e7986d170d396bff16a251b05ea1b2b08fb6fe43d3178de02",
+      "bytes": 25652,
+      "fetchedAt": "2026-10-16T18:53:48.165Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Law",
+      "sha256": "c7cd62ad4579ab9c23d4eec5c5cabe774bccf961f58c8ca4739b97c6766cac7d",
+      "bytes": 25759,
+      "fetchedAt": "2026-10-16T18:53:48.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Magic",
+      "sha256": "2c4792fa85995364b025e3aa6e39d9bd90f4ef7dd58ef0ed718f841d113aae49",
+      "bytes": 44615,
+      "fetchedAt": "2026-10-16T13:58:16.968Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Poison",
+      "sha256": "4d614f4e29cce3aeac2661544d369cf3d7343f9e932b379b61b420d595e1e68e",
+      "bytes": 26839,
+      "fetchedAt": "2026-10-16T18:53:49.932Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Scrying",
+      "sha256": "4f685b33f5cf2f14cb4092bcb544141274ffd31eebe393c626c40989c0d0a1db",
+      "bytes": 30911,
+      "fetchedAt": "2026-10-16T18:53:51.350Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Secret Doors",
+      "sha256": "b34cd66e2d06577fcc4db79350b0d465660db0ac2b78914472d2116f38c82a15",
+      "bytes": 27968,
+      "fetchedAt": "2026-10-16T18:53:51.934Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Snares and Pits",
+      "sha256": "c6fb76b99eef6a4caf195a355b278197f2bf735ad403fcf0011644ad9cc86767",
+      "bytes": 29151,
+      "fetchedAt": "2026-10-16T18:53:52.944Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Thoughts",
+      "sha256": "ea237c77f5d3515c7abf43f7f8f762ff33d92bd04d6181dadce078488c7aa242",
+      "bytes": 38237,
+      "fetchedAt": "2026-10-16T18:53:53.931Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Detect Undead",
+      "sha256": "f59a0c98192f5eb7329b6952ab89d72a0251ef77af6d8e565d654de89463a535",
+      "bytes": 35245,
+      "fetchedAt": "2026-10-16T18:53:54.938Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dictum",
+      "sha256": "53f7f78b181fbbed46031f6256deba1e7948b06ba9fd3e406bf33858d14f2c84",
+      "bytes": 32242,
+      "fetchedAt": "2026-10-16T18:53:55.933Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dimension Door",
+      "sha256": "9be825d1d1220a29469967aa7fa3ec6d51caa8c8f642335133e07a8406e5634a",
+      "bytes": 35011,
+      "fetchedAt": "2026-10-16T18:53:56.938Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dimensional Anchor",
+      "sha256": "6f2f9eeff6c7445d88a902bfaaf63e503d8591f83ece77df2cefd82dd461814f",
+      "bytes": 28439,
+      "fetchedAt": "2026-10-16T18:53:57.943Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dimensional Lock",
+      "sha256": "d47df66ec4f463c59740d219d1f7a0c27059829bddedbfeb8055efe4b1a7d14e",
+      "bytes": 29941,
+      "fetchedAt": "2026-10-16T18:53:58.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Diminish Plants",
+      "sha256": "12495e7f53b745415e149084a32dec6cff846b3ebbbfd6efd9abddc68a048a19",
+      "bytes": 27936,
+      "fetchedAt": "2026-10-16T18:53:59.934Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Discern Lies",
+      "sha256": "95db2b75d750ef09d6ad7f3aef9875ac17306771278605e0d6a2b599e8c32081",
+      "bytes": 26428,
+      "fetchedAt": "2026-10-16T18:54:00.941Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Discern Location",
+      "sha256": "b3a8a99a377d28d6442cd92a40e2dedbf90ff8430a2e0159fd1f057fb94d0ab3",
+      "bytes": 27444,
+      "fetchedAt": "2026-10-16T18:54:01.930Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Disguise Self",
+      "sha256": "dbab79c26d9832eb2ad35ad78b74444525dd6c79d997879961b576635c59a005",
+      "bytes": 29866,
+      "fetchedAt": "2026-10-16T18:54:02.932Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Disintegrate",
+      "sha256": "31ffc051c16dfc295700e0c2632cd82454f856faf9542ba9dae70040e835eca3",
+      "bytes": 30957,
+      "fetchedAt": "2026-10-16T18:54:03.940Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dismissal",
+      "sha256": "be4e53048b68855c607d54ad070484508139a72483acd49d4d4ed0be67e79d5d",
+      "bytes": 28108,
+      "fetchedAt": "2026-10-16T18:54:04.934Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dispel Chaos",
+      "sha256": "e8b387f62c797ce920fc24984ee62fd2eaa3d6934aea791032114c80205852e2",
+      "bytes": 26017,
+      "fetchedAt": "2026-10-16T18:54:05.934Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dispel Evil",
+      "sha256": "fb8c970f9d4febf2bf0126b3af1964e7c596c7f269b40c68477f5bb177f8d70a",
+      "bytes": 28109,
+      "fetchedAt": "2026-10-16T18:54:06.942Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dispel Good",
+      "sha256": "f87b51d9773b33aab082652d67d50fb33d55a71192a77b9a6b4ea6dc7b4622d3",
+      "bytes": 26009,
+      "fetchedAt": "2026-10-16T18:54:07.931Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dispel Law",
+      "sha256": "c6b89bbcdab62179717d438a9468d81d64e0ef42f68432b9dbd90c6d985dbb14",
+      "bytes": 25925,
+      "fetchedAt": "2026-10-16T18:54:08.939Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dispel Magic",
+      "sha256": "8d42636781875b149b0743fc3aae4248cbd0e576dfe1b94d34d5770c2ffdda2c",
+      "bytes": 46012,
+      "fetchedAt": "2026-10-16T13:58:30.968Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dispel Magic, Greater",
+      "sha256": "ff4f21712a9f8e20520dbeadfa0e57a40566ce46c3d8a7a792c84de0c4e1f7f1",
+      "bytes": 44548,
+      "fetchedAt": "2026-10-16T18:54:10.925Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Displacement",
+      "sha256": "3dc4462d430f377d5bd2c39f10db24c2bb4d1d5b296e853eb39d16732ffac598",
+      "bytes": 26634,
+      "fetchedAt": "2026-10-16T18:54:11.073Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Disrupt Undead",
+      "sha256": "d2ec640840295e4012cb3184e97221d4f73bfa443a7ac21231c49248d0f9542e",
+      "bytes": 25401,
+      "fetchedAt": "2026-10-16T18:54:12.084Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Disrupting Weapon",
+      "sha256": "4cccb83c8ad374f18dc9eae28accd00fdef7ac3844c8c2344e293127f423a4c4",
+      "bytes": 25918,
+      "fetchedAt": "2026-10-16T18:54:13.071Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Divination",
+      "sha256": "bb879f4e5ca5976c64175ceb5340ecaed167e24653450fcd0bb7548764c93b7c",
+      "bytes": 32761,
+      "fetchedAt": "2026-10-16T18:54:14.083Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Divine Favor",
+      "sha256": "16eb13b11fd52545c22339fc22009c65e3e8c3ceaf781e7dbf6d0bb308703bc7",
+      "bytes": 26381,
+      "fetchedAt": "2026-10-16T18:54:15.076Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Divine Power",
+      "sha256": "68057e9f6875b8cbfac2cd7db7d2bd87ddac1f7870fb0efbdd302aa1de02a5f7",
+      "bytes": 26660,
+      "fetchedAt": "2026-10-16T18:54:16.080Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dominate Animal",
+      "sha256": "28d34b8d8b5e7042c10a006c2ce5e02442c59a91becb6e52370f59acd123aa87",
+      "bytes": 28671,
+      "fetchedAt": "2026-10-16T18:54:17.080Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dominate Monster",
+      "sha256": "58cecb7f36df3d9470f91b52cb8722166548de952747543c80be7d63c0043044",
+      "bytes": 25582,
+      "fetchedAt": "2026-10-16T18:54:18.085Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dominate Person",
+      "sha256": "bc37b075e8e584a0acd9bd4c65cc8d7b6e1e497674e6b42e3c520cd7d850d5fd",
+      "bytes": 34845,
+      "fetchedAt": "2026-10-16T18:54:19.075Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Doom",
+      "sha256": "0f54793404be5e94735f87056f6f684bbc77151d1ed9040cde891d05da0047e7",
+      "bytes": 25735,
+      "fetchedAt": "2026-10-16T18:54:20.083Z"
+    },
+    {
+      "url": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Dream",
+      "sha256": "bd2ad775b25ed24a3106094e702f03dbdbfaf42578db994c517e1d02595b7cee",
+      "bytes": 31593,
+      "fetchedAt": "2026-10-16T18:54:21.076Z"
+    }
+  ],
+  "expectedCountByBatch": {
+    "a-d": 172
+  }
+}

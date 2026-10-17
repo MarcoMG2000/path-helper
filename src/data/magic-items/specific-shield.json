@@ -1,0 +1,304 @@
+[
+  {
+    "id": "absorbing-shield",
+    "name": "Absorbing Shield",
+    "textEn": "**Aura** strong transmutation; **CL** 17th; **Slot** shield; **Price** 50,170 gp; **Weight** 15 lbs.\n\n**Description**\n\nThis *+1 heavy steel shield* is made of metal, but i ts color is a flat black that seems to absorb light. Once every 2 days, on command, it can disintegrate an object that it touches, as the spell but requiring a melee touch attack. This effect only functions as an attack—it can’t be activated to target a creature or weapon as it strikes the shield.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *disintegrate*; **Price** 25,170 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Absorbing%20Shield",
+    "sourceRef": "PRPG Core Rulebook pg. 467",
+    "book": "CRB",
+    "kind": "specific-shield",
+    "slot": "shield",
+    "aura": "strong transmutation",
+    "weightLb": 15,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, disintegrate",
+      "costRaw": "25,170 gp",
+      "costCp": 2517000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 130, PRPG Core Rulebook pg. 467",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 130"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 17,
+        "priceRaw": "50,170 gp",
+        "priceCp": 5017000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "heavy-steel-shield",
+    "enhancement": {
+      "on": "shield",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "+1 heavy steel shield"
+  },
+  {
+    "id": "casters-shield",
+    "name": "Caster's Shield",
+    "textEn": "**Aura** moderate abjuration; **CL** 6th; **Slot** shield; **Price** 3,153 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis *+1 light wooden shield* has a leather strip on the back on which a spellcaster can scribe a single spell as on a scroll. A spell so scribed requires half the normal cost in raw materials. The strip cannot accommodate spells of higher than 3rd level. The strip is reusable.\n\nA random caster’s shield has a 50% chance of having a single medium scroll spell on it. The spell is divine (01–80 on d%) or arcane (81–100). A caster’s shield has a 5% arcane spell failure chance. The price of the shield is modified by the value of the scroll spell if one is currently scribed.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, Scribe Scroll, creator must be at least 6th level; **Price** 1,653 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Caster's%20Shield",
+    "sourceRef": "PRPG Core Rulebook pg. 467",
+    "book": "CRB",
+    "kind": "specific-shield",
+    "slot": "shield",
+    "aura": "moderate abjuration",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, Scribe Scroll, creator must be at least 6th level",
+      "costRaw": "1,653 gp",
+      "costCp": 165300
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 130, PRPG Core Rulebook pg. 467",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 130"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 6,
+        "priceRaw": "3,153 gp",
+        "priceCp": 315300,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "light-wooden-shield",
+    "enhancement": {
+      "on": "shield",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "+1 light wooden shield"
+  },
+  {
+    "id": "darkwood-buckler",
+    "name": "Darkwood Buckler",
+    "textEn": "**Aura** no aura (nonmagical); **Slot** shield; **Price** 203 gp; **Weight** 2-1/2 lbs.\n\n**Description**\n\nThis nonmagical masterwork light wooden shield is made out of darkwood. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield. It has no armor check penalty.",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Darkwood%20Buckler",
+    "sourceRef": "PRPG Core Rulebook pg. 467",
+    "book": "CRB",
+    "kind": "specific-shield",
+    "slot": "shield",
+    "aura": "no aura (nonmagical)",
+    "weightLb": 2.5,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 131, PRPG Core Rulebook pg. 467",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 131"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "203 gp",
+        "priceCp": 20300,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "light-wooden-shield",
+    "abilityIds": [],
+    "baseEvidence": "nonmagical masterwork light wooden shield"
+  },
+  {
+    "id": "darkwood-shield",
+    "name": "Darkwood Shield",
+    "textEn": "**Aura** no aura (nonmagical); **Slot** shield; **Price** 257 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis nonmagical masterwork heavy wooden shield is made out of darkwood. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield. It has no armor check penalty.",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Darkwood%20Shield",
+    "sourceRef": "PRPG Core Rulebook pg. 467",
+    "book": "CRB",
+    "kind": "specific-shield",
+    "slot": "shield",
+    "aura": "no aura (nonmagical)",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 131, PRPG Core Rulebook pg. 467",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 131"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "257 gp",
+        "priceCp": 25700,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "heavy-wooden-shield",
+    "abilityIds": [],
+    "baseEvidence": "nonmagical masterwork heavy wooden shield"
+  },
+  {
+    "id": "lions-shield",
+    "name": "Lion's Shield",
+    "textEn": "**Aura** moderate conjuration; **CL** 10th; **Slot** shield; **Price** 9,170 gp; **Weight** 15 lbs.\n\n**Description**\n\nThis *+2 heavy steel shield* is fashioned to appear to be a roaring lion’s head. Three times per day as a free action, the lion’s head can be commanded to attack (independently of the shield wearer), biting with the wielder’s base attack bonus (including multiple attacks, if the wielder has them) and dealing 2d6 points of damage. This attack is in addition to any actions performed by the wielder.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *summon nature’s ally IV*; **Price** 4,670 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Lion's%20Shield",
+    "sourceRef": "PRPG Core Rulebook pg. 467",
+    "book": "CRB",
+    "kind": "specific-shield",
+    "slot": "shield",
+    "aura": "moderate conjuration",
+    "weightLb": 15,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, summon nature’s ally IV",
+      "costRaw": "4,670 gp",
+      "costCp": 467000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 132, PRPG Core Rulebook pg. 467",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 132"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 10,
+        "priceRaw": "9,170 gp",
+        "priceCp": 917000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "heavy-steel-shield",
+    "enhancement": {
+      "on": "shield",
+      "bonus": 2
+    },
+    "abilityIds": [],
+    "baseEvidence": "+2 heavy steel shield"
+  },
+  {
+    "id": "mithral-heavy-shield",
+    "name": "Mithral Heavy Shield",
+    "textEn": "**Aura** no aura (nonmagical); **Slot** shield; **Price** 1,020 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis heavy shield is made of mithral and is thus much lighter than a standard steel shield. It has a 5% arcane spell failure chance and no armor check penalty.",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Mithral%20Heavy%20Shield",
+    "sourceRef": "PRPG Core Rulebook pg. 467",
+    "book": "CRB",
+    "kind": "specific-shield",
+    "slot": "shield",
+    "aura": "no aura (nonmagical)",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 132, PRPG Core Rulebook pg. 467",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 132"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "1,020 gp",
+        "priceCp": 102000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": null,
+    "baseItemRaw": "This heavy shield is made of mithral and is thus much lighter than a standard steel shield.",
+    "abilityIds": [],
+    "baseEvidence": "This heavy shield is made of mithral and is thus much lighter than a standard steel shield.",
+    "needsReview": true
+  },
+  {
+    "id": "spined-shield",
+    "name": "Spined Shield",
+    "textEn": "**Aura** moderate evocation; **CL** 6th; **Slot** shield; **Price** 5,580 gp; **Weight** 15 lbs.\n\n**Description**\n\nThis *+1 heavy steel shield* is covered in spines. It acts as a normal spiked shield. On command up to three times per day, the shield’s wearer can fire one of the shield’s spines. A fired spine has a +1 enhancement bonus, a range increment of 120 feet, and deals 1d10 points of damage (19–20/×2). Fired spines regenerate each day.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *magic missile*; **Price** 2,875 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Spined%20Shield",
+    "sourceRef": "PRPG Core Rulebook pg. 467",
+    "book": "CRB",
+    "kind": "specific-shield",
+    "slot": "shield",
+    "aura": "moderate evocation",
+    "weightLb": 15,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, magic missile",
+      "costRaw": "2,875 gp",
+      "costCp": 287500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 133, PRPG Core Rulebook pg. 467",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 133"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 6,
+        "priceRaw": "5,580 gp",
+        "priceCp": 558000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "heavy-steel-shield",
+    "enhancement": {
+      "on": "shield",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "+1 heavy steel shield"
+  },
+  {
+    "id": "winged-shield",
+    "name": "Winged Shield",
+    "textEn": "**Aura** faint transmutation; **CL** 5th; **Slot** shield; **Price** 17,257 gp; **Weight** 10 lbs.\n\n**Description**\n\nThis heavy wooden shield has a +3 enhancement bonus. Arching bird wings are carved into the face of the shield. Once per day, it can be commanded to *fly* ( as the spell), carrying the wielder. The shield can carry up to 133 pounds and move at 60 feet per round, or up to 266 pounds and move at 40 feet per round.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *fly*; **Price** 8,707 gp",
+    "source": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Winged%20Shield",
+    "sourceRef": "PRPG Core Rulebook pg. 467",
+    "book": "CRB",
+    "kind": "specific-shield",
+    "slot": "shield",
+    "aura": "faint transmutation",
+    "weightLb": 10,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, fly",
+      "costRaw": "8,707 gp",
+      "costCp": 870700
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 133, PRPG Core Rulebook pg. 467",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 133"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "17,257 gp",
+        "priceCp": 1725700,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "heavy-wooden-shield",
+    "enhancement": {
+      "on": "shield",
+      "bonus": 3
+    },
+    "abilityIds": [],
+    "baseEvidence": "heavy wooden shield has a +3 enhancement bonus"
+  }
+]

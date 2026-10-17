@@ -1,0 +1,1451 @@
+[
+  {
+    "id": "telekinesis",
+    "name": "Telekinesis",
+    "textEn": "You move objects or creatures by concentrating on them. Depending on the version selected, the spell can provide a gentle, sustained force, perform a variety of combat maneuvers, or exert a single short, violent thrust.\n\n*Sustained Force*: A sustained force moves an object weighing no more than 25 pounds per caster level (maximum 375 pounds at 15th level) up to 20 feet per round. A creature can negate the effect on an object it possesses with a successful Will save or with spell resistance.\n\nThis version of the spell can last 1 round per caster level, but it ends if you cease concentration. The weight can be moved vertically, horizontally, or in both directions. An object cannot be moved beyond your range. The spell ends if the object is forced beyond the range. If you cease concentration for any reason, the object falls or stops.\n\nAn object can be telekinetically manipulated as if with one hand. For example, a lever or rope can be pulled, a key can be turned, an object rotated, and so on, if the force required is within the weight limitation. You might even be able to untie simple knots, though delicate activities such as these require DC 15 Intelligence checks.\n\n*Combat Maneuver*: Alternatively, once per round, you can use *telekinesis* to perform a bull rush, disarm, grapple (including pin), or trip. Resolve these attempts as normal, except that they don't provoke attacks of opportunity, you use your caster level in place of your Combat Maneuver Bonus, and you add your Intelligence modifier (if a wizard) or Charisma modifier (if a sorcerer) in place of your Strength or Dexterity modifier. No save is allowed against these attempts, but spell resistance applies normally. This version of the spell can last 1 round per caster level, but it ends if you cease concentration.\n\n*Violent Thrust*: Alternatively, the spell energy can be spent in a single round. You can hurl one object or creature per caster level (maximum 15) that are within range and all within 10 feet of each other toward any target within 10 feet per level of all the objects. You can hurl up to a total weight of 25 pounds per caster level (maximum 375 pounds at 15th level).\n\nYou must succeed on attack rolls (one per creature or object thrown) to hit the target with the items, using your base attack bonus + your Intelligence modifier (if a wizard) or Charisma modifier (if a sorcerer). Weapons cause standard damage (with no Strength bonus; note that arrows or bolts deal damage as daggers of their size when used in this manner). Other objects cause damage ranging from 1 point per 25 pounds (for less dangerous objects) to 1d6 points of damage per 25 pounds (for hard, dense objects). Objects and creatures that miss their target land in a square adjacent to the target.\n\nCreatures who fall within the weight capacity of the spell can be hurled, but they are allowed Will saves (and spell resistance) to negate the effect, as are those whose held possessions are targeted by the spell.\n\nIf a telekinesed creature is hurled against a solid surface, it takes damage as if it had fallen 10 feet (1d6 points).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Telekinesis",
+    "sourceRef": "PRPG Core Rulebook pg. 357",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "other",
+        "raw": "see text"
+      }
+    ],
+    "duration": {
+      "raw": "concentration (up to 1 round/level) or instantaneous; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (object) or none; see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (object); see text",
+      "applies": "yes",
+      "harmless": false,
+      "object": true
+    },
+    "shortDescriptionEn": "Moves object, attacks creature, or hurls object or creature."
+  },
+  {
+    "id": "telekinetic-sphere",
+    "name": "Telekinetic Sphere",
+    "textEn": "This spell functions like *resilient sphere*, but the creatures or objects caught inside the globe created by the spell are made nearly weightless. Anything contained within a *telekinetic sphere* weighs only one-sixteenth of its normal weight. You can telekinetically lift anything in the sphere that normally weighs 5,000 pounds or less. The telekinetic control extends from you out to medium range (100 feet + 10 feet per caster level) after the sphere has succeeded in encapsulating its contents.\n\nYou can move the sphere, along with the objects and creatures it contains that weigh a total of 5,000 pounds or less, by concentrating on the sphere. You can begin moving a sphere in the round after casting the spell. If you concentrate on doing so (a standard action), you can move the sphere as much as 30 feet in a round. If you cease concentrating, the sphere does not move in that round (if on a level surface) or descends at its falling rate (if aloft) until it reaches a level surface. You can resume concentrating on your next turn or any later turn during the spell's duration.\n\nThe sphere falls at a rate of only 60 feet per round, which is not fast enough to cause damage to the contents of the sphere.\n\nYou can move the sphere telekinetically even if you are in it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Telekinetic Sphere",
+    "sourceRef": "PRPG Core Rulebook pg. 358",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "force"
+    ],
+    "levels": {
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a crystal sphere and a pair of small magnets)",
+      "details": {
+        "material": "a crystal sphere and a pair of small magnets"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "1-ft.-diameter/level sphere, centered around creatures or objects"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Reflex negates (object)",
+      "kind": "reflex",
+      "effect": "negates",
+      "harmless": false,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (object)",
+      "applies": "yes",
+      "harmless": false,
+      "object": true
+    },
+    "shortDescriptionEn": "As resilient sphere, but you move the sphere telekinetically."
+  },
+  {
+    "id": "telepathic-bond",
+    "name": "Telepathic Bond",
+    "textEn": "You forge a telepathic bond among yourself and a number of willing creatures, each of which must have an Intelligence score of 3 or higher. Each creature included in the link is linked to all the others. The creatures can communicate telepathically through the bond regardless of language. No special power or influence is established as a result of the bond. Once the bond is formed, it works over any distance (although not from one plane to another).\n\nIf desired, you may leave yourself out of the telepathic bond forged. This decision must be made at the time of casting.\n\n*Telepathic bond* can be made permanent with a *permanency* spell, though it only bonds two creatures per casting of *permanency*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Telepathic Bond",
+    "sourceRef": "PRPG Core Rulebook pg. 358",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (two eggshells from two different creatures)",
+      "details": {
+        "material": "two eggshells from two different creatures"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you plus one willing creature per three levels, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Link lets allies communicate."
+  },
+  {
+    "id": "teleport",
+    "name": "Teleport",
+    "textEn": "This spell instantly transports you to a designated destination, which may be as distant as 100 miles per caster level. Interplanar travel is not possible. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as four Medium creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you. As with all spells where the range is personal and the target is you, you need not make a saving throw, nor is spell resistance applicable to you. Only objects held or in use (attended) by another person receive saving throws and spell resistance.\n\nYou must have some clear idea of the location and layout of the destination. The clearer your mental image, the more likely the teleportation works. Areas of strong physical or magical energy may make teleportation more hazardous or even impossible.\n\nTo see how well the teleportation works, roll d% and consult the table at the end of this spell. Refer to the following information for definitions of the terms on the table.\n\n*Familiarity*: “Very familiar” is a place where you have been very often and where you feel at home. “Studied carefully” is a place you know well, either because you can currently physically see it or you've been there often. “Seen casually” is a place that you have seen more than once but with which you are not very familiar. “Viewed once” is a place that you have seen once, possibly using magic such as scrying.\n\n“False destination” is a place that does not truly exist or if you are teleporting to an otherwise familiar location that no longer exists as such or has been so completely altered as to no longer be familiar to you. When traveling to a false destination, roll 1d20+80 to obtain results on the table, rather than rolling d%, since there is no real destination for you to hope to arrive at or even be off target from.\n\n*On Target*: You appear where you want to be.\n\n*Off Target*: You appear safely a random distance away from the destination in a random direction. Distance off target is d% of the distance that was to be traveled. The direction off target is determined randomly.\n\n*Similar Area*: You wind up in an area that's visually or thematically similar to the target area. Generally, you appear in the closest similar place within range. If no such area exists within the spell's range, the spell simply fails instead.\n\n*Mishap*: You and anyone else teleporting with you have gotten “scrambled.” You each take 1d10 points of damage, and you reroll on the chart to see where you wind up. For these rerolls, roll 1d20+80. Each time “Mishap” comes up, the characters take more damage and must reroll.\n\n| **Familiarity** | **On Target** | **Off Target** | **Similar Area** | **Mishap** |\n| --- | --- | --- | --- | --- |\n| Very familiar | 01-97 | 98-99 | 100 | — |\n| Studied carefully | 01-94 | 95-97 | 98-99 | 100 |\n| Seen casually | 01-88 | 89-94 | 95-98 | 99-100 |\n| Viewed once | 01-76 | 77-88 | 89-96 | 97-100 |\n| False destination | — | — | 81-92 | 93-100 |",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Teleport",
+    "sourceRef": "PRPG Core Rulebook pg. 358",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "teleportation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "personal and touch",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you and touched objects or other touched willing creatures"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none and Will negates (object)",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no and yes (object)",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Instantly transports you as far as 100 miles per level."
+  },
+  {
+    "id": "teleport-greater",
+    "name": "Teleport, Greater",
+    "textEn": "This spell functions like *teleport*, except that there is no range limit and there is no chance you arrive off target. In addition, you need not have seen the destination, but in that case you must have at least a reliable description of the place to which you are teleporting. If you attempt to teleport with insufficient information (or with misleading information), you disappear and simply reappear in your original location. Interplanar travel is not possible.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Teleport, Greater",
+    "sourceRef": "PRPG Core Rulebook pg. 359",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "teleportation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "personal and touch",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you and touched objects or other touched willing creatures"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none and Will negates (object)",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no and yes (object)",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As teleport, but no range limit and no off-target arrival."
+  },
+  {
+    "id": "teleport-object",
+    "name": "Teleport Object",
+    "textEn": "This spell functions like *teleport*, except that it teleports an object, not you. Creatures and magical forces cannot be teleported.\n\nIf desired, the target object can be sent to a distant location on the Ethereal Plane. In this case, the point from which the object was teleported remains faintly magical until the item is retrieved. A successful targeted *dispel magic* spell cast on that point brings the vanished item back from the Ethereal Plane.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Teleport Object",
+    "sourceRef": "PRPG Core Rulebook pg. 359",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "teleportation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one touched object of up to 50 lbs./level and 3 cu. ft./level"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (object)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (object)",
+      "applies": "yes",
+      "harmless": false,
+      "object": true
+    },
+    "shortDescriptionEn": "As teleport, but affects a touched object."
+  },
+  {
+    "id": "teleportation-circle",
+    "name": "Teleportation Circle",
+    "textEn": "You create a circle on the floor or other horizontal surface that teleports, as *greater teleport*, any creature who stands on it to a designated spot. Once you designate the destination for the circle, you can't change it. The spell fails if you attempt to set the circle to teleport creatures into a solid object, to a place with which you are not familiar and have no clear description, or to another plane.\n\nThe circle itself is subtle and nearly impossible to notice. If you intend to keep creatures from activating it accidentally, you need to mark the circle in some way.\n\n*Teleportation circle* can be made permanent with a *permanency* spell. A permanent *teleportation circle* that is disabled becomes inactive for 10 minutes, then can be triggered again as normal.\n\nMagic traps such as *teleportation circle* are hard to detect and disable. A character with the trapfinding class feature can use the Disable Device to disarm magic traps. The DC in each case is 25 + spell level, or 34 in the case of *teleportation circle*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Teleportation Circle",
+    "sourceRef": "PRPG Core Rulebook pg. 359",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "teleportation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, M (amber dust to cover circle worth 1,000 gp)",
+      "details": {
+        "material": "amber dust to cover circle worth 1,000 gp"
+      }
+    },
+    "range": {
+      "raw": "0 ft.",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "5-ft.-radius circle that teleports those who activate it"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Teleports creatures inside circle."
+  },
+  {
+    "id": "temporal-stasis",
+    "name": "Temporal Stasis",
+    "textEn": "You must succeed on a melee touch attack. You place the subject into a state of suspended animation. For the creature, time ceases to flow, and its condition becomes fixed. The creature does not grow older. Its body functions virtually cease, and no force or effect can harm it. This state persists until the magic is removed (such as by a successful *dispel magic* spell or a *freedom* spell).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Temporal Stasis",
+    "sourceRef": "PRPG Core Rulebook pg. 359",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (powdered diamond, emerald, ruby, and sapphire dust worth 5,000 gp)",
+      "details": {
+        "material": "powdered diamond, emerald, ruby, and sapphire dust worth 5,000 gp"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "permanent",
+      "kind": "permanent",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Fortitude negates",
+      "kind": "fortitude",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Puts subject into suspended animation."
+  },
+  {
+    "id": "time-stop",
+    "name": "Time Stop",
+    "textEn": "This spell seems to make time cease to flow for everyone but you. In fact, you speed up so greatly that all other creatures seem frozen, though they are actually still moving at their normal speeds. You are free to act for 1d4+1 rounds of apparent time. Normal and magical fire, cold, gas, and the like can still harm you. While the *time stop* is in effect, other creatures are invulnerable to your attacks and spells; you cannot target such creatures with any attack or spell. A spell that affects an area and has a duration longer than the remaining duration of the *time stop* have their normal effects on other creatures once the *time stop* ends. Most spellcasters use the additional time to improve their defenses, summon allies, or flee from combat.\n\nYou cannot move or harm items held, carried, or worn by a creature stuck in normal time, but you can affect any item that is not in another creature's possession.\n\nYou are undetectable while *time stop* lasts. You cannot enter an area protected by an *antimagic field* while under the effect of *time stop*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Time Stop",
+    "sourceRef": "PRPG Core Rulebook pg. 359",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1d4+1 rounds (apparent time); see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You act freely for 1d4+1 rounds."
+  },
+  {
+    "id": "tiny-hut",
+    "name": "Tiny Hut",
+    "textEn": "You create an unmoving, opaque sphere of force of any color you desire around yourself. Half the sphere projects above the ground, and the lower hemisphere passes through the ground. As many as nine other Medium creatures can fit into the field with you; they can freely pass into and out of the hut without harming it. However, if you remove yourself from the hut, the spell ends.\n\nThe temperature inside the hut is 70° F if the exterior temperature is between 0° and 100° F. An exterior temperature below 0° or above 100° lowers or raises the interior temperature on a 1-degree-for-1 basis. The hut also provides protection against the elements, such as rain, dust, and sandstorms. The hut withstands any wind of less than hurricane force, but a hurricane (75+ mph wind speed) or greater force destroys it.\n\nThe interior of the hut is a hemisphere. You can illuminate it dimly upon command or extinguish the light as desired. Although the force field is opaque from the outside, it is transparent from within. Missiles, weapons, and most spell effects can pass through the hut without affecting it, although the occupants cannot be seen from outside the hut (they have total concealment).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Tiny Hut",
+    "sourceRef": "PRPG Core Rulebook pg. 360",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "force"
+    ],
+    "levels": {
+      "bard": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a small crystal bead)",
+      "details": {
+        "material": "a small crystal bead"
+      }
+    },
+    "range": {
+      "raw": "20 ft.",
+      "kind": "fixed",
+      "fixedFt": 20
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "20-ft.-radius sphere centered on your location"
+      }
+    ],
+    "duration": {
+      "raw": "2 hours/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 2,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Creates shelter for 10 creatures."
+  },
+  {
+    "id": "tongues",
+    "name": "Tongues",
+    "textEn": "This spell grants the creature touched the ability to speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect. The subject can speak only one language at a time, although it may be able to understand several languages. Tongues does not enable the subject to speak with creatures who don't speak. The subject can make itself understood as far as its voice carries. This spell does not predispose any creature addressed toward the subject in any way.\n\n*Tongues* can be made permanent with a *permanency* spell.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Tongues",
+    "sourceRef": "PRPG Core Rulebook pg. 360",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "bard": 2,
+      "cleric": 4,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, M/DF (a clay model of a ziggurat)",
+      "details": {
+        "material": "a clay model of a ziggurat"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Speak and understand any language."
+  },
+  {
+    "id": "touch-of-fatigue",
+    "name": "Touch of Fatigue",
+    "textEn": "You channel negative energy through your touch, fatiguing the target. You must succeed on a touch attack to strike a target. The subject is immediately fatigued for the spell's duration.\n\nThis spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the effect ends as soon as the spell's duration expires.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Touch of Fatigue",
+    "sourceRef": "PRPG Core Rulebook pg. 360",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 0,
+      "wizard": 0
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a drop of sweat)",
+      "details": {
+        "material": "a drop of sweat"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Fortitude negates",
+      "kind": "fortitude",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Touch attack fatigues target."
+  },
+  {
+    "id": "touch-of-idiocy",
+    "name": "Touch of Idiocy",
+    "textEn": "With a touch, you reduce the target's mental faculties. Your successful melee touch attack applies a 1d6 penalty to the target's Intelligence, Wisdom, and Charisma scores. This penalty can't reduce any of these scores below 1.\n\nThis spell's effect may make it impossible for the target to cast some or all of its spells, if the requisite ability score drops below the minimum required to cast spells of that level.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Touch of Idiocy",
+    "sourceRef": "PRPG Core Rulebook pg. 360",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "living creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "no",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Subject takes 1d6 penalty to Int, Wis, and Cha."
+  },
+  {
+    "id": "transformation",
+    "name": "Transformation",
+    "textEn": "You become a fighting machine—stronger, tougher, faster, and more skilled in combat. Your mindset changes so that you relish combat and you can't cast spells, even from magic items.\n\nYou gain a +4 enhancement bonus to Strength, Dexterity, and Constitution, a +4 natural armor bonus to AC, a +5 competence bonus on Fortitude saves, and proficiency with all simple and martial weapons. Your base attack bonus equals your character level (which may give you multiple attacks).\n\nYou lose your spellcasting ability, including your ability to use spell activation or spell completion magic items, just as if the spells were no longer on your class list.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Transformation",
+    "sourceRef": "PRPG Core Rulebook pg. 360",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a *potion of bull's strength*, which you drink and whose effects are subsumed by the spell effects)",
+      "details": {
+        "material": "a *potion of bull's strength*, which you drink and whose effects are subsumed by the spell effects"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You gain combat bonuses."
+  },
+  {
+    "id": "transmute-metal-to-wood",
+    "name": "Transmute Metal to Wood",
+    "textEn": "This spell enables you to change all metal objects within its area to wood. Weapons, armor, and other metal objects carried by creatures are affected as well. A magic object made of metal effectively has spell resistance equal to 20 + its caster level against this spell. Artifacts cannot be transmuted. Weapons converted from metal to wood take a –2 penalty on attack and damage rolls. The armor bonus of any armor converted from metal to wood is reduced by 2. Weapons changed by this spell splinter and break on any natural attack roll of 1 or 2, and armor changed by this spell loses an additional point of armor bonus every time it is struck with a natural attack roll of 19 or 20.\n\nOnly *limited wish*, *miracle*, *wish*, or similar magic can restore a transmuted object to its metallic state.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Transmute Metal to Wood",
+    "sourceRef": "PRPG Core Rulebook pg. 361",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "druid": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "all metal objects within a 40-ft.-radius burst"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (object; see text)",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Metal within 40 ft. becomes wood."
+  },
+  {
+    "id": "transmute-mud-to-rock",
+    "name": "Transmute Mud to Rock",
+    "textEn": "This spell permanently transforms normal mud or quicksand of any depth into soft stone (sandstone or a similar mineral).\n\nAny creature in the mud is allowed a Reflex save to escape before the area is hardened to stone.\n\n*Transmute mud to rock* counters and dispels *transmute rock to mud*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Transmute Mud to Rock",
+    "sourceRef": "PRPG Core Rulebook pg. 361",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [
+      "earth"
+    ],
+    "levels": {
+      "druid": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (sand, lime, and water)",
+      "details": {
+        "material": "sand, lime, and water"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "up to two 10-ft. cubes/level (S)"
+      }
+    ],
+    "duration": {
+      "raw": "permanent",
+      "kind": "permanent",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Transforms two 10-ft. cubes per level."
+  },
+  {
+    "id": "transmute-rock-to-mud",
+    "name": "Transmute Rock to Mud",
+    "textEn": "This spell turns natural, uncut, or unworked rock of any sort into an equal volume of mud. Magical stone is not affected by the spell. The depth of the mud created cannot exceed 10 feet. A creature unable to levitate, fly, or otherwise free itself from the mud sinks until hip- or chest-deep, reducing its speed to 5 feet and causing a –2 penalty on attack rolls and AC. Brush or similar material thrown atop the mud can support creatures able to climb on top of it. Creatures large enough to walk on the bottom can wade through the area at a speed of 5 feet.\n\nIf *transmute rock to mud* is cast upon the ceiling of a cavern or tunnel, the mud falls to the floor and spreads out in a pool at a depth of 5 feet. The falling mud and the ensuing cave-in deal 8d6 points of bludgeoning damage to anyone caught directly beneath the targeted area, or half damage to those who succeed on Reflex saves.\n\nCastles and large stone buildings are generally immune to the effect of the spell, since *transmute rock to mud* can't affect worked stone and doesn't reach deep enough to undermine such buildings' foundations. However, small buildings or structures often rest upon foundations shallow enough to be damaged or even partially toppled by this spell.\n\nThe mud remains until a successful *dispel magic* or *transmute mud to rock* spell restores its substance—but not necessarily its form. Evaporation turns the mud to normal dirt over a period of days. The exact time depends on exposure to the sun, wind, and normal drainage.\n\n*Transmute rock to mud* counters and dispels *transmute mud to rock*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Transmute Rock to Mud",
+    "sourceRef": "PRPG Core Rulebook pg. 361",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [
+      "earth"
+    ],
+    "levels": {
+      "druid": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (clay and water)",
+      "details": {
+        "material": "clay and water"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "up to two 10-ft. cubes/level (S)"
+      }
+    ],
+    "duration": {
+      "raw": "permanent; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Transforms two 10-ft. cubes per level."
+  },
+  {
+    "id": "transport-via-plants",
+    "name": "Transport via Plants",
+    "textEn": "You can enter any normal plant (equal to your size or larger) and pass any distance to a plant of the same kind in a single round, regardless of the distance separating the two. The plants must be alive. The destination plant need not be familiar to you. If you are uncertain of the location of a particular kind of destination plant, you need merely designate direction and distance and the *transport via plants* spell moves you as close as possible to the desired location. If a particular destination plant is desired but the plant is not living, the spell fails and you are ejected from the entry plant.\n\nYou can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. Use the following equivalents to determine the maximum number of larger creatures you can bring along: a Large creature counts as two Medium creatures, a Huge creature counts as four Medium creatures, and so forth. All creatures to be transported by the spell must be in physical contact with one another, and at least one of those creatures must be in contact with you.\n\nYou can't use this spell to travel through plant creatures.\n\nThe destruction of an occupied plant slays you and any creatures you have brought along, and ejects the bodies and all carried objects from it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Transport via Plants",
+    "sourceRef": "PRPG Core Rulebook pg. 361",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "teleportation",
+    "descriptors": [],
+    "levels": {
+      "druid": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "unlimited",
+      "kind": "unlimited"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you and touched objects or other touched willing creatures"
+      }
+    ],
+    "duration": {
+      "raw": "1 round",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": false
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Move instantly from one plant to another of the same kind."
+  },
+  {
+    "id": "trap-the-soul",
+    "name": "Trap the Soul",
+    "textEn": "*Trap the soul* forces a creature's life force (and its material body) into a gem. The gem holds the trapped entity indefinitely or until the gem is broken and the life force is released, which allows the material body to reform. If the trapped creature is a powerful creature from another plane, it can be required to perform a service immediately upon being freed. Otherwise, the creature can go free once the gem imprisoning it is broken.\n\nDepending on the version selected, the spell can be triggered in one of two ways.\n\n*Spell Completion*: First, the spell can be completed by speaking its final word as a standard action as if you were casting a regular spell at the subject. This allows spell resistance (if any) and a Will save to avoid the effect. If the creature's name is spoken as well, any spell resistance is ignored and the save DC increases by 2. If the save or spell resistance is successful, the gem shatters.\n\n*Trigger Object*: The second method is far more insidious, for it tricks the subject into accepting a trigger object inscribed with the final spell word, automatically placing the creature's soul in the trap. To use this method, both the creature's name and the trigger word must be inscribed on the trigger object when the gem is enspelled. A *sympathy* spell can also be placed on the trigger object. As soon as the subject picks up or accepts the trigger object, its life force is automatically transferred to the gem without the benefit of spell resistance or a save.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Trap the Soul",
+    "sourceRef": "PRPG Core Rulebook pg. 362",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "summoning",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "1 standard action or see text",
+      "unit": "other",
+      "amount": null
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (gem worth 1,000 gp per HD of the trapped creature)",
+      "details": {
+        "material": "gem worth 1,000 gp per HD of the trapped creature"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature"
+      }
+    ],
+    "duration": {
+      "raw": "permanent; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes; see text",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Imprisons subject within gem."
+  },
+  {
+    "id": "tree-shape",
+    "name": "Tree Shape",
+    "textEn": "This spell allows you to assume the form of a Large living tree or shrub or a Large dead tree trunk with a small number of limbs. The exact type of tree, as well as its appearance, is completely under your control. Even the closest inspection cannot reveal that the tree in question is actually a magically concealed creature. To all normal tests you are, in fact, a tree or shrub, although a *detect magic* spell reveals a faint transmutation on the tree. While in tree form, you can observe all that transpires around you just as if you were in your normal form, and your hit points and save bonuses remain unaffected. You gain a +10 natural armor bonus to AC but have an effective Dexterity score of 0 and a speed of 0 feet. You are immune to critical hits while in tree form. All clothing and gear carried or worn changes with you. You can dismiss *tree shape* as a free action (instead of as a standard action).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Tree Shape",
+    "sourceRef": "PRPG Core Rulebook pg. 362",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "druid": 2,
+      "ranger": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You look exactly like a tree for 1 hour/level."
+  },
+  {
+    "id": "tree-stride",
+    "name": "Tree Stride",
+    "textEn": "When you cast this spell, you gain the ability to step into a tree, magically infusing yourself with the plant. Once within a tree, you can teleport from that particular tree to another tree. The trees you enter must be of the same kind, must be living, and must have girth at least equal to yours. By moving into an oak tree (for example), you instantly know the location of all other oak trees within transport range (see below) and may choose whether you want to pass into one or simply step back out of the tree you moved into. You may choose to pass to any tree of the appropriate kind within the transport range as shown on the following table.\n\n| **Type of Tree** | **Transport Range** |\n| --- | --- |\n| Oak, ash, yew | 3,000 feet |\n| Elm, linden | 2,000 feet |\n| Other deciduous | 1,500 feet |\n| Any coniferous | 1,000 feet |\n\nYou may move into a tree up to one time per caster level (passing from one tree to another counts only as moving into one tree). The spell lasts until the duration expires or you exit a tree. Each transport is a full-round action.\n\nYou can, at your option, remain within a tree without transporting yourself, but you are forced out when the spell ends. If the tree in which you are concealed is chopped down or burned, you are slain if you do not exit before the process is complete.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Tree Stride",
+    "sourceRef": "PRPG Core Rulebook pg. 362",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "teleportation",
+    "descriptors": [],
+    "levels": {
+      "druid": 5,
+      "ranger": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour/level or until expended; see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Step from one tree to another far away."
+  },
+  {
+    "id": "true-resurrection",
+    "name": "True Resurrection",
+    "textEn": "This spell functions like *raise dead*, except that you can resurrect a creature that has been dead for as long as 10 years per caster level. This spell can even bring back creatures whose bodies have been destroyed, provided that you unambiguously identify the deceased in some fashion (reciting the deceased's time and place of birth or death is the most common method).\n\nUpon completion of the spell, the creature is immediately restored to full hit points, vigor, and health, with no negative levels (or Constitution points) and all of the prepared spells possessed by the creature when it died.\n\nYou can revive someone killed by a death effect or someone who has been turned into an undead creature and then destroyed. This spell can also resurrect elementals or outsiders, but it can't resurrect constructs or undead creatures.\n\nEven *true resurrection* can't restore to life a creature who has died of old age.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=True Resurrection",
+    "sourceRef": "PRPG Core Rulebook pg. 362",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "cleric": 9
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF, M (diamond worth 25,000 gp)",
+      "details": {
+        "material": "diamond worth 25,000 gp"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "dead creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none, see text",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "As resurrection, plus remains aren't needed."
+  },
+  {
+    "id": "true-seeing",
+    "name": "True Seeing",
+    "textEn": "You confer on the subject the ability to see all things as they actually are. The subject sees through normal and magical darkness, notices secret doors hidden by magic, sees the exact locations of creatures or objects under *blur* or *displacement* effects, sees invisible creatures or objects normally, sees through illusions, and sees the true form of polymorphed, changed, or transmuted things. Further, the subject can focus its vision to see into the Ethereal Plane (but not into extradimensional spaces). The range of *true seeing* conferred is 120 feet.\n\n*True seeing*, however, does not penetrate solid objects. It in no way confers X-ray vision or its equivalent. It does not negate concealment, including that caused by fog and the like. *True seeing* does not help the viewer see through mundane disguises, spot creatures who are simply hiding, or notice secret doors hidden by mundane means. In addition, the spell effects cannot be further enhanced with known magic, so one cannot use *true seeing* through a *crystal ball* or in conjunction with *clairaudience/clairvoyance*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=True Seeing",
+    "sourceRef": "PRPG Core Rulebook pg. 363",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "cleric": 5,
+      "druid": 7,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (an eye ointment that costs 250 gp)",
+      "details": {
+        "material": "an eye ointment that costs 250 gp"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Lets you see all things as they really are."
+  },
+  {
+    "id": "true-strike",
+    "name": "True Strike",
+    "textEn": "You gain temporary, intuitive insight into the immediate future during your next attack. Your next single attack roll (if it is made before the end of the next round) gains a +20 insight bonus. Additionally, you are not affected by the miss chance that applies to attackers trying to strike a concealed target.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=True Strike",
+    "sourceRef": "PRPG Core Rulebook pg. 363",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, F (small wooden replica of an archery target)",
+      "details": {
+        "focus": "small wooden replica of an archery target"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "+20 on your next attack roll."
+  }
+]

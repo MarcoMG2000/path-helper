@@ -2,56 +2,105 @@
 
 > Qué significa "hacer un buen trabajo" en este proyecto. Léelo antes de
 > redactar specs o implementar.
-> Plantilla neutra: rellena `<...>` con las decisiones reales del proyecto.
 
 ## 1. Objetivo
 
-`<Describe en 2-3 frases qué hace el sistema y cuál es su prioridad nº1
-(corrección, latencia, simplicidad…). Sé explícito sobre qué NO hace.>`
+`path-helper` es una mini-app web/móvil (PWA) para una campaña de **Pathfinder
+1ª edición, solo Core Rulebook**. Cada jugador (7) tiene su ficha, inventario y
+notas privadas; el GM gestiona enemigos y combate; la app agiliza el combate
+calculando iniciativa, ataque y daño a partir de los dados que introducen los
+jugadores.
+
+**Prioridad nº1: corrección respecto al manual.** Un cálculo incorrecto es peor
+que una función ausente. **No hace:** tirar dados por el jugador (se tiran en
+la mesa y se introducen), contenido de expansiones/homebrew, ni un VTT/mapa.
 
 ## 2. Stack (decidido)
 
-| Capa            | Elección            |
-|-----------------|---------------------|
-| Lenguaje        | `<...>`             |
-| Framework/API   | `<...>`             |
-| Almacenamiento  | `<...>`             |
-| Dependencias    | `<...>`             |
-| Tests           | `<...>`             |
+| Capa            | Elección                                                        |
+|-----------------|-----------------------------------------------------------------|
+| Lenguaje        | TypeScript estricto, Node 22 LTS                                |
+| Framework/API   | Fastify + zod (validación); tiempo real con SSE                 |
+| Frontend        | React + Vite, PWA, mobile-first, UI en español                  |
+| Almacenamiento  | SQLite (`node:sqlite`, integrado en Node; sin módulos nativos) tras interfaces `*Store`                |
+| Dependencias    | Versiones pineadas; solo lo necesario                           |
+| Tests           | Vitest, fakes in-memory                                         |
+| Despliegue      | Dockerfile + Fly.io (1 máquina + volumen)                       |
 
 ## 3. Flujo de datos
 
 ```
-<Diagrama o descripción del flujo principal: entrada → procesamiento → salida.>
+Jugador/GM (navegador/móvil)
+   │  introduce d20 / dados / ediciones
+   ▼
+ src/web ──HTTP/SSE──▶ src/server ──▶ política de autorización ──▶ *Store (SQLite)
+                           │
+                           └──▶ src/rules (motor puro) ◀── src/data (SRD Core)
 ```
+
+El motor de reglas recibe estado + dados y devuelve un **desglose** (cada
+número con su fuente y tipo de bonificador). La UI muestra el desglose; nunca
+recalcula reglas por su cuenta.
 
 ## 4. Componentes y puntos de intercambio (swap points)
 
-Todo componente externo vive **detrás de una interfaz**. Las implementaciones
-concretas se eligen por configuración. Esto mantiene los tests sin servicios
-vivos (se inyectan fakes).
+Todo componente externo vive **detrás de una interfaz**; las implementaciones se
+eligen por configuración en un único punto de composición.
 
-- `<Interfaz>` → impl `<Concreta>`, fake en tests.
-- `<...>`
-
-La lógica propia (orquestación, transformaciones) es testeable sin red usando
-los fakes anteriores.
+- `UserStore`, `SessionStore`, `CharacterStore`, `NoteStore`, `CombatStore` →
+  impl SQLite; fake in-memory en tests.
+- `Clock` / `RandomSource` (si hiciera falta) → impl real; fake determinista.
+- `RealtimeBus` (publicación de eventos de combate) → impl SSE; fake en tests.
+- `RulesDataSource` (datos del SRD) → impl JSON empaquetado; fake en tests.
 
 ## 5. Layout del código fuente
 
 ```
 src/
-  <paquete>/
-    <capa-1>/      # responsabilidad
-    <capa-2>/
-    ...
+  shared/    # tipos y schemas zod compartidos cliente/servidor
+  rules/     # motor Pathfinder 1e PURO: sin I/O, sin red, sin BD
+  data/      # datasets del Core Rulebook (JSON) + schemas + validador
+  server/    # http (rutas), auth, authz (políticas), stores, realtime, config
+  web/       # cliente React (páginas, componentes, i18n ES)
+tests/       # espejo de src/: un fichero de test por módulo
 ```
 
-> El nombre exacto de módulos puede afinarse en cada spec, pero **respeta la
-> separación por capas**. Un revisor rechaza código que mezcle capas.
+Reglas de dependencia: `rules` y `data` no importan de `server` ni `web`;
+`server` y `web` pueden importar de `rules`, `data` y `shared`; `web` nunca
+importa de `server`. Un revisor rechaza código que mezcle capas.
 
-## 6. Política de dependencias
+## 6. Autorización (crítica)
 
-- Versiones **pineadas**.
+- Se decide **siempre en el servidor**, en una política central
+  (`authz`), nunca solo ocultando cosas en la UI.
+- Jugador: lee/escribe solo recursos cuyo `ownerId` es el suyo.
+- GM: lee todo **salvo las notas personales de los jugadores** (decisión del humano); escribe lo que el spec de cada feature defina.
+- Los eventos SSE se filtran por rol antes de emitirse (el payload de un jugador
+  no se envía a otro).
+- Todo endpoint nuevo exige un test "jugador A no accede a recurso de B".
+- Contrato reutilizable (f1, `src/server/authz`): cada feature declara las reglas de sus tipos de
+  recurso (`ResourceKindRule`: `scope` owned/shared, `ownerWrite`, `gmRead`, `gmWrite`) y
+  `compose.ts` las une con `mergeKindRules`; todo lo no registrado se deniega. Los handlers
+  responden con `authorizeOrDeny` (lo ilegible es 404, indistinguible de "no existe"; 403 solo si
+  es legible pero no escribible). Los eventos en tiempo real llevan un recurso y vistas
+  `gm`/`owner`/`others`, y la capa SSE (f5) DEBE emitir a cada conexión solo lo que devuelva
+  `projectEventFor(policy, actor, event)`. Las rutas bajo `/api` están protegidas por defecto
+  (hook global; la lista de rutas públicas vive en `src/server/http/auth-plugin.ts`). Para el
+  test "A no accede a B" usa el helper `tests/helpers/ownership-matrix.ts`
+  (`describeOwnershipMatrix`). Recomendación de reglas futuras: `character` (owned, GM lee),
+  `private_note` (owned, `gmRead=false`), `combat` (shared, vistas por rol).
+
+## 7. Fidelidad a las reglas
+
+- Fuente única de reglas: Core Rulebook (SRD, licencia OGL). Única excepción decidida por el humano: los monstruos del Bestiario para el GM, en un dataset aparte (f3b). Nada de
+  Advanced Player's Guide, etc.
+- Cada dato de `src/data` lleva `source` (URL SRD) y texto original; cada regla
+  de `src/rules` cita en comentario/test la regla del Core que implementa.
+- Si una regla es ambigua, el agente **no la inventa**: la anota como pregunta
+  abierta en el spec para que decida el humano.
+
+## 8. Política de dependencias
+
+- Versiones **pineadas** (lockfile commiteado).
 - Solo lo necesario para la feature en curso (no añadas libs "por si acaso").
 - Nada de claves/secretos en el código: van por entorno (`.env`, no commiteado).

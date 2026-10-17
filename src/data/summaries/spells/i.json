@@ -1,0 +1,114 @@
+{
+  "ice-storm": {
+    "summaryEs": "Enormes granizos mágicos infligen 3d6 de daño contundente y 2d6 de frío a toda criatura del área, solo una vez al lanzarlo. Después cae nieve intensa y aguanieve: las criaturas del área sufren –4 a Percepción y toda el área es terreno difícil. Al final no quedan secuelas aparte del daño.",
+    "status": "draft"
+  },
+  "identify": {
+    "summaryEs": "Funciona como detectar magia, pero concede un bonificador de mejora de +10 a las pruebas de Conocimiento de conjuros para identificar las propiedades y palabras de mando de los objetos mágicos en tu posesión. No permite identificar artefactos.",
+    "status": "draft"
+  },
+  "illusory-script": {
+    "summaryEs": "Escribes instrucciones en pergamino, papel u otro material, con aspecto de escritura extranjera o mágica; solo quien designes puede leerla. Un intruso que intente leerla hace una salvación: si falla, queda sujeto a una sugestión que implantaste, que dura solo 30 minutos.",
+    "status": "draft"
+  },
+  "illusory-wall": {
+    "summaryEs": "Crea la ilusión de un muro, suelo, techo o superficie similar que parece absolutamente real, pero que los objetos físicos atraviesan sin dificultad. El tacto o una búsqueda revelan su naturaleza sin hacerla desaparecer. El lanzador ve a través de ella; los demás no, aunque superen la salvación.",
+    "status": "draft"
+  },
+  "imbue-with-spell-ability": {
+    "summaryEs": "Transfieres a otra criatura algunos de tus conjuros preparados y la capacidad de lanzarlos. Solo la recibe una criatura con Inteligencia 5 o más y Sabiduría 9 o más, y solo conjuros de clérigo de abjuración, adivinación y conjuración (curación). Cuántos y de qué nivel depende de sus DG (tabla).",
+    "status": "draft"
+  },
+  "implosion": {
+    "summaryEs": "Provoca una resonancia destructiva en una criatura corpórea: cada asalto que te concentres (incluido el primero), una criatura se colapsa y sufre 10 puntos de daño por nivel de lanzador. Si rompes la concentración el conjuro termina. No afecta a criaturas gaseosas ni incorpóreas.",
+    "status": "draft"
+  },
+  "imprisonment": {
+    "summaryEs": "Al lanzarlo y tocar a una criatura, queda sepultada en animación suspendida en una pequeña esfera bajo tierra, hasta que se lance libertad en ese lugar. Los escrutinios no revelan el encierro, pero discernir ubicación sí; deseo o milagro no la liberan. Con su nombre y datos, sufre –4 a su salvación.",
+    "status": "draft"
+  },
+  "incendiary-cloud": {
+    "summaryEs": "Una nube de humo turbulento con brasas candentes oscurece toda vista como la niebla y, en tu turno de cada asalto, inflige 6d6 de daño de fuego a todo lo que hay dentro (Reflejos por la mitad). El humo se aleja de ti 10 pies por asalto; concentrándote puedes moverlo hasta 60 pies.",
+    "status": "draft"
+  },
+  "inflict-critical-wounds": {
+    "summaryEs": "Funciona como infligir heridas leves, pero inflige 4d8 puntos de daño + 1 por nivel de lanzador (máximo +20).",
+    "status": "draft"
+  },
+  "inflict-critical-wounds-mass": {
+    "summaryEs": "Funciona como infligir heridas leves en masa, pero inflige 4d8 puntos de daño + 1 por nivel de lanzador (máximo +40).",
+    "status": "draft"
+  },
+  "inflict-light-wounds": {
+    "summaryEs": "Al posar la mano sobre una criatura, canalizas energía negativa que inflige 1d8 puntos de daño + 1 por nivel de lanzador (máximo +5). Como los muertos vivientes se alimentan de energía negativa, el conjuro les cura esa cantidad en lugar de dañarlos.",
+    "status": "draft"
+  },
+  "inflict-light-wounds-mass": {
+    "summaryEs": "La energía negativa se extiende en todas direcciones desde el punto de origen e inflige 1d8 puntos de daño + 1 por nivel de lanzador (máximo +25) a los enemigos vivos cercanos. Como otros conjuros inflict, cura a los muertos vivientes del área en lugar de dañarlos.",
+    "status": "draft"
+  },
+  "inflict-moderate-wounds": {
+    "summaryEs": "Funciona como infligir heridas leves, pero inflige 2d8 puntos de daño + 1 por nivel de lanzador (máximo +10).",
+    "status": "draft"
+  },
+  "inflict-moderate-wounds-mass": {
+    "summaryEs": "Funciona como infligir heridas leves en masa, pero inflige 2d8 puntos de daño + 1 por nivel de lanzador (máximo +30).",
+    "status": "draft"
+  },
+  "inflict-serious-wounds": {
+    "summaryEs": "Funciona como infligir heridas leves, pero inflige 3d8 puntos de daño + 1 por nivel de lanzador (máximo +15).",
+    "status": "draft"
+  },
+  "inflict-serious-wounds-mass": {
+    "summaryEs": "Funciona como infligir heridas leves en masa, pero inflige 3d8 puntos de daño + 1 por nivel de lanzador (máximo +35).",
+    "status": "draft"
+  },
+  "insanity": {
+    "summaryEs": "La criatura afectada sufre un efecto continuo de confusión, como el conjuro. Quitar maldición no elimina la locura; restablecimiento mayor, curar, deseo limitado, milagro o deseo pueden restaurar a la criatura.",
+    "status": "draft"
+  },
+  "insect-plague": {
+    "summaryEs": "Convocas enjambres de avispas (uno por cada tres niveles, hasta seis al nivel 18), cada uno adyacente a al menos otro, formando un área contigua; pueden compartir espacio con otras criaturas. Cada enjambre ataca a las criaturas de su área; son estacionarios y no persiguen a quienes huyan.",
+    "status": "draft"
+  },
+  "instant-summons": {
+    "summaryEs": "Llamas un objeto inanimado a tu mano desde casi cualquier lugar. Pones tu marca arcana en él y lanzas el conjuro, que inscribe su nombre en un zafiro de al menos 1,000 po. Diciendo una palabra especial y aplastando la gema, el objeto aparece en tu mano. Si otra criatura lo posee, no funciona.",
+    "status": "draft"
+  },
+  "interposing-hand": {
+    "summaryEs": "Crea una mano mágica Grande entre tú y un oponente que permanece interpuesta pese a cualquier intento de rodearla y te da cobertura (+4 CA) contra él. Nada la engaña. No persigue al oponente. Tiene tantos puntos de golpe como tú sin daño y CA 20 (–1 tamaño, +11 natural).",
+    "status": "draft"
+  },
+  "invisibility": {
+    "summaryEs": "La criatura u objeto tocado se vuelve invisible, y su equipo también. Si lo lanzas sobre otro, ni tú ni tus aliados lo veis salvo que normalmente veáis lo invisible. Los objetos soltados se hacen visibles; los recogidos desaparecen. Lo que se extienda más de 10 pies del sujeto se hace visible.",
+    "status": "draft"
+  },
+  "invisibility-greater": {
+    "summaryEs": "Funciona como invisibilidad, pero no termina si el sujeto ataca.",
+    "status": "draft"
+  },
+  "invisibility-mass": {
+    "summaryEs": "Funciona como invisibilidad, pero el efecto se mueve con el grupo y se rompe cuando alguien del grupo ataca. Los miembros no se ven entre sí. El conjuro se rompe para quien se aleje más de 180 pies del miembro más cercano; con solo dos individuos, pierde la invisibilidad el que se aleja del otro.",
+    "status": "draft"
+  },
+  "invisibility-purge": {
+    "summaryEs": "Te rodeas de una esfera de poder con un radio de 5 pies por nivel de lanzador que niega todas las formas de invisibilidad: todo lo invisible se hace visible mientras esté en el área.",
+    "status": "draft"
+  },
+  "invisibility-sphere": {
+    "summaryEs": "Funciona como invisibilidad, pero la confiere a todas las criaturas a 10 pies del receptor al lanzarlo; el centro del efecto se mueve con él. Quien salga del área se hace visible; quien entre después no se vuelve invisible. Si ataca el receptor, el conjuro termina.",
+    "status": "draft"
+  },
+  "iron-body": {
+    "summaryEs": "Transforma tu cuerpo en hierro vivo: RD 15/adamantina; inmunidad a ceguera, golpes críticos, daño de característica, sordera, enfermedad, ahogamiento, electricidad, veneno y aturdimiento; solo la mitad del daño de ácido y fuego. +6 de mejora a Fuerza, –6 a Destreza y velocidad a la mitad.",
+    "status": "draft"
+  },
+  "ironwood": {
+    "summaryEs": "Sustancia mágica que los druidas crean de madera normal: sigue siendo madera, pero tan fuerte, pesada y resistente al fuego como el acero. Los conjuros que afectan a metal o hierro no funcionan en ella; los de madera sí, aunque no arde. Permite hacer objetos de madera que valen como de acero.",
+    "status": "draft"
+  },
+  "irresistible-dance": {
+    "summaryEs": "El sujeto siente un impulso irresistible de bailar y solo puede brincar en el sitio. Sufre –4 a la CA y –10 a las salvaciones de Reflejos, pierde el bonificador de CA de su escudo y provoca ataques de oportunidad cada asalto en su turno. Una salvación de Voluntad reduce la duración a 1 asalto.",
+    "status": "draft"
+  }
+}

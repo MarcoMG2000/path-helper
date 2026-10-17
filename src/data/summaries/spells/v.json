@@ -1,0 +1,22 @@
+{
+  "vampiric-touch": {
+    "summaryEs": "Con un ataque de toque cuerpo a cuerpo con éxito infliges 1d6 de daño por cada dos niveles (máximo 10d6) y obtienes puntos de golpe temporales iguales al daño causado, hasta los puntos de golpe actuales del sujeto + su Constitución. Los puntos temporales desaparecen 1 hora después.",
+    "status": "draft"
+  },
+  "veil": {
+    "summaryEs": "Cambias al instante la apariencia de los sujetos y la mantienes: pueden parecer cualquier cosa, y se ven, sienten y huelen como tal. Recuperan su aspecto si mueren. Duplicar a un individuo exige una prueba de Disfrazarse (+10 del conjuro). Los reacios pueden anularlo con Voluntad.",
+    "status": "draft"
+  },
+  "ventriloquism": {
+    "summaryEs": "Haces que tu voz (o cualquier sonido que puedas producir) parezca venir de otro lugar. Puedes hablar en cualquier idioma que conozcas. Quien oiga el sonido y supere una salvación lo reconoce como ilusorio (aunque lo sigue oyendo).",
+    "status": "draft"
+  },
+  "virtue": {
+    "summaryEs": "Con un toque infundes un pequeño impulso de vida, otorgando al sujeto 1 punto de golpe temporal.",
+    "status": "draft"
+  },
+  "vision": {
+    "summaryEs": "Funciona como legend lore, pero más rápido y con tensión para ti. Planteas una pregunta y recibes una visión superando una prueba de nivel de lanzador (1d20 + 1 por nivel; máximo +25) contra CD 20 (25 con solo información detallada, 30 con solo rumores). Después quedas fatigued.",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,258 @@
+[
+  {
+    "id": "dazzling-display",
+    "name": "Dazzling Display",
+    "textEn": "Your skill with your favored weapon can frighten enemies.\n\n**Prerequisites**: Weapon Focus, proficiency with the selected weapon.\n\n**Benefit**: While wielding the weapon in which you have Weapon Focus, you can perform a bewildering show of prowess as a full-round action. Make an Intimidate check to demoralize all foes within 30 feet who can see your display.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Dazzling%20Display",
+    "sourceRef": "PRPG Core Rulebook pg. 120",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Weapon Focus, proficiency with the selected weapon.",
+      "featIds": [
+        "weapon-focus"
+      ],
+      "skills": [],
+      "other": [
+        "proficiency with the selected weapon"
+      ]
+    },
+    "benefit": "While wielding the weapon in which you have Weapon Focus, you can perform a bewildering show of prowess as a full-round action. Make an Intimidate check to demoralize all foes within 30 feet who can see your display."
+  },
+  {
+    "id": "deadly-aim",
+    "name": "Deadly Aim",
+    "textEn": "You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.\n\n**Prerequisites**: Dex 13, base attack bonus +1.\n\n**Benefit**: You can choose to take a –1 penalty on all ranged attack rolls to gain a +2 bonus on all ranged damage rolls. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by –1 and the bonus to damage increases by +2. You must choose to use this feat before making an attack roll and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Deadly%20Aim",
+    "sourceRef": "PRPG Core Rulebook pg. 121",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 13, base attack bonus +1.",
+      "abilities": {
+        "dex": 13
+      },
+      "bab": 1,
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can choose to take a –1 penalty on all ranged attack rolls to gain a +2 bonus on all ranged damage rolls. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by –1 and the bonus to damage increases by +2. You must choose to use this feat before making an attack roll and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage."
+  },
+  {
+    "id": "deadly-stroke",
+    "name": "Deadly Stroke",
+    "textEn": "With a well-placed strike, you can bring a swift and painful end to most foes.\n\n**Prerequisites**: Dazzling Display, Greater Weapon Focus, Shatter Defenses, Weapon Focus, proficiency with the selected weapon, base attack bonus +11.\n\n**Benefit**: As a standard action, make a single attack with the weapon for which you have Greater Weapon Focus against a stunned or flat-footed opponent. If you hit, you deal double the normal damage and the target takes 1 point of Constitution bleed (see Conditions). The additional damage and bleed is not multiplied on a critical hit.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Deadly%20Stroke",
+    "sourceRef": "PRPG Core Rulebook pg. 121",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dazzling Display, Greater Weapon Focus, Shatter Defenses, Weapon Focus, proficiency with the selected weapon, base attack bonus +11.",
+      "bab": 11,
+      "featIds": [
+        "dazzling-display",
+        "greater-weapon-focus",
+        "shatter-defenses",
+        "weapon-focus"
+      ],
+      "skills": [],
+      "other": [
+        "proficiency with the selected weapon"
+      ]
+    },
+    "benefit": "As a standard action, make a single attack with the weapon for which you have Greater Weapon Focus against a stunned or flat-footed opponent. If you hit, you deal double the normal damage and the target takes 1 point of Constitution bleed (see Conditions). The additional damage and bleed is not multiplied on a critical hit."
+  },
+  {
+    "id": "deafening-critical",
+    "name": "Deafening Critical",
+    "textEn": "Your critical hits cause enemies to lose their hearing.\n\n**Prerequisites**: Critical Focus, base attack bonus +13.\n\n**Benefit**: Whenever you score a critical hit against an opponent, the victim is permanently deafened. A successful Fortitude save reduces the deafness to 1 round. The DC of this Fortitude save is equal to 10 + your base attack bonus. This feat has no effect on deaf creatures. This deafness can be cured by *heal*, *regeneration*, *remove deafness*, or a similar ability.\n\n**Special**: You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Deafening%20Critical",
+    "sourceRef": "PRPG Core Rulebook pg. 121",
+    "book": "CRB",
+    "types": [
+      "Combat",
+      "Critical"
+    ],
+    "prerequisites": {
+      "raw": "Critical Focus, base attack bonus +13.",
+      "bab": 13,
+      "featIds": [
+        "critical-focus"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Whenever you score a critical hit against an opponent, the victim is permanently deafened. A successful Fortitude save reduces the deafness to 1 round. The DC of this Fortitude save is equal to 10 + your base attack bonus. This feat has no effect on deaf creatures. This deafness can be cured by *heal*, *regeneration*, *remove deafness*, or a similar ability.",
+    "special": "You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery."
+  },
+  {
+    "id": "deceitful",
+    "name": "Deceitful",
+    "textEn": "You are skilled at deceiving others, both with the spoken word and with physical disguises.\n\n**Benefit**: You get a +2 bonus on all Bluff and Disguise skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Deceitful",
+    "sourceRef": "PRPG Core Rulebook pg. 121",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You get a +2 bonus on all Bluff and Disguise skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill."
+  },
+  {
+    "id": "defensive-combat-training",
+    "name": "Defensive Combat Training",
+    "textEn": "You excel at defending yourself from all manner of combat maneuvers.\n\n**Benefit**: You treat your total Hit Dice as your base attack bonus when calculating your Combat Maneuver Defense (see Combat).",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Defensive%20Combat%20Training",
+    "sourceRef": "PRPG Core Rulebook pg. 121",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You treat your total Hit Dice as your base attack bonus when calculating your Combat Maneuver Defense (see Combat)."
+  },
+  {
+    "id": "deflect-arrows",
+    "name": "Deflect Arrows",
+    "textEn": "You can knock arrows and other projectiles off course, preventing them from hitting you.\n\n**Prerequisites**: Dex 13, Improved Unarmed Strike.\n\n**Benefit**: You must have at least one hand free (holding nothing) to use this feat. Once per round when you would normally be hit with an attack from a ranged weapon, you may deflect it so that you take no damage from it. You must be aware of the attack and not flat-footed. Attempting to deflect a ranged attack doesn't count as an action. Unusually massive ranged weapons (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects can't be deflected.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Deflect%20Arrows",
+    "sourceRef": "PRPG Core Rulebook pg. 121",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 13, Improved Unarmed Strike.",
+      "abilities": {
+        "dex": 13
+      },
+      "featIds": [
+        "improved-unarmed-strike"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You must have at least one hand free (holding nothing) to use this feat. Once per round when you would normally be hit with an attack from a ranged weapon, you may deflect it so that you take no damage from it. You must be aware of the attack and not flat-footed. Attempting to deflect a ranged attack doesn't count as an action. Unusually massive ranged weapons (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects can't be deflected."
+  },
+  {
+    "id": "deft-hands",
+    "name": "Deft Hands",
+    "textEn": "You have exceptional manual dexterity.\n\n**Benefit**: You get a +2 bonus on Disable Device and Sleight of Hand skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Deft%20Hands",
+    "sourceRef": "PRPG Core Rulebook pg. 121",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You get a +2 bonus on Disable Device and Sleight of Hand skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill."
+  },
+  {
+    "id": "diehard",
+    "name": "Diehard",
+    "textEn": "You are especially hard to kill. Not only do your wounds automatically stabilize when grievously injured, but you can remain conscious and continue to act even at death's door.\n\n**Prerequisites**: Endurance.\n\n**Benefit**: When your hit point total is below 0, but you are not dead, you automatically stabilize. You do not need to make a Constitution check each round to avoid losing additional hit points. You may choose to act as if you were disabled, rather than dying. You must make this decision as soon as you are reduced to negative hit points (even if it isn't your turn). If you do not choose to act as if you were disabled, you immediately fall unconscious.\n\nWhen using this feat, you are staggered. You can take a move action without further injuring yourself, but if you perform any standard action (or any other action deemed as strenuous, including some swift actions, such as casting a quickened spell) you take 1 point of damage after completing the act. If your negative hit points are equal to or greater than your Constitution score, you immediately die.\n\n**Normal**: A character without this feat who is reduced to negative hit points is unconscious and dying.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Diehard",
+    "sourceRef": "PRPG Core Rulebook pg. 122",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Endurance.",
+      "featIds": [
+        "endurance"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "When your hit point total is below 0, but you are not dead, you automatically stabilize. You do not need to make a Constitution check each round to avoid losing additional hit points. You may choose to act as if you were disabled, rather than dying. You must make this decision as soon as you are reduced to negative hit points (even if it isn't your turn). If you do not choose to act as if you were disabled, you immediately fall unconscious.\n\nWhen using this feat, you are staggered. You can take a move action without further injuring yourself, but if you perform any standard action (or any other action deemed as strenuous, including some swift actions, such as casting a quickened spell) you take 1 point of damage after completing the act. If your negative hit points are equal to or greater than your Constitution score, you immediately die.",
+    "normal": "A character without this feat who is reduced to negative hit points is unconscious and dying."
+  },
+  {
+    "id": "disruptive",
+    "name": "Disruptive",
+    "textEn": "Your training makes it difficult for enemy spellcasters to safely cast spells near you.\n\n**Prerequisites**: 6th-level fighter.\n\n**Benefit**: The DC to cast spells defensively increases by +4 for all enemies that are within your threatened area. This increase to casting spells defensively only applies if you are aware of the enemy's location and are capable of taking an attack of opportunity. If you can only take one attack of opportunity per round and have already used that attack, this increase does not apply.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Disruptive",
+    "sourceRef": "PRPG Core Rulebook pg. 122",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "6th-level fighter.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "6th-level fighter"
+      ]
+    },
+    "benefit": "The DC to cast spells defensively increases by +4 for all enemies that are within your threatened area. This increase to casting spells defensively only applies if you are aware of the enemy's location and are capable of taking an attack of opportunity. If you can only take one attack of opportunity per round and have already used that attack, this increase does not apply."
+  },
+  {
+    "id": "dodge",
+    "name": "Dodge",
+    "textEn": "Your training and reflexes allow you to react swiftly to avoid an opponents' attacks.\n\n**Prerequisites**: Dex 13.\n\n**Benefit**: You gain a +1 dodge bonus to your AC. A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Dodge",
+    "sourceRef": "PRPG Core Rulebook pg. 122",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 13.",
+      "abilities": {
+        "dex": 13
+      },
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You gain a +1 dodge bonus to your AC. A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat."
+  },
+  {
+    "id": "double-slice",
+    "name": "Double Slice",
+    "textEn": "Your off-hand weapon while dual-wielding strikes with greater power.\n\n**Prerequisites**: Dex 15, Two-Weapon Fighting.\n\n**Benefit**: Add your Strength bonus to damage rolls made with your off-hand weapon.\n\n**Normal**: You normally add only half of your Strength modifier to damage rolls made with a weapon wielded in your off-hand.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Double%20Slice",
+    "sourceRef": "PRPG Core Rulebook pg. 122",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 15, Two-Weapon Fighting.",
+      "abilities": {
+        "dex": 15
+      },
+      "featIds": [
+        "two-weapon-fighting"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Add your Strength bonus to damage rolls made with your off-hand weapon.",
+    "normal": "You normally add only half of your Strength modifier to damage rolls made with a weapon wielded in your off-hand."
+  }
+]

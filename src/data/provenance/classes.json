@@ -1,0 +1,51 @@
+{
+  "license": "OGL-1.0a",
+  "category": "classes",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Barbarian",
+      "sha256": "f698519c82fc51ced7f5a6f99a68726ff9ba8b56ff8f342e95797bdbda6b3c3a",
+      "bytes": 81480,
+      "fetchedAt": "2026-10-16T13:52:05.989Z"
+    },
+    {
+      "url": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Bard",
+      "sha256": "64a764f897c04d957a0ffd406c420b04baa0d8d374a58b39bcc958b731ace931",
+      "bytes": 133380,
+      "fetchedAt": "2026-10-16T13:52:06.506Z"
+    },
+    {
+      "url": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Cleric",
+      "sha256": "85138bdb3a11e2c9d1c90248450f504b5bacb0bac43376f3c58d8da20ae9a2e8",
+      "bytes": 100507,
+      "fetchedAt": "2026-10-16T13:52:07.514Z"
+    },
+    {
+      "url": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Druid",
+      "sha256": "6dea2aff53adf1d3b857076c5910742a37d6177c4320d5ca572c68e2a5a74cca",
+      "bytes": 114602,
+      "fetchedAt": "2026-10-16T13:52:08.497Z"
+    },
+    {
+      "url": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Paladin",
+      "sha256": "c3805101bd988b688c30b02a1bf3396fb1cefb9ae58b89bd4284345e0dacbe90",
+      "bytes": 107696,
+      "fetchedAt": "2026-10-16T13:52:09.501Z"
+    },
+    {
+      "url": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Ranger",
+      "sha256": "b39215ce203d2d9f5b84b500ecba0e349d62f539987954522e6f8e067648700e",
+      "bytes": 122727,
+      "fetchedAt": "2026-10-16T13:52:10.502Z"
+    },
+    {
+      "url": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Rogue",
+      "sha256": "7491503729198852a574b7d6a33cebbf5eb3f1cdd319d564c3268a7b61e7a8cb",
+      "bytes": 99187,
+      "fetchedAt": "2026-10-16T13:52:11.507Z"
+    }
+  ],
+  "expectedCount": 7
+}

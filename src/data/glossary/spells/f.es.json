@@ -1,0 +1,218 @@
+{
+  "spells:fabricate": {
+    "es": "Fabricar",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:faerie-fire": {
+    "es": "Fuego feérico",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:false-life": {
+    "es": "Falsa vida",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:false-vision": {
+    "es": "Falsa visión",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:fear": {
+    "es": "Miedo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:feather-fall": {
+    "es": "Caída de pluma",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:feeblemind": {
+    "es": "Debilidad mental",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:find-the-path": {
+    "es": "Encontrar el camino",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:find-traps": {
+    "es": "Encontrar trampas",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:finger-of-death": {
+    "es": "Dedo de la muerte",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:fire-seeds": {
+    "es": "Semillas de fuego",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:fire-shield": {
+    "es": "Escudo de fuego",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:fire-storm": {
+    "es": "Tormenta de fuego",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:fire-trap": {
+    "es": "Trampa de fuego",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:fireball": {
+    "es": "Bola de fuego",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:flame-arrow": {
+    "es": "Flecha de fuego",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:flame-blade": {
+    "es": "Hoja de llamas",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:flame-strike": {
+    "es": "Golpe de llamas",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:flaming-sphere": {
+    "es": "Esfera de fuego",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:flare": {
+    "es": "Destello",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:flesh-to-stone": {
+    "es": "De carne a piedra",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:floating-disk": {
+    "es": "Disco flotante",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:fly": {
+    "es": "Volar",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:fog-cloud": {
+    "es": "Nube de niebla",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:forbiddance": {
+    "es": "Prohibición",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:forcecage": {
+    "es": "Jaula de fuerza",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:forceful-hand": {
+    "es": "Mano poderosa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:foresight": {
+    "es": "Presciencia",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:form-of-the-dragon-i": {
+    "es": "Forma de dragón I",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:form-of-the-dragon-ii": {
+    "es": "Forma de dragón II",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:form-of-the-dragon-iii": {
+    "es": "Forma de dragón III",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:foxs-cunning": {
+    "es": "Astucia de zorro",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:foxs-cunning-mass": {
+    "es": "Astucia de zorro, en masa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:freedom": {
+    "es": "Libertad",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:freedom-of-movement": {
+    "es": "Libertad de movimiento",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:freezing-sphere": {
+    "es": "Esfera gélida",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  }
+}

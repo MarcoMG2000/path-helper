@@ -1,0 +1,134 @@
+{
+  "spells:eagles-splendor": {
+    "es": "Esplendor del águila",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:eagles-splendor-mass": {
+    "es": "Esplendor del águila, en masa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:earthquake": {
+    "es": "Terremoto",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:elemental-body-i": {
+    "es": "Cuerpo elemental I",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:elemental-body-ii": {
+    "es": "Cuerpo elemental II",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:elemental-body-iii": {
+    "es": "Cuerpo elemental III",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:elemental-body-iv": {
+    "es": "Cuerpo elemental IV",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:elemental-swarm": {
+    "es": "Enjambre elemental",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:endure-elements": {
+    "es": "Resistir los elementos",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:energy-drain": {
+    "es": "Drenaje de energía",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:enervation": {
+    "es": "Enervación",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:enlarge-person": {
+    "es": "Agrandar persona",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:enlarge-person-mass": {
+    "es": "Agrandar persona, en masa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:entangle": {
+    "es": "Enredar",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:enthrall": {
+    "es": "Embelesar",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:entropic-shield": {
+    "es": "Escudo entrópico",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:erase": {
+    "es": "Borrar",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:ethereal-jaunt": {
+    "es": "Salto etéreo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:etherealness": {
+    "es": "Etereidad",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:expeditious-retreat": {
+    "es": "Retirada expeditiva",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:explosive-runes": {
+    "es": "Runas explosivas",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:eyebite": {
+    "es": "Mal de ojo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "spells:ice-storm": {
+    "es": "Tormenta de hielo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:identify": {
+    "es": "Identificar",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:illusory-script": {
+    "es": "Escritura ilusoria",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:illusory-wall": {
+    "es": "Muro ilusorio",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:imbue-with-spell-ability": {
+    "es": "Imbuir con capacidad de conjuro",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:implosion": {
+    "es": "Implosión",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:imprisonment": {
+    "es": "Encarcelamiento",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:incendiary-cloud": {
+    "es": "Nube incendiaria",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:inflict-critical-wounds": {
+    "es": "Infligir heridas críticas",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:inflict-critical-wounds-mass": {
+    "es": "Infligir heridas críticas, en masa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:inflict-light-wounds": {
+    "es": "Infligir heridas leves",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:inflict-light-wounds-mass": {
+    "es": "Infligir heridas leves, en masa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:inflict-moderate-wounds": {
+    "es": "Infligir heridas moderadas",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:inflict-moderate-wounds-mass": {
+    "es": "Infligir heridas moderadas, en masa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:inflict-serious-wounds": {
+    "es": "Infligir heridas graves",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:inflict-serious-wounds-mass": {
+    "es": "Infligir heridas graves, en masa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:insanity": {
+    "es": "Locura",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:insect-plague": {
+    "es": "Plaga de insectos",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:instant-summons": {
+    "es": "Convocación instantánea",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:interposing-hand": {
+    "es": "Mano interpuesta",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:invisibility": {
+    "es": "Invisibilidad",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:invisibility-greater": {
+    "es": "Invisibilidad, mayor",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:invisibility-mass": {
+    "es": "Invisibilidad, en masa",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:invisibility-purge": {
+    "es": "Purga de invisibilidad",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:invisibility-sphere": {
+    "es": "Esfera de invisibilidad",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:iron-body": {
+    "es": "Cuerpo de hierro",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:ironwood": {
+    "es": "Madera de hierro",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  },
+  "spells:irresistible-dance": {
+    "es": "Danza irresistible",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry"
+  }
+}

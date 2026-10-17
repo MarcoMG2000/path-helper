@@ -1,0 +1,58 @@
+{
+  "elemental-channel": {
+    "summaryEs": "Tu canalización de energía cura o daña solo a ajenos de tu subtipo elemental elegido (eliges cada vez). Se puede tomar varias veces, sin acumularse, para un subtipo nuevo cada vez.",
+    "status": "draft"
+  },
+  "empower-spell": {
+    "summaryEs": "Los efectos numéricos variables del conjuro aumentan en la mitad. Ocupa un espacio de conjuro dos niveles superior al real.",
+    "status": "draft"
+  },
+  "endurance": {
+    "summaryEs": "+4 a varias pruebas y salvaciones de resistencia (natación, carrera, aguantar la respiración, hambre, sed, calor, frío, asfixia). Puedes dormir con armadura ligera o media sin quedar fatigado.",
+    "status": "draft"
+  },
+  "enlarge-spell": {
+    "summaryEs": "Aumentas un 100% el alcance de un conjuro cercano, medio o largo (cercano pasa a 50 pies + 5 pies/nivel, etc.). Ocupa un espacio de conjuro un nivel superior al real.",
+    "status": "draft"
+  },
+  "eschew-materials": {
+    "summaryEs": "Lanzas sin componente material los conjuros cuyo componente cueste 1 po o menos. Si cuesta más, lo necesitas como siempre.",
+    "status": "draft"
+  },
+  "exhausting-critical": {
+    "summaryEs": "Al hacer un crítico, el objetivo queda agotado de inmediato. Sin efecto en agotados. Solo un efecto de dote crítica por crítico salvo Critical Mastery.",
+    "status": "draft"
+  },
+  "exotic-weapon-proficiency": {
+    "summaryEs": "Haces tiradas de ataque con el arma exótica elegida sin la penalización de –4 por no tener competencia. Se puede tomar varias veces, para un arma exótica nueva cada vez.",
+    "status": "draft"
+  },
+  "extend-spell": {
+    "summaryEs": "El conjuro dura el doble. No afecta a concentración, instantáneo ni permanente. Ocupa un espacio de conjuro un nivel superior al real.",
+    "status": "draft"
+  },
+  "extra-channel": {
+    "summaryEs": "Canalizas energía dos veces más al día. Hay variantes para paladines y otros con habilidades de canalización (ver texto).",
+    "status": "draft"
+  },
+  "extra-ki": {
+    "summaryEs": "Tu reserva de ki aumenta en 2. Se puede tomar varias veces y se acumula.",
+    "status": "draft"
+  },
+  "extra-lay-on-hands": {
+    "summaryEs": "Usas imposición de manos (lay on hands) dos veces más al día. Se puede tomar varias veces y se acumula.",
+    "status": "draft"
+  },
+  "extra-mercy": {
+    "summaryEs": "Eliges una piedad (mercy) adicional para la que califiques: al curar con imposición de manos a un objetivo, recibe también su efecto. Se puede tomar varias veces, eligiendo una piedad nueva cada vez.",
+    "status": "draft"
+  },
+  "extra-performance": {
+    "summaryEs": "Usas interpretación de bardo durante 6 asaltos más al día. Se puede tomar varias veces y se acumula.",
+    "status": "draft"
+  },
+  "extra-rage": {
+    "summaryEs": "Puedes entrar en furia durante 6 asaltos más al día. Se puede tomar varias veces y se acumula.",
+    "status": "draft"
+  }
+}

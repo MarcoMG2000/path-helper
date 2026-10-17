@@ -1,0 +1,1291 @@
+[
+  {
+    "id": "adamantine-battleaxe",
+    "name": "Adamantine Battleaxe",
+    "textEn": "**Aura** no aura (nonmagical); **Slot** none; **Price** 3,010 gp; **Weight** 6 lbs.\n\n**Description**\n\nThis nonmagical axe is made of adamantine. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Adamantine%20Battleaxe",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "no aura (nonmagical)",
+    "weightLb": 6,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 150, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 150"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "3,010 gp",
+        "priceCp": 301000,
+        "effects": [
+          {
+            "target": "attack",
+            "bonusType": "enhancement",
+            "value": 1,
+            "appliesTo": "item",
+            "conditional": false,
+            "evidence": "+1 enhancement bonus on attack rolls"
+          }
+        ],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": null,
+    "baseItemRaw": "This nonmagical axe is made of adamantine.",
+    "abilityIds": [],
+    "baseEvidence": "This nonmagical axe is made of adamantine.",
+    "needsReview": true
+  },
+  {
+    "id": "adamantine-dagger",
+    "name": "Adamantine Dagger",
+    "textEn": "**Aura** no aura (nonmagical); **Slot** none; **Price** 3,002 gp; **Weight** 1 lb.\n\n**Description**\n\nThis nonmagical dagger is made out of adamantine. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Adamantine%20Dagger",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "no aura (nonmagical)",
+    "weightLb": 1,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 150, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 150"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "3,002 gp",
+        "priceCp": 300200,
+        "effects": [
+          {
+            "target": "attack",
+            "bonusType": "enhancement",
+            "value": 1,
+            "appliesTo": "item",
+            "conditional": false,
+            "evidence": "+1 enhancement bonus on attack rolls"
+          }
+        ],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "dagger",
+    "abilityIds": [],
+    "baseEvidence": "nonmagical dagger"
+  },
+  {
+    "id": "assassins-dagger",
+    "name": "Assassin's Dagger",
+    "textEn": "**Aura** moderate necromancy; **CL** 9th; **Slot** none; **Price** 10,302 gp; **Weight** 1 lb.\n\n**Description**\n\nThis wicked-looking, curved *+2 dagger* provides a +1 bonus to the DC of a Fortitude save forced by the death attack of an assassin.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *slay living*; **Price** 5,302 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Assassin's%20Dagger",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "moderate necromancy",
+    "weightLb": 1,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, slay living",
+      "costRaw": "5,302 gp",
+      "costCp": 530200
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 150, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 150"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 9,
+        "priceRaw": "10,302 gp",
+        "priceCp": 1030200,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "dagger",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 2
+    },
+    "abilityIds": [],
+    "baseEvidence": "+2 dagger"
+  },
+  {
+    "id": "cold-iron-masterwork-longsword",
+    "name": "Cold Iron Masterwork Longsword",
+    "textEn": "**Aura** no aura (nonmagical); **Slot** none; **Price** 330 gp; **Weight** 4 lbs.\n\n**Description**\n\nThis nonmagical longsword is crafted out of cold iron. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Cold%20Iron%20Masterwork%20Longsword",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "no aura (nonmagical)",
+    "weightLb": 4,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 153, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 153"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "330 gp",
+        "priceCp": 33000,
+        "effects": [
+          {
+            "target": "attack",
+            "bonusType": "enhancement",
+            "value": 1,
+            "appliesTo": "item",
+            "conditional": false,
+            "evidence": "+1 enhancement bonus on attack rolls"
+          }
+        ],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "longsword",
+    "abilityIds": [],
+    "baseEvidence": "nonmagical longsword"
+  },
+  {
+    "id": "dagger-of-venom",
+    "name": "Dagger of Venom",
+    "textEn": "**Aura** faint necromancy; **CL** 5th; **Slot** none; **Price** 8,302 gp; **Weight** 1 lb.\n\n**Description**\n\nThis black *+1 dagger* has a serrated edge. It allows the wielder to use a *poison* effect (as the spell, save DC 14) upon a creature struck by the blade once per day. The wielder can decide to use the power after he has struck. Doing so is a free action, but the poison effect must be invoked in the same round that the dagger strikes.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *poison*; **Price** 4,302 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Dagger%20of%20Venom",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "faint necromancy",
+    "weightLb": 1,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, poison",
+      "costRaw": "4,302 gp",
+      "costCp": 430200
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 153, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 153"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "8,302 gp",
+        "priceCp": 830200,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "dagger",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "+1 dagger"
+  },
+  {
+    "id": "dwarven-thrower",
+    "name": "Dwarven Thrower",
+    "textEn": "**Aura** moderate evocation; **CL** 10th; **Slot** none; **Price** 60,312 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis weapon functions as a *+2 warhammer* in the hands of most users. Yet in the hands of a dwarf, the warhammer gains an additional +1 enhancement bonus (for a total enhancement bonus of +3) and gains the *returning* special ability. It can be hurled with a 30-foot range increment. When hurled, a dwarven thrower deals an extra 2d8 points of damage against creatures of the giant subtype or an extra 1d8 points of damage against any other target.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, creator must be a dwarf of at least 10th level; **Price** 30,312 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Dwarven%20Thrower",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "moderate evocation",
+    "weightLb": 5,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, creator must be a dwarf of at least 10th level",
+      "costRaw": "30,312 gp",
+      "costCp": 3031200
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 154, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 154"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 10,
+        "priceRaw": "60,312 gp",
+        "priceCp": 6031200,
+        "effects": [],
+        "extraDamage": [
+          {
+            "dice": "2d8",
+            "damageType": "untyped",
+            "trigger": "conditional",
+            "conditionText": "an extra 2d8 points of damage against creatures of the giant subtype or an extra 1d8 points of damage against any other target",
+            "evidence": "an extra 2d8 points of damage against creatures of the giant subtype or an extra 1d8 points of damage against any other target"
+          }
+        ]
+      }
+    ],
+    "baseItemId": "warhammer",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 2
+    },
+    "abilityIds": [],
+    "baseEvidence": "+2 warhammer"
+  },
+  {
+    "id": "flame-tongue",
+    "name": "Flame Tongue",
+    "textEn": "**Aura** strong evocation; **CL** 12th; **Slot** none; **Price** 20,715 gp; **Weight** 4 lbs.\n\n**Description**\n\nThis is a *+1 flaming burst longsword*. Once per day, the sword can blast forth a fiery ray at any target within 30 feet as a ranged touch attack. The ray deals 4d6 points of fire damage on a successful hit.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *scorching ray* and *fireball*, *flame blade*, or *flame strike*; **Price** 10,515 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flame%20Tongue",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong evocation",
+    "weightLb": 4,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, scorching ray and fireball, flame blade, or flame strike",
+      "costRaw": "10,515 gp",
+      "costCp": 1051500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 155, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 155"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 12,
+        "priceRaw": "20,715 gp",
+        "priceCp": 2071500,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "longsword",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 1
+    },
+    "abilityIds": [
+      "flaming-burst"
+    ],
+    "baseEvidence": "+1 flaming burst longsword"
+  },
+  {
+    "id": "frost-brand",
+    "name": "Frost Brand",
+    "textEn": "**Aura** strong evocation; **CL** 14th; **Slot** none; **Price** 54,475 gp; **Weight** 8 lbs.\n\n**Description**\n\nThis *+3 frost greatsword* sheds light as a torch when the temperature drops below 0° F. At such times it cannot be concealed when drawn, nor can its light be shut off. Its wielder is protected from fire; the sword absorbs the first 10 points of fire damage each round that the wielder would otherwise take.\n\nA *frost brand* extinguishes all nonmagical fires in a 20-foot radius. As a standard action, it can also dispel lasting fire spells, but not instantaneous effects. You must succeed at a dispel check (1d20 +14) against each spell to dispel it. The DC to dispel such spells is 11 + the caster level of the fire spell.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *dispel magic*, *ice storm*, *protection from energy*; **Price** 27,375 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Frost%20Brand",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong evocation",
+    "weightLb": 8,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, dispel magic, ice storm, protection from energy",
+      "costRaw": "27,375 gp",
+      "costCp": 2737500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 155, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 155"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 14,
+        "priceRaw": "54,475 gp",
+        "priceCp": 5447500,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "greatsword",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 3
+    },
+    "abilityIds": [
+      "frost"
+    ],
+    "baseEvidence": "+3 frost greatsword"
+  },
+  {
+    "id": "holy-avenger",
+    "name": "Holy Avenger",
+    "textEn": "**Aura** strong abjuration; **CL** 18th; **Slot** none; **Price** 120,630 gp; **Weight** 4 lbs.\n\n**Description**\n\nThis *+2 cold iron longsword* becomes a *+5 holy cold iron longsword* in the hands of a paladin.\n\nWhen wielded by a paladin, this sacred weapon provides spell resistance of 5 + the paladin’s class level to the wielder and anyone adjacent to her. It also enables the paladin to use *greater dispel magic* (once per round as a standard action) at the class level of the paladin. Only the area dispel is possible, not the targeted dispel or counterspell versions of greater dispel magic.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *holy aura*, creator must be good; **Price** 60,630 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Holy%20Avenger",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong abjuration",
+    "weightLb": 4,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, holy aura, creator must be good",
+      "costRaw": "60,630 gp",
+      "costCp": 6063000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 156, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 156"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 18,
+        "priceRaw": "120,630 gp",
+        "priceCp": 12063000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "longsword",
+    "abilityIds": [],
+    "baseEvidence": "+2 cold iron longsword",
+    "needsReview": true
+  },
+  {
+    "id": "javelin-of-lightning",
+    "name": "Javelin of Lightning",
+    "textEn": "**Aura** faint evocation; **CL** 5th; **Slot** none; **Price** 1,500 gp; **Weight** 2 lbs.\n\n**Description**\n\nThis javelin becomes a 5d6 *lightning bolt* when thrown (Reflex DC 14 half). It is consumed in the attack.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *lightning bolt*; **Price** 750 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Javelin%20of%20Lightning",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "faint evocation",
+    "weightLb": 2,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, lightning bolt",
+      "costRaw": "750 gp",
+      "costCp": 75000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 156, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 156"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "1,500 gp",
+        "priceCp": 150000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "javelin",
+    "abilityIds": [],
+    "baseEvidence": "This javelin",
+    "needsReview": true
+  },
+  {
+    "id": "life-drinker",
+    "name": "Life Drinker",
+    "textEn": "**Aura** strong necromancy; **CL** 13th; **Slot** none; **Price** 40,320 gp; **Weight** 12 lbs.\n\n**Description**\n\nThis *+1 greataxe* is favored by undead and constructs, who do not suffer its drawbacks. A life-drinker bestows two negative levels on its target whenever it deals damage, just as if its target had been struck by an undead creature. One day after being struck, subjects must succeed at a DC 16 Fortitude save for each negative level or the negative levels become permanent.\n\nEach time a *life-drinker* deals damage to a foe, it also bestows one negative level on the wielder. Any negative levels gained by the wielder in this fashion lasts for 1 hour.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *enervation*; **Price** 20,320 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Life%20Drinker",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong necromancy",
+    "weightLb": 12,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, enervation",
+      "costRaw": "20,320 gp",
+      "costCp": 2032000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 157, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 157"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "40,320 gp",
+        "priceCp": 4032000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "greataxe",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "+1 greataxe"
+  },
+  {
+    "id": "luck-blade",
+    "name": "Luck Blade",
+    "textEn": "**Aura** strong evocation; **CL** 17th; **Slot** none; **Price** 0 wishes (22,060 gp), 1 wish (62,360 gp), 2 wishes (102,660 gp), 3 wishes (142,960 gp); **Weight** 2 lbs.\n\n**Description**\n\nThis *+2 short sword* gives its possessor a +1 luck bonus on all saving throws. Its possessor also gains the power of good fortune, usable once per day. This extraordinary ability allows its possessor to reroll one roll that she just made, before the results are revealed. She must take the result of the reroll, even if it’s worse than the original roll. In addition, a luck blade may contain up to three wishes (when randomly rolled, a luck blade holds 1d4–1 *wishes*, minimum 0). When the last wish is used, the sword remains a *+2 short sword*, still grants the +1 luck bonus, and still grants its reroll power.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *miracle* or *wish*; **Price** 11,185 gp (0 wishes), 43,835 gp (1 wish), 76,485 gp (2 wishes), 109,135 gp (3 wishes)",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Luck%20Blade%20(0%20wishes)",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong evocation",
+    "weightLb": 2,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, miracle or wish",
+      "costRaw": "11,185 gp (0 wishes), 43,835 gp (1 wish), 76,485 gp (2 wishes), 109,135 gp (3 wishes)",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 157, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 157"
+    ],
+    "variants": [
+      {
+        "variantId": "0-wishes",
+        "label": "0 wishes",
+        "casterLevel": 17,
+        "priceRaw": "0 wishes (22,060 gp)",
+        "priceCp": 2206000,
+        "effects": [
+          {
+            "target": "save.all",
+            "bonusType": "luck",
+            "value": 1,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+1 luck bonus on all saving throws"
+          }
+        ],
+        "extraDamage": []
+      },
+      {
+        "variantId": "1-wish",
+        "label": "1 wish",
+        "casterLevel": 17,
+        "priceRaw": "1 wish (62,360 gp)",
+        "priceCp": 6236000,
+        "effects": [
+          {
+            "target": "save.all",
+            "bonusType": "luck",
+            "value": 1,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+1 luck bonus on all saving throws"
+          }
+        ],
+        "extraDamage": []
+      },
+      {
+        "variantId": "2-wishes",
+        "label": "2 wishes",
+        "casterLevel": 17,
+        "priceRaw": "2 wishes (102,660 gp)",
+        "priceCp": 10266000,
+        "effects": [
+          {
+            "target": "save.all",
+            "bonusType": "luck",
+            "value": 1,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+1 luck bonus on all saving throws"
+          }
+        ],
+        "extraDamage": []
+      },
+      {
+        "variantId": "3-wishes",
+        "label": "3 wishes",
+        "casterLevel": 17,
+        "priceRaw": "3 wishes (142,960 gp)",
+        "priceCp": 14296000,
+        "effects": [
+          {
+            "target": "save.all",
+            "bonusType": "luck",
+            "value": 1,
+            "appliesTo": "wearer",
+            "conditional": false,
+            "evidence": "+1 luck bonus on all saving throws"
+          }
+        ],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "short-sword",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 2
+    },
+    "abilityIds": [],
+    "baseEvidence": "+2 short sword"
+  },
+  {
+    "id": "mace-of-smiting",
+    "name": "Mace of Smiting",
+    "textEn": "**Aura** moderate transmutation; **CL** 7th (lesser), 11th (normal); **Slot** none; **Price** lesser (16,012 gp), normal (75,312 gp); **Weight** 8 lbs.\n\n**Description**\n\nA *lesser mace of smiting* is a *+1 adamantine heavy mace* with a +3 enhancement bonus against constructs. When it deals a successful critical hit to a construct, it deals ×4 damage rather than ×2. A critical hit dealt to an outsider deals ×3 damage rather than ×2.\n\nA *mace of smiting* is a *+3 adamantine heavy mace* has a +5 enhancement bonus against constructs. When it deals a successful critical hit to a construct, it completely destroys the construct (no saving throw). A critical hit dealt to an outsider deals ×4 damage rather than ×2.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *disintegrate*; **Price** 9,512 gp (lesser), 39,312 gp (normal)",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Mace%20of%20Smiting%20(normal)",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "moderate transmutation",
+    "weightLb": 8,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, disintegrate",
+      "costRaw": "9,512 gp (lesser), 39,312 gp (normal)",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 157, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 157"
+    ],
+    "variants": [
+      {
+        "variantId": "lesser",
+        "label": "lesser",
+        "casterLevel": 7,
+        "priceRaw": "lesser (16,012 gp)",
+        "priceCp": 1601200,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "normal",
+        "label": "normal",
+        "casterLevel": 11,
+        "priceRaw": "normal (75,312 gp)",
+        "priceCp": 7531200,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "heavy-mace",
+    "abilityIds": [],
+    "baseEvidence": "+1 adamantine heavy mace",
+    "needsReview": true
+  },
+  {
+    "id": "mace-of-terror",
+    "name": "Mace of Terror",
+    "textEn": "**Aura** strong necromancy; **CL** 13th; **Slot** none; **Price** 38,552 gp; **Weight** 8 lbs.\n\n**Description**\n\nThis weapon usually appears to be a particularly frighteninglooking iron or steel mace. On command, this *+2 heavy mace* causes the wielder’s clothes and appearance to transform into an illusion of darkest horror, such that living creatures in a 30- foot cone become panicked as if by a *fear* spell (Will DC 16 partial). Those who fail this save take a –2 morale penalty on saving throws, and they flee from the wielder. The wielder may use this ability up to three times per day.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *fear*; **Price** 19,432 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Mace%20of%20Terror",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong necromancy",
+    "weightLb": 8,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, fear",
+      "costRaw": "19,432 gp",
+      "costCp": 1943200
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 157, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 157"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "38,552 gp",
+        "priceCp": 3855200,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "heavy-mace",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 2
+    },
+    "abilityIds": [],
+    "baseEvidence": "+2 heavy mace"
+  },
+  {
+    "id": "masterwork-silver-dagger",
+    "name": "Masterwork Silver Dagger",
+    "textEn": "**Aura** no aura (nonmagical); **Slot** none; **Price** 322 gp; **Weight** 1 lb.\n\n**Description**\n\nAs a masterwork weapon, this alchemical silver dagger has a +1 enhancement bonus on attack rolls (but not on damage rolls).",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Masterwork%20Silver%20Dagger",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "no aura (nonmagical)",
+    "weightLb": 1,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 157, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 157"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "322 gp",
+        "priceCp": 32200,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "dagger",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "dagger has a +1 enhancement bonus"
+  },
+  {
+    "id": "nine-lives-stealer",
+    "name": "Nine Lives Stealer",
+    "textEn": "**Aura** strong necromancy; **CL** 13th; **Slot** none; **Price** 23,057 gp; **Weight** 4 lbs.\n\n**Description**\n\nThis longsword always performs as a *+2 longsword*, but it also has the power to draw the life force from an opponent. It can do this nine times before the ability is lost. At that point, the sword becomes a simple *+2 longsword* (with a faint evil aura). A critical hit must be dealt for the sword’s death-dealing ability to function, and this ability has no effect on creatures not subject to critical hits. The victim is entitled to a DC 20 Fortitude save to avoid death. If the save is successful, the sword’s death-dealing ability does not function, no use of the ability is expended, and normal critical damage is determined. This sword is evil, and any good character attempting to wield it gains two negative levels. These negative levels remain as long as the sword is in hand and disappear when the sword is no longer wielded. These negative levels never result in actual level loss, but they cannot be overcome in any way (including by *restoration* spells) while the sword is wielded.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *finger of death*; **Price** 11,528 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Nine%20Lives%20Stealer",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong necromancy",
+    "weightLb": 4,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, finger of death",
+      "costRaw": "11,528 gp",
+      "costCp": 1152800
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 157, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 157"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "23,057 gp",
+        "priceCp": 2305700,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "longsword",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 2
+    },
+    "abilityIds": [],
+    "baseEvidence": "+2 longsword"
+  },
+  {
+    "id": "oathbow",
+    "name": "Oathbow",
+    "textEn": "**Aura** strong evocation; **CL** 15th; **Slot** none; **Price** 25,600 gp; **Weight** 3 lbs.\n\n**Description**\n\nOf elven make, this white *+2 composite longbow* (+2 Str bonus) whispers “Swift defeat to my enemies” in Elven when nocked and pulled. Once per day, if the archer swears aloud to slay her target (a free action), the bow's whisper becomes the shout “Death to those who have wronged me!” Against such a sworn enemy, the bow has a +5 enhancement bonus, and arrows launched from it deal an additional 2d6 points of damage (and ×4 on a critical hit instead of the normal ×3). After an enemy has been sworn, the bow is treated as only a masterwork weapon against all foes other than the sworn enemy, and the archer takes a –1 penalty on attack rolls with any weapon other than the oathbow. These bonuses and penalties last for 7 days or until the sworn enemy is slain or destroyed by the wielder of the *oathbow*, whichever comes first.\n\nThe *oathbow* may only have one sworn enemy at a time. Once the wielder swears to slay a target, he cannot make a new oath until he has slain that target or 7 days have passed. Even if the wielder slays the sworn enemy on the same day that he makes the oath, he cannot activate the *oathbow's* special power again until 24 hours have passed from the time he made the oath.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, creator must be an elf; **Price** 13,100 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Oathbow",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong evocation",
+    "weightLb": 3,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, creator must be an elf",
+      "costRaw": "13,100 gp",
+      "costCp": 1310000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 158, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 158"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "25,600 gp",
+        "priceCp": 2560000,
+        "effects": [],
+        "extraDamage": [
+          {
+            "dice": "2d6",
+            "damageType": "untyped",
+            "trigger": "conditional",
+            "conditionText": "an additional 2d6 points of damage (and ×4 on a critical hit instead of the normal ×3)",
+            "evidence": "an additional 2d6 points of damage (and ×4 on a critical hit instead of the normal ×3)"
+          }
+        ]
+      }
+    ],
+    "baseItemId": "composite-longbow",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 2
+    },
+    "abilityIds": [],
+    "baseEvidence": "+2 composite longbow"
+  },
+  {
+    "id": "rapier-of-puncturing",
+    "name": "Rapier of Puncturing",
+    "textEn": "**Aura** strong necromancy; **CL** 13th; **Slot** none; **Price** 50,320 gp; **Weight** 2 lbs.\n\n**Description**\n\nThree times per day, this *+2 wounding rapier* allows the wielder to make a touch attack with the weapon that deals 1d6 points of Constitution damage by draining blood. Creatures immune to critical hits are immune to the Constitution damage dealt by this weapon.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *harm*; **Price** 25,320 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Rapier%20of%20Puncturing",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong necromancy",
+    "weightLb": 2,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, harm",
+      "costRaw": "25,320 gp",
+      "costCp": 2532000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 159, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 159"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "50,320 gp",
+        "priceCp": 5032000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "rapier",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 2
+    },
+    "abilityIds": [
+      "wounding"
+    ],
+    "baseEvidence": "+2 wounding rapier"
+  },
+  {
+    "id": "screaming-bolt",
+    "name": "Screaming Bolt",
+    "textEn": "**Aura** faint enchantment; **CL** 5th; **Slot** none; **Price** 267 gp; **Weight** 1/10 lb.\n\n**Description**\n\nThis *+2 bolt* screams when fired, forcing all enemies of the shooter within 20 feet of the path of the bolt to make a successful DC 14 Will save or become shaken for 1 round. This is a mind-affecting fear effect.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *doom*; **Price** 137 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Screaming%20Bolt",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "faint enchantment",
+    "weightLb": 0.1,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, doom",
+      "costRaw": "137 gp",
+      "costCp": 13700
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 159, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 159"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "267 gp",
+        "priceCp": 26700,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": null,
+    "baseItemRaw": "This +2 bolt screams when fired, forcing all enemies of the shooter within 20 feet of the path of the bolt to make a successful DC 14 Will save or become shaken for 1 round.",
+    "abilityIds": [],
+    "baseEvidence": "This *+2 bolt* screams when fired, forcing all enemies of the shooter within 20 feet of the path of the bolt to make a successful DC 14 Will save or become shaken for 1 round.",
+    "needsReview": true
+  },
+  {
+    "id": "shatterspike",
+    "name": "Shatterspike",
+    "textEn": "**Aura** strong evocation; **CL** 13th; **Slot** none; **Price** 4,315 gp; **Weight** 4 lbs.\n\n**Description**\n\nThis intimidating weapon appears to be a longsword with multiple hooks, barbs, and serrations along the blade, excellent for catching and sundering a foe’s weapon. Wielders without the Improved Sunder feat use a *shatterspike* as a *+1 longsword* only. Wielders with the Improved Sunder feat instead use *shatterspike* as a +*4 longsword* when attempting to sunder an opponent’s weapon. *Shatterspike* can damage weapons with an enhancement bonus of +4 or lower.\n\n**Construction**\n\n**Requirements** Str 13, Craft Arms and Armor, Improved Sunder, Power Attack, *shatter*; **Price** 2,315 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shatterspike",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong evocation",
+    "weightLb": 4,
+    "construction": {
+      "requirements": "Str 13, Craft Arms and Armor, Improved Sunder, Power Attack, shatter",
+      "costRaw": "2,315 gp",
+      "costCp": 231500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 159, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 159"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 13,
+        "priceRaw": "4,315 gp",
+        "priceCp": 431500,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "longsword",
+    "abilityIds": [],
+    "baseEvidence": "+1 longsword",
+    "needsReview": true
+  },
+  {
+    "id": "shifters-sorrow",
+    "name": "Shifter's Sorrow",
+    "textEn": "**Aura** strong transmutation; **CL** 15th; **Slot** none; **Price** 12,780 gp; **Weight** 10 lbs.\n\n**Description**\n\nThis *+1/+1 two-bladed sword* has blades of alchemical silver. The weapon deals an extra 2d6 points of damage against any creature with the shapechanger subtype. When a shapechanger or a creature in an alternate form (such as a druid using wild shape) is struck by the weapon, it must make a successful DC 15 Will save or return to its natural form.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *baleful polymorph*; **Price** 6,780 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shifter's%20Sorrow",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong transmutation",
+    "weightLb": 10,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, baleful polymorph",
+      "costRaw": "6,780 gp",
+      "costCp": 678000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 160, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 160"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "12,780 gp",
+        "priceCp": 1278000,
+        "effects": [],
+        "extraDamage": [
+          {
+            "dice": "2d6",
+            "damageType": "untyped",
+            "trigger": "conditional",
+            "conditionText": "an extra 2d6 points of damage against any creature with the shapechanger subtype",
+            "evidence": "an extra 2d6 points of damage against any creature with the shapechanger subtype"
+          }
+        ]
+      }
+    ],
+    "baseItemId": "two-bladed-sword",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "+1/+1 two-bladed sword"
+  },
+  {
+    "id": "slaying-arrow",
+    "name": "Slaying Arrow",
+    "textEn": "**Aura** strong necromancy; **CL** 13th; **Slot** none; **Price** normal (2,282 gp), greater (4,057 gp); **Weight** 1/10 lb.\n\n**Description**\n\nThis *+1 arrow* is keyed to a particular type or subtype of creature. If it strikes such a creature, the target must succeed at a DC 20 Fortitude save or take 50 points of damage. Note that even creatures normally exempt from Fortitude saves (undead and constructs) are subject to this attack. When keyed to a living creature, this is a death effect (and thus *death ward* protects a target). To determine the type or subtype of creature the arrow is keyed to, roll on the table below.\n\nA *greater slaying arrow* functions just like a normal slaying arrow, but the DC to avoid the death effect is 23 and the arrow deals 100 points of damage if the saving throw is failed.\n\n| **d%** | **Designated Type or Subtype** |\n| --- | --- |\n| 01–05 | Aberrations |\n| 06–09 | Animals |\n| 10–16 | Constructs |\n| 17–27 | Dragons |\n| 28–32 | Fey |\n| 33 | Humanoids, aquatic |\n| 34–35 | Humanoids, dwarf |\n| 36–37 | Humanoids, elf |\n| 38–44 | Humanoids, giant |\n| 45 | Humanoids, gnoll |\n| 46 | Humanoids, gnome |\n| 47–49 | Humanoids, goblinoid |\n| 50 | Humanoids, halfling |\n| 51–54 | Humanoids, human |\n| 55–57 | Humanoids, reptilian |\n| 58–60 | Humanoids, orc |\n| 61–65 | Magical beasts |\n| 66–70 | Monstrous humanoids |\n| 71–72 | Oozes |\n| 73 | Outsiders, air |\n| 74–76 | Outsiders, chaotic |\n| 77 | Outsiders, earth |\n| 78–80 | Outsiders, evil |\n| 81 | Outsiders, fire |\n| 82–84 | Outsiders, good |\n| 85–87 | Outsiders, lawful |\n| 88 | Outsiders, water |\n| 89–90 | Plants |\n| 91–98 | Undead |\n| 99–100 | Vermin |\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *finger of death* (*slaying arrow*) or heightened *finger of death* (*greater slaying arrow*); **Price** 1,144 gp (normal), 2,032 gp (greater)",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Slaying%20Arrow%20(greater)",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong necromancy",
+    "weightLb": 0.1,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, finger of death (slaying arrow) or heightened finger of death (greater slaying arrow)",
+      "costRaw": "1,144 gp (normal), 2,032 gp (greater)",
+      "costCp": null
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 160, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 160"
+    ],
+    "variants": [
+      {
+        "variantId": "normal",
+        "label": "normal",
+        "casterLevel": 13,
+        "priceRaw": "normal (2,282 gp)",
+        "priceCp": 228200,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "greater",
+        "label": "greater",
+        "casterLevel": 13,
+        "priceRaw": "greater (4,057 gp)",
+        "priceCp": 405700,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "arrows-20",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "+1 arrow"
+  },
+  {
+    "id": "sleep-arrow",
+    "name": "Sleep Arrow",
+    "textEn": "**Aura** faint enchantment; **CL** 5th; **Slot** none; **Price** 132 gp; **Weight** 1/10 lb.\n\n**Description**\n\nThis *+1 arrow* is painted white and has white fletching. If it strikes a foe so that it would normally deal damage, it instead bursts into magical energy that deals nonlethal damage (the same amount as it would deal lethal damage) and forces the target to make a successful DC 11 Will save or fall asleep.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *sleep*; **Price** 70 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sleep%20Arrow",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "faint enchantment",
+    "weightLb": 0.1,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, sleep",
+      "costRaw": "70 gp",
+      "costCp": 7000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 160, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 160"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 5,
+        "priceRaw": "132 gp",
+        "priceCp": 13200,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "arrows-20",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "+1 arrow"
+  },
+  {
+    "id": "sun-blade",
+    "name": "Sun Blade",
+    "textEn": "**Aura** moderate evocation; **CL** 10th; **Slot** none; **Price** 50,335 gp; **Weight** 2 lbs.\n\n**Description**\n\nThis sword is the size of a bastard sword. However, a *sun blade* is wielded as if it were a short sword with respect to weight and ease of use. In other words, the weapon appears to all viewers to be a bastard sword, and deals bastard sword damage, but the wielder feels and reacts as if the weapon were a short sword. Any individual able to use either a bastard sword or a short sword with proficiency is proficient in the use of a sun blade. Likewise, Weapon Focus and Weapon Specialization in short sword and bastard sword apply equally, but the benefits of those feats do not stack.\n\nIn normal combat, the glowing golden blade of the weapon is equal to a *+2 bastard sword*. Against evil creatures, its enhancement bonus is +4. Against Negative Energy Plane creatures or undead creatures, the sword deals double damage (and ×3 on a critical hit instead of the usual ×2).\n\nThe blade also has a special sunlight power. Once per day, the wielder can swing the blade vigorously above his head while speaking a command word. The *sun blade* then sheds a bright yellow radiance that acts like bright light and affects creatures susceptible to light as if it were natural sunlight. The radiance begins shining in a 10-foot radius around the sword wielder and extends outward at 5 feet per round for 10 rounds thereafter, to create a globe of light with a 60- foot radius. When the wielder stops swinging the sword, the radiance fades to a dim glow that persists for another minute before disappearing entirely. All sun blades are of good alignment, and any evil creature attempting to wield one gains one negative level. The negative level remains as long as the sword is in hand and disappears when the sword is no longer wielded. This negative level cannot be overcome in any way (including by *restoration* spells) while the sword is wielded.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *daylight*, creator must be good; **Price** 25,335 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sun%20Blade",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "moderate evocation",
+    "weightLb": 2,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, daylight, creator must be good",
+      "costRaw": "25,335 gp",
+      "costCp": 2533500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 161, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 161"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 10,
+        "priceRaw": "50,335 gp",
+        "priceCp": 5033500,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "bastard-sword",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 2
+    },
+    "abilityIds": [],
+    "baseEvidence": "+2 bastard sword"
+  },
+  {
+    "id": "sword-of-life-stealing",
+    "name": "Sword of Life Stealing",
+    "textEn": "**Aura** strong necromancy; **CL** 17th; **Slot** none; **Price** 25,715 gp; **Weight** 4 lbs.\n\n**Description**\n\nThis black iron *+2 longsword* bestows a negative level when it deals a critical hit. The sword wielder gains 1d6 temporary hit points each time a negative level is bestowed on another. These temporary hit points last for 24 hours. One day after being struck, subjects must succeed at a DC 16 Fortitude save for each negative level gained or any such levels become permanent.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *enervation*; **Price** 13,015 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sword%20of%20Life%20Stealing",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong necromancy",
+    "weightLb": 4,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, enervation",
+      "costRaw": "13,015 gp",
+      "costCp": 1301500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 162, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 162"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 17,
+        "priceRaw": "25,715 gp",
+        "priceCp": 2571500,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "longsword",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 2
+    },
+    "abilityIds": [],
+    "baseEvidence": "+2 longsword"
+  },
+  {
+    "id": "sword-of-subtlety",
+    "name": "Sword of Subtlety",
+    "textEn": "**Aura** moderate illusion; **CL** 7th; **Slot** none; **Price** 22,310 gp; **Weight** 2 lbs.\n\n**Description**\n\nA *+1 short sword* with a thin, dull gray blade, this weapon provides a +4 bonus on its wielder’s attack and damage rolls when she makes a sneak attack with it.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *blur*; **Price** 11,310 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sword%20of%20Subtlety",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "moderate illusion",
+    "weightLb": 2,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, blur",
+      "costRaw": "11,310 gp",
+      "costCp": 1131000
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 162, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 162"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "22,310 gp",
+        "priceCp": 2231000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "short-sword",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "+1 short sword"
+  },
+  {
+    "id": "sword-of-the-planes",
+    "name": "Sword of the Planes",
+    "textEn": "**Aura** strong evocation; **CL** 15th; **Slot** none; **Price** 22,315 gp; **Weight** 4 lbs.\n\n**Description**\n\nThis longsword has an enhancement bonus of +1 on the Material Plane, but on any elemental planes its enhancement bonus increases to +2. The +2 enhancement bonus also applies whenever the weapon is used against creatures native to the elemental planes. It operates as a *+3 longsword* on the Astral Plane and the Ethereal Plane, or when used against opponents native to either of those planes. On any other plane, or against any outsider, it functions as a *+4 longsword*.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *plane shift*; **Price** 11,315 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sword%20of%20the%20Planes",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "strong evocation",
+    "weightLb": 4,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, plane shift",
+      "costRaw": "11,315 gp",
+      "costCp": 1131500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 162, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 162"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 15,
+        "priceRaw": "22,315 gp",
+        "priceCp": 2231500,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "longsword",
+    "abilityIds": [],
+    "baseEvidence": "+3 longsword",
+    "needsReview": true
+  },
+  {
+    "id": "sylvan-scimitar",
+    "name": "Sylvan Scimitar",
+    "textEn": "**Aura** moderate evocation; **CL** 11th; **Slot** none; **Price** 47,315 gp; **Weight** 4 lbs.\n\n**Description**\n\nWhen used outdoors in a temperate climate, this *+3 scimitar* grants its wielder the use of the Cleave feat and deals an extra 1d6 points of damage.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *divine power* or creator must be a 7th-level druid; **Price** 23,815 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Sylvan%20Scimitar",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "moderate evocation",
+    "weightLb": 4,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, divine power or creator must be a 7th-level druid",
+      "costRaw": "23,815 gp",
+      "costCp": 2381500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 162, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 162"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 11,
+        "priceRaw": "47,315 gp",
+        "priceCp": 4731500,
+        "effects": [],
+        "extraDamage": [
+          {
+            "dice": "1d6",
+            "damageType": "untyped",
+            "trigger": "conditional",
+            "conditionText": "an extra 1d6 points of damage",
+            "evidence": "an extra 1d6 points of damage"
+          }
+        ]
+      }
+    ],
+    "baseItemId": "scimitar",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 3
+    },
+    "abilityIds": [],
+    "baseEvidence": "+3 scimitar"
+  },
+  {
+    "id": "trident-of-fish-command",
+    "name": "Trident of Fish Command",
+    "textEn": "**Aura** moderate enchantment; **CL** 7th; **Slot** none; **Price** 18,650 gp; **Weight** 4 lbs.\n\n**Description**\n\nThe magical properties of this *+1 trident* with a 6-foot-long haft enable its wielder to charm up to 14 Hit Dice of aquatic animals as per the spell *charm animals* (Will DC 16 negates, animals get a +5 bonus if currently under attack by the wielder or her allies), no two of which can be more than 30 feet apart. The wielder can use this effect up to three times per day. The wielder can communicate with the animals as if using a *speak with animals* spell. Animals that successfully make their saving throws are free of control, but they will not approach within 10 feet of the trident.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *charm animals*, *speak with animals*; **Price** 9,482 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Trident%20of%20Fish%20Command",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "moderate enchantment",
+    "weightLb": 4,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, charm animals, speak with animals",
+      "costRaw": "9,482 gp",
+      "costCp": 948200
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 162, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 162"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "18,650 gp",
+        "priceCp": 1865000,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "trident",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 1
+    },
+    "abilityIds": [],
+    "baseEvidence": "+1 trident"
+  },
+  {
+    "id": "trident-of-warning",
+    "name": "Trident of Warning",
+    "textEn": "**Aura** moderate divination; **CL** 7th; **Slot** none; **Price** 10,115 gp; **Weight** 4 lbs.\n\n**Description**\n\nA weapon of this type enables its wielder to determine the location, depth, kind, and number of aquatic predators within 680 feet. A *trident of warning* must be grasped and pointed in order for the character using it to gain such information, and scanning a hemisphere with a radius of 680 feet takes 1 round. The weapon is otherwise a *+2 trident*.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *locate creature*; **Price** 5,215 gp",
+    "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Trident%20of%20Warning",
+    "sourceRef": "PRPG Core Rulebook pg. 471",
+    "book": "CRB",
+    "kind": "specific-weapon",
+    "slot": "none",
+    "aura": "moderate divination",
+    "weightLb": 4,
+    "construction": {
+      "requirements": "Craft Magic Arms and Armor, locate creature",
+      "costRaw": "5,215 gp",
+      "costCp": 521500
+    },
+    "sourceRefAll": "Ultimate Equipment pg. 163, PRPG Core Rulebook pg. 471",
+    "reprintedIn": [
+      "Ultimate Equipment pg. 163"
+    ],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": 7,
+        "priceRaw": "10,115 gp",
+        "priceCp": 1011500,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "baseItemId": "trident",
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 2
+    },
+    "abilityIds": [],
+    "baseEvidence": "+2 trident"
+  }
+]

@@ -26,3 +26,15 @@ tmp/
 Thumbs.db
 .idea/
 .vscode/
+
+# App data
+*.sqlite
+*.sqlite-journal
+*.db
+data/*.db
+.fly/
+coverage/
+
+# Datos SRD (f3): caché cruda de páginas y informes generados
+.cache/
+reports/

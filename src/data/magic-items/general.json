@@ -1,0 +1,655 @@
+[
+  {
+    "id": "artifacts",
+    "name": "Artifacts",
+    "textEn": "Artifacts are extremely powerful. Rather than merely another form of magical equipment, they are the sorts of legendary relics that whole campaigns can be based on. Each could be the center of a whole set of adventures—a quest to recover it, a fight against an opponent wielding it, a mission to cause its destruction, and so on.\n\nUnlike normal magic items, artifacts are not easily destroyed. Instead of construction information, each artifact includes one possible means by which it might be destroyed.\n\nArtifacts can never be purchased, nor are they found as part of a random treasure hoard. When placing an artifact in your game, be sure to consider its impact and role. Remember that artifacts are fickle objects, and if they become too much of a nuisance, they can easily disappear or become lost once again .\n\n**Minor Artifacts**\n\n**Source** *PRPG Core Rulebook pg. 543*\nMinor artifacts are not necessarily unique items. Even so, they are magic items that no longer can be created, at least by common mortal means.\n\n**Major Artifacts**\n\n**Source** *PRPG Core Rulebook pg. 547*\nMajor artifacts are unique items—only one of each such item exists. These are the most potent of magic items, capable of altering the balance of a campaign. Unlike all other magic items, major artifacts are not easily destroyed. Each should have only a single, specific means of destruction.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 543",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "cursed-items",
+    "name": "Cursed Items",
+    "textEn": "Cursed items are magic items with some sort of potentially negative impact. Occasionally they mix bad with good, forcing characters to make difficult choices. Cursed items are almost never made intentionally. Instead they are the result of rushed work, inexperienced crafters, or a lack of proper components. While many of these items still have functions, they either do not work as intended or come with serious drawbacks. When a magic item creation skill check fails by 5 or more, roll on Table 15–27 to determine the type of curse possessed by the item.\n\n**Identifying Cursed Items**: Cursed items are identified like any other magic item with one exception: unless the check made to identify the item exceeds the DC by 10 or more, the curse is not detected. If the check is not made by 10 or more, but still succeeds, all that is revealed is the magic item’s original intent. If the item is known to be cursed, the nature of the curse can be determined using the standard DC to identify the item.\n\n**Removing Cursed Items**: While some cursed items can be simply discarded, others force a compulsion upon the user to keep the item, no matter the costs. Others reappear even if discarded or are impossible to throw away. These items can only be discarded after the character or item is targeted by a *remove curse* or similar magic. The DC of the caster level check to undo the curse is equal to 10 + the item’s caster level. If the spell is successful, the item can be discarded on the following round, but the curse reasserts itself if the item is used again.\n\n**Common Cursed Item Effects**\n\n**Source** *PRPG Core Rulebook pg. 536*\nThe following are some of the most common cursed item effects. GMs should feel free to invent new cursed item effects to fit specific items.\n\n**Table 15-27: Common Item Curses**\n\n| **d%** | **Curse** |\n| --- | --- |\n| 01-15 | Delusion |\n| 16-35 | Opposite effect or target |\n| 36-45 | Intermittent functioning |\n| 46-60 | Requirement |\n| 61-75 | Drawback |\n| 76-90 | Completely different effect |\n| 91-100 | Substitute specific cursed item |\n\n**Delusion**: The user believes the item is what it appears to be, yet it actually has no magical power other than to deceive. The user is mentally fooled into thinking the item is functioning and cannot be convinced otherwise without the casting of *remove curse*.\n\n**Opposite Effect or Target**: These cursed items malfunction, so that either they do the opposite of what the creator intended, or they target the user instead of someone else. The interesting point to keep in mind here is that these items aren’t always bad to have. Opposite-effect items include weapons that impose penalties on attack and damage rolls rather than bonuses. Just as a character shouldn’t necessarily immediately know what the enhancement bonus of a noncursed magic item is, she shouldn’t immediately know that a weapon is cursed. Once she knows, however, the item can be discarded unless some sort of compulsion is placed upon it that compels the wielder to keep and use it. In such cases, a *remove curse* spell is generally needed to get rid of the item.\n\n**Intermittent Functioning**: The three varieties of intermittent functioning items all function perfectly as intended—at least some of the time. The three varieties are unreliable, dependent, and uncontrolled items.\n\n*Unreliable*: Each time the item is activated, there is a 5% chance (01–05 on d%) that it does not function.\n\n*Dependent*: The item only functions in certain situations. To determine the situation, select or roll on the following table.\n\n| **d%** | **Situation** |\n| --- | --- |\n| 01-03 | Temperature below freezing |\n| 04-06 | Temperature above freezing |\n| 07-10 | During the day |\n| 11-15 | During the night |\n| 16-20 | In direct sunlight |\n| 21-25 | Out of direct sunlight |\n| 26-34 | Underwater |\n| 35-37 | Out of water |\n| 38-45 | Underground |\n| 46-55 | Aboveground |\n| 56-60 | Within 10 feet of a random creature type |\n| 61-64 | Within 10 feet of a random race or kind of creature |\n| 65-72 | Within 10 feet of an arcane spellcaster |\n| 73-80 | Within 10 feet of a divine spellcaster |\n| 81-85 | In the hands of a nonspellcaster |\n| 86-90 | In the hands of a spellcaster |\n| 91-95 | In the hands of a creature of a particular alignment |\n| 96 | In the hands of a creature of a particular gender |\n| 97-99 | On holy days or during particular astrological events |\n| 100 | More than 100 miles from a particular site |\n\n*Uncontrolled*: An uncontrolled item occasionally activates at random times. Roll d% every day. On a result of 01–05 the item activates at some random point during that day.\n\n**Requirement**: Some items have stringent requirements that must be met for them to be usable. To keep an item with this kind of curse functioning, one or more of the following conditions must be met.\n\n- Character must eat twice as much as normal.\n- Character must sleep twice as much as normal.\n- Character must undergo a specific quest (one time only, and the item functions normally thereafter).\n- Character must sacrifice (destroy) 100 gp in valuables per day.\n- Character must sacrifice (destroy) 2,000 gp worth of magic items each week.\n- Character must swear fealty to a particular noble or to his entire family.\n- Character must discard all other magic items.\n- Character must worship a particular deity.\n- Character must change her name to a specific name. The item only works for characters of that name.\n- Character must add a specific class at the next opportunity if not of that class already.\n- Character must have a minimum number of ranks in a particular skill.\n- Character must sacrifice some part of her life energy (2 points of Constitution) one time. If the character gets the Constitution points back (such as from a *restoration* spell), the item ceases functioning. (The item does not cease functioning if the character receives a Constitution increase caused by level gain, a *wish*, or the use of a magic item.)\n- Item must be cleansed with holy water each day.\n- Item must be used to kill a living creature each day.\n- Item must be bathed in volcanic lava once per month.\n- Item must be used at least once a day, or it won’t function again for its current possessor.\n- Item must draw blood when wielded (weapons only). It can’t be put away or exchanged for another weapon until it has scored a hit.\n- Item must have a particular spell cast upon it each day (such as *bless*, *atonement*, or *animate objects*).\n\nRequirements are so dependent upon suitability to the item that they should never be determined randomly. An intelligent item with a requirement often imposes its requirement through its personality. If the requirement is not met, the item ceases to function. If it is met, usually the item functions for one day before the requirement must be met again (although some requirements are one time only, others monthly, and still others continuous).\n\n**Drawback**: Items with drawbacks are usually still beneficial to the possessor but carry some negative aspect. Although sometimes drawbacks occur only when the item is used (or held, in the case of some weapons), usually the drawback remains with the character for as long as she has the item. Unless otherwise indicated, drawbacks remain in effect as long as the item is possessed. The DC to save against any of these effects is usually equal to 10 + the item’s caster level.\n\n| **d%** | **Drawback** |\n| --- | --- |\n| 01-04 | Character’s hair grows 1 inch longer every hour. |\n| 05-09 | Character either shrinks 6 inches (01–50 on d%) or grows that much taller (51–100). Only happens once. |\n| 10–13 | Temperature around item is 10° F cooler than normal. |\n| 14–17 | Temperature around item is 10° F warmer than normal. |\n| 18–21 | Character’s hair color changes. |\n| 22–25 | Character’s skin color changes. |\n| 26–29 | Character now bears some identifying mark (tattoo, weird glow, or the like). |\n| 30–32 | Character’s gender changes. |\n| 33–34 | Character’s race or kind changes. |\n| 35 | Character is afflicted with a random disease that cannot be cured. |\n| 36–39 | Item continually emits a disturbing sound (moaning, weeping, screaming, cursing, insults). |\n| 40 | Item looks ridiculous (garishly colored, silly shape, glows bright pink). |\n| 41–45 | Character becomes selfishly possessive. |\n| 46–49 | Character becomes paranoid about losing the item and afraid of damage occurring to it. |\n| 50–51 | Character’s alignment changes. |\n| 52–54 | Character must attack nearest creature (5% chance [01–05 on d%] each day). |\n| 55–57 | Character is stunned for 1d4 rounds once item function is finished (or randomly, 1/day). |\n| 58–60 | Character’s vision is blurry (–2 penalty on attack rolls, saves, and skill checks requiring vision). |\n| 61–64 | Character gains one negative level. |\n| 65 | Character gains two negative levels. |\n| 66–70 | Character must make a Will save each day or take 1 point of Intelligence damage. |\n| 71–75 | Character must make a Will save each day or take 1 point of Wisdom damage. |\n| 76–80 | Character must make a Will save each day or take 1 point of Charisma damage. |\n| 81–85 | Character must make a Fortitude save each day or take 1 point of Constitution damage. |\n| 86–90 | Character must make a Fortitude save each day or take 1 point of Strength damage. |\n| 91–95 | Character must make a Fortitude save each day or take 1 point of Dexterity damage. |\n| 96 | Character is polymorphed into a specific creature (5% chance [01–05 on d%] each day). |\n| 97 | Character cannot cast arcane spells. |\n| 98 | Character cannot cast divine spells. |\n| 99 | Character cannot cast any spells. |\n| 100 | Either pick one of the above that’s appropriate or create a drawback specifically for that item. |\n\n**Specific Cursed Items**: Perhaps the most dangerous and insidious of all cursed items are those whose intended functions are completely replaced by a curse. Yet even these items can have their uses, particularly as traps or weapons. The cursed items listed here provided as specific examples of cursed items. Instead of prerequisites, each cursed item is associated with one or more ordinary magic items whose creation might result in the cursed item. Cursed items can be sold, if the curse is not known to the buyer, as if they were the item they appear to be.\n\nCursed suits of armor and weapons can come in many forms, and the examples listed here are merely the most common. For example, a *cursed –2 sword*, might appear as a *+3 shortsword* or a *+1 dagger*, with a similar negative instead of the listed –2.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 536",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "damaging-magic-items",
+    "name": "Damaging Magic Items",
+    "textEn": "A magic item doesn’t need to make a saving throw unless it is unattended, it is specifically targeted by the effect, or its wielder rolls a natural 1 on his save. Magic items should always get a saving throw against spells that might deal damage to them—even against attacks from which a nonmagical item would normally get no chance to save. Magic items use the same saving throw bonus for all saves, no matter what the type (Fortitude, Reflex, or Will). A magic item’s saving throw bonus equals 2 + 1/2 its caster level (rounded down). The only exceptions to this are intelligent magic items, which make Will saves based on their own Wisdom scores.\n\nMagic items, unless otherwise noted, take damage as nonmagical items of the same sort. A damaged magic item continues to function, but if it is destroyed, all its magical power is lost. Magic items that take damage in excess of half their total hit points, but not more than their total hit points, gain the broken condition, and might not function properly (see the Appendix).\n\n**Repairing Magic Items**\n\n**Source** *PRPG Core Rulebook pg. 459*\nRepairing a magic item requires material components equal to half the cost to create the item, and requires half the time. The *make whole* spell can also repair a damaged (or even a destroyed) magic item—if the caster is high enough level.\n\n**Charges, Doses, and Multiple Uses**\n\n**Source** *PRPG Core Rulebook pg. 459*\nMany items, particularly wands and staves, are limited in power by the number of charges they hold. Normally, charged items have 50 charges at most (10 for staves). If such an item is found as a random part of a treasure, roll d% and divide by 2 to determine the number of charges left (round down, minimum 1). If the item has a maximum number of charges other than 50, roll randomly to determine how many charges are left.\n\nPrices listed are always for fully charged items. (When an item is created, it is fully charged.) For an item that’s worthless when its charges run out (which is the case for almost all charged items), the value of the partially used item is proportional to the number of charges left. For an item that has usefulness in addition to its charges, only part of the item’s value is based on the number of charges left.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 459",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "intelligent-items",
+    "name": "Intelligent Items",
+    "textEn": "Magic items sometimes have intelligence of their own. Magically imbued with sentience, these items think and feel the same way characters do and should be treated as NPCs. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes. Only permanent magic items (as opposed to single-use items or those with charges) can be intelligent. (This means that potions, scrolls, and wands, among other items, are never intelligent.) In general, less than 1% of magic items have intelligence.\n\nIntelligent items can actually be considered creatures because they have Intelligence, Wisdom, and Charisma scores. Treat them as constructs. Intelligent items often have the ability to illuminate their surroundings at will (as magic weapons do); many cannot see otherwise.\n\nUnlike most magic items, intelligent items can activate their own powers without waiting for a command word from their owner. Intelligent items act during their owner’s turn in the initiative order.\n\n**Designing an Intelligent Item**\n\n**Source** *PRPG Core Rulebook pg. 532*\nCreating a magic item with intelligence follows these simple guidelines. Intelligent items must have an alignment, mental ability scores, languages, senses, and at least one other special ability. These statistics and abilities can be improved during creation, increasing the item’s overall cost. Many of these abilities add to an item’s Ego score. Intelligent items with high Ego scores are difficult to control and can sometimes take control of their owner, making them dangerous to possess.\n\nAn intelligent magic item has a base price increase of 500 gp. When determining the total value of an intelligent item, add this value to the sum of the prices of all of its additional abilities gained through being intelligent, before adding them to the magic item’s base price.\n\n**Intelligent Item Alignment**\n\n**Source** *PRPG Core Rulebook pg. 533*\nAny item with intelligence has an alignment (see Table 15– 21). Note that intelligent weapons already have alignments, either stated or by implication. If you’re generating a random intelligent weapon, that weapon’s alignment must fit with any alignment-oriented special abilities it has.\n\nAny character whose alignment does not correspond to that of the item (except as noted by the asterisks on the table) gains one negative level if he or she so much as picks up the item. Although this negative level never results in actual level loss, it remains as long as the item is in hand and cannot be overcome in any way (including by restoration spells). This negative level is cumulative with any other penalties the item might place on inappropriate wielders. Items with Ego scores (see below) of 20 to 29 bestow two negative levels. Items with Ego scores of 30 or higher bestow three negative levels.\n\n| **d%** | **Alignment of Item** |\n| --- | --- |\n| 01–10 | Chaotic good |\n| 11–20 | Chaotic neutral* |\n| 21–35 | Chaotic evil |\n| 36–45 | Neutral evil* |\n| 46–55 | Lawful evil |\n| 56–70 | Lawful good |\n| 71–80 | Lawful neutral* |\n| 81–90 | Neutral good* |\n| 91–100 | Neutral |\n\n** The item can also be used by any character whose alignment corresponds to the non-neutral portion of the item’s alignment.*\n\n**Intelligent Item Ability Scores**\n\n**Source** *PRPG Core Rulebook pg. 533*\nIntelligent magic items possess all three mental ability scores: Intelligence, Wisdom, and Charisma. Each one of these ability scores begins at a value of 10, but can be increased to as high as 20. Table 15–22 shows the cost to increase one of the item’s ability scores. This cost must be paid for each ability score raised above 10. For example, an intelligent magic item with a 15 Intelligence, 12 Wisdom, and 10 Charisma would cost at least 2,400 gp more than the base item (including the 500 gp for being an intelligent item).\n\n| **Score Base** | **Price Modifier** | **Ego Modifier** |\n| --- | --- | --- |\n| 10 | — | — |\n| 11 | +200 gp | — |\n| 12 | +500 gp | +1 |\n| 13 | +700 gp | +1 |\n| 14 | +1,000 gp | +2 |\n| 15 | +1,400 gp | +2 |\n| 16 | +2,000 gp | +3 |\n| 17 | +2,800 gp | +3 |\n| 18 | +4,000 gp | +4 |\n| 19 | +5,200 gp | +4 |\n| 20 | +8,000 gp | +5 |\n\n**Languages Spoken by Item**\n\n**Source** *PRPG Core Rulebook pg. 533*\nLike a character, an intelligent item understands Common plus one additional language per point of Intelligence bonus. Choose appropriate languages, taking into account the item’s origin and purposes. If the item does not possess speech, it can still read and understand the languages it knows.\n\n**Senses and Communication**\n\n**Source** *PRPG Core Rulebook pg. 533*\nEvery intelligent magic item begins with the ability to see and hear within 30 feet, as well as the ability to communicate empathically with its owner. Empathy only allows the item to encourage or discourage certain actions through urges and emotions. Additional forms of communication and better senses increase the item’s cost and Ego score, as noted on Table 15–23.\n\n**Empathy (Su)**: Empathy allows the item to encourage or discourage certain actions by communicating emotions and urges. It does not allow for verbal communication.\n\n**Speech (Su)**: An intelligent item with the capability for speech can talk using any of the languages it knows.\n\n**Telepathy (Su)**: Telepathy allows an intelligent item to communicate with its wielder telepathically, regardless of its known languages. The wielder must be touching the item to communicate in this way.\n\n**Senses**: Senses allow an intelligent magic item to see and hear out to the listed distance. Adding darkvision or blindsense allows the item to use those senses out to the same range as the item’s base senses.\n\n**Read Languages (Ex)**: The item can read script in any language, regardless of its known languages.\n\n***Read Magic (Sp)***: An intelligent magic item with this ability can read magical writings and scrolls as if through read magic. This ability does not allow the magic item to activate scrolls or other items. An intelligent magic item can suppress and resume this ability as a free action.\n\n| **Ability Base** | **Price Modifier** | **Ego Modifier** |\n| --- | --- | --- |\n| Empathy | — | — |\n| Speech | +500 gp | — |\n| Telepathy | +1,000 gp | +1 |\n| Senses (30 ft.) | — | — |\n| Senses (60 ft.) | +500 gp | — |\n| Senses (120 ft.) | +1,000 gp | — |\n| Darkvision | +500 gp | — |\n| Blindsense | +5,000 gp | +1 |\n| Read languages | +1,000 gp | +1 |\n| Read magic | +2,000 gp | +1 |\n\n**Intelligent Item Powers**\n\n**Source** *PRPG Core Rulebook pg. 535*\nEach intelligent item should possess at least one power, although more powerful items might possess a host of powers. To f ind the item’s specif ic powers, choose or roll on Table 15–24. All powers function at the direction of the item, although intelligent items generally follow the wishes of their owner. Activating a power or concentrating on an active one is a standard action the item takes. The caster level for these effects is equal to the item’s caster level. Save DCs are based off the item’s highest mental ability score.\n\n| **d%** | **Item Power** | **Base Price Modifier** | **Ego Modifier** |\n| --- | --- | --- | --- |\n| 01–10 | Item can cast a 0-level spell at will | +1,000 gp | +1 |\n| 11–20 | Item can cast a 1st-level spell 3/day | +1,200 gp | +1 |\n| 21–25 | Item can use magic aura on itself at will | +2,000 gp | +1 |\n| 26–35 | Item can cast a 2nd-level spell 1/day | +2,400 gp | +1 |\n| 36–45 | Item has 5 ranks in one skill* | +2,500 gp | +1 |\n| 46–50 | Item can sprout limbs and move with a speed of 10 feet | +5,000 gp | +1 |\n| 51–55 | Item can cast a 3rd-level spell 1/day | +6,000 gp | +1 |\n| 56–60 | Item can cast a 2nd-level spell 3/day | +7,200 gp | +1 |\n| 61–70 | Item has 10 ranks in one skill* | +10,000 gp | +2 |\n| 71–75 | Item can change shape into one other form of the same size | +10,000 gp | +2 |\n| 76–80 | Item can fly, as per the spell, at a speed of 30 feet | +10,000 gp | +2 |\n| 81–85 | Item can cast a 4th-level spell 1/day | +11,200 gp | +2 |\n| 86–90 | Item can teleport itself 1/day | +15,000 gp | +2 |\n| 91–95 | Item can cast a 3rd-level spell 3/day | +18,000 gp | +2 |\n| 96–100 | Item can cast a 4th-level spell 3/day | +33,600 gp | +2 |\n\n** Intelligent items can only possess Intelligence-, Wisdom-, or Charisma-based skills, unless they also possess some form of ability to move.*\n\n**Special Purpose Items**\n\n**Source** *PRPG Core Rulebook pg. 535*\nSome intelligent items have special purposes that guide their actions. Intelligent magic items with a special purpose gain a +2 Ego bonus. An item’s purpose must suit the type and alignment of the item and should always be treated reasonably. A purpose of “defeat/slay arcane spellcasters” doesn’t mean that the sword forces the wielder to kill every wizard she sees. Nor does it mean that the sword believes it is possible to kill every wizard, sorcerer, and bard in the world. It does mean that the item hates arcane spellcasters and wants to bring the local wizards’ cabal to ruin, as well as end the rule of a sorcererqueen in a nearby land. Likewise, a purpose of “defend elves” doesn’t mean that if the wielder is an elf, he only wants to help the wielder. It means that the item wants to be used in furthering the cause of elves, stamping out their enemies and aiding their leaders. A purpose of “defeat/slay all” isn’t just a matter of self-preservation. It means that the item won’t rest (or let its wielder rest) until it places itself above all others.\n\nTable 15–25 has a number of sample purposes that a magic item might possess. If the wielder specifically ignores or goes against an intelligent item’s special purpose, the item gains a +4 bonus to its Ego until the wielder cooperates. This is in addition to the +2 Ego bonus gained by items with a special purpose.\n\n| **d%** | **Purpose** | **Ego Modifier** |\n| --- | --- | --- |\n| 01–20 | Defeat/slay diametrically opposed alignment* | +2 |\n| 21–30 | Defeat/slay arcane spellcasters (including spellcasting monsters and those that use spell-like abilities) | +2 |\n| 31–40 | Defeat/slay divine spellcasters (including divine entities and servitors) | +2 |\n| 41–50 | Defeat/slay non-spellcasters | +2 |\n| 51–55 | Defeat/slay a particular creature type (see the bane special ability for choices) | +2 |\n| 56–60 | Defeat/slay a particular race or kind of creature | +2 |\n| 61–70 | Defend a particular race or kind of creature | +2 |\n| 71–80 | Defeat/slay the servants of a specific deity | +2 |\n| 81–90 | Defend the servants and interests of a specific deity | +2 |\n| 91–95 | Defeat/slay all (other than the item and the wielder) | +2 |\n| 96–100 | Choose one | +2 |\n\n** The purpose of the neutral (N) version of this item is to preserve the balance by defeating/slaying powerful beings of the extreme alignments (LG, LE, CG, CE).*\n\n**Dedicated Powers**\n\n**Source** *PRPG Core Rulebook pg. 535*\nA dedicated power operates only when an intelligent item is in pursuit of its special purpose. This determination is always made by the item. It should always be easy and straightforward to see how the ends justify the means. Unlike its other powers, an intelligent item can refuse to use its dedicated powers even if the owner is dominant (see Items Against Characters). The caster level for these effects is equal to the item’s caster level. Save DCs are based on the item’s highest mental ability score. See Table 15–26 for a list of dedicated powers.\n\n| **d%** | **Dedicated Power** | **Base Price Modifier** | **Ego Modifier** |\n| --- | --- | --- | --- |\n| 01–20 | Item can detect any special purpose foes within 60 feet | +10,000 gp | +1 |\n| 21–35 | Item can use a 4th-level spell at will | +56,000 gp | +2 |\n| 36–50 | Wielder gets +2 luck bonus on attacks, saves, and checks | +80,000 gp | +2 |\n| 51–65 | Item can use a 5th-level spell at will | +90,000 gp | +2 |\n| 66–80 | Item can use a 6th-level spell at will | +132,000 gp | +2 |\n| 81–95 | Item can use a 7th-level spell at will | +182,000 gp | +2 |\n| 96–100 | Item can use true resurrection on wielder, once per month | +200,000 gp | +2 |\n\n**Item Ego**\n\n**Source** *PRPG Core Rulebook pg. 535*\nEgo is a measure of the total power and force of personality that an item possesses. An item’s Ego score is the sum of all of its Ego modifiers plus an additional bonus for the cost of the base magic item (excluding the cost of all of the intelligent item enhancements). An item’s Ego score helps determine whether the item or the character is dominant in their relationship, as detailed below.\n\n| **Base Magic Item Value** | **Ego Modifier** |\n| --- | --- |\n| Up to 1,000 gp | — |\n| 1,001 gp to 5,000 gp | +1 |\n| 5,001 gp to 10,000 gp | +2 |\n| 10,001 gp to 20,000 gp | +3 |\n| 20,001 gp to 50,000 gp | +4 |\n| 50,001 gp to 100,000 gp | +6 |\n| 100,001 gp to 200,000 gp | +8 |\n| 200,001 gp and higher | +12 |\n\n**Items against Characters**\n\n**Source** *PRPG Core Rulebook pg. 535*\nWhen an item has an Ego of its own, it has a will of its own. The item is absolutely true to its alignment. If the character who possesses the item is not true to that alignment’s goals or the item’s special purpose, personality conflict—item against character—results. Similarly, any item with an Ego score of 20 or higher always considers itself superior to any character, and a personality conflict results if the possessor does not always agree with the item.\n\nWhen a personality conflict occurs, the possessor must make a Will saving throw (DC = item’s Ego). If the possessor succeeds, she is dominant. If she fails, the item is dominant. Dominance lasts for 1 day or until a critical situation occurs (such as a major battle, a serious threat to either the item or the character, and so on). Should an item gain dominance, it resists the character’s desires and demands concessions such as any of the following:\n\n- Removal of associates or items whose alignment or personality is distasteful to the item.\n- The character divesting herself of all other magic items or items of a certain type.\n- Obedience from the character so the item can direct where they go for its own purposes.\n- Immediate seeking out and slaying of creatures hateful to the item.\n- Magical protections and devices to safeguard the item from molestation when it is not in use.\n- That the character carry the item with her on all occasions.\n- That the character relinquish the item to a more suitable possessor due to alignment differences or conduct.\n\nIn extreme circumstances, the item can resort to even harsher measures, such as the following:\n\n- Force its possessor into combat.\n- Refuse to strike opponents.\n- Strike at its wielder or her associates.\n- Force its possessor to surrender to an opponent.\n- Cause itself to drop from the character’s grasp.\n\nNaturally, such actions are unlikely when harmony reigns between the character’s and item’s alignments or when their purposes and personalities are well matched. Even so, an item might wish to have a lesser character possess it in order to easily establish and maintain dominance over him, or a higher-level possessor so as to better accomplish its goals.\n\nAll magic items with personalities desire to play an important role in whatever activity is under way, particularly combat. Such items are natural rivals, even with others of the same alignment. No intelligent item wants to share its wielder with others. An intelligent item is aware of the presence of any other intelligent item within 60 feet, and most intelligent items try their best to mislead or distract their host so that she ignores or destroys the rival. Of course, alignment might change this sort of behavior.\n\nItems with personalities are never totally controlled or silenced by the characters that possess them, even though they may never successfully control their possessors. They may be powerless to force their demands, but most remain undaunted and continue to air their wishes and demands.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 532",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "magic-armor",
+    "name": "Magic Armor",
+    "textEn": "In general, magic armor protects the wearer to a greater extent than nonmagical armor. Magic armor bonuses are enhancement bonuses, never rise above +5, and stack with regular armor bonuses (and with shield and magic shield enhancement bonuses). All magic armor is also masterwork armor, reducing armor check penalties by 1.\n\nIn addition to an enhancement bonus, armor may have special abilities. Special abilities usually count as additional bonuses for determining the market value of an item, but do not improve AC. A suit of armor cannot have an effective bonus (enhancement plus special ability bonus equivalents, including from character abilities and spells) higher than +10. A suit of armor with a special ability must also have at least a +1 enhancement bonus.\n\nA suit of armor or a shield may be made of an unusual material. Roll d%: 01–95 indicates that the item is of a standard sort, and 96–100 indicates that it is made of a special material (see Chapter 6).\n\nArmor is always created so that if the type of armor comes with a pair of boots, a helm, or a set of gauntlets, these pieces can be switched for other magic boots, helms, or gauntlets.\n\n**Caster Level for Armor and Shields**: The caster level of a magic shield or magic armor with a special ability is given in the item description. For an item with only an enhancement bonus, the caster level is three times the enhancement bonus. If an item has both an enhancement bonus and a special ability, the higher of the two caster level requirements must be met.\n\n**Shields**: Shield enhancement bonuses stack with armor enhancement bonuses. Shield enhancement bonuses do not act as attack or damage bonuses when the shield is used in a shield bash. The bashing special ability, however, does grant a +1 bonus on attack and damage rolls (see the special ability description).\n\nA shield could be built that also acted as a magic weapon, but the cost of the enhancement bonus on attack rolls would need to be added into the cost of the shield and its enhancement bonus to AC.\n\nAs with armor, special abilities built into the shield add to the market value in the form of additions to the bonus of the shield, although they do not improve AC. A shield cannot have an effective bonus (enhancement plus special ability bonus equivalents) higher than +10. A shield with a special ability must also have at least a +1 enhancement bonus.\n\n**Activation**: Usually a character benefits from magic armor and shields in exactly the way a character benefits from nonmagical armor and shields: by wearing them. If armor or a shield has a special ability that the user needs to activate, then the user usually needs to utter the command word (a standard action).\n\n**Armor for Unusual Creatures**: The cost of armor for nonhumanoid creatures, as well as for creatures who are neither Small nor Medium, varies (see Chapter 6). The cost of the masterwork quality and any magical enhancement remains the same.\n\n**Table 15-3: Armor and Shields**\n\n| **Minor** | **Medium** | **Major** | **Item** | **Base Price** |\n| --- | --- | --- | --- | --- |\n| 01-60 | 01-05 | — | *+1 shield* | 1,000 gp |\n| 61-80 | 06-10 | — | *+1 armor* | 1,000 gp |\n| 81-85 | 11-20 | — | *+2 shield* | 4,000 gp |\n| 86-87 | 21-30 | — | *+2 armor* | 4,000 gp |\n| — | 31-40 | 01-08 | *+3 shield* | 9,000 gp |\n| — | 41-50 | 09-16 | *+3 armor* | 9,000 gp |\n| — | 51-55 | 17-27 | *+4 shield* | 16,000 gp |\n| — | 56-57 | 28-38 | *+4 armor* | 16,000 gp |\n| — | — | 39-49 | *+5 shield* | 25,000 gp |\n| — | — | 50-57 | *+5 armor* | 25,000 gp |\n| — | — | — | *+6 armor/shield*1 | 36,000 gp |\n| — | — | — | *+7 armor/shield*1 | 49,000 gp |\n| — | — | — | *+8 armor/shield*1 | 64,000 gp |\n| — | — | — | *+9 armor/shield*1 | 81,000 gp |\n| — | — | — | *+10 armor/shield*1 | 100,000 gp |\n| 88-89 | 58-60 | 58-60 | Specific armor2 | — |\n| 90-91 | 61-63 | 61-63 | Specific shield3 | — |\n| 92-100 | 64-100 | 64-100 | Special ability and roll again4 | — |\n\n1 Armor and shields can’t have enhancement bonuses higher than +5. Use these lines to determine price when special abilities are added in.\n2 See here for specific armors.\n3 See here for specific shields.\n4 See here for armor and here for shields.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 461",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "enhancementPrices": [
+      {
+        "bonus": 1,
+        "priceCp": 100000
+      },
+      {
+        "bonus": 2,
+        "priceCp": 400000
+      },
+      {
+        "bonus": 3,
+        "priceCp": 900000
+      },
+      {
+        "bonus": 4,
+        "priceCp": 1600000
+      },
+      {
+        "bonus": 5,
+        "priceCp": 2500000
+      }
+    ]
+  },
+  {
+    "id": "magic-item-creation",
+    "name": "Magic Item Creation",
+    "textEn": "To create magic items, spellcasters use special feats which allow them to invest time and money in an item’s creation. At the end of this process, the spellcaster must make a single skill check (usually Spellcraft, but sometimes another skill) to finish the item. If an item type has multiple possible skills, you choose which skill to make the check with. The DC to create a magic item is 5 + the caster level for the item. Failing this check means that the item does not function and the materials and time are wasted. Failing this check by 5 or more results in a cursed item (see Cursed Items for more information).\n\nNote that all items have prerequisites in their descriptions. These prerequisites must be met for the item to be created. Most of the time, they take the form of spells that must be known by the item’s creator (although access through another magic item or spellcaster is allowed). The DC to create a magic item increases by +5 for each prerequisite the caster does not meet. The only exception to this is the requisite item creation feat, which is mandatory. In addition, you cannot create potions, spell-trigger, or spell-completion magic items without meeting their spell prerequisites.\n\nWhile item creation costs are handled in detail below, note that normally the two primary factors are the caster level of the creator and the level of the spell or spells put into the item. A creator can create an item at a lower caster level than her own, but never lower than the minimum level needed to cast the needed spell. Using metamagic feats, a caster can place spells in items at a higher level than normal.\n\nMagic supplies for items are always half of the base price in gp. For many items, the market price equals the base price. Armor, shields, weapons, and items with value independent of their magically enhanced properties add their item cost to the market price. The item cost does not influence the base price (which determines the cost of magic supplies), but it does increase the final market price.\n\nIn addition, some items cast or replicate spells with costly material components. For these items, the market price equals the base price plus an extra price for the spell component costs. The cost to create these items is the magic supplies cost plus the costs for the components. Descriptions of these items include an entry that gives the total cost of creating the item.\n\nThe creator also needs a fairly quiet, comfortable, and well lit place in which to work. Any place suitable for preparing spells is suitable for making items. Creating an item requires 8 hours of work per 1,000 gp in the item’s base price (or fraction thereof), with a minimum of at least 8 hours. Potions and scrolls are an exception to this rule; they can take as little as 2 hours to create (if their base price is 250 gp or less). Scrolls and potions whose base price is more than 250 gp, but less than 1,000 gp, take 8 hours to create, just like any other magic item. The character must spend the gold at the beginning of the construction process. Regardless of the time needed for construction, a caster can create no more than one magic item per day. This process can be accelerated to 4 hours of work per 1,000 gp in the item’s base price (or fraction thereof) by increasing the DC to create the item by +5.\n\nThe caster can work for up to 8 hours each day. He cannot rush the process by working longer each day, but the days need not be consecutive, and the caster can use the rest of his time as he sees fit. If the caster is out adventuring, he can devote 4 hours each day to item creation, although he nets only 2 hours’ worth of work. This time is not spent in one continuous period, but rather during lunch, morning preparation, and during watches at night. If time is dedicated to creation, it must be spent in uninterrupted 4-hour blocks. This work is generally done in a controlled environment, where distractions are at a minimum, such as a laboratory or shrine. Work that is performed in a distracting or dangerous environment nets only half the amount of progress (just as with the adventuring caster).\n\nA character can work on only one item at a time. If a character starts work on a new item, all materials used on the under-construction item are wasted.\n\n**Magic Item Gold Piece Values**\n\n**Source** *PRPG Core Rulebook pg. 549*\nMany factors must be considered when determining the price of new magic items. The easiest way to come up with a price is to compare the new item to an item that is already priced, using that price as a guide. Otherwise, use the guidelines summarized on Table 15–29.\n\n**Multiple Similar Abilities**: For items with multiple similar abilities that don’t take up space on a character’s body, use the following formula: Calculate the price of the single most costly ability, then add 75% of the value of the next most costly ability, plus 1/2 the value of any other abilities.\n\n**Multiple Different Abilities**: Abilities such as an attack roll bonus or saving throw bonus and a spell-like function are not similar, and their values are simply added together to determine the cost. For items that take up a space on a character’s body, each additional power not only has no discount but instead has a 50% increase in price.\n\n**0-Level Spells**: When multiplying spell levels to determine value, 0-level spells should be treated as 1/2 level.\n\n**Other Considerations**: Once you have a cost figure, reduce that number if either of the following conditions applies:\n\n*Item Requires Skill to Use*: Some items require a specific skill to get them to function. This factor should reduce the cost about 10%.\n\n*Item Requires Specific Class or Alignment to Use*: Even more restrictive than requiring a skill, this limitation cuts the price by 30%.\n\nPrices presented in the magic item descriptions (the gold piece value following the item’s slot) are the market value, which is generally twice what it costs the creator to make the item. Since different classes get access to certain spells at different levels, the prices for two characters to make the same item might actually be different. An item is only worth two times what the caster of the lowest possible level can make it for. Calculate the market price based on the lowest possible level caster, no matter who makes the item.\n\nNot all items adhere to these formulas. First and foremost, these few formulas aren’t enough to truly gauge the exact differences between items. The price of a magic item may be modified based on its actual worth. The formulas only provide a starting point. The pricing of scrolls assumes that, whenever possible, a wizard or cleric created it. Potions and wands follow the formulas exactly. Staves follow the formulas closely, and other items require at least some judgment calls.\n\n**Table 15-29: Estimating Magic Item Gold Piece Values**\n\n| **Effect** | **Base Price** | **Example** |\n| --- | --- | --- |\n| Ability bonus (enhancement) | Bonus squared × 1,000 gp | *Belt of incredible dexterity +2* |\n| Armor bonus (enhancement) | Bonus squared × 1,000 gp | *+1 chainmail* |\n| Bonus spell | Spell level squared × 1,000 gp | *Pearl of power* |\n| AC bonus (deflection) | bonus squared × 2,000 gp | *Ring of protection +3* |\n| AC bonus (other)1 | bonus squared × 2,500 gp | *Ioun stone (dusty rose prism)* |\n| Natural armor bonus (enhancement) | bonus squared × 2,000 gp | *Amulet of natural armor +1* |\n| Save bonus (resistance) | bonus squared × 1,000 gp | *Cloak of resistance +5* |\n| Save bonus (other)1 | bonus squared × 2,000 gp | *Stone of good luck* |\n| Skill bonus (competence) | bonus squared × 100 gp | *Cloak of elvenkind* |\n| Spell resistance | 10,000 gp per point over SR 12; SR 13 minimum | *Mantle of spell resistance* |\n| Weapon bonus (enhancement) | bonus squared × 2,000 gp | *+1 longsword* |\n| **Spell Effect** | **Base Price** | **Example** |\n| Single use, spell completion | Spell level × caster level × 25 gp | *Scroll of haste* |\n| Single use, use-activated | Spell level × caster level × 50 gp | *Potion of cure light wounds* |\n| 50 charges, spell trigger | Spell level × caster level × 750 gp | *Wand of fireball* |\n| Command word | Spell level × caster level × 1,800 gp | *Cape of the mountebank* |\n| Use-activated or continuous | Spell level × caster level × 2,000 gp2 | *Lantern of revealing* |\n| **Special** | **Base Price Adjustment** | **Example** |\n| Charges per day | Divide by (5 divided by charges per day) | *Boots of teleportation* |\n| No space limitation3 | Multiply entire cost by 2 | *Ioun stone* |\n| Multiple different abilities | Multiply lower item cost by 1.5 | *Helm of brilliance* |\n| Charged (50 charges) | 1/2 unlimited use base price | *Ring of the ram* |\n| **Component** | **Extra Cost** | **Example** |\n| Armor, shield, or weapon | Add cost of masterwork item | *+1 composite longbow* |\n| Spell has material component cost | Add directly into price of item per charge4 | *Wand of stoneskin* |\n\nSpell Level: A 0-level spell is half the value of a 1st-level spell for determining price.\n1 Such as a luck, insight, sacred, or profane bonus.\n2 If a continuous item has an effect based on a spell with a duration measured in rounds, multiply the cost by 4. If the duration of the spell is 1 minute/level, multiply the cost by 2, and if the duration is 10 minutes/level, multiply the cost by 1.5. If the spell has a 24-hour duration or greater, divide the cost in half.\n3 An item that does not take up one of the spaces on a body costs double.\n4 If item is continuous or unlimited, not charged, determine cost as if it had 100 charges. If it has some daily limit, determine as if it had 50 charges.\n\n**Creating Magic Armor**\n\n**Source** *PRPG Core Rulebook pg. 550*\nTo create magic armor, a character needs a heat source and some iron, wood, or leatherworking tools. He also needs a supply of materials, the most obvious being the armor or the pieces of the armor to be assembled. Armor to be made into magic armor must be masterwork armor, and the masterwork cost is added to the base price to determine final market value. Additional magic supply costs for the materials are subsumed in the cost for creating the magic armor—half the base price of the item. Creating magic armor has a special prerequisite: The creator’s caster level must be at least three times the enhancement bonus of the armor. If an item has both an enhancement bonus and a special ability, the higher of the two caster level requirements must be met. Magic armor or a magic shield must have at least a +1 enhancement bonus to have any armor or shield special abilities.\n\nIf spells are involved in the prerequisites for making the armor, the creator must have prepared the spells to be cast (or must know the spells, in the case of a sorcerer or bard) and must provide any material components or focuses the spells require. The act of working on the armor triggers the prepared spells, making them unavailable for casting during each day of the armor’s creation. (That is, those spell slots are expended from the caster’s currently prepared spells, just as if they had been cast.)\n\nCreating some armor may entail other prerequisites beyond or other than spellcasting. See the individual descriptions for details.\n\nCrafting magic armor requires one day for each 1,000 gp value of the base price.\n\n**Item Creation Feat Required**: Craft Magic Arms and Armor. **Skill Used in Creation**: Spellcraft or Craft (armor).\n\n**Creating Magic Weapons**\n\n**Source** *PRPG Core Rulebook pg. 551*\nTo create a magic weapon, a character needs a heat source and some iron, wood, or leatherworking tools. She also needs a supply of materials, the most obvious being the weapon or the pieces of the weapon to be assembled. Only a masterwork weapon can become a magic weapon, and the masterwork cost is added to the total cost to determine final market value. Additional magic supplies costs for the materials are subsumed in the cost for creating the magic weapon—half the base price of the item based upon the item’s total effective bonus.\n\nCreating a magic weapon has a special prerequisite: The creator’s caster level must be at least three times the enhancement bonus of the weapon. If an item has both an enhancement bonus and a special ability, the higher of the two caster level requirements must be met. A magic weapon must have at least a +1 enhancement bonus to have any melee or ranged special weapon abilities.\n\nIf spells are involved in the prerequisites for making the weapon, the creator must have prepared the spells to be cast (or must know the spells, in the case of a sorcerer or bard) but need not provide any material components or focuses the spells require. The act of working on the weapon triggers the prepared spells, making them unavailable for casting during each day of the weapon’s creation. (That is, those spell slots are expended from the caster’s currently prepared spells, just as if they had been cast.)\n\nAt the time of creation, the creator must decide if the weapon glows or not as a side-effect of the magic imbued within it. This decision does not affect the price or the creation time, but once the item is finished, the decision is binding.\n\nCreating magic double-headed weapons is treated as creating two weapons when determining cost, time, and special abilities.\n\nCreating some weapons may entail other prerequisites beyond or other than spellcasting. See the individual descriptions for details.\n\nCrafting a magic weapon requires 1 day for each 1,000 gp value of the base price.\n\n**Item Creation Feat Required**: Craft Magic Arms and Armor.\n\n**Skill Used in Creation**: Spellcraft, Craft (bows) (for magic bows and arrows), or Craft (weapons) (for all other weapons).\n\n**Creating Potions**\n\n**Source** *PRPG Core Rulebook pg. 551*\nThe creator of a potion needs a level working surface and at least a few containers in which to mix liquids, as well as a source of heat to boil the brew. In addition, he needs ingredients. The costs for materials and ingredients are subsumed in the cost for brewing the potion: 25 gp × the level of the spell × the level of the caster.\n\nAll ingredients and materials used to brew a potion must be fresh and unused. The character must pay the full cost for brewing each potion. (Economies of scale do not apply.) The imbiber of the potion is both the caster and the target. Spells with a range of personal cannot be made into potions. The creator must have prepared the spell to be placed in the potion (or must know the spell, in the case of a sorcerer or bard) and must provide any material component or focus the spell requires.\n\nMaterial components are consumed when he begins working, but a focus is not. (A focus used in brewing a potion can be reused.) The act of brewing triggers the prepared spell, making it unavailable for casting until the character has rested and regained spells. (That is, that spell slot is expended from the caster’s currently prepared spells, just as if it had been cast.) Brewing a potion requires 1 day.\n\n**Item Creation Feat Required**: Brew Potion.\n\n**Skill Used in Creation**: Spellcraft or Craft (alchemy)\n\n**Potion Base Costs (By Brewer's Class)**\n\n| **Spell Level** | **Cleric, Druid, Wizard** | **Sorcerer** | **Bard** | **Paladin, Ranger*** |\n| --- | --- | --- | --- | --- |\n| 0 | 25 gp | 25 gp | 25 gp | — |\n| 1st | 50 gp | 50 gp | 50 gp | 50 gp |\n| 2nd | 300 gp | 400 gp | 400 gp | 400 gp |\n| 3rd | 750 gp | 900 gp | 1,050 gp | 1,050 gp |\n\n*Caster Level is equal to class level -3.\nPrices assume that the ption was made at the minimum caster level. The cost to create a potion is half the base price.\n\n**Creating Rings**\n\n**Source** *PRPG Core Rulebook pg. 551*\nTo create a magic ring, a character needs a heat source. He also needs a supply of materials, the most obvious being a ring or the pieces of the ring to be assembled. The cost for the materials is subsumed in the cost for creating the ring. Ring costs are difficult to determine. Refer to Table 15–29 and use the ring prices in the ring descriptions as a guideline. Creating a ring generally costs half the ring’s market price.\n\nRings that duplicate spells with costly material components add in the value of 50 × the spell’s component cost. Having a spell with a costly component as a prerequisite does not automatically incur this cost. The act of working on the ring triggers the prepared spells, making them unavailable for casting during each day of the ring’s creation. (That is, those spell slots are expended from the caster’s currently prepared spells, just as if they had been cast.)\n\nCreating some rings may entail other prerequisites beyond or other than spellcasting. See the individual descriptions for details.\n\nForging a ring requires 1 day for each 1,000 gp of the base price.\n\n**Item Creation Feat Required**: Forge Ring.\n\n**Skill Used in Creation**: Spellcraft or Craft ( jewelry).\n\n**Creating Rods**\n\n**Source** *PRPG Core Rulebook pg. 552*\nTo create a magic rod, a character needs a supply of materials, the most obvious being a rod or the pieces of the rod to be assembled. The cost for the materials is subsumed in the cost for creating the rod. Rod costs are difficult to determine. Refer to Table 15–29 and use the rod prices in the rod descriptions as a guideline. Creating a rod costs half the market value listed.\n\nIf spells are involved in the prerequisites for making the rod, the creator must have prepared the spells to be cast (or must know the spells, in the case of a sorcerer or bard) but need not provide any material components or focuses the spells require. The act of working on the rod triggers the prepared spells, making them unavailable for casting during each day of the rod’s creation. (That is, those spell slots are expended from the caster’s currently prepared spells, just as if they had been cast.)\n\nCreating some rods may entail other prerequisites beyond or other than spellcasting. See the individual descriptions for details.\n\nCrafting a rod requires 1 day for each 1,000 gp of the base price.\n\n**Item Creation Feat Required**: Craft Rod.\n\n**Skill Used in Creation**: Spellcraft, Craft ( jewelry), Craft (sculptures), or Craft (weapons).\n\n**Creating Scrolls**\n\n**Source** *PRPG Core Rulebook pg. 552*\nTo create a scroll, a character needs a supply of choice writing materials, the cost of which is subsumed in the cost for scribing the scroll: 12.5 gp × the level of the spell × the level of the caster.\n\nAll writing implements and materials used to scribe a scroll must be fresh and unused. A character must pay the full cost for scribing each spell scroll no matter how many times she previously has scribed the same spell.\n\nThe creator must have prepared the spell to be scribed (or must know the spell, in the case of a sorcerer or bard) and must provide any material component or focus the spell requires. A material component is consumed when she begins writing, but a focus is not. (A focus used in scribing a scroll can be reused.) The act of writing triggers the prepared spell, making it unavailable for casting until the character has rested and regained spells. (That is, that spell slot is expended from the caster’s currently prepared spells, just as if it had been cast.)\n\nScribing a scroll requires 1 day per 1,000 gp of the base price. Although an individual scroll might contain more than one spell, each spell must be scribed as a separate effort, meaning that no more than 1 spell can be scribed in a day.\n\n**Item Creation Feat Required**: Scribe Scroll.\n\n**Skill Used in Creation**: Spellcraft, Craft (calligraphy), or Profession (scribe).\n\n**Scroll Base Costs (By Scriber's Class)**\n\n| **Spell Level** | **Cleric, Druid, Wizard** | **Sorcerer** | **Bard** | **Paladin, Ranger*** |\n| --- | --- | --- | --- | --- |\n| 0 | 12 gp 5 sp | 12 gp 5 sp | 12 gp 5 sp | — |\n| 1st | 25 gp | 25 gp | 25 gp | 25 gp |\n| 2nd | 150 gp | 200 gp | 200 gp | 200 gp |\n| 3rd | 375 gp | 450 gp | 525 gp | 525 gp |\n| 4th | 700 gp | 800 gp | 1,000 gp | 1,000 gp |\n| 5th | 1,125 gp | 1,250 gp | 1,625 gp | — |\n| 6th | 1,650 gp | 1,800 gp | 2,400 gp | — |\n| 7th | 2,275 gp | 2,450 gp | — | — |\n| 8th | 3,000 gp | 3,200 gp | — | — |\n| 9th | 3,825 gp | 4,050 gp | — | — |\n\n* Caster level is equal to class level –3.\nPrices assume that the scroll was made at the minimum caster level. The cost to create a scroll is half the base price.\n\n**Creating Staves**\n\n**Source** *PRPG Core Rulebook pg. 552*\nTo create a magic staff, a character needs a supply of materials, the most obvious being a staff or the pieces of the staff to be assembled.\n\nThe materials cost is subsumed in the cost of creation: 400 gp × the level of the highest-level spell × the level of the caster, plus 75% of the value of the next most costly ability (300 gp × the level of the spell × the level of the caster), plus 1/2 the value of any other abilities (200 gp × the level of the spell × the level of the caster). Staves are always fully charged (10 charges) when created.\n\nIf desired, a spell can be placed into the staff at less than the normal cost, but then activating that particular spell drains additional charges from the staff. Divide the cost of the spell by the number of charges it consumes to determine its final price. Note that this does not change the order in which the spells are priced (the highest level spell is still priced first, even if it requires more than one charge to activate). The caster level of all spells in a staff must be the same, and no staff can have a caster level of less than 8th, even if all the spells in the staff are low-level spells.\n\nThe creator must have prepared the spells to be stored (or must know the spells, in the case of a sorcerer or bard) and must provide any focus the spells require as well as material component costs sufficient to activate the spell 50 times (divide this amount by the number of charges one use of the spell expends). Material components are consumed when he begins working, but focuses are not. (A focus used in creating a staff can be reused.) The act of working on the staff triggers the prepared spells, making them unavailable for casting during each day of the staff ’s creation. (That is, those spell slots are expended from the caster’s currently prepared spells, just as if they had been cast.)\n\nCreating a few staves may entail other prerequisites beyond spellcasting. See the individual descriptions for details.\n\nCrafting a staff requires 1 day for each 1,000 gp of the base price.\n\n**Item Creation Feat Required**: Craft Staff.\n\n**Skill Used in Creation**: Spellcraft, Craft ( jewelry), Craft (sculptures), or Profession (woodcutter).\n\n**Creating Wands**\n\n**Source** *PRPG Core Rulebook pg. 553*\nTo create a magic wand, a character needs a small supply of materials, the most obvious being a baton or the pieces of the wand to be assembled. The cost for the materials is subsumed in the cost for creating the wand: 375 gp × the level of the spell × the level of the caster. Wands are always fully charged (50 charges) when created.\n\nThe creator must have prepared the spell to be stored (or must know the spell, in the case of a sorcerer or bard) and must provide any focuses the spell requires. Fifty of each needed material component are required (one for each charge). Material components are consumed when work begins, but focuses are not. A focus used in creating a wand can be reused. The act of working on the wand triggers the prepared spell, making it unavailable for casting during each day devoted to the wand’s creation. (That is, that spell slot is expended from the caster’s currently prepared spells, just as if it had been cast.)\n\nCrafting a wand requires 1 day per each 1,000 gp of the base price.\n\n**Item Creation Feat Required**: Craft Wand.\n\n**Skill Used in Creation**: Spellcraft, Craft ( jewelry), Craft (sculptures), or Profession (woodcutter).\n\n**Wand Base Costs (By Crafter's Class)**\n\n| **Spell Level** | **Cleric, Druid, Wizard** | **Sorcerer** | **Bard** | **Paladin, Ranger*** |\n| --- | --- | --- | --- | --- |\n| 0 | 375 gp | 375 gp | 375 gp | — |\n| 1st | 750 gp | 750 gp | 750 gp | 750 gp |\n| 2nd | 4,500 gp | 6,000 gp | 6,000 gp | 6,000 gp |\n| 3rd | 11,250 gp | 13,500 gp | 15,750 gp | 15,750 gp |\n| 4th | 21,000 gp | 24,000 gp | 30,000 gp | 30,000 gp |\n\n* Caster level is equal to class level –3.\nPrices assume that the wand was made at the minimum caster level. The cost to create a wand is half the base price\n\n**Creating Wondrous Items**\n\n**Source** *PRPG Core Rulebook pg. 553*\nTo create a wondrous item, a character usually needs some sort of equipment or tools to work on the item. She also needs a supply of materials, the most obvious being the item itself or the pieces of the item to be assembled. The cost for the materials is subsumed in the cost for creating the item. Wondrous item costs are difficult to determine. Refer to Table 15–29 and use the item prices in the item descriptions as a guideline. Creating an item costs half the market value listed.\n\nIf spells are involved in the prerequisites for making the item, the creator must have prepared the spells to be cast (or must know the spells, in the case of a sorcerer or bard) but need not provide any material components or focuses the spells require. The act of working on the item triggers the prepared spells, making them unavailable for casting during each day of the item’s creation. (That is, those spell slots are expended from the caster’s currently prepared spells, just as if they had been cast.)\n\nCreating some items may entail other prerequisites beyond or other than spellcasting. See the individual descriptions for details.\n\nCrafting a wondrous item requires 1 day for each 1,000 gp of the base price.\n\n**Item Creation Feat Required**: Craft Wondrous Item.\n\n**Skill Used In Creation**: Spellcraft or an applicable Craft or Profession skill check.\n\n**Adding New Abilities**\n\n**Source** *PRPG Core Rulebook pg. 553*\nSometimes, lack of funds or time make it impossible for a magic item crafter to create the desired item from scratch. Fortunately, it is possible to enhance or build upon an existing magic item. Only time, gold, and the various prerequisites required of the new ability to be added to the magic item restrict the type of additional powers one can place.\n\nThe cost to add additional abilities to an item is the same as if the item was not magical, less the value of the original item. Thus, a *+1 longsword* can be made into a *+2 vorpal longsword*, with the cost to create it being equal to that of a *+2 vorpal sword* minus the cost of a *+1 longsword*.\n\nIf the item is one that occupies a specific place on a character’s body, the cost of adding any additional ability to that item increases by 50%. For example, if a character adds the power to confer invisibility to her *ring of protection +2*, the cost of adding this ability is the same as for creating a *ring of invisibility* multiplied by 1.5.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 548",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "magic-item-descriptions",
+    "name": "Magic Item Descriptions",
+    "textEn": "Each general type of magic item gets an overall description, followed by descriptions of specific items.\n\nGeneral descriptions include notes on activation, random generation, and other material. The AC, hardness, hit points, and break DC are given for typical examples of some magic items. The AC assumes that the item is unattended and includes a –5 penalty for the item’s effective Dexterity of 0. If a creature holds the item, use the creature’s Dexterity modifier in place of the –5 penalty.\n\nSome individual items, notably those that just store spells, don’t get full-blown descriptions. Reference the spell’s description for details, modif ied by the form of the item (potion, scroll, wand, and so on). Assume that the spell is cast at the minimum level required to cast it. Items with full descriptions have their powers detailed, and each of the following topics is covered in notational form as part of its entry.\n\n**Aura**: Most of the time, a *detect magic* spell reveals the school of magic associated with a magic item and the strength of the aura an item emits. This information (when applicable) is given at the beginning of the item’s notational entry. See the *detect magic* spell description for details.\n\n**Caster Level (CL)**: The next item in a notational entry gives the caster level of the item, indicating its relative power. The caster level determines the item’s saving throw bonus, as well as range or other level-dependent aspects of the powers of the item (if variable). It also determines the level that must be contended with should the item come under the effect of a *dispel magic* spell or similar situation.\n\nFor potions, scrolls, and wands, the creator can set the caster level of an item at any number high enough to cast the stored spell but not higher than her own caster level. For other magic items, the caster level is determined by the item itself.\n\n**Slot**: Most magic items can only be utilized if worn or wielded in their proper slots. If the item is stowed or placed elsewhere, it does not function. If the slot lists “none,” the item must be held or otherwise carried to function.\n\n**Price**: This is the cost, in gold pieces, to purchase the item, if it is available for sale. Generally speaking, magic items can be sold by PCs for half this value.\n\n**Weight**: This is the weight of an item. When a weight figure is not given, the item has no weight worth noting (for purposes of determining how much of a load a character can carry).\n\n**Description**: This section of a magic item describes the item’s powers and abilities. Potions, scrolls, staves, and wands refer to various spells as part of their descriptions (see Chapter 10 for details on these spells).\n\n**Construction**: With the exception of artifacts, most magic items can be built by a spellcaster with the appropriate feats and prerequisites. This section describes those prerequisites.\n\n**Requirements**: Certain requirements must be met in order for a character to create a magic item. These include feats, spells, and miscellaneous requirements such as level, alignment, and race or kind.\n\nA spell prerequisite may be provided by a character who has prepared the spell (or who knows the spell, in the case of a sorcerer or bard), or through the use of a spell completion or spell trigger magic item or a spell-like ability that produces the desired spell effect. For each day that passes in the creation process, the creator must expend one spell completion item or one charge from a spell trigger item if either of those objects is used to supply a prerequisite.\n\nIt is possible for more than one character to cooperate in the creation of an item, with each participant providing one or more of the prerequisites. In some cases, cooperation may even be necessary.\n\nIf two or more characters cooperate to create an item, they must agree among themselves who will be considered the creator for the purpose of determinations where the creator’s level must be known.\n\n**Cost**: This is the cost in gold pieces to create the item. Generally this cost is equal to half the price of an item, but additional material components might increase this number. The cost to create includes the costs derived from the base cost plus the costs of the components.\n\n**Extradimensional Spaces**\n\n**Source** *PRPG Core Rulebook pg. 501*\nA number of spells and magic items utilize extradimensional spaces, such as *rope trick*, a *bag of holding*, a *handy haversack*, and a *portable hole*. These spells and magic items create a tiny pocket space that does not exist in any dimension. Such items do not function, however, inside another extradimensional space. If placed inside such a space, they cease to function until removed from the extradimensional space. For example, if a *bag of holding* is brought into a *rope trick*, the contents of the *bag of holding* become inaccessible until the *bag of holding* is taken outside the rope trick. The only exception to this is when a *bag of holding* and a *portable hole* interact, forming a rift to the Astral Plane, as noted in their descriptions.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 460",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "magic-items",
+    "name": "Magic Items",
+    "textEn": "From the common *potion of cure light wounds* to the mighty *holy avenger*, magic items are valuable tools used by heroes and villains alike. This chapter contains a wide variety of items to enhance any character.\n\nMagic items are divided into categories: armor, weapons, potions, rings, rods, scrolls, staves, wands, and wondrous items. In addition, some magic items are cursed or intelligent. Finally, a few magic items are of such rarity and power that they are considered to belong to a category of their own— artifacts. Artifacts are classified in turn as minor (extremely rare but not one-of-a-kind items) or major (each one unique and incredibly potent).",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 458",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "magic-items-and-detect-magic",
+    "name": "Magic Items and Detect Magic",
+    "textEn": "When *detect magic* identifies a magic item’s school of magic, this information refers to the school of the spell placed within the potion, scroll, or wand, or the prerequisite given for the item. The description of each item provides its aura strength and the school to which it belongs.\n\nIf more than one spell is given as a prerequisite, use the highest-level spell. If no spells are included in the prerequisites, use the following default guidelines.\n\n| **Item Nature** | **School** |\n| --- | --- |\n| Armors and protection items | Abjuration |\n| Weapons or offensive items | Evocation |\n| Bonus to ability score, skill check, etc. | Transmutation |",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 458",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "magic-items-on-the-body",
+    "name": "Magic Items on the Body",
+    "textEn": "Many magic items need to be donned by a character who wants to employ them or benefit from their abilities. It’s possible for a creature with a humanoid-shaped body to wear as many as 15 magic items at the same time. However, each of those items must be worn on (or over) a particular part of the body, known as a “slot.”\n\nA humanoid-shaped body can be decked out in magic gear consisting of one item from each of the following groups, keyed to which slot on the body the item is worn.\n\n**Armor**: suits of armor.\n\n**Belts**: belts and girdles.\n\n**Body**: robes and vestments.\n\n**Chest**: mantles, shirts, and vests.\n\n**Eyes**: eyes, glasses, and goggles.\n\n**Feet**: boots, shoes, and slippers.\n\n**Hands**: gauntlets and gloves.\n\n**Head**: circlets, crowns, hats, helms, and masks.\n\n**Headband**: headbands and phylacteries.\n\n**Neck**: amulets, brooches, medallions, necklaces, periapts, and scarabs.\n\n**Ring (up to two)**: rings.\n\n**Shield**: shields.\n\n**Shoulders**: capes and cloaks.\n\n**Wrist**: bracelets and bracers.\n\nOf course, a character may carry or possess as many items of the same type as he wishes. However, additional items beyond those in the slots listed above have no effect.\n\nSome items can be worn or carried without taking up a slot on a character’s body. The description of an item indicates when an item has this property.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 459",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "magic-weapons",
+    "name": "Magic Weapons",
+    "textEn": "A magic weapon is enhanced to strike more truly and deliver more damage. Magic weapons have enhancement bonuses ranging from +1 to +5. They apply these bonuses to both attack and damage rolls when used in combat. All magic weapons are also masterwork weapons, but their masterwork bonuses on attack rolls do not stack with their enhancement bonuses on attack rolls.\n\nWeapons come in two basic categories: melee and ranged. Some of the weapons listed as melee weapons can also be used as ranged weapons. In this case, their enhancement bonuses apply to both melee and ranged attacks.\n\nSome magic weapons have special abilities. Special abilities count as additional bonuses for determining the market value of the item, but do not modify attack or damage bonuses except where specifically noted). A single weapon cannot have a modified bonus (enhancement bonus plus special ability bonus equivalents, including those from character abilities and spells) higher than +10. A weapon with a special ability must also have at least a +1 enhancement bonus. Weapons cannot possess the same special ability more than once.\n\nWeapons or ammunition can be made of an unusual material. Roll d%: 01–95 indicates that the item is of a standard sort, and 96– 100 indicates that it is made of a special material (see Chapter 6).\n\n**Caster Level for Weapons**: The caster level of a weapon with a special ability is given in the item description. For an item with only an enhancement bonus and no other abilities, the caster level is three times the enhancement bonus. If an item has both an enhancement bonus and a special ability, the higher of the two caster level requirements must be met.\n\n**Additional Damage Dice**: Some magic weapons deal additional dice of damage. Unlike other modifiers to damage, additional dice of damage are not multiplied when the attacker scores a critical hit.\n\n**Ranged Weapons and Ammunition**: The enhancement bonus from a ranged weapon does not stack with the enhancement bonus from ammunition. Only the higher of the two enhancement bonuses applies.\n\nAmmunition fired from a projectile weapon with an enhancement bonus of +1 or higher is treated as a magic weapon for the purpose of overcoming damage reduction. Similarly, ammunition fired from a projectile weapon with an alignment gains the alignment of that projectile weapon.\n\n**Magic Ammunition and Breakage**: When a magic arrow, crossbow bolt, or sling bullet misses its target, there is a 50% chance it breaks or is otherwise rendered useless. A magic arrow, bolt, or bullet that successfully hits a target is automatically destroyed after it delivers its damage.\n\n**Light Generation**: Fully 30% of magic weapons shed light equivalent to a *light* spell. These glowing weapons are quite obviously magical. Such a weapon can’t be concealed when drawn, nor can its light be shut off. Some of the specific weapons detailed below always or never glow, as defined in their descriptions.\n\n**Hardness and Hit Points**: Each +1 of a magic weapon’s enhancement bonus adds +2 to its hardness and +10 to its hit points. See also Table 7–12 on page 175.\n\n**Activation**: Usually a character benefits from a magic weapon in the same way a character benefits from a mundane weapon— by wielding (attacking with) it. If a weapon has a special ability that the user needs to activate, then the user usually needs to utter a command word (a standard action). A character can activate the special abilities of 50 pieces of ammunition at the same time, assuming each piece has identical abilities.\n\n**Magic Weapons and Critical Hits**: Some weapon special abilities and some specific weapons have an extra effect on a critical hit. This special effect also functions against creatures not normally subject to critical hits. On a successful critical roll, apply the special effect, but do not multiply the weapon’s regular damage.\n\n**Weapons for Unusually Sized Creatures**: The cost of weapons for creatures who are neither Small nor Medium varies (see Chapter 6). The cost of the masterwork quality and any magical enhancement remains the same.\n\n**Special Qualities**: Roll d%. A 01–30 result indicates that the item sheds light, 31–45 indicates that something (a design, inscription, or the like) provides a clue to the weapon’s function, and 46–100 indicates no special qualities.\n\n**Table 15-8: Weapons**\n\n| **Minor** | **Medium** | **Major** | **Weapon Bonus** | **Base Price1** |\n| --- | --- | --- | --- | --- |\n| 01-70 | 01-10 | — | +1 | 2,000 gp |\n| 71-85 | 11-29 | — | +2 | 8,000 gp |\n| — | 30-58 | 01-20 | +3 | 18,000 gp |\n| — | 59-62 | 21-38 | +4 | 32,000 gp |\n| — | — | 39-49 | +5 | 50,000 gp |\n| — | — | — | +62 | 72,000 gp |\n| — | — | — | +72 | 98,000 gp |\n| — | — | — | +82 | 128,000 gp |\n| — | — | — | +92 | 162,000 gp |\n| — | — | — | +102 | 200,000 gp |\n| 86-90 | 63-68 | 50-63 | Specifc weapon3 | — |\n| 92-100 | 69-100 | 64-100 | Special ability and roll again4 | — |\n\n1 For ammunition, this price is for 50 arrows, bolts, or bullets.\n2 A weapon can’t have an enhancement bonus higher than +5. Use these lines to determine price when special abilities are added in.\n3 See here.\n4 See here for melee weapons and here for ranged weapons.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 468",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ],
+    "enhancementPrices": [
+      {
+        "bonus": 1,
+        "priceCp": 200000
+      },
+      {
+        "bonus": 2,
+        "priceCp": 800000
+      },
+      {
+        "bonus": 3,
+        "priceCp": 1800000
+      },
+      {
+        "bonus": 4,
+        "priceCp": 3200000
+      },
+      {
+        "bonus": 5,
+        "priceCp": 5000000
+      }
+    ]
+  },
+  {
+    "id": "potions",
+    "name": "Potions",
+    "textEn": "A potion is a magic liquid that produces its effect when imbibed. Potions vary incredibly in appearance. Magic oils are similar to potions, except that oils are applied externally rather than imbibed. A potion or oil can be used only once. It can duplicate the effect of a spell of up to 3rd level that has a casting time of less than 1 minute and targets one or more creatures or objects. The price of a potion is equal to the level of the spell × the creator’s caster level × 50 gp. If the potion has a material component cost, it is added to the base price and cost to create. Table 15–12 gives sample prices for potions created at the lowest possible caster level for each spellcasting class. Note that some spells appear at different levels for different casters. The level of such spells depends on the caster brewing the potion.\n\nPotions are like spells cast upon the imbiber. The character taking the potion doesn’t get to make any decisions about the effect—the caster who brewed the potion has already done so. The drinker of a potion is both the effective target and the caster of the effect (though the potion indicates the caster level, the drinker still controls the effect).\n\nThe person applying an oil is the effective caster, but the object is the target.\n\n**Physical Description**: A typical potion or oil consists of 1 ounce of liquid held in a ceramic or glass vial fitted with a tight stopper. The stoppered container is usually no more than 1 inch wide and 2 inches high. The vial has AC 13, 1 hit point, hardness 1, and a break DC of 12.\n\n**Identifying Potions**: In addition to the standard methods of identification, PCs can sample from each container they find to attempt to determine the nature of the liquid inside with a Perception check. The DC of this check is equal to 15 + the spell level of the potion (although this DC might be higher for rare or unusual potions).\n\n**Activation**: Drinking a potion or applying an oil requires no special skill. The user merely removes the stopper and swallows the potion or smears on the oil. The following rules govern potion and oil use.\n\nDrinking a potion or using an oil is a standard action. The potion or oil takes effect immediately. Using a potion or oil provokes attacks of opportunity. An enemy may direct an attack of opportunity against the potion or oil container rather than against the character. A successful attack of this sort can destroy the container, preventing the character from drinking the potion or applying the oil.\n\nA creature must be able to swallow a potion or smear on an oil. Because of this, incorporeal creatures cannot use potions or oils. Any corporeal creature can imbibe a potion or use an oil.\n\nA character can carefully administer a potion to an unconscious creature as a full-round action, trickling the liquid down the creature’s throat. Likewise, it takes a full-round action to apply an oil to an unconscious creature.\n\n**Table 15-12: Potions**\n\n| **Minor** | **Medium** | **Major** | **Spell Level** | **Caster Level** |\n| --- | --- | --- | --- | --- |\n| 01-20 | — | — | 0 | 1st |\n| 21-60 | 01-20 | — | 1st | 1st |\n| 61-100 | 21-60 | 01-20 | 2nd | 3rd |\n| — | 61-100 | 21-100 | 3rd | 5th |\n\n**Potion Costs**\n\n| **Spell Level** | **Cleric, Druid, Wizard** | **Sorcerer** | **Bard** | **Paladin, Ranger** |\n| --- | --- | --- | --- | --- |\n| 0 | 25 gp | 25 gp | 25 gp | — |\n| 1st | 50 gp | 50 gp | 50 gp | 50 gp |\n| 2nd | 300 gp | 400 gp | 400 gp | 400 gp |\n| 3rd | 750 gp | 900 gp | 1,050 gp | 1,050 gp |",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 477",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "purchasing-magic-items",
+    "name": "Purchasing Magic Items",
+    "textEn": "Magic items are valuable, and most major cities have at least one or two purveyors of magic items, from a simple potion merchant to a weapon smith that specializes in magic swords. Of course, not every item in this book is available in every town.\n\nThe following guidelines are presented to help GMs determine what items are available in a given community. These guidelines assume a setting with an average level of magic. Some cities might deviate wildly from these baselines, subject to GM discretion. The GM should keep a list of what items are available from each merchant and should replenish the stocks on occasion to represent new acquisitions.\n\nThe number and types of magic items available in a community depend upon its size. Each community has a base value associated with it (see Table 15–1). There is a 75% chance that any item of that value or lower can be found for sale with little effort in that community. In addition, the community has a number of other items for sale. These items are randomly determined and are broken down by category (minor, medium, or major). After determining the number of items available in each category, refer to Table 15–2 to determine the type of each item (potion, scroll, ring, weapon, etc.) before moving on to the individual charts to determine the exact item. Reroll any items that fall below the community’s base value.\n\nIf you are running a campaign with low magic, reduce the base value and the number of items in each community by half. Campaigns with little or no magic might not have magic items for sale at all. GMs running these sorts of campaigns should make some adjustments to the challenges faced by the characters due to their lack of magic gear.\n\nCampaigns with an abundance of magic items might have communities with twice the listed base value and random items available. Alternatively, all communities might count as one size category larger for the purposes of what items are available. In a campaign with very common magic, all magic items might be available for purchase in a metropolis.\n\nNonmagical items and gear are generally available in a community of any size unless the item is particularly expensive, such as full plate, or made of an unusual material, such as an adamantine longsword. These items should follow the base value guidelines to determine their availability, subject to GM discretion.\n\n**Table 15-1: Available Magic Items**\n\n| **Community Size** | **Base Value** | **Minor** | **Medium** | **Major** |\n| --- | --- | --- | --- | --- |\n| Thorp | 50 gp | 1d4 items | — | — |\n| Hamlet | 200 gp | 1d6 items | — | — |\n| Village | 500 gp | 2d4 items | 1d4 items | — |\n| Small town | 1,000 gp | 3d4 items | 1d6 items | — |\n| Large town | 2,000 gp | 3d4 items | 2d4 items | 1d4 items |\n| Small city | 4,000 gp | 4d4 items | 3d4 items | 1d6 items |\n| Large city | 8,000 gp | 4d4 items | 3d4 items | 2d4 items |\n| Metropolis | 16,000 gp | * | 4d4 items | 3d4 items |\n\n* In a metropolis, nearly all minor magic items are available.\n\n**Table 15-2: Random Magic Item Generation**\n\n| **Minor** | **Medium** | **Major** | **Item** |\n| --- | --- | --- | --- |\n| 01-04 | 01-10 | 01-10 | Armor and shields |\n| 05-09 | 11-20 | 11-20 | Weapons |\n| 10-44 | 21-30 | 21-25 | Potions |\n| 45-46 | 31-40 | 26-35 | Rings |\n| — | 41-50 | 36-45 | Rods |\n| 47-81 | 51-65 | 46-55 | Scrolls |\n| — | 66-68 | 56-75 | Staves |\n| 82-91 | 69-83 | 56-80 | Wands |\n| 92-100 | 84-100 | 81-100 | Wondrous items |",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 460",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "rings",
+    "name": "Rings",
+    "textEn": "Rings bestow magical powers upon their wearers. Only a rare few have charges—most magic rings are permanent and potent magic items. Anyone can use a ring.\n\nA character can only effectively wear two magic rings. A third magic ring doesn’t work if the wearer is already wearing two magic rings.\n\n**Physical Description**: Rings have no appreciable weight. Although exceptions exist that are crafted from glass or bone, the vast majority of rings are forged from metal—usually precious metals such as gold, silver, and platinum. A ring has AC 13, 2 hit points, hardness 10, and a break DC of 25.\n\n**Activation**: A ring’s ability is usually activated by a spoken command word (a standard action that does not provoke attacks of opportunity) or its effects work continually. Some rings have unusual activations, as mentioned in the ring’s specific description.\n\n**Special Qualities**: Roll d%. A result of 01 indicates the ring is intelligent, 02–31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32–100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see page 532). Rings with charges can never be intelligent.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 478",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "rods",
+    "name": "Rods",
+    "textEn": "Rods are scepter-like devices that have unique magical powers and do not usually have charges. Anyone can use a rod.\n\n**Physical Description**: Rods weigh approximately 5 pounds. They range from 2 feet to 3 feet long and are usually made of iron or some other metal. (Many, as noted in their descriptions, can function as light maces or clubs due to their hardy construction.) These sturdy items have AC 9, 10 hit points, hardness 10, and a break DC of 27.\n\n**Activation**: Details relating to rod use vary from item to item. Unless noted otherwise, you must be holding a rod to use its abilities. See the individual descriptions for specifics. Special Qualities: Roll d%. A 01 result indicates the rod is intelligent, 02–31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32– 100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see Intelligent Items later in this chapter).\n\nRods with charges can never be intelligent.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 484",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "saving-throws-against-magic-item-powers",
+    "name": "Saving Throws Against Magic Item Powers",
+    "textEn": "Magic items produce spells or spell-like effects. For a saving throw against a spell or spell-like effect from a magic item, the DC is 10 + the level of the spell or effect + the ability modifier of the minimum ability score needed to cast that level of spell.\n\nStaves are an exception to the rule. Treat the saving throw as if the wielder cast the spell, including caster level and all modifiers to save DCs.\n\nMost item descriptions give saving throw DCs for various effects, particularly when the effect has no exact spell equivalent (making its level otherwise difficult to determine quickly).",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 459",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "scrolls",
+    "name": "Scrolls",
+    "textEn": "A scroll is a spell (or collection of spells) that has been stored in written form. A spell on a scroll can be used only once. The writing vanishes from the scroll when the spell is activated. Using a scroll is basically like casting a spell. The price of a scroll is equal to the level of the spell × the creator’s caster level × 25 gp. If the scroll has a material component cost, it is added to the base price and cost to create. Table 15–15 gives sample prices for scrolls created at the lowest possible caster level for each spellcasting class. Note that some spells appear at different levels for different casters. The level of such spells depends on the caster scribing the scroll.\n\n**Physical Description**: A scroll is a heavy sheet of fine vellum or high-quality paper. An area about 8-1/2 inches wide and 11 inches long is sufficient to hold one spell. The sheet is reinforced at the top and bottom with strips of leather slightly longer than the sheet is wide. A scroll holding more than one spell has the same width (about 8-1/2 inches) but is an extra foot or so long for each additional spell. Scrolls that hold three or more spells are usually fitted with reinforcing rods at each end rather than simple strips of leather. A scroll has AC 9, 1 hit point, hardness 0, and a break DC of 8.\n\nTo protect it from wrinkling or tearing, a scroll is rolled up from both ends to form a double cylinder. (This also helps the user unroll the scroll quickly.) The scroll is placed in a tube of ivory, jade, leather, metal, or wood. Most scroll cases are inscribed with magic symbols which often identify the owner or the spells stored on the scrolls inside. The symbols sometimes hide magic traps.\n\n**Activation**: To activate a scroll, a spellcaster must read the spell written on it. This involves several steps and conditions.\n\n*Decipher the Writing*: The writing on a scroll must be deciphered before a character can use it or know exactly what spell it contains. This requires a read magic spell or a successful Spellcraft check (DC 20 + spell level). Deciphering a scroll is a full-round action.\n\nDeciphering a scroll to determine its contents does not activate its magic unless it is a specially prepared cursed scroll. A character can decipher the writing on a scroll in advance so that she can proceed directly to the next step when the time comes to use the scroll.\n\n*Activate the Spell*: Activating a scroll requires reading the spell from the scroll. The character must be able to see and read the writing on the scroll. Activating a scroll spell requires no material components or focus. (The creator of the scroll provided these when scribing the scroll.) Note that some spells are effective only when cast on an item or items. In such a case, the scroll user must provide the item when activating the spell. Activating a scroll spell is subject to disruption just as casting a normally prepared spell would be. Using a scroll is like casting a spell for purposes of arcane spell failure chance.\n\nTo have any chance of activating a scroll spell, the scroll user must meet the following requirements.\n\n- The spell must be of the correct type (arcane or divine). Arcane spellcasters (wizards, sorcerers, and bards) can only use scrolls containing arcane spells, and divine spellcasters (clerics, druids, paladins, and rangers) can only use scrolls containing divine spells. (The type of scroll a character creates is also determined by his class.)\n- The user must have the spell on her class list.\n- The user must have the requisite ability score.\n\nIf the user meets all the requirements noted above, and her caster level is at least equal to the spell’s caster level, she can automatically activate the spell without a check. If she meets all three requirements but her own caster level is lower than the scroll spell’s caster level, then she has to make a caster level check (DC = scroll’s caster level + 1) to cast the spell successfully. If she fails, she must make a DC 5 Wisdom check to avoid a mishap (see Scroll Mishaps). A natural roll of 1 always fails, whatever the modifiers. If the caster level check fails but no mishap occurs, the scroll is not expended. Activating a scroll is a standard action (or the spell’s casting time, whichever is longer) and it provokes attacks of opportunity exactly as casting a spell does.\n\n*Determine Effect*: A spell successfully activated from a scroll works exactly like a spell prepared and cast the normal way. Assume the scroll spell’s caster level is always the minimum level required to cast the spell for the character who scribed the scroll, unless the scriber specif ically desired otherwise.\n\nThe writing for an activated spell disappears from the scroll as the spell is cast. *Scroll Mishaps*: When a mishap occurs, the spell on the scroll has a reversed or harmful effect. Possible mishaps are given below.\n\n- A surge of uncontrolled magical energy deals 1d6 points of damage per spell level to the scroll user.\n- Spell strikes the scroll user or an ally instead of the intended target, or a random target nearby if the scroll user was the intended recipient.\n- Spell takes effect at some random location within spell range.\n- Spell’s effect on the target is contrary to the spell’s normal effect.\n- The scroll user suffers some minor but bizarre effect related to the spell in some way. Most such effects should last only as long as the original spell’s duration, or 2d10 minutes for instantaneous spells.\n- Some innocuous item or items appear in the spell’s area.\n- Spell has delayed effect. Sometime within the next 1d12 hours, the spell activates. If the scroll user was the intended recipient, the spell takes effect normally. If the user was not the intended recipient, the spell goes off in the general direction of the original recipient or target, up to the spell’s maximum range, if the target has moved away.\n\n**Table 15-15: Scrolls**\n\n| **Minor** | **Medium** | **Major** | **Spell Level** | **Caster Level** |\n| --- | --- | --- | --- | --- |\n| 01-05 | — | — | 0 | 1st |\n| 06-50 | — | — | 1 | 1st |\n| 51-95 | 01-05 | — | 2 | 3rd |\n| 96-100 | 06-65 | — | 3 | 5th |\n| — | 66-95 | 01-05 | 4 | 7th |\n| — | 96-100 | 06-50 | 5 | 9th |\n| — | — | 51-70 | 6 | 11th |\n| — | — | 71-85 | 7 | 13th |\n| — | — | 86-95 | 8 | 15th |\n| — | — | 96-100 | 9 | 17th |\n\n**Scroll Costs**\n\n| **Spell Level** | **Cleric, Druid, Wizard** | **Sorcerer** | **Bard** | **Paladin, Ranger** |\n| --- | --- | --- | --- | --- |\n| 0 | 12.5 gp | 12.5 gp | 12.5 gp | — |\n| 1st | 25 gp | 25 gp | 25 gp | 25 gp |\n| 2nd | 150 gp | 200 gp | 200 gp | 200 gp |\n| 3rd | 375 gp | 450 gp | 525 gp | 525 gp |\n| 4th | 700 gp | 800 gp | 1,000 gp | 1,000 gp |\n| 5th | 1,125 gp | 1,250 gp | 1,625 gp | — |\n| 6th | 1,650 gp | 1,800 gp | 2,400 gp | — |\n| 7th | 2,275 gp | 2,450 gp | — | — |\n| 8th | 3,000 gp | 3,200 gp | — | — |\n| 9th | 3,825 gp | 4,050 gp | — | — |",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 490",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "staves",
+    "name": "Staves",
+    "textEn": "A staff is a long shaft that stores several spells. Unlike wands, which can contain a wide variety of spells, each staff is of a certain kind and holds specific spells. A staff has 10 charges when created.\n\n**Physical Description**: A typical staff measures anywhere from 4 feet to 7 feet long and is 2 inches to 3 inches thick, weighing about 5 pounds. Most staves are wood, but an exotic few are bone, metal, or even glass. A staff often has a gem or some device at its tip or is shod in metal at one or both ends. Staves are often decorated with carvings or runes. A typical staff is like a walking stick, quarterstaff, or cudgel. It has AC 7, 10 hit points, hardness 5, and a break DC of 24.\n\n**Activation**: Staves use the spell trigger activation method, so casting a spell from a staff is usually a standard action that doesn’t provoke attacks of opportunity. (If the spell being cast has a longer casting time than 1 standard action, however, it takes that long to cast the spell from a staff.) To activate a staff, a character must hold it forth in at least one hand (or whatever passes for a hand, for nonhumanoid creatures).\n\n**Special Qualities**: Roll d%. A 01–30 result indicates that something (a design, inscription, or the like) provides some clue to the staff ’s function, and 31–100 indicates no special qualities.\n\n**Using Staves**: Staves use the wielder’s ability score and relevant feats to set the DC for saves against their spells. Unlike with other sorts of magic items, the wielder can use his caster level when activating the power of a staff if it’s higher than the caster level of the staff.\n\nThis means that staves are far more potent in the hands of a powerful spellcaster. Because they use the wielder’s ability score to set the save DC for the spell, spells from a staff are often harder to resist than those from other magic items, which use the minimum ability score required to cast the spell. Not only are aspects of the spell dependent on caster level (range, duration, and so on) potentially higher, but spells from a staff are also harder to dispel and have a better chance of overcoming a target’s spell resistance.\n\nStaves hold a maximum of 10 charges. Each spell cast from a staff consumes one or more charges. When a staff runs out of charges, it cannot be used until it is recharged. Each morning, when a spellcaster prepares spells or regains spell slots, he can also imbue one staff with a portion of his power so long as one or more of the spells cast by the staff is on his spell list and he is capable of casting at least one of the spells. Imbuing a staff with this power restores one charge to the staff, but the caster must forgo one prepared spell or spell slot of a level equal to the highest-level spell cast by the staff. For example, a 9th-level wizard with a *staff of fire* could imbue the staff with one charge per day by using up one of his 4th-level spells. A staff cannot gain more than one charge per day and a caster cannot imbue more than one staff per day.\n\nFurthermore, a staff can hold a spell of any level, unlike a wand, which is limited to spells of 4th level or lower. The minimum caster level of a staff is 8th.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 491",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "using-items",
+    "name": "Using Items",
+    "textEn": "To use a magic item, it must be activated, although sometimes activation simply means putting a ring on your finger. Some items, once donned, function constantly. In most cases, though, using an item requires a standard action that does not provoke attacks of opportunity. By contrast, spell completion items are treated like spells in combat and do provoke attacks of opportunity.\n\nActivating a magic item is a standard action unless the item description indicates otherwise. However, the casting time of a spell is the time required to activate the same power in an item, regardless of the type of magic item, unless the item description specifically states otherwise.\n\nThe four ways to activate magic items are described below.\n\n**Spell Completion**: This is the activation method for scrolls. A scroll is a spell that is mostly finished. The preparation is done for the caster, so no preparation time is needed beforehand as with normal spellcasting. All that's left to do is perform the finishing parts of the spellcasting (the final gestures, words, and so on). To use a spell completion item safely, a character must be of high enough level in the right class to cast the spell already. If he can't already cast the spell, there's a chance he'll make a mistake. Activating a spell completion item is a standard action (or the spell's casting time, whichever is longer) and provokes attacks of opportunity exactly as casting a spell does.\n\n**Spell Trigger**: Spell trigger activation is similar to spell completion, but it's even simpler. No gestures or spell finishing is needed, just a special knowledge of spellcasting that an appropriate character would know, and a single word that must be spoken. Spell trigger items can be used by anyone whose class can cast the corresponding spell. This is the case even for a character who can't actually cast spells, such as a 3rd-level paladin. The user must still determine what spell is stored in the item before she can activate it. Activating a spell trigger item is a standard action and does not provoke attacks of opportunity.\n\n**Command Word**: If no activation method is suggested either in the magic item description or by the nature of the item, assume that a command word is needed to activate it. Command word activation means that a character speaks the word and the item activates. No other special knowledge is needed.\n\nA command word can be a real word, but when this is the case, the holder of the item runs the risk of activating the item accidentally by speaking the word in normal conversation. More often, the command word is some seemingly nonsensical word, or a word or phrase from an ancient language no longer in common use. Activating a command word magic item is a standard action and does not provoke attacks of opportunity.\n\nSometimes the command word to activate an item is written right on the item. Occasionally, it might be hidden within a pattern or design engraved on, carved into, or built into the item, or the item might bear a clue to the command word.\n\nThe Knowledge (arcana) and Knowledge (history) skills might be useful in helping to identify command words or deciphering clues regarding them. A successful check against DC 30 is needed to come up with the word itself. If that check is failed, succeeding on a second check (DC 25) might provide some insight into a clue. The spells *detect magic*, *identify*, and *analyze dweomer* all reveal command words if the properties of the item are successfully identified.\n\n**Use Activated**: This type of item simply has to be used in order to activate it. A character has to drink a potion, swing a sword, interpose a shield to deflect a blow in combat, look through a lens, sprinkle dust, wear a ring, or don a hat. Use activation is generally straightforward and self-explanatory.\n\nMany use-activated items are objects that a character wears. Continually functioning items are practically always items that one wears. A few must simply be in the character's possession (meaning on his person). However, some items made for wearing must still be activated. Although this activation sometimes requires a command word (see above), usually it means mentally willing the activation to happen. The description of an item states whether a command word is needed in such a case.\n\nUnless stated otherwise, activating a use-activated magic item is either a standard action or not an action at all and does not provoke attacks of opportunity, unless the use involves performing an action that provokes an attack of opportunity in itself. If the use of the item takes time before a magical effect occurs, then use activation is a standard action. If the item's activation is subsumed in its use and takes no extra time use, activation is not an action at all.\n\nUse activation doesn't mean that if you use an item, you automatically know what it can do. You must know (or at least guess) what the item can do and then use the item in order to activate it, unless the benefit of the item comes automatically, such as from drinking a potion or swinging a sword.\n\n**Size and Magic Items**\n\n**Source** *PRPG Core Rulebook pg. 459*\nWhen an article of magic clothing or jewelry is discovered, most of the time size shouldn’t be an issue. Many magic garments are made to be easily adjustable, or they adjust themselves magically to the wearer. Size should not keep characters of various kinds from using magic items. There may be rare exceptions, especially with race-specific items.\n\n**Armor and Weapon Sizes**: Armor and weapons that are found at random have a 30% chance of being Small (01–30), a 60% chance of being Medium (31–90), and a 10% chance of being any other size (91–100).",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 458",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "wands",
+    "name": "Wands",
+    "textEn": "A wand is a thin baton that contains a single spell of 4th level or lower. A wand has 50 charges when created—each charge allows the use of the wand's spell one time. A wand that runs out of charges is just a stick. The price of a wand is equal to the level of the spell × the creator's caster level × 750 gp. If the wand has a material component cost, it is added to the base price and cost to create once for each charge (50 × material component cost). Table 15–17 gives sample prices for wands created at the lowest possible caster level for each spellcasting class. Note that some spells appear at different levels for different casters. The level of such spells depends on the caster crafting the wand.\n\n**Physical Description**: A wand is 6 to 12 inches long, 1/4 inch thick, and weighs no more than 1 ounce. Most wands are wood, but some are bone, metal, or even crystal. A typical wand has AC 7, 5 hit points, hardness 5, and a break DC of 16.\n\n**Activation**: Wands use the spell trigger activation method, so casting a spell from a wand is usually a standard action that doesn't provoke attacks of opportunity. (If the spell being cast has a longer casting time than 1 action, however, it takes that long to cast the spell from a wand.) To activate a wand, a character must hold it in hand (or whatever passes for a hand, for nonhumanoid creatures) and point it in the general direction of the target or area. A wand may be used while grappling or while swallowed whole.\n\n**Special Qualities**: Roll d%. A 01–30 result indicates that something (a design, inscription, or the like) provides some clue to the wand's function, and 31–100 indicates no special qualities.\n\n**Table 15-17: Wands**\n\n| **Minor** | **Medium** | **Major** | **Spell Level** | **Caster Level** |\n| --- | --- | --- | --- | --- |\n| 01-05 | — | — | 0 | 1st |\n| 06-60 | — | — | 1st | 1st |\n| 61-100 | 01-60 | — | 2nd | 3rd |\n| — | 61-100 | 01-60 | 3rd | 5th |\n| — | — | 61-100 | 4th | 7th |\n\n**Wand Costs**\n\n| **Spell Level** | **Cleric, Druid, Wizard** | **Sorcerer** | **Bard** | **Paladin, Ranger** |\n| --- | --- | --- | --- | --- |\n| 0 | 375 gp | 375 gp | 375 gp | — |\n| 1st | 750 gp | 750 gp | 750 gp | 750 gp |\n| 2nd | 4,500 gp | 6,000 gp | 6,000 gp | 6,000 gp |\n| 3rd | 11,250 gp | 13,500 gp | 15,750 gp | 15,750 gp |\n| 4th | 21,000 gp | 24,000 gp | 30,000 gp | 30,000 gp |",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 496",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  },
+  {
+    "id": "wondrous-items",
+    "name": "Wondrous Items",
+    "textEn": "This is a catch all category for anything that doesn’t fall into the other groups. Anyone can use a wondrous item (unless specified otherwise in the description).\n\n**Physical Description**: Varies.\n\n**Activation**: Usually use-activated or command word, but details vary from item to item.\n\n**Special Qualities**: Roll d%. An 01 result indicates the wondrous item is intelligent, 02–31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32–100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see Intelligent Items later in this chapter).\n\nWondrous items with charges can never be intelligent.",
+    "source": "https://aonprd.com/Rules.aspx?ID=365",
+    "sourceRef": "PRPG Core Rulebook pg. 496",
+    "book": "CRB",
+    "kind": "general",
+    "slot": "",
+    "aura": "",
+    "weightLb": null,
+    "construction": {
+      "requirements": "",
+      "costRaw": "",
+      "costCp": null
+    },
+    "reprintedIn": [],
+    "variants": [
+      {
+        "variantId": "default",
+        "label": "default",
+        "casterLevel": null,
+        "priceRaw": "",
+        "priceCp": null,
+        "effects": [],
+        "extraDamage": []
+      }
+    ]
+  }
+]

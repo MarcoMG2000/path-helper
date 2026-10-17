@@ -1,0 +1,46 @@
+[
+  {
+    "id": "natural-spell",
+    "name": "Natural Spell",
+    "textEn": "You can cast spells even while in a form that cannot normally cast spells.\n\n**Prerequisites**: Wis 13, wild shape class feature.\n\n**Benefit**: You can complete the verbal and somatic components of spells while using wild shape. You substitute various noises and gestures for the normal verbal and somatic components of a spell.\n\nYou can also use any material components or focuses you possess, even if such items are melded within your current form. This feat does not permit the use of magic items while you are in a form that could not ordinarily use them, and you do not gain the ability to speak while using wild shape.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Natural%20Spell",
+    "sourceRef": "PRPG Core Rulebook pg. 131",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Wis 13, wild shape class feature.",
+      "abilities": {
+        "wis": 13
+      },
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "wild shape class feature"
+      ]
+    },
+    "benefit": "You can complete the verbal and somatic components of spells while using wild shape. You substitute various noises and gestures for the normal verbal and somatic components of a spell.\n\nYou can also use any material components or focuses you possess, even if such items are melded within your current form. This feat does not permit the use of magic items while you are in a form that could not ordinarily use them, and you do not gain the ability to speak while using wild shape."
+  },
+  {
+    "id": "nimble-moves",
+    "name": "Nimble Moves",
+    "textEn": "You can move across a single obstacle with ease.\n\n**Prerequisites**: Dex 13.\n\n**Benefit**: Whenever you move, you may move through 5 feet of difficult terrain each round as if it were normal terrain. This feat allows you to take a 5-foot step into difficult terrain.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Nimble%20Moves",
+    "sourceRef": "PRPG Core Rulebook pg. 131",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "Dex 13.",
+      "abilities": {
+        "dex": 13
+      },
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Whenever you move, you may move through 5 feet of difficult terrain each round as if it were normal terrain. This feat allows you to take a 5-foot step into difficult terrain."
+  }
+]

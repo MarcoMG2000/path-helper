@@ -1,0 +1,33 @@
+[
+  {
+    "id": "unseat",
+    "name": "Unseat",
+    "textEn": "You are skilled at unseating your mounted opponents.\n\n**Prerequisites**: Str 13, Ride 1 rank, Mounted Combat, Power Attack, Improved Bull Rush, base attack bonus +1.\n\n**Benefit**: When charging an opponent while mounted and wielding a lance, resolve the attack as normal. If it hits, you may immediately make a free bull rush attempt in addition to the normal damage. If successful, the target is knocked off his horse and lands prone in a space adjacent to his mount that is directly away from you.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Unseat",
+    "sourceRef": "PRPG Core Rulebook pg. 136",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Str 13, Ride 1 rank, Mounted Combat, Power Attack, Improved Bull Rush, base attack bonus +1.",
+      "abilities": {
+        "str": 13
+      },
+      "bab": 1,
+      "featIds": [
+        "mounted-combat",
+        "power-attack",
+        "improved-bull-rush"
+      ],
+      "skills": [
+        {
+          "skillId": "ride",
+          "ranks": 1
+        }
+      ],
+      "other": []
+    },
+    "benefit": "When charging an opponent while mounted and wielding a lance, resolve the attack as normal. If it hits, you may immediately make a free bull rush attempt in addition to the normal damage. If successful, the target is knocked off his horse and lands prone in a space adjacent to his mount that is directly away from you."
+  }
+]

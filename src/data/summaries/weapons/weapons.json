@@ -1,0 +1,350 @@
+{
+  "arrows-20": {
+    "summaryEs": "Munición. Coste 1 gp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "ballista-light": {
+    "summaryEs": "Máquina de asedio (Direct-Fire (Large)), daño 3d8, crítico 19-20/x2, alcance 120 ft., tipo P. Coste 500 gp.",
+    "status": "draft"
+  },
+  "bastard-sword": {
+    "summaryEs": "Arma exótica a una mano, daño 1d8 (P), 1d10 (M), crítico 19-20/x2, tipo S. Coste 35 gp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "battleaxe": {
+    "summaryEs": "Arma marcial a una mano, daño 1d6 (P), 1d8 (M), crítico x3, tipo S. Coste 10 gp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "blowgun": {
+    "summaryEs": "Arma sencilla a distancia, daño 1 (P), 1d2 (M), crítico x2, alcance 20 ft., tipo P. Coste 2 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "blowgun-darts-10": {
+    "summaryEs": "Munición. Coste 5 sp.",
+    "status": "draft"
+  },
+  "bolas": {
+    "summaryEs": "Arma exótica a distancia, daño 1d3 (P), 1d4 (M), crítico x2, alcance 10 ft., tipo B, especial: nonlethal, trip. Coste 5 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "catapult-heavy": {
+    "summaryEs": "Máquina de asedio (Indirect-Fire (Gargantuan)), daño 8d6, crítico x2, alcance 300 ft. (100 ft. min.), tipo B. Coste 1,000 gp.",
+    "status": "draft"
+  },
+  "catapult-light": {
+    "summaryEs": "Máquina de asedio (Indirect-Fire (Large)), daño 4d6, crítico x2, alcance 150 ft. (50 ft. min.), tipo B. Coste 550 gp.",
+    "status": "draft"
+  },
+  "club": {
+    "summaryEs": "Arma sencilla a una mano, daño 1d4 (P), 1d6 (M), crítico x2, alcance 10 ft., tipo B. Sin coste listado, peso 3 lbs.",
+    "status": "draft"
+  },
+  "composite-longbow": {
+    "summaryEs": "Arma marcial a distancia, daño 1d6 (P), 1d8 (M), crítico x3, alcance 110 ft., tipo P. Coste 100 gp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "composite-shortbow": {
+    "summaryEs": "Arma marcial a distancia, daño 1d4 (P), 1d6 (M), crítico x3, alcance 70 ft., tipo P. Coste 75 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "crossbow-bolts-10": {
+    "summaryEs": "Munición. Coste 1 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "dagger": {
+    "summaryEs": "Arma sencilla ligera, daño 1d3 (P), 1d4 (M), crítico 19-20/x2, alcance 10 ft., tipo P or S. Coste 2 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "dart": {
+    "summaryEs": "Arma sencilla a distancia, daño 1d3 (P), 1d4 (M), crítico x2, alcance 20 ft., tipo P. Coste 5 sp, peso 1/2 lb.",
+    "status": "draft"
+  },
+  "dire-flail": {
+    "summaryEs": "Arma exótica a dos manos, daño 1d6/1d6 (P), 1d8/1d8 (M), crítico x2, tipo B, especial: disarm, double, trip. Coste 90 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "dwarven-urgrosh": {
+    "summaryEs": "Arma exótica a dos manos, daño 1d6/1d4 (P), 1d8/1d6 (M), crítico x3, tipo P or S, especial: brace, double. Coste 50 gp, peso 12 lbs.",
+    "status": "draft"
+  },
+  "dwarven-waraxe": {
+    "summaryEs": "Arma exótica a una mano, daño 1d8 (P), 1d10 (M), crítico x3, tipo S. Coste 30 gp, peso 8 lbs.",
+    "status": "draft"
+  },
+  "elven-curve-blade": {
+    "summaryEs": "Arma exótica a dos manos, daño 1d8 (P), 1d10 (M), crítico 18-20/x2, tipo S. Coste 80 gp, peso 7 lbs.",
+    "status": "draft"
+  },
+  "falchion": {
+    "summaryEs": "Arma marcial a dos manos, daño 1d6 (P), 2d4 (M), crítico 18-20/x2, tipo S. Coste 75 gp, peso 8 lbs.",
+    "status": "draft"
+  },
+  "gauntlet": {
+    "summaryEs": "Arma sencilla ligera, daño 1d2 (P), 1d3 (M), crítico x2, tipo B. Coste 2 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "glaive": {
+    "summaryEs": "Arma marcial a dos manos, daño 1d8 (P), 1d10 (M), crítico x3, tipo S, especial: reach. Coste 8 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "gnome-hooked-hammer": {
+    "summaryEs": "Arma exótica a dos manos, daño 1d6/1d4 (P), 1d8/1d6 (M), crítico x3/x4, tipo B or P, especial: double, trip. Coste 20 gp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "greataxe": {
+    "summaryEs": "Arma marcial a dos manos, daño 1d10 (P), 1d12 (M), crítico x3, tipo S. Coste 20 gp, peso 12 lbs.",
+    "status": "draft"
+  },
+  "greatclub": {
+    "summaryEs": "Arma marcial a dos manos, daño 1d8 (P), 1d10 (M), crítico x2, tipo B. Coste 5 gp, peso 8 lbs.",
+    "status": "draft"
+  },
+  "greatsword": {
+    "summaryEs": "Arma marcial a dos manos, daño 1d10 (P), 2d6 (M), crítico 19-20/x2, tipo S. Coste 50 gp, peso 8 lbs.",
+    "status": "draft"
+  },
+  "guisarme": {
+    "summaryEs": "Arma marcial a dos manos, daño 1d6 (P), 2d4 (M), crítico x3, tipo S, especial: reach, trip. Coste 9 gp, peso 12 lbs.",
+    "status": "draft"
+  },
+  "halberd": {
+    "summaryEs": "Arma marcial a dos manos, daño 1d8 (P), 1d10 (M), crítico x3, tipo P or S, especial: brace, trip. Coste 10 gp, peso 12 lbs.",
+    "status": "draft"
+  },
+  "halfling-sling-staff": {
+    "summaryEs": "Arma exótica a distancia, daño 1d6 (P), 1d8 (M), crítico x3, alcance 80 ft., tipo B. Coste 20 gp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "hand-crossbow": {
+    "summaryEs": "Arma exótica a distancia, daño 1d3 (P), 1d4 (M), crítico 19-20/x2, alcance 30 ft., tipo P. Coste 100 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "handaxe": {
+    "summaryEs": "Arma marcial ligera, daño 1d4 (P), 1d6 (M), crítico x3, tipo S. Coste 6 gp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "heavy-crossbow": {
+    "summaryEs": "Arma sencilla a distancia, daño 1d8 (P), 1d10 (M), crítico 19-20/x2, alcance 120 ft., tipo P. Coste 50 gp, peso 8 lbs.",
+    "status": "draft"
+  },
+  "heavy-flail": {
+    "summaryEs": "Arma marcial a dos manos, daño 1d8 (P), 1d10 (M), crítico 19-20/x2, tipo B, especial: disarm, trip. Coste 15 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "heavy-mace": {
+    "summaryEs": "Arma sencilla a una mano, daño 1d6 (P), 1d8 (M), crítico x2, tipo B. Coste 12 gp, peso 8 lbs.",
+    "status": "draft"
+  },
+  "heavy-pick": {
+    "summaryEs": "Arma marcial a una mano, daño 1d4 (P), 1d6 (M), crítico x4, tipo P. Coste 8 gp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "heavy-shield": {
+    "summaryEs": "Arma marcial a una mano, daño 1d3 (P), 1d4 (M), crítico x2, tipo B. Coste 7 gp/20 gp, peso special.",
+    "status": "draft"
+  },
+  "javelin": {
+    "summaryEs": "Arma sencilla a distancia, daño 1d4 (P), 1d6 (M), crítico x2, alcance 30 ft., tipo P. Coste 1 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "kama": {
+    "summaryEs": "Arma exótica ligera, daño 1d4 (P), 1d6 (M), crítico x2, tipo S, especial: monk, trip. Coste 2 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "kukri": {
+    "summaryEs": "Arma marcial ligera, daño 1d3 (P), 1d4 (M), crítico 18-20/x2, tipo S. Coste 8 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "lance": {
+    "summaryEs": "Arma marcial a dos manos, daño 1d6 (P), 1d8 (M), crítico x3, tipo P, especial: reach. Coste 10 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "light-crossbow": {
+    "summaryEs": "Arma sencilla a distancia, daño 1d6 (P), 1d8 (M), crítico 19-20/x2, alcance 80 ft., tipo P. Coste 35 gp, peso 4 lbs.",
+    "status": "draft"
+  },
+  "light-flail": {
+    "summaryEs": "Arma marcial a una mano, daño 1d6 (P), 1d8 (M), crítico x2, tipo B, especial: disarm, trip. Coste 8 gp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "light-hammer": {
+    "summaryEs": "Arma marcial ligera, daño 1d3 (P), 1d4 (M), crítico x2, alcance 20 ft., tipo B. Coste 1 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "light-mace": {
+    "summaryEs": "Arma sencilla ligera, daño 1d4 (P), 1d6 (M), crítico x2, tipo B. Coste 5 gp, peso 4 lbs.",
+    "status": "draft"
+  },
+  "light-pick": {
+    "summaryEs": "Arma marcial ligera, daño 1d3 (P), 1d4 (M), crítico x4, tipo P. Coste 4 gp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "light-shield": {
+    "summaryEs": "Arma marcial ligera, daño 1d2 (P), 1d3 (M), crítico x2, tipo B. Coste 3 gp/9 gp, peso special.",
+    "status": "draft"
+  },
+  "longbow": {
+    "summaryEs": "Arma marcial a distancia, daño 1d6 (P), 1d8 (M), crítico x3, alcance 100 ft., tipo P. Coste 75 gp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "longspear": {
+    "summaryEs": "Arma sencilla a dos manos, daño 1d6 (P), 1d8 (M), crítico x3, tipo P, especial: brace, reach. Coste 5 gp, peso 9 lbs.",
+    "status": "draft"
+  },
+  "longsword": {
+    "summaryEs": "Arma marcial a una mano, daño 1d6 (P), 1d8 (M), crítico 19-20/x2, tipo S. Coste 15 gp, peso 4 lbs.",
+    "status": "draft"
+  },
+  "morningstar": {
+    "summaryEs": "Arma sencilla a una mano, daño 1d6 (P), 1d8 (M), crítico x2, tipo B and P. Coste 8 gp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "net": {
+    "summaryEs": "Arma exótica a distancia, alcance 10 ft., especial: see text. Coste 20 gp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "nunchaku": {
+    "summaryEs": "Arma exótica ligera, daño 1d4 (P), 1d6 (M), crítico x2, tipo B, especial: disarm, monk. Coste 2 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "orc-double-axe": {
+    "summaryEs": "Arma exótica a dos manos, daño 1d6/1d6 (P), 1d8/1d8 (M), crítico x3, tipo S, especial: double. Coste 60 gp, peso 15 lbs.",
+    "status": "draft"
+  },
+  "punching-dagger": {
+    "summaryEs": "Arma sencilla ligera, daño 1d3 (P), 1d4 (M), crítico x3, tipo P. Coste 2 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "quarterstaff": {
+    "summaryEs": "Arma sencilla a dos manos, daño 1d4/1d4 (P), 1d6/1d6 (M), crítico x2, tipo B, especial: double, monk. Sin coste listado, peso 4 lbs.",
+    "status": "draft"
+  },
+  "ram-large": {
+    "summaryEs": "Máquina de asedio (Close Assault), daño 2d6, crítico x3, tipo B. Coste 500 gp.",
+    "status": "draft"
+  },
+  "ranseur": {
+    "summaryEs": "Arma marcial a dos manos, daño 1d6 (P), 2d4 (M), crítico x3, tipo P, especial: disarm, reach. Coste 10 gp, peso 12 lbs.",
+    "status": "draft"
+  },
+  "rapier": {
+    "summaryEs": "Arma marcial a una mano, daño 1d4 (P), 1d6 (M), crítico 18-20/x2, tipo P. Coste 20 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "repeating-crossbow-bolts-5": {
+    "summaryEs": "Munición. Coste 1 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "repeating-heavy-crossbow": {
+    "summaryEs": "Arma exótica a distancia, daño 1d8 (P), 1d10 (M), crítico 19-20/x2, alcance 120 ft., tipo P. Coste 400 gp, peso 12 lbs.",
+    "status": "draft"
+  },
+  "repeating-light-crossbow": {
+    "summaryEs": "Arma exótica a distancia, daño 1d6 (P), 1d8 (M), crítico 19-20/x2, alcance 80 ft., tipo P. Coste 250 gp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "sai": {
+    "summaryEs": "Arma exótica ligera, daño 1d3 (P), 1d4 (M), crítico x2, tipo B, especial: disarm, monk. Coste 1 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "sap": {
+    "summaryEs": "Arma marcial ligera, daño 1d4 (P), 1d6 (M), crítico x2, tipo B, especial: nonlethal. Coste 1 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "scimitar": {
+    "summaryEs": "Arma marcial a una mano, daño 1d4 (P), 1d6 (M), crítico 18-20/x2, tipo S. Coste 15 gp, peso 4 lbs.",
+    "status": "draft"
+  },
+  "scythe": {
+    "summaryEs": "Arma marcial a dos manos, daño 1d6 (P), 2d4 (M), crítico x4, tipo P or S, especial: trip. Coste 18 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "short-sword": {
+    "summaryEs": "Arma marcial ligera, daño 1d4 (P), 1d6 (M), crítico 19-20/x2, tipo P. Coste 10 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "shortbow": {
+    "summaryEs": "Arma marcial a distancia, daño 1d4 (P), 1d6 (M), crítico x3, alcance 60 ft., tipo P. Coste 30 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "shortspear": {
+    "summaryEs": "Arma sencilla a una mano, daño 1d4 (P), 1d6 (M), crítico x2, alcance 20 ft., tipo P. Coste 1 gp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "shuriken-5": {
+    "summaryEs": "Arma exótica a distancia, daño 1 (P), 1d2 (M), crítico x2, alcance 10 ft., tipo P, especial: monk. Coste 1 gp, peso 1/2 lb.",
+    "status": "draft"
+  },
+  "siangham": {
+    "summaryEs": "Arma exótica ligera, daño 1d4 (P), 1d6 (M), crítico x2, tipo P, especial: monk. Coste 3 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "sickle": {
+    "summaryEs": "Arma sencilla ligera, daño 1d4 (P), 1d6 (M), crítico x2, tipo S, especial: trip. Coste 6 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "siege-tower-large": {
+    "summaryEs": "Máquina de asedio (Close Assault). Coste 1,000 gp.",
+    "status": "draft"
+  },
+  "sling": {
+    "summaryEs": "Arma sencilla a distancia, daño 1d3 (P), 1d4 (M), crítico x2, alcance 50 ft., tipo B. Sin coste listado.",
+    "status": "draft"
+  },
+  "sling-bullets-10": {
+    "summaryEs": "Munición. Coste 1 sp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "spear": {
+    "summaryEs": "Arma sencilla a dos manos, daño 1d6 (P), 1d8 (M), crítico x3, alcance 20 ft., tipo P, especial: brace. Coste 2 gp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "spiked-armor": {
+    "summaryEs": "Arma marcial ligera, daño 1d4 (P), 1d6 (M), crítico x2, tipo P. Coste +50 gp, peso special.",
+    "status": "draft"
+  },
+  "spiked-chain": {
+    "summaryEs": "Arma exótica a dos manos, daño 1d6 (P), 2d4 (M), crítico x2, tipo P, especial: disarm, trip. Coste 25 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "spiked-gauntlet": {
+    "summaryEs": "Arma sencilla ligera, daño 1d3 (P), 1d4 (M), crítico x2, tipo P. Coste 5 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "spiked-heavy-shield": {
+    "summaryEs": "Arma marcial a una mano, daño 1d4 (P), 1d6 (M), crítico x2, tipo P. Coste 17 gp/30 gp, peso special.",
+    "status": "draft"
+  },
+  "spiked-light-shield": {
+    "summaryEs": "Arma marcial ligera, daño 1d3 (P), 1d4 (M), crítico x2, tipo P. Coste 13 gp/19 gp, peso special.",
+    "status": "draft"
+  },
+  "starknife": {
+    "summaryEs": "Arma marcial ligera, daño 1d3 (P), 1d4 (M), crítico x3, alcance 20 ft., tipo P. Coste 24 gp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "throwing-axe": {
+    "summaryEs": "Arma marcial ligera, daño 1d4 (P), 1d6 (M), crítico x2, alcance 10 ft., tipo S. Coste 8 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "trident": {
+    "summaryEs": "Arma marcial a una mano, daño 1d6 (P), 1d8 (M), crítico x2, alcance 10 ft., tipo P, especial: brace. Coste 15 gp, peso 4 lbs.",
+    "status": "draft"
+  },
+  "two-bladed-sword": {
+    "summaryEs": "Arma exótica a dos manos, daño 1d6/1d6 (P), 1d8/1d8 (M), crítico 19-20/x2, tipo S, especial: double. Coste 100 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "unarmed-strike": {
+    "summaryEs": "Arma sencilla (ataque sin armas), daño 1d2 (P), 1d3 (M), crítico x2, tipo B, especial: nonlethal. Sin coste listado.",
+    "status": "draft"
+  },
+  "warhammer": {
+    "summaryEs": "Arma marcial a una mano, daño 1d6 (P), 1d8 (M), crítico x3, tipo B. Coste 12 gp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "whip": {
+    "summaryEs": "Arma exótica a una mano, daño 1d2 (P), 1d3 (M), crítico x2, tipo S, especial: disarm, nonlethal, reach, trip. Coste 1 gp, peso 2 lbs.",
+    "status": "draft"
+  }
+}

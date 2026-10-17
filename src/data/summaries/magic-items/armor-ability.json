@@ -1,0 +1,70 @@
+{
+  "energy-resistance-armor": {
+    "summaryEs": "Protege contra un tipo de energía (ácido, frío, electricidad, fuego o sónico, a elección): absorbe los primeros 10 puntos de daño de esa energía por ataque, de forma similar al conjuro resist energy.",
+    "status": "draft"
+  },
+  "energy-resistance-greater-armor": {
+    "summaryEs": "Como energy resistance, pero absorbe los primeros 30 puntos de daño de energía por ataque.",
+    "status": "draft"
+  },
+  "energy-resistance-improved-armor": {
+    "summaryEs": "Como energy resistance, pero absorbe los primeros 20 puntos de daño de energía por ataque.",
+    "status": "draft"
+  },
+  "etherealness": {
+    "summaryEs": "Por orden, el portador se vuelve etéreo (como el conjuro ethereal jaunt) una vez al día. Puede permanecer etéreo el tiempo que desee, pero al volver a la normalidad no puede repetirlo ese día.",
+    "status": "draft"
+  },
+  "fortification-armor": {
+    "summaryEs": "Si se logra un crítico o un ataque furtivo contra el portador, hay probabilidad de anularlo y tirar el daño normal: 25% (light), 50% (moderate) o 75% (heavy).",
+    "status": "draft"
+  },
+  "ghost-touch-armor": {
+    "summaryEs": "Su bono de mejora y su bono de armadura cuentan contra ataques de criaturas corpóreas e incorpóreas. Criaturas corpóreas e incorpóreas pueden cogerla y llevarla; las incorpóreas ganan su bono de mejora contra ambos tipos de ataque.",
+    "status": "draft"
+  },
+  "glamered": {
+    "summaryEs": "Por orden, la armadura adopta la forma de ropa normal, conservando todas sus propiedades (incluido el peso). Solo un conjuro true seeing o magia similar revela su verdadera naturaleza.",
+    "status": "draft"
+  },
+  "invulnerability": {
+    "summaryEs": "Otorga al portador reducción de daño 5/magic. Emite un fuerte aura de abjuración (y de evocación si se usó miracle).",
+    "status": "draft"
+  },
+  "shadow": {
+    "summaryEs": "La armadura difumina al portador cuando intenta esconderse y amortigua el sonido: +5 de competencia a las pruebas de Stealth. La penalización por armadura se aplica con normalidad.",
+    "status": "draft"
+  },
+  "shadow-greater": {
+    "summaryEs": "Como shadow, pero otorga +15 de competencia a las pruebas de Stealth.",
+    "status": "draft"
+  },
+  "shadow-improved": {
+    "summaryEs": "Como shadow, pero otorga +10 de competencia a las pruebas de Stealth.",
+    "status": "draft"
+  },
+  "slick": {
+    "summaryEs": "La armadura está siempre cubierta de aceite resbaladizo: +5 de competencia a las pruebas de Escape Artist del portador. La penalización por armadura se aplica con normalidad.",
+    "status": "draft"
+  },
+  "slick-greater": {
+    "summaryEs": "Como slick, pero otorga +15 de competencia a las pruebas de Escape Artist.",
+    "status": "draft"
+  },
+  "slick-improved": {
+    "summaryEs": "Como slick, pero otorga +10 de competencia a las pruebas de Escape Artist.",
+    "status": "draft"
+  },
+  "spell-resistance-armor": {
+    "summaryEs": "Concede resistencia a conjuros al portador mientras lleva la armadura o el escudo. El precio es un equivalente de bono según el valor: 13 (+2), 15 (+3), 17 (+4) o 19 (+5).",
+    "status": "draft"
+  },
+  "undead-controlling-armor": {
+    "summaryEs": "Permite controlar hasta 26 Dados de Golpe de muertos vivientes al día, como el conjuro control undead. Al amanecer pierde el control de los que sigan bajo su dominio. Parece hecha de hueso (solo decorativo).",
+    "status": "draft"
+  },
+  "wild-armor": {
+    "summaryEs": "Mientras el portador está en forma salvaje conserva su bono de armadura (y de mejora). Mientras tanto la armadura no se ve.",
+    "status": "draft"
+  }
+}

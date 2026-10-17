@@ -1,0 +1,658 @@
+{
+  "acid": {
+    "summaryEs": "Arma alquímica: se lanza como arma de salpicadura (ataque de toque a distancia, incremento de 10 pies); impacto directo 1d6 de daño por ácido y 1 de salpicadura a criaturas a 5 pies. Coste 10 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "alchemists-fire": {
+    "summaryEs": "Arma alquímica: se lanza como arma de salpicadura (ataque de toque a distancia, incremento de 10 pies); impacto directo 1d6 de daño por fuego. Coste 20 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "alchemists-lab": {
+    "summaryEs": "Herramientas: da +2 de circunstancia a las pruebas de Craft (alchemy); sin él se asume equipo suficiente pero sin ese bonificador. Coste 200 gp, peso 40 lbs.",
+    "status": "draft"
+  },
+  "ale-gallon": {
+    "summaryEs": "Comida y bebida: cerveza de cebada malteada, dulce y de cuerpo lleno; precio por galón. Coste 2 sp, peso 8 lbs.",
+    "status": "draft"
+  },
+  "ale-mug": {
+    "summaryEs": "Comida y bebida: cerveza de cebada malteada, dulce y de cuerpo lleno; precio por jarra. Coste 4 cp, peso 1 lb.",
+    "status": "draft"
+  },
+  "antitoxin": {
+    "summaryEs": "Remedio alquímico: contrarresta una toxina concreta; un vial da +5 alquímico a las salvaciones de Fortitude contra veneno durante 1 hora. Coste 50 gp.",
+    "status": "draft"
+  },
+  "armor-spikes": {
+    "summaryEs": "Complemento de armadura: añade pinchos a la armadura para dañar al agarrar; cuentan como arma marcial (–4 en pruebas de presa si no eres competente) y como arma ligera en ataques normales; el coste y el peso se suman a los de la armadura. Coste +50 gp, peso +10 lbs.",
+    "status": "draft"
+  },
+  "artisans-outfit": {
+    "summaryEs": "Ropa: ropa bien hecha y duradera para oficios manuales como panadería o carpintería. Coste 1 gp, peso 4 lbs.",
+    "status": "draft"
+  },
+  "artisans-tools-common": {
+    "summaryEs": "Herramientas: herramientas para un oficio; sin ellas improvisas (–2 a las pruebas de Craft). Coste 5 gp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "artisans-tools-masterwork": {
+    "summaryEs": "Herramientas: herramientas de obra maestra para un oficio; sin herramientas improvisas (–2 a las pruebas de Craft). Coste 55 gp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "backpack-common": {
+    "summaryEs": "Equipo de aventurero: mochila de cuero con un bolsillo grande (unos 2 pies cúbicos) y a veces bolsillos laterales. Coste 2 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "banquet-per-person": {
+    "summaryEs": "Comida y bebida: banquete en restaurante con varios platos, buenas bebidas y servicio; precio por persona. Coste 10 gp.",
+    "status": "draft"
+  },
+  "barding-large-creature": {
+    "summaryEs": "Equipo para animales: armadura para montura (cabeza, cuello, pecho y cuerpo); el coste es ×4 y el peso ×2 respecto a la armadura equivalente, para criatura Grande. Coste ×4, peso ×2.",
+    "status": "draft"
+  },
+  "barding-medium-creature": {
+    "summaryEs": "Equipo para animales: armadura para montura (cabeza, cuello, pecho y cuerpo); el coste es ×2 y el peso ×1 respecto a la armadura equivalente, para criatura Mediana. Coste ×2, peso ×1.",
+    "status": "draft"
+  },
+  "barrel": {
+    "summaryEs": "Equipo de aventurero: barril de madera con tapa ajustada y flejes de metal. Coste 2 gp, peso 30 lbs.",
+    "status": "draft"
+  },
+  "basket": {
+    "summaryEs": "Equipo de aventurero: cesta grande con tapa, de unos 2 pies cúbicos. Coste 4 sp, peso 1 lb.",
+    "status": "draft"
+  },
+  "bedroll": {
+    "summaryEs": "Equipo de aventurero: dos mantas de lana cosidas en forma de saco para dormir, enrollable para transportarlo. Coste 1 sp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "bell": {
+    "summaryEs": "Equipo de aventurero: campanilla de mano que da una sola nota fuerte. Coste 1 gp.",
+    "status": "draft"
+  },
+  "bit-and-bridle": {
+    "summaryEs": "Equipo para animales: arreos de cabeza para controlar una montura. Coste 2 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "blanket": {
+    "summaryEs": "Equipo de aventurero: manta de lana con correas para enrollarla; se usa con el saco de dormir. Coste 5 sp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "block-and-tackle": {
+    "summaryEs": "Equipo de aventurero: polea que, bien fijada (1 minuto), da +5 de circunstancia a las pruebas de Strength para levantar objetos pesados. Coste 5 gp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "bottle": {
+    "summaryEs": "Equipo de aventurero: botella de vidrio de aproximadamente una pinta, con corcho. Coste 2 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "bread": {
+    "summaryEs": "Comida y bebida: hogaza de pan, con o sin levadura. Coste 2 cp, peso 1/2 lb.",
+    "status": "draft"
+  },
+  "bucket": {
+    "summaryEs": "Equipo de aventurero: cubo con asa de cuerda para 1 o 2 galones de líquido. Coste 5 sp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "bullseye-lantern": {
+    "summaryEs": "Equipo de aventurero: luz normal en un cono de 60 pies y un nivel más de luz hasta un cono de 120 pies; arde 6 horas con 1 pinta de aceite. Coste 12 gp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "caltrops": {
+    "summaryEs": "Equipo de aventurero: abrojos de cuatro puntas que se esparcen para herir o frenar a los enemigos; una bolsa de 2 libras cubre un cuadrado de 5 pies. Coste 1 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "candle": {
+    "summaryEs": "Equipo de aventurero: ilumina tenuemente un radio de 5 pies (sube un nivel la luz, hasta luz normal); arde 1 hora. Coste 1 cp.",
+    "status": "draft"
+  },
+  "canvas-sq-yd": {
+    "summaryEs": "Equipo de aventurero: yarda cuadrada de tela gruesa para pintar, cubrir, hacer velas o improvisar una bolsa; no es impermeable salvo tratada. Coste 1 sp, peso 1 lb.",
+    "status": "draft"
+  },
+  "carriage": {
+    "summaryEs": "Transporte terrestre: vehículo de cuatro ruedas para hasta cuatro personas en cabina cerrada y dos conductores; incluye los arreos. Coste 100 gp.",
+    "status": "draft"
+  },
+  "cart": {
+    "summaryEs": "Transporte terrestre: vehículo de dos ruedas tirado por una bestia para transportar mercancías a corta distancia; incluye los arreos. Coste 15 gp.",
+    "status": "draft"
+  },
+  "chain-10-ft": {
+    "summaryEs": "Equipo de aventurero: cadena de eslabones de metal; dureza 10 y 5 puntos de golpe; se rompe con una prueba de Strength CD 26. Coste 30 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "chalk": {
+    "summaryEs": "Equipo de aventurero: tiza blanca que marca madera, metal o piedra; unas 24 horas de escritura. Coste 1 cp.",
+    "status": "draft"
+  },
+  "cheese": {
+    "summaryEs": "Comida y bebida: trozo de queso de una rueda. Coste 1 sp, peso 1/2 lb.",
+    "status": "draft"
+  },
+  "chest-small": {
+    "summaryEs": "Equipo de aventurero: cofre de madera pequeño (2 pies cúbicos, 1 punto de golpe, CD 17 para romperlo); suele llevar cerradura simple. Coste 2 gp, peso 25 lbs.",
+    "status": "draft"
+  },
+  "clerics-vestments": {
+    "summaryEs": "Ropa: ropas ceremoniales sacerdotales (casulla, estola y sobrepelliz), poco aptas para aventurear. Coste 5 gp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "climbers-kit": {
+    "summaryEs": "Herramientas: crampones, pitones, cuerdas y otras herramientas: +2 de circunstancia a las pruebas de Climb. Coste 80 gp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "coach-cab": {
+    "summaryEs": "Transporte terrestre: viaje en diligencia entre pueblos; en una ciudad, un trayecto en coche de alquiler suele costar 1 pieza de cobre. Sin coste listado.",
+    "status": "draft"
+  },
+  "cold-weather-outfit": {
+    "summaryEs": "Ropa: abrigo, camisa, gorro, capa y botas impermeables para climas helados: +5 de circunstancia a las salvaciones de Fortitude contra el frío. Coste 8 gp, peso 7 lbs.",
+    "status": "draft"
+  },
+  "courtiers-outfit": {
+    "summaryEs": "Ropa: ropas a la moda de la corte; sin ellas hay –2 a las pruebas de habilidades de Charisma para influir en nobles; sin joyas (50 gp más) pareces un plebeyo. Coste 30 gp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "crowbar": {
+    "summaryEs": "Equipo de aventurero: palanca: +2 de circunstancia a las pruebas de Strength para forzar puertas o cofres; como arma improvisada a una mano hace daño contundente como un garrote. Coste 2 gp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "disguise-kit": {
+    "summaryEs": "Herramientas: maquillaje y barba postiza: +2 de circunstancia a las pruebas de Disguise; se agota tras 10 usos. Coste 50 gp, peso 8 lbs.",
+    "status": "draft"
+  },
+  "dog-guard": {
+    "summaryEs": "Montura o animal: perro guardián pequeño entrenado para el combate; el texto describe también al perro faldero y al perro de monta. Coste 25 gp, peso 25 lbs.",
+    "status": "draft"
+  },
+  "dog-riding": {
+    "summaryEs": "Montura o animal: perro de monta mediano, criado para llevar jinetes pequeños y entrenado para el combate; el texto describe también al perro guardián y al faldero. Coste 150 gp, peso 50 lbs.",
+    "status": "draft"
+  },
+  "entertainers-outfit": {
+    "summaryEs": "Ropa: ropa vistosa para actuar que no estorba para hacer acrobacias, bailar, andar por la cuerda floja o correr. Coste 3 gp, peso 4 lbs.",
+    "status": "draft"
+  },
+  "everburning-torch": {
+    "summaryEs": "Equipo de aventurero: antorcha con el conjuro continual flame: da luz como una antorcha normal pero sin calor ni daño por fuego. Coste 110 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "explorers-outfit": {
+    "summaryEs": "Ropa: ropa para quien no sabe qué esperar: botas, pantalón o falda de cuero, cinturón, camisa, guantes, capa con muchos bolsillos y accesorios. Coste 10 gp, peso 8 lbs.",
+    "status": "draft"
+  },
+  "feed-per-day": {
+    "summaryEs": "Equipo para animales: pienso diario para caballos, burros, mulas y póneis; las criaturas Grandes (salvo caballos) comen el doble y las Enormes cuatro veces. Coste 5 cp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "firewood-per-day": {
+    "summaryEs": "Equipo de aventurero: haz de leña seca con ramitas y troncos; precio por día. Coste 1 cp, peso 20 lbs.",
+    "status": "draft"
+  },
+  "fishhook": {
+    "summaryEs": "Equipo de aventurero: anzuelo de metal, poco más que una aguja rígida y curvada. Coste 1 sp.",
+    "status": "draft"
+  },
+  "fishing-net": {
+    "summaryEs": "Equipo de aventurero: red de 5 por 5 pies que puede cubrir un foso o impedir el paso a criaturas Diminutas o mayores. Coste 4 gp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "flask": {
+    "summaryEs": "Equipo de aventurero: frasco de vidrio de 1 pinta, frágil, que se rompe si se lanza contra una criatura o una superficie dura. Coste 3 cp, peso 1-1/2 lbs.",
+    "status": "draft"
+  },
+  "flint-and-steel": {
+    "summaryEs": "Equipo de aventurero: yesquero: encender una antorcha con él es una acción de asalto completo; otros fuegos tardan al menos eso. Coste 1 gp.",
+    "status": "draft"
+  },
+  "galley": {
+    "summaryEs": "Transporte marítimo: barco de tres mástiles con 70 remos por banda y tripulación de 200; 130 pies de eslora, 150 toneladas de carga o 250 soldados; por 8,000 gp más lleva espolón y plataformas; no hace travesías por mar abierto. Coste 30,000 gp.",
+    "status": "draft"
+  },
+  "grappling-hook-common": {
+    "summaryEs": "Equipo de aventurero: garfio que se lanza con un ataque a distancia como arma arrojadiza (incremento de 10 pies); AC 5 si hay buenos sitios donde engancharse. Coste 1 gp, peso 4 lbs.",
+    "status": "draft"
+  },
+  "hammer": {
+    "summaryEs": "Equipo de aventurero: martillo; en combate es un arma improvisada a una mano que hace daño contundente como un guantelete con pinchos de su tamaño. Coste 5 sp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "healers-kit": {
+    "summaryEs": "Herramientas: vendas y hierbas: +2 de circunstancia a las pruebas de Heal; se agota tras 10 usos. Coste 50 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "hireling-trained": {
+    "summaryEs": "Alojamiento y servicios: jornal diario de un empleado cualificado (albañil, mercenario, carpintero, herrero, cocinero, escriba...); es un salario mínimo para un trabajador adecuado. Coste 3 sp per day.",
+    "status": "draft"
+  },
+  "hireling-untrained": {
+    "summaryEs": "Alojamiento y servicios: jornal diario de un empleado sin cualificar (pregonero, peón, criada, cargador...); es un salario mínimo. Coste 1 sp per day.",
+    "status": "draft"
+  },
+  "holly-and-mistletoe": {
+    "summaryEs": "Herramientas: plantas que los druidas suelen usar como foco divino al lanzar conjuros. Coste 0 gp.",
+    "status": "draft"
+  },
+  "holy-symbol-silver": {
+    "summaryEs": "Equipo de aventurero: símbolo sagrado de plata que canaliza energía positiva (clérigos buenos y paladines); cada religión tiene el suyo y el material no cambia sus poderes. Coste 25 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "holy-symbol-wooden": {
+    "summaryEs": "Equipo de aventurero: símbolo sagrado de madera que canaliza energía positiva (clérigos buenos y paladines); cada religión tiene el suyo y el material no cambia sus poderes. Coste 1 gp.",
+    "status": "draft"
+  },
+  "holy-water": {
+    "summaryEs": "Arma alquímica: daña a muertos vivientes y ajenos malignos; se lanza como salpicadura (toque a distancia, incremento de 10 pies): 2d4 de daño al impactar y 1 de salpicadura a criaturas a 5 pies. Coste 25 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "hooded-lantern": {
+    "summaryEs": "Equipo de aventurero: luz normal en un radio de 30 pies y un nivel más de luz 30 pies más allá; arde 6 horas con 1 pinta de aceite. Coste 7 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "horse-heavy": {
+    "summaryEs": "Montura o animal: caballo pesado: montura y animal de carga Grande, usado para tirar de cargas importantes a grandes distancias. Coste 200 gp, peso 2,000 lbs.",
+    "status": "draft"
+  },
+  "horse-heavy-combat-trained": {
+    "summaryEs": "Montura o animal: caballo pesado entrenado para el combate: montura de guerra Grande que lucha con fiereza incluso sin barda. Coste 300 gp, peso 3,000 lbs.",
+    "status": "draft"
+  },
+  "horse-light": {
+    "summaryEs": "Montura o animal: caballo ligero: montura Grande que también sirve de porteador o de tiro para carruajes. Coste 75 gp, peso 900 lbs.",
+    "status": "draft"
+  },
+  "horse-light-combat-trained": {
+    "summaryEs": "Montura o animal: caballo ligero entrenado para el combate: montura de guerra de caballería rápida, exploradores y caballeros audaces. Coste 110 gp, peso 1,200 lbs.",
+    "status": "draft"
+  },
+  "horse-pony": {
+    "summaryEs": "Montura o animal: poni: montura y animal de carga. Coste 30 gp, peso 800 lbs.",
+    "status": "draft"
+  },
+  "horse-pony-combat-trained": {
+    "summaryEs": "Montura o animal: poni entrenado para el combate. Coste 45 gp, peso 900 lbs.",
+    "status": "draft"
+  },
+  "hourglass": {
+    "summaryEs": "Equipo de aventurero: reloj de arena (la fuente no incluye descripción). Coste 25 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "ink": {
+    "summaryEs": "Equipo de aventurero: vial con 1 onza de tinta; las tintas de colores distintos del negro cuestan el doble. Coste 8 gp.",
+    "status": "draft"
+  },
+  "inkpen": {
+    "summaryEs": "Equipo de aventurero: estilete de madera con punta de metal que retiene un poco de tinta tras mojarlo en un vial. Coste 1 sp.",
+    "status": "draft"
+  },
+  "inn-stay-common": {
+    "summaryEs": "Alojamiento y servicios: una noche en una posada con alojamiento común (sitio en un suelo elevado y caldeado, con manta y almohada). Coste 5 sp.",
+    "status": "draft"
+  },
+  "inn-stay-good": {
+    "summaryEs": "Alojamiento y servicios: una noche en una posada con alojamiento bueno (pequeña habitación privada con una cama y una bacinilla). Coste 2 gp.",
+    "status": "draft"
+  },
+  "inn-stay-poor": {
+    "summaryEs": "Alojamiento y servicios: una noche en una posada con alojamiento pobre (un sitio en el suelo junto al hogar). Coste 2 sp.",
+    "status": "draft"
+  },
+  "jug": {
+    "summaryEs": "Equipo de aventurero: jarra de barro con tapón para 1 galón de líquido; el peso es lleno, vacía pesa unos 1/2 libra. Coste 3 cp, peso 9 lbs.",
+    "status": "draft"
+  },
+  "keelboat": {
+    "summaryEs": "Transporte marítimo: barco de 50 a 75 pies de eslora y una docena de remos, tripulación de 8 a 15 y 40 a 50 toneladas de carga o 100 soldados; puede navegar por mar y por ríos. Coste 3,000 gp.",
+    "status": "draft"
+  },
+  "ladder": {
+    "summaryEs": "Equipo de aventurero: escalera sencilla de 10 pies con peldaños de madera clavados cada 1 pie. Coste 2 sp, peso 20 lbs.",
+    "status": "draft"
+  },
+  "lamp": {
+    "summaryEs": "Equipo de aventurero: luz normal en un radio de 15 pies y un nivel más de luz 15 pies más allá; arde 6 horas con 1 pinta de aceite. Coste 1 sp, peso 1 lb.",
+    "status": "draft"
+  },
+  "lock-average": {
+    "summaryEs": "Equipo de aventurero: cerradura de llave de calidad media; abrirla con Disable Device exige CD 25. Coste 40 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "lock-good": {
+    "summaryEs": "Equipo de aventurero: cerradura de llave de buena calidad; abrirla con Disable Device exige CD 30. Coste 80 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "lock-simple": {
+    "summaryEs": "Equipo de aventurero: cerradura de llave simple; abrirla con Disable Device exige CD 20. Coste 20 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "lock-superior": {
+    "summaryEs": "Equipo de aventurero: cerradura de llave de calidad superior; abrirla con Disable Device exige CD 40. Coste 150 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "locked-gauntlet": {
+    "summaryEs": "Complemento de armadura: guantelete con cadenas para sujetar un arma: +10 a la DMC contra desarme; coste y peso se suman; mientras está cerrado no puedes usar esa mano para lanzar conjuros ni habilidades. Coste +8 gp, peso +5 lbs.",
+    "status": "draft"
+  },
+  "longship": {
+    "summaryEs": "Transporte marítimo: barco de 75 pies con 40 remos, tripulación de 50, un mástil y vela cuadrada; 50 toneladas de carga o 120 soldados; puede navegar por mar. Coste 10,000 gp.",
+    "status": "draft"
+  },
+  "magnifying-glass": {
+    "summaryEs": "Equipo de aventurero: lente simple para ver objetos pequeños; sirve para encender fuego con luz brillante, yesca y al menos una acción de asalto completo. Coste 100 gp.",
+    "status": "draft"
+  },
+  "manacles-common": {
+    "summaryEs": "Equipo de aventurero: grilletes para criaturas Medianas: Escape Artist CD 30 para soltarse, Strength CD 26 para romperlos; dureza 10 y 10 puntos de golpe. Coste 15 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "manacles-masterwork": {
+    "summaryEs": "Equipo de aventurero: grilletes de obra maestra para criaturas Medianas: Escape Artist CD 35 para soltarse, Strength CD 28 para romperlos; dureza 10 y 10 puntos de golpe. Coste 50 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "masterwork-tool": {
+    "summaryEs": "Herramientas: herramienta perfecta para su trabajo: +2 de circunstancia a una prueba de habilidad relacionada; los bonificadores de varias obras maestras no se acumulan. Coste 50 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "meal-common-per-day": {
+    "summaryEs": "Comida y bebida: comidas de un día de calidad común (pan, estofado, verduras y bebida aguada). Coste 3 sp.",
+    "status": "draft"
+  },
+  "meal-good-per-day": {
+    "summaryEs": "Comida y bebida: comidas de un día de buena calidad (pan y pasteles, carne, guisantes y cerveza o vino). Coste 5 sp.",
+    "status": "draft"
+  },
+  "meal-poor-per-day": {
+    "summaryEs": "Comida y bebida: comidas de un día de calidad pobre (pan, nabos, cebollas y agua). Coste 1 sp.",
+    "status": "draft"
+  },
+  "meat": {
+    "summaryEs": "Comida y bebida: trozo de carne suficiente para una comida (pescado, cerdo, cordero, ave, caza, vaca...). Coste 3 sp, peso 1/2 lb.",
+    "status": "draft"
+  },
+  "merchants-scale": {
+    "summaryEs": "Herramientas: balanza simple de palanca: +2 de circunstancia a las pruebas de Appraise sobre objetos valorados por peso. Coste 2 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "messenger": {
+    "summaryEs": "Alojamiento y servicios: mensajero que lleva un mensaje escrito o verbal (unas 25 palabras) a su destinatario; cobra por milla. Coste 2 cp per mile.",
+    "status": "draft"
+  },
+  "miners-pick": {
+    "summaryEs": "Equipo de aventurero: pico de minero; en combate es un arma improvisada a dos manos con daño perforante como un pico pesado de su tamaño. Coste 3 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "mirror": {
+    "summaryEs": "Equipo de aventurero: espejo de mano de acero pulido, resistente a las caídas. Coste 10 gp, peso 1/2 lb.",
+    "status": "draft"
+  },
+  "monks-outfit": {
+    "summaryEs": "Ropa: sandalias, pantalón holgado y camisa atados con fajas, de tela de alta calidad; permite ocultar armas pequeñas y las fajas sirven de cuerdas cortas. Coste 5 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "mug-tankard": {
+    "summaryEs": "Equipo de aventurero: taza o jarra de barro o estaño para cualquier bebida. Coste 2 cp, peso 1 lb.",
+    "status": "draft"
+  },
+  "musical-instrument-common": {
+    "summaryEs": "Herramientas: instrumento pequeño transportable (tambor, lira, arpa, flauta...) necesario para usar una habilidad Perform musical. Coste 5 gp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "musical-instrument-masterwork": {
+    "summaryEs": "Herramientas: instrumento de alta calidad: +2 de circunstancia a las pruebas de Perform con él. Coste 100 gp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "nobles-outfit": {
+    "summaryEs": "Ropa: ropa cara y llamativa con metales preciosos y gemas; requiere además un anillo de sello y joyas por valor de al menos 100 gp. Coste 75 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "oar": {
+    "summaryEs": "Equipo de aventurero: remo (la fuente no incluye descripción). Coste 2 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "oil": {
+    "summaryEs": "Equipo de aventurero: frasco de 1 pinta de aceite que arde 6 horas en lámpara o linterna; arma de salpicadura (50 % de prenderse); en el suelo cubre 5 pies cuadrados y hace 1d3 de fuego durante 2 asaltos. Coste 1 sp, peso 1 lb.",
+    "status": "draft"
+  },
+  "pack-animal-donkey-mule": {
+    "summaryEs": "Montura o animal: animal de carga (burro o mula; en otras regiones elefantes, yaks o bueyes). Coste 8 gp, peso 600 lbs.",
+    "status": "draft"
+  },
+  "paper-sheet": {
+    "summaryEs": "Equipo de aventurero: hoja de papel de unas 9 por 6 pulgadas, no apta para pergaminos mágicos; dureza 0, 1 punto de golpe y CD 5 para romperla. Coste 4 sp.",
+    "status": "draft"
+  },
+  "parchment-sheet": {
+    "summaryEs": "Equipo de aventurero: hoja de piel tratada, apta para pergaminos mágicos; dureza 0, 2 puntos de golpe y CD 5 para romperla. Coste 2 sp.",
+    "status": "draft"
+  },
+  "peasants-outfit": {
+    "summaryEs": "Ropa: ropa de mala calidad, remendada muchas veces: camisa suelta y calzones, o camisa y falda, con trapos por calzado. Coste 1 sp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "pitcher": {
+    "summaryEs": "Equipo de aventurero: jarra de barro con asa y pico para 1/2 galón; el peso es lleno, vacía pesa unos 1/2 libra. Coste 2 cp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "piton": {
+    "summaryEs": "Equipo de aventurero: clavo de hierro con anilla para atar una cuerda. Coste 1 sp, peso 1/2 lb.",
+    "status": "draft"
+  },
+  "pole": {
+    "summaryEs": "Equipo de aventurero: vara de madera de 10 pies para sondear fosos, losas y líquidos turbios desde lejos. Coste 5 cp, peso 8 lbs.",
+    "status": "draft"
+  },
+  "portable-ram": {
+    "summaryEs": "Equipo de aventurero: ariete de madera con herraje: +2 de circunstancia a las pruebas de Strength para derribar una puerta y permite que otra persona ayude (+2 más). Coste 10 gp, peso 20 lbs.",
+    "status": "draft"
+  },
+  "pot-common": {
+    "summaryEs": "Equipo de aventurero: olla de hierro de 8 pulgadas con patas, tapa y asa; alimenta a un humano hambriento en una comida. Coste 8 sp, peso 4 lbs.",
+    "status": "draft"
+  },
+  "pouch-belt-empty": {
+    "summaryEs": "Equipo de aventurero: bolsa de cinturón vacía (la fuente no incluye descripción). Coste 1 gp, peso 1/2 lb.",
+    "status": "draft"
+  },
+  "road-or-gate-toll": {
+    "summaryEs": "Alojamiento y servicios: peaje que ciudades y pueblos cobran por una carretera, puerta o puente. Coste 1 cp.",
+    "status": "draft"
+  },
+  "rope-50-ft": {
+    "summaryEs": "Equipo de aventurero: 50 pies de cuerda de cáñamo con 2 puntos de golpe; se rompe con Strength CD 23. Coste 1 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "rowboat": {
+    "summaryEs": "Transporte marítimo: bote de 8 a 12 pies con dos remos para dos o tres pasajeros Medianos; avanza unas 1-1/2 millas por hora. Coste 50 gp.",
+    "status": "draft"
+  },
+  "royal-outfit": {
+    "summaryEs": "Ropa: ropas ostentosas con gemas, oro, seda y pieles; solo la ropa, sin cetro, corona ni otros atributos reales. Coste 200 gp, peso 15 lbs.",
+    "status": "draft"
+  },
+  "sack": {
+    "summaryEs": "Equipo de aventurero: saco de lona gruesa de unos 4 pies cúbicos, con cordón de cuero para cerrarlo. Coste 1 sp, peso 1/2 lb.",
+    "status": "draft"
+  },
+  "saddle-exotic-military": {
+    "summaryEs": "Equipo para animales: silla exótica de tipo militar, hecha a medida para una bestia concreta; +2 de circunstancia a Ride para mantenerte en la silla y 75 % de no caer si quedas inconsciente. Coste 60 gp, peso 40 lbs.",
+    "status": "draft"
+  },
+  "saddle-exotic-pack": {
+    "summaryEs": "Equipo para animales: silla exótica de tipo carga, hecha a medida para una bestia concreta; lleva equipo pero no jinete. Coste 15 gp, peso 20 lbs.",
+    "status": "draft"
+  },
+  "saddle-exotic-riding": {
+    "summaryEs": "Equipo para animales: silla exótica de tipo monta, hecha a medida para una bestia concreta; 50 % de seguir en la silla si quedas inconsciente. Coste 30 gp, peso 30 lbs.",
+    "status": "draft"
+  },
+  "saddle-military": {
+    "summaryEs": "Equipo para animales: silla militar: +2 de circunstancia a Ride para mantenerte en la silla y 75 % de seguir montado si quedas inconsciente. Coste 20 gp, peso 30 lbs.",
+    "status": "draft"
+  },
+  "saddle-pack": {
+    "summaryEs": "Equipo para animales: silla de carga: lleva equipo y provisiones, pero no jinete. Coste 5 gp, peso 15 lbs.",
+    "status": "draft"
+  },
+  "saddle-riding": {
+    "summaryEs": "Equipo para animales: silla de montar común; 50 % de seguir montado si quedas inconsciente. Coste 10 gp, peso 25 lbs.",
+    "status": "draft"
+  },
+  "saddlebags": {
+    "summaryEs": "Equipo para animales: alforjas impermeables que se cuelgan de la silla; cada lado lleva unos 20 libras; no aumentan lo que puede cargar la montura. Coste 4 gp, peso 8 lbs.",
+    "status": "draft"
+  },
+  "sailing-ship": {
+    "summaryEs": "Transporte marítimo: barco de 75 a 90 pies, tripulación de 20, 150 toneladas de carga, dos mástiles con velas cuadradas; puede navegar por mar a unas 2 millas por hora. Coste 10,000 gp.",
+    "status": "draft"
+  },
+  "scholars-outfit": {
+    "summaryEs": "Ropa: túnica, cinturón, gorro, zapatos blandos y quizá capa, propia de un erudito. Coste 5 gp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "scroll-case": {
+    "summaryEs": "Equipo de aventurero: estuche de cuero o madera para cuatro pergaminos; meter más hace que sacarlos sea una acción de asalto completo. Coste 1 gp, peso 1/2 lb.",
+    "status": "draft"
+  },
+  "sealing-wax": {
+    "summaryEs": "Equipo de aventurero: barra de cera roja para sellar sobres, a menudo con la marca de un anillo de sello. Coste 1 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "sewing-needle": {
+    "summaryEs": "Equipo de aventurero: aguja para coser tela, lona o cuero fino. Coste 5 sp.",
+    "status": "draft"
+  },
+  "shield-spikes": {
+    "summaryEs": "Complemento de armadura: pinchos y hojas en el escudo que lo convierten en arma marcial perforante; el coste y el peso se suman a los del escudo. Coste +10 gp, peso +5 lbs.",
+    "status": "draft"
+  },
+  "ships-passage": {
+    "summaryEs": "Transporte marítimo: pasaje en un barco de carga; el coste se duplica para criaturas mayores que Medianas o difíciles de embarcar. Sin coste listado.",
+    "status": "draft"
+  },
+  "shovel-common": {
+    "summaryEs": "Equipo de aventurero: pala para cavar un foso a razón de 2 pies cúbicos por minuto. Coste 2 cp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "signet-ring": {
+    "summaryEs": "Equipo de aventurero: anillo con un diseño en relieve (escudo familiar o emblema oficial) para sellar cera. Coste 5 gp.",
+    "status": "draft"
+  },
+  "silk-rope-50-ft": {
+    "summaryEs": "Equipo de aventurero: 50 pies de cuerda de seda con 4 puntos de golpe; se rompe con Strength CD 24. Coste 10 gp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "sled": {
+    "summaryEs": "Transporte terrestre: carro sobre patines para nieve y hielo, tirado por lo general por dos caballos; incluye los arreos. Coste 20 gp.",
+    "status": "draft"
+  },
+  "sledge": {
+    "summaryEs": "Equipo de aventurero: martillo pesado a dos manos para construcción y clavar estacas de tienda; en combate es un arma improvisada. Coste 1 gp, peso 10 lbs.",
+    "status": "draft"
+  },
+  "smokestick": {
+    "summaryEs": "Herramienta alquímica: palo tratado alquímicamente que al arder crea humo espeso y opaco en un cubo de 10 pies (como fog cloud); se consume tras 1 asalto y el humo se disipa en 1 minuto. Coste 20 gp, peso 1/2 lb.",
+    "status": "draft"
+  },
+  "soap": {
+    "summaryEs": "Equipo de aventurero: pastilla de jabón de grasa animal y lejía, con unos 50 usos. Coste 1 cp, peso 1/2 lb.",
+    "status": "draft"
+  },
+  "spell-component-pouch": {
+    "summaryEs": "Herramientas: bolsa con todos los componentes materiales y focos necesarios, salvo los que tienen un coste específico, los focos divinos y los que no caben. Coste 5 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "spellbook": {
+    "summaryEs": "Herramientas: libro de 100 páginas de pergamino; cada conjuro ocupa una página por nivel de conjuro (una para los de nivel 0); nuevo no contiene conjuros. Coste 15 gp, peso 3 lbs.",
+    "status": "draft"
+  },
+  "spellcasting": {
+    "summaryEs": "Alojamiento y servicios: pago por que un lanzador de conjuros lance un conjuro por ti: nivel de lanzador × nivel de conjuro × 10 gp, más componentes materiales con coste.",
+    "status": "draft"
+  },
+  "spyglass": {
+    "summaryEs": "Equipo de aventurero: catalejo que amplía los objetos al doble; –1 a las pruebas de Perception por cada 20 pies de distancia al objetivo visible. Coste 1,000 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "stabling-per-day": {
+    "summaryEs": "Equipo para animales: coste diario de alojar en un establo una criatura Grande o menor; las criaturas mayores o más exóticas cuestan el doble. Coste 5 sp.",
+    "status": "draft"
+  },
+  "sunrod": {
+    "summaryEs": "Herramienta alquímica: barra de hierro de 1 pie con punta dorada que brilla al golpearla (acción estándar): luz normal en un radio de 30 pies y un nivel más 30 pies más allá; brilla 6 horas. Coste 2 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "tanglefoot-bag": {
+    "summaryEs": "Arma alquímica: bolsa de brea y resina que se lanza como ataque de toque a distancia (incremento de 10 pies): –2 al ataque y –4 a Dexterity y Reflex CD 15 o quedas pegado al suelo. Coste 50 gp, peso 4 lbs.",
+    "status": "draft"
+  },
+  "tent": {
+    "summaryEs": "Equipo de aventurero: tienda de campaña (la fuente no incluye descripción). Coste 10 gp, peso 20 lbs.",
+    "status": "draft"
+  },
+  "thieves-tools-common": {
+    "summaryEs": "Herramientas: ganzúas y otras herramientas para Disable Device; sin ellas hay –2 de circunstancia a esas pruebas. Coste 30 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "thieves-tools-masterwork": {
+    "summaryEs": "Herramientas: herramientas de ladrón de obra maestra: +2 de circunstancia a las pruebas de Disable Device. Coste 100 gp, peso 2 lbs.",
+    "status": "draft"
+  },
+  "thunderstone": {
+    "summaryEs": "Arma alquímica: piedra que se lanza (incremento de 20 pies) y estalla con un estruendo sónico: Fortitude CD 15 o quedas ensordecido 1 hora en un radio de 10 pies. Coste 30 gp, peso 1 lb.",
+    "status": "draft"
+  },
+  "tindertwig": {
+    "summaryEs": "Herramienta alquímica: palito con sustancia alquímica que prende al rozarlo; encender una antorcha con él es una acción estándar; arde 1d2 asaltos. Coste 1 gp.",
+    "status": "draft"
+  },
+  "torch": {
+    "summaryEs": "Equipo de aventurero: arde 1 hora con luz normal en un radio de 20 pies y un nivel más 20 pies más allá. Coste 1 cp, peso 1 lb.",
+    "status": "draft"
+  },
+  "trail-rations": {
+    "summaryEs": "Comida y bebida: comida de un día de galleta dura, cecina y fruta seca; si se mantiene seca dura meses. Coste 5 sp, peso 1 lb.",
+    "status": "draft"
+  },
+  "travelers-outfit": {
+    "summaryEs": "Ropa: botas, falda de lana o calzones, cinturón resistente, camisa y capa con capucha. Coste 1 gp, peso 5 lbs.",
+    "status": "draft"
+  },
+  "vial": {
+    "summaryEs": "Equipo de aventurero: vial de vidrio o acero con 1 onza de líquido. Coste 1 gp.",
+    "status": "draft"
+  },
+  "wagon-light": {
+    "summaryEs": "Transporte terrestre: carro abierto de cuatro ruedas para cargas pesadas, con los arreos; el texto describe las variedades ligera, mediana y pesada. Coste 50 gp.",
+    "status": "draft"
+  },
+  "warship": {
+    "summaryEs": "Transporte marítimo: barco de 100 pies con un mástil y remos, tripulación de 60 a 80 remeros; lleva 160 soldados, pero no en distancias largas; no hace travesías por mar abierto. Coste 25,000 gp.",
+    "status": "draft"
+  },
+  "water-clock": {
+    "summaryEs": "Equipo de aventurero: reloj de agua grande y voluminoso, exacto hasta media hora al día; necesita agua y estar quieto. Coste 1,000 gp, peso 200 lbs.",
+    "status": "draft"
+  },
+  "waterskin": {
+    "summaryEs": "Equipo de aventurero: odre estanco de vejiga animal o cuero tratado para 1/2 galón; el peso es lleno, vacío pesa unos 2 libras. Coste 1 gp, peso 4 lbs.",
+    "status": "draft"
+  },
+  "whetstone": {
+    "summaryEs": "Equipo de aventurero: piedra de afilar: 15 minutos de trabajo dan al arma +1 al daño el primer impacto; solo hojas no mágicas. Coste 2 cp, peso 1 lb.",
+    "status": "draft"
+  },
+  "whistle-signal": {
+    "summaryEs": "Equipo de aventurero: silbato para señales (Perform CD 5); se oye hasta un cuarto de milla; –2 a Perception por cada cuarto de milla extra. Coste 8 sp.",
+    "status": "draft"
+  },
+  "wine-common-pitcher": {
+    "summaryEs": "Comida y bebida: jarra de vino común; el precio menor es del vino corriente y el mayor del vino más fino. Coste 2 sp, peso 6 lbs.",
+    "status": "draft"
+  },
+  "wine-fine-bottle": {
+    "summaryEs": "Comida y bebida: botella de vino fino; el precio mayor es del vino más fino. Coste 10 gp, peso 1-1/2 lbs.",
+    "status": "draft"
+  }
+}

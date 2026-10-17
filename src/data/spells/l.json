@@ -1,0 +1,620 @@
+[
+  {
+    "id": "legend-lore",
+    "name": "Legend Lore",
+    "textEn": "*Legend lore* brings to your mind legends about an important person, place, or thing. If the person or thing is at hand, or if you are in the place in question, the casting time is only 1d4 × 10 minutes. If you have only detailed information on the person, place, or thing, the casting time is 1d10 days, and the resulting lore is less complete and specific (though it often provides enough information to help you find the person, place, or thing, thus allowing a better *legend lore* result next time). If you know only rumors, the casting time is 2d6 weeks, and the resulting lore is vague and incomplete (though it often directs you to more detailed information, thus allowing a better *legend lore* result next time).\n\nDuring the casting, you cannot engage in other than routine activities: eating, sleeping, and so forth. When completed, the divination brings legends (if any) about the person, place, or things to your mind. These may be legends that are still current, legends that have been forgotten, or even information that has never been generally known. If the person, place, or thing is not of legendary importance, you gain no information. As a rule of thumb, characters who are 11th level and higher are “legendary,” as are the sorts of creatures they contend with, the major magic items they wield, and the places where they perform their key deeds.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Legend Lore",
+    "sourceRef": "PRPG Core Rulebook pg. 304",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "bard": 4,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "see text",
+      "unit": "other",
+      "amount": null
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (incense worth 250 gp), F (four pieces of ivory worth 50 gp each)",
+      "details": {
+        "material": "incense worth 250 gp",
+        "focus": "four pieces of ivory worth 50 gp each"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Lets you learn tales about a person, place, or thing."
+  },
+  {
+    "id": "levitate",
+    "name": "Levitate",
+    "textEn": "*Levitate* allows you to move yourself, another creature, or an object up and down as you wish. A creature must be willing to be levitated, and an object must be unattended or possessed by a willing creature. You can mentally direct the recipient to move up or down as much as 20 feet each round; doing so is a move action. You cannot move the recipient horizontally, but the recipient could clamber along the face of a cliff, for example, or push against a ceiling to move laterally (generally at half its base land speed).\n\nA levitating creature that attacks with a melee or ranged weapon finds itself increasingly unstable; the first attack has a –1 penalty on attack rolls, the second –2, and so on, to a maximum penalty of –5. A full round spent stabilizing allows the creature to begin again at –1.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Levitate",
+    "sourceRef": "PRPG Core Rulebook pg. 304",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, F (a leather loop or golden wire bent into a cup shape)",
+      "details": {
+        "focus": "a leather loop or golden wire bent into a cup shape"
+      }
+    },
+    "range": {
+      "raw": "personal or close (25 ft. + 5 ft./2 levels)",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you or one willing creature or one object (total weight up to 100 lbs./level)"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Subject moves up and down at your direction."
+  },
+  {
+    "id": "light",
+    "name": "Light",
+    "textEn": "This spell causes a touched object to glow like a torch, shedding normal light in a 20-foot radius, and increasing the light level for an additional 20 feet by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light). In an area of normal or bright light, this spell has no effect. The effect is immobile, but it can be cast on a movable object.\n\nYou can only have one *light* spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through *permanency* or a similar effect), it does not count against this limit. *Light* can be used to counter or dispel any darkness spell of equal or lower spell level.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Light",
+    "sourceRef": "PRPG Core Rulebook pg. 304",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "light"
+    ],
+    "levels": {
+      "bard": 0,
+      "cleric": 0,
+      "druid": 0,
+      "sorcerer": 0,
+      "wizard": 0
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, M/DF (a firefly)",
+      "details": {
+        "material": "a firefly"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "object touched"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Object shines like a torch."
+  },
+  {
+    "id": "lightning-bolt",
+    "name": "Lightning Bolt",
+    "textEn": "You release a powerful stroke of electrical energy that deals 1d6 points of electricity damage per caster level (maximum 10d6) to each creature within its area. The bolt begins at your fingertips.\n\nThe *lightning bolt* sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell's range permits; otherwise, it stops at the barrier just as any other spell effect does.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Lightning Bolt",
+    "sourceRef": "PRPG Core Rulebook pg. 304",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "electricity"
+    ],
+    "levels": {
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (fur and a glass rod)",
+      "details": {
+        "material": "fur and a glass rod"
+      }
+    },
+    "range": {
+      "raw": "120 ft.",
+      "kind": "fixed",
+      "fixedFt": 120
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "120-ft. line"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Reflex half",
+      "kind": "reflex",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Electricity deals 1d6/level damage."
+  },
+  {
+    "id": "limited-wish",
+    "name": "Limited Wish",
+    "textEn": "A *limited wish* lets you create nearly any type of effect. For example, a *limited wish* can do any of the following things.\n\n- Duplicate any sorcerer/wizard spell of 6th level or lower, provided the spell does not belong to one of your opposition schools.\n- Duplicate any non-sorcerer/wizard spell of 5th level or lower, provided the spell does not belong to one of your opposition schools.\n- Duplicate any sorcerer/wizard spell of 5th level or lower, even if it belongs to one of your opposition schools.\n- Duplicate any non-sorcerer/wizard spell of 4th level or lower, even if it belongs to one of your opposition schools.\n- Undo the harmful effects of many spells, such as or *insanity*.\n- Produce any other effect whose power level is in line with the above effects, such as a single creature automatically hitting on its next attack or taking a –7 penalty on its next saving throw.\n\nA duplicated spell allows saving throws and spell resistance as normal, but the save DC is for a 7th-level spell. When a *limited wish* spell duplicates a spell with a material component that costs more than 1,000 gp, you must provide that component (in addition to the 1,500 gp diamond component for this spell).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Limited Wish",
+    "sourceRef": "PRPG Core Rulebook pg. 305",
+    "book": "CRB",
+    "school": "universal",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (diamond worth 1,500 gp)",
+      "details": {
+        "material": "diamond worth 1,500 gp"
+      }
+    },
+    "range": {
+      "raw": "see text",
+      "kind": "other"
+    },
+    "targeting": [
+      {
+        "kind": "other",
+        "raw": "see text"
+      }
+    ],
+    "duration": {
+      "raw": "see text",
+      "kind": "other",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "none, see text",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Alters reality (within limits)."
+  },
+  {
+    "id": "liveoak",
+    "name": "Liveoak",
+    "textEn": "This spell turns an oak tree into a protector or guardian. The spell can only be cast on a single tree at a time; while *liveoak* is in effect, you can't cast it again on another tree. *Liveoak* must be cast on a healthy, Huge oak. A triggering phrase of up to one word per caster level is placed on the targeted oak. The *liveoak* spell triggers the tree into animating as a treant.\n\nIf *liveoak* is dispelled, the tree takes root immediately wherever it happens to be. If released by you, the tree tries to return to its original location before taking root.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Liveoak",
+    "sourceRef": "PRPG Core Rulebook pg. 305",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "druid": 6
+    },
+    "castingTime": {
+      "raw": "10 minutes",
+      "unit": "minute",
+      "amount": 10
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "tree touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 day/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "day",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Oak becomes treant guardian."
+  },
+  {
+    "id": "locate-creature",
+    "name": "Locate Creature",
+    "textEn": "This spell functions like *locate object*, except this spell locates a known creature. You slowly turn and sense when you are facing in the direction of the creature to be located, provided it is within range. You also know in which direction the creature is moving, if any.\n\nThe spell can locate a creature of a specific kind or a specific creature known to you. It cannot find a creature of a certain type. To find a kind of creature, you must have seen such a creature up close (within 30 feet) at least once.\n\nRunning water blocks the spell. It cannot detect objects. It can be fooled by *mislead*, *nondetection*, and *polymorph* spells.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Locate Creature",
+    "sourceRef": "PRPG Core Rulebook pg. 305",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "bard": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (fur from a bloodhound)",
+      "details": {
+        "material": "fur from a bloodhound"
+      }
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "circle, centered on you, with a radius of 400 ft. + 40 ft./level"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Indicates direction to known creature."
+  },
+  {
+    "id": "locate-object",
+    "name": "Locate Object",
+    "textEn": "You sense the direction of a well-known or clearly visualized object. You can search for general items, in which case you locate the nearest of its kind if more than one is within range. Attempting to find a certain item requires a specific and accurate mental image; if the image is not close enough to the actual object, the spell fails. You cannot specify a unique item unless you have observed that particular item firsthand (not through divination).\n\nThe spell is blocked by even a thin sheet of lead. Creatures cannot be found by this spell. *Polymorph any object* and *nondetection* fool it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Locate Object",
+    "sourceRef": "PRPG Core Rulebook pg. 305",
+    "book": "CRB",
+    "school": "divination",
+    "descriptors": [],
+    "levels": {
+      "bard": 2,
+      "cleric": 3,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, F/DF (a forked twig)",
+      "details": {
+        "focus": "a forked twig"
+      }
+    },
+    "range": {
+      "raw": "long (400 ft. + 40 ft./level)",
+      "kind": "long"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "circle, centered on you, with a radius of 400 ft. + 40 ft./level"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Senses direction toward object (specific or type)."
+  },
+  {
+    "id": "longstrider",
+    "name": "Longstrider",
+    "textEn": "This spell gives you a +10 foot enhancement bonus to your base speed. It has no effect on other modes of movement, such as burrow, climb, fly, or swim.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Longstrider",
+    "sourceRef": "PRPG Core Rulebook pg. 305",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "druid": 1,
+      "ranger": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a pinch of dirt)",
+      "details": {
+        "material": "a pinch of dirt"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 hour/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "hour",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Your speed increases by 10 ft."
+  },
+  {
+    "id": "lullaby",
+    "name": "Lullaby",
+    "textEn": "Any creature within the area that fails a Will save becomes drowsy and inattentive, taking a –5 penalty on Perception checks and a –2 penalty on Will saves against *sleep* effects while the *lullaby* is in effect. *Lullaby* lasts for as long as the caster concentrates, plus up to 1 round per caster level thereafter.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Lullaby",
+    "sourceRef": "PRPG Core Rulebook pg. 305",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "bard": 0
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "living creatures within a 10-ft.-radius burst"
+      }
+    ],
+    "duration": {
+      "raw": "concentration + 1 round/level (D)",
+      "kind": "other",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Makes subject drowsy: –5 on Perception checks, –2 on Will saves against sleep."
+  }
+]

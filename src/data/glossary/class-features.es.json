@@ -1,0 +1,1682 @@
+{
+  "class-features:barbarian.damage-reduction": {
+    "es": "Damage Reduction",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.fast-movement": {
+    "es": "Fast Movement",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.greater-rage": {
+    "es": "Greater Rage",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.improved-uncanny-dodge": {
+    "es": "Improved Uncanny Dodge",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.indomitable-will": {
+    "es": "Indomitable Will",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.mighty-rage": {
+    "es": "Mighty Rage",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage": {
+    "es": "Furia",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "coincide con el término rage del glosario; pendiente de verificar"
+  },
+  "class-features:barbarian.rage-power.animal-fury": {
+    "es": "Animal Fury",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.clear-mind": {
+    "es": "Clear Mind",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.fearless-rage": {
+    "es": "Fearless Rage",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.guarded-stance": {
+    "es": "Guarded Stance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.increased-damage-reduction": {
+    "es": "Increased Damage Reduction",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.internal-fortitude": {
+    "es": "Internal Fortitude",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.intimidating-glare": {
+    "es": "Intimidating Glare",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.knockback": {
+    "es": "Knockback",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.low-light-vision": {
+    "es": "Low-Light Vision",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.mighty-swing": {
+    "es": "Mighty Swing",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.moment-of-clarity": {
+    "es": "Moment of Clarity",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.night-vision": {
+    "es": "Night Vision",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.no-escape": {
+    "es": "No Escape",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.powerful-blow": {
+    "es": "Powerful Blow",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.quick-reflexes": {
+    "es": "Quick Reflexes",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.raging-climber": {
+    "es": "Raging Climber",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.raging-leaper": {
+    "es": "Raging Leaper",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.raging-swimmer": {
+    "es": "Raging Swimmer",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.renewed-vigor": {
+    "es": "Renewed Vigor",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.rolling-dodge": {
+    "es": "Rolling Dodge",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.roused-anger": {
+    "es": "Roused Anger",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.scent": {
+    "es": "Scent",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.strength-surge": {
+    "es": "Strength Surge",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.superstition": {
+    "es": "Superstition",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.surprise-accuracy": {
+    "es": "Surprise Accuracy",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.swift-foot": {
+    "es": "Swift Foot",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.terrifying-howl": {
+    "es": "Terrifying Howl",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-power.unexpected-strike": {
+    "es": "Unexpected Strike",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.rage-powers": {
+    "es": "Rage Powers",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.tireless-rage": {
+    "es": "Tireless Rage",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.trap-sense": {
+    "es": "Trap Sense",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.uncanny-dodge": {
+    "es": "Uncanny Dodge",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:barbarian.weapon-and-armor-proficiency": {
+    "es": "Weapon and Armor Proficiency",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.bardic-knowledge": {
+    "es": "Bardic Knowledge",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.bardic-performance": {
+    "es": "Interpretación de bardo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "coincide con el término bardic-performance del glosario; pendiente de verificar"
+  },
+  "class-features:bard.cantrips": {
+    "es": "Cantrips",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.jack-of-all-trades": {
+    "es": "Jack-of-All-Trades",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.lore-master": {
+    "es": "Lore Master",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.performance.countersong": {
+    "es": "Countersong",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.performance.deadly-performance": {
+    "es": "Deadly Performance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.performance.dirge-of-doom": {
+    "es": "Dirge of Doom",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.performance.distraction": {
+    "es": "Distraction",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.performance.fascinate": {
+    "es": "Fascinate",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.performance.frightening-tune": {
+    "es": "Frightening Tune",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.performance.inspire-competence": {
+    "es": "Inspire Competence",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.performance.inspire-courage": {
+    "es": "Inspirar valor",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "coincide con el término inspire-courage del glosario; pendiente de verificar"
+  },
+  "class-features:bard.performance.inspire-greatness": {
+    "es": "Inspire Greatness",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.performance.inspire-heroics": {
+    "es": "Inspire Heroics",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.performance.mass-suggestion": {
+    "es": "Mass Suggestion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.performance.soothing-performance": {
+    "es": "Soothing Performance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.performance.suggestion": {
+    "es": "Suggestion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.spells": {
+    "es": "Spells",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.versatile-performance": {
+    "es": "Versatile Performance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.weapon-and-armor-proficiency": {
+    "es": "Weapon and Armor Proficiency",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:bard.well-versed": {
+    "es": "Well-Versed",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.aura": {
+    "es": "Aura",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.bonus-languages": {
+    "es": "Bonus Languages",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.channel-energy": {
+    "es": "Canalizar energía",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "coincide con el término channel-energy del glosario; pendiente de verificar"
+  },
+  "class-features:cleric.chaotic-evil-good-and-lawful-spells": {
+    "es": "Chaotic, Evil, Good, and Lawful Spells",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.air.electricity-resistance": {
+    "es": "Electricity Resistance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.air.lightning-arc": {
+    "es": "Lightning Arc",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.animal.animal-companion": {
+    "es": "Compañero animal",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "coincide con el término animal-companion del glosario; pendiente de verificar"
+  },
+  "class-features:cleric.domain.animal.speak-with-animals": {
+    "es": "Speak with Animals",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.artifice.artificers-touch": {
+    "es": "Artificer's Touch",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.artifice.dancing-weapons": {
+    "es": "Dancing Weapons",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.chaos.chaos-blade": {
+    "es": "Chaos Blade",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.chaos.touch-of-chaos": {
+    "es": "Touch of Chaos",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.charm.charming-smile": {
+    "es": "Charming Smile",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.charm.dazing-touch": {
+    "es": "Dazing Touch",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.community.calming-touch": {
+    "es": "Calming Touch",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.community.unity": {
+    "es": "Unity",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.darkness.eyes-of-darkness": {
+    "es": "Eyes of Darkness",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.darkness.touch-of-darkness": {
+    "es": "Touch of Darkness",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.death.bleeding-touch": {
+    "es": "Bleeding Touch",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.death.deaths-embrace": {
+    "es": "Death's Embrace",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.destruction.destructive-aura": {
+    "es": "Destructive Aura",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.destruction.destructive-smite": {
+    "es": "Destructive Smite",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.earth.acid-dart": {
+    "es": "Acid Dart",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.earth.acid-resistance": {
+    "es": "Acid Resistance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.evil.scythe-of-evil": {
+    "es": "Scythe of Evil",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.evil.touch-of-evil": {
+    "es": "Touch of Evil",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.fire.fire-bolt": {
+    "es": "Fire Bolt",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.fire.fire-resistance": {
+    "es": "Fire Resistance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.glory.divine-presence": {
+    "es": "Divine Presence",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.glory.touch-of-glory": {
+    "es": "Touch of Glory",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.good.holy-lance": {
+    "es": "Holy Lance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.good.touch-of-good": {
+    "es": "Touch of Good",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.healing.healers-blessing": {
+    "es": "Healer's Blessing",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.healing.rebuke-death": {
+    "es": "Rebuke Death",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.knowledge.lore-keeper": {
+    "es": "Lore Keeper",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.knowledge.remote-viewing": {
+    "es": "Remote Viewing",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.law.staff-of-order": {
+    "es": "Staff of Order",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.law.touch-of-law": {
+    "es": "Touch of Law",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.liberation.freedoms-call": {
+    "es": "Freedom's Call",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.liberation.liberation": {
+    "es": "Liberation",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.luck.bit-of-luck": {
+    "es": "Bit of Luck",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.luck.good-fortune": {
+    "es": "Good Fortune",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.madness.aura-of-madness": {
+    "es": "Aura of Madness",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.madness.vision-of-madness": {
+    "es": "Vision of Madness",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.magic.dispelling-touch": {
+    "es": "Dispelling Touch",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.magic.hand-of-the-acolyte": {
+    "es": "Hand of the Acolyte",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.nobility.inspiring-word": {
+    "es": "Inspiring Word",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.nobility.leadership": {
+    "es": "Leadership",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.plant.bramble-armor": {
+    "es": "Bramble Armor",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.plant.wooden-fist": {
+    "es": "Wooden Fist",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.protection.aura-of-protection": {
+    "es": "Aura of Protection",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.protection.resistant-touch": {
+    "es": "Resistant Touch",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.repose.gentle-rest": {
+    "es": "Gentle Rest",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.repose.ward-against-death": {
+    "es": "Ward Against Death",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.rune.blast-rune": {
+    "es": "Blast Rune",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.rune.spell-rune": {
+    "es": "Spell Rune",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.strength.might-of-the-gods": {
+    "es": "Might of the Gods",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.strength.strength-surge": {
+    "es": "Strength Surge",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.sun.nimbus-of-light": {
+    "es": "Nimbus of Light",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.sun.suns-blessing": {
+    "es": "Sun's Blessing",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.travel.agile-feet": {
+    "es": "Agile Feet",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.travel.dimensional-hop": {
+    "es": "Dimensional Hop",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.trickery.copycat": {
+    "es": "Copycat",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.trickery.masters-illusion": {
+    "es": "Master's Illusion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.war.battle-rage": {
+    "es": "Battle Rage",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.war.weapon-master": {
+    "es": "Weapon Master",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.water.cold-resistance": {
+    "es": "Cold Resistance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.water.icicle": {
+    "es": "Icicle",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.weather.lightning-lord": {
+    "es": "Lightning Lord",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domain.weather.storm-burst": {
+    "es": "Storm Burst",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.domains": {
+    "es": "Domains",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.orisons": {
+    "es": "Orisons",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.spells": {
+    "es": "Spells",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.spontaneous-casting": {
+    "es": "Spontaneous Casting",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:cleric.weapon-and-armor-proficiency": {
+    "es": "Weapon and Armor Proficiency",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.a-thousand-faces": {
+    "es": "A Thousand Faces",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.bonus-languages": {
+    "es": "Bonus Languages",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.chaotic-evil-good-and-lawful-spells": {
+    "es": "Chaotic, Evil, Good, and Lawful Spells",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.nature-bond": {
+    "es": "Nature Bond",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.nature-sense": {
+    "es": "Nature Sense",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.orisons": {
+    "es": "Orisons",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.resist-natures-lure": {
+    "es": "Resist Nature's Lure",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.spells": {
+    "es": "Spells",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.spontaneous-casting": {
+    "es": "Spontaneous Casting",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.timeless-body": {
+    "es": "Timeless Body",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.trackless-step": {
+    "es": "Trackless Step",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.venom-immunity": {
+    "es": "Venom Immunity",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.weapon-and-armor-proficiency": {
+    "es": "Weapon and Armor Proficiency",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.wild-empathy": {
+    "es": "Wild Empathy",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:druid.wild-shape": {
+    "es": "Forma salvaje",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "coincide con el término wild-shape del glosario; pendiente de verificar"
+  },
+  "class-features:druid.woodland-stride": {
+    "es": "Woodland Stride",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.associates": {
+    "es": "Associates",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.aura-of-courage": {
+    "es": "Aura of Courage",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.aura-of-faith": {
+    "es": "Aura of Faith",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.aura-of-good": {
+    "es": "Aura of Good",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.aura-of-justice": {
+    "es": "Aura of Justice",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.aura-of-resolve": {
+    "es": "Aura of Resolve",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.aura-of-righteousness": {
+    "es": "Aura of Righteousness",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.channel-positive-energy": {
+    "es": "Channel Positive Energy",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.code-of-conduct": {
+    "es": "Code of Conduct",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.detect-evil": {
+    "es": "Detect Evil",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.divine-bond": {
+    "es": "Divine Bond",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.divine-grace": {
+    "es": "Divine Grace",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.divine-health": {
+    "es": "Divine Health",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.holy-champion": {
+    "es": "Holy Champion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.lay-on-hands": {
+    "es": "Imposición de manos",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "coincide con el término lay-on-hands del glosario; pendiente de verificar"
+  },
+  "class-features:paladin.mercy": {
+    "es": "Mercy",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.blinded": {
+    "es": "Blinded",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.cursed": {
+    "es": "Cursed",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.dazed": {
+    "es": "Dazed",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.deafened": {
+    "es": "Deafened",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.diseased": {
+    "es": "Diseased",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.exhausted": {
+    "es": "Exhausted",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.fatigued": {
+    "es": "Fatigued",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.frightened": {
+    "es": "Frightened",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.nauseated": {
+    "es": "Nauseated",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.paralyzed": {
+    "es": "Paralyzed",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.poisoned": {
+    "es": "Poisoned",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.shaken": {
+    "es": "Shaken",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.sickened": {
+    "es": "Sickened",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.staggered": {
+    "es": "Staggered",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.mercy.stunned": {
+    "es": "Stunned",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.smite-evil": {
+    "es": "Castigar el mal",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "coincide con el término smite-evil del glosario; pendiente de verificar"
+  },
+  "class-features:paladin.spells": {
+    "es": "Spells",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:paladin.weapon-and-armor-proficiency": {
+    "es": "Weapon and Armor Proficiency",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.camouflage": {
+    "es": "Camouflage",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.combat-style-feat": {
+    "es": "Combat Style Feat",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.combat-style.archery": {
+    "es": "Archery",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.combat-style.two-weapon-combat": {
+    "es": "Two-Weapon Combat",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.endurance": {
+    "es": "Endurance",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.evasion": {
+    "es": "Evasion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.favored-enemy": {
+    "es": "Enemigo predilecto",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "coincide con el término favored-enemy del glosario; pendiente de verificar"
+  },
+  "class-features:ranger.favored-terrain": {
+    "es": "Favored Terrain",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.hide-in-plain-sight": {
+    "es": "Hide in Plain Sight",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.hunters-bond": {
+    "es": "Hunter's Bond",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.improved-evasion": {
+    "es": "Improved Evasion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.improved-quarry": {
+    "es": "Improved Quarry",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.master-hunter": {
+    "es": "Master Hunter",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.quarry": {
+    "es": "Quarry",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.spells": {
+    "es": "Spells",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.swift-tracker": {
+    "es": "Swift Tracker",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.track": {
+    "es": "Track",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.weapon-and-armor-proficiency": {
+    "es": "Weapon and Armor Proficiency",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.wild-empathy": {
+    "es": "Wild Empathy",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:ranger.woodland-stride": {
+    "es": "Woodland Stride",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.advanced-talent.crippling-strike": {
+    "es": "Crippling Strike",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.advanced-talent.defensive-roll": {
+    "es": "Defensive Roll",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.advanced-talent.dispelling-attack": {
+    "es": "Dispelling Attack",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.advanced-talent.feat": {
+    "es": "Feat",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.advanced-talent.improved-evasion": {
+    "es": "Improved Evasion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.advanced-talent.opportunist": {
+    "es": "Opportunist",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.advanced-talent.skill-mastery": {
+    "es": "Skill Mastery",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.advanced-talent.slippery-mind": {
+    "es": "Slippery Mind",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.advanced-talents": {
+    "es": "Advanced Talents",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.evasion": {
+    "es": "Evasion",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.improved-uncanny-dodge": {
+    "es": "Improved Uncanny Dodge",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.master-strike": {
+    "es": "Master Strike",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.rogue-talents": {
+    "es": "Rogue Talents",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.sneak-attack": {
+    "es": "Ataque furtivo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "coincide con el término sneak-attack del glosario; pendiente de verificar"
+  },
+  "class-features:rogue.talent.bleeding-attack": {
+    "es": "Bleeding Attack",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.combat-trick": {
+    "es": "Combat Trick",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.fast-stealth": {
+    "es": "Fast Stealth",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.finesse-rogue": {
+    "es": "Finesse Rogue",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.ledge-walker": {
+    "es": "Ledge Walker",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.major-magic": {
+    "es": "Major Magic",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.minor-magic": {
+    "es": "Minor Magic",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.quick-disable": {
+    "es": "Quick Disable",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.resiliency": {
+    "es": "Resiliency",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.rogue-crawl": {
+    "es": "Rogue Crawl",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.slow-reactions": {
+    "es": "Slow Reactions",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.stand-up": {
+    "es": "Stand Up",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.surprise-attack": {
+    "es": "Surprise Attack",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.trap-spotter": {
+    "es": "Trap Spotter",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.talent.weapon-training": {
+    "es": "Weapon Training",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.trap-sense": {
+    "es": "Trap Sense",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.trapfinding": {
+    "es": "Trapfinding",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.uncanny-dodge": {
+    "es": "Uncanny Dodge",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "class-features:rogue.weapon-and-armor-proficiency": {
+    "es": "Weapon and Armor Proficiency",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  }
+}

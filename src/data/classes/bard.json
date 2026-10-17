@@ -1,0 +1,894 @@
+[
+  {
+    "id": "bard",
+    "name": "Bard",
+    "textEn": "Untold wonders and secrets exist for those skillful enough to discover them. Through cleverness, talent, and magic, these cunning few unravel the wiles of the world, becoming adept in the arts of persuasion, manipulation, and inspiration. Typically masters of one or many forms of artistry, bards possess an uncanny ability to know more than they should and use what they learn to keep themselves and their allies ever one step ahead of danger. Bards are quick-witted and captivating, and their skills might lead them down many paths, be they gamblers or jacks-of-all-trades, scholars or performers, leaders or scoundrels, or even all of the above. For bards, every day brings its own opportunities, adventures, and challenges, and only by bucking the odds, knowing the most, and being the best might they claim the treasures of each.\n\n**Role**: Bards capably confuse and confound their foes while inspiring their allies to ever-greater daring. While accomplished with both weapons and magic, the true strength of bards lies outside melee, where they can support their companions and undermine their foes without fear of interruptions to their performances.\n\n**Alignment**: Any.\n**Hit Die**: d8.\n**Starting Wealth**: 3d6 x 10 gp (average 105 gp).\n\n**Class Skills**\n\nThe Bard's class skills are Acrobatics (Dex), Appraise (Int), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Disguise (Cha), Escape Artist (Dex), Intimidate (Cha), Knowledge (all) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Spellcraft (Int), Stealth (Dex), and Use Magic Device (Cha).\n\n**Skill Points at each Level**: 6 + Int modifier.\n\n**Class Features**\n\n**Spells Per Day**\n\n| Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | 1st | 2nd | 3rd | 4th | 5th | 6th |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1st | +0 | +0 | +2 | +2 | Bardic knowledge, bardic performance, cantrips, countersong, distraction, fascinate, inspire courage +1 | 1 | - | - | - | - | - |\n| 2nd | +1 | +0 | +3 | +3 | Versatile performance, well-versed | 2 | - | - | - | - | - |\n| 3rd | +2 | +1 | +3 | +3 | Inspire competence +2 | 3 | - | - | - | - | - |\n| 4th | +3 | +1 | +4 | +4 | — | 3 | 1 | - | - | - | - |\n| 5th | +3 | +1 | +4 | +4 | Inspire courage +2, lore master 1/day | 4 | 2 | - | - | - | - |\n| 6th | +4 | +2 | +5 | +5 | Suggestion, Versatile performance | 4 | 3 | - | - | - | - |\n| 7th | +5 | +2 | +5 | +5 | Inspire competence +3 | 4 | 3 | 1 | - | - | - |\n| 8th | +6/+1 | +2 | +6 | +6 | Dirge of doom | 4 | 4 | 2 | - | - | - |\n| 9th | +6/+1 | +3 | +6 | +6 | Inspire greatness | 5 | 4 | 3 | - | - | - |\n| 10th | +7/+2 | +3 | +7 | +7 | Jack-of-all-trades, Versatile performance | 5 | 4 | 3 | 1 | - | - |\n| 11th | +8/+3 | +3 | +7 | +7 | Inspire competence +4, inspire courage +3, lore master 2/day | 5 | 4 | 4 | 2 | - | - |\n| 12th | +9/+4 | +4 | +8 | +8 | Soothing performance | 5 | 5 | 4 | 3 | - | - |\n| 13th | +9/+4 | +4 | +8 | +8 | — | 5 | 5 | 4 | 3 | 1 | - |\n| 14th | +10/+5 | +4 | +9 | +9 | Frightening tune, Versatile performance | 5 | 5 | 4 | 4 | 2 | - |\n| 15th | +11/+6/+1 | +5 | +9 | +9 | Inspire competence +5, inspire heroics | 5 | 5 | 5 | 4 | 3 | - |\n| 16th | +12/+7/+2 | +5 | +10 | +10 | — | 5 | 5 | 5 | 4 | 3 | 1 |\n| 17th | +12/+7/+2 | +5 | +10 | +10 | Inspire courage +4, lore master 3/day | 5 | 5 | 5 | 4 | 4 | 2 |\n| 18th | +13/+8/+3 | +6 | +11 | +11 | Mass suggestion, Versatile performance | 5 | 5 | 5 | 5 | 4 | 3 |\n| 19th | +14/+9/+4 | +6 | +11 | +11 | Inspire competence +6 | 5 | 5 | 5 | 5 | 5 | 4 |\n| 20th | +15/+10/+5 | +6 | +12 | +12 | Deadly performance | 5 | 5 | 5 | 5 | 5 | 5 |\n\n| Level | 0 | 1st | 2nd | 3rd | 4th | 5th | 6th |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 1st | 4 | 2 | - | - | - | - | - |\n| 2nd | 5 | 3 | - | - | - | - | - |\n| 3rd | 6 | 4 | - | - | - | - | - |\n| 4th | 6 | 4 | 2 | - | - | - | - |\n| 5th | 6 | 4 | 3 | - | - | - | - |\n| 6th | 6 | 4 | 4 | - | - | - | - |\n| 7th | 6 | 5 | 4 | 2 | - | - | - |\n| 8th | 6 | 5 | 4 | 3 | - | - | - |\n| 9th | 6 | 5 | 4 | 4 | - | - | - |\n| 10th | 6 | 5 | 5 | 4 | 2 | - | - |\n| 11th | 6 | 6 | 5 | 4 | 3 | - | - |\n| 12th | 6 | 6 | 5 | 4 | 4 | - | - |\n| 13th | 6 | 6 | 5 | 5 | 4 | 2 | - |\n| 14th | 6 | 6 | 6 | 5 | 4 | 3 | - |\n| 15th | 6 | 6 | 6 | 5 | 4 | 4 | - |\n| 16th | 6 | 6 | 6 | 5 | 5 | 4 | 2 |\n| 17th | 6 | 6 | 6 | 6 | 5 | 4 | 3 |\n| 18th | 6 | 6 | 6 | 6 | 5 | 4 | 4 |\n| 19th | 6 | 6 | 6 | 6 | 5 | 5 | 4 |\n| 20th | 6 | 6 | 6 | 6 | 6 | 5 | 5 |",
+    "source": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Bard",
+    "sourceRef": "PRPG Core Rulebook pg. 34",
+    "book": "CRB",
+    "hitDie": 8,
+    "skillRanksPerLevel": 6,
+    "classSkills": [
+      "acrobatics",
+      "appraise",
+      "bluff",
+      "climb",
+      "craft",
+      "diplomacy",
+      "disguise",
+      "escape-artist",
+      "intimidate",
+      "knowledge-arcana",
+      "knowledge-dungeoneering",
+      "knowledge-engineering",
+      "knowledge-geography",
+      "knowledge-history",
+      "knowledge-local",
+      "knowledge-nature",
+      "knowledge-nobility",
+      "knowledge-planes",
+      "knowledge-religion",
+      "linguistics",
+      "perception",
+      "perform",
+      "profession",
+      "sense-motive",
+      "sleight-of-hand",
+      "spellcraft",
+      "stealth",
+      "use-magic-device"
+    ],
+    "alignment": "Any",
+    "startingWealthDice": "3d6",
+    "proficiencies": {
+      "weapons": [
+        "simple",
+        "longsword",
+        "rapier",
+        "sap",
+        "short-sword",
+        "shortbow",
+        "whip"
+      ],
+      "armor": [
+        "light"
+      ],
+      "shields": [
+        "all-except-tower"
+      ]
+    },
+    "progression": {
+      "bab": "threeQuarters",
+      "fort": "poor",
+      "ref": "good",
+      "will": "good"
+    },
+    "table": [
+      {
+        "level": 1,
+        "bab": [
+          0
+        ],
+        "fort": 0,
+        "ref": 2,
+        "will": 2,
+        "special": [
+          "Bardic knowledge",
+          "bardic performance",
+          "cantrips",
+          "countersong",
+          "distraction",
+          "fascinate",
+          "inspire courage +1"
+        ],
+        "specialIds": [
+          "bard.bardic-knowledge",
+          "bard.bardic-performance",
+          "bard.cantrips",
+          "bard.performance.countersong",
+          "bard.performance.distraction",
+          "bard.performance.fascinate",
+          "bard.performance.inspire-courage"
+        ],
+        "spellsPerDay": [
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          4,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 2,
+        "bab": [
+          1
+        ],
+        "fort": 0,
+        "ref": 3,
+        "will": 3,
+        "special": [
+          "Versatile performance",
+          "well-versed"
+        ],
+        "specialIds": [
+          "bard.versatile-performance",
+          "bard.well-versed"
+        ],
+        "spellsPerDay": [
+          null,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          5,
+          3,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 3,
+        "bab": [
+          2
+        ],
+        "fort": 1,
+        "ref": 3,
+        "will": 3,
+        "special": [
+          "Inspire competence +2"
+        ],
+        "specialIds": [
+          "bard.performance.inspire-competence"
+        ],
+        "spellsPerDay": [
+          null,
+          3,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 4,
+        "bab": [
+          3
+        ],
+        "fort": 1,
+        "ref": 4,
+        "will": 4,
+        "special": [],
+        "specialIds": [],
+        "spellsPerDay": [
+          null,
+          3,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          4,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 5,
+        "bab": [
+          3
+        ],
+        "fort": 1,
+        "ref": 4,
+        "will": 4,
+        "special": [
+          "Inspire courage +2",
+          "lore master 1/day"
+        ],
+        "specialIds": [
+          "bard.performance.inspire-courage",
+          "bard.lore-master"
+        ],
+        "spellsPerDay": [
+          null,
+          4,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          4,
+          3,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 6,
+        "bab": [
+          4
+        ],
+        "fort": 2,
+        "ref": 5,
+        "will": 5,
+        "special": [
+          "Suggestion",
+          "Versatile performance"
+        ],
+        "specialIds": [
+          "bard.performance.suggestion",
+          "bard.versatile-performance"
+        ],
+        "spellsPerDay": [
+          null,
+          4,
+          3,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          4,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 7,
+        "bab": [
+          5
+        ],
+        "fort": 2,
+        "ref": 5,
+        "will": 5,
+        "special": [
+          "Inspire competence +3"
+        ],
+        "specialIds": [
+          "bard.performance.inspire-competence"
+        ],
+        "spellsPerDay": [
+          null,
+          4,
+          3,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          5,
+          4,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 8,
+        "bab": [
+          6,
+          1
+        ],
+        "fort": 2,
+        "ref": 6,
+        "will": 6,
+        "special": [
+          "Dirge of doom"
+        ],
+        "specialIds": [
+          "bard.performance.dirge-of-doom"
+        ],
+        "spellsPerDay": [
+          null,
+          4,
+          4,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          5,
+          4,
+          3,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 9,
+        "bab": [
+          6,
+          1
+        ],
+        "fort": 3,
+        "ref": 6,
+        "will": 6,
+        "special": [
+          "Inspire greatness"
+        ],
+        "specialIds": [
+          "bard.performance.inspire-greatness"
+        ],
+        "spellsPerDay": [
+          null,
+          5,
+          4,
+          3,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          5,
+          4,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 10,
+        "bab": [
+          7,
+          2
+        ],
+        "fort": 3,
+        "ref": 7,
+        "will": 7,
+        "special": [
+          "Jack-of-all-trades",
+          "Versatile performance"
+        ],
+        "specialIds": [
+          "bard.jack-of-all-trades",
+          "bard.versatile-performance"
+        ],
+        "spellsPerDay": [
+          null,
+          5,
+          4,
+          3,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          5,
+          5,
+          4,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 11,
+        "bab": [
+          8,
+          3
+        ],
+        "fort": 3,
+        "ref": 7,
+        "will": 7,
+        "special": [
+          "Inspire competence +4",
+          "inspire courage +3",
+          "lore master 2/day"
+        ],
+        "specialIds": [
+          "bard.performance.inspire-competence",
+          "bard.performance.inspire-courage",
+          "bard.lore-master"
+        ],
+        "spellsPerDay": [
+          null,
+          5,
+          4,
+          4,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          6,
+          5,
+          4,
+          3,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 12,
+        "bab": [
+          9,
+          4
+        ],
+        "fort": 4,
+        "ref": 8,
+        "will": 8,
+        "special": [
+          "Soothing performance"
+        ],
+        "specialIds": [
+          "bard.performance.soothing-performance"
+        ],
+        "spellsPerDay": [
+          null,
+          5,
+          5,
+          4,
+          3,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          6,
+          5,
+          4,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 13,
+        "bab": [
+          9,
+          4
+        ],
+        "fort": 4,
+        "ref": 8,
+        "will": 8,
+        "special": [],
+        "specialIds": [],
+        "spellsPerDay": [
+          null,
+          5,
+          5,
+          4,
+          3,
+          1,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          6,
+          5,
+          5,
+          4,
+          2,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 14,
+        "bab": [
+          10,
+          5
+        ],
+        "fort": 4,
+        "ref": 9,
+        "will": 9,
+        "special": [
+          "Frightening tune",
+          "Versatile performance"
+        ],
+        "specialIds": [
+          "bard.performance.frightening-tune",
+          "bard.versatile-performance"
+        ],
+        "spellsPerDay": [
+          null,
+          5,
+          5,
+          4,
+          4,
+          2,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          6,
+          6,
+          5,
+          4,
+          3,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 15,
+        "bab": [
+          11,
+          6,
+          1
+        ],
+        "fort": 5,
+        "ref": 9,
+        "will": 9,
+        "special": [
+          "Inspire competence +5",
+          "inspire heroics"
+        ],
+        "specialIds": [
+          "bard.performance.inspire-competence",
+          "bard.performance.inspire-heroics"
+        ],
+        "spellsPerDay": [
+          null,
+          5,
+          5,
+          5,
+          4,
+          3,
+          null,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          6,
+          6,
+          5,
+          4,
+          4,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 16,
+        "bab": [
+          12,
+          7,
+          2
+        ],
+        "fort": 5,
+        "ref": 10,
+        "will": 10,
+        "special": [],
+        "specialIds": [],
+        "spellsPerDay": [
+          null,
+          5,
+          5,
+          5,
+          4,
+          3,
+          1,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          6,
+          6,
+          5,
+          5,
+          4,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 17,
+        "bab": [
+          12,
+          7,
+          2
+        ],
+        "fort": 5,
+        "ref": 10,
+        "will": 10,
+        "special": [
+          "Inspire courage +4",
+          "lore master 3/day"
+        ],
+        "specialIds": [
+          "bard.performance.inspire-courage",
+          "bard.lore-master"
+        ],
+        "spellsPerDay": [
+          null,
+          5,
+          5,
+          5,
+          4,
+          4,
+          2,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          6,
+          6,
+          6,
+          5,
+          4,
+          3,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 18,
+        "bab": [
+          13,
+          8,
+          3
+        ],
+        "fort": 6,
+        "ref": 11,
+        "will": 11,
+        "special": [
+          "Mass suggestion",
+          "Versatile performance"
+        ],
+        "specialIds": [
+          "bard.performance.mass-suggestion",
+          "bard.versatile-performance"
+        ],
+        "spellsPerDay": [
+          null,
+          5,
+          5,
+          5,
+          5,
+          4,
+          3,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          6,
+          6,
+          6,
+          5,
+          4,
+          4,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 19,
+        "bab": [
+          14,
+          9,
+          4
+        ],
+        "fort": 6,
+        "ref": 11,
+        "will": 11,
+        "special": [
+          "Inspire competence +6"
+        ],
+        "specialIds": [
+          "bard.performance.inspire-competence"
+        ],
+        "spellsPerDay": [
+          null,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          6,
+          6,
+          6,
+          5,
+          5,
+          4,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "level": 20,
+        "bab": [
+          15,
+          10,
+          5
+        ],
+        "fort": 6,
+        "ref": 12,
+        "will": 12,
+        "special": [
+          "Deadly performance"
+        ],
+        "specialIds": [
+          "bard.performance.deadly-performance"
+        ],
+        "spellsPerDay": [
+          null,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          null,
+          null,
+          null
+        ],
+        "spellsKnown": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          5,
+          5,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "casting": {
+      "ability": "cha",
+      "tradition": "arcane",
+      "prepared": false,
+      "spellListId": "bard"
+    }
+  }
+]

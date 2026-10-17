@@ -1,0 +1,98 @@
+{
+  "immovable-rod": {
+    "summaryEs": "Barra de hierro con un botón: al pulsarlo (acción de movimiento) queda fija donde esté, incluso desafiando la gravedad. Soporta hasta 8.000 libras antes de caer; varias pueden formar una escalera.",
+    "status": "draft"
+  },
+  "rod-of-absorption": {
+    "summaryEs": "Absorbe conjuros o habilidades sortílegas de un solo objetivo o rayos dirigidos al portador o su equipo, anulando su efecto y almacenando su potencial para liberarlo luego como conjuros propios. Sin acción si se sostiene; detecta el nivel del conjuro.",
+    "status": "draft"
+  },
+  "rod-of-alertness": {
+    "summaryEs": "Parece una maza ligera +1. Da +1 de perspicacia a las pruebas de iniciativa y, empuñada con firmeza, permite usar detect chaos/evil/good/law, detect magic, discern lies, light o see invisibility (acción estándar). Clavada en el suelo alerta de amenazas a 120 pies.",
+    "status": "draft"
+  },
+  "rod-of-cancellation": {
+    "summaryEs": "Su toque drena todas las propiedades mágicas de un objeto, que debe superar Voluntad CD 23 (ataque de toque cuerpo a cuerpo si alguien lo sostiene). Tras drenar un objeto la vara se vuelve quebradiza e inservible. Lo drenado solo se restaura con wish o miracle.",
+    "status": "draft"
+  },
+  "rod-of-enemy-detection": {
+    "summaryEs": "Palpita y señala la dirección de criaturas hostiles al portador (primero las más cercanas), aunque sean invisibles, etéreas u ocultas. Alcance de 60 pies. Concentrándose un asalto completo señala al más cercano y cuántos hay. Tres veces al día, hasta 10 minutos cada una.",
+    "status": "draft"
+  },
+  "rod-of-flailing": {
+    "summaryEs": "Por orden, se convierte en un mayal terrible (dire flail) +3/+3, arma doble: un ataque extra con –2 a todos. Una vez al día, como acción gratuita, da +4 de desvío a la CA y +4 de resistencia a las salvaciones durante 10 minutos.",
+    "status": "draft"
+  },
+  "rod-of-flame-extinguishing": {
+    "summaryEs": "Apaga con el toque (acción estándar) fuegos no mágicos de tamaño Medium o menor. Para fuegos mayores o mágicos gasta 1 o más cargas; las llamas mágicas continuas se suprimen 6 asaltos.",
+    "status": "draft"
+  },
+  "rod-of-lordly-might": {
+    "summaryEs": "Vara metálica gruesa con seis botones y un extremo en bola con pestañas, de 10 libras. Tiene funciones sortílegas (cada una una vez al día, como hold person), puede usarse como arma mágica de varios tipos y tiene otros usos mundanos.",
+    "status": "draft"
+  },
+  "rod-of-metal-and-mineral-detection": {
+    "summaryEs": "Palpita y zumba cerca de metal y señala la mayor masa de metal en 30 pies. El portador puede concentrarse en un metal o mineral concreto y saber su cantidad aproximada.",
+    "status": "draft"
+  },
+  "rod-of-metamagic-empower": {
+    "summaryEs": "Permite lanzar hasta tres conjuros al día potenciados como con la dote Empower Spell. Versiones lesser, normal y greater (precios 9.000, 32.500 y 73.000 po).",
+    "status": "draft"
+  },
+  "rod-of-metamagic-enlarge": {
+    "summaryEs": "Permite lanzar hasta tres conjuros al día ampliados como con la dote Enlarge Spell. Versiones lesser, normal y greater (precios 3.000, 11.000 y 24.500 po).",
+    "status": "draft"
+  },
+  "rod-of-metamagic-extend": {
+    "summaryEs": "Permite lanzar hasta tres conjuros al día extendidos como con la dote Extend Spell. Versiones lesser, normal y greater (precios 3.000, 11.000 y 24.500 po).",
+    "status": "draft"
+  },
+  "rod-of-metamagic-maximize": {
+    "summaryEs": "Permite lanzar hasta tres conjuros al día maximizados como con la dote Maximize Spell. Versiones lesser, normal y greater (precios 14.000, 54.000 y 121.500 po).",
+    "status": "draft"
+  },
+  "rod-of-metamagic-quicken": {
+    "summaryEs": "Permite lanzar hasta tres conjuros al día acelerados como con la dote Quicken Spell. Versiones lesser, normal y greater (precios 35.000, 75.500 y 170.000 po).",
+    "status": "draft"
+  },
+  "rod-of-metamagic-silent": {
+    "summaryEs": "Permite lanzar hasta tres conjuros al día sin componente verbal como con la dote Silent Spell. Versiones lesser, normal y greater (precios 3.000, 11.000 y 24.500 po).",
+    "status": "draft"
+  },
+  "rod-of-negation": {
+    "summaryEs": "Dispara un rayo gris pálido (ataque de toque a distancia) que actúa como greater dispel magic pero solo sobre objetos mágicos. Usa el nivel de lanzador de la vara (15.º). El objeto no tiene salvación. Para efectos instantáneos hace falta una acción preparada.",
+    "status": "draft"
+  },
+  "rod-of-rulership": {
+    "summaryEs": "Cetro real. Al activarlo (acción estándar) impone obediencia a criaturas en 120 pies, hasta 300 Dados de Golpe; las de Inteligencia 12 o más pueden anularlo con Voluntad CD 16. Las gobernadas obedecen como a su soberano absoluto.",
+    "status": "draft"
+  },
+  "rod-of-security": {
+    "summaryEs": "Crea un espacio sin dimensión, un paraíso de bolsillo, donde el portador y hasta 199 criaturas más están a salvo hasta 200 días divididos por el número de criaturas. Allí no envejecen, curan al doble de ritmo y hay agua y comida.",
+    "status": "draft"
+  },
+  "rod-of-splendor": {
+    "summaryEs": "Mientras se sostiene o lleva, da +4 de mejora a la puntuación de Carisma. Una vez al día viste al portador con ropas finas, pieles y joyas durante 12 horas (desaparecen si intenta venderlas o regalarlas).",
+    "status": "draft"
+  },
+  "rod-of-the-python": {
+    "summaryEs": "Vara de unos 4 pies y 10 libras que golpea como bastón +1/+1. Arrojada al suelo (acción estándar) se convierte al final del asalto en una serpiente constrictora que obedece al dueño y conserva el +1 de mejora a ataque y daño.",
+    "status": "draft"
+  },
+  "rod-of-the-viper": {
+    "summaryEs": "Golpea como maza pesada +2. Una vez al día, por orden, la cabeza se vuelve de serpiente durante 10 minutos y cada impacto envenena: 1d3 de daño de Constitución por asalto durante 6 asaltos (Fortaleza CD 16 lo niega cada asalto).",
+    "status": "draft"
+  },
+  "rod-of-thunder-and-lightning": {
+    "summaryEs": "De hierro con remaches de plata, tiene las propiedades de una maza ligera +2. Una vez al día puede saltar una chispa al impactar: el daño normal (1d6+2) y 2d6 de daño de electricidad extra. Tiene otros poderes.",
+    "status": "draft"
+  },
+  "rod-of-withering": {
+    "summaryEs": "Actúa como maza ligera +1 que no hace daño de puntos de golpe: con un toque causa 1d4 de daño de Fuerza y 1d4 de daño de Constitución. En un crítico el daño es drenaje permanente. Fortaleza CD 17 lo niega.",
+    "status": "draft"
+  },
+  "rod-of-wonder": {
+    "summaryEs": "Dispositivo extraño e impredecible que genera efectos raros al azar cada vez que se activa (acción estándar), según una tabla de d%: slow 10 asaltos, faerie fire, gust of wind, etc.",
+    "status": "draft"
+  }
+}

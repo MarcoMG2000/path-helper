@@ -1,0 +1,233 @@
+{
+  "domains:air": {
+    "es": "Air",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:animal": {
+    "es": "Animal",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:artifice": {
+    "es": "Artifice",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:chaos": {
+    "es": "Chaos",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:charm": {
+    "es": "Charm",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:community": {
+    "es": "Community",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:darkness": {
+    "es": "Darkness",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:death": {
+    "es": "Death",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:destruction": {
+    "es": "Destruction",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:earth": {
+    "es": "Earth",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:evil": {
+    "es": "Evil",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:fire": {
+    "es": "Fire",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:glory": {
+    "es": "Glory",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:good": {
+    "es": "Good",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:healing": {
+    "es": "Healing",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:knowledge": {
+    "es": "Knowledge",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:law": {
+    "es": "Law",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:liberation": {
+    "es": "Liberation",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:luck": {
+    "es": "Luck",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:madness": {
+    "es": "Madness",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:magic": {
+    "es": "Magic",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:nobility": {
+    "es": "Nobility",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:plant": {
+    "es": "Plant",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:protection": {
+    "es": "Protection",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:repose": {
+    "es": "Repose",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:rune": {
+    "es": "Rune",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:strength": {
+    "es": "Strength",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:sun": {
+    "es": "Sun",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:travel": {
+    "es": "Travel",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:trickery": {
+    "es": "Trickery",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:war": {
+    "es": "War",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:water": {
+    "es": "Water",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  },
+  "domains:weather": {
+    "es": "Weather",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "sin traducción verificada: se usa el nombre inglés del SRD como marcador (borrador)"
+  }
+}

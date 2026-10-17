@@ -1,0 +1,762 @@
+{
+  "amulet-of-mighty-fists": {
+    "summaryEs": "Amuleto que da un bono de mejora de +1 a +5 a las tiradas de ataque y daño con ataques desarmados y armas naturales. Alternativamente puede dar habilidades especiales de arma cuerpo a cuerpo aplicables a ataques desarmados.",
+    "status": "draft"
+  },
+  "amulet-of-natural-armor": {
+    "summaryEs": "Amuleto que otorga un bono de mejora a la armadura natural del portador de +1 a +5, según el tipo de amuleto.",
+    "status": "draft"
+  },
+  "amulet-of-proof-against-detection-and-location": {
+    "summaryEs": "Protege de la adivinación y la localización mágica como nondetection: quien intente una adivinación contra el portador debe superar una prueba de nivel de lanzador (1d20 + nivel de lanzador) contra CD 19.",
+    "status": "draft"
+  },
+  "amulet-of-the-planes": {
+    "summaryEs": "Permite usar plane shift, pero es difícil de dominar: hay que superar una prueba de Inteligencia CD 15 para llegar al plano y lugar deseados; si se falla, el resultado es un destino distinto.",
+    "status": "draft"
+  },
+  "apparatus-of-the-crab": {
+    "summaryEs": "Vehículo mágico metálico: un barril de hierro sellado con diez palancas para dos ocupantes (Medium o Small). Se activan con palancas para mover patas, pinzas y demás. Funciona hasta 900 pies bajo el agua; trae su propio perfil de combate.",
+    "status": "draft"
+  },
+  "bag-of-holding": {
+    "summaryEs": "Saco que se abre a un espacio sin dimensiones: pesa una cantidad fija y tiene límites de peso y volumen de contenido según su tipo (I a IV).",
+    "status": "draft"
+  },
+  "bead-of-force": {
+    "summaryEs": "Esfera negra que se arroja hasta 60 pies; al impactar explota causando 5d6 de daño de fuerza en 10 pies de radio y actúa como resilient sphere (Reflejos CD 16 niega) con 10 pies de radio durante 10 minutos.",
+    "status": "draft"
+  },
+  "belt-of-dwarvenkind": {
+    "summaryEs": "Da +4 de competencia a pruebas de Carisma y de habilidades basadas en Carisma con enanos, +2 con gnomos y mediano, y –2 con los demás. El portador entiende, habla y lee enano; si no es enano gana otras ventajas.",
+    "status": "draft"
+  },
+  "belt-of-giant-strength": {
+    "summaryEs": "Cinturón que da un bono de mejora a Fuerza de +2, +4 o +6. Se trata como bono temporal de característica durante las primeras 24 horas que se lleva.",
+    "status": "draft"
+  },
+  "belt-of-incredible-dexterity": {
+    "summaryEs": "Cinturón que da un bono de mejora a Destreza de +2, +4 o +6. Se trata como bono temporal de característica durante las primeras 24 horas que se lleva.",
+    "status": "draft"
+  },
+  "belt-of-mighty-constitution": {
+    "summaryEs": "Cinturón que da un bono de mejora a Constitución de +2, +4 o +6. Se trata como bono temporal de característica durante las primeras 24 horas que se lleva.",
+    "status": "draft"
+  },
+  "belt-of-physical-might": {
+    "summaryEs": "Cinturón que da un bono de mejora de +2, +4 o +6 a dos puntuaciones físicas (Fuerza, Destreza o Constitución), elegidas al crearlo y no modificables. Bono temporal durante las primeras 24 horas.",
+    "status": "draft"
+  },
+  "belt-of-physical-perfection": {
+    "summaryEs": "Cinturón que da un bono de mejora de +2, +4 o +6 a las tres puntuaciones físicas (Fuerza, Destreza y Constitución). Se trata como bono temporal de característica durante las primeras 24 horas.",
+    "status": "draft"
+  },
+  "blessed-book": {
+    "summaryEs": "Libro pequeño, duradero, resistente al agua y cerrado con llave. Un mago puede llenar sus 1.000 páginas de conjuros sin pagar el coste de materiales. Nunca se halla como tesoro con conjuros ya escritos.",
+    "status": "draft"
+  },
+  "boots-of-elvenkind": {
+    "summaryEs": "Botas suaves que permiten moverse con agilidad en casi cualquier entorno: +5 de competencia a las pruebas de Acrobatics.",
+    "status": "draft"
+  },
+  "boots-of-levitation": {
+    "summaryEs": "Por orden, permiten al portador levitar como si se hubiera lanzado levitate.",
+    "status": "draft"
+  },
+  "boots-of-speed": {
+    "summaryEs": "Como acción gratuita, el portador choca los talones y actúa como bajo haste hasta 10 asaltos al día (no tienen que ser consecutivos).",
+    "status": "draft"
+  },
+  "boots-of-striding-and-springing": {
+    "summaryEs": "Aumentan la velocidad base en tierra en 10 pies (bono de mejora) y permiten grandes saltos: +5 de competencia a las pruebas de Acrobatics para saltar.",
+    "status": "draft"
+  },
+  "boots-of-teleportation": {
+    "summaryEs": "Permiten teletransportarse tres veces al día, exactamente como el conjuro teleport.",
+    "status": "draft"
+  },
+  "boots-of-the-winterlands": {
+    "summaryEs": "El portador viaja por la nieve a velocidad normal sin dejar huellas, camina por hielo resbaladizo (superficies horizontales) sin caer y se calienta como con endure elements.",
+    "status": "draft"
+  },
+  "bottle-of-air": {
+    "summaryEs": "Botella de cristal con corcho que, en un entorno sin aire, conserva y renueva su contenido para poder respirar de ella. Puede compartirse entre varios personajes. Respirar de ella es una acción estándar.",
+    "status": "draft"
+  },
+  "bracelet-of-friends": {
+    "summaryEs": "Pulsera de plata con cuatro amuletos; cada uno se asocia a una persona conocida. Al sujetar un amuleto y decir el nombre, esa persona es llamada al lugar (acción estándar) con su equipo.",
+    "status": "draft"
+  },
+  "bracers-of-archery-greater": {
+    "summaryEs": "Permiten usar cualquier arco (no ballestas) como si se fuera competente. Si ya es competente, da +2 de competencia a las tiradas de ataque y +1 de competencia al daño con ese tipo de arco. Hay que llevar ambos brazales.",
+    "status": "draft"
+  },
+  "bracers-of-archery-lesser": {
+    "summaryEs": "Como los greater bracers of archery, pero otorgan +1 de competencia a las tiradas de ataque y ningún bono al daño.",
+    "status": "draft"
+  },
+  "bracers-of-armor": {
+    "summaryEs": "Brazales que rodean al portador de un campo de fuerza: bono de armadura de +1 a +8 a la CA, como si llevase armadura. Ambos deben llevarse. También pueden encantarse con habilidades especiales de armadura.",
+    "status": "draft"
+  },
+  "brooch-of-shielding": {
+    "summaryEs": "Broche que absorbe misiles mágicos (magic missile) hasta 101 puntos de daño antes de fundirse e inutilizarse.",
+    "status": "draft"
+  },
+  "broom-of-flying": {
+    "summaryEs": "Escoba que vuela como con overland flight (+4 a las pruebas de Fly) hasta 9 horas al día. Lleva 200 libras a velocidad 40 pies, o 400 libras a velocidad 30 pies. También puede viajar sola a un destino conocido.",
+    "status": "draft"
+  },
+  "candle-of-invocation": {
+    "summaryEs": "Vela dedicada a uno de los nueve alineamientos. Quienes tengan ese alineamiento y estén a 30 pies de la llama ganan +2 de moral a ataques, salvaciones y pruebas de habilidad; un clérigo del mismo alineamiento gana más beneficios.",
+    "status": "draft"
+  },
+  "candle-of-truth": {
+    "summaryEs": "Al arder crea una zone of truth (Voluntad CD 13 niega) en 5 pies de radio, durante 1 hora mientras la vela arde. Si se apaga antes, el efecto termina y la vela queda arruinada.",
+    "status": "draft"
+  },
+  "cape-of-the-mountebank": {
+    "summaryEs": "Una vez al día, por orden, permite usar dimension door; al desaparecer deja una nube de humo gris inofensivo y aparece de forma igual de dramática en el destino.",
+    "status": "draft"
+  },
+  "carpet-of-flying": {
+    "summaryEs": "Alfombra que vuela como con overland flight de duración ilimitada; tamaño, capacidad y velocidad varían según el modelo (5×5, 5×10 y 10×10 pies). Cada una tiene su palabra de mando.",
+    "status": "draft"
+  },
+  "chime-of-interruption": {
+    "summaryEs": "Se puede golpear una vez cada 10 minutos y su tono dura 3 minutos. Mientras resuena, nadie puede lanzar conjuros con componente verbal a 30 pies salvo que supere una prueba de concentración (CD 15 + nivel del conjuro).",
+    "status": "draft"
+  },
+  "chime-of-opening": {
+    "summaryEs": "Tubo hueco de mithral que, al golpearlo, abre cerraduras, tapas, puertas y portales, y disipa hold portal o arcane lock de lanzadores de menos de 15.º nivel. Debe apuntarse al objetivo.",
+    "status": "draft"
+  },
+  "circlet-of-persuasion": {
+    "summaryEs": "Diadema de plata que da a su portador +3 de competencia a las pruebas basadas en Carisma.",
+    "status": "draft"
+  },
+  "clear-spindle-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que sustenta a la criatura sin comida ni agua. Resonancia: una vez al día el portador puede lanzar protection from chaos/evil/good/law sobre sí (nivel de lanzador 12.º); activarla agota la piedra.",
+    "status": "draft"
+  },
+  "cloak-of-arachnida": {
+    "summaryEs": "Capa que permite trepar como con spider climb, da inmunidad a las telarañas (se mueve en ellas a la mitad de velocidad), permite lanzar web una vez al día y da +2 de suerte a las salvaciones de Fortaleza contra veneno de arañas.",
+    "status": "draft"
+  },
+  "cloak-of-displacement-major": {
+    "summaryEs": "Por orden, distorsiona la luz como el conjuro displacement durante un total de 15 asaltos al día, repartibles como el portador desee.",
+    "status": "draft"
+  },
+  "cloak-of-displacement-minor": {
+    "summaryEs": "Funciona de forma continua como blur: 20% de probabilidad de fallo en los ataques contra el portador.",
+    "status": "draft"
+  },
+  "cloak-of-elvenkind": {
+    "summaryEs": "Capa gris que refleja el entorno: con la capucha puesta, el portador gana +5 de competencia a las pruebas de Stealth.",
+    "status": "draft"
+  },
+  "cloak-of-etherealness": {
+    "summaryEs": "Por orden, vuelve etéreo al portador (como ethereal jaunt); el efecto es descartable. Funciona hasta 10 minutos al día, en incrementos de 1 minuto.",
+    "status": "draft"
+  },
+  "cloak-of-resistance": {
+    "summaryEs": "Concede un bono de resistencia de +1 a +5 a todas las salvaciones (Fortaleza, Reflejos y Voluntad) según la versión: +1 cuesta 1.000 po, +2 4.000 po, +3 9.000 po, +4 16.000 po y +5 25.000 po.",
+    "status": "draft"
+  },
+  "cloak-of-the-bat": {
+    "summaryEs": "Da +5 de competencia a Stealth y permite colgarse boca abajo del techo. Sujetando la capa, el portador vuela (fly, +7 a Fly) y puede transformarse en murciélago (beast shape III).",
+    "status": "draft"
+  },
+  "cloak-of-the-manta-ray": {
+    "summaryEs": "Al entrar en agua salada se adhiere al portador, que adopta forma de manta raya (beast shape II): +3 de armadura natural, respiración acuática y velocidad de nado 60 pies.",
+    "status": "draft"
+  },
+  "crown-of-blasting-major": {
+    "summaryEs": "Corona dorada que, por orden, proyecta una explosión de luz abrasadora una vez al día: 5d8 maximizado, 40 puntos de daño.",
+    "status": "draft"
+  },
+  "crown-of-blasting-minor": {
+    "summaryEs": "Corona dorada sencilla que, por orden, proyecta una explosión de luz abrasadora una vez al día: 3d8 puntos de daño.",
+    "status": "draft"
+  },
+  "crystal-ball": {
+    "summaryEs": "Esfera de cristal de unas 6 pulgadas para escrutar a cualquier distancia o en otros planos, como scrying (Voluntad CD 16). Versiones: normal, see invisibility, detect thoughts, telepathy y true seeing.",
+    "status": "draft"
+  },
+  "cube-of-force": {
+    "summaryEs": "Cubo de menos de una pulgada que levanta alrededor del portador un cubo de 6 muros de fuerza (wall of force) de 10 pies de lado, que se mueve con él.",
+    "status": "draft"
+  },
+  "cube-of-frost-resistance": {
+    "summaryEs": "Al pulsarlo crea un cubo de 10 pies de lado centrado en el portador donde la temperatura es siempre de al menos 65° F y que absorbe los ataques de frío; si recibe más de 50 puntos de daño de frío en 1 asalto, falla.",
+    "status": "draft"
+  },
+  "cubic-gate": {
+    "summaryEs": "Cubo de cornalina con seis caras, cada una ligada a un plano distinto (una es el Plano Material). Pulsar una cara abre una puerta a un punto aleatorio de su plano; hay un 10% de probabilidad de otro efecto.",
+    "status": "draft"
+  },
+  "dark-blue-rhomboid-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que otorga Alertness (como la dote). Resonancia: el portador no sufre penalizaciones a Perception por estar distraído o dormido y puede estar atento con los ojos abiertos mientras duerme.",
+    "status": "draft"
+  },
+  "darkskull": {
+    "summaryEs": "Calavera de ébano totalmente maligna: el área a su alrededor se trata como bajo un conjuro unhallow con la calavera como punto de origen. Cada una tiene ligado un único efecto de la lista de unhallow, que no puede cambiarse.",
+    "status": "draft"
+  },
+  "decanter-of-endless-water": {
+    "summaryEs": "Al quitar el tapón y decir una palabra de mando, sale agua dulce o salada. “Stream” da 1 galón por asalto, “fountain” 5 galones por asalto en un chorro de 5 pies y “geyser” 30 galones por asalto en un chorro de 20 pies.",
+    "status": "draft"
+  },
+  "deck-of-illusions": {
+    "summaryEs": "Baraja de 34 cartas de pergamino. Al arrojar una carta al suelo se forma una major image de una criatura que dura hasta ser disipada, no se aleja más de 30 pies de la carta y obedece los deseos de quien la usa.",
+    "status": "draft"
+  },
+  "deep-red-sphere-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que otorga +2 de mejora a Destreza. Resonancia: Improved Unarmed Strike.",
+    "status": "draft"
+  },
+  "dimensional-shackles": {
+    "summaryEs": "Grilletes con runas que afectan a la criatura atada como un dimensional anchor (sin salvación). Sirven a criaturas de Small a Large. La CD para romperlos o zafarse es 30.",
+    "status": "draft"
+  },
+  "druids-vestment": {
+    "summaryEs": "Prenda ligera que se lleva sobre la ropa o la armadura. Si la viste un personaje con la capacidad wild shape, esta puede usarse una vez más al día.",
+    "status": "draft"
+  },
+  "drums-of-panic": {
+    "summaryEs": "Pareja de tambores: al sonar ambos, todas las criaturas a 120 pies (salvo en una zona segura de 20 pies de radio) se ven afectadas como por fear (Voluntad CD 16 parcial). Una vez al día.",
+    "status": "draft"
+  },
+  "dust-of-appearance": {
+    "summaryEs": "Polvo que al lanzarse cubre objetos en 10 pies de radio y los hace visibles aunque sean invisibles; anula blur y displacement, como faerie fire. También revela figments, mirror images e imágenes proyectadas.",
+    "status": "draft"
+  },
+  "dust-of-disappearance": {
+    "summaryEs": "Polvo que vuelve invisible (como greater invisibility) a una criatura u objeto tocado, sin posibilidad de detección mágica, incluida see invisibility. Solo el dust of appearance lo revela.",
+    "status": "draft"
+  },
+  "dust-of-dryness": {
+    "summaryEs": "Si se arroja al agua, hasta 100 galones se transforman en nada y el polvo se convierte en una bolita del tamaño de una canica que, al lanzarla, libera el mismo volumen. Solo afecta al agua.",
+    "status": "draft"
+  },
+  "dust-of-illusion": {
+    "summaryEs": "Polvo que cambia de color y forma. Una criatura cubierta queda afectada como por un disguise self con la ilusión que imagine quien lo esparce. Un objetivo no dispuesto puede evitar el polvo con una salvación de Reflejos CD 11.",
+    "status": "draft"
+  },
+  "dust-of-tracelessness": {
+    "summaryEs": "Polvo mágico que oculta el paso del portador y sus compañeros: un puñado al aire deja una cámara de hasta 100 pies cuadrados tan polvorienta como si llevara una década abandonada; esparcido en un rastro, borra las huellas.",
+    "status": "draft"
+  },
+  "dusty-rose-prism-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que otorga +1 de perspicacia a la CA. Resonancia: +1 de perspicacia a las pruebas de maniobra de combate.",
+    "status": "draft"
+  },
+  "efficient-quiver": {
+    "summaryEs": "Carcaj de unas 20 flechas con tres compartimentos sin dimensiones: el primero y más pequeño guarda hasta 60 objetos del tamaño de una flecha; los otros, más largos, guardan objetos mayores.",
+    "status": "draft"
+  },
+  "efreeti-bottle": {
+    "summaryEs": "Botella de latón o bronce con un efreeti prisionero; puede abrirse una vez al día y el efreeti sale al instante. Hay un 10% de probabilidad (01–10 en d%) de un resultado especial.",
+    "status": "draft"
+  },
+  "elemental-gem": {
+    "summaryEs": "Gema con un conjuro de convocación ligado a un plano elemental (Air, Earth, Fire o Water). Al romperla (acción estándar) aparece un elemental Large como con summon nature’s ally, bajo el control de quien la rompió.",
+    "status": "draft"
+  },
+  "elixir-of-fire-breath": {
+    "summaryEs": "Concede al que lo bebe poder escupir fuego hasta tres veces, cada una con 4d6 de daño de fuego a un objetivo a 25 pies (Reflejos CD 13 mitad). Los disparos no usados se disipan tras 1 hora.",
+    "status": "draft"
+  },
+  "elixir-of-hiding": {
+    "summaryEs": "Concede una capacidad intuitiva para sigilo y ocultación: +10 de competencia a las pruebas de Stealth durante 1 hora.",
+    "status": "draft"
+  },
+  "elixir-of-love": {
+    "summaryEs": "Quien lo bebe queda prendado de la primera criatura que vea (como charm person; debe ser un humanoide Medium o menor, Voluntad CD 14 niega). El hechizo se acaba en 1d3 horas.",
+    "status": "draft"
+  },
+  "elixir-of-swimming": {
+    "summaryEs": "Confiere capacidad de nadar: +10 de competencia a las pruebas de Swim durante 1 hora.",
+    "status": "draft"
+  },
+  "elixir-of-truth": {
+    "summaryEs": "Obliga a quien lo bebe a decir solo la verdad durante 10 minutos (Voluntad CD 13 niega) y a responder a las preguntas; en cada una puede intentar otra salvación CD 13 para no tener que responder esa pregunta.",
+    "status": "draft"
+  },
+  "elixir-of-tumbling": {
+    "summaryEs": "Concede capacidad de acrobacia: +10 de competencia a las pruebas de Acrobatics durante 1 hora.",
+    "status": "draft"
+  },
+  "elixir-of-vision": {
+    "summaryEs": "Concede gran precisión para notar detalles: +10 de competencia a las pruebas de Perception durante 1 hora.",
+    "status": "draft"
+  },
+  "eversmoking-bottle": {
+    "summaryEs": "Urna de metal idéntica a una efreeti bottle que solo echa humo. Al quitar el tapón oscurece la visión en 50 pies de extensión en 1 asalto y, si sigue abierta, avanza 10 pies más por asalto hasta cubrir 100 pies de radio.",
+    "status": "draft"
+  },
+  "eyes-of-charming": {
+    "summaryEs": "Dos lentes de cristal que permiten usar charm person (un objetivo por asalto) con solo cruzar la mirada; los que fallan una salvación de Voluntad CD 16 quedan hechizados. Hay que llevar ambas lentes.",
+    "status": "draft"
+  },
+  "eyes-of-doom": {
+    "summaryEs": "Lentes de cristal que permiten lanzar doom (un objetivo por asalto) como ataque de mirada, con acción estándar; los que fallan Voluntad CD 11 sufren el conjuro. Además otorga un deathwatch continuo.",
+    "status": "draft"
+  },
+  "eyes-of-the-eagle": {
+    "summaryEs": "Lentes de cristal que dan +5 de competencia a las pruebas de Perception. Hay que llevar ambas; con una sola el personaje queda mareado y aturdido durante 1 asalto.",
+    "status": "draft"
+  },
+  "feather-tokens": {
+    "summaryEs": "Plumas pequeñas con un poder para una necesidad concreta (anchor, bird, fan, tree, swan boat, whip, etc.). Cada una se usa una vez; no tiene rasgos propios salvo su aura mágica.",
+    "status": "draft"
+  },
+  "figurines-of-wondrous-power": {
+    "summaryEs": "Estatuillas de unas pulgadas de alto de una criatura (una excepción). Al arrojarla y decir la palabra de mando se convierte en una criatura viva de tamaño normal que obedece al dueño. Hay muchas versiones (Silver Raven, Marble Elephant, etc.).",
+    "status": "draft"
+  },
+  "folding-boat": {
+    "summaryEs": "Caja de madera de 12 pulgadas que, con la palabra de mando, se despliega en un asalto en un bote de 10 pies de largo, 4 de ancho y 2 de profundidad. Una segunda palabra de mando lo transforma en otro modo.",
+    "status": "draft"
+  },
+  "gauntlet-of-rust": {
+    "summaryEs": "Guantelete oxidado. Una vez al día afecta a un objeto como rusting grasp y protege por completo al portador y su equipo del óxido, incluido el ataque de un rust monster.",
+    "status": "draft"
+  },
+  "gem-of-brightness": {
+    "summaryEs": "Cristal prismático que, con una palabra de mando, emite luz brillante de uno de tres tipos. Una palabra hace que dé luz como una linterna sorda sin gastar cargas.",
+    "status": "draft"
+  },
+  "gem-of-seeing": {
+    "summaryEs": "Gema tallada que, al mirar a través de ella, permite ver como con true seeing durante hasta 30 minutos al día, en incrementos de 5 minutos no necesariamente consecutivos.",
+    "status": "draft"
+  },
+  "glove-of-storing": {
+    "summaryEs": "Guante de cuero: por orden, un objeto sostenido en la mano con el guante desaparece (máx. 20 libras y que se pueda sostener con una mano). Con un chasquido reaparece. Solo guarda un objeto a la vez.",
+    "status": "draft"
+  },
+  "gloves-of-arrow-snaring": {
+    "summaryEs": "Guantes que se funden con las manos. Dos veces al día, el portador actúa como si tuviera la dote Snatch Arrows aunque no cumpla los requisitos. Hay que llevar ambos y tener una mano libre.",
+    "status": "draft"
+  },
+  "gloves-of-swimming-and-climbing": {
+    "summaryEs": "Guantes ligeros que dan +5 de competencia a las pruebas de Swim y de Climb. Hay que llevar ambos.",
+    "status": "draft"
+  },
+  "goggles-of-minute-seeing": {
+    "summaryEs": "Gafas con lentes de cristal especial que permiten ver mucho mejor a 1 pie o menos de distancia: +5 de competencia a las pruebas de Disable Device. Hay que llevar ambas lentes.",
+    "status": "draft"
+  },
+  "goggles-of-night": {
+    "summaryEs": "Lentes de cristal violeta que, aun siendo opacas, permiten ver con normalidad y otorgan visión en la oscuridad de 60 pies. Hay que llevar ambas.",
+    "status": "draft"
+  },
+  "golem-manuals": {
+    "summaryEs": "Libros con toda la información y poder mágico para crear un tipo concreto de golem: conceden Craft Construct, suben el nivel de lanzador para el requisito y dan +5 de competencia a las pruebas de fabricación. No incluyen el cuerpo del golem.",
+    "status": "draft"
+  },
+  "golembane-scarab": {
+    "summaryEs": "Alfiler con forma de escarabajo que permite detectar cualquier golem a 60 pies (acción estándar, concentrándose) y combatirlos con armas, ataques desarmados o armas naturales como si no tuvieran reducción de daño.",
+    "status": "draft"
+  },
+  "hand-of-glory": {
+    "summaryEs": "Mano momificada que cuelga del cuello (ocupa el espacio de un collar mágico). Si se le pone un anillo mágico en un dedo, el portador se beneficia como si lo llevara y no cuenta para su límite de dos anillos. Solo admite un anillo a la vez.",
+    "status": "draft"
+  },
+  "hand-of-the-mage": {
+    "summaryEs": "Mano momificada de elfo que cuelga de una cadena de oro (ocupa el espacio de un collar mágico). Permite usar mage hand a voluntad.",
+    "status": "draft"
+  },
+  "handy-haversack": {
+    "summaryEs": "Mochila con dos bolsillos laterales que funcionan como bag of holding (hasta 2 pies cúbicos o 20 libras cada uno) y una parte central que guarda hasta 8 pies cúbicos o 80 libras.",
+    "status": "draft"
+  },
+  "harp-of-charming": {
+    "summaryEs": "Arpa que, al tocarla (se necesitan ambas manos), permite introducir una suggestion (Voluntad CD 14 niega) en la música por cada 10 minutos de interpretación, si se supera una prueba de Perform (string) CD 14.",
+    "status": "draft"
+  },
+  "hat-of-disguise": {
+    "summaryEs": "Sombrero que permite alterar la apariencia como con disguise self; como parte del disfraz puede aparentar peine, cinta, diadema, gorro, capucha, casco u otro tocado.",
+    "status": "draft"
+  },
+  "headband-of-alluring-charisma": {
+    "summaryEs": "Diadema que da un bono de mejora a Carisma de +2, +4 o +6. Se trata como bono temporal de característica durante las primeras 24 horas que se lleva.",
+    "status": "draft"
+  },
+  "headband-of-inspired-wisdom": {
+    "summaryEs": "Diadema que da un bono de mejora a Sabiduría de +2, +4 o +6. Se trata como bono temporal de característica durante las primeras 24 horas que se lleva.",
+    "status": "draft"
+  },
+  "headband-of-mental-prowess": {
+    "summaryEs": "Diadema de cobre con una gema amarilla que da un bono de mejora de +2, +4 o +6 a dos puntuaciones mentales (Inteligencia, Sabiduría o Carisma), elegidas al crearla. Bono temporal durante las primeras 24 horas.",
+    "status": "draft"
+  },
+  "headband-of-mental-superiority": {
+    "summaryEs": "Diadema que da un bono de mejora de +2, +4 o +6 a las tres puntuaciones mentales (Inteligencia, Sabiduría y Carisma), temporal durante las primeras 24 horas. También concede rangos de habilidad como un headband of vast intelligence.",
+    "status": "draft"
+  },
+  "headband-of-vast-intelligence": {
+    "summaryEs": "Diadema que da un bono de mejora a Inteligencia de +2, +4 o +6 (temporal durante las primeras 24 horas). Tiene una habilidad asociada por cada +2; tras 24 horas concede rangos en ellas igual a los Dados de Golpe del portador.",
+    "status": "draft"
+  },
+  "helm-of-brilliance": {
+    "summaryEs": "Yelmo de plata y acero pulido que, al ponérselo y decir la palabra de mando, manifiesta sus poderes. Recién creado lleva gemas: 10 diamantes, 20 rubíes, 30 ópalos de fuego y 40 ópalos.",
+    "status": "draft"
+  },
+  "helm-of-comprehend-languages-and-read-magic": {
+    "summaryEs": "Casco que permite entender las palabras habladas de cualquier criatura y leer cualquier idioma y escritura mágica. Da +5 de competencia a las pruebas de Linguistics para mensajes incompletos, arcaicos o exóticos.",
+    "status": "draft"
+  },
+  "helm-of-telepathy": {
+    "summaryEs": "Yelmo que permite usar detect thoughts a voluntad, enviar un mensaje telepático a quien se lean los pensamientos superficiales (comunicación en ambos sentidos) y, una vez al día, implantar una suggestion (Voluntad CD 14 niega).",
+    "status": "draft"
+  },
+  "helm-of-teleportation": {
+    "summaryEs": "Permite teletransportarse tres veces al día, con los objetos que se lleven, a un destino designado, exactamente como el conjuro teleport.",
+    "status": "draft"
+  },
+  "helm-of-underwater-action": {
+    "summaryEs": "Permite ver bajo el agua: al colocar las lentes, ve cinco veces más lejos de lo normal según el agua y la luz. Las obstrucciones bloquean la visión de la forma habitual.",
+    "status": "draft"
+  },
+  "horn-of-blasting": {
+    "summaryEs": "Cuerno que, con la palabra de mando, causa 5d6 de daño sónico en un cono de 40 pies y ensordece 2d6 asaltos (Fortaleza CD 16 reduce a la mitad el daño y niega la sordera). Objetos y criaturas cristalinos sufren 7d6.",
+    "status": "draft"
+  },
+  "horn-of-blasting-greater": {
+    "summaryEs": "Funciona como el horn of blasting pero causa 10d6 de daño sónico, aturde 1 asalto y ensordece 4d6 asaltos (Fortaleza CD 19 reduce el daño a la mitad y niega aturdimiento y sordera). Los cristalinos sufren 16d6.",
+    "status": "draft"
+  },
+  "horn-of-fog": {
+    "summaryEs": "Pequeño cuerno que expulsa una espesa niebla como obscuring mist: cubre un cuadrado de 10 pies junto a quien sopla cada asalto, y la nube avanza 10 pies por asalto en línea recta.",
+    "status": "draft"
+  },
+  "horn-of-goodness-evil": {
+    "summaryEs": "Trompeta que se adapta a su dueño: si es bueno, soplarla tiene el efecto de magic circle against evil; si es maligno, de magic circle against good. Si no es ni bueno ni maligno, no tiene ningún poder.",
+    "status": "draft"
+  },
+  "horn-of-valhalla": {
+    "summaryEs": "Cuerno en cuatro variedades que, al decir la palabra de mando y soplar, convoca bárbaros humanos que luchan por quien lo sopló. Solo puede soplarse una vez cada 7 días.",
+    "status": "draft"
+  },
+  "horseshoes-of-a-zephyr": {
+    "summaryEs": "Herraduras de plata que permiten al caballo viajar sin tocar el suelo, siempre unos 4 pulgadas por encima de una superficie más o menos horizontal; puede cruzar superficies no sólidas o inestables.",
+    "status": "draft"
+  },
+  "horseshoes-of-speed": {
+    "summaryEs": "Herraduras de hierro que aumentan la velocidad base en tierra del animal en 30 pies (cuenta como bono de mejora) y los saltos proporcionalmente. Las cuatro deben llevarse en el mismo animal.",
+    "status": "draft"
+  },
+  "incandescent-blue-sphere-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que otorga +2 de mejora a Sabiduría. Resonancia: Blind-Fight.",
+    "status": "draft"
+  },
+  "incense-of-meditation": {
+    "summaryEs": "Incienso que, al arder, se reconoce con una prueba de Spellcraft CD 15. Cuando un lanzador divino lo enciende y pasa 8 horas rezando y meditando cerca, obtiene sus efectos.",
+    "status": "draft"
+  },
+  "instant-fortress": {
+    "summaryEs": "Cubo metálico que, con la palabra de mando, crece hasta una torre de 20 pies de lado y 30 de altura con troneras y almenas. Las paredes se hunden 10 pies en el suelo. Su puerta se abre solo por orden del dueño.",
+    "status": "draft"
+  },
+  "iridescent-spindle-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que sustenta a la criatura sin aire. Resonancia: efectos constantes de endure elements y solo la mitad del daño por exposición al vacío y a la presión submarina.",
+    "status": "draft"
+  },
+  "iron-bands-of-binding": {
+    "summaryEs": "Esfera de hierro oxidado de 3 pulgadas envuelta en bandas. Al decir la palabra de mando y arrojarla, las bandas atrapan al objetivo con un ataque de toque a distancia: una criatura Large o menor queda inmovilizada como si estuviera agarrada.",
+    "status": "draft"
+  },
+  "iron-flask": {
+    "summaryEs": "Recipiente con runas de plata. Con la palabra de mando, fuerza a una criatura de otro plano a entrar en él si falla una salvación de Voluntad CD 19. Alcance de 60 pies.",
+    "status": "draft"
+  },
+  "lantern-of-revealing": {
+    "summaryEs": "Funciona como una linterna sorda normal; mientras está encendida revela todas las criaturas y objetos invisibles a 25 pies, como invisibility purge.",
+    "status": "draft"
+  },
+  "lavender-and-green-ellipsoid-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que absorbe conjuros de 8.º nivel o menor; tras absorber 50 niveles de conjuro se agota. Resonancia: si el portador sostiene el wayfinder, usa la absorción como acción inmediata en lugar de preparada.",
+    "status": "draft"
+  },
+  "lyre-of-building": {
+    "summaryEs": "Lira de oro con gemas. Con los acordes adecuados, un solo uso anula cualquier ataque contra construcciones inanimadas (muros, tejado, suelo) en 300 pies, incluidos horn of blasting, disintegrate o un ariete.",
+    "status": "draft"
+  },
+  "mantle-of-faith": {
+    "summaryEs": "Vestidura sagrada con los iconos de una fe concreta. Puesta sobre la ropa normal, da reducción de daño 5/evil a quien la lleva.",
+    "status": "draft"
+  },
+  "mantle-of-spell-resistance": {
+    "summaryEs": "Manto ligero con símbolos misteriosos. Puesto sobre ropa normal o armadura, concede resistencia a conjuros 21 al portador.",
+    "status": "draft"
+  },
+  "manual-of-bodily-health": {
+    "summaryEs": "Libro cuya lectura (48 horas en al menos 6 días) da un bono inherente de +1 a +5 a la Constitución, según el tipo de manual. Tras leerlo, la magia desaparece y se convierte en un libro normal.",
+    "status": "draft"
+  },
+  "manual-of-gainful-exercise": {
+    "summaryEs": "Libro cuya lectura (48 horas en al menos 6 días) da un bono inherente de +1 a +5 a la Fuerza, según el tipo de manual. Tras leerlo, la magia desaparece y se convierte en un libro normal.",
+    "status": "draft"
+  },
+  "manual-of-quickness-of-action": {
+    "summaryEs": "Libro cuya lectura (48 horas en al menos 6 días) da un bono inherente de +1 a +5 a la Destreza, según el tipo de manual. Tras leerlo, la magia desaparece y se convierte en un libro normal.",
+    "status": "draft"
+  },
+  "marvelous-pigments": {
+    "summaryEs": "Pigmentos que permiten crear objetos reales y permanentes con solo representar su forma en dos dimensiones, aplicándolos con un palo con cerdas. La emulsión forma el objeto mientras el artista se concentra en la imagen.",
+    "status": "draft"
+  },
+  "mask-of-the-skull": {
+    "summaryEs": "Máscara con forma de calavera sin mandíbula inferior. Una vez al día, tras llevarla al menos 1 hora, puede soltarse para volar desde la cara del portador.",
+    "status": "draft"
+  },
+  "mattock-of-the-titans": {
+    "summaryEs": "Herramienta de excavar de 10 pies. Cualquier criatura de tamaño Huge o mayor puede aflojar o derribar tierra (un cubo de 10 pies cada 10 minutos) o romper roca (un cubo de 10 pies por hora). Como arma equivale a un martillo +3 de adamantina Gargantuan, con 4d6 de daño base.",
+    "status": "draft"
+  },
+  "maul-of-the-titans": {
+    "summaryEs": "Mazo de 8 pies que, como arma, equivale a un greatclub +3 y causa triple daño a objetos inanimados. Exige Fuerza 18 o más; si no, el portador sufre –4 a las tiradas de ataque.",
+    "status": "draft"
+  },
+  "medallion-of-thoughts": {
+    "summaryEs": "Disco colgante de bronce, cobre o plata que permite al portador leer los pensamientos de otros, como el conjuro detect thoughts.",
+    "status": "draft"
+  },
+  "mirror-of-life-trapping": {
+    "summaryEs": "Espejo de cristal de unos 4 pies cuadrados con marco de criaturas poderosas. Se activa y desactiva con una palabra de mando; atrapa criaturas que miren su reflejo (detalles en el texto).",
+    "status": "draft"
+  },
+  "mirror-of-opposition": {
+    "summaryEs": "Espejo de 4 pies de largo por 3 de ancho que se activa con una palabra de mando. Si una criatura ve su reflejo, nace un duplicado exacto de ella (su opuesto) que la ataca de inmediato.",
+    "status": "draft"
+  },
+  "monks-robe": {
+    "summaryEs": "Túnica marrón. Si el portador tiene niveles de monje, su CA y su daño desarmado se tratan como los de un monje 5 niveles superior. Con la dote Stunning Fist, permite un ataque aturdidor más al día.",
+    "status": "draft"
+  },
+  "necklace-of-adaptation": {
+    "summaryEs": "Cadena con medallón de platino que envuelve al portador en una capa de aire fresco: inmunidad a vapores y gases dañinos (como cloudkill y stinking cloud, y venenos inhalados) y respiración incluso bajo el agua o en el vacío.",
+    "status": "draft"
+  },
+  "necklace-of-fireballs": {
+    "summaryEs": "Collar de cuentas esféricas con distintas versiones (Type I a Type VII). Cada cuenta se puede arrojar como una bola de fuego de distinto nivel; cuenta como collar cuando se lleva puesto.",
+    "status": "draft"
+  },
+  "orange-prism-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que otorga +1 al nivel de lanzador. Resonancia: cada vez que el portador lanza un conjuro tira 1d4–2 y suma el resultado a su nivel de lanzador (además del +1 de la piedra).",
+    "status": "draft"
+  },
+  "orb-of-storms": {
+    "summaryEs": "Esfera de cristal de 8 pulgadas de diámetro. Una vez al día permite usar control weather y una vez al mes conjurar una storm of vengeance. El poseedor está protegido de forma continua por endure elements.",
+    "status": "draft"
+  },
+  "pale-blue-rhomboid-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que otorga +2 de mejora a Fuerza. Resonancia: +1 a las salvaciones de Fortaleza.",
+    "status": "draft"
+  },
+  "pale-green-prism-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que da +1 de competencia a tiradas de ataque, salvaciones, pruebas de habilidad y de característica. Resonancia: dos veces al día, como acción gratuita, elimina la condición de fatigado (o reduce agotado a fatigado).",
+    "status": "draft"
+  },
+  "pale-lavender-ellipsoid-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que absorbe conjuros de 4.º nivel o menor; tras absorber 20 niveles de conjuro se agota. Resonancia: si el portador sostiene el wayfinder, usa la absorción como acción inmediata en lugar de preparada.",
+    "status": "draft"
+  },
+  "pearl-of-power": {
+    "summaryEs": "Perla que, una vez al día y por orden, permite recordar un conjuro preparado y ya lanzado ese día. El conjuro debe ser de un nivel concreto según la versión (de 1.º a 9.º, o dos conjuros).",
+    "status": "draft"
+  },
+  "pearl-of-the-sirines": {
+    "summaryEs": "Perla que, sujeta con firmeza o junto al pecho, permite respirar bajo el agua como si fuera aire limpio y da velocidad de nado de 60 pies, entre otros beneficios.",
+    "status": "draft"
+  },
+  "pearly-white-spindle-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que regenera 1 punto de daño cada 10 minutos. Resonancia: +2 sagrado a las salvaciones contra efectos de muerte y ataques de energía negativa.",
+    "status": "draft"
+  },
+  "periapt-of-health": {
+    "summaryEs": "Gema azul con cadena de plata. El portador es inmune a toda enfermedad, incluidas las sobrenaturales.",
+    "status": "draft"
+  },
+  "periapt-of-proof-against-poison": {
+    "summaryEs": "Gema negra con cadena de plata. El portador es inmune al veneno, aunque los venenos activos al ponérselo siguen su curso.",
+    "status": "draft"
+  },
+  "periapt-of-wound-closure": {
+    "summaryEs": "Piedra azul con cadena. El portador se estabiliza automáticamente si baja de 0 puntos de golpe (no si el daño basta para matarlo). Duplica su ritmo normal de curación o permite sanar heridas que normalmente no sanarían.",
+    "status": "draft"
+  },
+  "phylactery-of-faithfulness": {
+    "summaryEs": "Cajita con escritura religiosa atada a la frente. Su portador es consciente de cualquier acción u objeto que pudiera afectar adversamente a su posición ante su dios.",
+    "status": "draft"
+  },
+  "phylactery-of-negative-channeling": {
+    "summaryEs": "Beneficia a quien canaliza energía negativa: aumenta en +2d6 el daño a los seres vivos y también lo que curan los muertos vivientes.",
+    "status": "draft"
+  },
+  "phylactery-of-positive-channeling": {
+    "summaryEs": "Beneficia a quien canaliza energía positiva: aumenta en +2d6 el daño a los muertos vivientes y también lo que curan los seres vivos.",
+    "status": "draft"
+  },
+  "pink-and-green-sphere-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que otorga +2 de mejora a Carisma. Resonancia: +1 a las salvaciones de Voluntad.",
+    "status": "draft"
+  },
+  "pink-rhomboid-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que otorga +2 de mejora a Constitución. Resonancia: +1 a las salvaciones de Reflejos.",
+    "status": "draft"
+  },
+  "pipes-of-haunting": {
+    "summaryEs": "Flauta de pan que, tocada con éxito en una prueba de Perform (wind instruments) CD 15, crea una melodía: los que la oigan a 30 pies deben superar Voluntad CD 13 o quedar asustados 4 asaltos. Criaturas con 6 o más Dados de Golpe no se ven afectadas.",
+    "status": "draft"
+  },
+  "pipes-of-sounding": {
+    "summaryEs": "Flauta de pan metálica que, tocada por quien tenga Perform (wind instruments), imita criaturas, sonidos ambientales y casi cualquier sonido; los sonidos equivalen a ghost sound.",
+    "status": "draft"
+  },
+  "pipes-of-the-sewers": {
+    "summaryEs": "Si el poseedor aprende la melodía, atrae 1d3 enjambres de ratas si hay ratas a 400 pies, con 1 asalto de retraso por cada 50 pies. Debe seguir tocando hasta que lleguen y hacer una prueba de Perform (wind instruments) CD 10.",
+    "status": "draft"
+  },
+  "portable-hole": {
+    "summaryEs": "Círculo de tela de araña de phase spider, estrellas y éter: un espacio extradimensional portátil de 6 pies de diámetro abierto del todo, plegable hasta el tamaño de un pañuelo.",
+    "status": "draft"
+  },
+  "restorative-ointment": {
+    "summaryEs": "Tarro de 3 pulgadas de diámetro y 1 de profundidad con 5 aplicaciones. Neutraliza veneno (como neutralize poison con +5 a la prueba), cura enfermedad (como remove disease con +5) y cierra heridas al frotarla.",
+    "status": "draft"
+  },
+  "ring-gates": {
+    "summaryEs": "Par de anillos de hierro de unas 18 pulgadas de diámetro. Deben estar en el mismo plano y a menos de 100 millas; lo que se pasa por uno sale por el otro, hasta 100 libras al día.",
+    "status": "draft"
+  },
+  "robe-of-blending": {
+    "summaryEs": "Una vez al día permite adoptar la forma de otra criatura humanoide, como alter self, durante 1 hora (puede terminarse antes como acción gratuita), y hablar y entender los idiomas raciales básicos de esa forma.",
+    "status": "draft"
+  },
+  "robe-of-bones": {
+    "summaryEs": "Funciona como la robe of useful items pero para nigromantes: está adornada con figuras de no muertos bordadas que solo el portador ve y puede despegar para convertirlas en criaturas.",
+    "status": "draft"
+  },
+  "robe-of-eyes": {
+    "summaryEs": "Túnica con patrones de ojos mágicos: el portador ve en todas direcciones a la vez, gana visión en la oscuridad de 120 pies, ve criaturas y objetos invisibles o etéreos en 120 pies y recibe +10 de competencia a Perception.",
+    "status": "draft"
+  },
+  "robe-of-scintillating-colors": {
+    "summaryEs": "Túnica que muestra patrones cambiantes de colores que aturden a los cercanos, ocultan al portador e iluminan los alrededores. Tarda 1 asalto completo tras la palabra de mando en surtir efecto.",
+    "status": "draft"
+  },
+  "robe-of-stars": {
+    "summaryEs": "Túnica negra o azul oscura con estrellas bordadas con tres poderes: viajar físicamente al Plano Astral a voluntad (como plane shift) y volver a su plano de origen, y dar +1 de suerte a todas las salvaciones.",
+    "status": "draft"
+  },
+  "robe-of-the-archmagi": {
+    "summaryEs": "Túnica blanca (buena), gris (neutral) o negra (malvada). Solo un lanzador arcano obtiene sus ventajas: +5 de armadura a la CA, resistencia a conjuros 18, +4 de resistencia a todas las salvaciones y +2 de mejora a las pruebas de nivel de lanzador.",
+    "status": "draft"
+  },
+  "robe-of-useful-items": {
+    "summaryEs": "Túnica raída cuyos parches se reordenan en formas de objetos mundanos útiles. Solo el portador los ve y puede despegar uno por asalto, que se convierte en un objeto real.",
+    "status": "draft"
+  },
+  "rope-of-climbing": {
+    "summaryEs": "Cuerda de 60 pies no más gruesa que una varita, capaz de soportar 3.000 libras. Por orden serpentea en cualquier dirección a 10 pies por asalto, se ata donde el dueño quiera y puede desatarse y volver igual.",
+    "status": "draft"
+  },
+  "rope-of-entanglement": {
+    "summaryEs": "Cuerda de unos 30 pies. Por orden se lanza 20 pies hacia delante o 10 hacia arriba para enredar a una víctima, que se libra con Fuerza CD 20 o Escape Artist CD 20. CA 22, 12 puntos de golpe, dureza 10 y reducción de daño 5/slashing.",
+    "status": "draft"
+  },
+  "salve-of-slipperiness": {
+    "summaryEs": "Da +20 de competencia a todas las pruebas de Escape Artist y de maniobra de combate para escapar de un agarre, y +10 de competencia a la DMC contra intentos de agarre. Telarañas y obstrucciones similares no afectan al ungido.",
+    "status": "draft"
+  },
+  "scabbard-of-keen-edges": {
+    "summaryEs": "Vaina negra con runas de plata que se ajusta a cualquier cuchillo, daga o espada hasta un espadón. Hasta tres veces al día, por orden, lanza keen edge sobre la hoja que contenga.",
+    "status": "draft"
+  },
+  "scarab-of-protection": {
+    "summaryEs": "Medallón de jade con forma de escarabajo. Si se sostiene 1 asalto aparece una inscripción que revela su función. Da resistencia a conjuros 20 y puede absorber ataques de drenaje de energía, efectos de muerte y energía negativa; al absorber 12 se agota.",
+    "status": "draft"
+  },
+  "scarlet-and-blue-sphere-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que otorga +2 de mejora a Inteligencia. Resonancia: +1 a las salvaciones de Voluntad.",
+    "status": "draft"
+  },
+  "silversheen": {
+    "summaryEs": "Pasta brillante que se aplica a un arma como acción estándar y le da las propiedades de plata alquímica durante 1 hora. Un frasco cubre un arma cuerpo a cuerpo o 20 unidades de munición.",
+    "status": "draft"
+  },
+  "slippers-of-spider-climbing": {
+    "summaryEs": "Zapatillas que permiten moverse por superficies verticales o por techos, dejando las manos libres, con velocidad de trepar de 20 pies. Inútiles en superficies muy resbaladizas. Se pueden usar 10 minutos al día, repartidos.",
+    "status": "draft"
+  },
+  "sovereign-glue": {
+    "summaryEs": "Sustancia espesa y viscosa de color ámbar pálido que solo puede guardarse en un frasco recubierto por dentro con 1 onza de salve of slipperiness, renovada cada vez que se vierte.",
+    "status": "draft"
+  },
+  "stone-of-alarm": {
+    "summaryEs": "Cubo de piedra que, con la palabra de mando, se adhiere a un objeto. Si alguien que no diga primero la palabra lo toca, emite un chillido durante 1 hora que se oye hasta a un cuarto de milla.",
+    "status": "draft"
+  },
+  "stone-of-good-luck-luckstone": {
+    "summaryEs": "Trozo de ágata que da a su poseedor +1 de suerte a las salvaciones, pruebas de característica y pruebas de habilidad.",
+    "status": "draft"
+  },
+  "stone-salve": {
+    "summaryEs": "Ungüento con dos usos: una onza sobre una criatura petrificada la devuelve a la carne (stone to flesh); sobre una criatura no petrificada la protege como stoneskin. Precio y coste dados por onza.",
+    "status": "draft"
+  },
+  "strand-of-prayer-beads": {
+    "summaryEs": "Cuentas de oración que, cuando el dueño lanza un conjuro divino llevándolas, revelan sus poderes. Cada sarta tiene dos o más cuentas especiales con distinto poder. Versiones lesser, standard y greater.",
+    "status": "draft"
+  },
+  "sustaining-spoon": {
+    "summaryEs": "Cuchara que, puesta en un recipiente vacío, lo llena de gachas nutritivas (con sabor a cartón mojado) que bastan para sustentar a cualquier criatura. Produce comida suficiente cada día para alimentar a un número limitado de humanoides.",
+    "status": "draft"
+  },
+  "tome-of-clear-thought": {
+    "summaryEs": "Libro cuya lectura (48 horas en al menos 6 días) da un bono inherente de +1 a +5 a la Inteligencia, según el tipo de tomo. Tras leerlo, la magia desaparece y se convierte en un libro normal.",
+    "status": "draft"
+  },
+  "tome-of-leadership-and-influence": {
+    "summaryEs": "Libro cuya lectura (48 horas en al menos 6 días) da un bono inherente de +1 a +5 al Carisma, según el tipo de tomo. Tras leerlo, la magia desaparece y se convierte en un libro normal.",
+    "status": "draft"
+  },
+  "tome-of-understanding": {
+    "summaryEs": "Libro cuya lectura (48 horas en al menos 6 días) da un bono inherente de +1 a +5 a la Sabiduría, según el tipo de tomo. Tras leerlo, la magia desaparece y se convierte en un libro normal.",
+    "status": "draft"
+  },
+  "unguent-of-timelessness": {
+    "summaryEs": "Ungüento para materia que estuvo viva (madera, papel, cadáveres) que le hace resistir el paso del tiempo: cada año real equivale a un día. El objeto recubierto gana +1 de resistencia a todas las salvaciones. No se desgasta.",
+    "status": "draft"
+  },
+  "universal-solvent": {
+    "summaryEs": "Sustancia capaz de disolver el sovereign glue, las tanglefoot bags y todos los demás adhesivos. Aplicarla es una acción estándar.",
+    "status": "draft"
+  },
+  "vest-of-escape": {
+    "summaryEs": "Chaleco de seda con bolsillos secretos y ganzúas mágicas ocultas: +4 de competencia a las pruebas de Disable Device y +6 de competencia a las de Escape Artist.",
+    "status": "draft"
+  },
+  "vibrant-purple-prism-normal-ioun-stone": {
+    "summaryEs": "Piedra ioun que almacena tres niveles de conjuros, como un ring of spell storing. Resonancia: como acción estándar, gasta un conjuro almacenado para refrescar uno lanzado del mismo nivel, hasta 3 niveles de conjuro al día.",
+    "status": "draft"
+  },
+  "well-of-many-worlds": {
+    "summaryEs": "Dispositivo interdimensional idéntico a un portable hole: todo lo que se coloca dentro es enviado a otro mundo o plano elegido al azar. Si se mueve, se abre a un plano nuevo.",
+    "status": "draft"
+  },
+  "wind-fan": {
+    "summaryEs": "Abanico que, con la palabra de mando, duplica un gust of wind. Puede usarse una vez al día sin riesgo; si se usa más, hay un 20% acumulativo por uso ese día de que se destruya.",
+    "status": "draft"
+  },
+  "winged-boots": {
+    "summaryEs": "Botas que, por orden, echan alas en los talones y permiten volar sin mantener concentración, como fly (+4 a las pruebas de Fly). Tres veces al día, hasta 5 minutos por vuelo.",
+    "status": "draft"
+  },
+  "wings-of-flying": {
+    "summaryEs": "Capa que, con la palabra de mando, se convierte en alas de murciélago o ave que permiten volar con velocidad de 60 pies (maniobrabilidad media) y dan +5 de competencia a las pruebas de Fly.",
+    "status": "draft"
+  }
+}

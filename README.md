@@ -53,6 +53,51 @@ obligatoria: no se escribe código hasta que un humano lee y aprueba el spec.
 4. Añade tus features a `feature-list.json` con `"sdd": true`.
 5. Abre Claude Code y pídele: «implementa la siguiente feature pendiente».
 
+## Desarrollo
+
+`path-helper` es una app web/móvil (PWA) para una campaña de Pathfinder 1e (Core Rulebook):
+API Fastify + cliente React/Vite, TypeScript estricto.
+
+**Prerrequisitos:** Node >= 22.13 (`node:sqlite` sin flag; ver `.nvmrc`) y npm. En Windows, ejecuta `init.sh` desde Git Bash.
+
+```bash
+npm ci                      # instala las dependencias (versiones exactas, package-lock.json)
+cp .env.example .env        # opcional: ajusta puertos/host/log (.env no se versiona)
+npm run dev                 # arranca API y web con un único comando
+```
+
+| Servicio | URL por defecto                      |
+| -------- | ------------------------------------ |
+| Web      | http://127.0.0.1:5173                |
+| API      | http://127.0.0.1:3000/health         |
+| Manifest | http://127.0.0.1:5173/manifest.webmanifest |
+
+Para probar desde el móvil en la red local, pon `HOST=0.0.0.0` en `.env`. Si `WEB_PORT` está
+ocupado, Vite falla en lugar de elegir otro puerto.
+
+Scripts disponibles:
+
+| Script               | Qué hace                                                          |
+| -------------------- | ----------------------------------------------------------------- |
+| `npm run dev`        | API (`tsx watch`) + Vite en paralelo (`dev:server` y `dev:web`)   |
+| `npm run build`      | `typecheck` + `vite build` (salida en `dist/web`, con PWA)        |
+| `npm test`           | Tests unitarios (Vitest), sin los `*.int.test.*`                  |
+| `npm run test:int`   | Solo los tests de integración (sockets locales, build, Vite)      |
+| `npm run lint`       | ESLint (incluye reglas de capas y `no-console`)                   |
+| `npm run typecheck`  | `tsc --noEmit`                                                    |
+| `npm run format`     | Prettier                                                          |
+
+### Operación: cuentas de GM
+
+Estos comandos usan la base de datos de `DATABASE_PATH` y la configuración de `.env` (`AUTH_PEPPER` y `AUTH_ALLOWED_ORIGINS` son obligatorias):
+
+| Comando | Qué hace |
+| ------- | -------- |
+| `npm run create-gm -- "<nombre>"` | Crea la primera (y única) cuenta de GM; el PIN se lee de `AUTH_BOOTSTRAP_PIN` o por stdin. |
+| `npm run reset-gm-lock` | Recuperación: desbloquea la cuenta de GM si un tercero la bloqueó con intentos de login fallidos (borra su estado de bloqueo; no cambia el PIN). Falla con un mensaje claro si no hay ninguna cuenta de GM. |
+
+En producción (`NODE_ENV=production`) el servidor rechaza un `AUTH_PEPPER` que contenga `change-me`: genera un secreto aleatorio propio.
+
 ## Origen
 
 Plantilla genérica extraída de un proyecto real, con toda la información

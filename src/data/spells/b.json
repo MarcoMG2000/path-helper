@@ -1,0 +1,1722 @@
+[
+  {
+    "id": "baleful-polymorph",
+    "name": "Baleful Polymorph",
+    "textEn": "As *beast shape III*, except that you change the subject into a Small or smaller animal of no more than 1 HD. If the new form would prove fatal to the creature, such as an aquatic creature not in water, the subject gets a +4 bonus on the save.\n\nIf the spell succeeds, the subject must also make a Will save. If this second save fails, the creature loses its extraordinary, supernatural, and spell-like abilities, loses its ability to cast spells (if it had the ability), and gains the alignment, special abilities, and Intelligence, Wisdom, and Charisma scores of its new form in place of its own. It still retains its class and level (or HD), as well as all benefits deriving therefrom (such as base attack bonus, base save bonuses, and hit points). It retains any class features (other than spellcasting) that aren't extraordinary, supernatural, or spell-like abilities.\n\nAny polymorph effects on the target are automatically dispelled when a target fails to resist the effects of *baleful polymorph*, and as long as *baleful polymorph* remains in effect, the target cannot use other polymorph spells or effects to assume a new form. Incorporeal or gaseous creatures are immune to *baleful polymorph*, and a creature with the shapechanger subtype can revert to its natural form as a standard action.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Baleful Polymorph",
+    "sourceRef": "PRPG Core Rulebook pg. 246",
+    "book": "CRB",
+    "school": "transmutation",
+    "subschool": "polymorph",
+    "descriptors": [],
+    "levels": {
+      "druid": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature"
+      }
+    ],
+    "duration": {
+      "raw": "permanent",
+      "kind": "permanent",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Fortitude negates, Will partial, see text",
+      "kind": "multiple",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Transforms subject into harmless animal."
+  },
+  {
+    "id": "bane",
+    "name": "Bane",
+    "textEn": "*Bane* fills your enemies with fear and doubt. Each affected creature takes a –1 penalty on attack rolls and a –1 penalty on saving throws against fear effects. *Bane* counters and dispels *bless*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bane",
+    "sourceRef": "PRPG Core Rulebook pg. 246",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "emotion",
+      "fear",
+      "mind-affecting"
+    ],
+    "levels": {
+      "cleric": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "50 ft.",
+      "kind": "fixed",
+      "fixedFt": 50
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "50-ft.-radius burst, centered on you"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Enemies take –1 on attack rolls and saves against fear."
+  },
+  {
+    "id": "banishment",
+    "name": "Banishment",
+    "textEn": "A *banishment* spell is a more powerful version of the *dismissal* spell. It enables you to force extraplanar creatures out of your home plane. As many as 2 Hit Dice of creatures per caster level can be banished.\n\nYou can improve the spell's chance of success by presenting at least one object or substance that the target hates, fears, or otherwise opposes. For each such object or substance, you gain a +1 bonus on your caster level check to overcome the target's spell resistance (if any), and the saving throw DC increases by 2.\n\nCertain rare items might work twice as well as a normal item for the purpose of the bonuses (each providing a +2 bonus on the caster level check against spell resistance and increasing the save DC by 4).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Banishment",
+    "sourceRef": "PRPG Core Rulebook pg. 246",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "cleric": 6,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, F (see text)",
+      "details": {
+        "focus": "see text"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one or more extraplanar creatures, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Banishes 2 HD/level of extraplanar creatures."
+  },
+  {
+    "id": "barkskin",
+    "name": "Barkskin",
+    "textEn": "*Barkskin* toughens a creature's skin. The effect grants a +2 enhancement bonus to the creature's existing natural armor bonus. This enhancement bonus increases by 1 for every three caster levels above 3rd, to a maximum of +5 at 12th level.\n\nThe enhancement bonus provided by *barkskin* stacks with the target's natural armor bonus, but not with other enhancement bonuses to natural armor. A creature without natural armor has an effective natural armor bonus of +0.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Barkskin",
+    "sourceRef": "PRPG Core Rulebook pg. 246",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "druid": 2,
+      "ranger": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "living creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "10 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 10,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Grants +2 (or higher) enhancement to natural armor."
+  },
+  {
+    "id": "bears-endurance",
+    "name": "Bear's Endurance",
+    "textEn": "The affected creature gains greater vitality and stamina. The spell grants the subject a +4 enhancement bonus to Constitution, which adds the usual benefits to hit points, Fortitude saves, Constitution checks, and so forth. Hit points gained by a temporary increase in Constitution score are not temporary hit points. They go away when the subject's Constitution drops back to normal. They are not lost first as temporary hit points are.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bear's Endurance",
+    "sourceRef": "PRPG Core Rulebook pg. 246",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 2,
+      "druid": 2,
+      "ranger": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (a few hairs, or a pinch of dung, from a bear)",
+      "details": {
+        "material": "a few hairs, or a pinch of dung, from a bear"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Subject gains +4 to Con for 1 min./level."
+  },
+  {
+    "id": "bears-endurance-mass",
+    "name": "Bear's Endurance, Mass",
+    "textEn": "*Mass bear's endurance* works like *bear's endurance*, except that it affects multiple creatures.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bear's Endurance, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 247",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 6,
+      "druid": 6,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (a few hairs, or a pinch of dung, from a bear)",
+      "details": {
+        "material": "a few hairs, or a pinch of dung, from a bear"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "As bear's endurance, affects 1 subject/level."
+  },
+  {
+    "id": "beast-shape-i",
+    "name": "Beast Shape I",
+    "textEn": "When you cast this spell, you can assume the form of any Small or Medium creature of the animal type. If the form you assume has any of the following abilities, you gain the listed ability: climb 30 feet, fly 30 feet (average maneuverability), swim 30 feet, darkvision 60 feet, low-light vision, and scent.\n\n*Small animal*: If the form you take is that of a Small animal, you gain a +2 size bonus to your Dexterity and a +1 natural armor bonus.\n\n*Medium animal*: If the form you take is that of a Medium animal, you gain a +2 size bonus to your Strength and a +2 natural armor bonus.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Beast Shape I",
+    "sourceRef": "PRPG Core Rulebook pg. 247",
+    "book": "CRB",
+    "school": "transmutation",
+    "subschool": "polymorph",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a piece of the creature whose form you plan to assume)",
+      "details": {
+        "material": "a piece of the creature whose form you plan to assume"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You take the form and some of the powers of a Small or Medium animal."
+  },
+  {
+    "id": "beast-shape-ii",
+    "name": "Beast Shape II",
+    "textEn": "This spell functions as *beast shape I*, except that it also allows you to assume the form of a Tiny or Large creature of the animal type. If the form you assume has any of the following abilities, you gain the listed ability: climb 60 feet, fly 60 feet (good maneuverability), swim 60 feet, darkvision 60 feet, low-light vision, scent, grab, pounce, and trip.\n\n*Tiny animal*: If the form you take is that of a Tiny animal, you gain a +4 size bonus to your Dexterity, a –2 penalty to your Strength, and a +1 natural armor bonus.\n\n*Large animal*: If the form you take is that of a Large animal, you gain a +4 size bonus to your Strength, a –2 penalty to your Dexterity, and a +4 natural armor bonus.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Beast Shape II",
+    "sourceRef": "PRPG Core Rulebook pg. 247",
+    "book": "CRB",
+    "school": "transmutation",
+    "subschool": "polymorph",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a piece of the creature whose form you plan to assume)",
+      "details": {
+        "material": "a piece of the creature whose form you plan to assume"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You take the form and some of the powers of a Tiny or Large animal."
+  },
+  {
+    "id": "beast-shape-iii",
+    "name": "Beast Shape III",
+    "textEn": "This spell functions as *beast shape II*, except that it also allows you to assume the form of a Diminutive or Huge creature of the animal type. This spell also allows you to take on the form of a Small or Medium creature of the magical beast type. If the form you assume has any of the following abilities, you gain the listed ability: burrow 30 feet, climb 90 feet, fly 90 feet (good maneuverability), swim 90 feet, blindsense 30 feet, darkvision 60 feet, low-light vision, scent, constrict, ferocity, grab, jet, poison, pounce, rake, trample, trip, and web.\n\n*Diminutive animal*: If the form you take is that of a Diminutive animal, you gain a +6 size bonus to your Dexterity, a –4 penalty to your Strength, and a +1 natural armor bonus.\n\n*Huge animal*: If the form you take is that of a Huge animal, you gain a +6 size bonus to your Strength, a –4 penalty to your Dexterity, and a +6 natural armor bonus.\n\n*Small magical beast*: If the form you take is that of a Small magical beast, you gain a +4 size bonus to your Dexterity, and a +2 natural armor bonus.\n\n*Medium magical beast*: If the form you take is that of a Medium magical beast, you gain a +4 size bonus to your Strength, and a +4 natural armor bonus.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Beast Shape III",
+    "sourceRef": "PRPG Core Rulebook pg. 247",
+    "book": "CRB",
+    "school": "transmutation",
+    "subschool": "polymorph",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a piece of the creature whose form you plan to assume)",
+      "details": {
+        "material": "a piece of the creature whose form you plan to assume"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You take the form of a Diminutive or Huge animal, or Small or Medium magical beast."
+  },
+  {
+    "id": "beast-shape-iv",
+    "name": "Beast Shape IV",
+    "textEn": "This spell functions as *beast shape III* except that it also allows you to assume the form of a Tiny or Large creature of the magical beast type. If the form you assume has any of the following abilities, you gain the listed ability: burrow 60 feet, climb 90 feet, fly 120 feet (good maneuverability), swim 120 feet, blindsense 60 feet, darkvision 90 feet, low-light vision, scent, tremorsense 60 feet, breath weapon, constrict, ferocity, grab, jet, poison, pounce, rake, rend, roar, spikes, trample, trip, and web. If the creature has immunity or resistance to any elements, you gain resistance 20 to those elements. If the creature has vulnerability to an element, you gain that vulnerability.\n\n*Tiny magical beast*: If the form you take is that of a Tiny magical beast, you gain a –2 penalty to your Strength, a +8 size bonus to your Dexterity, and a +3 natural armor bonus.\n\n*Large magical beast*: If the form you take is that of a Large magical beast, you gain a +6 size bonus to your Strength, a –2 penalty on your Dexterity, a +2 size bonus to your Constitution, and a +6 natural armor bonus.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Beast Shape IV",
+    "sourceRef": "PRPG Core Rulebook pg. 247",
+    "book": "CRB",
+    "school": "transmutation",
+    "subschool": "polymorph",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (a piece of the creature whose form you plan to assume)",
+      "details": {
+        "material": "a piece of the creature whose form you plan to assume"
+      }
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast."
+  },
+  {
+    "id": "bestow-curse",
+    "name": "Bestow Curse",
+    "textEn": "You place a curse on the subject. Choose one of the following.\n\n- –6 decrease to an ability score (minimum 1).\n- –4 penalty on attack rolls, saves, ability checks, and skill checks.\n- Each turn, the target has a 50% chance to act normally; otherwise, it takes no action.\n\nYou may also invent your own curse, but it should be no more powerful than those described above.\n\nThe curse bestowed by this spell cannot be dispelled, but it can be removed with a *break enchantment*, *limited wish*, *miracle*, *remove curse*, or *wish* spell.\n\n*Bestow curse* counters *remove curse*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bestow Curse",
+    "sourceRef": "PRPG Core Rulebook pg. 247",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [
+      "curse"
+    ],
+    "levels": {
+      "cleric": 3,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "permanent",
+      "kind": "permanent",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "–6 to an ability score; –4 on attack rolls, saves, and checks; or 50% chance of losing each action."
+  },
+  {
+    "id": "binding",
+    "name": "Binding",
+    "textEn": "A *binding* spell creates a magical restraint to hold a creature. The target gets an initial saving throw only if its Hit Dice equal at least half your caster level.\n\nYou may have as many as six assistants help you with the spell. For each assistant who casts *suggestion*, your caster level for this casting of binding increases by 1. For each assistant who casts *dominate animal*, *dominate person*, or *dominate monster*, your caster level for this casting of *binding* increases by a number equal to a third of that assistant's level, provided that the spell's target is appropriate for a binding spell. Since the assistants' spells are cast simply to improve your caster level for the purpose of the *binding* spell, saving throws and spell resistance against the assistants' spells are irrelevant. Your caster level determines whether the target gets an initial Will saving throw and how long the binding lasts. All *binding* spells are dismissible.\n\nRegardless of the version of *binding* you cast, you can specify triggering conditions that end the spell and release the creature whenever they occur. These triggers can be as simple or elaborate as you desire, but the condition must be reasonable and have a likelihood of coming to pass. The conditions can be based on a creature's name, identity, or alignment, but otherwise must be based on observable actions or qualities. Intangibles such as level, class, Hit Dice, or hit points don't qualify. Once the spell is cast, its triggering conditions cannot be changed. Setting a release condition increases the save DC (assuming a saving throw is allowed) by 2.\n\nIf you cast any of the first three versions of *binding* (those with limited durations), you may cast additional *binding* spells to prolong the effect, overlapping the durations. If you do so, the target gets a saving throw at the end of the first spell's duration, even if your caster level was high enough to disallow an initial saving throw. If the creature's save succeeds, all *binding* spells it has received are broken.\n\nThe *binding* spell has six versions. Choose one of the following versions when you cast the spell.\n\n*Chaining*: The subject is confined by restraints that generate an *antipathy* spell affecting all creatures who approach the subject, except you. The duration is 1 year per caster level. The subject of this form of *binding* is confined to the spot it occupied when it received the spell. Casting this version requires a chain that is long enough to wrap around the creature three times.\n\n*Slumber*: This version causes the subject to become comatose for as long as 1 year per caster level. The subject does not need to eat or drink while slumbering, nor does it age. This form of *binding* is slightly easier to resist. Reduce the spell's save DC by 1. Casting this version requires a jar of sand or rose petals. This is a sleep effect.\n\n*Bound Slumber*: This combination of chaining and slumber lasts for as long as 1 month per caster level. Reduce the save DC by 2. Casting this version requires both a long chain and a jar of sand or rose petals. This is a sleep effect.\n\n*Hedged Prison*: The subject is transported to or otherwise brought within a confined area from which it cannot wander by any means. This effect is permanent. Reduce the save DC by 3. Casting this version requires a tiny golden cage worth 100 gp that is consumed when the spell is cast.\n\n*Metamorphosis*: The subject assumes gaseous form, except for its head or face. It is held harmless in a jar or other container, which may be transparent if you so choose. The creature remains aware of its surroundings and can speak, but it cannot leave the container, attack, or use any of its powers or abilities. The *binding* is permanent. The subject does not need to breathe, eat, or drink while metamorphosed, nor does it age. Reduce the save DC by 4.\n\n*Minimus Containment*: The subject is shrunk to a height of 1 inch or less and held within some gem, jar, or similar object. The *binding* is permanent. The subject does not need to breathe, eat, or drink while contained, nor does it age. Reduce the save DC by 4.\n\nYou can't dispel a *binding* spell with *dispel magic* or a similar effect, though an *antimagic field* or *mage's disjunction* affects it normally. A bound extraplanar creature cannot be sent back to its home plane by *dismissal*, *banishment*, or a similar effect.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Binding",
+    "sourceRef": "PRPG Core Rulebook pg. 248",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "castingTime": {
+      "raw": "1 minute",
+      "unit": "minute",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (opals worth 500 gp per HD of the target creature, plus other components as specified below)",
+      "details": {
+        "material": "opals worth 500 gp per HD of the target creature, plus other components as specified below"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature"
+      }
+    ],
+    "duration": {
+      "raw": "see text (D)",
+      "kind": "other",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Will negates; see text",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Utilizes an array of techniques to imprison a creature."
+  },
+  {
+    "id": "black-tentacles",
+    "name": "Black Tentacles",
+    "textEn": "This spell causes a field of rubbery black tentacles to appear, burrowing up from the floor and reaching for any creature in the area.\n\nEvery creature within the area of the spell is the target of a combat maneuver check made to grapple each round at the beginning of your turn, including the round that *black tentacles* is cast. Creatures that enter the area of effect are also automatically attacked. The tentacles do not provoke attacks of opportunity. When determining the tentacles' CMB, the tentacles use your caster level as their base attack bonus and receive a +4 bonus due to their Strength and a +1 size bonus. Roll only once for the entire spell effect each round and apply the result to all creatures in the area of effect.\n\nIf the tentacles succeed in grappling a foe, that foe takes 1d6+4 points of damage and gains the grappled condition. Grappled opponents cannot move without first breaking the grapple. All other movement is prohibited unless the creature breaks the grapple first. The *black tentacles* spell receives a +5 bonus on grapple checks made against opponents it is already grappling, but cannot move foes or pin foes. Each round that *black tentacles* succeeds on a grapple check, it deals an additional 1d6+4 points of damage. The CMD of *black tentacles*, for the purposes of escaping the grapple, is equal to 10 + its CMB.\n\nThe tentacles created by this spell cannot be damaged, but they can be dispelled as normal. The entire area of effect is considered difficult terrain while the tentacles last.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Black Tentacles",
+    "sourceRef": "PRPG Core Rulebook pg. 248",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "creation",
+    "descriptors": [],
+    "levels": {
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (octopus or squid tentacle)",
+      "details": {
+        "material": "octopus or squid tentacle"
+      }
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "20-ft.-radius spread"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Tentacles grapple all creatures within a 20-ft. spread."
+  },
+  {
+    "id": "blade-barrier",
+    "name": "Blade Barrier",
+    "textEn": "An immobile, vertical curtain of whirling blades shaped of pure force springs into existence. Any creature passing through the wall takes 1d6 points of damage per caster level (maximum 15d6), with a Reflex save for half damage.\n\nIf you evoke the barrier so that it appears where creatures are, each creature takes damage as if passing through the wall. Each such creature can avoid the wall (ending up on the side of its choice) and thus take no damage by making a successful Reflex save.\n\nA *blade barrier* provides cover (+4 bonus to AC, +2 bonus on Reflex saves) against attacks made through it.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Blade Barrier",
+    "sourceRef": "PRPG Core Rulebook pg. 249",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "force"
+    ],
+    "levels": {
+      "cleric": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "effect",
+        "raw": "wall of whirling blades up to 20 ft. long/level, or a ringed wall of whirling blades with a radius of up to 5 ft. per two levels; either form is 20 ft. high"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Reflex half or Reflex negates; see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Wall of blades deals 1d6/level damage."
+  },
+  {
+    "id": "blasphemy",
+    "name": "Blasphemy",
+    "textEn": "Any nonevil creature within the area of a blasphemy spell suffers the following ill effects.\n\n| **HD** | **Effect** |\n| --- | --- |\n| Equal to caster level | Dazed |\n| Up to caster level -1 | Weakened, dazed |\n| Up to caster level -5 | Paralyzed, weakened, dazed |\n| Up to caster level -10 | Killed, paralyzed, weakened, dazed |\n\nThe effects are cumulative and concurrent. A successful Will save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.\n\n*Dazed*: The creature can take no actions for 1 round, though it defends itself normally. Save negates.\n\n*Weakened*: The creature's Strength score decreases by 2d6 points for 2d4 rounds. Save for half.\n\n*Paralyzed*: The creature is paralyzed and helpless for 1d10 minutes. Save reduces the paralyzed effect to 1 round.\n\n*Killed*: Living creatures die. Undead creatures are destroyed. Save negates. If the save is successful, the creature instead takes 3d6 points of damage + 1 point per caster level (maximum +25).\n\nFurthermore, if you are on your home plane when you cast this spell, nonevil extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the *blasphemy* or not. The banishment effect allows a Will save (at a –4 penalty) to negate.\n\nCreatures whose Hit Dice exceed your caster level are unaffected by *blasphemy*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Blasphemy",
+    "sourceRef": "PRPG Core Rulebook pg. 249",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "evil",
+      "sonic"
+    ],
+    "levels": {
+      "cleric": 7
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "40 ft.",
+      "kind": "fixed",
+      "fixedFt": 40
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "nonevil creatures in a 40-ft.-radius spread centered on you"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will partial",
+      "kind": "will",
+      "effect": "partial",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Kills, paralyzes, weakens, or dazes nonevil subjects."
+  },
+  {
+    "id": "bleed",
+    "name": "Bleed",
+    "textEn": "You cause a living creature that is below 0 hit points but stabilized to resume dying. Upon casting this spell, you target a living creature that has –1 or fewer hit points. That creature begins dying, taking 1 point of damage per round. The creature can be stabilized later normally. This spell causes a creature that is dying to take 1 point of damage.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bleed",
+    "sourceRef": "PRPG Core Rulebook pg. 249",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "cleric": 0,
+      "sorcerer": 0,
+      "wizard": 0
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Cause a stabilized creature to resume dying."
+  },
+  {
+    "id": "bless",
+    "name": "Bless",
+    "textEn": "*Bless* fills your allies with courage. Each ally gains a +1 morale bonus on attack rolls and on saving throws against fear effects.\n\n*Bless* counters and dispels *bane*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bless",
+    "sourceRef": "PRPG Core Rulebook pg. 249",
+    "book": "CRB",
+    "school": "enchantment",
+    "subschool": "compulsion",
+    "descriptors": [
+      "mind-affecting"
+    ],
+    "levels": {
+      "cleric": 1,
+      "paladin": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "50 ft.",
+      "kind": "fixed",
+      "fixedFt": 50
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "The caster and all allies within a 50-ft. burst, centered on the caster"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Allies gain +1 on attack rolls and saves against fear."
+  },
+  {
+    "id": "bless-water",
+    "name": "Bless Water",
+    "textEn": "This transmutation imbues a flask (1 pint) of water with positive energy, turning it into holy water.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bless Water",
+    "sourceRef": "PRPG Core Rulebook pg. 249",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [
+      "good"
+    ],
+    "levels": {
+      "cleric": 1,
+      "paladin": 1
+    },
+    "castingTime": {
+      "raw": "1 minute",
+      "unit": "minute",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S, M (5 pounds of powdered silver worth 25 gp)",
+      "details": {
+        "material": "5 pounds of powdered silver worth 25 gp"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "flask of water touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (object)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": false,
+      "object": true
+    },
+    "spellResistance": {
+      "raw": "yes (object)",
+      "applies": "yes",
+      "harmless": false,
+      "object": true
+    },
+    "shortDescriptionEn": "Makes holy water."
+  },
+  {
+    "id": "bless-weapon",
+    "name": "Bless Weapon",
+    "textEn": "This transmutation makes a weapon strike true against evil foes. The weapon is treated as having a +1 enhancement bonus for the purpose of bypassing the DR of evil creatures or striking evil incorporeal creatures (though the spell doesn't grant an actual enhancement bonus). The weapon also becomes good-aligned, which means it can bypass the DR of certain creatures. (This effect overrides and suppresses any other alignment the weapon might have.) Individual arrows or bolts can be transmuted, but affected projectile weapons (such as bows) don't confer the benefit to the projectiles they shoot.\n\nIn addition, all critical hit rolls against evil foes are automatically successful, so every threat is a critical hit. This last effect does not apply to any weapon that already has a magical effect related to critical hits, such as a *keen* weapon or a *vorpal sword*.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bless Weapon",
+    "sourceRef": "PRPG Core Rulebook pg. 250",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "paladin": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "weapon touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "none",
+      "kind": "none",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Weapon strikes true against evil foes."
+  },
+  {
+    "id": "blight",
+    "name": "Blight",
+    "textEn": "This spell withers a single plant of any size. An affected plant creature takes 1d6 points of damage per level (maximum 15d6) and may attempt a Fortitude saving throw for half damage. A plant that isn't a creature doesn't receive a save and immediately withers and dies.\n\nThis spell has no effect on the soil or surrounding plant life.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Blight",
+    "sourceRef": "PRPG Core Rulebook pg. 250",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [],
+    "levels": {
+      "druid": 4,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, DF"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "plant touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Fortitude half; see text",
+      "kind": "fortitude",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Withers one plant or deals 1d6/level damage to plant creature."
+  },
+  {
+    "id": "blindness-deafness",
+    "name": "Blindness/Deafness",
+    "textEn": "You call upon the powers of unlife to render the subject blinded or deafened, as you choose.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Blindness/Deafness",
+    "sourceRef": "PRPG Core Rulebook pg. 250",
+    "book": "CRB",
+    "school": "necromancy",
+    "descriptors": [
+      "curse"
+    ],
+    "levels": {
+      "bard": 2,
+      "cleric": 3,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "medium (100 ft. + 10 ft./level)",
+      "kind": "medium"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one living creature"
+      }
+    ],
+    "duration": {
+      "raw": "permanent (D)",
+      "kind": "permanent",
+      "dismissible": true
+    },
+    "savingThrow": {
+      "raw": "Fortitude negates",
+      "kind": "fortitude",
+      "effect": "negates",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Makes subject blinded or deafened."
+  },
+  {
+    "id": "blink",
+    "name": "Blink",
+    "textEn": "You “blink” quickly back and forth between the Material Plane and the Ethereal Plane and look as though you're winking in and out of reality at random. *Blink* has several effects, as follows.\n\nPhysical attacks against you have a 50% miss chance, and the Blind-Fight feat doesn't help opponents, since you're ethereal and not merely invisible. If the attack is capable of striking ethereal creatures, the miss chance is only 20% (for concealment).\n\nIf the attacker can see invisible creatures, the miss chance is also only 20%. (For an attacker who can both see and strike ethereal creatures, there is no miss chance.) Likewise, your own attacks have a 20% miss chance, since you sometimes go ethereal just as you are about to strike.\n\nAny individually targeted spell has a 50% chance to fail against you while you're blinking unless your attacker can target invisible, ethereal creatures. Your own spells have a 20% chance to activate just as you go ethereal, in which case they typically do not affect the Material Plane (but they might affect targets on the Ethereal Plane).\n\nWhile blinking, you take only half damage from area attacks (but full damage from those that extend onto the Ethereal Plane). Although you are only partially visible, you are not considered invisible and targets retain their Dexterity bonus to AC against your attacks. You do receive a +2 bonus on attack rolls made against enemies that cannot see invisible creatures.\n\nYou take only half damage from falling, since you fall only while you are material.\n\nWhile blinking, you can step through (but not see through) solid objects. For each 5 feet of solid material you walk through, there is a 50% chance that you become material. If this occurs, you are shunted off to the nearest open space and take 1d6 points of damage per 5 feet so traveled.\n\nSince you spend about half your time on the Ethereal Plane, you can see and even attack ethereal creatures. You interact with ethereal creatures roughly the same way you interact with material ones.\n\nAn ethereal creature is invisible, incorporeal, and capable of moving in any direction, even up or down. As an incorporeal creature, you can move through solid objects, including living creatures.\n\nAn ethereal creature can see and hear the Material Plane, but everything looks gray and insubstantial. Sight and hearing on the Material Plane are limited to 60 feet.\n\nForce effects and abjurations affect you normally. Their effects extend onto the Ethereal Plane from the Material Plane, but not vice versa. An ethereal creature can't attack material creatures, and spells you cast while ethereal affect only other ethereal things. Certain material creatures or objects have attacks or effects that work on the Ethereal Plane. Treat other ethereal creatures and objects as material.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Blink",
+    "sourceRef": "PRPG Core Rulebook pg. 250",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "bard": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "personal",
+      "kind": "personal"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "you"
+      }
+    ],
+    "duration": {
+      "raw": "1 round/level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "round",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "You randomly vanish and reappear for 1 round per level."
+  },
+  {
+    "id": "blur",
+    "name": "Blur",
+    "textEn": "The subject's outline appears blurred, shifting, and wavering. This distortion grants the subject concealment (20% miss chance).\n\nA *see invisibility* spell does not counteract the *blur* effect, but a *true seeing* spell does.\n\nOpponents that cannot see the subject ignore the spell's effect (though fighting an unseen opponent carries penalties of its own).",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Blur",
+    "sourceRef": "PRPG Core Rulebook pg. 251",
+    "book": "CRB",
+    "school": "illusion",
+    "subschool": "glamer",
+    "descriptors": [],
+    "levels": {
+      "bard": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level (D)",
+      "kind": "timed",
+      "dismissible": true,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Attacks miss subject 20% of the time."
+  },
+  {
+    "id": "break-enchantment",
+    "name": "Break Enchantment",
+    "textEn": "This spell frees victims from enchantments, transmutations, and curses. *Break enchantment* can reverse even an instantaneous effect. For each such effect, you make a caster level check (1d20 + caster level, maximum +15) against a DC of 11 + caster level of the effect. Success means that the creature is free of the spell, curse, or effect. For a cursed magic item, the DC is equal to the DC of the curse.\n\nIf the spell is one that cannot be dispelled by *dispel magic* or *stone to flesh*, *break enchantment* works only if that spell is 5th level or lower.\n\nIf the effect comes from a permanent magic item, *break enchantment* does not remove the curse from the item, but it does free the victim from the item's effects.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Break Enchantment",
+    "sourceRef": "PRPG Core Rulebook pg. 251",
+    "book": "CRB",
+    "school": "abjuration",
+    "descriptors": [],
+    "levels": {
+      "bard": 4,
+      "cleric": 5,
+      "paladin": 4,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "castingTime": {
+      "raw": "1 minute",
+      "unit": "minute",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "up to one creature per level, all within 30 ft. of each other"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "no",
+      "applies": "no",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Frees subjects from enchantments, transmutations, and curses."
+  },
+  {
+    "id": "breath-of-life",
+    "name": "Breath of Life",
+    "textEn": "This spell cures 5d8 points of damage + 1 point per caster level (maximum +25).\n\nUnlike other spells that heal damage, *breath of life* can bring recently slain creatures back to life. If cast upon a creature that has died within 1 round, apply the healing from this spell to the creature. If the healed creature's hit point total is at a negative amount less than its Constitution score, it comes back to life and stabilizes at its new hit point total. If the creature's hit point total is at a negative amount equal to or greater than its Constitution score, the creature remains dead. Creatures brought back to life through *breath of life* gain a temporary negative level that lasts for 1 day.\n\nCreatures slain by death effects cannot be saved by breath of life.\n\nLike cure spells, *breath of life* deals damage to undead creatures rather than curing them, and cannot bring them back to life.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Breath of Life",
+    "sourceRef": "PRPG Core Rulebook pg. 251",
+    "book": "CRB",
+    "school": "conjuration",
+    "subschool": "healing",
+    "descriptors": [],
+    "levels": {
+      "cleric": 5
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless) or Will half, see text",
+      "kind": "other",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless) or yes, see text",
+      "applies": "other",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "Cures 5d8 damage + 1/level and restores life to recently slain creatures."
+  },
+  {
+    "id": "bulls-strength",
+    "name": "Bull's Strength",
+    "textEn": "The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bull's Strength",
+    "sourceRef": "PRPG Core Rulebook pg. 251",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 2,
+      "druid": 2,
+      "paladin": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (a few hairs, or a pinch of dung, from a bull)",
+      "details": {
+        "material": "a few hairs, or a pinch of dung, from a bull"
+      }
+    },
+    "range": {
+      "raw": "touch",
+      "kind": "touch"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "creature touched"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "Subject gains +4 to Str for 1 min./level."
+  },
+  {
+    "id": "bulls-strength-mass",
+    "name": "Bull's Strength, Mass",
+    "textEn": "This spell functions like *bull's strength*, except that it affects multiple creatures.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Bull's Strength, Mass",
+    "sourceRef": "PRPG Core Rulebook pg. 251",
+    "book": "CRB",
+    "school": "transmutation",
+    "descriptors": [],
+    "levels": {
+      "cleric": 6,
+      "druid": 6,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": true,
+      "focus": false,
+      "divineFocus": true,
+      "xp": false,
+      "raw": "V, S, M/DF (a few hairs, or a pinch of dung, from a bull)",
+      "details": {
+        "material": "a few hairs, or a pinch of dung, from a bull"
+      }
+    },
+    "range": {
+      "raw": "close (25 ft. + 5 ft./2 levels)",
+      "kind": "close"
+    },
+    "targeting": [
+      {
+        "kind": "target",
+        "raw": "one creature/level, no two of which can be more than 30 ft. apart"
+      }
+    ],
+    "duration": {
+      "raw": "1 min./level",
+      "kind": "timed",
+      "dismissible": false,
+      "amount": 1,
+      "unit": "minute",
+      "perLevel": true
+    },
+    "savingThrow": {
+      "raw": "Will negates (harmless)",
+      "kind": "will",
+      "effect": "negates",
+      "harmless": true,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes (harmless)",
+      "applies": "yes",
+      "harmless": true,
+      "object": false
+    },
+    "shortDescriptionEn": "As bull's strength, affects 1 subject/level."
+  },
+  {
+    "id": "burning-hands",
+    "name": "Burning Hands",
+    "textEn": "A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes 1d4 points of fire damage per caster level (maximum 5d4). Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action.",
+    "source": "https://www.aonprd.com/SpellDisplay.aspx?ItemName=Burning Hands",
+    "sourceRef": "PRPG Core Rulebook pg. 251",
+    "book": "CRB",
+    "school": "evocation",
+    "descriptors": [
+      "fire"
+    ],
+    "levels": {
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "castingTime": {
+      "raw": "1 standard action",
+      "unit": "standard",
+      "amount": 1
+    },
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": false,
+      "divineFocus": false,
+      "xp": false,
+      "raw": "V, S"
+    },
+    "range": {
+      "raw": "15 ft.",
+      "kind": "fixed",
+      "fixedFt": 15
+    },
+    "targeting": [
+      {
+        "kind": "area",
+        "raw": "cone-shaped burst"
+      }
+    ],
+    "duration": {
+      "raw": "instantaneous",
+      "kind": "instantaneous",
+      "dismissible": false
+    },
+    "savingThrow": {
+      "raw": "Reflex half",
+      "kind": "reflex",
+      "effect": "half",
+      "harmless": false,
+      "object": false
+    },
+    "spellResistance": {
+      "raw": "yes",
+      "applies": "yes",
+      "harmless": false,
+      "object": false
+    },
+    "shortDescriptionEn": "1d4/level fire damage (max 5d4)."
+  }
+]

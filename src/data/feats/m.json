@@ -1,0 +1,198 @@
+[
+  {
+    "id": "magical-aptitude",
+    "name": "Magical Aptitude",
+    "textEn": "You are skilled at spellcasting and using magic items.\n\n**Benefit**: You get a +2 bonus on all Spellcraft checks and Use Magic Device checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Magical%20Aptitude",
+    "sourceRef": "PRPG Core Rulebook pg. 130",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You get a +2 bonus on all Spellcraft checks and Use Magic Device checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill."
+  },
+  {
+    "id": "manyshot",
+    "name": "Manyshot",
+    "textEn": "You can fire multiple arrows at a single target.\n\n**Prerequisites**: Dex 17, Point-Blank Shot, Rapid Shot, base attack bonus +6.\n\n**Benefit**: When making a full-attack action with a bow, your first attack fires two arrows. If the attack hits, both arrows hit. Apply precision-based damage (such as sneak attack) and critical hit damage only once for this attack. Damage bonuses from using a composite bow with a high Strength bonus apply to each arrow, as do other damage bonuses, such as a ranger's favored enemy bonus. Damage reduction and resistances apply separately to each arrow.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Manyshot",
+    "sourceRef": "PRPG Core Rulebook pg. 130",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 17, Point-Blank Shot, Rapid Shot, base attack bonus +6.",
+      "abilities": {
+        "dex": 17
+      },
+      "bab": 6,
+      "featIds": [
+        "point-blank-shot",
+        "rapid-shot"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "When making a full-attack action with a bow, your first attack fires two arrows. If the attack hits, both arrows hit. Apply precision-based damage (such as sneak attack) and critical hit damage only once for this attack. Damage bonuses from using a composite bow with a high Strength bonus apply to each arrow, as do other damage bonuses, such as a ranger's favored enemy bonus. Damage reduction and resistances apply separately to each arrow."
+  },
+  {
+    "id": "martial-weapon-proficiency",
+    "name": "Martial Weapon Proficiency",
+    "textEn": "Choose a type of martial weapon. You understand how to use that type of martial weapon in combat.\n\n**Benefit**: You make attack rolls with the selected weapon normally (without the non-proficient penalty).\n\n**Normal**: When using a weapon with which you are not proficient, you take a –4 penalty on attack rolls.\n\n**Special**: Barbarians, fighters, paladins, and rangers are proficient with all martial weapons. They need not select this feat.\n\nYou can gain Martial Weapon Proficiency multiple times. Each time you take the feat, it applies to a new type of weapon.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Martial%20Weapon%20Proficiency",
+    "sourceRef": "PRPG Core Rulebook pg. 130",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You make attack rolls with the selected weapon normally (without the non-proficient penalty).",
+    "normal": "When using a weapon with which you are not proficient, you take a –4 penalty on attack rolls.",
+    "special": "Barbarians, fighters, paladins, and rangers are proficient with all martial weapons. They need not select this feat.\n\nYou can gain Martial Weapon Proficiency multiple times. Each time you take the feat, it applies to a new type of weapon."
+  },
+  {
+    "id": "master-craftsman",
+    "name": "Master Craftsman",
+    "textEn": "Your superior crafting skills allow you to create simple magic items.\n\n**Prerequisites**: 5 ranks in any Craft or Profession skill.\n\n**Benefit**: Choose one Craft or Profession skill in which you possess at least 5 ranks. You receive a +2 bonus on your chosen Craft or Profession skill. Ranks in your chosen skill count as your caster level for the purposes of qualifying for the Craft Magic Arms and Armor and Craft Wondrous Item feats. You can create magic items using these feats, substituting your ranks in the chosen skill for your total caster level. You must use the chosen skill for the check to create the item. The DC to create the item still increases for any necessary spell requirements (see the magic item creation rules in Magic Items). You cannot use this feat to create any spell-trigger or spell-activation item.\n\n**Normal**: Only spellcasters can qualify for the Craft Magic Arms and Armor and Craft Wondrous Item feats.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Master%20Craftsman",
+    "sourceRef": "PRPG Core Rulebook pg. 130",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "5 ranks in any Craft or Profession skill.",
+      "featIds": [],
+      "skills": [],
+      "other": [
+        "5 ranks in any Craft or Profession skill"
+      ]
+    },
+    "benefit": "Choose one Craft or Profession skill in which you possess at least 5 ranks. You receive a +2 bonus on your chosen Craft or Profession skill. Ranks in your chosen skill count as your caster level for the purposes of qualifying for the Craft Magic Arms and Armor and Craft Wondrous Item feats. You can create magic items using these feats, substituting your ranks in the chosen skill for your total caster level. You must use the chosen skill for the check to create the item. The DC to create the item still increases for any necessary spell requirements (see the magic item creation rules in Magic Items). You cannot use this feat to create any spell-trigger or spell-activation item.",
+    "normal": "Only spellcasters can qualify for the Craft Magic Arms and Armor and Craft Wondrous Item feats."
+  },
+  {
+    "id": "maximize-spell",
+    "name": "Maximize Spell",
+    "textEn": "Your spells have the maximum possible effect.\n\n**Benefit**: All variable, numeric effects of a spell modified by this feat are maximized. Saving throws and opposed rolls are not affected, nor are spells without random variables. A maximized spell uses up a spell slot three levels higher than the spell's actual level.\n\nAn empowered, maximized spell gains the separate benefits of each feat: the maximum result plus half the normally rolled result.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Maximize%20Spell",
+    "sourceRef": "PRPG Core Rulebook pg. 130",
+    "book": "CRB",
+    "types": [
+      "Metamagic"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "All variable, numeric effects of a spell modified by this feat are maximized. Saving throws and opposed rolls are not affected, nor are spells without random variables. A maximized spell uses up a spell slot three levels higher than the spell's actual level.\n\nAn empowered, maximized spell gains the separate benefits of each feat: the maximum result plus half the normally rolled result."
+  },
+  {
+    "id": "medusas-wrath",
+    "name": "Medusa's Wrath",
+    "textEn": "You can take advantage of your opponent's confusion, delivering multiple blows.\n\n**Prerequisites**: Improved Unarmed Strike, Gorgon's Fist, Scorpion Style, base attack bonus +11.\n\n**Benefit**: Whenever you use the full-attack action and make at least one unarmed strike, you can make two additional unarmed strikes at your highest base attack bonus. These bonus attacks must be made against a dazed, flat-footed, paralyzed, staggered, stunned, or unconscious foe.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Medusa's%20Wrath",
+    "sourceRef": "PRPG Core Rulebook pg. 130",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Improved Unarmed Strike, Gorgon's Fist, Scorpion Style, base attack bonus +11.",
+      "bab": 11,
+      "featIds": [
+        "improved-unarmed-strike",
+        "gorgons-fist",
+        "scorpion-style"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "Whenever you use the full-attack action and make at least one unarmed strike, you can make two additional unarmed strikes at your highest base attack bonus. These bonus attacks must be made against a dazed, flat-footed, paralyzed, staggered, stunned, or unconscious foe."
+  },
+  {
+    "id": "mobility",
+    "name": "Mobility",
+    "textEn": "You can easily move through a dangerous melee.\n\n**Prerequisites**: Dex 13, Dodge.\n\n**Benefit**: You get a +4 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or within a threatened area. A condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses.\n\nDodge bonuses stack with each other, unlike most types of bonuses.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Mobility",
+    "sourceRef": "PRPG Core Rulebook pg. 130",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 13, Dodge.",
+      "abilities": {
+        "dex": 13
+      },
+      "featIds": [
+        "dodge"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You get a +4 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or within a threatened area. A condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses.\n\nDodge bonuses stack with each other, unlike most types of bonuses."
+  },
+  {
+    "id": "mounted-archery",
+    "name": "Mounted Archery",
+    "textEn": "You are skilled at making ranged attacks while mounted.\n\n**Prerequisites**: Ride 1 rank, Mounted Combat.\n\n**Benefit**: The penalty you take when using a ranged weapon while mounted is halved: –2 instead of –4 if your mount is taking a double move, and –4 instead of –8 if your mount is running.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Mounted%20Archery",
+    "sourceRef": "PRPG Core Rulebook pg. 131",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Ride 1 rank, Mounted Combat.",
+      "featIds": [
+        "mounted-combat"
+      ],
+      "skills": [
+        {
+          "skillId": "ride",
+          "ranks": 1
+        }
+      ],
+      "other": []
+    },
+    "benefit": "The penalty you take when using a ranged weapon while mounted is halved: –2 instead of –4 if your mount is taking a double move, and –4 instead of –8 if your mount is running."
+  },
+  {
+    "id": "mounted-combat",
+    "name": "Mounted Combat",
+    "textEn": "You are adept at guiding your mount through combat.\n\n**Prerequisites**: Ride 1 rank.\n\n**Benefit**: Once per round when your mount is hit in combat, you may attempt a Ride check (as an immediate action) to negate the hit. The hit is negated if your Ride check result is greater than the opponent's attack roll.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Mounted%20Combat",
+    "sourceRef": "PRPG Core Rulebook pg. 131",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Ride 1 rank.",
+      "featIds": [],
+      "skills": [
+        {
+          "skillId": "ride",
+          "ranks": 1
+        }
+      ],
+      "other": []
+    },
+    "benefit": "Once per round when your mount is hit in combat, you may attempt a Ride check (as an immediate action) to negate the hit. The hit is negated if your Ride check result is greater than the opponent's attack roll."
+  }
+]

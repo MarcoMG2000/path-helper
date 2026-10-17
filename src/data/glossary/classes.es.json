@@ -1,0 +1,51 @@
+{
+  "classes:barbarian": {
+    "es": "Bárbaro",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "nombre de la clase tomado de design.md §5 (cazador = ranger); pendiente de verificar contra el manual"
+  },
+  "classes:bard": {
+    "es": "Bardo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "nombre de la clase tomado de design.md §5 (cazador = ranger); pendiente de verificar contra el manual"
+  },
+  "classes:cleric": {
+    "es": "Clérigo",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "nombre de la clase tomado de design.md §5 (cazador = ranger); pendiente de verificar contra el manual"
+  },
+  "classes:druid": {
+    "es": "Druida",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "nombre de la clase tomado de design.md §5 (cazador = ranger); pendiente de verificar contra el manual"
+  },
+  "classes:paladin": {
+    "es": "Paladín",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "nombre de la clase tomado de design.md §5 (cazador = ranger); pendiente de verificar contra el manual"
+  },
+  "classes:ranger": {
+    "es": "Cazador",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "nombre de la clase tomado de design.md §5 (cazador = ranger); pendiente de verificar contra el manual"
+  },
+  "classes:rogue": {
+    "es": "Pícaro",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "nombre de la clase tomado de design.md §5 (cazador = ranger); pendiente de verificar contra el manual"
+  }
+}

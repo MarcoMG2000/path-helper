@@ -1,0 +1,38 @@
+{
+  "throw-anything": {
+    "summaryEs": "Sin penalizaciones con armas arrojadizas improvisadas y +1 de circunstancia a las tiradas de ataque con armas de salpicadura arrojadas.",
+    "status": "draft"
+  },
+  "tiring-critical": {
+    "summaryEs": "Tu crítico deja al oponente fatigado. Sin efecto adicional en fatigados o agotados. Solo un efecto de dote crítica por crítico salvo Critical Mastery.",
+    "status": "draft"
+  },
+  "toughness": {
+    "summaryEs": "Ganas +3 puntos de golpe, y +1 más por cada Dado de Golpe que tengas por encima de 3.",
+    "status": "draft"
+  },
+  "tower-shield-proficiency": {
+    "summaryEs": "Al usar un escudo pavés, su penalización de armadura solo afecta a habilidades de Fuerza y Destreza. Los guerreros la tienen automáticamente.",
+    "status": "draft"
+  },
+  "trample": {
+    "summaryEs": "Al arrollar a lomos, el objetivo no puede elegir evitarte. Tu montura puede hacer un ataque de pezuña contra quien derribes, con +4 contra objetivos derribados.",
+    "status": "draft"
+  },
+  "turn-undead": {
+    "summaryEs": "Como acción estándar, gastas un uso de canalizar energía positiva para que los no muertos a 30 pies huyan como aterrados un minuto (salvación de Will, CD 10 + 1/2 tu nivel de clérigo + Carisma). Sin otro efecto de la canalización.",
+    "status": "draft"
+  },
+  "two-weapon-defense": {
+    "summaryEs": "Con un arma doble o dos armas (no naturales ni desarmado), +1 de escudo a la CA; sube a +2 al luchar a la defensiva o con la acción de defensa total.",
+    "status": "draft"
+  },
+  "two-weapon-fighting": {
+    "summaryEs": "Reduces las penalizaciones por luchar con dos armas: 2 menos en la mano principal y 6 menos en la torpe (ver Two-Weapon Fighting en Combat).",
+    "status": "draft"
+  },
+  "two-weapon-rend": {
+    "summaryEs": "Si impactas a un oponente con la mano principal y la torpe, haces 1d10 de daño adicional más 1-1/2 veces tu modificador de Fuerza. Solo una vez por asalto.",
+    "status": "draft"
+  }
+}

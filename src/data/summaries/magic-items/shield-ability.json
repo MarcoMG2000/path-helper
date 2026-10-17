@@ -1,0 +1,58 @@
+{
+  "animated": {
+    "summaryEs": "Como acción de movimiento, el escudo se suelta y defiende solo a su dueño durante 4 asaltos, concediéndole su bono; luego cae. Mientras está animado no puede usar acciones propias (como bashing o blinding). No se puede añadir a un escudo tower.",
+    "status": "draft"
+  },
+  "arrow-catching": {
+    "summaryEs": "El escudo atrae los ataques a distancia: tiene un bono de desvío de +1 contra armas a distancia y desvía hacia el portador los proyectiles dirigidos a objetivos a 5 pies. Quienes le atacan a distancia ignoran los porcentajes de fallo.",
+    "status": "draft"
+  },
+  "arrow-deflection": {
+    "summaryEs": "Protege como la dote Deflect Arrows: una vez por asalto, ante un ataque a distancia, el portador hace una salvación de Reflejos CD 20 (más el bono de mejora del arma) para desviarlo. Debe conocer el ataque y no estar desprevenido.",
+    "status": "draft"
+  },
+  "bashing": {
+    "summaryEs": "Pensado para golpear con el escudo: causa daño como un arma de dos categorías de tamaño mayor (1d6 un escudo ligero Medium, 1d8 uno pesado Medium) y actúa como arma +1. Solo escudos ligeros y pesados.",
+    "status": "draft"
+  },
+  "blinding": {
+    "summaryEs": "Hasta dos veces al día, por orden, el escudo destella: cualquiera a 20 pies (salvo el portador) debe superar una salvación de Reflejos CD 14 o queda cegado durante 1d4 asaltos.",
+    "status": "draft"
+  },
+  "energy-resistance-greater-shield": {
+    "summaryEs": "Como energy resistance, pero absorbe los primeros 30 puntos de daño de energía por ataque.",
+    "status": "draft"
+  },
+  "energy-resistance-improved-shield": {
+    "summaryEs": "Como energy resistance, pero absorbe los primeros 20 puntos de daño de energía por ataque.",
+    "status": "draft"
+  },
+  "energy-resistance-shield": {
+    "summaryEs": "Protege contra un tipo de energía (ácido, frío, electricidad, fuego o sónico, a elección): absorbe los primeros 10 puntos de daño de esa energía por ataque, de forma similar al conjuro resist energy.",
+    "status": "draft"
+  },
+  "fortification-shield": {
+    "summaryEs": "Si se logra un crítico o un ataque furtivo contra el portador, hay probabilidad de anularlo y tirar el daño normal: 25% (light), 50% (moderate) o 75% (heavy).",
+    "status": "draft"
+  },
+  "ghost-touch-shield": {
+    "summaryEs": "Su bono de mejora y su bono de armadura cuentan contra ataques de criaturas corpóreas e incorpóreas. Criaturas corpóreas e incorpóreas pueden cogerlo y llevarlo; las incorpóreas ganan su bono de mejora contra ambos tipos de ataque.",
+    "status": "draft"
+  },
+  "reflecting": {
+    "summaryEs": "Escudo pulido como un espejo: una vez al día puede devolver un conjuro a su lanzador exactamente como el conjuro spell turning.",
+    "status": "draft"
+  },
+  "spell-resistance-shield": {
+    "summaryEs": "Concede resistencia a conjuros al portador mientras lleva la armadura o el escudo. El precio es un equivalente de bono según el valor: 13 (+2), 15 (+3), 17 (+4) o 19 (+5).",
+    "status": "draft"
+  },
+  "undead-controlling-shield": {
+    "summaryEs": "Permite controlar hasta 26 Dados de Golpe de muertos vivientes al día, como el conjuro control undead. Al amanecer pierde el control de los que sigan bajo su dominio. Parece hecho de hueso (solo decorativo).",
+    "status": "draft"
+  },
+  "wild-shield": {
+    "summaryEs": "Mientras el portador está en forma salvaje conserva su bono de armadura (y de mejora). Mientras tanto el escudo no se ve.",
+    "status": "draft"
+  }
+}

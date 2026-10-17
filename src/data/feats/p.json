@@ -1,0 +1,130 @@
+[
+  {
+    "id": "penetrating-strike",
+    "name": "Penetrating Strike",
+    "textEn": "Your attacks are capable of penetrating the defenses of some creatures.\n\n**Prerequisites**: Weapon Focus, base attack bonus +1, 12th-level fighter, proficiency with weapon.\n\n**Benefit**: Your attacks made with weapons selected with Weapon Focus ignore up to 5 points of damage reduction. This feat does not apply to damage reduction without a type (such as DR 10/—).",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Penetrating%20Strike",
+    "sourceRef": "PRPG Core Rulebook pg. 131",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Weapon Focus, base attack bonus +1, 12th-level fighter, proficiency with weapon.",
+      "bab": 1,
+      "featIds": [
+        "weapon-focus"
+      ],
+      "skills": [],
+      "other": [
+        "12th-level fighter",
+        "proficiency with weapon"
+      ]
+    },
+    "benefit": "Your attacks made with weapons selected with Weapon Focus ignore up to 5 points of damage reduction. This feat does not apply to damage reduction without a type (such as DR 10/—)."
+  },
+  {
+    "id": "persuasive",
+    "name": "Persuasive",
+    "textEn": "You are skilled at swaying attitudes and intimidating others into your way of thinking.\n\n**Benefit**: You get a +2 bonus on Diplomacy and Intimidate skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Persuasive",
+    "sourceRef": "PRPG Core Rulebook pg. 131",
+    "book": "CRB",
+    "types": [
+      "General"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You get a +2 bonus on Diplomacy and Intimidate skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill."
+  },
+  {
+    "id": "pinpoint-targeting",
+    "name": "Pinpoint Targeting",
+    "textEn": "You can target the weak points in your opponent's armor.\n\n**Prerequisites**: Dex 19, Improved Precise Shot, Point-Blank Shot, Precise Shot, base attack bonus +16.\n\n**Benefit**: As a standard action, make a single ranged attack. The target does not gain any armor, natural armor, or shield bonuses to its Armor Class. You do not gain the benefit of this feat if you move this round.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Pinpoint%20Targeting",
+    "sourceRef": "PRPG Core Rulebook pg. 131",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Dex 19, Improved Precise Shot, Point-Blank Shot, Precise Shot, base attack bonus +16.",
+      "abilities": {
+        "dex": 19
+      },
+      "bab": 16,
+      "featIds": [
+        "improved-precise-shot",
+        "point-blank-shot",
+        "precise-shot"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "As a standard action, make a single ranged attack. The target does not gain any armor, natural armor, or shield bonuses to its Armor Class. You do not gain the benefit of this feat if you move this round."
+  },
+  {
+    "id": "point-blank-shot",
+    "name": "Point-Blank Shot",
+    "textEn": "You are especially accurate when making ranged attacks against close targets.\n\n**Benefit**: You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Point-Blank%20Shot",
+    "sourceRef": "PRPG Core Rulebook pg. 131",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "",
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet."
+  },
+  {
+    "id": "power-attack",
+    "name": "Power Attack",
+    "textEn": "You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.\n\n**Prerequisites**: Str 13, base attack bonus +1.\n\n**Benefit**: You can choose to take a –1 penalty on all melee attack rolls and combat maneuver checks to gain a +2 bonus on all melee damage rolls. This bonus to damage is increased by half (+50%) if you are making an attack with a two-handed weapon, a one handed weapon using two hands, or a primary natural weapon that adds 1-1/2 times your Strength modifier on damage rolls. This bonus to damage is halved (–50%) if you are making an attack with an off-hand weapon or secondary natural weapon. When your base attack bonus reaches +4, and every 4 points thereafter, the penalty increases by –1 and the bonus to damage increases by +2. You must choose to use this feat before making an attack roll, and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Power%20Attack",
+    "sourceRef": "PRPG Core Rulebook pg. 131",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Str 13, base attack bonus +1.",
+      "abilities": {
+        "str": 13
+      },
+      "bab": 1,
+      "featIds": [],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can choose to take a –1 penalty on all melee attack rolls and combat maneuver checks to gain a +2 bonus on all melee damage rolls. This bonus to damage is increased by half (+50%) if you are making an attack with a two-handed weapon, a one handed weapon using two hands, or a primary natural weapon that adds 1-1/2 times your Strength modifier on damage rolls. This bonus to damage is halved (–50%) if you are making an attack with an off-hand weapon or secondary natural weapon. When your base attack bonus reaches +4, and every 4 points thereafter, the penalty increases by –1 and the bonus to damage increases by +2. You must choose to use this feat before making an attack roll, and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage."
+  },
+  {
+    "id": "precise-shot",
+    "name": "Precise Shot",
+    "textEn": "You are adept at firing ranged attacks into melee.\n\n**Prerequisites**: Point-Blank Shot.\n\n**Benefit**: You can shoot or throw ranged weapons at an opponent engaged in melee without taking the standard –4 penalty on your attack roll.",
+    "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Precise%20Shot",
+    "sourceRef": "PRPG Core Rulebook pg. 131",
+    "book": "CRB",
+    "types": [
+      "Combat"
+    ],
+    "prerequisites": {
+      "raw": "Point-Blank Shot.",
+      "featIds": [
+        "point-blank-shot"
+      ],
+      "skills": [],
+      "other": []
+    },
+    "benefit": "You can shoot or throw ranged weapons at an opponent engaged in melee without taking the standard –4 penalty on your attack roll."
+  }
+]

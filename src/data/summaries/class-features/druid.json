@@ -1,0 +1,18 @@
+{
+  "druid.a-thousand-faces": { "summaryEs": "Nivel 13: cambia su apariencia a voluntad, como el conjuro alter self, pero solo en su forma normal.", "status": "draft" },
+  "druid.bonus-languages": { "summaryEs": "Puede elegir silvano como idioma adicional y conoce gratis el druídico, un idioma secreto de los druidas que no puede enseñar a quien no lo sea.", "status": "draft" },
+  "druid.chaotic-evil-good-and-lawful-spells": { "summaryEs": "No puede lanzar conjuros de un alineamiento opuesto al suyo o al de su deidad.", "status": "draft" },
+  "druid.nature-bond": { "summaryEs": "Nivel 1: elige un dominio de clérigo (Aire, Animal, Tierra, Fuego, Planta, Agua o Clima), usando su nivel de druida como nivel de clérigo, o bien un compañero animal que avanza con su nivel.", "status": "draft" },
+  "druid.nature-sense": { "summaryEs": "+2 a las pruebas de Knowledge (nature) y Survival.", "status": "draft" },
+  "druid.orisons": { "summaryEs": "Prepara trucos (conjuros de nivel 0) cada día, según la tabla; se lanzan como cualquier conjuro pero no se gastan y pueden repetirse.", "status": "draft" },
+  "druid.resist-natures-lure": { "summaryEs": "Nivel 4: +4 a las salvaciones contra aptitudes sortílegas y sobrenaturales de las hadas y contra conjuros y efectos que usen o tengan como objetivo plantas.", "status": "draft" },
+  "druid.spells": { "summaryEs": "Lanza conjuros divinos de la lista de druida, que debe elegir y preparar de antemano tras 1 hora de meditación. Necesita Sabiduría 10 + nivel del conjuro; CD de salvación 10 + nivel del conjuro + mod. de Sabiduría.", "status": "draft" },
+  "druid.spontaneous-casting": { "summaryEs": "Puede sacrificar un conjuro preparado para lanzar cualquier conjuro de summon nature's ally del mismo nivel o inferior.", "status": "draft" },
+  "druid.timeless-body": { "summaryEs": "Nivel 15: no sufre penalizadores por envejecer ni puede ser envejecido mágicamente; conserva los ya sufridos y los bonificadores.", "status": "draft" },
+  "druid.trackless-step": { "summaryEs": "Nivel 3: no deja rastro en entornos naturales y no puede ser rastreado, salvo que quiera dejarlo.", "status": "draft" },
+  "druid.venom-immunity": { "summaryEs": "Nivel 9: inmunidad a todos los venenos.", "status": "draft" },
+  "druid.weapon-and-armor-proficiency": { "summaryEs": "Competente con las armas club, dagger, dart, quarterstaff, scimitar, scythe, sickle, shortspear, sling y spear, con armadura ligera y media no metálica y con escudos de madera (salvo tower shields). Usar armadura o escudo prohibido impide lanzar y usar sus habilidades.", "status": "draft" },
+  "druid.wild-empathy": { "summaryEs": "Mejora la actitud de un animal como una prueba de Diplomacy: 1d20 + nivel de druida + mod. de Carisma, a 30 pies. También sirve con bestias mágicas de Inteligencia 1 o 2, con -4.", "status": "draft" },
+  "druid.wild-shape": { "summaryEs": "Nivel 4: una vez al día se transforma en un animal Pequeño o Mediano como con beast shape I, 1 hora por nivel. Más usos cada dos niveles desde el 6.º (ocho a nivel 18, a voluntad a nivel 20) y formas mayores al subir.", "status": "draft" },
+  "druid.woodland-stride": { "summaryEs": "Nivel 2: se mueve por maleza natural a velocidad normal y sin daño ni impedimento; la maleza mágica sí le afecta.", "status": "draft" }
+}

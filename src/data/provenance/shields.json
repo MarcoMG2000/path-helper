@@ -1,0 +1,81 @@
+{
+  "license": "OGL-1.0a",
+  "category": "shields",
+  "importerVersion": "1",
+  "humanReviewed": false,
+  "pages": [
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Extra",
+      "sha256": "c299997366a62bad27ca1ca7e552bba5d60391504e7a6e57dd099de7d28cea8e",
+      "bytes": 21701,
+      "fetchedAt": "2026-10-16T23:57:53.549Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Heavy",
+      "sha256": "7dbef6841ae71a82e42eeb5f0b1fc08396b04d976864346bcc4d6f07f36f7191",
+      "bytes": 32282,
+      "fetchedAt": "2026-10-16T23:57:51.547Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Light",
+      "sha256": "30a43c5c6b5c60b7ba87066a1f08c4da5bb732dc9942f61bff5e2d196d24f173",
+      "bytes": 34987,
+      "fetchedAt": "2026-10-16T23:57:49.849Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Medium",
+      "sha256": "09281a425fdad7590630388b87edebe2ec13cac528654f1540aac7e184b61c77",
+      "bytes": 30563,
+      "fetchedAt": "2026-10-16T23:57:50.544Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmor.aspx?Category=Shield",
+      "sha256": "1b2d2ac2a8d1ce4e10cd3b01d9bf51b7b13a5c063d98e8ea73e029443dc78c28",
+      "bytes": 31656,
+      "fetchedAt": "2026-10-16T23:57:52.553Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Buckler",
+      "sha256": "70a1a5cf6a02701f1b454bc9fbf68e6a7dbe4ad52bf84a62d2d1c93c08f856ef",
+      "bytes": 23440,
+      "fetchedAt": "2026-10-17T00:02:46.066Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Heavy%20steel",
+      "sha256": "6763d6deae206d0b156310266d0e755dc79d688c040861c8119d7422a0a903eb",
+      "bytes": 24600,
+      "fetchedAt": "2026-10-16T23:40:03.438Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Heavy%20wooden",
+      "sha256": "12b9c6b1a0a88e6f7bbdeddde4c47daeaeaeb05038bb0ecbde33e1ca10411c54",
+      "bytes": 21943,
+      "fetchedAt": "2026-10-17T00:02:46.224Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Light%20steel",
+      "sha256": "efd273a58a9154e7d7507e26a9060b0d7b79a933b6e23b33f03b35a92f2922cf",
+      "bytes": 24657,
+      "fetchedAt": "2026-10-17T00:02:47.232Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Light%20wooden",
+      "sha256": "bf05d911ecb09c3902e7fdff363bb01c1b188324986d27aa015a460d16107440",
+      "bytes": 21814,
+      "fetchedAt": "2026-10-17T00:02:48.227Z"
+    },
+    {
+      "url": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Tower",
+      "sha256": "6a761e5d602c1f79192a86f83b71c4f291efb649ebc9a355ff6943c7cae7f2d0",
+      "bytes": 24099,
+      "fetchedAt": "2026-10-16T23:40:05.557Z"
+    },
+    {
+      "url": "https://aonprd.com/SourceDisplay.aspx?FixedSource=PRPG Core Rulebook",
+      "sha256": "94461065d4d1448c610be1f56161a6f1f6af9d825d8c1a1bdfd0d81f46f83599",
+      "bytes": 374126,
+      "fetchedAt": "2026-10-16T14:04:46.083Z"
+    }
+  ],
+  "expectedCount": 6
+}

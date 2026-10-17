@@ -1,0 +1,9 @@
+{
+  "spells:quench": {
+    "es": "Quench",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  }
+}
