@@ -57,11 +57,13 @@ describe("feats reales: recuento y procedencia (R17, R26, R27)", () => {
     }
   });
 
-  it("R17: las dotes con varias etiquetas Source quedan marcadas needsReview", () => {
-    expect(feats.filter((f) => f.needsReview).map((f) => f.id)).toEqual([
-      "extra-channel",
-      "rapid-reload",
-    ]);
+  it("R17/R49: las dotes con varias etiquetas Source se marcaron needsReview al parsear y un override con el PRD las resuelve", () => {
+    // El parser marca extra-channel y rapid-reload (Source CRB + otros libros); sus overrides sustituyen el
+    // texto reimpreso por el del PRD y cierran la marca. Ninguna otra dote queda pendiente.
+    expect(feats.filter((f) => f.needsReview).map((f) => f.id)).toEqual([]);
+    const applied = mergeProvenance(data.provenanceParts.feats ?? []).overridesApplied ?? [];
+    const cleared = applied.filter((o) => o.field === "needsReview" && o.parsedValue === true);
+    expect(cleared.map((o) => o.id).sort()).toEqual(["extra-channel", "rapid-reload"]);
   });
 });
 

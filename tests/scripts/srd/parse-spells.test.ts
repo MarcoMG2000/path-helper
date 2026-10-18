@@ -12,9 +12,11 @@ import {
   discoverSpells,
   extractCrbSpells,
   extractIndexDescriptions,
+  parseSchoolLine,
   parseSpellPage,
   parseSpells,
   spellPageUrl,
+  stripEmphasis,
   type SpellPageDeps,
 } from "../../../scripts/srd/parsers/spells";
 import {
@@ -578,5 +580,55 @@ describe("goldens de conjuros sobre las fixtures (R20)", () => {
   };
   it.each(Object.entries(files))("%s coincide con su golden", (id, [file, name]) => {
     expect(compareSpellToGolden(entryOf(file, name), goldens[id]!)).toEqual([]);
+  });
+});
+
+describe("línea School: subescuelas y descriptores (R101)", () => {
+  it("«[see text]» no es un descriptor: se omite y se marca", () => {
+    expect(parseSchoolLine("transmutation [see text]")).toMatchObject({
+      school: "transmutation",
+      descriptors: [],
+      seeText: true,
+    });
+    expect(
+      parseSchoolLine("conjuration (calling) [see text for lesser planar ally]"),
+    ).toMatchObject({ subschool: "calling", descriptors: [], seeText: true });
+  });
+
+  it("«[fire or cold]» son dos descriptores", () => {
+    expect(parseSchoolLine("evocation [fire or cold]").descriptors).toEqual(["fire", "cold"]);
+    expect(parseSchoolLine("evocation [cold, fire]").descriptors).toEqual(["cold", "fire"]);
+  });
+
+  it("«(calling or creation)» y «(figment, glamer)»: la primera subescuela y las demás aparte", () => {
+    expect(parseSchoolLine("conjuration (creation or calling)")).toMatchObject({
+      subschool: "creation",
+      additionalSubschools: ["calling"],
+    });
+    expect(parseSchoolLine("illusion (figment, glamer)")).toMatchObject({
+      subschool: "figment",
+      additionalSubschools: ["glamer"],
+    });
+    expect(parseSchoolLine("evocation")).toMatchObject({
+      subschool: undefined,
+      additionalSubschools: [],
+      descriptors: [],
+      seeText: false,
+    });
+  });
+
+  it("un descriptor o una subescuela fuera del catálogo del CRB detiene el parseo", () => {
+    expect(() => parseSchoolLine("evocation [fire or lightning]")).toThrow(
+      /descriptor desconocido/,
+    );
+    expect(() => parseSchoolLine("evocation (blasting)")).toThrow(/subescuela desconocida/);
+    expect(() => parseSchoolLine("sorcery")).toThrow(/escuela desconocida/);
+  });
+
+  it("las marcas de cursiva no entran en el texto literal de un campo", () => {
+    expect(stripEmphasis("V, S, M (a pinch of dust for *lower water* or *raise water*)")).toBe(
+      "V, S, M (a pinch of dust for lower water or raise water)",
+    );
+    expect(stripEmphasis("1d6 * level")).toBe("1d6 * level");
   });
 });

@@ -1385,9 +1385,9 @@
       "focus": false,
       "divineFocus": false,
       "xp": false,
-      "raw": "V, S, M (a tiny piece of matter of the same sort of item you plan to create with *major creation*)",
+      "raw": "V, S, M (a tiny piece of matter of the same sort of item you plan to create with major creation)",
       "details": {
-        "material": "a tiny piece of matter of the same sort of item you plan to create with *major creation*"
+        "material": "a tiny piece of matter of the same sort of item you plan to create with major creation"
       }
     },
     "range": {
@@ -2046,9 +2046,9 @@
       "focus": false,
       "divineFocus": false,
       "xp": false,
-      "raw": "V, S, M (a tiny piece of matter of the same sort of item you plan to create with *minor creation*)",
+      "raw": "V, S, M (a tiny piece of matter of the same sort of item you plan to create with minor creation)",
       "details": {
-        "material": "a tiny piece of matter of the same sort of item you plan to create with *minor creation*"
+        "material": "a tiny piece of matter of the same sort of item you plan to create with minor creation"
       }
     },
     "range": {
@@ -2389,7 +2389,10 @@
     "sourceRef": "PRPG Core Rulebook pg. 315",
     "book": "CRB",
     "school": "illusion",
-    "subschool": "figment-glamer",
+    "subschool": "figment",
+    "additionalSubschools": [
+      "glamer"
+    ],
     "descriptors": [],
     "levels": {
       "bard": 5,

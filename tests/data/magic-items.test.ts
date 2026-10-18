@@ -71,7 +71,10 @@ describe("magic-items reales: recuentos y procedencia (R63, R66, R67)", () => {
   it("R3/R7/R6: todo es del CRB y apunta a una página de AoN", () => {
     for (const item of items) {
       expect(item.book).toBe("CRB");
-      expect(item.sourceRef).toMatch(/^PRPG Core Rulebook pg\. \d+$/);
+      // golem-manuals: AoN da «pg. 1» (error de la fuente) y el PRD no numera páginas: sin página.
+      expect(item.sourceRef).toMatch(
+        item.id === "golem-manuals" ? /^PRPG Core Rulebook$/ : /^PRPG Core Rulebook pg\. \d+$/,
+      );
       expect(item.source).toMatch(/^https:\/\/aonprd\.com\/(Magic\w+Display|Rules)\.aspx\?/);
     }
   });

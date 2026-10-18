@@ -2514,9 +2514,9 @@
       "focus": false,
       "divineFocus": true,
       "xp": false,
-      "raw": "V, S, M/DF (a pinch of dust for *lower water* or a drop of water for *raise water*)",
+      "raw": "V, S, M/DF (a pinch of dust for lower water or a drop of water for raise water)",
       "details": {
-        "material": "a pinch of dust for *lower water* or a drop of water for *raise water*"
+        "material": "a pinch of dust for lower water or a drop of water for raise water"
       }
     },
     "range": {

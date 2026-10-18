@@ -678,7 +678,8 @@
     "book": "CRB",
     "school": "evocation",
     "descriptors": [
-      "fire-or-cold"
+      "fire",
+      "cold"
     ],
     "levels": {
       "sorcerer": 4,
@@ -696,9 +697,9 @@
       "focus": false,
       "divineFocus": false,
       "xp": false,
-      "raw": "V, S, M (phosphorus for the *warm shield*; a firefly or glowworm for the *chill shield*)",
+      "raw": "V, S, M (phosphorus for the warm shield; a firefly or glowworm for the chill shield)",
       "details": {
-        "material": "phosphorus for the *warm shield*; a firefly or glowworm for the *chill shield*"
+        "material": "phosphorus for the warm shield; a firefly or glowworm for the chill shield"
       }
     },
     "range": {

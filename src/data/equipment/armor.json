@@ -114,7 +114,7 @@
   {
     "id": "full-plate",
     "name": "Full plate",
-    "textEn": "**Cost** 1,500 gp **Weight** 50 lbs.\n**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -6\n**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.\n\nThis metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost of 200 to 800 (2d4 \u001f 100) gold pieces.",
+    "textEn": "**Cost** 1,500 gp **Weight** 50 lbs.\n**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -6\n**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.\n\nThis metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost of 200 to 800 (2d4 × 100) gold pieces.",
     "source": "https://aonprd.com/EquipmentArmorDisplay.aspx?ItemName=Full%20plate",
     "sourceRef": "PRPG Core Rulebook pg. 151",
     "book": "CRB",

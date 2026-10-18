@@ -351,8 +351,42 @@ function references(data: LoadedDataset): IntegrityIssue[] {
       }
     }
 
-    // R84: objetivos `skill.<id>`.
+    // R84: `functionsAs` apunta a habilidades de arma existentes (y no a sí misma).
+    const functionsAs = Array.isArray(entry["functionsAs"]) ? entry["functionsAs"] : [];
+    for (const target of functionsAs) {
+      if (typeof target !== "string") continue;
+      if (target === id || !byKindName.get("weapon-ability")?.has(target)) {
+        out.push(
+          issue(id, "magic.ref", `functionsAs: "${target}" no existe como weapon-ability (R84)`),
+        );
+      }
+    }
+
+    // R78: un critMultiplier ×3/×4 debe estar respaldado por el texto de la entrada.
+    const textEn = typeof entry["textEn"] === "string" ? entry["textEn"] : "";
     const variants = Array.isArray(entry["variants"]) ? entry["variants"] : [];
+    for (const variant of variants) {
+      const extra =
+        isRecord(variant) && Array.isArray(variant["extraDamage"]) ? variant["extraDamage"] : [];
+      for (const damage of extra) {
+        const multiplier = isRecord(damage) ? damage["critMultiplier"] : undefined;
+        if (
+          typeof multiplier === "number" &&
+          multiplier > 2 &&
+          !textEn.includes(`×${multiplier}`)
+        ) {
+          out.push(
+            issue(
+              id,
+              "magic.evidence",
+              `extraDamage: critMultiplier ×${multiplier} sin "×${multiplier}" en textEn (R78)`,
+            ),
+          );
+        }
+      }
+    }
+
+    // R84: objetivos `skill.<id>`.
     for (const variant of variants) {
       const effects =
         isRecord(variant) && Array.isArray(variant["effects"]) ? variant["effects"] : [];

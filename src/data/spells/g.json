@@ -70,7 +70,10 @@
     "sourceRef": "PRPG Core Rulebook pg. 287",
     "book": "CRB",
     "school": "conjuration",
-    "subschool": "creation-or-calling",
+    "subschool": "creation",
+    "additionalSubschools": [
+      "calling"
+    ],
     "descriptors": [],
     "levels": {
       "cleric": 9,

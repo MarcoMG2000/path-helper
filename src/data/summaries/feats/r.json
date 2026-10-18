@@ -1,6 +1,6 @@
 {
   "rapid-reload": {
-    "summaryEs": "Recargar tu tipo de arma elegido es una acción gratuita (ballesta de mano o ligera), de movimiento (pesada o arma de fuego a una mano) o estándar (arma de fuego a dos manos). Sigue provocando ataques de oportunidad.",
+    "summaryEs": "Elige un tipo de ballesta (de mano, ligera o pesada): recargarla pasa a ser acción gratuita (de mano o ligera) o de movimiento (pesada). Sigue provocando ataques de oportunidad. Con la de mano o ligera puedes disparar tantas veces en un ataque completo como con un arco.",
     "status": "draft"
   },
   "rapid-shot": {

@@ -533,5 +533,37 @@
       "fetchedAt": "2026-10-16T14:04:46.083Z"
     }
   ],
-  "expectedCount": 87
+  "expectedCount": 87,
+  "overridesApplied": [
+    {
+      "id": "blowgun-darts-10",
+      "field": "needsReview",
+      "parsedValue": null
+    },
+    {
+      "id": "ballista-light",
+      "field": "needsReview",
+      "parsedValue": null
+    },
+    {
+      "id": "catapult-heavy",
+      "field": "needsReview",
+      "parsedValue": null
+    },
+    {
+      "id": "catapult-light",
+      "field": "needsReview",
+      "parsedValue": null
+    },
+    {
+      "id": "ram-large",
+      "field": "needsReview",
+      "parsedValue": null
+    },
+    {
+      "id": "siege-tower-large",
+      "field": "needsReview",
+      "parsedValue": null
+    }
+  ]
 }

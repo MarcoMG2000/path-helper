@@ -27,7 +27,10 @@
 
 - **R5.** El `package.json` DEBE declarar los scripts `dev`, `build`, `test`, `test:int`,
   `lint` y `typecheck`.
-- **R6.** El `package.json` DEBE declarar `engines.node` igual a `>=22`.
+- **R6.** El `package.json` DEBE declarar `engines.node` igual a `>=22.13`.
+  _Enmienda (2026-10-18): antes `>=22`. Se sube a `>=22.13` porque `f1-auth-roles` usa `node:sqlite`,
+  que solo está disponible sin flag desde Node 22.13; el test `project/package-json.test.ts` y el
+  lock ya estaban alineados._
 - **R7.** El `package.json` DEBE declarar todas las `dependencies` y `devDependencies`
   con versiones exactas (sin `^`, `~`, rangos, `*`, `latest` ni etiquetas).
 - **R8.** El repositorio DEBE incluir `package-lock.json` versionado (no ignorado por git).

@@ -1789,7 +1789,7 @@
   {
     "id": "clear-spindle-normal-ioun-stone",
     "name": "Clear Spindle (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 4,000 gp; **Weight** —\n\n**Description**\n\nSustains creature without food or water.\n\n**Resonance**\n\nThe wearer can cast *protection from chaos/evil/good/law* on himself once per day (CL 12th). He can activate this ability as an immediate action, but doing so drains the ioun stone of its magic, turning it into a dull gray ioun stone.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 2,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 4,000 gp; **Weight** —\n\n**Description**\n\nSustains creature without food or water.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 2,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Clear%20Spindle",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -1817,8 +1817,7 @@
         "effects": [],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "cloak-of-arachnida",
@@ -2417,7 +2416,7 @@
   {
     "id": "dark-blue-rhomboid-normal-ioun-stone",
     "name": "Dark Blue Rhomboid (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 10,000 gp; **Weight** —\n\n**Description**\n\nAlertness (as the feat).\n\n**Resonance**\n\nThe wearer no longer takes penalties on Perception checks for being distracted or asleep; while asleep, the wearer can remain open-eyed and fully aware of his environment, though he is still helpless against undetected threats until he actually wakes up.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 5,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 10,000 gp; **Weight** —\n\n**Description**\n\nAlertness (as the feat).\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 5,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Dark%20Blue%20Rhomboid",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -2445,8 +2444,7 @@
         "effects": [],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "darkskull",
@@ -2547,7 +2545,7 @@
   {
     "id": "deep-red-sphere-normal-ioun-stone",
     "name": "Deep Red Sphere (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\n+2 enhancement bonus to Dexterity.\n\n**Resonance**\n\nImproved Unarmed Strike.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 4,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\n+2 enhancement bonus to Dexterity.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 4,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Deep%20Red%20Sphere",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -2584,8 +2582,7 @@
         ],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "dimensional-shackles",
@@ -2846,7 +2843,7 @@
   {
     "id": "dusty-rose-prism-normal-ioun-stone",
     "name": "Dusty Rose Prism (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 5,000 gp; **Weight** —\n\n**Description**\n\n+1 insight bonus to AC.\n\n**Resonance**\n\n+1 insight bonus on combat maneuver checks.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 2,500 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 5,000 gp; **Weight** —\n\n**Description**\n\n+1 insight bonus to AC.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 2,500 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Dusty%20Rose%20Prism",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -2883,8 +2880,7 @@
         ],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "efficient-quiver",
@@ -3386,17 +3382,17 @@
   {
     "id": "feather-tokens",
     "name": "Feather Tokens",
-    "textEn": "**Aura** varies; **CL** varies; **Slot** —; **Price** 50 gp (Anchor), 150 gp (Lance), 200 gp (Fan), 200 gp (Sky Hook), 300 gp (Bird), 400 gp (Catapult), 400 gp (Tree), 450 gp (Floating Feather), 450 gp (Swan Boat), 500 gp (Campsite), 500 gp (Ram), 500 gp (Whip), 600 gp (Tar and Feathers), 1,000 gp (Siege Tower); **Weight** 1 lb.\n\n**Description**\n\nEach of these items is a small feather that has a power to suit a special need. The kinds of tokens are described below. Each token is usable once. A particular feather token has no specific features to identify it unless its magic aura is viewed—even tokens with identical powers can be wildly different in appearance.\n\n*Anchor*: A token that creates an anchor that moors a craft in water so as to render it immobile for up to 1 day.\n\n*Lance*: This token turns into a white-plumed *+1 lance* for 1 minute. This token is often used when carrying a large weapon is illegal or impractical.\n\n*Fan*: A token that forms a huge flapping fan, causing a breeze of sufficient strength to propel one ship (about 25 mph). This wind is not cumulative with existing wind speed. The token can, however, be used to lessen existing winds, creating an area of relative calm or lighter winds (but wave size in a storm is not affected). The fan can be used for up to 8 hours. It does not function on land.\n\n*Sky Hook*: This token transforms into a huge disembodied eagle’s talon (hardness 5, hp 25) anchored wherever you activate it. The talon can support up to 1,000 pounds and persists for 1 day. The talon can be moved up to 10 feet with a DC 20 Strength check.\n\n*Bird*: A token that creates a small bird that can be used to deliver a small written message unerringly to a designated target. The token lasts as long as it takes to carry the message.\n\n*Catapult*: This token creates a standard catapult (*Ultimate Combat* 161). The catapult disappears after 12 hours.\n\n*Tree*: A token that causes a great oak to spring into being (5-foot-diameter trunk, 60-foot height, 40-foot top diameter). This is an instantaneous effect.\n\n*Floating Feather*: This token can be attached to any creature up to 200 pounds, causing a pair of large wings to grow from the target and allowing her to fly (speed 30, average maneuverability) for 1 minute. The token can be attached to an object of up to 200 pounds, which flies straight in a direction indicated by the creature who activates the feather unless the activator uses a move action to redirect its movement. The wings persist for 1 minute.\n\n*Swan Boat*: A token that forms a swan-like boat capable of moving on water at a speed of 60 feet. It can carry eight horses and gear, 32 Medium characters, or any equivalent combination. The boat lasts for 1 day.\n\n*Campsite*: This feather token can be used only once. It creates a fully functional campsite, including a tent suitable to house six Medium creatures, a campfire with enough dry wood to burn for 24 hours, a modest wooden table with two benches suitable to seat three people each, and a hitching post for up to six steeds. The campsite remains for up to 24 hours before disappearing, leaving no trace except footsteps and refuse left behind by those using the site.\n\n*Ram*: This token creates a Huge ram (*Ultimate Combat* 165). The ram disappears after 24 hours.\n\n*Whip*: A token that forms into a huge leather whip and wields itself against any opponent desired just like a *dancing* weapon. The weapon has a +10 base attack bonus, does 1d6+1 points of nonlethal damage, has a +1 enhancement bonus on attack and damage rolls, and a makes a free grapple attack (with a +15 bonus on its combat maneuver checks) if it hits. The whip lasts no longer than 1 hour.\n\n*Tar and Feathers*: This token can be directed to float to any point within 60 feet and then burst into a mass of sticky white feathers that adheres to all creatures in a 10-foot radius. The clinging feathers affect creatures in the area as a *glitterdust* spell.\n\n*Siege Tower*: This token creates a Huge siege tower (*Ultimate Combat* 165). The tower disappears after 1 hour.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *major creation*; **Cost** 25 gp (Anchor), 75 gp (Lance), 100 gp (Fan), 100 gp (Sky Hook), 150 gp (Bird), 200 gp (Catapult), 200 gp (Tree), 225 gp (Floating Feather), 225 gp (Swan Boat), 250 gp (Campsite), 250 gp (Ram), 250 gp (Whip), 300 gp (Tar and Feathers), 500 gp (Siege Tower)",
+    "textEn": "**Aura** strong conjuration; **CL** 12th; **Slot** none; **Price** 50 gp (anchor), 300 gp (bird), 200 gp (fan), 450 gp (swan boat), 400 gp (tree), 500 gp (whip); **Weight** —\n\n**Description**\n\nEach of these items is a small feather that has a power to suit a special need. The kinds of tokens are described below. Each token is usable once. A particular feather token has no specific features to identify it unless its magic aura is viewed—even tokens with identical powers can be wildly different in appearance.\n\n*Anchor*: A token that creates an anchor that moors a craft in water so as to render it immobile for up to 1 day.\n\n*Bird*: A token that creates a small bird that can be used to deliver a small written message unerringly to a designated target. The token lasts as long as it takes to carry the message.\n\n*Fan*: A token that forms a huge flapping fan, causing a breeze of sufficient strength to propel one ship (about 25 mph). This wind is not cumulative with existing wind speed. The token can, however, be used to lessen existing winds, creating an area of relative calm or lighter winds (but wave size in a storm is not affected). The fan can be used for up to 8 hours. It does not function on land.\n\n*Swan Boat*: A token that forms a swan-like boat capable of moving on water at a speed of 60 feet. It can carry eight horses and gear, 32 Medium characters, or any equivalent combination. The boat lasts for 1 day.\n\n*Tree*: A token that causes a great oak to spring into being (5-foot-diameter trunk, 60-foot height, 40-foot top diameter). This is an instantaneous effect.\n\n*Whip*: A token that forms into a huge leather whip and wields itself against any opponent desired just like a *dancing weapon*. The weapon has a +10 base attack bonus, does 1d6+1 points of nonlethal damage, has a +1 enhancement bonus on attack and damage rolls, and a makes a free grapple attack (with a +15 bonus on its combat maneuver checks) if it hits. The whip lasts no longer than 1 hour.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *major creation*; **Cost** 25 gp (anchor), 150 gp (bird), 100 gp (fan), 225 gp (swan boat), 200 gp (tree), 250 gp (whip)",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Feather%20TokenAnchor",
     "sourceRef": "PRPG Core Rulebook pg. 512",
     "book": "CRB",
     "kind": "wondrous",
-    "slot": "—",
-    "aura": "varies",
-    "weightLb": 1,
+    "slot": "none",
+    "aura": "strong conjuration",
+    "weightLb": null,
     "construction": {
       "requirements": "Craft Wondrous Item, major creation",
-      "costRaw": "25 gp (Anchor), 75 gp (Lance), 100 gp (Fan), 100 gp (Sky Hook), 150 gp (Bird), 200 gp (Catapult), 200 gp (Tree), 225 gp (Floating Feather), 225 gp (Swan Boat), 250 gp (Campsite), 250 gp (Ram), 250 gp (Whip), 300 gp (Tar and Feathers), 500 gp (Siege Tower)",
+      "costRaw": "25 gp (anchor), 150 gp (bird), 100 gp (fan), 225 gp (swan boat), 200 gp (tree), 250 gp (whip)",
       "costCp": null
     },
     "sourceRefAll": "Ultimate Equipment pg. 297, PRPG Core Rulebook pg. 512, Andoran, Spirit of Liberty pg. 26, Inner Sea Combat pg. 59, Pathfinder Society Primer pg. 24",
@@ -3410,126 +3406,54 @@
       {
         "variantId": "anchor",
         "label": "Anchor",
-        "casterLevel": null,
-        "priceRaw": "50 gp (Anchor)",
+        "casterLevel": 12,
+        "priceRaw": "50 gp (anchor)",
         "priceCp": 5000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "lance",
-        "label": "Lance",
-        "casterLevel": null,
-        "priceRaw": "150 gp (Lance)",
-        "priceCp": 15000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "fan",
-        "label": "Fan",
-        "casterLevel": null,
-        "priceRaw": "200 gp (Fan)",
-        "priceCp": 20000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "sky-hook",
-        "label": "Sky Hook",
-        "casterLevel": null,
-        "priceRaw": "200 gp (Sky Hook)",
-        "priceCp": 20000,
         "effects": [],
         "extraDamage": []
       },
       {
         "variantId": "bird",
         "label": "Bird",
-        "casterLevel": null,
-        "priceRaw": "300 gp (Bird)",
+        "casterLevel": 12,
+        "priceRaw": "300 gp (bird)",
         "priceCp": 30000,
         "effects": [],
         "extraDamage": []
       },
       {
-        "variantId": "catapult",
-        "label": "Catapult",
-        "casterLevel": null,
-        "priceRaw": "400 gp (Catapult)",
-        "priceCp": 40000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "tree",
-        "label": "Tree",
-        "casterLevel": null,
-        "priceRaw": "400 gp (Tree)",
-        "priceCp": 40000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "floating-feather",
-        "label": "Floating Feather",
-        "casterLevel": null,
-        "priceRaw": "450 gp (Floating Feather)",
-        "priceCp": 45000,
+        "variantId": "fan",
+        "label": "Fan",
+        "casterLevel": 12,
+        "priceRaw": "200 gp (fan)",
+        "priceCp": 20000,
         "effects": [],
         "extraDamage": []
       },
       {
         "variantId": "swan-boat",
         "label": "Swan Boat",
-        "casterLevel": null,
-        "priceRaw": "450 gp (Swan Boat)",
+        "casterLevel": 12,
+        "priceRaw": "450 gp (swan boat)",
         "priceCp": 45000,
         "effects": [],
         "extraDamage": []
       },
       {
-        "variantId": "campsite",
-        "label": "Campsite",
-        "casterLevel": null,
-        "priceRaw": "500 gp (Campsite)",
-        "priceCp": 50000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "ram",
-        "label": "Ram",
-        "casterLevel": null,
-        "priceRaw": "500 gp (Ram)",
-        "priceCp": 50000,
+        "variantId": "tree",
+        "label": "Tree",
+        "casterLevel": 12,
+        "priceRaw": "400 gp (tree)",
+        "priceCp": 40000,
         "effects": [],
         "extraDamage": []
       },
       {
         "variantId": "whip",
         "label": "Whip",
-        "casterLevel": null,
-        "priceRaw": "500 gp (Whip)",
+        "casterLevel": 12,
+        "priceRaw": "500 gp (whip)",
         "priceCp": 50000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "tar-and-feathers",
-        "label": "Tar and Feathers",
-        "casterLevel": null,
-        "priceRaw": "600 gp (Tar and Feathers)",
-        "priceCp": 60000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "siege-tower",
-        "label": "Siege Tower",
-        "casterLevel": null,
-        "priceRaw": "1,000 gp (Siege Tower)",
-        "priceCp": 100000,
         "effects": [],
         "extraDamage": []
       }
@@ -3538,7 +3462,7 @@
   {
     "id": "figurines-of-wondrous-power",
     "name": "Figurines of Wondrous Power",
-    "textEn": "**Aura** varies; **CL** varies; **Slot** none; **Price** 3,800 gp (Silver Raven), 6,000 gp (Coral Hippocampus), 7,000 gp (Emerald Frog), 7,500 gp (Lapis Camel), 7,600 gp (Pearl Dolphin), 9,000 gp (Ruby Butterfly), 9,100 gp (Black Jade Raven), 9,100 gp (Serpentine Eagle), 9,100 gp (Serpentine Owl), 10,000 gp (Bronze Griffon), 10,000 gp (Ebony Fly), 10,000 gp (Hematite Courgar), 10,000 gp (Slate Spider), 13,000 gp (Tin Imp), 14,000 gp (Glass Walrus), 15,000 gp (Obsidian Raven), 15,500 gp (Onyx Dog), 16,500 gp (Golden Lions), 17,000 gp (Marble Elephant), 21,000 gp (Ivory Goats), 28,500 gp (Obsidian Steed), 60,000 gp (Basalt Dragon); **Weight** 1 lb.\n\n**Description**\n\nEach of the several kinds of *figurines of wondrous power* appears to be a miniature statuette of a creature an inch or so high (with one exception). When the figurine is tossed down and the correct command word spoken, it becomes a living creature of normal size (except when noted otherwise below). The creature obeys and serves its owner. Unless stated otherwise, the creature understands Common but does not speak.\n\nIf a *figurine of wondrous power* is broken or destroyed in its statuette form, it is forever ruined. All magic is lost, its power departed. If slain in animal form, the figurine simply reverts to a statuette that can be used again at a later time.\n\n**Silver Raven**: This silver figurine turns into a raven on command (but it retains its metallic consistency, which gives it hardness 10). Another command sends it off into the air, bearing a message just like a creature affected by an *animal messenger* spell. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special powers or telepathic abilities. It can maintain its nonfigurine status for only 24 hours per week, but the duration need not be continuous.; CL 6th; Craft Wondrous Item, *animal messenger*, *animate objects*.\n\n**Coral Hippocampus**: When animated, this *figurine of wondrous* power (*Core Rulebook* 513) acts in all ways like a normal combat-trained hippocampus (*Bestiary 2* 155). The item can be used three times per week for up to 12 hours per use. When 12 hours have passed or when the command word is spoken, the coral hippocampus again becomes a tiny statuette.; CL 19th; Craft Wondrous Item, *animate objects*.\n\n**Emerald Frog**: This *figurine of wondrous power* appears as a small, innocuous frog carved of cloudy emerald. On command, it transforms into either a giant frog with the advanced template or 3 poisonous frogs—the user makes this choice at the time of activation. The frog (or frogs) can be animated up to 3 times per week, for a maximum total duration of 12 hours per week. If the advanced giant frog is slain, the *emerald frog* cannot be activated again for 1 full week. Each poisonous frog that is slain in combat reduces the total duration that the figurine can be activated for the week by 4 hours.\n\nEither the giant frog or the poisonous frogs can be used as combatants or as small, unintelligent servant-creatures, performing minor tasks or fetching small objects. The giant frog can be used by Small or smaller creatures as a makeshift mount, although it is not equipped with a saddle or similar equipment, and its slick hide imposes an additional –4 penalty on Ride attempts.; CL 8th; Craft Wondrous Item, *animate objects*.\n\n**Lapis Camel**: This palm-sized camel figurine is sculpted of lapis lazuli. When you throw the *lapis camel* to the ground and speak the command word, it turns into a dromedary camel. The camel acts as a normal camel in all respects, except that it obeys your verbal commands to the best of its animal-level intelligence. At your command, the camel returns to its figurine form. The *lapis camel* can be used up to 3 times per week for up 8 hours each use.; CL 11th; Craft Wondrous Item, *animate object*.\n\n**Pearl Dolphin**: This 2-inch-long pearl figurine turns into a dolphin on command (but it retains its composition, which gives it hardness 10). The dolphin follows the verbal commands of the creature who spoke the command word and will follow commands as a summoned creature. With a second command word, the dolphin will swim to an indicated location at double its swim speed, bearing a message just like a creature affected by an *animal messenger* spell.\n\nThe *pearl dolphin* can maintain its nonfigurine status for only 24 hours per week. The duration need not be continuous, but it must be used in 1-hour increments.; CL 11th; Craft Wondrous Item, *animal messenger*, *animate objects*.\n\n**Ruby Butterfly**: Upon command, this *figurine of wondrous power* transforms into a hand-sized red butterfly (same statistics as a bat). A spellcaster can use a ruby butterfly to deliver touch spells, as if the *ruby butterfly* were a familiar capable of this ability. A ruby butterfly can also be commanded to guard its owner while he sleeps. Creatures protected this way gain a +5 luck bonus on saving throws against any spell or effect that affects sleeping creatures’ dreams (such as *nightmare* or a night hag’s dream haunting ability). A ruby butterfly can be used three times per week for up to 8 hours at a time.; CL 9th; Craft Wondrous Item, *animate object*, *dream*.\n\n**Black Jade Raven**: This fist-sized piece of black jade is exquisitely tooled into the shape of a raven with outstretched wings. Upon command, it transforms into a black raven (use the stats for an eagle) or a giant black raven (use the stats for a giant eagle). Both forms of the raven have Improved Steal as a bonus feat. The raven understands Common but cannot speak. It can answer questions related to its abilities or what it has seen by cawing once for \"yes\" and twice for \"no.\"\n\nThe raven can maintain its non-figurine status for only 24 hours per week. This duration need not be continuous, but it must be used in 1-hour increments. After three transformations into its giant raven form (though not its smaller version), the statuette loses all magical properties. ; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Serpentine Eagle**: This Andoren variant of the *serpentine owl* can be transformed into an eagle or giant eagle but is otherwise identical to the owl figurine. *Serpentine eagles* are popular among Eagle Knights for scouting and emergency transportation.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Serpentine Owl**: This figurine becomes either a normal-sized horned owl or a giant owl (use the stats for the giant eagle) according to the command word used. The transformation can take place once per day, with a maximum duration of 8 continuous hours. However, after three transformations into giant owl form, the statuette loses all its magical properties. The owl communicates with its owner by telepathic means, informing her of all it sees and hears.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Bronze Griffon**: When animated, a bronze griffon acts in all ways like a normal griffon under the command of its possessor. The item can be used twice per week for up to 6 hours per use. When 6 hours have passed or when the command word is spoken, the bronze griffon once again becomes a tiny statuette.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Ebony Fly**: When animated, an ebony fly is the size of a pony and has all the statistics of a pegasus but can make no attacks. The item can be used three times per week for up to 12 hours per use. When 12 hours have passed or when the command word is spoken, the ebony fly again becomes a tiny statuette.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Hematite Courgar**: This palm-sized figurine of a cat with a spiked tail is made of gleaming hematite. A hematite cougar turns into a digmaul (*Pathfinder RPG Bestiary 5* 82) that is fully obedient to the figurine’s owner. Even in its animated form, the hematite cougar is made of dense metal, granting it a +2 armor bonus to AC and a +2 bonus to its CMD. An animated hematite cougar conducts low levels of electricity; creatures adjacent to the hematite cougar gain electricity resistance 2, but any damage prevented by this ability is dealt to the hematite cougar instead. A hematite cougar can be animated twice per week for up to 8 hours per use; speaking the command word before the 8 hours expires returns the hematite cougar to a figurine.; CL 11th; Craft Wondrous Item, *animate objects*, *resist energy*.\n\n**Slate Spider**: This statuette of a spider with stubby legs can be used once per day for 1 minute. When activated, the figurine sprouts longer, segmented legs, and scampers about the bearer, picking lint off robes, chiseling grime from armor, or otherwise grooming the bearer. If commanded to do so (a free action), it perches on the muzzle of a one-handed or two-handed firearm barrel and, after the firearm is fired, travels down the barrel and cleans out the firearm. Each time the slate spider cleans a firearm, the next shot the firearm fires has no chance of misfiring.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Tin Imp**: These fat, smirking imp figurines are made of solid tin. A *tin imp* turns into an imp (*Pathfinder RPG Bestiary* 78) on command, though it retains its metallic consistency, which gives it a +4 armor bonus to AC. In imp form, a *tin imp* can turn invisible at will as a swift action, though it retains none of an imp’s other spelllike abilities and lacks a poisoned sting. *Tin imps* generally avoid combat, but make excellent spies and trackers.\n\nThe *tin imp’s* owner can, as a move action, designate a single creature in his line of sight as the *tin imp’s* quarry. The *tin imp* then follows its quarry clandestinely, and sends a whispered message to its owner once each hour detailing the quarry’s location and activities. The message is similar to the *whispering wind* spell, though the message unerringly locates the *tin imp’s* owner instead of moving to a predetermined location. A *tin imp* can maintain its animate status for up to 48 hours per week. This duration doesn’t need to be continuous, but must be used in 1-hour increments. If slain in combat, a *tin imp* is destroyed.\n\nAdditionally, a creature with the track class feature can command a *tin imp* he owns to study a set of footprints (a standard action) and designate the creature that made the footprints as its quarry. The *tin imp* can then attempt to track the creature as if its owner was tracking it, using the owner’s Perception and Survival skill (and any tracking bonuses).; CL 11th; Craft Wondrous Item, *animate objects*, *invisibility*, *whispering wind*.\n\n**Glass Walrus**: This *figurine of wondrous power* is shaped like a walrus and is carved out of a prismatic crystal. It follows all the normal rules for *figurines of wondrous power* (*Pathfinder RPG Core Rulebook* 513). When animated, a glass walrus acts in all ways like a normal walrus (see page 29) except it can glide along the surface of water as though under the constant effects of *water walk*. Up to two Medium creatures or four Small creatures can fit on a glass walrus’s back as the creature glides across water (the walrus moves at half speed while carrying creatures), and the walrus can carry up to 600 pounds in this way before it becomes too encumbered to move. A glass walrus can be used twice per week for up to 6 hours per use. When 6 hours have passed or when the command word is spoken, the glass walrus again becomes a tiny statuette.; CL 11th; Craft Wondrous Item, *animate objects*, *water walk*.\n\n**Obsidian Raven**: This *figurine of wondrous power* is similar to a *silver raven*, but it can be used to send messages across the planes. On command, the figurine turns into a raven (retaining its stone-like consistency, which gives it hardness 8). Another command sends it off into the air, bearing a message as the *sending* spell (with no chance of the message not arriving). The recipient of the message can then use the *obsidian raven* to *plane shift* (self only) to the plane from which the message was sent. The figurine can be used in this way once per day. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special abilities, and it can maintain its non-figurine status for 24 hours per week (the duration need not be continuous).; CL 11th; Craft Wondrous Item, *animate objects*, *plane shift*, *sending*.\n\n**Onyx Dog**: When commanded, this statuette changes into a creature with the same properties as a riding dog except that it is endowed with an Intelligence of 8, can communicate in Common, and has exceptional olfactory and visual abilities. It has the scent ability and adds +4 on its Perception checks. It has 60-foot darkvision, and it can *see invisibility*. An onyx dog can be used once per week for up to 6 hours. It obeys only its owner.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Golden Lions**: These figurines come in pairs. They become normal adult male lions. If slain in combat, the lions cannot be brought back from statuette form for 1 full week. Otherwise, they can be used once per day for up to 1 hour. They enlarge and shrink upon speaking the command word.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Marble Elephant**: This is the largest of the figurines, the statuette being about the size of a human hand. Upon utterance of the command word, a marble elephant grows to the size and specifications of a true elephant. The animal created from the statuette is fully obedient to the figurine’s owner, serving as a beast of burden, a mount, or a combatant. The statuette can be used four times per month for up to 24 hours at a time.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Ivory Goats**: These figurines come in threes. Each goat of this trio looks slightly different from the others, and each has a different function:\n\n- *The Goat of Traveling*: This statuette provides a speedy and enduring mount equal to that of a heavy horse in every way except appearance. The goat can travel for a maximum of 1 day each week—continuously or in any combination of periods totaling 24 hours. At this point, or when the command word is uttered, it returns to its statuette form for no less than 1 day before it can again be used.\n- *The Goat of Travail*: This statuette becomes an enormous creature, larger than a bull, with the statistics of a nightmare except for the addition of a pair of wicked horns of exceptional size (damage 1d8+4 for each horn). If it is charging to attack, it may only use its horns (but add 6 points of damage to each successful attack in that round). It can be called to life just once per month for up to 12 hours at a time.\n- *The Goat of Terror*: When called upon with the proper command word, this statuette becomes a destrier-like mount with the statistics of a light horse. However, its rider can employ the goat’s horns as weapons (one horn as a *+3 heavy lance*, the other as a *+5 longsword*). When ridden in an attack against an opponent, the goat of terror radiates fear as the spell in a 30-foot radius (Will DC 16 partial). It can be used once every 2 weeks for up to 3 hours per use.\n\n; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Obsidian Steed**: This figurine appears to be a small, shapeless lump of black stone. Only careful inspection reveals that it vaguely resembles some form of quadruped. On command, the near-formless piece of obsidian becomes a fantastic mount. Treat it as a heavy horse with the following additional powers usable once per round at will: *overland flight*, *plane shift*, and *ethereal jaunt*. The steed allows itself to be ridden, but if the rider is of good alignment, the steed is 10% likely per use to carry him to the lower planes and then return to its statuette form. The statuette can be used once per week for one continuous period of up to 24 hours. Note that when an obsidian steed becomes ethereal or plane shifts, its rider and his gear follow suit. Thus, the user can travel to other planes via this means.; CL 15th; Craft Wondrous Item, *animate objects*, *etherealness*, *fly*, *plane shift*.\n\n**Basalt Dragon**: This fist-sized, carved dragon is sculpted from volcanic rock. It becomes either a pseudodragon or a flame drake (*Pathfinder RPG Bestiary 2* 106), depending on the command word used. The transformation can take place twice per day, with a maximum duration of 2 continuous hours. The pseudodragon can use its telepathy to communicate with its owner over any distance, but not across planes.\n\nBy expending one use of mythic power, the user of the figurine can instead transform the figurine into a young red dragon. If the user is at least 5th tier, she can instead expend two uses of mythic power to transform the figurine into an adult red dragon. If the user is at least 9th tier, she can instead expend four uses of mythic power to transform the figurine into an ancient red dragon. Transforming the figurine into a true dragon renders the figurine powerless for 1 week after the transformation ends.; CL 20th; Craft Wondrous Item, Mythic Crafter, animate objects, *form of the dragon III*, *telepathic bond*.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *animate objects*, additional spells, see text; **Cost** 1,900 gp (Silver Raven), 3,000 gp (Coral Hippocampus), 3,500 gp (Emerald Frog), 3,750 gp, 300 XP (Lapis Camel), 3,800 gp (Pearl Dolphin), 4,500 gp (Ruby Butterfly), 4,550 gp (Black Jade Raven), 4,550 gp (Serpentine Eagle), 4,550 gp (Serpentine Owl), 5,000 gp (Bronze Griffon), 5,000 gp (Ebony Fly), 5,000 gp (Hematite Courgar), 5,000 gp (Slate Spider), 6,500 gp (Tin Imp), 7,000 gp (Glass Walrus), 7,500 gp (Obsidian Raven), 7,750 gp (Onyx Dog), 8,250 gp (Golden Lions), 8,500 gp (Marble Elephant), 10,500 gp (Ivory Goats), 14,250 gp (Obsidian Steed), 30,000 gp (Basalt Dragon)",
+    "textEn": "**Aura** varies; **CL** varies; **Slot** none; **Price** 10,000 gp (bronze griffon), 10,000 gp (ebony fly), 16,500 gp (golden lions), 21,000 gp (ivory goats), 17,000 gp (marble elephant), 28,500 gp (obsidian steed), 15,500 gp (onyx dog), 9,100 gp (serpentine owl), 3,800 gp (silver raven); **Weight** 1 lb.\n\n**Description**\n\nEach of the several kinds of *figurines of wondrous power* appears to be a miniature statuette of a creature an inch or so high (with one exception). When the figurine is tossed down and the correct command word spoken, it becomes a living creature of normal size (except when noted otherwise below). The creature obeys and serves its owner. Unless stated otherwise, the creature understands Common but does not speak.\n\nIf a *figurine of wondrous power* is broken or destroyed in its statuette form, it is forever ruined. All magic is lost, its power departed. If slain in animal form, the figurine simply reverts to a statuette that can be used again at a later time.\n\n**Bronze Griffon**: When animated, a bronze griffon acts in all ways like a normal griffon under the command of its possessor. The item can be used twice per week for up to 6 hours per use. When 6 hours have passed or when the command word is spoken, the bronze griffon once again becomes a tiny statuette. Moderate transmutation; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Ebony Fly**: When animated, an ebony fly is the size of a pony and has all the statistics of a pegasus but can make no attacks. The item can be used three times per week for up to 12 hours per use. When 12 hours have passed or when the command word is spoken, the ebony fly again becomes a tiny statuette. Moderate transmutation; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Golden Lions**: These figurines come in pairs. They become normal adult male lions. If slain in combat, the lions cannot be brought back from statuette form for 1 full week. Otherwise, they can be used once per day for up to 1 hour. They enlarge and shrink upon speaking the command word. Moderate transmutation; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Ivory Goats**: These figurines come in threes. Each goat of this trio looks slightly different from the others, and each has a different function:\n\n- *The Goat of Traveling*: This statuette provides a speedy and enduring mount equal to that of a heavy horse in every way except appearance. The goat can travel for a maximum of 1 day each week—continuously or in any combination of periods totaling 24 hours. At this point, or when the command word is uttered, it returns to its statuette form for no less than 1 day before it can again be used.\n- *The Goat of Travail*: This statuette becomes an enormous creature, larger than a bull, with the statistics of a nightmare except for the addition of a pair of wicked horns of exceptional size (damage 1d8+4 for each horn). If it is charging to attack, it may only use its horns (but add 6 points of damage to each successful attack in that round). It can be called to life just once per month for up to 12 hours at a time.\n- *The Goat of Terror*: When called upon with the proper command word, this statuette becomes a destrier-like mount with the statistics of a light horse. However, its rider can employ the goat's horns as weapons (one horn as a *+3 heavy lance,* the other as a *+5 longsword*). When ridden in an attack against an opponent, the goat of terror radiates *fear* as the spell in a 30-foot radius (Will DC 16 partial). It can be used once every 2 weeks for up to 3 hours per use. Moderate transmutation; CL 11th; Craft Wondrous Item*, animate objects*.\n\n**Marble Elephant**: This is the largest of the figurines, the statuette being about the size of a human hand. Upon utterance of the command word, a marble elephant grows to the size and specifications of a true elephant. The animal created from the statuette is fully obedient to the figurine's owner, serving as a beast of burden, a mount, or a combatant. The statuette can be used four times per month for up to 24 hours at a time. Moderate transmutation; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Obsidian Steed**: This figurine appears to be a small, shapeless lump of black stone. Only careful inspection reveals that it vaguely resembles some form of quadruped. On command, the near-formless piece of obsidian becomes a fantastic mount. Treat it as a heavy horse with the following additional powers usable once per round at will: *overland flight, plane shift,* and *ethereal jaunt.* The steed allows itself to be ridden, but if the rider is of good alignment, the steed is 10% likely per use to carry him to the lower planes and then return to its statuette form. The statuette can be used once per week for one continuous period of up to 24 hours. Note that when an obsidian steed becomes ethereal or plane shifts, its rider and his gear follow suit. Thus, the user can travel to other planes via this means. Strong conjuration and transmutation; CL 15th; Craft Wondrous Item, *animate objects, etherealness, fly, plane shift*.\n\n**Onyx Dog**: When commanded, this statuette changes into a creature with the same properties as a riding dog except that it is endowed with an Intelligence of 8, can communicate in Common, and has exceptional olfactory and visual abilities. It has the scent ability and adds +4 on its Perception checks. It has 60-foot darkvision, and it can *see invisibility*. An onyx dog can be used once per week for up to 6 hours. It obeys only its owner. Moderate transmutation; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Serpentine Owl**: This figurine becomes either a normal-sized horned owl or a giant owl (use the stats for the giant eagle) according to the command word used. The transformation can take place once per day, with a maximum duration of 8 continuous hours. However, after three transformations into giant owl form, the statuette loses all its magical properties. The owl communicates with its owner by telepathic means, informing her of all it sees and hears. Moderate transmutation; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Silver Raven**: This silver figurine turns into a raven on command (but it retains its metallic consistency, which gives it hardness 10). Another command sends it off into the air, bearing a message just like a creature affected by an *animal messenger* spell. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special powers or telepathic abilities. It can maintain its nonfigurine status for only 24 hours per week, but the duration need not be continuous. Moderate enchantment and transmutation; CL 6th; Craft Wondrous Item, *animal messenger, animate objects*.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *animate objects,* additional spells, see text; **Cost** 5,000 gp (bronze griffon), 5,000 gp (ebony fly), 8,250 gp (golden lions), 10,500 gp (ivory goats), 8,500 gp (marble elephant), 14,250 gp (obsidian steed), 7,750 gp (onyx dog), 4,550 gp (serpentine owl), 1,900 gp (silver raven)",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Figurine%20of%20Wondrous%20PowerBronze%20Griffon",
     "sourceRef": "PRPG Core Rulebook pg. 513",
     "book": "CRB",
@@ -3548,7 +3472,7 @@
     "weightLb": 1,
     "construction": {
       "requirements": "Craft Wondrous Item, animate objects, additional spells, see text",
-      "costRaw": "1,900 gp (Silver Raven), 3,000 gp (Coral Hippocampus), 3,500 gp (Emerald Frog), 3,750 gp, 300 XP (Lapis Camel), 3,800 gp (Pearl Dolphin), 4,500 gp (Ruby Butterfly), 4,550 gp (Black Jade Raven), 4,550 gp (Serpentine Eagle), 4,550 gp (Serpentine Owl), 5,000 gp (Bronze Griffon), 5,000 gp (Ebony Fly), 5,000 gp (Hematite Courgar), 5,000 gp (Slate Spider), 6,500 gp (Tin Imp), 7,000 gp (Glass Walrus), 7,500 gp (Obsidian Raven), 7,750 gp (Onyx Dog), 8,250 gp (Golden Lions), 8,500 gp (Marble Elephant), 10,500 gp (Ivory Goats), 14,250 gp (Obsidian Steed), 30,000 gp (Basalt Dragon)",
+      "costRaw": "5,000 gp (bronze griffon), 5,000 gp (ebony fly), 8,250 gp (golden lions), 10,500 gp (ivory goats), 8,500 gp (marble elephant), 14,250 gp (obsidian steed), 7,750 gp (onyx dog), 4,550 gp (serpentine owl), 1,900 gp (silver raven)",
       "costCp": null
     },
     "sourceRefAll": "Ultimate Equipment pg. 297, PRPG Core Rulebook pg. 513, Aquatic Adventures pg. 62, Pathfinder #34: Blood for Blood pg. 67, Legacy of Fire Player's Guide pg. 26, Pathfinder #122: Into the Shattered Continent pg. 33, Seers of the Drowned City pg. 54, Advanced Race Guide pg. 166, Andoran, Spirit of Liberty pg. 26, Elemental Master's Handbook pg. 10, Ultimate Equipment pg. 297, Ultimate Combat pg. 143, Advanced Class Guide pg. 236, Animal Archive pg. 27, Pathfinder #70: The Frozen Stars pg. 63, Mythic Adventures pg. 151",
@@ -3571,91 +3495,10 @@
     ],
     "variants": [
       {
-        "variantId": "silver-raven",
-        "label": "Silver Raven",
-        "casterLevel": null,
-        "priceRaw": "3,800 gp (Silver Raven)",
-        "priceCp": 380000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "coral-hippocampus",
-        "label": "Coral Hippocampus",
-        "casterLevel": null,
-        "priceRaw": "6,000 gp (Coral Hippocampus)",
-        "priceCp": 600000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "emerald-frog",
-        "label": "Emerald Frog",
-        "casterLevel": null,
-        "priceRaw": "7,000 gp (Emerald Frog)",
-        "priceCp": 700000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "lapis-camel",
-        "label": "Lapis Camel",
-        "casterLevel": null,
-        "priceRaw": "7,500 gp (Lapis Camel)",
-        "priceCp": 750000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "pearl-dolphin",
-        "label": "Pearl Dolphin",
-        "casterLevel": null,
-        "priceRaw": "7,600 gp (Pearl Dolphin)",
-        "priceCp": 760000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "ruby-butterfly",
-        "label": "Ruby Butterfly",
-        "casterLevel": null,
-        "priceRaw": "9,000 gp (Ruby Butterfly)",
-        "priceCp": 900000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "black-jade-raven",
-        "label": "Black Jade Raven",
-        "casterLevel": null,
-        "priceRaw": "9,100 gp (Black Jade Raven)",
-        "priceCp": 910000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "serpentine-eagle",
-        "label": "Serpentine Eagle",
-        "casterLevel": null,
-        "priceRaw": "9,100 gp (Serpentine Eagle)",
-        "priceCp": 910000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "serpentine-owl",
-        "label": "Serpentine Owl",
-        "casterLevel": null,
-        "priceRaw": "9,100 gp (Serpentine Owl)",
-        "priceCp": 910000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
         "variantId": "bronze-griffon",
         "label": "Bronze Griffon",
         "casterLevel": null,
-        "priceRaw": "10,000 gp (Bronze Griffon)",
+        "priceRaw": "10,000 gp (bronze griffon)",
         "priceCp": 1000000,
         "effects": [],
         "extraDamage": []
@@ -3664,62 +3507,8 @@
         "variantId": "ebony-fly",
         "label": "Ebony Fly",
         "casterLevel": null,
-        "priceRaw": "10,000 gp (Ebony Fly)",
+        "priceRaw": "10,000 gp (ebony fly)",
         "priceCp": 1000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "hematite-courgar",
-        "label": "Hematite Courgar",
-        "casterLevel": null,
-        "priceRaw": "10,000 gp (Hematite Courgar)",
-        "priceCp": 1000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "slate-spider",
-        "label": "Slate Spider",
-        "casterLevel": null,
-        "priceRaw": "10,000 gp (Slate Spider)",
-        "priceCp": 1000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "tin-imp",
-        "label": "Tin Imp",
-        "casterLevel": null,
-        "priceRaw": "13,000 gp (Tin Imp)",
-        "priceCp": 1300000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "glass-walrus",
-        "label": "Glass Walrus",
-        "casterLevel": null,
-        "priceRaw": "14,000 gp (Glass Walrus)",
-        "priceCp": 1400000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "obsidian-raven",
-        "label": "Obsidian Raven",
-        "casterLevel": null,
-        "priceRaw": "15,000 gp (Obsidian Raven)",
-        "priceCp": 1500000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "onyx-dog",
-        "label": "Onyx Dog",
-        "casterLevel": null,
-        "priceRaw": "15,500 gp (Onyx Dog)",
-        "priceCp": 1550000,
         "effects": [],
         "extraDamage": []
       },
@@ -3727,17 +3516,8 @@
         "variantId": "golden-lions",
         "label": "Golden Lions",
         "casterLevel": null,
-        "priceRaw": "16,500 gp (Golden Lions)",
+        "priceRaw": "16,500 gp (golden lions)",
         "priceCp": 1650000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "marble-elephant",
-        "label": "Marble Elephant",
-        "casterLevel": null,
-        "priceRaw": "17,000 gp (Marble Elephant)",
-        "priceCp": 1700000,
         "effects": [],
         "extraDamage": []
       },
@@ -3745,8 +3525,17 @@
         "variantId": "ivory-goats",
         "label": "Ivory Goats",
         "casterLevel": null,
-        "priceRaw": "21,000 gp (Ivory Goats)",
+        "priceRaw": "21,000 gp (ivory goats)",
         "priceCp": 2100000,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "marble-elephant",
+        "label": "Marble Elephant",
+        "casterLevel": null,
+        "priceRaw": "17,000 gp (marble elephant)",
+        "priceCp": 1700000,
         "effects": [],
         "extraDamage": []
       },
@@ -3754,17 +3543,35 @@
         "variantId": "obsidian-steed",
         "label": "Obsidian Steed",
         "casterLevel": null,
-        "priceRaw": "28,500 gp (Obsidian Steed)",
+        "priceRaw": "28,500 gp (obsidian steed)",
         "priceCp": 2850000,
         "effects": [],
         "extraDamage": []
       },
       {
-        "variantId": "basalt-dragon",
-        "label": "Basalt Dragon",
+        "variantId": "onyx-dog",
+        "label": "Onyx Dog",
         "casterLevel": null,
-        "priceRaw": "60,000 gp (Basalt Dragon)",
-        "priceCp": 6000000,
+        "priceRaw": "15,500 gp (onyx dog)",
+        "priceCp": 1550000,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "serpentine-owl",
+        "label": "Serpentine Owl",
+        "casterLevel": null,
+        "priceRaw": "9,100 gp (serpentine owl)",
+        "priceCp": 910000,
+        "effects": [],
+        "extraDamage": []
+      },
+      {
+        "variantId": "silver-raven",
+        "label": "Silver Raven",
+        "casterLevel": null,
+        "priceRaw": "3,800 gp (silver raven)",
+        "priceCp": 380000,
         "effects": [],
         "extraDamage": []
       }
@@ -4088,17 +3895,17 @@
   {
     "id": "golem-manuals",
     "name": "Golem Manuals",
-    "textEn": "**Aura** varies; **CL** varies; **Slot** none; **Price** 3,000 gp (Junk), 4,000 gp (Wax), 5,000 gp (Ice), 6,000 gp (Wood), 8,000 gp (Flesh), 10,000 gp (Alchemical), 10,000 gp (Glass), 12,000 gp (Bone), 12,000 gp (Clay), 15,000 gp (Sand), 17,500 gp (Coral), 20,000 gp (Lead), 22,000 gp (Stone), 30,000 gp (Carrion), 35,000 gp (Clockwork), 35,000 gp (Iron), 37,500 gp (Fossil), 40,000 gp (Crystal), 40,000 gp (Obsidian), 44,000 gp (Stone Guardian), 55,000 gp (Brass), 60,000 gp (Cannon), 65,000 gp (Dragonhide), 65,000 gp (Gold), 70,000 gp (Behemoth), 70,000 gp (Blood), 75,000 gp (Viridium), 80,000 gp (Mithral), 90,000 gp (Inubrix), 125,000 gp (Adamantine), 150,000 gp (Quintessence); **Weight** 5 lbs.\n\n**Description**\n\nThe wondrous items known as *golem manuals* contain all the information and magical power required to create a particular kind of golem. This effectively grants the Craft Construct feat to anyone using the manual to craft a golem of that type, and it provides an increase in caster level for the purpose of meeting the prerequisite to craft that specific type of golem. Further, the manual grants a +5 competence bonus on skill checks to craft the golem and contains all the necessary spells, which can be activated by anyone who has the relevant spells on their class’s spell list (but only for the purpose of crafting the golem). When using a *golem manual*, you must still spend the normal amount of time to craft the golem and pay the cost of the golem’s body (or provide it through other means), but you do not need to pay the rest of the normal cost to create the golem.\n\nThe spells included in a golem manual require a spell trigger activation and can be activated only to assist in the construction of a golem. The cost of the book does not include the cost of constructing the golem’s body. Once the golem is finished, the writing in the manual fades and the book is consumed in flames. When the book’s ashes are sprinkled upon the golem, it becomes fully animated.\n\nFor example, with a *clay golem manual*, you would need to provide a body worth 1,500 gp (rather than the normal full cost of 21,500 gp), spend 42 days constructing the golem’s body (1 for each 1,000 gp in the normal price of the golem), have a caster level of 9th or higher (as the manual provides a +2 bonus and the normal requirement is 11th level), have *animate objects*, *bless*, *commune*, *prayer*, and *resurrection* on your class’s spell list, and succeed at a DC 16 Craft (sculptures) or Craft (pottery) check (but the manual gives you a +5 bonus on the check.)\n\n*Adamantine* (*Construct Handbook pg. 17*): The book contains *crushing hand*, *geas/quest*, *heal*, *stoneskin*, and *wish*. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting an adamantine golem.; **Aura** strong abjuration, conjuration, enchantment, and evocation; **CL** 20th; Craft Construct, *crushing hand*, *geas/quest*, *heal*, *stoneskin*, *wish*, creator must be caster level 20th.\n\n*Alchemical* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *gentle repose*, *major creation*, *resist energy*, and *telekinesis*. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an alchemical golem.; **Aura** moderate abjuration, conjuration, enchantment, necromancy, and transmutation; **CL** 10th; Craft Construct, *geas/quest*, *major creation*, *resist energy*, *telekinesis*, creator must be caster level 10th.\n\n*Behemoth* (*Lost Kingdoms pg. 42*): This book contains *earthquake*, *geas/quest*, *mage’s magnificent mansion*, and *wish*. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a behemoth golem.; **Aura** strong conjuration, enchantment, and evocation; **CL** 18th; Craft Construct, creator must be caster level 18th, *earthquake*, *geas/quest*, *mage’s magnificent mansion*, *wish*.\n\n*Blood* (*Construct Handbook pg. 17*): The book contains *animate dead*, *bleed*, *cure critical wounds*, and *geas/quest*. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a blood golem.; **Aura** strong conjuration, enchantment, and necromancy [evil]; **CL** 12th; Craft Construct, *animate dead*, *bleed*, *cure critical wounds*, *geas/quest*, creator must be caster level 12th.\n\n*Bone* (*Construct Handbook pg. 17*): The book contains *animate objects*, *geas/quest*, *limited wish*, and *telekinesis*. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a bone golem.; **Aura** moderate enchantment and transmutation; **CL** 9th; Craft Construct, *animate objects*, *geas/quest*, *limited wish*, *telekinesis*, creator must be caster level 9th.\n\n*Brass* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *incendiary cloud*, *limited wish*, and *see invisibility*. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a brass golem.; **Aura** strong conjuration, divination, and enchantment; **CL** 17th; Craft Construct, *geas/quest*, *incendiary cloud*, *limited wish*, *see invisibility*, creator must be caster level 17th.\n\n*Cannon* (*Construct Handbook pg. 17*): The book contains geas/quest, limited wish, and secret chest. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a cannon golem.; **Aura** strong conjuration and enchantment; **CL** 17th; Craft Construct, *geas/quest*, *limited wish*, *secret chest*, creator must be caster level 17th.\n\n*Carrion* (*Construct Handbook pg. 17*): The book contains *animate dead*, *contagion*, *false life*, *gentle repose*, and *lesser geas*. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a carrion golem.; **Aura** moderate enchantment and necromancy [evil]; **CL** 7th; Craft Construct, *animate dead*, *contagion*, *false life*, *gentle repose*, *lesser geas*, creator must be caster level 7th.\n\n*Clay* (*Ultimate Equipment pg. 300*, *PRPG Core Rulebook pg. 1*): The book contains *animate objects*, *bless*, *commune*, *prayer*, and *resurrection*. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a clay golem.; **Aura** moderate conjuration; **CL** 11th; Craft Construct, *animate objects*, *commune*, *prayer*, *resurrection*, creator must be caster level 11th.\n\n*Clockwork* (*Construct Handbook pg. 17*): The book contains *animate objects*, *blade barrier*, *geas/quest*, *grease*, and *telekinesis*. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a clockwork golem.; **Aura** strong enchantment, evocation, and transmutation; **CL** 15th; Craft Construct, *animate objects*, *blade barrier*, *geas/quest*, *grease*, *telekinesis*, creator must be caster level 15th.\n\n*Coral* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *keen edge*, *limited wish*, and *water breathing*. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a coral golem.; **Aura** moderate enchantment and transmutation; **CL** 11th; Craft Construct, *geas/quest*, *keen edge*, *limited wish*, , creator must be caster level 11th.\n\n*Crystal* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *limited wish*, *possession*, and *thoughtsense*. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a crystal golem.; **Aura** strong divination, enchantment, and necromancy; **CL** 15th; Craft Construct, *geas/quest*, *limited wish*, *possession*, *thoughtsense*, creator must be caster level 15th.\n\n*Dragonhide* (*Construct Handbook pg. 17*): The book contains *create greater undead*, *form of the dragon I*, *geas/quest*, and *limited wish*. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a dragonhide golem.; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; Craft Construct, *create greater undead*, *form of the dragon I*, *geas/quest*, *limited wish*, creator must be caster level 16th.\n\n*Flesh* (*Ultimate Equipment pg. 300*, *PRPG Core Rulebook pg. 1*): The book contains *animate dead*, *bull’s strength*, *geas/quest*, and *limited wish*. The reader may treat her caster level as one level higher than normal for the purpose of crafting a flesh golem.; **Aura** moderate enchantment, necromancy [evil], and transmutation; **CL** 8th; Craft Construct, *animate objects*, *bull's strength*, *geas/quest*, *limited wish*, creator must be caster level 8th.\n\n*Fossil* (*Construct Handbook pg. 17*): The book contains *flesh to stone*, *geas/quest*, *limited wish,* and *stone shape*. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a fossil golem.; **Aura** strong enchantment and transmutation; **CL** 15th; Craft Construct, *flesh to stone*, *geas/quest*, *limited wish*, *stone shape*, creator must be caster level 15th.\n\n*Glass* (*Construct Handbook pg. 17*): The book contains animate objects, flame strike, geas/quest, spell turning. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a glass golem.; **Aura** moderate abjuration, enchantment, evocation, and transmutation; **CL** 10th; Craft Construct, animate objects, flame strike, geas/quest, spell turning, creator must be caster level 10th.\n\n*Gold* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *limited wish*, *polymorph any object*, and *prismatic spray*. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a gold golem.; **Aura** strong enchantment, evocation, and transmutation; **CL** 18th; Craft Construct, *geas/quest*, *limited wish*, *polymorph any object*, *prismatic spray*, creator must be caster level 18th.\n\n*Ice* (*Construct Handbook pg. 17*): The book contains *chill touch*, *cone of cold*, *geas/quest*, *ice storm*, and *resist energy* (cold). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an ice golem.; **Aura** strong abjuration, enchantment, and evocation; **CL** 12th; Craft Construct, *chill touch*, *cone of cold*, *geas/quest*, *ice storm*,, *resist energy* (cold), creator must be caster level 12th.\n\n*Inubrix* (*Construct Handbook pg. 17*): The book contains *air walk*, *enervation*, *geas/quest*, and *limited wish*. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an inubrix golem.; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; Craft Construct, *air walk*, *enervation*, *geas/quest*, *limited wish*, creator must be caster level 16th.\n\n*Iron* (*Ultimate Equipment pg. 300*, *PRPG Core Rulebook pg. 1*): The book contains *cloudkill*, *geas/quest*, *limited wish*, and *polymorph any object*. The reader may treat her caster level as four levels higher than normal for the purpose of crafting an iron golem.; **Aura** strong conjuration, enchantment, and transmutation; **CL** 16th; Craft Construct, *cloudkill*, *geas/quest*, *limited wish*, *polymorph any object*, creator must be caster level 16th.\n\n*Junk* (*Construct Handbook pg. 17*): The book contains *false life*, *lesser geas*, *minor creation*, and *rusting grasp*. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a junk golem.; **Aura** moderate conjuration, enchantment, necromancy, and transmutation; **CL** 7th; Craft Construct, *false life*, *lesser geas*, *minor creation*, *rusting grasp*, creator must be caster level 7th.\n\n*Lead* (*Construct Handbook pg. 17*): The book contains *cloudkill*, *geas/quest*, *limited wish*, and *sequester*. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a lead golem.; **Aura** strong abjuration, conjuration, and enchantment; **CL** 13th; Craft Construct, *cloudkill*, *geas/quest*, *limited wish*, *sequester*, creator must be caster level 13th.\n\n*Mithral* (*Construct Handbook pg. 17*): The book contains *cloudkill*, *geas/quest*, *limited wish*, and *polymorph any object*. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a mithral golem.; **Aura** strong abjuration, enchantment, evocation, and transmutation; **CL** 16th; Craft Construct, *cloudkill*, *geas/quest*, *limited wish*, *polymorph any object*, creator must be caster level 16th.\n\n*Obsidian* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *limited wish*, and *volcanic storm*. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an obsidian golem.; **Aura** strong enchantment and evocation; **CL** 15th; Craft Construct, *geas/quest*, *limited wish*, and *volcanic storm*, creator must be caster level 15th.\n\n*Quintessence* (*Construct Handbook pg. 17*): The book contains *energy drain*, *geas/quest*, *trap the soul*, and *wish*. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a quintessence golem.; **Aura** strong conjuration, enchantment, and necromancy; **CL** 20th; Craft Construct, *energy drain*, *geas/quest*, *trap the soul*, *wish*, creator must be caster level 20th.\n\n*Sand* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *limited wish*, and *move earth*. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a sand golem.; **Aura** strong enchantment and transmutation; **CL** 12th; Craft Construct, *geas/quest*, *limited wish*, *move earth*, creator must be caster level 12th.\n\n*Stone* (*Ultimate Equipment pg. 300*, *PRPG Core Rulebook pg. 1*): The book contains *antimagic field*, *geas/quest*, *limited wish*, and *symbol of stunning*. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, *antimagic field*, *geas/quest*, *limited wish*, *symbol of stunning*, creator must be caster level 14th.\n\n*Stone Guardian* (*Ultimate Equipment pg. 300*, *PRPG Core Rulebook pg. 1*): The book contains *antimagic field*, *discern location*, *geas/quest*, *limited wish*, *shield other*, and *symbol of stunning*. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem guardian.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, *antimagic field* *discern location*, *geas/quest*, *limited wish*, *shield other*, *symbol of stunning*, creator must be caster level 14th.\n\n*Viridium* (*Construct Handbook pg. 17*): The book contains *contagion*, *geas/quest*, *horrid wilting*, *poison*, and *wish*. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a viridium golem.; **Aura** strong enchantment and necromancy [evil]; **CL** 18th; Craft Construct, *contagion*, *geas/quest*, *horrid wilting*, *poison*, *wish*, creator must be caster level 18th.\n\n*Wax* (*Construct Handbook pg. 17*): The book contains *animate objects*, *geas/quest*, *limited wish*, and *silent image*. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a wax golem.; **Aura** moderate enchantment, illusion, and transmutation; **CL** 9th; Craft Construct, *animate objects*, *geas/quest*, *limited wish*, and *silent image*, creator must be caster level 9th.\n\n*Wood* (*Construct Handbook pg. 17*): The book contains *alarm*, *animate objects*, *cat’s grace*, *geas/quest*, and *limited wish*. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a wood golem.; **Aura** strong abjuration, enchantment, and transmutation; **CL** 12th; Craft Construct, *alarm*, *animate objects*, *cat’s grace*, *geas/quest*, *limited wish*, creator must be caster level 12th.Construction**Requirements** Craft Construct, caster must be of a specific level, additional spells, see text; **Cost** 1,500 gp (Junk), 2,000 gp (Wax), 2,500 gp (Ice), 3,000 gp (Wood), 4,000 gp (Flesh), 5,000 gp (Alchemical), 5,000 gp (Glass), 6,000 gp (Bone), 6,000 gp (Clay), 7,500 gp (Sand), 8,750 gp (Coral), 10,000 gp (Lead), 11,000 gp (Stone), 15,000 gp (Carrion), 17,500 gp (Clockwork), 17,500 gp (Iron), 18,750 gp (Fossil), 20,000 gp (Crystal), 20,000 gp (Obsidian), 22,000 gp (Stone Guardian), 27,500 gp (Brass), 30,000 gp (Cannon), 32,500 gp (Dragonhide), 32,500 gp (Gold), 35,000 gp (Behemoth), 35,000 gp (Blood), 37,500 gp (Viridium), 40,000 gp (Mithral), 45,000 gp (Inubrix), 62,500 gp (Adamantine), 75,000 gp (Quintessence)",
+    "textEn": "**Aura** varies; **CL** varies; **Slot** none; **Price** 12,000 gp (clay), 8,000 gp (flesh), 35,000 gp (iron), 22,000 gp (stone), 44,000 gp (stone guardian); **Weight** 5 lbs.\n\n**Description**\n\nA *golem manual* contains information, incantations, and magical power that help a character to craft a golem. The instructions therein grant a +5 competence bonus on skill checks made to craft the golem's body. Each manual also holds the prerequisite spells needed for a specific golem (although these spells can only be used to create a golem and cannot be copied), effectively granting the builder use of the Craft Construct feat during the construction of the golem, and an increase to her caster level for the purpose of crafting a golem.\n\nThe spells included in a *golem manual* require a spell trigger activation and can be activated only to assist in the construction of a golem. The cost of the book does not include the cost of constructing the golem's body. Once the golem is finished, the writing in the manual fades and the book is consumed in flames. When the book's ashes are sprinkled upon the golem, it becomes fully animated.\n\n*Clay Golem Manual*: The book contains *animate objects, bless, commune, prayer,* and *resurrection*. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a clay golem. Moderate conjuration, divination, enchantment, and transmutation; CL 11th; Craft Construct, creator must be caster level 11th, *animate objects, commune, prayer, resurrection.*\n\n*Flesh Golem Manual*: The book contains *animate dead, bull's strength, geas/quest,* and *limited wish*. The reader may treat her caster level as one level higher than normal for the purpose of crafting a flesh golem. Moderate enchantment, necromancy [evil], and transmutation; CL 8th; Craft Construct, creator must be caster level 8th, *animate dead, bull's strength, geas/quest, limited wish.*\n\n*Iron Golem Manual*: The book contains *cloudkill, geas/quest, limited wish,* and *polymorph any object.* The reader may treat her caster level as four levels higher than normal for the purpose of crafting an iron golem. Strong conjuration, enchantment, and transmutation; CL 16th; Craft Construct, creator must be caster level 16th, *cloudkill, geas/quest, limited wish, polymorph any object.*\n\n*Stone Golem Manual*: The book contains *geas/quest, limited wish, polymorph any object,* and *slow*. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem. Strong abjuration and enchantment; CL 14th; Craft Construct, creator must be caster level 14th, *antimagic field, geas/quest, limited wish, symbol of stunning.*\n\n*Stone Golem Guardian Manual*: The book contains *geas/quest, imbue with spell-like ability, limited wish, polymorph any object, shield other,* and *slow.* The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem guardian. Strong abjuration and enchantment; CL 14th; Craft Construct, creator must be caster level 14th, *antimagic field, geas/quest, imbue with spell-like ability, limited wish, polymorph any object, shield other, slow.*\n\n**Construction**\n\n**Requirements** Craft Construct, caster must be of a specific level, additional spells; **Cost** 6,000 gp (clay), 4,000 gp (flesh), 17,500 gp (iron), 11,000 gp (stone), 22,000 gp (stone guardian)",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Golem%20ManualClay",
-    "sourceRef": "PRPG Core Rulebook pg. 1",
+    "sourceRef": "PRPG Core Rulebook",
     "book": "CRB",
     "kind": "wondrous",
     "slot": "none",
     "aura": "varies",
     "weightLb": 5,
     "construction": {
-      "requirements": "",
-      "costRaw": "",
+      "requirements": "Craft Construct, caster must be of a specific level, additional spells",
+      "costRaw": "6,000 gp (clay), 4,000 gp (flesh), 17,500 gp (iron), 11,000 gp (stone), 22,000 gp (stone guardian)",
       "costCp": null
     },
     "sourceRefAll": "Construct Handbook pg. 17, Ultimate Equipment pg. 300, PRPG Core Rulebook pg. 1, Lost Kingdoms pg. 42",
@@ -4109,38 +3916,11 @@
     ],
     "variants": [
       {
-        "variantId": "junk",
-        "label": "Junk",
+        "variantId": "clay",
+        "label": "Clay",
         "casterLevel": null,
-        "priceRaw": "3,000 gp (Junk)",
-        "priceCp": 300000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "wax",
-        "label": "Wax",
-        "casterLevel": null,
-        "priceRaw": "4,000 gp (Wax)",
-        "priceCp": 400000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "ice",
-        "label": "Ice",
-        "casterLevel": null,
-        "priceRaw": "5,000 gp (Ice)",
-        "priceCp": 500000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "wood",
-        "label": "Wood",
-        "casterLevel": null,
-        "priceRaw": "6,000 gp (Wood)",
-        "priceCp": 600000,
+        "priceRaw": "12,000 gp (clay)",
+        "priceCp": 1200000,
         "effects": [],
         "extraDamage": []
       },
@@ -4148,98 +3928,8 @@
         "variantId": "flesh",
         "label": "Flesh",
         "casterLevel": null,
-        "priceRaw": "8,000 gp (Flesh)",
+        "priceRaw": "8,000 gp (flesh)",
         "priceCp": 800000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "alchemical",
-        "label": "Alchemical",
-        "casterLevel": null,
-        "priceRaw": "10,000 gp (Alchemical)",
-        "priceCp": 1000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "glass",
-        "label": "Glass",
-        "casterLevel": null,
-        "priceRaw": "10,000 gp (Glass)",
-        "priceCp": 1000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "bone",
-        "label": "Bone",
-        "casterLevel": null,
-        "priceRaw": "12,000 gp (Bone)",
-        "priceCp": 1200000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "clay",
-        "label": "Clay",
-        "casterLevel": null,
-        "priceRaw": "12,000 gp (Clay)",
-        "priceCp": 1200000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "sand",
-        "label": "Sand",
-        "casterLevel": null,
-        "priceRaw": "15,000 gp (Sand)",
-        "priceCp": 1500000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "coral",
-        "label": "Coral",
-        "casterLevel": null,
-        "priceRaw": "17,500 gp (Coral)",
-        "priceCp": 1750000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "lead",
-        "label": "Lead",
-        "casterLevel": null,
-        "priceRaw": "20,000 gp (Lead)",
-        "priceCp": 2000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "stone",
-        "label": "Stone",
-        "casterLevel": null,
-        "priceRaw": "22,000 gp (Stone)",
-        "priceCp": 2200000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "carrion",
-        "label": "Carrion",
-        "casterLevel": null,
-        "priceRaw": "30,000 gp (Carrion)",
-        "priceCp": 3000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "clockwork",
-        "label": "Clockwork",
-        "casterLevel": null,
-        "priceRaw": "35,000 gp (Clockwork)",
-        "priceCp": 3500000,
         "effects": [],
         "extraDamage": []
       },
@@ -4247,35 +3937,17 @@
         "variantId": "iron",
         "label": "Iron",
         "casterLevel": null,
-        "priceRaw": "35,000 gp (Iron)",
+        "priceRaw": "35,000 gp (iron)",
         "priceCp": 3500000,
         "effects": [],
         "extraDamage": []
       },
       {
-        "variantId": "fossil",
-        "label": "Fossil",
+        "variantId": "stone",
+        "label": "Stone",
         "casterLevel": null,
-        "priceRaw": "37,500 gp (Fossil)",
-        "priceCp": 3750000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "crystal",
-        "label": "Crystal",
-        "casterLevel": null,
-        "priceRaw": "40,000 gp (Crystal)",
-        "priceCp": 4000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "obsidian",
-        "label": "Obsidian",
-        "casterLevel": null,
-        "priceRaw": "40,000 gp (Obsidian)",
-        "priceCp": 4000000,
+        "priceRaw": "22,000 gp (stone)",
+        "priceCp": 2200000,
         "effects": [],
         "extraDamage": []
       },
@@ -4283,112 +3955,13 @@
         "variantId": "stone-guardian",
         "label": "Stone Guardian",
         "casterLevel": null,
-        "priceRaw": "44,000 gp (Stone Guardian)",
+        "priceRaw": "44,000 gp (stone guardian)",
         "priceCp": 4400000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "brass",
-        "label": "Brass",
-        "casterLevel": null,
-        "priceRaw": "55,000 gp (Brass)",
-        "priceCp": 5500000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "cannon",
-        "label": "Cannon",
-        "casterLevel": null,
-        "priceRaw": "60,000 gp (Cannon)",
-        "priceCp": 6000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "dragonhide",
-        "label": "Dragonhide",
-        "casterLevel": null,
-        "priceRaw": "65,000 gp (Dragonhide)",
-        "priceCp": 6500000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "gold",
-        "label": "Gold",
-        "casterLevel": null,
-        "priceRaw": "65,000 gp (Gold)",
-        "priceCp": 6500000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "behemoth",
-        "label": "Behemoth",
-        "casterLevel": null,
-        "priceRaw": "70,000 gp (Behemoth)",
-        "priceCp": 7000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "blood",
-        "label": "Blood",
-        "casterLevel": null,
-        "priceRaw": "70,000 gp (Blood)",
-        "priceCp": 7000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "viridium",
-        "label": "Viridium",
-        "casterLevel": null,
-        "priceRaw": "75,000 gp (Viridium)",
-        "priceCp": 7500000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "mithral",
-        "label": "Mithral",
-        "casterLevel": null,
-        "priceRaw": "80,000 gp (Mithral)",
-        "priceCp": 8000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "inubrix",
-        "label": "Inubrix",
-        "casterLevel": null,
-        "priceRaw": "90,000 gp (Inubrix)",
-        "priceCp": 9000000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "adamantine",
-        "label": "Adamantine",
-        "casterLevel": null,
-        "priceRaw": "125,000 gp (Adamantine)",
-        "priceCp": 12500000,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "quintessence",
-        "label": "Quintessence",
-        "casterLevel": null,
-        "priceRaw": "150,000 gp (Quintessence)",
-        "priceCp": 15000000,
         "effects": [],
         "extraDamage": []
       }
     ],
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "golembane-scarab",
@@ -5384,7 +4957,7 @@
   {
     "id": "incandescent-blue-sphere-normal-ioun-stone",
     "name": "Incandescent Blue Sphere (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\n+2 enhancement bonus to Wisdom.\n\n**Resonance**\n\nBlind-Fight.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 4,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\n+2 enhancement bonus to Wisdom.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 4,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Incandescent%20Blue%20Sphere",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -5421,8 +4994,7 @@
         ],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "incense-of-meditation",
@@ -5491,7 +5063,7 @@
   {
     "id": "iridescent-spindle-normal-ioun-stone",
     "name": "Iridescent Spindle (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 18,000 gp; **Weight** —\n\n**Description**\n\nSustains creature without air.\n\n**Resonance**\n\nThe wearer gains the constant effects of *endure elements* and takes only half damage from exposure to vacuum and underwater pressure.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 9,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 18,000 gp; **Weight** —\n\n**Description**\n\nSustains creature without air.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 9,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Iridescent%20Spindle",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -5519,8 +5091,7 @@
         "effects": [],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "iron-bands-of-binding",
@@ -5621,7 +5192,7 @@
   {
     "id": "lavender-and-green-ellipsoid-normal-ioun-stone",
     "name": "Lavender and Green Ellipsoid (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 40,000 gp; **Weight** —\n\n**Description**\n\nAbsorbs spells of 8th level or lower. After absorbing 50 spell levels, the stone burns out and turns dull gray, forever useless.\n\n**Resonance**\n\nIf the bearer is holding the *wayfinder*, he can use the stone’s absorption ability as an immediate action instead of a readied action.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 20,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 40,000 gp; **Weight** —\n\n**Description**\n\nAbsorbs spells of 8th level or lower. After absorbing 50 spell levels, the stone burns out and turns dull gray, forever useless.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 20,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Lavender%20and%20Green%20Ellipsoid",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -5649,8 +5220,7 @@
         "effects": [],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "lyre-of-building",
@@ -5751,13 +5321,13 @@
   {
     "id": "manual-of-bodily-health",
     "name": "Manual of Bodily Health",
-    "textEn": "**Aura** strong universal; **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis thick tome contains tips on health and fitness, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, he gains an inherent bonus from +1 to +5 (depending on the type of manual) to his Constitution score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *wish* or *miracle*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)",
+    "textEn": "**Aura** strong evocation (if miracle is used); **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis thick tome contains tips on health and fitness, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, he gains an inherent bonus from +1 to +5 (depending on the type of manual) to his Constitution score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *wish* or *miracle*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Bodily%20Health1",
     "sourceRef": "PRPG Core Rulebook pg. 522",
     "book": "CRB",
     "kind": "wondrous",
     "slot": "none",
-    "aura": "strong universal",
+    "aura": "strong evocation (if miracle is used)",
     "weightLb": 5,
     "construction": {
       "requirements": "Craft Wondrous Item, wish or miracle",
@@ -5819,13 +5389,13 @@
   {
     "id": "manual-of-gainful-exercise",
     "name": "Manual of Gainful Exercise",
-    "textEn": "**Aura** strong universal; **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis thick tome contains exercise descriptions and diet suggestions, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, she gains an inherent bonus from +1 to +5 (depending on the type of manual) to her Strength score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *wish* or *miracle*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)",
+    "textEn": "**Aura** strong evocation (if miracle is used); **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis thick tome contains exercise descriptions and diet suggestions, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, she gains an inherent bonus from +1 to +5 (depending on the type of manual) to her Strength score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *wish* or *miracle*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Gainful%20Exercise1",
     "sourceRef": "PRPG Core Rulebook pg. 522",
     "book": "CRB",
     "kind": "wondrous",
     "slot": "none",
-    "aura": "strong universal",
+    "aura": "strong evocation (if miracle is used)",
     "weightLb": 5,
     "construction": {
       "requirements": "Craft Wondrous Item, wish or miracle",
@@ -5887,13 +5457,13 @@
   {
     "id": "manual-of-quickness-of-action",
     "name": "Manual of Quickness of Action",
-    "textEn": "**Aura** strong universal; **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis thick tome contains tips on coordination exercises and balance, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, he gains an inherent bonus from +1 to +5 (depending on the type of manual) to his Dexterity score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *wish* or *miracle*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)",
+    "textEn": "**Aura** strong evocation (if miracle is used); **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis thick tome contains tips on coordination exercises and balance, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, he gains an inherent bonus from +1 to +5 (depending on the type of manual) to his Dexterity score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *wish* or *miracle*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Manual%20of%20Quickness%20of%20Action1",
     "sourceRef": "PRPG Core Rulebook pg. 522",
     "book": "CRB",
     "kind": "wondrous",
     "slot": "none",
-    "aura": "strong universal",
+    "aura": "strong evocation (if miracle is used)",
     "weightLb": 5,
     "construction": {
       "requirements": "Craft Wondrous Item, wish or miracle",
@@ -6329,7 +5899,7 @@
   {
     "id": "orange-prism-normal-ioun-stone",
     "name": "Orange Prism (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 30,000 gp; **Weight** —\n\n**Description**\n\n+1 caster level.\n\n**Resonance**\n\nEvery time the bearer casts a spell, he rolls 1d4–2 and adds the result (as well as the +1 caster level granted by the normal power of the ioun stone) to his caster level.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 15,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 30,000 gp; **Weight** —\n\n**Description**\n\n+1 caster level.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 15,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Orange%20Prism",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -6357,8 +5927,7 @@
         "effects": [],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "orb-of-storms",
@@ -6395,7 +5964,7 @@
   {
     "id": "pale-blue-rhomboid-normal-ioun-stone",
     "name": "Pale Blue Rhomboid (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\n+2 enhancement bonus to Strength.\n\n**Resonance**\n\n+1 bonus on Fortitude saves.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 4,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\n+2 enhancement bonus to Strength.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 4,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Pale%20Blue%20Rhomboid",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -6432,13 +6001,12 @@
         ],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "pale-green-prism-normal-ioun-stone",
     "name": "Pale Green Prism (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 30,000 gp; **Weight** —\n\n**Description**\n\n+1 competence bonus on attack rolls, saves, skill checks, and ability checks.\n\n**Resonance**\n\nTwice per day as a free action, the bearer can remove the fatigued condition from himself (or reduce the exhausted condition to fatigued).\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 15,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 30,000 gp; **Weight** —\n\n**Description**\n\n+1 competence bonus on attack rolls, saves, skill checks, and ability checks.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 15,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Pale%20Green%20Prism",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -6466,13 +6034,12 @@
         "effects": [],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "pale-lavender-ellipsoid-normal-ioun-stone",
     "name": "Pale Lavender Ellipsoid (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 20,000 gp; **Weight** —\n\n**Description**\n\nAbsorbs spells of 4th level or lower. After absorbing 20 spell levels, the stone burns out and turns to dull gray, forever useless.\n\n**Resonance**\n\nIf the bearer is holding the *wayfinder*, he can use the stone’s absorption ability as an immediate action instead of a readied action.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 10,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 20,000 gp; **Weight** —\n\n**Description**\n\nAbsorbs spells of 4th level or lower. After absorbing 20 spell levels, the stone burns out and turns to dull gray, forever useless.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 10,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Pale%20Lavender%20Ellipsoid",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -6500,8 +6067,7 @@
         "effects": [],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "pearl-of-power",
@@ -6651,7 +6217,7 @@
   {
     "id": "pearly-white-spindle-normal-ioun-stone",
     "name": "Pearly White Spindle (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 20,000 gp; **Weight** —\n\n**Description**\n\nRegenerate 1 point of damage per 10 minutes.\n\n**Resonance**\n\n+2 sacred bonus on saves against death effects and attacks that rely on negative energy.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 10,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 20,000 gp; **Weight** —\n\n**Description**\n\nRegenerate 1 point of damage per 10 minutes.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 10,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Pearly%20White%20Spindle",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -6676,21 +6242,10 @@
         "casterLevel": 12,
         "priceRaw": "20,000 gp",
         "priceCp": 2000000,
-        "effects": [
-          {
-            "target": "save.all",
-            "bonusType": "sacred",
-            "value": 2,
-            "appliesTo": "wearer",
-            "conditional": true,
-            "conditionText": "+2 sacred bonus on saves against death effects and attacks that rely on negative energy.",
-            "evidence": "+2 sacred bonus on saves"
-          }
-        ],
+        "effects": [],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "periapt-of-health",
@@ -6887,7 +6442,7 @@
   {
     "id": "pink-and-green-sphere-normal-ioun-stone",
     "name": "Pink and Green Sphere (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\n+2 enhancement bonus to Charisma.\n\n**Resonance**\n\n+1 bonus on Will saves.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 4,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\n+2 enhancement bonus to Charisma.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 4,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Pink%20and%20Green%20Sphere",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -6924,13 +6479,12 @@
         ],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "pink-rhomboid-normal-ioun-stone",
     "name": "Pink Rhomboid (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\n+2 enhancement bonus to Constitution.\n\n**Resonance**\n\n+1 bonus on Reflex saves.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 4,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\n+2 enhancement bonus to Constitution.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 4,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Pink%20Rhomboid",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -6967,8 +6521,7 @@
         ],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "pipes-of-haunting",
@@ -7584,7 +7137,7 @@
   {
     "id": "scarlet-and-blue-sphere-normal-ioun-stone",
     "name": "Scarlet and Blue Sphere (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\n+2 enhancement bonus to Intelligence.\n\n**Resonance**\n\n+1 bonus on Will saves.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 4,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 8,000 gp; **Weight** —\n\n**Description**\n\n+2 enhancement bonus to Intelligence.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 4,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Scarlet%20and%20Blue%20Sphere",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -7621,8 +7174,7 @@
         ],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "silversheen",
@@ -7901,13 +7453,13 @@
   {
     "id": "tome-of-clear-thought",
     "name": "Tome of Clear Thought",
-    "textEn": "**Aura** strong universal; **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis heavy book contains instruction on improving memory and logic, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, she gains an inherent bonus from +1 to +5 (depending on the type of tome) to her Intelligence score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *miracle* or *wish*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)",
+    "textEn": "**Aura** strong evocation (if miracle is used); **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis heavy book contains instruction on improving memory and logic, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, she gains an inherent bonus from +1 to +5 (depending on the type of tome) to her Intelligence score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *miracle* or *wish*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Clear%20Thought1",
     "sourceRef": "PRPG Core Rulebook pg. 531",
     "book": "CRB",
     "kind": "wondrous",
     "slot": "none",
-    "aura": "strong universal",
+    "aura": "strong evocation (if miracle is used)",
     "weightLb": 5,
     "construction": {
       "requirements": "Craft Wondrous Item, miracle or wish",
@@ -7969,13 +7521,13 @@
   {
     "id": "tome-of-leadership-and-influence",
     "name": "Tome of Leadership and Influence",
-    "textEn": "**Aura** strong universal; **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis ponderous book details suggestions for persuading and inspiring others, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, he gains an inherent bonus from +1 to +5 (depending on the type of tome) to his Charisma score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *miracle* or *wish*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)",
+    "textEn": "**Aura** strong evocation (if miracle is used); **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis ponderous book details suggestions for persuading and inspiring others, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, he gains an inherent bonus from +1 to +5 (depending on the type of tome) to his Charisma score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *miracle* or *wish*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Leadership%20and%20Influence1",
     "sourceRef": "PRPG Core Rulebook pg. 531",
     "book": "CRB",
     "kind": "wondrous",
     "slot": "none",
-    "aura": "strong universal",
+    "aura": "strong evocation (if miracle is used)",
     "weightLb": 5,
     "construction": {
       "requirements": "Craft Wondrous Item, miracle or wish",
@@ -8037,13 +7589,13 @@
   {
     "id": "tome-of-understanding",
     "name": "Tome of Understanding",
-    "textEn": "**Aura** strong universal; **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis thick book contains tips for improving instinct and perception, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, she gains an inherent bonus from +1 to +5 (depending on the type of tome) to her Wisdom score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *miracle* or *wish*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)",
+    "textEn": "**Aura** strong evocation (if miracle is used); **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis thick book contains tips for improving instinct and perception, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, she gains an inherent bonus from +1 to +5 (depending on the type of tome) to her Wisdom score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *miracle* or *wish*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Tome%20of%20Understanding1",
     "sourceRef": "PRPG Core Rulebook pg. 531",
     "book": "CRB",
     "kind": "wondrous",
     "slot": "none",
-    "aura": "strong universal",
+    "aura": "strong evocation (if miracle is used)",
     "weightLb": 5,
     "construction": {
       "requirements": "Craft Wondrous Item, miracle or wish",
@@ -8227,7 +7779,7 @@
   {
     "id": "vibrant-purple-prism-normal-ioun-stone",
     "name": "Vibrant Purple Prism (Normal) Ioun Stone",
-    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 36,000 gp; **Weight** —\n\n**Description**\n\nStores three levels of spells, as a *ring of spell storing*.\n\n**Resonance**\n\nAs a standard action, the bearer can expend a stored spell to refresh a cast spell of the same level as if using a *pearl of power*. The bearer can refresh up to 3 spell levels per day using this ability.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 18,000 gp",
+    "textEn": "**Aura** strong varied; **CL** 12th; **Slot** none; **Price** 36,000 gp; **Weight** —\n\n**Description**\n\nStores three levels of spells, as a *ring of spell storing*.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, creator must be 12th level; **Cost** 18,000 gp",
     "source": "https://aonprd.com/MagicWondrousDisplay.aspx?FinalName=Ioun%20Stone%20Vibrant%20Purple%20Prism",
     "sourceRef": "PRPG Core Rulebook pg. 521",
     "book": "CRB",
@@ -8255,8 +7807,7 @@
         "effects": [],
         "extraDamage": []
       }
-    ],
-    "needsReview": true
+    ]
   },
   {
     "id": "well-of-many-worlds",

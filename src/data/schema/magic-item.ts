@@ -113,15 +113,34 @@ export const MagicEffectSchema = z
   });
 export type MagicEffect = z.infer<typeof MagicEffectSchema>;
 
+/** Multiplicador de crítico del arma (CRB: ×2, ×3 o ×4). */
+export const CRIT_MULTIPLIERS = [2, 3, 4] as const;
+export type CritMultiplier = (typeof CRIT_MULTIPLIERS)[number];
+
+/**
+ * Daño adicional por dados (R78). `onCritical` solo se suma en un golpe crítico confirmado; si el
+ * texto lo hace depender del multiplicador de crítico del arma (*flaming burst*: 1d10 con ×2,
+ * 2d10 con ×3 "instead", 3d10 con ×4), cada alternativa lleva su `critMultiplier` y SOLO una
+ * aplica a un arma dada; sin `critMultiplier` aplica con cualquier multiplicador. Se consulta
+ * con `getExtraDamage` (src/data/magic-items/extra-damage.ts): no se suman los elementos a mano.
+ */
 export const ExtraDamageSchema = z
   .strictObject({
     dice: z.string().regex(/^\d+d\d+$/),
     damageType: z.string().min(1),
     trigger: z.enum(["always", "onCritical", "conditional"]),
     conditionText: z.string().min(1).optional(),
+    critMultiplier: z.union([z.literal(2), z.literal(3), z.literal(4)]).optional(),
     evidence: z.string().min(1), // R75
   })
   .superRefine((damage, ctx) => {
+    if (damage.critMultiplier !== undefined && damage.trigger !== "onCritical") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["critMultiplier"],
+        message: 'critMultiplier solo es válido con trigger "onCritical"',
+      });
+    }
     if ((damage.trigger === "conditional") !== (damage.conditionText !== undefined)) {
       ctx.addIssue({
         code: "custom",
@@ -131,6 +150,39 @@ export const ExtraDamageSchema = z
     }
   });
 export type ExtraDamage = z.infer<typeof ExtraDamageSchema>;
+
+/**
+ * Las alternativas `onCritical` de un mismo tipo de daño son excluyentes entre sí por multiplicador
+ * (R78): si alguna lleva `critMultiplier`, todas lo llevan y ninguna se repite. Si no, sumar
+ * dos `onCritical` del mismo tipo daría el daño de más (el defecto de *flaming burst*: 6d10).
+ */
+export function critAlternativeIssues(extraDamage: readonly ExtraDamage[]): string[] {
+  const issues: string[] = [];
+  const byType = new Map<string, ExtraDamage[]>();
+  for (const damage of extraDamage) {
+    if (damage.trigger !== "onCritical") continue;
+    byType.set(damage.damageType, [...(byType.get(damage.damageType) ?? []), damage]);
+  }
+  for (const [type, group] of byType) {
+    if (group.length < 2) continue;
+    if (group.some((d) => d.critMultiplier === undefined)) {
+      issues.push(
+        `varios onCritical de daño "${type}" sin critMultiplier en todos: se sumarían (R78)`,
+      );
+      continue;
+    }
+    const seen = new Set<number>();
+    for (const d of group) {
+      if (seen.has(d.critMultiplier!)) {
+        issues.push(
+          `dos onCritical de daño "${type}" con el mismo critMultiplier ×${d.critMultiplier}`,
+        );
+      }
+      seen.add(d.critMultiplier!);
+    }
+  }
+  return issues;
+}
 
 /** Precio en piezas de cobre (1 gp = 100 cp) o `null` si la fuente no da un precio fijo (R68). */
 const PriceCp = z.number().int().nonnegative().nullable();
@@ -147,6 +199,9 @@ export const MagicVariantSchema = z
     extraDamage: z.array(ExtraDamageSchema),
   })
   .superRefine((variant, ctx) => {
+    for (const message of critAlternativeIssues(variant.extraDamage)) {
+      ctx.addIssue({ code: "custom", path: ["extraDamage"], message });
+    }
     if (variant.bonusEquivalent !== undefined && variant.priceCp !== null) {
       ctx.addIssue({
         code: "custom",
@@ -229,7 +284,12 @@ const specificFields = {
 const spellRefFields = { spellRefs: z.array(SpellRefSchema) };
 
 const members = [
-  base.extend({ kind: z.literal("weapon-ability"), legalFor: WeaponLegalForSchema }),
+  base.extend({
+    kind: z.literal("weapon-ability"),
+    legalFor: WeaponLegalForSchema,
+    /** Habilidades de arma cuyo efecto incluye esta (*flaming burst* "funciona como" *flaming*). R84. */
+    functionsAs: z.array(Kebab).min(1).optional(),
+  }),
   base.extend({ kind: z.literal("armor-ability"), legalFor: ArmorLegalForSchema }),
   base.extend({ kind: z.literal("shield-ability"), legalFor: ArmorLegalForSchema }),
   base.extend({ kind: z.literal("specific-weapon"), ...specificFields }),

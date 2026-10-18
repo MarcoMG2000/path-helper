@@ -37,7 +37,7 @@ import {
   extractExtraDamage,
   findEffectGaps,
 } from "./effects";
-import { itemMarkdown, readItems, type RawItem } from "./header";
+import { isOtherBookSection, itemMarkdown, readItems, type RawItem } from "./header";
 import { armorLegalFor, weaponLegalFor, type WeaponRange } from "./legal-for";
 import { enhancementPrices, readRulesSections } from "./rules";
 import { crbSpellNames, equipmentNames, resolveSpecific, type EquipmentNames } from "./specific";
@@ -393,7 +393,25 @@ function assignIds(
 
 const KIND_SECTION_ORDER = MAGIC_ITEM_KINDS;
 
-function crossBookReasons(textEn: string, item: RawItem): string[] {
+const FUNCTIONS_AS = /\bfunctions as an? ([a-z' -]+?) weapon\b/gi;
+
+/** Habilidades de arma que otra «funciona como» (nombre en minúsculas -> id de `weapon-ability`). */
+export function functionsAsAbilities(
+  description: string,
+  byName: ReadonlyMap<string, string>,
+): { ids: string[]; unresolved: string[] } {
+  const ids: string[] = [];
+  const unresolved: string[] = [];
+  for (const m of description.matchAll(FUNCTIONS_AS)) {
+    const name = m[1]!.toLowerCase();
+    const id = byName.get(name);
+    if (id === undefined) unresolved.push(name);
+    else if (!ids.includes(id)) ids.push(id);
+  }
+  return { ids, unresolved };
+}
+
+function crossBookReasons(textEn: string): string[] {
   const reasons: string[] = [];
   const region = descriptionRegion(textEn).replace(/\*/g, "");
   const books = new Set<string>();
@@ -403,9 +421,6 @@ function crossBookReasons(textEn: string, item: RawItem): string[] {
   }
   if (books.size > 0) {
     reasons.push(`el texto cita otros libros (${[...books].join(", ")})`);
-  }
-  if (item.sections.some((s) => s.heading.toLowerCase() === "resonance")) {
-    reasons.push("sección Resonance (regla de Ultimate Equipment, no del CRB)");
   }
   return reasons;
 }
@@ -565,6 +580,12 @@ function buildItemEntry(
     const result = weaponLegalFor(description, group.weaponRange!);
     entry["legalFor"] = result.legalFor;
     if (result.reviewReason) reasons.push(result.reviewReason);
+    // «A flaming burst weapon functions as a flaming weapon...»: incluye el efecto de esa habilidad.
+    const functionsAs = functionsAsAbilities(description, ctx.abilityByKind["weapon-ability"]);
+    if (functionsAs.unresolved.length > 0) {
+      reasons.push(`functionsAs sin resolver: ${functionsAs.unresolved.join(", ")}`);
+    }
+    if (functionsAs.ids.length > 0) entry["functionsAs"] = functionsAs.ids;
   } else if (kind === "armor-ability" || kind === "shield-ability") {
     const result = armorLegalFor(description);
     entry["legalFor"] = result.legalFor;
@@ -581,7 +602,14 @@ function buildItemEntry(
     const refs = staffSpellRefs(textEn, group.title, ctx);
     entry["spellRefs"] = refs;
   }
-  reasons.push(...crossBookReasons(textEn, item));
+  reasons.push(...crossBookReasons(textEn));
+  // Las secciones propias de otro libro (Resonance, de Ultimate Equipment) no entran en textEn.
+  const omitted = item.sections.filter((s) => isOtherBookSection(s.heading));
+  if (omitted.length > 0) {
+    ctx.counters["secciones de otro libro omitidas del texto (Resonance)"] =
+      (ctx.counters["secciones de otro libro omitidas del texto (Resonance)"] ?? 0) +
+      omitted.length;
+  }
   return { entry, reasons };
 }
 

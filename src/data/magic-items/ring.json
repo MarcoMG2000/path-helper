@@ -285,13 +285,13 @@
   {
     "id": "ring-of-energy-resistance",
     "name": "Ring of Energy Resistance",
-    "textEn": "**Aura** moderate abjuration; **CL** 11th; **Slot** ring; **Price** 12,000 gp (minor), 28,000 gp (major), 44,000 gp (greater); **Weight** —\n\n**Description**\n\nRings of this type come in a wide variety of designs and colorations, typically related to the types of energy they defend against. These rings continually protect their wearers from damage from one type of energy—acid, cold, electricity, fire, or sonic (chosen by the creator of the item; determine randomly if found as part of a treasure hoard). Each time the wearer would normally take such damage, subtract the ring’s resistance value from the damage dealt.\n\nA *minor ring of energy resistance* grants 10 points of resistance. A *major ring of energy resistance* grants 20 points of resistance. A *greater ring of energy resistance* grants 30 points of resistance.\n\n**Construction**\n\n**Requirements** Forge Ring, *resist energy*; **Cost** 6,000 gp (minor), 14,000 gp (major), 22,000 gp (greater)",
+    "textEn": "**Aura** faint (minor) or moderate (major or greater) abjuration; **CL** 3rd (minor), 7th (major), or 11th (greater); **Slot** ring; **Price** 12,000 gp (minor), 28,000 gp (major), 44,000 gp (greater); **Weight** —\n\n**Description**\n\nRings of this type come in a wide variety of designs and colorations, typically related to the types of energy they defend against. These rings continually protect their wearers from damage from one type of energy—acid, cold, electricity, fire, or sonic (chosen by the creator of the item; determine randomly if found as part of a treasure hoard). Each time the wearer would normally take such damage, subtract the ring’s resistance value from the damage dealt.\n\nA *minor ring of energy resistance* grants 10 points of resistance. A *major ring of energy resistance* grants 20 points of resistance. A *greater ring of energy resistance* grants 30 points of resistance.\n\n**Construction**\n\n**Requirements** Forge Ring, *resist energy*; **Cost** 6,000 gp (minor), 14,000 gp (major), 22,000 gp (greater)",
     "source": "https://aonprd.com/MagicRingsDisplay.aspx?FinalName=Ring%20of%20Energy%20Resistancegreater",
     "sourceRef": "PRPG Core Rulebook pg. 479",
     "book": "CRB",
     "kind": "ring",
     "slot": "ring",
-    "aura": "moderate abjuration",
+    "aura": "faint (minor) or moderate (major or greater) abjuration",
     "weightLb": null,
     "construction": {
       "requirements": "Forge Ring, resist energy",
@@ -306,7 +306,7 @@
       {
         "variantId": "minor",
         "label": "minor",
-        "casterLevel": 11,
+        "casterLevel": 3,
         "priceRaw": "12,000 gp (minor)",
         "priceCp": 1200000,
         "effects": [],
@@ -315,7 +315,7 @@
       {
         "variantId": "major",
         "label": "major",
-        "casterLevel": 11,
+        "casterLevel": 7,
         "priceRaw": "28,000 gp (major)",
         "priceCp": 2800000,
         "effects": [],

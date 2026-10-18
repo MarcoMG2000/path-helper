@@ -204,6 +204,65 @@ describe("R75: evidencias", () => {
   });
 });
 
+describe("R78/R84: critMultiplier y functionsAs (corrección B)", () => {
+  const burstText =
+    "**Aura** x\n\n**Description**\n\nA burst weapon deals an extra 1d10 points of fire damage on a successful critical hit. If the weapon's critical multiplier is ×3, add an extra 2d10 points of fire damage instead.";
+  const burst = (
+    extra: Record<string, unknown> = {},
+    text = burstText,
+  ): Record<string, unknown> => {
+    const base = oneOfEachKind()["weapon-ability"]!;
+    const variants = base["variants"] as Record<string, unknown>[];
+    const damage = (dice: string, critMultiplier: number, evidence: string) => ({
+      dice,
+      damageType: "fire",
+      trigger: "onCritical",
+      critMultiplier,
+      evidence,
+    });
+    return {
+      ...base,
+      id: "x-burst",
+      textEn: text,
+      variants: [
+        {
+          ...variants[0],
+          extraDamage: [
+            damage("1d10", 2, "an extra 1d10 points of fire damage on a successful critical hit"),
+            damage("2d10", 3, "an extra 2d10 points of fire damage instead"),
+          ],
+        },
+      ],
+      ...extra,
+    };
+  };
+
+  it("caso verde: critMultiplier ×3 respaldado por «×3» en el texto", () => {
+    expect(rules(run(dataset({ entries: { "magic-items": [burst()] } })))).toEqual([]);
+  });
+
+  it("un critMultiplier ×3 sin «×3» en textEn falla (R78)", () => {
+    const text = burstText.replace("×3", "triple");
+    expect(rules(run(dataset({ entries: { "magic-items": [burst({}, text)] } })))).toEqual([
+      "magic.evidence",
+    ]);
+  });
+
+  it("functionsAs apunta a una weapon-ability existente; uno inexistente o a sí misma falla (R84)", () => {
+    const flaming = { ...oneOfEachKind()["weapon-ability"]!, id: "flaming" };
+    const ok = burst({ functionsAs: ["flaming"] });
+    expect(rules(run(dataset({ entries: { "magic-items": [flaming, ok] } })))).toEqual([]);
+    const missing = burst({ functionsAs: ["no-existe"] });
+    expect(rules(run(dataset({ entries: { "magic-items": [flaming, missing] } })))).toEqual([
+      "magic.ref",
+    ]);
+    const self = burst({ functionsAs: ["x-burst"] });
+    expect(rules(run(dataset({ entries: { "magic-items": [flaming, self] } })))).toEqual([
+      "magic.ref",
+    ]);
+  });
+});
+
 describe("R82, R83, R84: objetos específicos", () => {
   const weapon = (id: string, extra: Record<string, unknown>): Record<string, unknown> => ({
     ...baseEntry({ id, name: id }),

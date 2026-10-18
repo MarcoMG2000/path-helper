@@ -369,7 +369,7 @@
   {
     "id": "flaming-burst",
     "name": "Flaming Burst",
-    "textEn": "**Aura** strong evocation; **CL** 12th; **Slot** weapon quality; **Price** +2 bonus; **Weight** —\n\n**Description**\n\nA *flaming burst* weapon functions as a *flaming* weapon that also explodes with flame upon striking a successful critical hit. The fire does not harm the wielder. In addition to the extra fire damage from the *flaming* ability (see above), a *flaming burst* weapon deals an extra 1d10 points of fire damage on a successful critical hit. If the weapon’s critical multiplier is \u001f3, add an extra 2d10 points of fire damage instead, and if the multiplier is \u001f4, add an extra 3d10 points of fire damage.\n\nEven if the *flaming* ability is not active, the weapon still deals its extra fire damage on a successful critical hit.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor and *fireball*, *flame blade*, or *flame strike*; **Price** —",
+    "textEn": "**Aura** strong evocation; **CL** 12th; **Slot** weapon quality; **Price** +2 bonus; **Weight** —\n\n**Description**\n\nA *flaming burst* weapon functions as a *flaming* weapon that also explodes with flame upon striking a successful critical hit. The fire does not harm the wielder. In addition to the extra fire damage from the *flaming* ability (see above), a *flaming burst* weapon deals an extra 1d10 points of fire damage on a successful critical hit. If the weapon’s critical multiplier is ×3, add an extra 2d10 points of fire damage instead, and if the multiplier is ×4, add an extra 3d10 points of fire damage.\n\nEven if the *flaming* ability is not active, the weapon still deals its extra fire damage on a successful critical hit.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor and *fireball*, *flame blade*, or *flame strike*; **Price** —",
     "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming%20Burst",
     "sourceRef": "PRPG Core Rulebook pg. 469",
     "book": "CRB",
@@ -400,18 +400,21 @@
             "dice": "1d10",
             "damageType": "fire",
             "trigger": "onCritical",
+            "critMultiplier": 2,
             "evidence": "an extra 1d10 points of fire damage on a successful critical hit"
           },
           {
             "dice": "2d10",
             "damageType": "fire",
             "trigger": "onCritical",
+            "critMultiplier": 3,
             "evidence": "an extra 2d10 points of fire damage instead"
           },
           {
             "dice": "3d10",
             "damageType": "fire",
             "trigger": "onCritical",
+            "critMultiplier": 4,
             "evidence": "an extra 3d10 points of fire damage"
           }
         ]
@@ -420,7 +423,10 @@
     "legalFor": {
       "range": "any",
       "raw": ""
-    }
+    },
+    "functionsAs": [
+      "flaming"
+    ]
   },
   {
     "id": "frost",
@@ -583,18 +589,21 @@
             "dice": "1d10",
             "damageType": "cold",
             "trigger": "onCritical",
+            "critMultiplier": 2,
             "evidence": "an extra 1d10 points of cold damage on a successful critical hit"
           },
           {
             "dice": "2d10",
             "damageType": "cold",
             "trigger": "onCritical",
+            "critMultiplier": 3,
             "evidence": "an extra 2d10 points of cold damage instead"
           },
           {
             "dice": "3d10",
             "damageType": "cold",
             "trigger": "onCritical",
+            "critMultiplier": 4,
             "evidence": "an extra 3d10 points"
           }
         ]
@@ -603,7 +612,10 @@
     "legalFor": {
       "range": "any",
       "raw": ""
-    }
+    },
+    "functionsAs": [
+      "frost"
+    ]
   },
   {
     "id": "keen",
@@ -916,18 +928,21 @@
             "dice": "1d10",
             "damageType": "electricity",
             "trigger": "onCritical",
+            "critMultiplier": 2,
             "evidence": "an extra 1d10 points of electricity damage on a successful critical hit"
           },
           {
             "dice": "2d10",
             "damageType": "electricity",
             "trigger": "onCritical",
+            "critMultiplier": 3,
             "evidence": "an extra 2d10 points of electricity damage instead"
           },
           {
             "dice": "3d10",
             "damageType": "electricity",
             "trigger": "onCritical",
+            "critMultiplier": 4,
             "evidence": "an extra 3d10 points"
           }
         ]
@@ -936,7 +951,10 @@
     "legalFor": {
       "range": "any",
       "raw": ""
-    }
+    },
+    "functionsAs": [
+      "shock"
+    ]
   },
   {
     "id": "speed",
@@ -1083,18 +1101,21 @@
             "dice": "1d8",
             "damageType": "sonic",
             "trigger": "onCritical",
+            "critMultiplier": 2,
             "evidence": "an extra 1d8 points of sonic damage on a successful critical hit"
           },
           {
             "dice": "2d8",
             "damageType": "sonic",
             "trigger": "onCritical",
+            "critMultiplier": 3,
             "evidence": "an extra 2d8 points of sonic damage instead"
           },
           {
             "dice": "3d8",
             "damageType": "sonic",
             "trigger": "onCritical",
+            "critMultiplier": 4,
             "evidence": "an extra 3d8 points of sonic damage"
           }
         ]

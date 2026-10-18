@@ -8,8 +8,15 @@ import { collapseWhitespace } from "./text";
 export type Dom = cheerio.CheerioAPI;
 export type Nodes = readonly AnyNode[];
 
+/**
+ * AoN escribe a veces el signo de multiplicar (×, U+00D7) como el carácter de control U+001F
+ * (*flaming burst*: «critical multiplier is ×3»; *dragonhide plate*: «2d4 × 100»). Se restituye
+ * antes de parsear: un carácter de control en `textEn` rompe la lectura de multiplicadores.
+ */
+const AON_TIMES_GLITCH = new RegExp(String.fromCharCode(0x1f), "g");
+
 export function loadHtml(html: string): Dom {
-  return cheerio.load(html);
+  return cheerio.load(html.replace(AON_TIMES_GLITCH, "×"));
 }
 
 /** Contenedor del artículo en Archives of Nethys; si no existe, `#main` o `body`. */

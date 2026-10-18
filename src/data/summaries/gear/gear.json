@@ -20,7 +20,7 @@
     "status": "draft"
   },
   "antitoxin": {
-    "summaryEs": "Remedio alquímico: contrarresta una toxina concreta; un vial da +5 alquímico a las salvaciones de Fortitude contra veneno durante 1 hora. Coste 50 gp.",
+    "summaryEs": "Remedio alquímico: si bebes un vial, obtienes +5 alquímico a las salvaciones de Fortitude contra veneno durante 1 hora. Coste 50 gp.",
     "status": "draft"
   },
   "armor-spikes": {
@@ -112,11 +112,11 @@
     "status": "draft"
   },
   "carriage": {
-    "summaryEs": "Transporte terrestre: vehículo de cuatro ruedas para hasta cuatro personas en cabina cerrada y dos conductores; incluye los arreos. Coste 100 gp.",
+    "summaryEs": "Transporte terrestre: vehículo de cuatro ruedas para hasta cuatro personas en cabina cerrada y dos conductores; incluye los arreos. Coste 100 gp, peso 600 lbs.",
     "status": "draft"
   },
   "cart": {
-    "summaryEs": "Transporte terrestre: vehículo de dos ruedas tirado por una bestia para transportar mercancías a corta distancia; incluye los arreos. Coste 15 gp.",
+    "summaryEs": "Transporte terrestre: vehículo de dos ruedas tirado por un caballo (u otra bestia de carga); incluye los arreos. Coste 15 gp, peso 200 lbs.",
     "status": "draft"
   },
   "chain-10-ft": {
@@ -132,7 +132,7 @@
     "status": "draft"
   },
   "chest-small": {
-    "summaryEs": "Equipo de aventurero: cofre de madera pequeño (2 pies cúbicos, 1 punto de golpe, CD 17 para romperlo); suele llevar cerradura simple. Coste 2 gp, peso 25 lbs.",
+    "summaryEs": "Equipo de aventurero: cofre de madera vacío. Coste 2 gp, peso 25 lbs.",
     "status": "draft"
   },
   "clerics-vestments": {
@@ -144,7 +144,7 @@
     "status": "draft"
   },
   "coach-cab": {
-    "summaryEs": "Transporte terrestre: viaje en diligencia entre pueblos; en una ciudad, un trayecto en coche de alquiler suele costar 1 pieza de cobre. Sin coste listado.",
+    "summaryEs": "Servicios: viaje en diligencia entre pueblos (con carga ligera); dentro de una ciudad, un coche de alquiler suele costar 1 pieza de cobre. Coste 3 cp por milla.",
     "status": "draft"
   },
   "cold-weather-outfit": {
@@ -164,11 +164,15 @@
     "status": "draft"
   },
   "dog-guard": {
-    "summaryEs": "Montura o animal: perro guardián pequeño entrenado para el combate; el texto describe también al perro faldero y al perro de monta. Coste 25 gp, peso 25 lbs.",
+    "summaryEs": "Montura o animal: perro guardián. El CRB solo da su precio. Coste 25 gp.",
     "status": "draft"
   },
   "dog-riding": {
-    "summaryEs": "Montura o animal: perro de monta mediano, criado para llevar jinetes pequeños y entrenado para el combate; el texto describe también al perro guardián y al faldero. Coste 150 gp, peso 50 lbs.",
+    "summaryEs": "Montura o animal: perro de monta mediano, adiestrado para llevar a un jinete humanoide Pequeño; es valiente en combate como un caballo de guerra y no sufres daño al caer de él. Coste 150 gp.",
+    "status": "draft"
+  },
+  "donkey-or-mule": {
+    "summaryEs": "Montura o animal: burro o mula, firmes ante el peligro y capaces de cargar mucho peso; a diferencia del caballo aceptan entrar en mazmorras. Coste 8 gp.",
     "status": "draft"
   },
   "entertainers-outfit": {
@@ -232,7 +236,7 @@
     "status": "draft"
   },
   "holly-and-mistletoe": {
-    "summaryEs": "Herramientas: plantas que los druidas suelen usar como foco divino al lanzar conjuros. Coste 0 gp.",
+    "summaryEs": "Herramientas: plantas que los druidas suelen usar como foco divino al lanzar conjuros. Sin coste listado.",
     "status": "draft"
   },
   "holy-symbol-silver": {
@@ -252,27 +256,27 @@
     "status": "draft"
   },
   "horse-heavy": {
-    "summaryEs": "Montura o animal: caballo pesado: montura y animal de carga Grande, usado para tirar de cargas importantes a grandes distancias. Coste 200 gp, peso 2,000 lbs.",
+    "summaryEs": "Montura o animal: caballo pesado; el caballo es montura adecuada para humanos, enanos, elfos, semielfos y semiorcos. Coste 200 gp.",
     "status": "draft"
   },
   "horse-heavy-combat-trained": {
-    "summaryEs": "Montura o animal: caballo pesado entrenado para el combate: montura de guerra Grande que lucha con fiereza incluso sin barda. Coste 300 gp, peso 3,000 lbs.",
+    "summaryEs": "Montura o animal: caballo pesado adiestrado para la guerra; se le puede montar en combate sin peligro. Coste 300 gp.",
     "status": "draft"
   },
   "horse-light": {
-    "summaryEs": "Montura o animal: caballo ligero: montura Grande que también sirve de porteador o de tiro para carruajes. Coste 75 gp, peso 900 lbs.",
+    "summaryEs": "Montura o animal: caballo ligero; el caballo es montura adecuada para humanos, enanos, elfos, semielfos y semiorcos. Coste 75 gp.",
     "status": "draft"
   },
   "horse-light-combat-trained": {
-    "summaryEs": "Montura o animal: caballo ligero entrenado para el combate: montura de guerra de caballería rápida, exploradores y caballeros audaces. Coste 110 gp, peso 1,200 lbs.",
+    "summaryEs": "Montura o animal: caballo ligero adiestrado para la guerra; se le puede montar en combate sin peligro. Coste 110 gp.",
     "status": "draft"
   },
   "horse-pony": {
-    "summaryEs": "Montura o animal: poni: montura y animal de carga. Coste 30 gp, peso 800 lbs.",
+    "summaryEs": "Montura o animal: poni, más pequeño que el caballo y montura adecuada para gnomos y medianos. Coste 30 gp.",
     "status": "draft"
   },
   "horse-pony-combat-trained": {
-    "summaryEs": "Montura o animal: poni entrenado para el combate. Coste 45 gp, peso 900 lbs.",
+    "summaryEs": "Montura o animal: poni adiestrado para la guerra; se le puede montar en combate sin peligro. Coste 45 gp.",
     "status": "draft"
   },
   "hourglass": {
@@ -332,7 +336,7 @@
     "status": "draft"
   },
   "locked-gauntlet": {
-    "summaryEs": "Complemento de armadura: guantelete con cadenas para sujetar un arma: +10 a la DMC contra desarme; coste y peso se suman; mientras está cerrado no puedes usar esa mano para lanzar conjuros ni habilidades. Coste +8 gp, peso +5 lbs.",
+    "summaryEs": "Complemento de armadura: guantelete con cadenas para sujetar un arma: +10 a la DMC contra desarme; mientras está cerrado no puedes usar esa mano para lanzar conjuros ni habilidades. Coste 8 gp, peso +5 lbs.",
     "status": "draft"
   },
   "longship": {
@@ -415,10 +419,6 @@
     "summaryEs": "Equipo de aventurero: frasco de 1 pinta de aceite que arde 6 horas en lámpara o linterna; arma de salpicadura (50 % de prenderse); en el suelo cubre 5 pies cuadrados y hace 1d3 de fuego durante 2 asaltos. Coste 1 sp, peso 1 lb.",
     "status": "draft"
   },
-  "pack-animal-donkey-mule": {
-    "summaryEs": "Montura o animal: animal de carga (burro o mula; en otras regiones elefantes, yaks o bueyes). Coste 8 gp, peso 600 lbs.",
-    "status": "draft"
-  },
   "paper-sheet": {
     "summaryEs": "Equipo de aventurero: hoja de papel de unas 9 por 6 pulgadas, no apta para pergaminos mágicos; dureza 0, 1 punto de golpe y CD 5 para romperla. Coste 4 sp.",
     "status": "draft"
@@ -464,7 +464,7 @@
     "status": "draft"
   },
   "rowboat": {
-    "summaryEs": "Transporte marítimo: bote de 8 a 12 pies con dos remos para dos o tres pasajeros Medianos; avanza unas 1-1/2 millas por hora. Coste 50 gp.",
+    "summaryEs": "Transporte marítimo: bote de 8 a 12 pies con dos remos para dos o tres pasajeros Medianos; avanza unas 1-1/2 millas por hora. Coste 50 gp, peso 100 lbs.",
     "status": "draft"
   },
   "royal-outfit": {
@@ -528,11 +528,11 @@
     "status": "draft"
   },
   "ships-passage": {
-    "summaryEs": "Transporte marítimo: pasaje en un barco de carga; el coste se duplica para criaturas mayores que Medianas o difíciles de embarcar. Sin coste listado.",
+    "summaryEs": "Servicios: pasaje en un barco de carga; el coste se duplica para criaturas mayores que Medianas o difíciles de embarcar. Coste 1 sp por milla.",
     "status": "draft"
   },
-  "shovel-common": {
-    "summaryEs": "Equipo de aventurero: pala para cavar un foso a razón de 2 pies cúbicos por minuto. Coste 2 cp, peso 3 lbs.",
+  "shovel-or-spade": {
+    "summaryEs": "Equipo de aventurero: pala o laya; como arma improvisada a una mano causa daño contundente igual al de un garrote de su tamaño. Coste 2 gp, peso 8 lbs.",
     "status": "draft"
   },
   "signet-ring": {
@@ -544,7 +544,7 @@
     "status": "draft"
   },
   "sled": {
-    "summaryEs": "Transporte terrestre: carro sobre patines para nieve y hielo, tirado por lo general por dos caballos; incluye los arreos. Coste 20 gp.",
+    "summaryEs": "Transporte terrestre: carro sobre patines para nieve y hielo, tirado por lo general por dos caballos; incluye los arreos. Coste 20 gp, peso 300 lbs.",
     "status": "draft"
   },
   "sledge": {
@@ -556,7 +556,7 @@
     "status": "draft"
   },
   "soap": {
-    "summaryEs": "Equipo de aventurero: pastilla de jabón de grasa animal y lejía, con unos 50 usos. Coste 1 cp, peso 1/2 lb.",
+    "summaryEs": "Equipo de aventurero: jabón de grasa animal y lejía, con unos 50 usos. Coste 5 sp, peso 1 lb.",
     "status": "draft"
   },
   "spell-component-pouch": {
@@ -604,7 +604,7 @@
     "status": "draft"
   },
   "tindertwig": {
-    "summaryEs": "Herramienta alquímica: palito con sustancia alquímica que prende al rozarlo; encender una antorcha con él es una acción estándar; arde 1d2 asaltos. Coste 1 gp.",
+    "summaryEs": "Herramienta alquímica: palito con sustancia alquímica que prende al rozarlo contra una superficie áspera; encender una antorcha con él es una acción estándar. Coste 1 gp.",
     "status": "draft"
   },
   "torch": {
@@ -623,8 +623,8 @@
     "summaryEs": "Equipo de aventurero: vial de vidrio o acero con 1 onza de líquido. Coste 1 gp.",
     "status": "draft"
   },
-  "wagon-light": {
-    "summaryEs": "Transporte terrestre: carro abierto de cuatro ruedas para cargas pesadas, con los arreos; el texto describe las variedades ligera, mediana y pesada. Coste 50 gp.",
+  "wagon": {
+    "summaryEs": "Transporte terrestre: vehículo abierto de cuatro ruedas para cargas pesadas; lo tiran dos caballos (u otras bestias de carga) e incluye los arreos. Coste 35 gp, peso 400 lbs.",
     "status": "draft"
   },
   "warship": {

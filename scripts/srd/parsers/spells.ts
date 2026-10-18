@@ -1,6 +1,6 @@
 import type { AnyNode } from "domhandler";
 import { CRB_SOURCE_REF_PREFIX } from "../../../src/data/schema/common";
-import { SPELL_SCHOOLS } from "../../../src/data/schema/spell";
+import { SPELL_DESCRIPTORS, SPELL_SCHOOLS, SPELL_SUBSCHOOLS } from "../../../src/data/schema/spell";
 import {
   classifyCastingTime,
   classifyComponents,
@@ -213,6 +213,66 @@ export type SpellPageResult =
 
 const SCHOOL_LINE = /^([a-z]+)(?:\s*\(([^)]*)\))?(?:\s*\[([^\]]*)\])?$/;
 
+/** Quita las marcas de cursiva Markdown (`*texto*`) de un valor de campo, dejando el texto. */
+export function stripEmphasis(value: string): string {
+  return value.replace(/\*([^*\n]+)\*/g, "$1");
+}
+
+export interface SchoolLine {
+  school: string;
+  subschool: string | undefined;
+  additionalSubschools: string[];
+  descriptors: string[];
+  /** La línea traía «[see text...]»: el descriptor lo decide el texto del conjuro. */
+  seeText: boolean;
+}
+
+/**
+ * Línea School de la fuente: `conjuration (calling or creation)`, `illusion (figment, glamer)`,
+ * `evocation [fire or cold]`, `transmutation [see text]`. Las alternativas se separan por «,» y
+ * «or»/«and»; «see text...» no es un descriptor y se omite. Un valor fuera de los catálogos
+ * cerrados del CRB lanza (R45): lo decide una persona, no se inventa un id.
+ */
+export function parseSchoolLine(raw: string): SchoolLine {
+  const match = SCHOOL_LINE.exec(raw.toLowerCase().trim());
+  if (!match) throw new Error(`línea School ilegible: «${raw}»`);
+  const school = match[1]!;
+  if (!(SPELL_SCHOOLS as readonly string[]).includes(school)) {
+    throw new Error(`escuela desconocida «${school}»`);
+  }
+  const split = (list: string): string[] =>
+    list
+      .split(/\s*,\s*|\s+(?:or|and)\s+/)
+      .map((token) => token.trim())
+      .filter((token) => token !== "");
+  const subschools = split(match[2] ?? "").map((token) => slugify(token));
+  for (const sub of subschools) {
+    if (!(SPELL_SUBSCHOOLS as readonly string[]).includes(sub)) {
+      throw new Error(`subescuela desconocida «${sub}» en «${raw}»`);
+    }
+  }
+  let seeText = false;
+  const descriptors: string[] = [];
+  for (const token of split(match[3] ?? "")) {
+    if (token.startsWith("see text")) {
+      seeText = true;
+      continue;
+    }
+    const descriptor = slugify(token);
+    if (!(SPELL_DESCRIPTORS as readonly string[]).includes(descriptor)) {
+      throw new Error(`descriptor desconocido «${descriptor}» en «${raw}»`);
+    }
+    descriptors.push(descriptor);
+  }
+  return {
+    school,
+    subschool: subschools[0],
+    additionalSubschools: subschools.slice(1),
+    descriptors,
+    seeText,
+  };
+}
+
 /** Parsea la página `SpellDisplay.aspx?ItemName=<nombre>` de un conjuro. */
 export function parseSpellPage(page: ParserPage, deps: SpellPageDeps): SpellPageResult {
   const fail = (message: string): never => {
@@ -281,11 +341,13 @@ export function parseSpellPage(page: ParserPage, deps: SpellPageDeps): SpellPage
   const targeting: Targeting[] = [];
   for (const field of fields) {
     const label = field.label.toLowerCase();
+    // `raw` es literal: sin las marcas de cursiva Markdown (*nombre de conjuro*) de la conversión.
+    const value = stripEmphasis(field.value);
     if (TARGETING_LABEL.test(label)) {
-      targeting.push({ kind: targetingKindFromLabel(field.label), raw: field.value });
+      targeting.push({ kind: targetingKindFromLabel(field.label), raw: value });
     } else if (SINGLE_LABELS.has(label)) {
       if (byLabel.has(label)) fail(`etiqueta repetida «${field.label}»`);
-      byLabel.set(label, field.value);
+      byLabel.set(label, value);
     } else {
       fail(`etiqueta de cabecera desconocida «${field.label}»`);
     }
@@ -318,17 +380,14 @@ export function parseSpellPage(page: ParserPage, deps: SpellPageDeps): SpellPage
   const notes: string[] = [];
 
   // Escuela, subescuela y descriptores: `evocation`, `conjuration (healing)`, `necromancy [evil]`.
-  const schoolMatch = SCHOOL_LINE.exec(need("school").toLowerCase());
-  if (!schoolMatch) return fail(`línea School ilegible: «${need("school")}»`);
-  const school = schoolMatch[1]!;
-  if (!(SPELL_SCHOOLS as readonly string[]).includes(school)) {
-    return fail(`escuela desconocida «${school}»`);
+  let schoolLine;
+  try {
+    schoolLine = parseSchoolLine(need("school"));
+  } catch (error) {
+    return fail(error instanceof Error ? error.message : String(error));
   }
-  const subschool = schoolMatch[2] === undefined ? undefined : slugify(schoolMatch[2]);
-  const descriptors = (schoolMatch[3] ?? "")
-    .split(",")
-    .map((d) => slugify(d))
-    .filter((d) => d !== "");
+  const { school, subschool, additionalSubschools, descriptors } = schoolLine;
+  if (schoolLine.seeText) bump(counters, "descriptores «see text» omitidos");
 
   // Línea Level (R94, R97, R102).
   let levelResult;
@@ -400,7 +459,8 @@ export function parseSpellPage(page: ParserPage, deps: SpellPageDeps): SpellPage
     sourceRef: crbLabel,
     book: "CRB",
     school,
-    ...(subschool === undefined || subschool === "" ? {} : { subschool }),
+    ...(subschool === undefined ? {} : { subschool }),
+    ...(additionalSubschools.length === 0 ? {} : { additionalSubschools }),
     descriptors,
     levels: levelResult.levels,
     castingTime,

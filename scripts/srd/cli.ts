@@ -9,15 +9,21 @@ import { formatIssues } from "../../src/data/integrity/format";
 import type { IntegrityIssue } from "../../src/data/integrity/types";
 import { CATEGORY_IDS, type Category } from "../../src/data/schema/common";
 import { mergeGlossaryShards } from "../../src/data/schema/glossary";
+import type { OverrideApplied } from "../../src/data/schema/provenance";
 import { loadConfig, parseCategoryArg, type CategoryScope, type SrdConfig } from "./lib/config";
 import { createFetchCache, type CachedPage, type FetchCache } from "./lib/fetch-cache";
 import { writeGlossary } from "./lib/glossary-build";
 import { nodesToText, findContent, loadHtml } from "./lib/html";
 import { writeJsonFile, writeTextFile } from "./lib/json";
 import { loadDataset, loadIntegrityContext } from "./lib/load-dataset";
-import { applyOverrides, parseOverrideParts, readOverrideParts } from "./lib/overrides";
+import {
+  applyOverrides,
+  parseOverrideParts,
+  readOverrideParts,
+  type OverrideFile,
+} from "./lib/overrides";
 import { pathsFor, type Paths } from "./lib/paths";
-import type { ParsedEntry, ParserInput, ParserModule } from "./lib/parser-contract";
+import type { ParsedEntry, ParserInput, ParserModule, ParserOutput } from "./lib/parser-contract";
 import {
   ParserNotImplementedError,
   createParserLoader,
@@ -26,6 +32,7 @@ import {
 import {
   loadCachedPages,
   mergeProvenance,
+  provenanceFile,
   readProvenanceParts,
   selectParts,
   updateProvenance,
@@ -251,7 +258,8 @@ async function parseScope(ctx: Ctx, scope: CategoryScope, acceptDrift: boolean):
   );
 
   // Overrides (R49): se aplican tras el parseo; los obsoletos o sin destino detienen el parseo.
-  const overrides = parseOverrideParts(readOverrideParts(ctx.paths.data, category));
+  const overrideParts = readOverrideParts(ctx.paths.data, category);
+  const overrides = parseOverrideParts(overrideParts);
   const applied = applyOverrides(entries, overrides);
   if (applied.obsolete.length > 0) {
     throw new ParseFailure(
@@ -325,15 +333,21 @@ async function parseScope(ctx: Ctx, scope: CategoryScope, acceptDrift: boolean):
     }
   }
 
-  updateProvenance({
-    dataDir: ctx.paths.data,
-    category,
-    batch,
-    patch: {
-      importedKinds: output.provenancePatch?.importedKinds,
-      overridesApplied: applied.applied,
-    },
-  });
+  if (def.batched === true && subset === undefined) {
+    // R98: una categoría por lotes no tiene fichero de procedencia propio; cada override se anota
+    // en la procedencia de SU lote (el de su fichero overrides/<cat>/<lote>.json).
+    recordBatchedOverrides(ctx, category, overrideParts, applied.applied, output);
+  } else {
+    updateProvenance({
+      dataDir: ctx.paths.data,
+      category,
+      batch,
+      patch: {
+        importedKinds: output.provenancePatch?.importedKinds,
+        overridesApplied: applied.applied,
+      },
+    });
+  }
   writeCategoryIndexes(ctx.paths.root, [def]);
 
   appendReport(
@@ -354,6 +368,49 @@ async function parseScope(ctx: Ctx, scope: CategoryScope, acceptDrift: boolean):
       `${output.excluded.length} página(s) excluida(s); ${output.needsReview.length} needsReview`,
   );
   return true;
+}
+
+function recordBatchedOverrides(
+  ctx: Ctx,
+  category: Category,
+  parts: readonly OverrideFile[],
+  applied: readonly OverrideApplied[],
+  output: ParserOutput,
+): void {
+  if ((output.provenancePatch?.importedKinds ?? []).length > 0) {
+    throw new ParseFailure(
+      `${category}: importedKinds no se admite en un parseo completo de una categoría por lotes; ` +
+        "usa --category <categoría>:<lote>",
+    );
+  }
+  const attributed = new Set<string>();
+  for (const part of parts) {
+    const batch = /^overrides\/[^/]+\/([^/]+)\.json$/.exec(part.file)?.[1];
+    const keys = new Set(parseOverrideParts([part]).map((o) => `${o.id}|${o.field}`));
+    const mine = applied.filter((a) => keys.has(`${a.id}|${a.field}`));
+    if (mine.length === 0) continue;
+    if (batch === undefined) {
+      throw new ParseFailure(
+        `${part.file}: los overrides de ${category} van en overrides/${category}/<lote>.json (R98)`,
+      );
+    }
+    if (!existsSync(provenanceFile(ctx.paths.data, category, batch))) {
+      throw new ParseFailure(`${part.file}: no existe la procedencia del lote «${batch}»`);
+    }
+    updateProvenance({
+      dataDir: ctx.paths.data,
+      category,
+      batch,
+      patch: { overridesApplied: mine },
+    });
+    for (const a of mine) attributed.add(`${a.id}|${a.field}`);
+  }
+  const lost = applied.filter((a) => !attributed.has(`${a.id}|${a.field}`));
+  if (lost.length > 0) {
+    throw new ParseFailure(
+      `override(s) sin lote: ${lost.map((a) => `${a.id}.${a.field}`).join(", ")}`,
+    );
+  }
 }
 
 // --- validate / glossary / sample ---------------------------------------------------------------

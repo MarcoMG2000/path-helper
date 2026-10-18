@@ -139,7 +139,7 @@
   {
     "id": "rod-of-enemy-detection",
     "name": "Rod of Enemy Detection",
-    "textEn": "**Aura** moderate divination; **CL** 10th; **Slot** none; **Price** 23,500 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis device pulses in the wielder’s hand and points in the direction of any creature or creatures hostile to the bearer of the device (nearest ones first). These creatures can be *invisible*, ethereal, hidden, disguised, or in plain sight. The detection range is 60 feet. If the bearer of the rod concentrates for a full round, the rod pinpoints the location of the nearest enemy and indicates how many enemies are within range. The rod can be used to pinpoint enemies three times each day, each use lasting up to 10 minutes. Activating the rod is a standard action.\n\n**Construction**\n\n**Requirements** Craft Rod, *true seeing*; **Cost** 23,500 gp",
+    "textEn": "**Aura** moderate divination; **CL** 10th; **Slot** none; **Price** 23,500 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis device pulses in the wielder’s hand and points in the direction of any creature or creatures hostile to the bearer of the device (nearest ones first). These creatures can be *invisible*, ethereal, hidden, disguised, or in plain sight. The detection range is 60 feet. If the bearer of the rod concentrates for a full round, the rod pinpoints the location of the nearest enemy and indicates how many enemies are within range. The rod can be used to pinpoint enemies three times each day, each use lasting up to 10 minutes. Activating the rod is a standard action.\n\n**Construction**\n\n**Requirements** Craft Rod, *true seeing*; **Cost** 11,750 gp",
     "source": "https://aonprd.com/MagicRodsDisplay.aspx?FinalName=Rod%20of%20Enemy%20Detection",
     "sourceRef": "PRPG Core Rulebook pg. 485",
     "book": "CRB",
@@ -149,8 +149,8 @@
     "weightLb": 5,
     "construction": {
       "requirements": "Craft Rod, true seeing",
-      "costRaw": "23,500 gp",
-      "costCp": 2350000
+      "costRaw": "11,750 gp",
+      "costCp": 1175000
     },
     "sourceRefAll": "Ultimate Equipment pg. 181, PRPG Core Rulebook pg. 485",
     "reprintedIn": [

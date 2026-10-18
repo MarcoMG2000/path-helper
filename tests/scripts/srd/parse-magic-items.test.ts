@@ -98,6 +98,16 @@ describe("cabecera y texto de la página (R65, R86)", () => {
     ]);
   });
 
+  it("la sección Resonance (Ultimate Equipment) se lee pero se omite del Markdown (corrección B)", () => {
+    const { items, markdown, $ } = load("ioun-stone-clear-spindle");
+    const normal = items[0]!;
+    expect(normal.sections.map((s) => s.heading)).toEqual(["Description", "Resonance"]);
+    expect(markdown[0]).not.toContain("Resonance");
+    expect(markdown[0]).not.toContain("protection from chaos/evil/good/law");
+    expect(markdown[0]).toContain("Sustains creature without food or water.");
+    expect(itemMarkdown($, normal)).toBe(markdown[0]);
+  });
+
   it("una página sin contenido no produce objetos", () => {
     expect(load("lens-of-detection").items).toEqual([]);
   });
@@ -794,10 +804,13 @@ describe("parse sobre un universo sintético con páginas reales", () => {
     expect(out.counters?.["entradas con reprintedIn"]).toBeGreaterThan(5);
   });
 
-  it("Ioun Stone: la sección Resonance (Ultimate Equipment) marca needsReview", () => {
-    expect(out.needsReview.find((n) => n.id === "clear-spindle-normal-ioun-stone")?.reason).toMatch(
-      /Resonance/,
-    );
+  it("Ioun Stone: la sección Resonance (Ultimate Equipment) no entra en textEn y se cuenta (corrección B)", () => {
+    const stone = get("clear-spindle-normal-ioun-stone");
+    expect(String(stone["textEn"])).not.toMatch(/Resonance|dull gray/);
+    expect(String(stone["textEn"])).toContain("Sustains creature without food or water.");
+    expect(String(stone["textEn"])).toContain("**Construction**");
+    expect(out.needsReview.find((n) => n.id === "clear-spindle-normal-ioun-stone")).toBeUndefined();
+    expect(out.counters?.["secciones de otro libro omitidas del texto (Resonance)"]).toBe(1);
   });
 
   it("R63: cada entrada va a magic-items/<kind>.json y importedKinds lista los kinds producidos", () => {

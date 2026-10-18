@@ -300,6 +300,13 @@
     "kind": "entry",
     "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
   },
+  "gear:donkey-or-mule": {
+    "es": "Donkey or mule",
+    "verified": false,
+    "origin": "draft",
+    "kind": "entry",
+    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
+  },
   "gear:entertainers-outfit": {
     "es": "Entertainer's outfit",
     "verified": false,
@@ -727,13 +734,6 @@
     "kind": "entry",
     "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
   },
-  "gear:pack-animal-donkey-mule": {
-    "es": "Pack animal (donkey/mule)",
-    "verified": false,
-    "origin": "draft",
-    "kind": "entry",
-    "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
-  },
   "gear:paper-sheet": {
     "es": "Paper (sheet)",
     "verified": false,
@@ -930,8 +930,8 @@
     "kind": "entry",
     "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
   },
-  "gear:shovel-common": {
-    "es": "Shovel, common",
+  "gear:shovel-or-spade": {
+    "es": "Shovel or spade",
     "verified": false,
     "origin": "draft",
     "kind": "entry",
@@ -1091,8 +1091,8 @@
     "kind": "entry",
     "note": "Sin traducción conocida: nombre inglés como marcador hasta confirmar el nombre del manual de Devir (Q2)."
   },
-  "gear:wagon-light": {
-    "es": "Wagon (light)",
+  "gear:wagon": {
+    "es": "Wagon",
     "verified": false,
     "origin": "draft",
     "kind": "entry",

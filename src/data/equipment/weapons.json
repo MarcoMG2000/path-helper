@@ -64,7 +64,8 @@
       "Speed": "10 ft.",
       "Category": "Direct-Fire (Large)",
       "Proficiency": "Siege Engine"
-    }
+    },
+    "needsReview": true
   },
   {
     "id": "bastard-sword",
@@ -220,7 +221,8 @@
       "Weight": "—",
       "Category": "Ammunition",
       "Proficiency": "Ammunition"
-    }
+    },
+    "needsReview": true
   },
   {
     "id": "bolas",
@@ -306,7 +308,8 @@
       "Speed": "0 ft.",
       "Category": "Indirect-Fire (Gargantuan)",
       "Proficiency": "Siege Engine"
-    }
+    },
+    "needsReview": true
   },
   {
     "id": "catapult-light",
@@ -346,7 +349,8 @@
       "Speed": "10 ft.",
       "Category": "Indirect-Fire (Large)",
       "Proficiency": "Siege Engine"
-    }
+    },
+    "needsReview": true
   },
   {
     "id": "club",
@@ -2403,7 +2407,8 @@
       "Speed": "15 ft.",
       "Category": "Close Assault",
       "Proficiency": "Siege Engine"
-    }
+    },
+    "needsReview": true
   },
   {
     "id": "ranseur",
@@ -3083,7 +3088,8 @@
       "Speed": "15 ft.",
       "Category": "Close Assault",
       "Proficiency": "Siege Engine"
-    }
+    },
+    "needsReview": true
   },
   {
     "id": "sling",

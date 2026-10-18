@@ -1582,7 +1582,7 @@
     "targeting": [
       {
         "kind": "effect",
-        "raw": "an *ironwood* object weighing up to 5 lbs./level"
+        "raw": "an ironwood object weighing up to 5 lbs./level"
       }
     ],
     "duration": {

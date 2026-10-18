@@ -814,9 +814,9 @@
       "focus": false,
       "divineFocus": false,
       "xp": false,
-      "raw": "V, S, M (a *potion of bull's strength*, which you drink and whose effects are subsumed by the spell effects)",
+      "raw": "V, S, M (a potion of bull's strength, which you drink and whose effects are subsumed by the spell effects)",
       "details": {
-        "material": "a *potion of bull's strength*, which you drink and whose effects are subsumed by the spell effects"
+        "material": "a potion of bull's strength, which you drink and whose effects are subsumed by the spell effects"
       }
     },
     "range": {

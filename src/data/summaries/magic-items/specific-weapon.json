@@ -48,7 +48,7 @@
     "status": "draft"
   },
   "mace-of-smiting": {
-    "summaryEs": "Maza pesada de adamantina: la lesser es +1 con +3 de mejora contra constructos; la normal es +3 con +5 contra constructos. Sus críticos contra constructos y ultraplanares multiplican más (o destruyen al constructo).",
+    "summaryEs": "Maza pesada de adamantina +3 con +5 de mejora contra constructos. Un crítico contra un constructo lo destruye sin salvación; un crítico contra un ultraplanar (outsider) multiplica ×4 en lugar de ×2.",
     "status": "draft"
   },
   "mace-of-terror": {

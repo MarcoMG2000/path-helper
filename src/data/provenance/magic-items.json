@@ -3406,5 +3406,971 @@
     "staff",
     "weapon-ability",
     "wondrous"
+  ],
+  "overridesApplied": [
+    {
+      "id": "feather-tokens",
+      "field": "textEn",
+      "parsedValue": "**Aura** varies; **CL** varies; **Slot** —; **Price** 50 gp (Anchor), 150 gp (Lance), 200 gp (Fan), 200 gp (Sky Hook), 300 gp (Bird), 400 gp (Catapult), 400 gp (Tree), 450 gp (Floating Feather), 450 gp (Swan Boat), 500 gp (Campsite), 500 gp (Ram), 500 gp (Whip), 600 gp (Tar and Feathers), 1,000 gp (Siege Tower); **Weight** 1 lb.\n\n**Description**\n\nEach of these items is a small feather that has a power to suit a special need. The kinds of tokens are described below. Each token is usable once. A particular feather token has no specific features to identify it unless its magic aura is viewed—even tokens with identical powers can be wildly different in appearance.\n\n*Anchor*: A token that creates an anchor that moors a craft in water so as to render it immobile for up to 1 day.\n\n*Lance*: This token turns into a white-plumed *+1 lance* for 1 minute. This token is often used when carrying a large weapon is illegal or impractical.\n\n*Fan*: A token that forms a huge flapping fan, causing a breeze of sufficient strength to propel one ship (about 25 mph). This wind is not cumulative with existing wind speed. The token can, however, be used to lessen existing winds, creating an area of relative calm or lighter winds (but wave size in a storm is not affected). The fan can be used for up to 8 hours. It does not function on land.\n\n*Sky Hook*: This token transforms into a huge disembodied eagle’s talon (hardness 5, hp 25) anchored wherever you activate it. The talon can support up to 1,000 pounds and persists for 1 day. The talon can be moved up to 10 feet with a DC 20 Strength check.\n\n*Bird*: A token that creates a small bird that can be used to deliver a small written message unerringly to a designated target. The token lasts as long as it takes to carry the message.\n\n*Catapult*: This token creates a standard catapult (*Ultimate Combat* 161). The catapult disappears after 12 hours.\n\n*Tree*: A token that causes a great oak to spring into being (5-foot-diameter trunk, 60-foot height, 40-foot top diameter). This is an instantaneous effect.\n\n*Floating Feather*: This token can be attached to any creature up to 200 pounds, causing a pair of large wings to grow from the target and allowing her to fly (speed 30, average maneuverability) for 1 minute. The token can be attached to an object of up to 200 pounds, which flies straight in a direction indicated by the creature who activates the feather unless the activator uses a move action to redirect its movement. The wings persist for 1 minute.\n\n*Swan Boat*: A token that forms a swan-like boat capable of moving on water at a speed of 60 feet. It can carry eight horses and gear, 32 Medium characters, or any equivalent combination. The boat lasts for 1 day.\n\n*Campsite*: This feather token can be used only once. It creates a fully functional campsite, including a tent suitable to house six Medium creatures, a campfire with enough dry wood to burn for 24 hours, a modest wooden table with two benches suitable to seat three people each, and a hitching post for up to six steeds. The campsite remains for up to 24 hours before disappearing, leaving no trace except footsteps and refuse left behind by those using the site.\n\n*Ram*: This token creates a Huge ram (*Ultimate Combat* 165). The ram disappears after 24 hours.\n\n*Whip*: A token that forms into a huge leather whip and wields itself against any opponent desired just like a *dancing* weapon. The weapon has a +10 base attack bonus, does 1d6+1 points of nonlethal damage, has a +1 enhancement bonus on attack and damage rolls, and a makes a free grapple attack (with a +15 bonus on its combat maneuver checks) if it hits. The whip lasts no longer than 1 hour.\n\n*Tar and Feathers*: This token can be directed to float to any point within 60 feet and then burst into a mass of sticky white feathers that adheres to all creatures in a 10-foot radius. The clinging feathers affect creatures in the area as a *glitterdust* spell.\n\n*Siege Tower*: This token creates a Huge siege tower (*Ultimate Combat* 165). The tower disappears after 1 hour.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *major creation*; **Cost** 25 gp (Anchor), 75 gp (Lance), 100 gp (Fan), 100 gp (Sky Hook), 150 gp (Bird), 200 gp (Catapult), 200 gp (Tree), 225 gp (Floating Feather), 225 gp (Swan Boat), 250 gp (Campsite), 250 gp (Ram), 250 gp (Whip), 300 gp (Tar and Feathers), 500 gp (Siege Tower)"
+    },
+    {
+      "id": "feather-tokens",
+      "field": "aura",
+      "parsedValue": "varies"
+    },
+    {
+      "id": "feather-tokens",
+      "field": "slot",
+      "parsedValue": "—"
+    },
+    {
+      "id": "feather-tokens",
+      "field": "weightLb",
+      "parsedValue": 1
+    },
+    {
+      "id": "feather-tokens",
+      "field": "construction",
+      "parsedValue": {
+        "requirements": "Craft Wondrous Item, major creation",
+        "costRaw": "25 gp (Anchor), 75 gp (Lance), 100 gp (Fan), 100 gp (Sky Hook), 150 gp (Bird), 200 gp (Catapult), 200 gp (Tree), 225 gp (Floating Feather), 225 gp (Swan Boat), 250 gp (Campsite), 250 gp (Ram), 250 gp (Whip), 300 gp (Tar and Feathers), 500 gp (Siege Tower)",
+        "costCp": null
+      }
+    },
+    {
+      "id": "feather-tokens",
+      "field": "variants",
+      "parsedValue": [
+        {
+          "variantId": "anchor",
+          "label": "Anchor",
+          "casterLevel": null,
+          "priceRaw": "50 gp (Anchor)",
+          "priceCp": 5000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "lance",
+          "label": "Lance",
+          "casterLevel": null,
+          "priceRaw": "150 gp (Lance)",
+          "priceCp": 15000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "fan",
+          "label": "Fan",
+          "casterLevel": null,
+          "priceRaw": "200 gp (Fan)",
+          "priceCp": 20000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "sky-hook",
+          "label": "Sky Hook",
+          "casterLevel": null,
+          "priceRaw": "200 gp (Sky Hook)",
+          "priceCp": 20000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "bird",
+          "label": "Bird",
+          "casterLevel": null,
+          "priceRaw": "300 gp (Bird)",
+          "priceCp": 30000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "catapult",
+          "label": "Catapult",
+          "casterLevel": null,
+          "priceRaw": "400 gp (Catapult)",
+          "priceCp": 40000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "tree",
+          "label": "Tree",
+          "casterLevel": null,
+          "priceRaw": "400 gp (Tree)",
+          "priceCp": 40000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "floating-feather",
+          "label": "Floating Feather",
+          "casterLevel": null,
+          "priceRaw": "450 gp (Floating Feather)",
+          "priceCp": 45000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "swan-boat",
+          "label": "Swan Boat",
+          "casterLevel": null,
+          "priceRaw": "450 gp (Swan Boat)",
+          "priceCp": 45000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "campsite",
+          "label": "Campsite",
+          "casterLevel": null,
+          "priceRaw": "500 gp (Campsite)",
+          "priceCp": 50000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "ram",
+          "label": "Ram",
+          "casterLevel": null,
+          "priceRaw": "500 gp (Ram)",
+          "priceCp": 50000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "whip",
+          "label": "Whip",
+          "casterLevel": null,
+          "priceRaw": "500 gp (Whip)",
+          "priceCp": 50000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "tar-and-feathers",
+          "label": "Tar and Feathers",
+          "casterLevel": null,
+          "priceRaw": "600 gp (Tar and Feathers)",
+          "priceCp": 60000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "siege-tower",
+          "label": "Siege Tower",
+          "casterLevel": null,
+          "priceRaw": "1,000 gp (Siege Tower)",
+          "priceCp": 100000,
+          "effects": [],
+          "extraDamage": []
+        }
+      ]
+    },
+    {
+      "id": "figurines-of-wondrous-power",
+      "field": "textEn",
+      "parsedValue": "**Aura** varies; **CL** varies; **Slot** none; **Price** 3,800 gp (Silver Raven), 6,000 gp (Coral Hippocampus), 7,000 gp (Emerald Frog), 7,500 gp (Lapis Camel), 7,600 gp (Pearl Dolphin), 9,000 gp (Ruby Butterfly), 9,100 gp (Black Jade Raven), 9,100 gp (Serpentine Eagle), 9,100 gp (Serpentine Owl), 10,000 gp (Bronze Griffon), 10,000 gp (Ebony Fly), 10,000 gp (Hematite Courgar), 10,000 gp (Slate Spider), 13,000 gp (Tin Imp), 14,000 gp (Glass Walrus), 15,000 gp (Obsidian Raven), 15,500 gp (Onyx Dog), 16,500 gp (Golden Lions), 17,000 gp (Marble Elephant), 21,000 gp (Ivory Goats), 28,500 gp (Obsidian Steed), 60,000 gp (Basalt Dragon); **Weight** 1 lb.\n\n**Description**\n\nEach of the several kinds of *figurines of wondrous power* appears to be a miniature statuette of a creature an inch or so high (with one exception). When the figurine is tossed down and the correct command word spoken, it becomes a living creature of normal size (except when noted otherwise below). The creature obeys and serves its owner. Unless stated otherwise, the creature understands Common but does not speak.\n\nIf a *figurine of wondrous power* is broken or destroyed in its statuette form, it is forever ruined. All magic is lost, its power departed. If slain in animal form, the figurine simply reverts to a statuette that can be used again at a later time.\n\n**Silver Raven**: This silver figurine turns into a raven on command (but it retains its metallic consistency, which gives it hardness 10). Another command sends it off into the air, bearing a message just like a creature affected by an *animal messenger* spell. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special powers or telepathic abilities. It can maintain its nonfigurine status for only 24 hours per week, but the duration need not be continuous.; CL 6th; Craft Wondrous Item, *animal messenger*, *animate objects*.\n\n**Coral Hippocampus**: When animated, this *figurine of wondrous* power (*Core Rulebook* 513) acts in all ways like a normal combat-trained hippocampus (*Bestiary 2* 155). The item can be used three times per week for up to 12 hours per use. When 12 hours have passed or when the command word is spoken, the coral hippocampus again becomes a tiny statuette.; CL 19th; Craft Wondrous Item, *animate objects*.\n\n**Emerald Frog**: This *figurine of wondrous power* appears as a small, innocuous frog carved of cloudy emerald. On command, it transforms into either a giant frog with the advanced template or 3 poisonous frogs—the user makes this choice at the time of activation. The frog (or frogs) can be animated up to 3 times per week, for a maximum total duration of 12 hours per week. If the advanced giant frog is slain, the *emerald frog* cannot be activated again for 1 full week. Each poisonous frog that is slain in combat reduces the total duration that the figurine can be activated for the week by 4 hours.\n\nEither the giant frog or the poisonous frogs can be used as combatants or as small, unintelligent servant-creatures, performing minor tasks or fetching small objects. The giant frog can be used by Small or smaller creatures as a makeshift mount, although it is not equipped with a saddle or similar equipment, and its slick hide imposes an additional –4 penalty on Ride attempts.; CL 8th; Craft Wondrous Item, *animate objects*.\n\n**Lapis Camel**: This palm-sized camel figurine is sculpted of lapis lazuli. When you throw the *lapis camel* to the ground and speak the command word, it turns into a dromedary camel. The camel acts as a normal camel in all respects, except that it obeys your verbal commands to the best of its animal-level intelligence. At your command, the camel returns to its figurine form. The *lapis camel* can be used up to 3 times per week for up 8 hours each use.; CL 11th; Craft Wondrous Item, *animate object*.\n\n**Pearl Dolphin**: This 2-inch-long pearl figurine turns into a dolphin on command (but it retains its composition, which gives it hardness 10). The dolphin follows the verbal commands of the creature who spoke the command word and will follow commands as a summoned creature. With a second command word, the dolphin will swim to an indicated location at double its swim speed, bearing a message just like a creature affected by an *animal messenger* spell.\n\nThe *pearl dolphin* can maintain its nonfigurine status for only 24 hours per week. The duration need not be continuous, but it must be used in 1-hour increments.; CL 11th; Craft Wondrous Item, *animal messenger*, *animate objects*.\n\n**Ruby Butterfly**: Upon command, this *figurine of wondrous power* transforms into a hand-sized red butterfly (same statistics as a bat). A spellcaster can use a ruby butterfly to deliver touch spells, as if the *ruby butterfly* were a familiar capable of this ability. A ruby butterfly can also be commanded to guard its owner while he sleeps. Creatures protected this way gain a +5 luck bonus on saving throws against any spell or effect that affects sleeping creatures’ dreams (such as *nightmare* or a night hag’s dream haunting ability). A ruby butterfly can be used three times per week for up to 8 hours at a time.; CL 9th; Craft Wondrous Item, *animate object*, *dream*.\n\n**Black Jade Raven**: This fist-sized piece of black jade is exquisitely tooled into the shape of a raven with outstretched wings. Upon command, it transforms into a black raven (use the stats for an eagle) or a giant black raven (use the stats for a giant eagle). Both forms of the raven have Improved Steal as a bonus feat. The raven understands Common but cannot speak. It can answer questions related to its abilities or what it has seen by cawing once for \"yes\" and twice for \"no.\"\n\nThe raven can maintain its non-figurine status for only 24 hours per week. This duration need not be continuous, but it must be used in 1-hour increments. After three transformations into its giant raven form (though not its smaller version), the statuette loses all magical properties. ; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Serpentine Eagle**: This Andoren variant of the *serpentine owl* can be transformed into an eagle or giant eagle but is otherwise identical to the owl figurine. *Serpentine eagles* are popular among Eagle Knights for scouting and emergency transportation.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Serpentine Owl**: This figurine becomes either a normal-sized horned owl or a giant owl (use the stats for the giant eagle) according to the command word used. The transformation can take place once per day, with a maximum duration of 8 continuous hours. However, after three transformations into giant owl form, the statuette loses all its magical properties. The owl communicates with its owner by telepathic means, informing her of all it sees and hears.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Bronze Griffon**: When animated, a bronze griffon acts in all ways like a normal griffon under the command of its possessor. The item can be used twice per week for up to 6 hours per use. When 6 hours have passed or when the command word is spoken, the bronze griffon once again becomes a tiny statuette.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Ebony Fly**: When animated, an ebony fly is the size of a pony and has all the statistics of a pegasus but can make no attacks. The item can be used three times per week for up to 12 hours per use. When 12 hours have passed or when the command word is spoken, the ebony fly again becomes a tiny statuette.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Hematite Courgar**: This palm-sized figurine of a cat with a spiked tail is made of gleaming hematite. A hematite cougar turns into a digmaul (*Pathfinder RPG Bestiary 5* 82) that is fully obedient to the figurine’s owner. Even in its animated form, the hematite cougar is made of dense metal, granting it a +2 armor bonus to AC and a +2 bonus to its CMD. An animated hematite cougar conducts low levels of electricity; creatures adjacent to the hematite cougar gain electricity resistance 2, but any damage prevented by this ability is dealt to the hematite cougar instead. A hematite cougar can be animated twice per week for up to 8 hours per use; speaking the command word before the 8 hours expires returns the hematite cougar to a figurine.; CL 11th; Craft Wondrous Item, *animate objects*, *resist energy*.\n\n**Slate Spider**: This statuette of a spider with stubby legs can be used once per day for 1 minute. When activated, the figurine sprouts longer, segmented legs, and scampers about the bearer, picking lint off robes, chiseling grime from armor, or otherwise grooming the bearer. If commanded to do so (a free action), it perches on the muzzle of a one-handed or two-handed firearm barrel and, after the firearm is fired, travels down the barrel and cleans out the firearm. Each time the slate spider cleans a firearm, the next shot the firearm fires has no chance of misfiring.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Tin Imp**: These fat, smirking imp figurines are made of solid tin. A *tin imp* turns into an imp (*Pathfinder RPG Bestiary* 78) on command, though it retains its metallic consistency, which gives it a +4 armor bonus to AC. In imp form, a *tin imp* can turn invisible at will as a swift action, though it retains none of an imp’s other spelllike abilities and lacks a poisoned sting. *Tin imps* generally avoid combat, but make excellent spies and trackers.\n\nThe *tin imp’s* owner can, as a move action, designate a single creature in his line of sight as the *tin imp’s* quarry. The *tin imp* then follows its quarry clandestinely, and sends a whispered message to its owner once each hour detailing the quarry’s location and activities. The message is similar to the *whispering wind* spell, though the message unerringly locates the *tin imp’s* owner instead of moving to a predetermined location. A *tin imp* can maintain its animate status for up to 48 hours per week. This duration doesn’t need to be continuous, but must be used in 1-hour increments. If slain in combat, a *tin imp* is destroyed.\n\nAdditionally, a creature with the track class feature can command a *tin imp* he owns to study a set of footprints (a standard action) and designate the creature that made the footprints as its quarry. The *tin imp* can then attempt to track the creature as if its owner was tracking it, using the owner’s Perception and Survival skill (and any tracking bonuses).; CL 11th; Craft Wondrous Item, *animate objects*, *invisibility*, *whispering wind*.\n\n**Glass Walrus**: This *figurine of wondrous power* is shaped like a walrus and is carved out of a prismatic crystal. It follows all the normal rules for *figurines of wondrous power* (*Pathfinder RPG Core Rulebook* 513). When animated, a glass walrus acts in all ways like a normal walrus (see page 29) except it can glide along the surface of water as though under the constant effects of *water walk*. Up to two Medium creatures or four Small creatures can fit on a glass walrus’s back as the creature glides across water (the walrus moves at half speed while carrying creatures), and the walrus can carry up to 600 pounds in this way before it becomes too encumbered to move. A glass walrus can be used twice per week for up to 6 hours per use. When 6 hours have passed or when the command word is spoken, the glass walrus again becomes a tiny statuette.; CL 11th; Craft Wondrous Item, *animate objects*, *water walk*.\n\n**Obsidian Raven**: This *figurine of wondrous power* is similar to a *silver raven*, but it can be used to send messages across the planes. On command, the figurine turns into a raven (retaining its stone-like consistency, which gives it hardness 8). Another command sends it off into the air, bearing a message as the *sending* spell (with no chance of the message not arriving). The recipient of the message can then use the *obsidian raven* to *plane shift* (self only) to the plane from which the message was sent. The figurine can be used in this way once per day. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special abilities, and it can maintain its non-figurine status for 24 hours per week (the duration need not be continuous).; CL 11th; Craft Wondrous Item, *animate objects*, *plane shift*, *sending*.\n\n**Onyx Dog**: When commanded, this statuette changes into a creature with the same properties as a riding dog except that it is endowed with an Intelligence of 8, can communicate in Common, and has exceptional olfactory and visual abilities. It has the scent ability and adds +4 on its Perception checks. It has 60-foot darkvision, and it can *see invisibility*. An onyx dog can be used once per week for up to 6 hours. It obeys only its owner.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Golden Lions**: These figurines come in pairs. They become normal adult male lions. If slain in combat, the lions cannot be brought back from statuette form for 1 full week. Otherwise, they can be used once per day for up to 1 hour. They enlarge and shrink upon speaking the command word.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Marble Elephant**: This is the largest of the figurines, the statuette being about the size of a human hand. Upon utterance of the command word, a marble elephant grows to the size and specifications of a true elephant. The animal created from the statuette is fully obedient to the figurine’s owner, serving as a beast of burden, a mount, or a combatant. The statuette can be used four times per month for up to 24 hours at a time.; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Ivory Goats**: These figurines come in threes. Each goat of this trio looks slightly different from the others, and each has a different function:\n\n- *The Goat of Traveling*: This statuette provides a speedy and enduring mount equal to that of a heavy horse in every way except appearance. The goat can travel for a maximum of 1 day each week—continuously or in any combination of periods totaling 24 hours. At this point, or when the command word is uttered, it returns to its statuette form for no less than 1 day before it can again be used.\n- *The Goat of Travail*: This statuette becomes an enormous creature, larger than a bull, with the statistics of a nightmare except for the addition of a pair of wicked horns of exceptional size (damage 1d8+4 for each horn). If it is charging to attack, it may only use its horns (but add 6 points of damage to each successful attack in that round). It can be called to life just once per month for up to 12 hours at a time.\n- *The Goat of Terror*: When called upon with the proper command word, this statuette becomes a destrier-like mount with the statistics of a light horse. However, its rider can employ the goat’s horns as weapons (one horn as a *+3 heavy lance*, the other as a *+5 longsword*). When ridden in an attack against an opponent, the goat of terror radiates fear as the spell in a 30-foot radius (Will DC 16 partial). It can be used once every 2 weeks for up to 3 hours per use.\n\n; CL 11th; Craft Wondrous Item, *animate objects*.\n\n**Obsidian Steed**: This figurine appears to be a small, shapeless lump of black stone. Only careful inspection reveals that it vaguely resembles some form of quadruped. On command, the near-formless piece of obsidian becomes a fantastic mount. Treat it as a heavy horse with the following additional powers usable once per round at will: *overland flight*, *plane shift*, and *ethereal jaunt*. The steed allows itself to be ridden, but if the rider is of good alignment, the steed is 10% likely per use to carry him to the lower planes and then return to its statuette form. The statuette can be used once per week for one continuous period of up to 24 hours. Note that when an obsidian steed becomes ethereal or plane shifts, its rider and his gear follow suit. Thus, the user can travel to other planes via this means.; CL 15th; Craft Wondrous Item, *animate objects*, *etherealness*, *fly*, *plane shift*.\n\n**Basalt Dragon**: This fist-sized, carved dragon is sculpted from volcanic rock. It becomes either a pseudodragon or a flame drake (*Pathfinder RPG Bestiary 2* 106), depending on the command word used. The transformation can take place twice per day, with a maximum duration of 2 continuous hours. The pseudodragon can use its telepathy to communicate with its owner over any distance, but not across planes.\n\nBy expending one use of mythic power, the user of the figurine can instead transform the figurine into a young red dragon. If the user is at least 5th tier, she can instead expend two uses of mythic power to transform the figurine into an adult red dragon. If the user is at least 9th tier, she can instead expend four uses of mythic power to transform the figurine into an ancient red dragon. Transforming the figurine into a true dragon renders the figurine powerless for 1 week after the transformation ends.; CL 20th; Craft Wondrous Item, Mythic Crafter, animate objects, *form of the dragon III*, *telepathic bond*.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *animate objects*, additional spells, see text; **Cost** 1,900 gp (Silver Raven), 3,000 gp (Coral Hippocampus), 3,500 gp (Emerald Frog), 3,750 gp, 300 XP (Lapis Camel), 3,800 gp (Pearl Dolphin), 4,500 gp (Ruby Butterfly), 4,550 gp (Black Jade Raven), 4,550 gp (Serpentine Eagle), 4,550 gp (Serpentine Owl), 5,000 gp (Bronze Griffon), 5,000 gp (Ebony Fly), 5,000 gp (Hematite Courgar), 5,000 gp (Slate Spider), 6,500 gp (Tin Imp), 7,000 gp (Glass Walrus), 7,500 gp (Obsidian Raven), 7,750 gp (Onyx Dog), 8,250 gp (Golden Lions), 8,500 gp (Marble Elephant), 10,500 gp (Ivory Goats), 14,250 gp (Obsidian Steed), 30,000 gp (Basalt Dragon)"
+    },
+    {
+      "id": "figurines-of-wondrous-power",
+      "field": "construction",
+      "parsedValue": {
+        "requirements": "Craft Wondrous Item, animate objects, additional spells, see text",
+        "costRaw": "1,900 gp (Silver Raven), 3,000 gp (Coral Hippocampus), 3,500 gp (Emerald Frog), 3,750 gp, 300 XP (Lapis Camel), 3,800 gp (Pearl Dolphin), 4,500 gp (Ruby Butterfly), 4,550 gp (Black Jade Raven), 4,550 gp (Serpentine Eagle), 4,550 gp (Serpentine Owl), 5,000 gp (Bronze Griffon), 5,000 gp (Ebony Fly), 5,000 gp (Hematite Courgar), 5,000 gp (Slate Spider), 6,500 gp (Tin Imp), 7,000 gp (Glass Walrus), 7,500 gp (Obsidian Raven), 7,750 gp (Onyx Dog), 8,250 gp (Golden Lions), 8,500 gp (Marble Elephant), 10,500 gp (Ivory Goats), 14,250 gp (Obsidian Steed), 30,000 gp (Basalt Dragon)",
+        "costCp": null
+      }
+    },
+    {
+      "id": "figurines-of-wondrous-power",
+      "field": "variants",
+      "parsedValue": [
+        {
+          "variantId": "silver-raven",
+          "label": "Silver Raven",
+          "casterLevel": null,
+          "priceRaw": "3,800 gp (Silver Raven)",
+          "priceCp": 380000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "coral-hippocampus",
+          "label": "Coral Hippocampus",
+          "casterLevel": null,
+          "priceRaw": "6,000 gp (Coral Hippocampus)",
+          "priceCp": 600000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "emerald-frog",
+          "label": "Emerald Frog",
+          "casterLevel": null,
+          "priceRaw": "7,000 gp (Emerald Frog)",
+          "priceCp": 700000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "lapis-camel",
+          "label": "Lapis Camel",
+          "casterLevel": null,
+          "priceRaw": "7,500 gp (Lapis Camel)",
+          "priceCp": 750000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "pearl-dolphin",
+          "label": "Pearl Dolphin",
+          "casterLevel": null,
+          "priceRaw": "7,600 gp (Pearl Dolphin)",
+          "priceCp": 760000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "ruby-butterfly",
+          "label": "Ruby Butterfly",
+          "casterLevel": null,
+          "priceRaw": "9,000 gp (Ruby Butterfly)",
+          "priceCp": 900000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "black-jade-raven",
+          "label": "Black Jade Raven",
+          "casterLevel": null,
+          "priceRaw": "9,100 gp (Black Jade Raven)",
+          "priceCp": 910000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "serpentine-eagle",
+          "label": "Serpentine Eagle",
+          "casterLevel": null,
+          "priceRaw": "9,100 gp (Serpentine Eagle)",
+          "priceCp": 910000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "serpentine-owl",
+          "label": "Serpentine Owl",
+          "casterLevel": null,
+          "priceRaw": "9,100 gp (Serpentine Owl)",
+          "priceCp": 910000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "bronze-griffon",
+          "label": "Bronze Griffon",
+          "casterLevel": null,
+          "priceRaw": "10,000 gp (Bronze Griffon)",
+          "priceCp": 1000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "ebony-fly",
+          "label": "Ebony Fly",
+          "casterLevel": null,
+          "priceRaw": "10,000 gp (Ebony Fly)",
+          "priceCp": 1000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "hematite-courgar",
+          "label": "Hematite Courgar",
+          "casterLevel": null,
+          "priceRaw": "10,000 gp (Hematite Courgar)",
+          "priceCp": 1000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "slate-spider",
+          "label": "Slate Spider",
+          "casterLevel": null,
+          "priceRaw": "10,000 gp (Slate Spider)",
+          "priceCp": 1000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "tin-imp",
+          "label": "Tin Imp",
+          "casterLevel": null,
+          "priceRaw": "13,000 gp (Tin Imp)",
+          "priceCp": 1300000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "glass-walrus",
+          "label": "Glass Walrus",
+          "casterLevel": null,
+          "priceRaw": "14,000 gp (Glass Walrus)",
+          "priceCp": 1400000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "obsidian-raven",
+          "label": "Obsidian Raven",
+          "casterLevel": null,
+          "priceRaw": "15,000 gp (Obsidian Raven)",
+          "priceCp": 1500000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "onyx-dog",
+          "label": "Onyx Dog",
+          "casterLevel": null,
+          "priceRaw": "15,500 gp (Onyx Dog)",
+          "priceCp": 1550000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "golden-lions",
+          "label": "Golden Lions",
+          "casterLevel": null,
+          "priceRaw": "16,500 gp (Golden Lions)",
+          "priceCp": 1650000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "marble-elephant",
+          "label": "Marble Elephant",
+          "casterLevel": null,
+          "priceRaw": "17,000 gp (Marble Elephant)",
+          "priceCp": 1700000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "ivory-goats",
+          "label": "Ivory Goats",
+          "casterLevel": null,
+          "priceRaw": "21,000 gp (Ivory Goats)",
+          "priceCp": 2100000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "obsidian-steed",
+          "label": "Obsidian Steed",
+          "casterLevel": null,
+          "priceRaw": "28,500 gp (Obsidian Steed)",
+          "priceCp": 2850000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "basalt-dragon",
+          "label": "Basalt Dragon",
+          "casterLevel": null,
+          "priceRaw": "60,000 gp (Basalt Dragon)",
+          "priceCp": 6000000,
+          "effects": [],
+          "extraDamage": []
+        }
+      ]
+    },
+    {
+      "id": "golem-manuals",
+      "field": "textEn",
+      "parsedValue": "**Aura** varies; **CL** varies; **Slot** none; **Price** 3,000 gp (Junk), 4,000 gp (Wax), 5,000 gp (Ice), 6,000 gp (Wood), 8,000 gp (Flesh), 10,000 gp (Alchemical), 10,000 gp (Glass), 12,000 gp (Bone), 12,000 gp (Clay), 15,000 gp (Sand), 17,500 gp (Coral), 20,000 gp (Lead), 22,000 gp (Stone), 30,000 gp (Carrion), 35,000 gp (Clockwork), 35,000 gp (Iron), 37,500 gp (Fossil), 40,000 gp (Crystal), 40,000 gp (Obsidian), 44,000 gp (Stone Guardian), 55,000 gp (Brass), 60,000 gp (Cannon), 65,000 gp (Dragonhide), 65,000 gp (Gold), 70,000 gp (Behemoth), 70,000 gp (Blood), 75,000 gp (Viridium), 80,000 gp (Mithral), 90,000 gp (Inubrix), 125,000 gp (Adamantine), 150,000 gp (Quintessence); **Weight** 5 lbs.\n\n**Description**\n\nThe wondrous items known as *golem manuals* contain all the information and magical power required to create a particular kind of golem. This effectively grants the Craft Construct feat to anyone using the manual to craft a golem of that type, and it provides an increase in caster level for the purpose of meeting the prerequisite to craft that specific type of golem. Further, the manual grants a +5 competence bonus on skill checks to craft the golem and contains all the necessary spells, which can be activated by anyone who has the relevant spells on their class’s spell list (but only for the purpose of crafting the golem). When using a *golem manual*, you must still spend the normal amount of time to craft the golem and pay the cost of the golem’s body (or provide it through other means), but you do not need to pay the rest of the normal cost to create the golem.\n\nThe spells included in a golem manual require a spell trigger activation and can be activated only to assist in the construction of a golem. The cost of the book does not include the cost of constructing the golem’s body. Once the golem is finished, the writing in the manual fades and the book is consumed in flames. When the book’s ashes are sprinkled upon the golem, it becomes fully animated.\n\nFor example, with a *clay golem manual*, you would need to provide a body worth 1,500 gp (rather than the normal full cost of 21,500 gp), spend 42 days constructing the golem’s body (1 for each 1,000 gp in the normal price of the golem), have a caster level of 9th or higher (as the manual provides a +2 bonus and the normal requirement is 11th level), have *animate objects*, *bless*, *commune*, *prayer*, and *resurrection* on your class’s spell list, and succeed at a DC 16 Craft (sculptures) or Craft (pottery) check (but the manual gives you a +5 bonus on the check.)\n\n*Adamantine* (*Construct Handbook pg. 17*): The book contains *crushing hand*, *geas/quest*, *heal*, *stoneskin*, and *wish*. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting an adamantine golem.; **Aura** strong abjuration, conjuration, enchantment, and evocation; **CL** 20th; Craft Construct, *crushing hand*, *geas/quest*, *heal*, *stoneskin*, *wish*, creator must be caster level 20th.\n\n*Alchemical* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *gentle repose*, *major creation*, *resist energy*, and *telekinesis*. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an alchemical golem.; **Aura** moderate abjuration, conjuration, enchantment, necromancy, and transmutation; **CL** 10th; Craft Construct, *geas/quest*, *major creation*, *resist energy*, *telekinesis*, creator must be caster level 10th.\n\n*Behemoth* (*Lost Kingdoms pg. 42*): This book contains *earthquake*, *geas/quest*, *mage’s magnificent mansion*, and *wish*. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a behemoth golem.; **Aura** strong conjuration, enchantment, and evocation; **CL** 18th; Craft Construct, creator must be caster level 18th, *earthquake*, *geas/quest*, *mage’s magnificent mansion*, *wish*.\n\n*Blood* (*Construct Handbook pg. 17*): The book contains *animate dead*, *bleed*, *cure critical wounds*, and *geas/quest*. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a blood golem.; **Aura** strong conjuration, enchantment, and necromancy [evil]; **CL** 12th; Craft Construct, *animate dead*, *bleed*, *cure critical wounds*, *geas/quest*, creator must be caster level 12th.\n\n*Bone* (*Construct Handbook pg. 17*): The book contains *animate objects*, *geas/quest*, *limited wish*, and *telekinesis*. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a bone golem.; **Aura** moderate enchantment and transmutation; **CL** 9th; Craft Construct, *animate objects*, *geas/quest*, *limited wish*, *telekinesis*, creator must be caster level 9th.\n\n*Brass* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *incendiary cloud*, *limited wish*, and *see invisibility*. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a brass golem.; **Aura** strong conjuration, divination, and enchantment; **CL** 17th; Craft Construct, *geas/quest*, *incendiary cloud*, *limited wish*, *see invisibility*, creator must be caster level 17th.\n\n*Cannon* (*Construct Handbook pg. 17*): The book contains geas/quest, limited wish, and secret chest. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a cannon golem.; **Aura** strong conjuration and enchantment; **CL** 17th; Craft Construct, *geas/quest*, *limited wish*, *secret chest*, creator must be caster level 17th.\n\n*Carrion* (*Construct Handbook pg. 17*): The book contains *animate dead*, *contagion*, *false life*, *gentle repose*, and *lesser geas*. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a carrion golem.; **Aura** moderate enchantment and necromancy [evil]; **CL** 7th; Craft Construct, *animate dead*, *contagion*, *false life*, *gentle repose*, *lesser geas*, creator must be caster level 7th.\n\n*Clay* (*Ultimate Equipment pg. 300*, *PRPG Core Rulebook pg. 1*): The book contains *animate objects*, *bless*, *commune*, *prayer*, and *resurrection*. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a clay golem.; **Aura** moderate conjuration; **CL** 11th; Craft Construct, *animate objects*, *commune*, *prayer*, *resurrection*, creator must be caster level 11th.\n\n*Clockwork* (*Construct Handbook pg. 17*): The book contains *animate objects*, *blade barrier*, *geas/quest*, *grease*, and *telekinesis*. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a clockwork golem.; **Aura** strong enchantment, evocation, and transmutation; **CL** 15th; Craft Construct, *animate objects*, *blade barrier*, *geas/quest*, *grease*, *telekinesis*, creator must be caster level 15th.\n\n*Coral* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *keen edge*, *limited wish*, and *water breathing*. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a coral golem.; **Aura** moderate enchantment and transmutation; **CL** 11th; Craft Construct, *geas/quest*, *keen edge*, *limited wish*, , creator must be caster level 11th.\n\n*Crystal* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *limited wish*, *possession*, and *thoughtsense*. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a crystal golem.; **Aura** strong divination, enchantment, and necromancy; **CL** 15th; Craft Construct, *geas/quest*, *limited wish*, *possession*, *thoughtsense*, creator must be caster level 15th.\n\n*Dragonhide* (*Construct Handbook pg. 17*): The book contains *create greater undead*, *form of the dragon I*, *geas/quest*, and *limited wish*. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a dragonhide golem.; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; Craft Construct, *create greater undead*, *form of the dragon I*, *geas/quest*, *limited wish*, creator must be caster level 16th.\n\n*Flesh* (*Ultimate Equipment pg. 300*, *PRPG Core Rulebook pg. 1*): The book contains *animate dead*, *bull’s strength*, *geas/quest*, and *limited wish*. The reader may treat her caster level as one level higher than normal for the purpose of crafting a flesh golem.; **Aura** moderate enchantment, necromancy [evil], and transmutation; **CL** 8th; Craft Construct, *animate objects*, *bull's strength*, *geas/quest*, *limited wish*, creator must be caster level 8th.\n\n*Fossil* (*Construct Handbook pg. 17*): The book contains *flesh to stone*, *geas/quest*, *limited wish,* and *stone shape*. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a fossil golem.; **Aura** strong enchantment and transmutation; **CL** 15th; Craft Construct, *flesh to stone*, *geas/quest*, *limited wish*, *stone shape*, creator must be caster level 15th.\n\n*Glass* (*Construct Handbook pg. 17*): The book contains animate objects, flame strike, geas/quest, spell turning. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a glass golem.; **Aura** moderate abjuration, enchantment, evocation, and transmutation; **CL** 10th; Craft Construct, animate objects, flame strike, geas/quest, spell turning, creator must be caster level 10th.\n\n*Gold* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *limited wish*, *polymorph any object*, and *prismatic spray*. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a gold golem.; **Aura** strong enchantment, evocation, and transmutation; **CL** 18th; Craft Construct, *geas/quest*, *limited wish*, *polymorph any object*, *prismatic spray*, creator must be caster level 18th.\n\n*Ice* (*Construct Handbook pg. 17*): The book contains *chill touch*, *cone of cold*, *geas/quest*, *ice storm*, and *resist energy* (cold). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an ice golem.; **Aura** strong abjuration, enchantment, and evocation; **CL** 12th; Craft Construct, *chill touch*, *cone of cold*, *geas/quest*, *ice storm*,, *resist energy* (cold), creator must be caster level 12th.\n\n*Inubrix* (*Construct Handbook pg. 17*): The book contains *air walk*, *enervation*, *geas/quest*, and *limited wish*. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an inubrix golem.; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; Craft Construct, *air walk*, *enervation*, *geas/quest*, *limited wish*, creator must be caster level 16th.\n\n*Iron* (*Ultimate Equipment pg. 300*, *PRPG Core Rulebook pg. 1*): The book contains *cloudkill*, *geas/quest*, *limited wish*, and *polymorph any object*. The reader may treat her caster level as four levels higher than normal for the purpose of crafting an iron golem.; **Aura** strong conjuration, enchantment, and transmutation; **CL** 16th; Craft Construct, *cloudkill*, *geas/quest*, *limited wish*, *polymorph any object*, creator must be caster level 16th.\n\n*Junk* (*Construct Handbook pg. 17*): The book contains *false life*, *lesser geas*, *minor creation*, and *rusting grasp*. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a junk golem.; **Aura** moderate conjuration, enchantment, necromancy, and transmutation; **CL** 7th; Craft Construct, *false life*, *lesser geas*, *minor creation*, *rusting grasp*, creator must be caster level 7th.\n\n*Lead* (*Construct Handbook pg. 17*): The book contains *cloudkill*, *geas/quest*, *limited wish*, and *sequester*. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a lead golem.; **Aura** strong abjuration, conjuration, and enchantment; **CL** 13th; Craft Construct, *cloudkill*, *geas/quest*, *limited wish*, *sequester*, creator must be caster level 13th.\n\n*Mithral* (*Construct Handbook pg. 17*): The book contains *cloudkill*, *geas/quest*, *limited wish*, and *polymorph any object*. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a mithral golem.; **Aura** strong abjuration, enchantment, evocation, and transmutation; **CL** 16th; Craft Construct, *cloudkill*, *geas/quest*, *limited wish*, *polymorph any object*, creator must be caster level 16th.\n\n*Obsidian* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *limited wish*, and *volcanic storm*. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an obsidian golem.; **Aura** strong enchantment and evocation; **CL** 15th; Craft Construct, *geas/quest*, *limited wish*, and *volcanic storm*, creator must be caster level 15th.\n\n*Quintessence* (*Construct Handbook pg. 17*): The book contains *energy drain*, *geas/quest*, *trap the soul*, and *wish*. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a quintessence golem.; **Aura** strong conjuration, enchantment, and necromancy; **CL** 20th; Craft Construct, *energy drain*, *geas/quest*, *trap the soul*, *wish*, creator must be caster level 20th.\n\n*Sand* (*Construct Handbook pg. 17*): The book contains *geas/quest*, *limited wish*, and *move earth*. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a sand golem.; **Aura** strong enchantment and transmutation; **CL** 12th; Craft Construct, *geas/quest*, *limited wish*, *move earth*, creator must be caster level 12th.\n\n*Stone* (*Ultimate Equipment pg. 300*, *PRPG Core Rulebook pg. 1*): The book contains *antimagic field*, *geas/quest*, *limited wish*, and *symbol of stunning*. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, *antimagic field*, *geas/quest*, *limited wish*, *symbol of stunning*, creator must be caster level 14th.\n\n*Stone Guardian* (*Ultimate Equipment pg. 300*, *PRPG Core Rulebook pg. 1*): The book contains *antimagic field*, *discern location*, *geas/quest*, *limited wish*, *shield other*, and *symbol of stunning*. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem guardian.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, *antimagic field* *discern location*, *geas/quest*, *limited wish*, *shield other*, *symbol of stunning*, creator must be caster level 14th.\n\n*Viridium* (*Construct Handbook pg. 17*): The book contains *contagion*, *geas/quest*, *horrid wilting*, *poison*, and *wish*. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a viridium golem.; **Aura** strong enchantment and necromancy [evil]; **CL** 18th; Craft Construct, *contagion*, *geas/quest*, *horrid wilting*, *poison*, *wish*, creator must be caster level 18th.\n\n*Wax* (*Construct Handbook pg. 17*): The book contains *animate objects*, *geas/quest*, *limited wish*, and *silent image*. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a wax golem.; **Aura** moderate enchantment, illusion, and transmutation; **CL** 9th; Craft Construct, *animate objects*, *geas/quest*, *limited wish*, and *silent image*, creator must be caster level 9th.\n\n*Wood* (*Construct Handbook pg. 17*): The book contains *alarm*, *animate objects*, *cat’s grace*, *geas/quest*, and *limited wish*. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a wood golem.; **Aura** strong abjuration, enchantment, and transmutation; **CL** 12th; Craft Construct, *alarm*, *animate objects*, *cat’s grace*, *geas/quest*, *limited wish*, creator must be caster level 12th.Construction**Requirements** Craft Construct, caster must be of a specific level, additional spells, see text; **Cost** 1,500 gp (Junk), 2,000 gp (Wax), 2,500 gp (Ice), 3,000 gp (Wood), 4,000 gp (Flesh), 5,000 gp (Alchemical), 5,000 gp (Glass), 6,000 gp (Bone), 6,000 gp (Clay), 7,500 gp (Sand), 8,750 gp (Coral), 10,000 gp (Lead), 11,000 gp (Stone), 15,000 gp (Carrion), 17,500 gp (Clockwork), 17,500 gp (Iron), 18,750 gp (Fossil), 20,000 gp (Crystal), 20,000 gp (Obsidian), 22,000 gp (Stone Guardian), 27,500 gp (Brass), 30,000 gp (Cannon), 32,500 gp (Dragonhide), 32,500 gp (Gold), 35,000 gp (Behemoth), 35,000 gp (Blood), 37,500 gp (Viridium), 40,000 gp (Mithral), 45,000 gp (Inubrix), 62,500 gp (Adamantine), 75,000 gp (Quintessence)"
+    },
+    {
+      "id": "golem-manuals",
+      "field": "construction",
+      "parsedValue": {
+        "requirements": "",
+        "costRaw": "",
+        "costCp": null
+      }
+    },
+    {
+      "id": "golem-manuals",
+      "field": "variants",
+      "parsedValue": [
+        {
+          "variantId": "junk",
+          "label": "Junk",
+          "casterLevel": null,
+          "priceRaw": "3,000 gp (Junk)",
+          "priceCp": 300000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "wax",
+          "label": "Wax",
+          "casterLevel": null,
+          "priceRaw": "4,000 gp (Wax)",
+          "priceCp": 400000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "ice",
+          "label": "Ice",
+          "casterLevel": null,
+          "priceRaw": "5,000 gp (Ice)",
+          "priceCp": 500000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "wood",
+          "label": "Wood",
+          "casterLevel": null,
+          "priceRaw": "6,000 gp (Wood)",
+          "priceCp": 600000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "flesh",
+          "label": "Flesh",
+          "casterLevel": null,
+          "priceRaw": "8,000 gp (Flesh)",
+          "priceCp": 800000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "alchemical",
+          "label": "Alchemical",
+          "casterLevel": null,
+          "priceRaw": "10,000 gp (Alchemical)",
+          "priceCp": 1000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "glass",
+          "label": "Glass",
+          "casterLevel": null,
+          "priceRaw": "10,000 gp (Glass)",
+          "priceCp": 1000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "bone",
+          "label": "Bone",
+          "casterLevel": null,
+          "priceRaw": "12,000 gp (Bone)",
+          "priceCp": 1200000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "clay",
+          "label": "Clay",
+          "casterLevel": null,
+          "priceRaw": "12,000 gp (Clay)",
+          "priceCp": 1200000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "sand",
+          "label": "Sand",
+          "casterLevel": null,
+          "priceRaw": "15,000 gp (Sand)",
+          "priceCp": 1500000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "coral",
+          "label": "Coral",
+          "casterLevel": null,
+          "priceRaw": "17,500 gp (Coral)",
+          "priceCp": 1750000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "lead",
+          "label": "Lead",
+          "casterLevel": null,
+          "priceRaw": "20,000 gp (Lead)",
+          "priceCp": 2000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "stone",
+          "label": "Stone",
+          "casterLevel": null,
+          "priceRaw": "22,000 gp (Stone)",
+          "priceCp": 2200000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "carrion",
+          "label": "Carrion",
+          "casterLevel": null,
+          "priceRaw": "30,000 gp (Carrion)",
+          "priceCp": 3000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "clockwork",
+          "label": "Clockwork",
+          "casterLevel": null,
+          "priceRaw": "35,000 gp (Clockwork)",
+          "priceCp": 3500000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "iron",
+          "label": "Iron",
+          "casterLevel": null,
+          "priceRaw": "35,000 gp (Iron)",
+          "priceCp": 3500000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "fossil",
+          "label": "Fossil",
+          "casterLevel": null,
+          "priceRaw": "37,500 gp (Fossil)",
+          "priceCp": 3750000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "crystal",
+          "label": "Crystal",
+          "casterLevel": null,
+          "priceRaw": "40,000 gp (Crystal)",
+          "priceCp": 4000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "obsidian",
+          "label": "Obsidian",
+          "casterLevel": null,
+          "priceRaw": "40,000 gp (Obsidian)",
+          "priceCp": 4000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "stone-guardian",
+          "label": "Stone Guardian",
+          "casterLevel": null,
+          "priceRaw": "44,000 gp (Stone Guardian)",
+          "priceCp": 4400000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "brass",
+          "label": "Brass",
+          "casterLevel": null,
+          "priceRaw": "55,000 gp (Brass)",
+          "priceCp": 5500000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "cannon",
+          "label": "Cannon",
+          "casterLevel": null,
+          "priceRaw": "60,000 gp (Cannon)",
+          "priceCp": 6000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "dragonhide",
+          "label": "Dragonhide",
+          "casterLevel": null,
+          "priceRaw": "65,000 gp (Dragonhide)",
+          "priceCp": 6500000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "gold",
+          "label": "Gold",
+          "casterLevel": null,
+          "priceRaw": "65,000 gp (Gold)",
+          "priceCp": 6500000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "behemoth",
+          "label": "Behemoth",
+          "casterLevel": null,
+          "priceRaw": "70,000 gp (Behemoth)",
+          "priceCp": 7000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "blood",
+          "label": "Blood",
+          "casterLevel": null,
+          "priceRaw": "70,000 gp (Blood)",
+          "priceCp": 7000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "viridium",
+          "label": "Viridium",
+          "casterLevel": null,
+          "priceRaw": "75,000 gp (Viridium)",
+          "priceCp": 7500000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "mithral",
+          "label": "Mithral",
+          "casterLevel": null,
+          "priceRaw": "80,000 gp (Mithral)",
+          "priceCp": 8000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "inubrix",
+          "label": "Inubrix",
+          "casterLevel": null,
+          "priceRaw": "90,000 gp (Inubrix)",
+          "priceCp": 9000000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "adamantine",
+          "label": "Adamantine",
+          "casterLevel": null,
+          "priceRaw": "125,000 gp (Adamantine)",
+          "priceCp": 12500000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "quintessence",
+          "label": "Quintessence",
+          "casterLevel": null,
+          "priceRaw": "150,000 gp (Quintessence)",
+          "priceCp": 15000000,
+          "effects": [],
+          "extraDamage": []
+        }
+      ]
+    },
+    {
+      "id": "golem-manuals",
+      "field": "sourceRef",
+      "parsedValue": "PRPG Core Rulebook pg. 1"
+    },
+    {
+      "id": "golem-manuals",
+      "field": "needsReview",
+      "parsedValue": true
+    },
+    {
+      "id": "mace-of-smiting",
+      "field": "textEn",
+      "parsedValue": "**Aura** moderate transmutation; **CL** 7th (lesser), 11th (normal); **Slot** none; **Price** lesser (16,012 gp), normal (75,312 gp); **Weight** 8 lbs.\n\n**Description**\n\nA *lesser mace of smiting* is a *+1 adamantine heavy mace* with a +3 enhancement bonus against constructs. When it deals a successful critical hit to a construct, it deals ×4 damage rather than ×2. A critical hit dealt to an outsider deals ×3 damage rather than ×2.\n\nA *mace of smiting* is a *+3 adamantine heavy mace* has a +5 enhancement bonus against constructs. When it deals a successful critical hit to a construct, it completely destroys the construct (no saving throw). A critical hit dealt to an outsider deals ×4 damage rather than ×2.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *disintegrate*; **Price** 9,512 gp (lesser), 39,312 gp (normal)"
+    },
+    {
+      "id": "mace-of-smiting",
+      "field": "construction",
+      "parsedValue": {
+        "requirements": "Craft Magic Arms and Armor, disintegrate",
+        "costRaw": "9,512 gp (lesser), 39,312 gp (normal)",
+        "costCp": null
+      }
+    },
+    {
+      "id": "mace-of-smiting",
+      "field": "variants",
+      "parsedValue": [
+        {
+          "variantId": "lesser",
+          "label": "lesser",
+          "casterLevel": 7,
+          "priceRaw": "lesser (16,012 gp)",
+          "priceCp": 1601200,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "normal",
+          "label": "normal",
+          "casterLevel": 11,
+          "priceRaw": "normal (75,312 gp)",
+          "priceCp": 7531200,
+          "effects": [],
+          "extraDamage": []
+        }
+      ]
+    },
+    {
+      "id": "mace-of-smiting",
+      "field": "baseEvidence",
+      "parsedValue": "+1 adamantine heavy mace"
+    },
+    {
+      "id": "mace-of-smiting",
+      "field": "enhancement",
+      "parsedValue": null
+    },
+    {
+      "id": "mace-of-smiting",
+      "field": "needsReview",
+      "parsedValue": true
+    },
+    {
+      "id": "manual-of-bodily-health",
+      "field": "textEn",
+      "parsedValue": "**Aura** strong universal; **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis thick tome contains tips on health and fitness, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, he gains an inherent bonus from +1 to +5 (depending on the type of manual) to his Constitution score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *wish* or *miracle*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
+    },
+    {
+      "id": "manual-of-bodily-health",
+      "field": "aura",
+      "parsedValue": "strong universal"
+    },
+    {
+      "id": "manual-of-gainful-exercise",
+      "field": "textEn",
+      "parsedValue": "**Aura** strong universal; **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis thick tome contains exercise descriptions and diet suggestions, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, she gains an inherent bonus from +1 to +5 (depending on the type of manual) to her Strength score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *wish* or *miracle*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
+    },
+    {
+      "id": "manual-of-gainful-exercise",
+      "field": "aura",
+      "parsedValue": "strong universal"
+    },
+    {
+      "id": "manual-of-quickness-of-action",
+      "field": "textEn",
+      "parsedValue": "**Aura** strong universal; **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis thick tome contains tips on coordination exercises and balance, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, he gains an inherent bonus from +1 to +5 (depending on the type of manual) to his Dexterity score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *wish* or *miracle*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
+    },
+    {
+      "id": "manual-of-quickness-of-action",
+      "field": "aura",
+      "parsedValue": "strong universal"
+    },
+    {
+      "id": "tome-of-clear-thought",
+      "field": "textEn",
+      "parsedValue": "**Aura** strong universal; **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis heavy book contains instruction on improving memory and logic, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, she gains an inherent bonus from +1 to +5 (depending on the type of tome) to her Intelligence score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *miracle* or *wish*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
+    },
+    {
+      "id": "tome-of-clear-thought",
+      "field": "aura",
+      "parsedValue": "strong universal"
+    },
+    {
+      "id": "tome-of-leadership-and-influence",
+      "field": "textEn",
+      "parsedValue": "**Aura** strong universal; **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis ponderous book details suggestions for persuading and inspiring others, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, he gains an inherent bonus from +1 to +5 (depending on the type of tome) to his Charisma score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *miracle* or *wish*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
+    },
+    {
+      "id": "tome-of-leadership-and-influence",
+      "field": "aura",
+      "parsedValue": "strong universal"
+    },
+    {
+      "id": "tome-of-understanding",
+      "field": "textEn",
+      "parsedValue": "**Aura** strong universal; **CL** 17th; **Slot** none; **Price** 27,500 gp ( +1), 55,000 gp ( +2), 82,500 gp ( +3), 110,000 gp ( +4), 137,500 gp ( +5); **Weight** 5 lbs.\n\n**Description**\n\nThis thick book contains tips for improving instinct and perception, but entwined within the words is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a minimum of 6 days, she gains an inherent bonus from +1 to +5 (depending on the type of tome) to her Wisdom score. Once the book is read, the magic disappears from the pages and it becomes a normal book.\n\n**Construction**\n\n**Requirements** Craft Wondrous Item, *miracle* or *wish*; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
+    },
+    {
+      "id": "tome-of-understanding",
+      "field": "aura",
+      "parsedValue": "strong universal"
+    },
+    {
+      "id": "ring-of-energy-resistance",
+      "field": "textEn",
+      "parsedValue": "**Aura** moderate abjuration; **CL** 11th; **Slot** ring; **Price** 12,000 gp (minor), 28,000 gp (major), 44,000 gp (greater); **Weight** —\n\n**Description**\n\nRings of this type come in a wide variety of designs and colorations, typically related to the types of energy they defend against. These rings continually protect their wearers from damage from one type of energy—acid, cold, electricity, fire, or sonic (chosen by the creator of the item; determine randomly if found as part of a treasure hoard). Each time the wearer would normally take such damage, subtract the ring’s resistance value from the damage dealt.\n\nA *minor ring of energy resistance* grants 10 points of resistance. A *major ring of energy resistance* grants 20 points of resistance. A *greater ring of energy resistance* grants 30 points of resistance.\n\n**Construction**\n\n**Requirements** Forge Ring, *resist energy*; **Cost** 6,000 gp (minor), 14,000 gp (major), 22,000 gp (greater)"
+    },
+    {
+      "id": "ring-of-energy-resistance",
+      "field": "aura",
+      "parsedValue": "moderate abjuration"
+    },
+    {
+      "id": "ring-of-energy-resistance",
+      "field": "variants",
+      "parsedValue": [
+        {
+          "variantId": "minor",
+          "label": "minor",
+          "casterLevel": 11,
+          "priceRaw": "12,000 gp (minor)",
+          "priceCp": 1200000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "major",
+          "label": "major",
+          "casterLevel": 11,
+          "priceRaw": "28,000 gp (major)",
+          "priceCp": 2800000,
+          "effects": [],
+          "extraDamage": []
+        },
+        {
+          "variantId": "greater",
+          "label": "greater",
+          "casterLevel": 11,
+          "priceRaw": "44,000 gp (greater)",
+          "priceCp": 4400000,
+          "effects": [],
+          "extraDamage": []
+        }
+      ]
+    },
+    {
+      "id": "net-of-snaring",
+      "field": "textEn",
+      "parsedValue": "**Aura** moderate evocation; **CL** 8th; **Slot** none; **Weight** 1 lb.\n\n**Description**\n\nThis net provides a +3 bonus on attack rolls but can only be used underwater. Underwater, it can be commanded to shoot forth up to 30 feet to trap a creature. If thrown on land, it changes course to target the creature that threw it.\n\n**Construction**\n\n**Requirements** *+3 net*; **Cost** —"
+    },
+    {
+      "id": "net-of-snaring",
+      "field": "weightLb",
+      "parsedValue": 1
+    },
+    {
+      "id": "poisonous-cloak",
+      "field": "textEn",
+      "parsedValue": "**Aura** moderate transmutation; **CL** 15th; **Slot** shoulders; **Weight** 1 lb.\n\n**Description**\n\nThis cloak is usually made of wool, although it can be made of leather. A *detect poison* spell can reveal the presence of poison in the cloak’s fabric. The garment can be handled without harm, but as soon as it is actually donned, the wearer takes 4d6 points of Constitution damage unless she succeeds on a DC 28 Fortitude save.\n\nOnce donned, a *poisonous cloak* can be removed only with a *remove curse* spell; doing this destroys the magical property of the cloak. If a *neutralize poison* spell is then used, it is possible to revive a dead victim with a *raise dead* or *resurrection* spell.\n\n**Construction**\n\n**Requirements** *cloak of arachnida*, *cloak of the bat*, *cloak of etherealness*, *cloak of resistance +5*, *major cloak of displacement*; **Cost** —"
+    },
+    {
+      "id": "poisonous-cloak",
+      "field": "aura",
+      "parsedValue": "moderate transmutation"
+    },
+    {
+      "id": "armor-of-rage",
+      "field": "textEn",
+      "parsedValue": "**Aura** strong necromancy; **CL** 16th; **Slot** armor; **Weight** 50 lbs.\n\n**Description**\n\nThis armor is similar in appearance to *breastplate of command* and functions as *+1 breastplate*. However, when it is worn, the armor causes the character to take a –4 penalty to Charisma. All unfriendly creatures within 300 feet gain a +1 morale bonus on attack rolls against her. The effect is not noticeable to the wearer or those affected. In other words, the wearer does not immediately notice that donning the armor is the cause of her problems, nor do foes understand the reason for the depth of their enmity.\n\n**Construction**\n\n**Requirements** *breastplate of command*, *+1 breastplate*; **Cost** —"
+    },
+    {
+      "id": "armor-of-rage",
+      "field": "slot",
+      "parsedValue": "armor"
+    },
+    {
+      "id": "bracers-of-defenselessness",
+      "field": "textEn",
+      "parsedValue": "**Aura** strong conjuration; **CL** 16th; **Slot** wrists; **Weight** 1 lb.\n\n**Description**\n\nThese bejeweled and shining bracers initially appear to be *bracers of armor +5* and actually serve as such until the wearer is attacked in anger by an enemy with a Challenge Rating equal to or greater than her level. At that moment and thereafter, the bracers bestow a –5 penalty to AC. Once their curse is activated, *bracers of defenselessness* can be removed only by means of a *remove curse* spell.\n\n**Construction**\n\n**Requirements** *bracers of armor +5*; **Cost** —"
+    },
+    {
+      "id": "bracers-of-defenselessness",
+      "field": "slot",
+      "parsedValue": "wrists"
+    },
+    {
+      "id": "rod-of-enemy-detection",
+      "field": "textEn",
+      "parsedValue": "**Aura** moderate divination; **CL** 10th; **Slot** none; **Price** 23,500 gp; **Weight** 5 lbs.\n\n**Description**\n\nThis device pulses in the wielder’s hand and points in the direction of any creature or creatures hostile to the bearer of the device (nearest ones first). These creatures can be *invisible*, ethereal, hidden, disguised, or in plain sight. The detection range is 60 feet. If the bearer of the rod concentrates for a full round, the rod pinpoints the location of the nearest enemy and indicates how many enemies are within range. The rod can be used to pinpoint enemies three times each day, each use lasting up to 10 minutes. Activating the rod is a standard action.\n\n**Construction**\n\n**Requirements** Craft Rod, *true seeing*; **Cost** 23,500 gp"
+    },
+    {
+      "id": "rod-of-enemy-detection",
+      "field": "construction",
+      "parsedValue": {
+        "requirements": "Craft Rod, true seeing",
+        "costRaw": "23,500 gp",
+        "costCp": 2350000
+      }
+    },
+    {
+      "id": "frost-brand",
+      "field": "textEn",
+      "parsedValue": "**Aura** strong evocation; **CL** 14th; **Slot** none; **Price** 54,475 gp; **Weight** 8 lbs.\n\n**Description**\n\nThis *+3 frost greatsword* sheds light as a torch when the temperature drops below 0° F. At such times it cannot be concealed when drawn, nor can its light be shut off. Its wielder is protected from fire; the sword absorbs the first 10 points of fire damage each round that the wielder would otherwise take.\n\nA *frost brand* extinguishes all nonmagical fires in a 20-foot radius. As a standard action, it can also dispel lasting fire spells, but not instantaneous effects. You must succeed at a dispel check (1d20 +14) against each spell to dispel it. The DC to dispel such spells is 11 + the caster level of the fire spell.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *dispel magic*, *ice storm*, *protection from energy*; **Price** 27,375 gp"
+    },
+    {
+      "id": "frost-brand",
+      "field": "construction",
+      "parsedValue": {
+        "requirements": "Craft Magic Arms and Armor, dispel magic, ice storm, protection from energy",
+        "costRaw": "27,375 gp",
+        "costCp": 2737500
+      }
+    },
+    {
+      "id": "nine-lives-stealer",
+      "field": "textEn",
+      "parsedValue": "**Aura** strong necromancy; **CL** 13th; **Slot** none; **Price** 23,057 gp; **Weight** 4 lbs.\n\n**Description**\n\nThis longsword always performs as a *+2 longsword*, but it also has the power to draw the life force from an opponent. It can do this nine times before the ability is lost. At that point, the sword becomes a simple *+2 longsword* (with a faint evil aura). A critical hit must be dealt for the sword’s death-dealing ability to function, and this ability has no effect on creatures not subject to critical hits. The victim is entitled to a DC 20 Fortitude save to avoid death. If the save is successful, the sword’s death-dealing ability does not function, no use of the ability is expended, and normal critical damage is determined. This sword is evil, and any good character attempting to wield it gains two negative levels. These negative levels remain as long as the sword is in hand and disappear when the sword is no longer wielded. These negative levels never result in actual level loss, but they cannot be overcome in any way (including by *restoration* spells) while the sword is wielded.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *finger of death*; **Price** 11,528 gp"
+    },
+    {
+      "id": "nine-lives-stealer",
+      "field": "construction",
+      "parsedValue": {
+        "requirements": "Craft Magic Arms and Armor, finger of death",
+        "costRaw": "11,528 gp",
+        "costCp": 1152800
+      }
+    },
+    {
+      "id": "trident-of-fish-command",
+      "field": "textEn",
+      "parsedValue": "**Aura** moderate enchantment; **CL** 7th; **Slot** none; **Price** 18,650 gp; **Weight** 4 lbs.\n\n**Description**\n\nThe magical properties of this *+1 trident* with a 6-foot-long haft enable its wielder to charm up to 14 Hit Dice of aquatic animals as per the spell *charm animals* (Will DC 16 negates, animals get a +5 bonus if currently under attack by the wielder or her allies), no two of which can be more than 30 feet apart. The wielder can use this effect up to three times per day. The wielder can communicate with the animals as if using a *speak with animals* spell. Animals that successfully make their saving throws are free of control, but they will not approach within 10 feet of the trident.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *charm animals*, *speak with animals*; **Price** 9,482 gp"
+    },
+    {
+      "id": "trident-of-fish-command",
+      "field": "construction",
+      "parsedValue": {
+        "requirements": "Craft Magic Arms and Armor, charm animals, speak with animals",
+        "costRaw": "9,482 gp",
+        "costCp": 948200
+      }
+    },
+    {
+      "id": "slaying-arrow",
+      "field": "textEn",
+      "parsedValue": "**Aura** strong necromancy; **CL** 13th; **Slot** none; **Price** normal (2,282 gp), greater (4,057 gp); **Weight** 1/10 lb.\n\n**Description**\n\nThis *+1 arrow* is keyed to a particular type or subtype of creature. If it strikes such a creature, the target must succeed at a DC 20 Fortitude save or take 50 points of damage. Note that even creatures normally exempt from Fortitude saves (undead and constructs) are subject to this attack. When keyed to a living creature, this is a death effect (and thus *death ward* protects a target). To determine the type or subtype of creature the arrow is keyed to, roll on the table below.\n\nA *greater slaying arrow* functions just like a normal slaying arrow, but the DC to avoid the death effect is 23 and the arrow deals 100 points of damage if the saving throw is failed.\n\n| **d%** | **Designated Type or Subtype** |\n| --- | --- |\n| 01–05 | Aberrations |\n| 06–09 | Animals |\n| 10–16 | Constructs |\n| 17–27 | Dragons |\n| 28–32 | Fey |\n| 33 | Humanoids, aquatic |\n| 34–35 | Humanoids, dwarf |\n| 36–37 | Humanoids, elf |\n| 38–44 | Humanoids, giant |\n| 45 | Humanoids, gnoll |\n| 46 | Humanoids, gnome |\n| 47–49 | Humanoids, goblinoid |\n| 50 | Humanoids, halfling |\n| 51–54 | Humanoids, human |\n| 55–57 | Humanoids, reptilian |\n| 58–60 | Humanoids, orc |\n| 61–65 | Magical beasts |\n| 66–70 | Monstrous humanoids |\n| 71–72 | Oozes |\n| 73 | Outsiders, air |\n| 74–76 | Outsiders, chaotic |\n| 77 | Outsiders, earth |\n| 78–80 | Outsiders, evil |\n| 81 | Outsiders, fire |\n| 82–84 | Outsiders, good |\n| 85–87 | Outsiders, lawful |\n| 88 | Outsiders, water |\n| 89–90 | Plants |\n| 91–98 | Undead |\n| 99–100 | Vermin |\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *finger of death* (*slaying arrow*) or heightened *finger of death* (*greater slaying arrow*); **Price** 1,144 gp (normal), 2,032 gp (greater)"
+    },
+    {
+      "id": "slaying-arrow",
+      "field": "construction",
+      "parsedValue": {
+        "requirements": "Craft Magic Arms and Armor, finger of death (slaying arrow) or heightened finger of death (greater slaying arrow)",
+        "costRaw": "1,144 gp (normal), 2,032 gp (greater)",
+        "costCp": null
+      }
+    },
+    {
+      "id": "berserking-sword",
+      "field": "textEn",
+      "parsedValue": "**Aura** moderate evocation; **CL** 8th; **Slot** none; **Weight** 8 lbs.\n\n**Description**\n\nThis sword appears to be a *+2 greatsword*. However, whenever it is used in battle, its wielder goes berserk (gaining all the benefits and drawbacks of the barbarian’s rage ability). He attacks the nearest creature and continues to fight until unconscious or dead or until no living thing remains within 30 feet. Although many see this sword as a cursed object, others see it as a boon.\n\n**Construction**\n\n**Requirements** *+2 greatsword*, any magic weapon; **Cost** —"
+    },
+    {
+      "id": "berserking-sword",
+      "field": "weightLb",
+      "parsedValue": 8
+    }
   ]
 }

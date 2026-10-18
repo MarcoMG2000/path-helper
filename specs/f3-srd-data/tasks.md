@@ -191,6 +191,7 @@ inicial es D1 `a-c`, D2 `d-h`, D3 `i-r`, D4 `s-z`.
 
 > Estado por lote (las cuatro tareas son plantilla compartida; cada Dn anota aquí el suyo):
 > - [x] D1 (`a-d`): TD1.1, TD1.2, TD1.3, TD1.4 hechas (`progress/impl_f3-srd-data_D1.md`).
+> - [x] D2 (`e-k`): TD2.1, TD2.2, TD2.3, TD2.4 hechas (`progress/impl_f3-srd-data_D2.md`).
 > - [x] D3 (`l-r`): TD3.1, TD3.2, TD3.3, TD3.4 hechas (`progress/impl_f3-srd-data_D3.md`).
 > - [x] D4 (`s-z`): TD4.1, TD4.2, TD4.3, TD4.4 hechas (`progress/impl_f3-srd-data_D4.md`).
 

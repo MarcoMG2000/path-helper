@@ -4,6 +4,11 @@
     "light-armor-proficiency": "armor-proficiency-light",
     "medium-armor-proficiency": "armor-proficiency-medium"
   },
+  "gear": {
+    "pack-animal-donkey-mule": "donkey-or-mule",
+    "shovel-common": "shovel-or-spade",
+    "wagon-light": "wagon"
+  },
   "magic-items": {
     "armor-ability.energy-resistance": "energy-resistance-armor",
     "armor-ability.energy-resistance-greater": "energy-resistance-greater-armor",

@@ -1,7 +1,7 @@
 {
   "ranger.camouflage": { "summaryEs": "Nivel 12: puede usar Stealth para esconderse en cualquiera de sus terrenos predilectos aunque no ofrezcan cobertura ni ocultación.", "status": "draft" },
   "ranger.combat-style-feat": { "summaryEs": "Nivel 2: elige un estilo de combate (arquería o combate con dos armas) y recibe dotes adicionales a los niveles 2, 6, 10, 14 y 18, sin cumplir requisitos. Sus beneficios se pierden con armadura pesada y el estilo no puede cambiarse.", "status": "draft" },
-  "ranger.combat-style.archery": { "summaryEs": "Estilo de arquería: elige entre Far Shot, Point-Blank Shot, Precise Shot y Rapid Shot; a nivel 6 añade Crossbow Mastery, Improved Precise Shot y Manyshot; a nivel 10, Pinpoint Targeting y Shot on the Run.", "status": "draft" },
+  "ranger.combat-style.archery": { "summaryEs": "Estilo de arquería: elige entre Far Shot, Point-Blank Shot, Precise Shot y Rapid Shot; a nivel 6 añade Improved Precise Shot y Manyshot; a nivel 10, Pinpoint Targeting y Shot on the Run.", "status": "draft" },
   "ranger.combat-style.two-weapon-combat": { "summaryEs": "Estilo de combate con dos armas: elige entre Double Slice, Improved Shield Bash, Quick Draw y Two-Weapon Fighting; a nivel 6 añade Improved Two-Weapon Fighting y Two-Weapon Defense; a nivel 10, Greater Two-Weapon Fighting y Two-Weapon Rend.", "status": "draft" },
   "ranger.endurance": { "summaryEs": "Recibe Endurance como dote adicional a nivel 3.", "status": "draft" },
   "ranger.evasion": { "summaryEs": "Nivel 9: si supera una salvación de Reflejos contra un ataque que haría la mitad de daño, no sufre daño. Solo con armadura ligera, media o sin ella, y no si está indefenso.", "status": "draft" },

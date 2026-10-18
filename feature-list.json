@@ -76,7 +76,7 @@
         {
             "id": "f3-srd-data",
             "title": "Datos del Core Rulebook (SRD) estructurados",
-            "status": "in_progress",
+            "status": "done",
             "sdd": true,
             "depends_on": ["f0-project-skeleton"],
             "acceptance": "Datos JSON validados por schema (zod) del Core Rulebook, sin expansiones: las 7 clases de la campaña (druida, pícaro, cazador, bárbaro, paladín, bardo, clérigo) con tablas de progresión y habilidades de clase, razas, habilidades, dotes, conjuros y equipo (armas, armaduras, objetos) y objetos mágicos del Core (capítulo 15: armas y armaduras mágicas, anillos, varitas, pociones, objetos maravillosos...; los jugadores ya los tienen, nivel 5-6). Cada entrada: resumen en español, texto completo del SRD en inglés y URL de la fuente. Aviso OGL incluido. Script de validación de integridad (referencias, campos obligatorios, ninguna entrada fuera del Core)."

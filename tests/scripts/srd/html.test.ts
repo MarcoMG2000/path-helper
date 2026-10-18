@@ -120,3 +120,16 @@ describe("nodesToMarkdown: listas y tablas", () => {
     expect(md.split("\n")[0]).toBe("| a\\|b |  |");
   });
 });
+
+describe("loadHtml: signo de multiplicar mal codificado por AoN (corrección B)", () => {
+  it("restituye ×, escrito como U+001F, en el texto (flaming burst: «multiplier is ×3»)", () => {
+    const glitch = String.fromCharCode(0x1f);
+    const $ = loadHtml(
+      `<body><p>If the multiplier is ${glitch}3, add 2d10 and 2d4 ${glitch} 100.</p></body>`,
+    );
+    const text = nodesToText($, $("body").contents().get());
+    expect(text).toContain("multiplier is ×3");
+    expect(text).toContain("2d4 × 100");
+    expect(text.includes(glitch)).toBe(false);
+  });
+});

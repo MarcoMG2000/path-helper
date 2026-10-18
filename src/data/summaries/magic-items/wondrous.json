@@ -136,7 +136,7 @@
     "status": "draft"
   },
   "clear-spindle-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que sustenta a la criatura sin comida ni agua. Resonancia: una vez al día el portador puede lanzar protection from chaos/evil/good/law sobre sí (nivel de lanzador 12.º); activarla agota la piedra.",
+    "summaryEs": "Piedra ioun que sustenta a la criatura sin comida ni agua.",
     "status": "draft"
   },
   "cloak-of-arachnida": {
@@ -196,7 +196,7 @@
     "status": "draft"
   },
   "dark-blue-rhomboid-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que otorga Alertness (como la dote). Resonancia: el portador no sufre penalizaciones a Perception por estar distraído o dormido y puede estar atento con los ojos abiertos mientras duerme.",
+    "summaryEs": "Piedra ioun que otorga Alertness (como la dote).",
     "status": "draft"
   },
   "darkskull": {
@@ -212,7 +212,7 @@
     "status": "draft"
   },
   "deep-red-sphere-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que otorga +2 de mejora a Destreza. Resonancia: Improved Unarmed Strike.",
+    "summaryEs": "Piedra ioun que otorga +2 de mejora a Destreza.",
     "status": "draft"
   },
   "dimensional-shackles": {
@@ -248,7 +248,7 @@
     "status": "draft"
   },
   "dusty-rose-prism-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que otorga +1 de perspicacia a la CA. Resonancia: +1 de perspicacia a las pruebas de maniobra de combate.",
+    "summaryEs": "Piedra ioun que otorga +1 de perspicacia a la CA.",
     "status": "draft"
   },
   "efficient-quiver": {
@@ -308,11 +308,11 @@
     "status": "draft"
   },
   "feather-tokens": {
-    "summaryEs": "Plumas pequeñas con un poder para una necesidad concreta (anchor, bird, fan, tree, swan boat, whip, etc.). Cada una se usa una vez; no tiene rasgos propios salvo su aura mágica.",
+    "summaryEs": "Plumas pequeñas con un poder para una necesidad concreta (anchor, bird, fan, swan boat, tree y whip). Cada una se usa una vez; no tiene rasgos propios salvo su aura mágica.",
     "status": "draft"
   },
   "figurines-of-wondrous-power": {
-    "summaryEs": "Estatuillas de unas pulgadas de alto de una criatura (una excepción). Al arrojarla y decir la palabra de mando se convierte en una criatura viva de tamaño normal que obedece al dueño. Hay muchas versiones (Silver Raven, Marble Elephant, etc.).",
+    "summaryEs": "Estatuillas de una criatura. Al arrojarla y decir la palabra de mando se vuelve una criatura viva de tamaño normal que obedece al dueño. Hay nueve: Bronze Griffon, Ebony Fly, Golden Lions, Ivory Goats, Marble Elephant, Obsidian Steed, Onyx Dog, Serpentine Owl y Silver Raven.",
     "status": "draft"
   },
   "folding-boat": {
@@ -352,7 +352,7 @@
     "status": "draft"
   },
   "golem-manuals": {
-    "summaryEs": "Libros con toda la información y poder mágico para crear un tipo concreto de golem: conceden Craft Construct, suben el nivel de lanzador para el requisito y dan +5 de competencia a las pruebas de fabricación. No incluyen el cuerpo del golem.",
+    "summaryEs": "Libros con la información y el poder mágico para crear un tipo concreto de golem (clay, flesh, iron, stone o stone guardian): conceden Craft Construct, suben el nivel de lanzador para el requisito y dan +5 de competencia a las pruebas de fabricación. No incluyen el cuerpo del golem.",
     "status": "draft"
   },
   "golembane-scarab": {
@@ -448,7 +448,7 @@
     "status": "draft"
   },
   "incandescent-blue-sphere-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que otorga +2 de mejora a Sabiduría. Resonancia: Blind-Fight.",
+    "summaryEs": "Piedra ioun que otorga +2 de mejora a Sabiduría.",
     "status": "draft"
   },
   "incense-of-meditation": {
@@ -460,7 +460,7 @@
     "status": "draft"
   },
   "iridescent-spindle-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que sustenta a la criatura sin aire. Resonancia: efectos constantes de endure elements y solo la mitad del daño por exposición al vacío y a la presión submarina.",
+    "summaryEs": "Piedra ioun que sustenta a la criatura sin aire.",
     "status": "draft"
   },
   "iron-bands-of-binding": {
@@ -476,7 +476,7 @@
     "status": "draft"
   },
   "lavender-and-green-ellipsoid-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que absorbe conjuros de 8.º nivel o menor; tras absorber 50 niveles de conjuro se agota. Resonancia: si el portador sostiene el wayfinder, usa la absorción como acción inmediata en lugar de preparada.",
+    "summaryEs": "Piedra ioun que absorbe conjuros de 8.º nivel o menor; tras absorber 50 niveles de conjuro se agota.",
     "status": "draft"
   },
   "lyre-of-building": {
@@ -544,7 +544,7 @@
     "status": "draft"
   },
   "orange-prism-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que otorga +1 al nivel de lanzador. Resonancia: cada vez que el portador lanza un conjuro tira 1d4–2 y suma el resultado a su nivel de lanzador (además del +1 de la piedra).",
+    "summaryEs": "Piedra ioun que otorga +1 al nivel de lanzador.",
     "status": "draft"
   },
   "orb-of-storms": {
@@ -552,15 +552,15 @@
     "status": "draft"
   },
   "pale-blue-rhomboid-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que otorga +2 de mejora a Fuerza. Resonancia: +1 a las salvaciones de Fortaleza.",
+    "summaryEs": "Piedra ioun que otorga +2 de mejora a Fuerza.",
     "status": "draft"
   },
   "pale-green-prism-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que da +1 de competencia a tiradas de ataque, salvaciones, pruebas de habilidad y de característica. Resonancia: dos veces al día, como acción gratuita, elimina la condición de fatigado (o reduce agotado a fatigado).",
+    "summaryEs": "Piedra ioun que da +1 de competencia a tiradas de ataque, salvaciones, pruebas de habilidad y de característica.",
     "status": "draft"
   },
   "pale-lavender-ellipsoid-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que absorbe conjuros de 4.º nivel o menor; tras absorber 20 niveles de conjuro se agota. Resonancia: si el portador sostiene el wayfinder, usa la absorción como acción inmediata en lugar de preparada.",
+    "summaryEs": "Piedra ioun que absorbe conjuros de 4.º nivel o menor; tras absorber 20 niveles de conjuro se agota.",
     "status": "draft"
   },
   "pearl-of-power": {
@@ -572,7 +572,7 @@
     "status": "draft"
   },
   "pearly-white-spindle-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que regenera 1 punto de daño cada 10 minutos. Resonancia: +2 sagrado a las salvaciones contra efectos de muerte y ataques de energía negativa.",
+    "summaryEs": "Piedra ioun que regenera 1 punto de daño cada 10 minutos.",
     "status": "draft"
   },
   "periapt-of-health": {
@@ -600,11 +600,11 @@
     "status": "draft"
   },
   "pink-and-green-sphere-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que otorga +2 de mejora a Carisma. Resonancia: +1 a las salvaciones de Voluntad.",
+    "summaryEs": "Piedra ioun que otorga +2 de mejora a Carisma.",
     "status": "draft"
   },
   "pink-rhomboid-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que otorga +2 de mejora a Constitución. Resonancia: +1 a las salvaciones de Reflejos.",
+    "summaryEs": "Piedra ioun que otorga +2 de mejora a Constitución.",
     "status": "draft"
   },
   "pipes-of-haunting": {
@@ -680,7 +680,7 @@
     "status": "draft"
   },
   "scarlet-and-blue-sphere-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que otorga +2 de mejora a Inteligencia. Resonancia: +1 a las salvaciones de Voluntad.",
+    "summaryEs": "Piedra ioun que otorga +2 de mejora a Inteligencia.",
     "status": "draft"
   },
   "silversheen": {
@@ -740,7 +740,7 @@
     "status": "draft"
   },
   "vibrant-purple-prism-normal-ioun-stone": {
-    "summaryEs": "Piedra ioun que almacena tres niveles de conjuros, como un ring of spell storing. Resonancia: como acción estándar, gasta un conjuro almacenado para refrescar uno lanzado del mismo nivel, hasta 3 niveles de conjuro al día.",
+    "summaryEs": "Piedra ioun que almacena tres niveles de conjuros, como un ring of spell storing.",
     "status": "draft"
   },
   "well-of-many-worlds": {

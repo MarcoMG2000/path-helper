@@ -9,6 +9,7 @@ describe("runIntegrity (R52, R3-R8)", () => {
       "schema",
       "ids",
       "book-filter",
+      "foreign-text",
       "class-tables",
       "class-refs",
       "feat-prereqs",

@@ -30,7 +30,7 @@
   "paladin.mercy.sickened": {"summaryEs":"Quita la condición de sickened al objetivo.","status":"draft"},
   "paladin.mercy.staggered": {"summaryEs":"Quita la condición de staggered al objetivo, salvo que esté exactamente a 0 puntos de golpe.","status":"draft"},
   "paladin.mercy.stunned": {"summaryEs":"Quita la condición de stunned al objetivo.","status":"draft"},
-  "paladin.smite-evil": {"summaryEs":"Una vez al día, acción rápida: castiga a un objetivo a la vista. Si es malvado, suma su Carisma al ataque y su nivel de paladín al daño (2 por nivel contra ajenos malignos, dragones malvados y no muertos) e ignora su RD. Un uso adicional cada tres niveles desde el 4.º.","status":"draft"},
+  "paladin.smite-evil": {"summaryEs":"Una vez al día, acción rápida: castiga a un objetivo a la vista. Si es malvado, suma su Carisma al ataque y su nivel al daño (2 por nivel contra ajenos malignos, dragones malvados y no muertos). Siempre ignora su RD y gana bono de desvío = Carisma a la CA contra él; si no es malvado, se desperdicia.","status":"draft"},
   "paladin.spells": {"summaryEs":"Nivel 4: lanza conjuros divinos de la lista de paladín, que prepara de antemano tras 1 hora de plegaria. Necesita Carisma 10 + nivel del conjuro; CD 10 + nivel del conjuro + mod. de Carisma. Su nivel de lanzador es su nivel de paladín – 3.","status":"draft"},
   "paladin.weapon-and-armor-proficiency": {"summaryEs":"Competente con armas sencillas y marciales, con todo tipo de armadura (pesada, media y ligera) y con escudos (salvo tower shields).","status":"draft"}
 }

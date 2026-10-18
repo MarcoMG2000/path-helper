@@ -338,6 +338,73 @@ describe("cli parse (R43-R47, R49)", () => {
   });
 });
 
+describe("cli parse de una categoría por lotes sin subconjunto (R98, R49)", () => {
+  /** `spells` es la categoría por lotes: un lote con procedencia (a-d) y un override. */
+  async function batched(
+    overrideFile: string,
+    parse?: (input: ParserInput) => ParserOutput,
+  ): Promise<Env> {
+    const e = env({
+      parse:
+        parse ??
+        (() => ({
+          entries: [entry("acid-arrow", "Acid Arrow"), entry("zone-of-truth", "Zone of Truth")],
+          shardOf: (en) => `spells/${en.id.slice(0, 1)}.json`,
+          needsReview: [],
+          excluded: [],
+        })),
+    });
+    writeFile(
+      e.root,
+      "scripts/srd/config/seeds.json",
+      stableStringify({
+        crosscheck: {},
+        spells: { urls: [], subsets: { "a-d": [PAGE_A] } },
+      }),
+    );
+    await runCli(["import", "--category", "spells:a-d"], e.deps);
+    e.deps.fetch = (() => {
+      throw new Error("red prohibida");
+    }) as typeof fetch;
+    writeFile(
+      e.root,
+      overrideFile,
+      stableStringify([
+        { id: "acid-arrow", field: "name", value: "Acid Arrow!", reason: "r", evidence: "e" },
+      ]),
+    );
+    return e;
+  }
+
+  it("R98: anota el override en la procedencia de su lote y no crea provenance/spells.json", async () => {
+    const e = await batched("src/data/overrides/spells/a-d.json");
+    expect(await runCli(["parse", "--category", "spells"], e.deps)).toBe(0);
+    expect(existsSync(join(e.root, "src/data/provenance/spells.json"))).toBe(false);
+    expect(json(e.root, "src/data/provenance/spells/a-d.json").overridesApplied).toEqual([
+      { id: "acid-arrow", field: "name", parsedValue: "Acid Arrow" },
+    ]);
+    expect(json(e.root, "src/data/spells/a.json")[0].name).toBe("Acid Arrow!");
+  });
+
+  it("R98: un override fuera de overrides/spells/<lote>.json falla en vez de perderse", async () => {
+    const e = await batched("src/data/overrides/spells.json");
+    expect(await runCli(["parse", "--category", "spells"], e.deps)).toBe(1);
+    expect(e.err.join("\n")).toContain("overrides/spells/<lote>.json");
+  });
+
+  it("R98: importedKinds en un parseo completo por lotes falla con mensaje claro", async () => {
+    const e = await batched("src/data/overrides/spells/a-d.json", () => ({
+      entries: [entry("acid-arrow", "Acid Arrow")],
+      shardOf: () => "spells/a.json",
+      needsReview: [],
+      excluded: [],
+      provenancePatch: { importedKinds: ["spell"] },
+    }));
+    expect(await runCli(["parse", "--category", "spells"], e.deps)).toBe(1);
+    expect(e.err.join("\n")).toContain("importedKinds");
+  });
+});
+
 describe("cli validate (R51, R52)", () => {
   it("R51: sin datos termina con código 0", async () => {
     const e = env();

@@ -302,7 +302,7 @@
   {
     "id": "frost-brand",
     "name": "Frost Brand",
-    "textEn": "**Aura** strong evocation; **CL** 14th; **Slot** none; **Price** 54,475 gp; **Weight** 8 lbs.\n\n**Description**\n\nThis *+3 frost greatsword* sheds light as a torch when the temperature drops below 0° F. At such times it cannot be concealed when drawn, nor can its light be shut off. Its wielder is protected from fire; the sword absorbs the first 10 points of fire damage each round that the wielder would otherwise take.\n\nA *frost brand* extinguishes all nonmagical fires in a 20-foot radius. As a standard action, it can also dispel lasting fire spells, but not instantaneous effects. You must succeed at a dispel check (1d20 +14) against each spell to dispel it. The DC to dispel such spells is 11 + the caster level of the fire spell.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *dispel magic*, *ice storm*, *protection from energy*; **Price** 27,375 gp",
+    "textEn": "**Aura** strong evocation; **CL** 14th; **Slot** none; **Price** 54,475 gp; **Weight** 8 lbs.\n\n**Description**\n\nThis *+3 frost greatsword* sheds light as a torch when the temperature drops below 0° F. At such times it cannot be concealed when drawn, nor can its light be shut off. Its wielder is protected from fire; the sword absorbs the first 10 points of fire damage each round that the wielder would otherwise take.\n\nA *frost brand* extinguishes all nonmagical fires in a 20-foot radius. As a standard action, it can also dispel lasting fire spells, but not instantaneous effects. You must succeed at a dispel check (1d20 +14) against each spell to dispel it. The DC to dispel such spells is 11 + the caster level of the fire spell.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *dispel magic*, *ice storm*, *protection from energy*; **Price** 27,375 gp and 5 sp",
     "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Frost%20Brand",
     "sourceRef": "PRPG Core Rulebook pg. 471",
     "book": "CRB",
@@ -312,8 +312,8 @@
     "weightLb": 8,
     "construction": {
       "requirements": "Craft Magic Arms and Armor, dispel magic, ice storm, protection from energy",
-      "costRaw": "27,375 gp",
-      "costCp": 2737500
+      "costRaw": "27,375 gp and 5 sp",
+      "costCp": 2737550
     },
     "sourceRefAll": "Ultimate Equipment pg. 155, PRPG Core Rulebook pg. 471",
     "reprintedIn": [
@@ -556,7 +556,7 @@
   {
     "id": "mace-of-smiting",
     "name": "Mace of Smiting",
-    "textEn": "**Aura** moderate transmutation; **CL** 7th (lesser), 11th (normal); **Slot** none; **Price** lesser (16,012 gp), normal (75,312 gp); **Weight** 8 lbs.\n\n**Description**\n\nA *lesser mace of smiting* is a *+1 adamantine heavy mace* with a +3 enhancement bonus against constructs. When it deals a successful critical hit to a construct, it deals ×4 damage rather than ×2. A critical hit dealt to an outsider deals ×3 damage rather than ×2.\n\nA *mace of smiting* is a *+3 adamantine heavy mace* has a +5 enhancement bonus against constructs. When it deals a successful critical hit to a construct, it completely destroys the construct (no saving throw). A critical hit dealt to an outsider deals ×4 damage rather than ×2.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *disintegrate*; **Price** 9,512 gp (lesser), 39,312 gp (normal)",
+    "textEn": "**Aura** moderate transmutation; **CL** 11th; **Slot** none; **Price** 75,312 gp; **Weight** 8 lbs.\n\n**Description**\n\nThis *+3 adamantine heavy mace* has a +5 enhancement bonus against constructs, and a successful critical hit dealt to a construct completely destroys the construct (no saving throw). A critical hit dealt to an outsider deals ×4 damage rather than ×2.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *disintegrate*; **Cost** 39,312 gp",
     "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Mace%20of%20Smiting%20(normal)",
     "sourceRef": "PRPG Core Rulebook pg. 471",
     "book": "CRB",
@@ -566,8 +566,8 @@
     "weightLb": 8,
     "construction": {
       "requirements": "Craft Magic Arms and Armor, disintegrate",
-      "costRaw": "9,512 gp (lesser), 39,312 gp (normal)",
-      "costCp": null
+      "costRaw": "39,312 gp",
+      "costCp": 3931200
     },
     "sourceRefAll": "Ultimate Equipment pg. 157, PRPG Core Rulebook pg. 471",
     "reprintedIn": [
@@ -575,19 +575,10 @@
     ],
     "variants": [
       {
-        "variantId": "lesser",
-        "label": "lesser",
-        "casterLevel": 7,
-        "priceRaw": "lesser (16,012 gp)",
-        "priceCp": 1601200,
-        "effects": [],
-        "extraDamage": []
-      },
-      {
-        "variantId": "normal",
-        "label": "normal",
+        "variantId": "default",
+        "label": "default",
         "casterLevel": 11,
-        "priceRaw": "normal (75,312 gp)",
+        "priceRaw": "75,312 gp",
         "priceCp": 7531200,
         "effects": [],
         "extraDamage": []
@@ -595,8 +586,12 @@
     ],
     "baseItemId": "heavy-mace",
     "abilityIds": [],
-    "baseEvidence": "+1 adamantine heavy mace",
-    "needsReview": true
+    "baseEvidence": "+3 adamantine heavy mace",
+    "needsReview": false,
+    "enhancement": {
+      "on": "weapon",
+      "bonus": 3
+    }
   },
   {
     "id": "mace-of-terror",
@@ -679,7 +674,7 @@
   {
     "id": "nine-lives-stealer",
     "name": "Nine Lives Stealer",
-    "textEn": "**Aura** strong necromancy; **CL** 13th; **Slot** none; **Price** 23,057 gp; **Weight** 4 lbs.\n\n**Description**\n\nThis longsword always performs as a *+2 longsword*, but it also has the power to draw the life force from an opponent. It can do this nine times before the ability is lost. At that point, the sword becomes a simple *+2 longsword* (with a faint evil aura). A critical hit must be dealt for the sword’s death-dealing ability to function, and this ability has no effect on creatures not subject to critical hits. The victim is entitled to a DC 20 Fortitude save to avoid death. If the save is successful, the sword’s death-dealing ability does not function, no use of the ability is expended, and normal critical damage is determined. This sword is evil, and any good character attempting to wield it gains two negative levels. These negative levels remain as long as the sword is in hand and disappear when the sword is no longer wielded. These negative levels never result in actual level loss, but they cannot be overcome in any way (including by *restoration* spells) while the sword is wielded.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *finger of death*; **Price** 11,528 gp",
+    "textEn": "**Aura** strong necromancy; **CL** 13th; **Slot** none; **Price** 23,057 gp; **Weight** 4 lbs.\n\n**Description**\n\nThis longsword always performs as a *+2 longsword*, but it also has the power to draw the life force from an opponent. It can do this nine times before the ability is lost. At that point, the sword becomes a simple *+2 longsword* (with a faint evil aura). A critical hit must be dealt for the sword’s death-dealing ability to function, and this ability has no effect on creatures not subject to critical hits. The victim is entitled to a DC 20 Fortitude save to avoid death. If the save is successful, the sword’s death-dealing ability does not function, no use of the ability is expended, and normal critical damage is determined. This sword is evil, and any good character attempting to wield it gains two negative levels. These negative levels remain as long as the sword is in hand and disappear when the sword is no longer wielded. These negative levels never result in actual level loss, but they cannot be overcome in any way (including by *restoration* spells) while the sword is wielded.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *finger of death*; **Price** 11,528 gp 5 sp",
     "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Nine%20Lives%20Stealer",
     "sourceRef": "PRPG Core Rulebook pg. 471",
     "book": "CRB",
@@ -689,8 +684,8 @@
     "weightLb": 4,
     "construction": {
       "requirements": "Craft Magic Arms and Armor, finger of death",
-      "costRaw": "11,528 gp",
-      "costCp": 1152800
+      "costRaw": "11,528 gp 5 sp",
+      "costCp": 1152850
     },
     "sourceRefAll": "Ultimate Equipment pg. 157, PRPG Core Rulebook pg. 471",
     "reprintedIn": [
@@ -926,7 +921,7 @@
   {
     "id": "slaying-arrow",
     "name": "Slaying Arrow",
-    "textEn": "**Aura** strong necromancy; **CL** 13th; **Slot** none; **Price** normal (2,282 gp), greater (4,057 gp); **Weight** 1/10 lb.\n\n**Description**\n\nThis *+1 arrow* is keyed to a particular type or subtype of creature. If it strikes such a creature, the target must succeed at a DC 20 Fortitude save or take 50 points of damage. Note that even creatures normally exempt from Fortitude saves (undead and constructs) are subject to this attack. When keyed to a living creature, this is a death effect (and thus *death ward* protects a target). To determine the type or subtype of creature the arrow is keyed to, roll on the table below.\n\nA *greater slaying arrow* functions just like a normal slaying arrow, but the DC to avoid the death effect is 23 and the arrow deals 100 points of damage if the saving throw is failed.\n\n| **d%** | **Designated Type or Subtype** |\n| --- | --- |\n| 01–05 | Aberrations |\n| 06–09 | Animals |\n| 10–16 | Constructs |\n| 17–27 | Dragons |\n| 28–32 | Fey |\n| 33 | Humanoids, aquatic |\n| 34–35 | Humanoids, dwarf |\n| 36–37 | Humanoids, elf |\n| 38–44 | Humanoids, giant |\n| 45 | Humanoids, gnoll |\n| 46 | Humanoids, gnome |\n| 47–49 | Humanoids, goblinoid |\n| 50 | Humanoids, halfling |\n| 51–54 | Humanoids, human |\n| 55–57 | Humanoids, reptilian |\n| 58–60 | Humanoids, orc |\n| 61–65 | Magical beasts |\n| 66–70 | Monstrous humanoids |\n| 71–72 | Oozes |\n| 73 | Outsiders, air |\n| 74–76 | Outsiders, chaotic |\n| 77 | Outsiders, earth |\n| 78–80 | Outsiders, evil |\n| 81 | Outsiders, fire |\n| 82–84 | Outsiders, good |\n| 85–87 | Outsiders, lawful |\n| 88 | Outsiders, water |\n| 89–90 | Plants |\n| 91–98 | Undead |\n| 99–100 | Vermin |\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *finger of death* (*slaying arrow*) or heightened *finger of death* (*greater slaying arrow*); **Price** 1,144 gp (normal), 2,032 gp (greater)",
+    "textEn": "**Aura** strong necromancy; **CL** 13th; **Slot** none; **Price** normal (2,282 gp), greater (4,057 gp); **Weight** 1/10 lb.\n\n**Description**\n\nThis *+1 arrow* is keyed to a particular type or subtype of creature. If it strikes such a creature, the target must succeed at a DC 20 Fortitude save or take 50 points of damage. Note that even creatures normally exempt from Fortitude saves (undead and constructs) are subject to this attack. When keyed to a living creature, this is a death effect (and thus *death ward* protects a target). To determine the type or subtype of creature the arrow is keyed to, roll on the table below.\n\nA *greater slaying arrow* functions just like a normal slaying arrow, but the DC to avoid the death effect is 23 and the arrow deals 100 points of damage if the saving throw is failed.\n\n| **d%** | **Designated Type or Subtype** |\n| --- | --- |\n| 01–05 | Aberrations |\n| 06–09 | Animals |\n| 10–16 | Constructs |\n| 17–27 | Dragons |\n| 28–32 | Fey |\n| 33 | Humanoids, aquatic |\n| 34–35 | Humanoids, dwarf |\n| 36–37 | Humanoids, elf |\n| 38–44 | Humanoids, giant |\n| 45 | Humanoids, gnoll |\n| 46 | Humanoids, gnome |\n| 47–49 | Humanoids, goblinoid |\n| 50 | Humanoids, halfling |\n| 51–54 | Humanoids, human |\n| 55–57 | Humanoids, reptilian |\n| 58–60 | Humanoids, orc |\n| 61–65 | Magical beasts |\n| 66–70 | Monstrous humanoids |\n| 71–72 | Oozes |\n| 73 | Outsiders, air |\n| 74–76 | Outsiders, chaotic |\n| 77 | Outsiders, earth |\n| 78–80 | Outsiders, evil |\n| 81 | Outsiders, fire |\n| 82–84 | Outsiders, good |\n| 85–87 | Outsiders, lawful |\n| 88 | Outsiders, water |\n| 89–90 | Plants |\n| 91–98 | Undead |\n| 99–100 | Vermin |\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *finger of death* (*slaying arrow*) or heightened *finger of death* (*greater slaying arrow*); **Price** 1,144 gp 5 sp (normal), 2,032 gp (greater)",
     "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Slaying%20Arrow%20(greater)",
     "sourceRef": "PRPG Core Rulebook pg. 471",
     "book": "CRB",
@@ -936,7 +931,7 @@
     "weightLb": 0.1,
     "construction": {
       "requirements": "Craft Magic Arms and Armor, finger of death (slaying arrow) or heightened finger of death (greater slaying arrow)",
-      "costRaw": "1,144 gp (normal), 2,032 gp (greater)",
+      "costRaw": "1,144 gp 5 sp (normal), 2,032 gp (greater)",
       "costCp": null
     },
     "sourceRefAll": "Ultimate Equipment pg. 160, PRPG Core Rulebook pg. 471",
@@ -1213,7 +1208,7 @@
   {
     "id": "trident-of-fish-command",
     "name": "Trident of Fish Command",
-    "textEn": "**Aura** moderate enchantment; **CL** 7th; **Slot** none; **Price** 18,650 gp; **Weight** 4 lbs.\n\n**Description**\n\nThe magical properties of this *+1 trident* with a 6-foot-long haft enable its wielder to charm up to 14 Hit Dice of aquatic animals as per the spell *charm animals* (Will DC 16 negates, animals get a +5 bonus if currently under attack by the wielder or her allies), no two of which can be more than 30 feet apart. The wielder can use this effect up to three times per day. The wielder can communicate with the animals as if using a *speak with animals* spell. Animals that successfully make their saving throws are free of control, but they will not approach within 10 feet of the trident.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *charm animals*, *speak with animals*; **Price** 9,482 gp",
+    "textEn": "**Aura** moderate enchantment; **CL** 7th; **Slot** none; **Price** 18,650 gp; **Weight** 4 lbs.\n\n**Description**\n\nThe magical properties of this *+1 trident* with a 6-foot-long haft enable its wielder to charm up to 14 Hit Dice of aquatic animals as per the spell *charm animals* (Will DC 16 negates, animals get a +5 bonus if currently under attack by the wielder or her allies), no two of which can be more than 30 feet apart. The wielder can use this effect up to three times per day. The wielder can communicate with the animals as if using a *speak with animals* spell. Animals that successfully make their saving throws are free of control, but they will not approach within 10 feet of the trident.\n\n**Construction**\n\n**Requirements** Craft Magic Arms and Armor, *charm animals*, *speak with animals*; **Price** 9,482 gp and 5 sp",
     "source": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Trident%20of%20Fish%20Command",
     "sourceRef": "PRPG Core Rulebook pg. 471",
     "book": "CRB",
@@ -1223,8 +1218,8 @@
     "weightLb": 4,
     "construction": {
       "requirements": "Craft Magic Arms and Armor, charm animals, speak with animals",
-      "costRaw": "9,482 gp",
-      "costCp": 948200
+      "costRaw": "9,482 gp and 5 sp",
+      "costCp": 948250
     },
     "sourceRefAll": "Ultimate Equipment pg. 162, PRPG Core Rulebook pg. 471",
     "reprintedIn": [

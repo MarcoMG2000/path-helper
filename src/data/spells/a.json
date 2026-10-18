@@ -380,9 +380,7 @@
     "sourceRef": "PRPG Core Rulebook pg. 240",
     "book": "CRB",
     "school": "transmutation",
-    "descriptors": [
-      "see-text"
-    ],
+    "descriptors": [],
     "levels": {
       "cleric": 2
     },

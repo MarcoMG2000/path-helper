@@ -50,7 +50,7 @@
   {
     "id": "bard.lore-master",
     "name": "Lore Master",
-    "textEn": "At 5th level, the bard becomes a master of lore and can take 10 on any Knowledge skill check that he has ranks in even when threatened or distracted. A bard can choose not to take 10 and can instead roll normally. In addition, once per day, the bard can take 20 on any Knowledge skill check as a standard action. He can use this ability one additional time per day for every six levels he possesses beyond 5th, to a maximum of three times per day at 17th level.",
+    "textEn": "At 5th level, the bard becomes a master of lore and can take 10 on any Knowledge skill check that he has ranks in. A bard can choose not to take 10 and can instead roll normally. In addition, once per day, the bard can take 20 on any Knowledge skill check as a standard action. He can use this ability one additional time per day for every six levels he possesses beyond 5th, to a maximum of three times per day at 17th level.",
     "source": "https://www.aonprd.com/ClassDisplay.aspx?ItemName=Bard",
     "sourceRef": "PRPG Core Rulebook pg. 34",
     "book": "CRB",

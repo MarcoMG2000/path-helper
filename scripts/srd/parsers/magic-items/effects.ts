@@ -1,5 +1,6 @@
 import { slugify } from "../../../../src/data/schema/common";
 import type {
+  CritMultiplier,
   ExtraDamage,
   MagicEffect,
   MagicItemKind,
@@ -455,7 +456,20 @@ const EXTRA_DAMAGE =
 
 const CONDITIONAL_DAMAGE = /\b(against|when|while|if|only|once per day|outdoors)\b/i;
 
-/** Daño adicional por dados de una habilidad o arma (R78); [] si no hay. Sin tipo en el texto = "untyped" (los «×3/×4» heredan el tipo anterior). */
+/** Último «×N» (multiplicador de crítico) mencionado en `text`; `undefined` si no hay. */
+function lastMultiplier(text: string): CritMultiplier | undefined {
+  let found: CritMultiplier | undefined;
+  for (const m of text.matchAll(/×\s?([234])\b/g)) found = Number(m[1]) as CritMultiplier;
+  return found;
+}
+
+/**
+ * Daño adicional por dados de una habilidad o arma (R78); [] si no hay. Sin tipo en el texto =
+ * "untyped" (los «×3/×4» heredan el tipo anterior). Cuando el daño crítico depende del
+ * multiplicador del arma («If the weapon's critical multiplier is ×3, add an extra 2d10 ...
+ * instead, and if the multiplier is ×4, add an extra 3d10»), cada alternativa lleva su
+ * `critMultiplier` y la primera (la que no menciona multiplicador) es la de ×2.
+ */
 export function extractExtraDamage(textEn: string): ExtraDamage[] {
   const region = descriptionRegion(textEn);
   const plain = toPlain(region);
@@ -478,8 +492,11 @@ export function extractExtraDamage(textEn: string): ExtraDamage[] {
     if (type !== undefined) lastType = type;
     let trigger: ExtraDamage["trigger"] = "always";
     let conditionText: string | undefined;
-    if (multiplier) trigger = "onCritical";
-    else if (
+    let critMultiplier: CritMultiplier | undefined;
+    if (multiplier) {
+      trigger = "onCritical";
+      critMultiplier = lastMultiplier(plain.text.slice(sentenceStart + 1, start));
+    } else if (
       CONDITIONAL_DAMAGE.test(
         sentence.replace(/\bwhen an? [a-z ]+? (?:strikes|hits)\b[^,]*,/i, "") + tail,
       )
@@ -494,10 +511,35 @@ export function extractExtraDamage(textEn: string): ExtraDamage[] {
       damageType: type ?? "untyped",
       trigger,
       ...(conditionText === undefined ? {} : { conditionText }),
+      ...(critMultiplier === undefined ? {} : { critMultiplier }),
       evidence,
     });
   }
-  return out;
+  // La alternativa base («an extra 1d10 ... on a successful critical hit», sin multiplicador) es
+  // la de ×2: las demás la sustituyen («instead»). Solo si el texto distingue multiplicadores.
+  for (const base of out) {
+    if (base.trigger !== "onCritical" || base.critMultiplier !== undefined) continue;
+    if (
+      out.some(
+        (o) => o !== base && o.damageType === base.damageType && o.critMultiplier !== undefined,
+      )
+    ) {
+      base.critMultiplier = 2;
+    }
+  }
+  return out.map((d) => (d.critMultiplier === undefined ? d : orderKeys(d)));
+}
+
+/** Claves en el orden canónico del schema (la salida JSON es estable, R44). */
+function orderKeys(d: ExtraDamage): ExtraDamage {
+  return {
+    dice: d.dice,
+    damageType: d.damageType,
+    trigger: d.trigger,
+    ...(d.conditionText === undefined ? {} : { conditionText: d.conditionText }),
+    ...(d.critMultiplier === undefined ? {} : { critMultiplier: d.critMultiplier }),
+    evidence: d.evidence,
+  };
 }
 
 // --- huecos (R88, R90) --------------------------------------------------------------------------

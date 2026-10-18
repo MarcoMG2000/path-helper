@@ -30,6 +30,52 @@ export const SPELL_SCHOOLS = [
 ] as const;
 export type SpellSchoolId = (typeof SPELL_SCHOOLS)[number];
 
+// Subescuelas y descriptores del capítulo 9 del CRB (catálogos cerrados). Una línea como
+// «[see text]» no es un descriptor (lo decide el texto del conjuro) y no se guarda.
+export const SPELL_SUBSCHOOLS = [
+  "calling",
+  "charm",
+  "compulsion",
+  "creation",
+  "figment",
+  "glamer",
+  "healing",
+  "pattern",
+  "phantasm",
+  "polymorph",
+  "scrying",
+  "shadow",
+  "summoning",
+  "teleportation",
+] as const;
+export const SPELL_DESCRIPTORS = [
+  "acid",
+  "air",
+  "chaotic",
+  "cold",
+  "curse",
+  "darkness",
+  "death",
+  "disease",
+  "earth",
+  "electricity",
+  "emotion",
+  "evil",
+  "fear",
+  "fire",
+  "force",
+  "good",
+  "language-dependent",
+  "lawful",
+  "light",
+  "mind-affecting",
+  "pain",
+  "poison",
+  "shadow",
+  "sonic",
+  "water",
+] as const;
+
 export const CASTING_TIME_UNITS = [
   "free",
   "immediate",
@@ -144,8 +190,11 @@ export const SpellResistanceSchema = z.strictObject({
  */
 export const SpellSchema = BaseEntrySchema.extend({
   school: z.enum(SPELL_SCHOOLS), // R101
-  subschool: Kebab.optional(),
-  descriptors: z.array(Kebab),
+  subschool: z.enum(SPELL_SUBSCHOOLS).optional(),
+  /** Otras subescuelas impresas tras la primera: «(calling or creation)», «(figment, glamer)». */
+  additionalSubschools: z.array(z.enum(SPELL_SUBSCHOOLS)).min(1).optional(),
+  /** «[fire or cold]» -> ["fire","cold"]; «[see text]» -> [] (R101). */
+  descriptors: z.array(z.enum(SPELL_DESCRIPTORS)),
   levels: z.record(Kebab, z.number().int().min(0).max(9)), // R91
   castingTime: CastingTimeSchema,
   components: ComponentsSchema,

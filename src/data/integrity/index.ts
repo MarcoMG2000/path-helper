@@ -4,6 +4,7 @@ import { classTablesRule } from "./class-tables";
 import { countsRule } from "./counts";
 import { domainRefsRule } from "./domain-refs";
 import { featPrereqsRule } from "./feat-prereqs";
+import { foreignTextRule } from "./foreign-text";
 import { glossaryRule } from "./glossary";
 import { idsRule } from "./ids";
 import { magicRefsRule } from "./magic-refs";
@@ -29,6 +30,7 @@ export const INTEGRITY_RULES: readonly { name: string; rule: IntegrityRule }[] =
   { name: "schema", rule: schemaRule },
   { name: "ids", rule: idsRule },
   { name: "book-filter", rule: bookFilterRule },
+  { name: "foreign-text", rule: foreignTextRule },
   { name: "class-tables", rule: classTablesRule },
   { name: "class-refs", rule: classRefsRule },
   { name: "feat-prereqs", rule: featPrereqsRule },

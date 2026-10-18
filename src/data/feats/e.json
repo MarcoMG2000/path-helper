@@ -159,7 +159,7 @@
   {
     "id": "extra-channel",
     "name": "Extra Channel",
-    "textEn": "You can channel divine energy more often.\n\n**Prerequisites**: Channel energy class feature.\n\n**Benefit**: You can channel energy two additional times per day.\n\n**Special**: If a paladin with the ability to channel positive energy takes this feat, she can use lay on hands four additional times per day, but only to channel positive energy. If a warpriest with the ability to channel energy takes this feat, he gains four additional uses of fervor per day, but can use them only to channel energy.",
+    "textEn": "You can channel divine energy more often.\n\n**Prerequisites**: Channel energy class feature.\n\n**Benefit**: You can channel energy two additional times per day.\n\n**Special**: If a paladin with the ability to channel positive energy takes this feat, she can use lay on hands four additional times per day, but only to channel positive energy.",
     "source": "https://aonprd.com/FeatDisplay.aspx?ItemName=Extra%20Channel",
     "sourceRef": "PRPG Core Rulebook pg. 123",
     "book": "CRB",
@@ -175,8 +175,8 @@
       ]
     },
     "benefit": "You can channel energy two additional times per day.",
-    "special": "If a paladin with the ability to channel positive energy takes this feat, she can use lay on hands four additional times per day, but only to channel positive energy. If a warpriest with the ability to channel energy takes this feat, he gains four additional uses of fervor per day, but can use them only to channel energy.",
-    "needsReview": true
+    "special": "If a paladin with the ability to channel positive energy takes this feat, she can use lay on hands four additional times per day, but only to channel positive energy.",
+    "needsReview": false
   },
   {
     "id": "extra-ki",

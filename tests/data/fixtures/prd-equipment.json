@@ -1,0 +1,2347 @@
+{
+ "source": "https://paizo.com/pathfinderRPG/prd/coreRulebook/equipment.html",
+ "note": "Tablas del PRD oficial de Paizo (Table: Goods and Services, Table: Weapons, Table: Armor and Shields), copiadas tal cual (sin notas al pie) el 2026-10-17. Paizo redirige a legacy.aonprd.com/coreRulebook/equipment.html. Fuente independiente de AoN: sirve de contraste (corrección B de f3-srd-data).",
+ "goods": [
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Backpack (empty)",
+   "cost": "2 gp",
+   "weight": "2 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Barrel (empty)",
+   "cost": "2 gp",
+   "weight": "30 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Basket (empty)",
+   "cost": "4 sp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Bedroll",
+   "cost": "1 sp",
+   "weight": "5 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Bell",
+   "cost": "1 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Blanket, winter",
+   "cost": "5 sp",
+   "weight": "3 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Block and tackle",
+   "cost": "5 gp",
+   "weight": "5 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Bottle, glass",
+   "cost": "2 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Bucket (empty)",
+   "cost": "5 sp",
+   "weight": "2 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Caltrops",
+   "cost": "1 gp",
+   "weight": "2 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Candle",
+   "cost": "1 cp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Canvas (sq. yd.)",
+   "cost": "1 sp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Case, map or scroll",
+   "cost": "1 gp",
+   "weight": "1/2 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Chain (10 ft.)",
+   "cost": "30 gp",
+   "weight": "2 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Chalk, 1 piece",
+   "cost": "1 cp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Chest (empty)",
+   "cost": "2 gp",
+   "weight": "25 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Crowbar",
+   "cost": "2 gp",
+   "weight": "5 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Firewood (per day)",
+   "cost": "1 cp",
+   "weight": "20 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Fishhook",
+   "cost": "1 sp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Fishing net, 25 sq. ft.",
+   "cost": "4 gp",
+   "weight": "5 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Flask (empty)",
+   "cost": "3 cp",
+   "weight": "1-1/2 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Flint and steel",
+   "cost": "1 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Grappling hook",
+   "cost": "1 gp",
+   "weight": "4 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Hammer",
+   "cost": "5 sp",
+   "weight": "2 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Hourglass",
+   "cost": "25 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Ink (1 oz. vial)",
+   "cost": "8 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Inkpen",
+   "cost": "1 sp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Jug, clay",
+   "cost": "3 cp",
+   "weight": "9 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Ladder, 10-foot",
+   "cost": "2 sp",
+   "weight": "20 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Lamp, common",
+   "cost": "1 sp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Lantern, bullseye",
+   "cost": "12 gp",
+   "weight": "3 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Lantern, hooded",
+   "cost": "7 gp",
+   "weight": "2 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "Lock",
+   "name": "Simple",
+   "cost": "20 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "Lock",
+   "name": "Average",
+   "cost": "40 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "Lock",
+   "name": "Good",
+   "cost": "80 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "Lock",
+   "name": "Superior",
+   "cost": "150 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Manacles",
+   "cost": "15 gp",
+   "weight": "2 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Manacles, masterwork",
+   "cost": "50 gp",
+   "weight": "2 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Mirror, small steel",
+   "cost": "10 gp",
+   "weight": "1/2 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Mug/Tankard, clay",
+   "cost": "2 cp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Oil (1-pint flask)",
+   "cost": "1 sp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Paper (sheet)",
+   "cost": "4 sp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Parchment (sheet)",
+   "cost": "2 sp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Pick, miner's",
+   "cost": "3 gp",
+   "weight": "10 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Pitcher, clay",
+   "cost": "2 cp",
+   "weight": "5 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Piton",
+   "cost": "1 sp",
+   "weight": "1/2 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Pole, 10-foot",
+   "cost": "5 cp",
+   "weight": "8 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Pot, iron",
+   "cost": "8 sp",
+   "weight": "4 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Pouch, belt (empty)",
+   "cost": "1 gp",
+   "weight": "1/2 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Ram, portable",
+   "cost": "10 gp",
+   "weight": "20 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Rations, trail (per day)",
+   "cost": "5 sp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Rope, hemp (50 ft.)",
+   "cost": "1 gp",
+   "weight": "10 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Rope, silk (50 ft.)",
+   "cost": "10 gp",
+   "weight": "5 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Sack (empty)",
+   "cost": "1 sp",
+   "weight": "1/2 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Sealing wax",
+   "cost": "1 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Sewing needle",
+   "cost": "5 sp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Shovel or spade",
+   "cost": "2 gp",
+   "weight": "8 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Signal whistle",
+   "cost": "8 sp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Signet ring",
+   "cost": "5 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Sledge",
+   "cost": "1 gp",
+   "weight": "10 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Soap (per lb.)",
+   "cost": "5 sp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Spyglass",
+   "cost": "1,000 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Tent",
+   "cost": "10 gp",
+   "weight": "20 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Torch",
+   "cost": "1 cp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Vial, ink or potion",
+   "cost": "1 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Water clock",
+   "cost": "1,000 gp",
+   "weight": "200 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Waterskin",
+   "cost": "1 gp",
+   "weight": "4 lbs."
+  },
+  {
+   "group": "Adventuring Gear",
+   "sub": "",
+   "name": "Whetstone",
+   "cost": "2 cp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Special Substances and Items",
+   "sub": "",
+   "name": "Acid (flask)",
+   "cost": "10 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Special Substances and Items",
+   "sub": "",
+   "name": "Alchemist's fire (flask)",
+   "cost": "20 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Special Substances and Items",
+   "sub": "",
+   "name": "Antitoxin (vial)",
+   "cost": "50 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Special Substances and Items",
+   "sub": "",
+   "name": "Everburning torch",
+   "cost": "110 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Special Substances and Items",
+   "sub": "",
+   "name": "Holy water (flask)",
+   "cost": "25 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Special Substances and Items",
+   "sub": "",
+   "name": "Smokestick",
+   "cost": "20 gp",
+   "weight": "1/2 lb."
+  },
+  {
+   "group": "Special Substances and Items",
+   "sub": "",
+   "name": "Sunrod",
+   "cost": "2 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Special Substances and Items",
+   "sub": "",
+   "name": "Tanglefoot bag",
+   "cost": "50 gp",
+   "weight": "4 lbs."
+  },
+  {
+   "group": "Special Substances and Items",
+   "sub": "",
+   "name": "Thunderstone",
+   "cost": "30 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Special Substances and Items",
+   "sub": "",
+   "name": "Tindertwig",
+   "cost": "1 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Alchemist's lab",
+   "cost": "200 gp",
+   "weight": "40 lbs."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Artisan's tools",
+   "cost": "5 gp",
+   "weight": "5 lbs."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Artisan's tools, masterwork",
+   "cost": "55 gp",
+   "weight": "5 lbs."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Climber's kit",
+   "cost": "80 gp",
+   "weight": "5 lbs."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Disguise kit",
+   "cost": "50 gp",
+   "weight": "8 lbs."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Healer's kit",
+   "cost": "50 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Holly and mistletoe",
+   "cost": "—",
+   "weight": "—"
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Holy symbol, wooden",
+   "cost": "1 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Holy symbol, silver",
+   "cost": "25 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Magnifying glass",
+   "cost": "100 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Musical instrument, common",
+   "cost": "5 gp",
+   "weight": "3 lbs."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Musical instrument, masterwork",
+   "cost": "100 gp",
+   "weight": "3 lbs."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Scale, merchant's",
+   "cost": "2 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Spell component pouch",
+   "cost": "5 gp",
+   "weight": "2 lbs."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Spellbook, wizard's (blank)",
+   "cost": "15 gp",
+   "weight": "3 lbs."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Thieves' tools",
+   "cost": "30 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Thieves' tools, masterwork",
+   "cost": "100 gp",
+   "weight": "2 lbs."
+  },
+  {
+   "group": "Tools and Skill Kits",
+   "sub": "",
+   "name": "Tool, masterwork",
+   "cost": "50 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Clothing",
+   "sub": "",
+   "name": "Artisan's outfit",
+   "cost": "1 gp",
+   "weight": "4 lbs."
+  },
+  {
+   "group": "Clothing",
+   "sub": "",
+   "name": "Cleric's vestments",
+   "cost": "5 gp",
+   "weight": "6 lbs."
+  },
+  {
+   "group": "Clothing",
+   "sub": "",
+   "name": "Cold-weather outfit",
+   "cost": "8 gp",
+   "weight": "7 lbs."
+  },
+  {
+   "group": "Clothing",
+   "sub": "",
+   "name": "Courtier's outfit",
+   "cost": "30 gp",
+   "weight": "6 lbs."
+  },
+  {
+   "group": "Clothing",
+   "sub": "",
+   "name": "Entertainer's outfit",
+   "cost": "3 gp",
+   "weight": "4 lbs."
+  },
+  {
+   "group": "Clothing",
+   "sub": "",
+   "name": "Explorer's outfit",
+   "cost": "10 gp",
+   "weight": "8 lbs."
+  },
+  {
+   "group": "Clothing",
+   "sub": "",
+   "name": "Monk's outfit",
+   "cost": "5 gp",
+   "weight": "2 lbs."
+  },
+  {
+   "group": "Clothing",
+   "sub": "",
+   "name": "Noble's outfit",
+   "cost": "75 gp",
+   "weight": "10 lbs."
+  },
+  {
+   "group": "Clothing",
+   "sub": "",
+   "name": "Peasant's outfit",
+   "cost": "1 sp",
+   "weight": "2 lbs."
+  },
+  {
+   "group": "Clothing",
+   "sub": "",
+   "name": "Royal outfit",
+   "cost": "200 gp",
+   "weight": "15 lbs."
+  },
+  {
+   "group": "Clothing",
+   "sub": "",
+   "name": "Scholar's outfit",
+   "cost": "5 gp",
+   "weight": "6 lbs."
+  },
+  {
+   "group": "Clothing",
+   "sub": "",
+   "name": "Traveler's outfit",
+   "cost": "1 gp",
+   "weight": "5 lbs."
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "Ale",
+   "name": "Gallon",
+   "cost": "2 sp",
+   "weight": "8 lbs."
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "Ale",
+   "name": "Mug",
+   "cost": "4 cp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "",
+   "name": "Banquet (per person)",
+   "cost": "10 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "",
+   "name": "Bread, loaf of",
+   "cost": "2 cp",
+   "weight": "1/2 lb."
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "",
+   "name": "Cheese, hunk of",
+   "cost": "1 sp",
+   "weight": "1/2 lb."
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "Inn stay (per day)",
+   "name": "Good",
+   "cost": "2 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "Inn stay (per day)",
+   "name": "Common",
+   "cost": "5 sp",
+   "weight": "—"
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "Inn stay (per day)",
+   "name": "Poor",
+   "cost": "2 sp",
+   "weight": "—"
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "Meals (per day)",
+   "name": "Good",
+   "cost": "5 sp",
+   "weight": "—"
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "Meals (per day)",
+   "name": "Common",
+   "cost": "3 sp",
+   "weight": "—"
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "Meals (per day)",
+   "name": "Poor",
+   "cost": "1 sp",
+   "weight": "—"
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "",
+   "name": "Meat, chunk of",
+   "cost": "3 sp",
+   "weight": "1/2 lb."
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "Wine",
+   "name": "Common (pitcher)",
+   "cost": "2 sp",
+   "weight": "6 lbs."
+  },
+  {
+   "group": "Food, Drink, and Lodging",
+   "sub": "Wine",
+   "name": "Fine (bottle)",
+   "cost": "10 gp",
+   "weight": "1-1/2 lbs."
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Barding",
+   "name": "Medium creature",
+   "cost": "×2",
+   "weight": "×1"
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Barding",
+   "name": "Large creature",
+   "cost": "×4",
+   "weight": "×2"
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "",
+   "name": "Bit and bridle",
+   "cost": "2 gp",
+   "weight": "1 lb."
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "",
+   "name": "Dog, guard",
+   "cost": "25 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "",
+   "name": "Dog, riding",
+   "cost": "150 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "",
+   "name": "Donkey or mule",
+   "cost": "8 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "",
+   "name": "Feed (per day)",
+   "cost": "5 cp",
+   "weight": "10 lbs."
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Horse",
+   "name": "Horse, heavy",
+   "cost": "200 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Horse",
+   "name": "Horse, heavy (combat trained)",
+   "cost": "300 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Horse",
+   "name": "Horse, light",
+   "cost": "75 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Horse",
+   "name": "Horse, light(combat trained)",
+   "cost": "110 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Horse",
+   "name": "Pony",
+   "cost": "30 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Horse",
+   "name": "Pony (combat trained)",
+   "cost": "45 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Saddle",
+   "name": "Military",
+   "cost": "20 gp",
+   "weight": "30 lbs."
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Saddle",
+   "name": "Pack",
+   "cost": "5 gp",
+   "weight": "15 lbs."
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Saddle",
+   "name": "Riding",
+   "cost": "10 gp",
+   "weight": "25 lbs."
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Saddle, Exotic",
+   "name": "Military",
+   "cost": "60 gp",
+   "weight": "40 lbs."
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Saddle, Exotic",
+   "name": "Pack",
+   "cost": "15 gp",
+   "weight": "20 lbs."
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "Saddle, Exotic",
+   "name": "Riding",
+   "cost": "30 gp",
+   "weight": "30 lbs."
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "",
+   "name": "Saddlebags",
+   "cost": "4 gp",
+   "weight": "8 lbs."
+  },
+  {
+   "group": "Mounts and Related Gear",
+   "sub": "",
+   "name": "Stabling (per day)",
+   "cost": "5 sp",
+   "weight": "—"
+  },
+  {
+   "group": "Transport",
+   "sub": "",
+   "name": "Carriage",
+   "cost": "100 gp",
+   "weight": "600 lbs."
+  },
+  {
+   "group": "Transport",
+   "sub": "",
+   "name": "Cart",
+   "cost": "15 gp",
+   "weight": "200 lbs."
+  },
+  {
+   "group": "Transport",
+   "sub": "",
+   "name": "Galley",
+   "cost": "30,000 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Transport",
+   "sub": "",
+   "name": "Keelboat",
+   "cost": "3,000 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Transport",
+   "sub": "",
+   "name": "Longship",
+   "cost": "10,000 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Transport",
+   "sub": "",
+   "name": "Rowboat",
+   "cost": "50 gp",
+   "weight": "100 lbs."
+  },
+  {
+   "group": "Transport",
+   "sub": "",
+   "name": "Oar",
+   "cost": "2 gp",
+   "weight": "10 lbs."
+  },
+  {
+   "group": "Transport",
+   "sub": "",
+   "name": "Sailing ship",
+   "cost": "10,000 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Transport",
+   "sub": "",
+   "name": "Sled",
+   "cost": "20 gp",
+   "weight": "300 lbs."
+  },
+  {
+   "group": "Transport",
+   "sub": "",
+   "name": "Wagon",
+   "cost": "35 gp",
+   "weight": "400 lbs."
+  },
+  {
+   "group": "Transport",
+   "sub": "",
+   "name": "Warship",
+   "cost": "25,000 gp",
+   "weight": "—"
+  },
+  {
+   "group": "Spellcasting and Services",
+   "sub": "",
+   "name": "Coach cab",
+   "cost": "3 cp per mile",
+   "weight": ""
+  },
+  {
+   "group": "Spellcasting and Services",
+   "sub": "",
+   "name": "Hireling, trained",
+   "cost": "3 sp per day",
+   "weight": ""
+  },
+  {
+   "group": "Spellcasting and Services",
+   "sub": "",
+   "name": "Hireling, untrained",
+   "cost": "1 sp per day",
+   "weight": ""
+  },
+  {
+   "group": "Spellcasting and Services",
+   "sub": "",
+   "name": "Messenger",
+   "cost": "2 cp per mile",
+   "weight": ""
+  },
+  {
+   "group": "Spellcasting and Services",
+   "sub": "",
+   "name": "Road or gate toll",
+   "cost": "1 cp",
+   "weight": ""
+  },
+  {
+   "group": "Spellcasting and Services",
+   "sub": "",
+   "name": "Ship's passage",
+   "cost": "1 sp per mile",
+   "weight": ""
+  },
+  {
+   "group": "Spellcasting and Services",
+   "sub": "",
+   "name": "Spellcasting",
+   "cost": "Caster level × spell level × 10 gp",
+   "weight": ""
+  }
+ ],
+ "weapons": [
+  {
+   "name": "Gauntlet",
+   "cost": "2 gp",
+   "dmgS": "1d2",
+   "dmgM": "1d3",
+   "critical": "×2",
+   "range": "—",
+   "weight": "1 lb.",
+   "type": "B",
+   "special": "—"
+  },
+  {
+   "name": "Unarmed strike",
+   "cost": "—",
+   "dmgS": "1d2",
+   "dmgM": "1d3",
+   "critical": "×2",
+   "range": "—",
+   "weight": "—",
+   "type": "B",
+   "special": "nonlethal"
+  },
+  {
+   "name": "Dagger",
+   "cost": "2 gp",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "19–20/×2",
+   "range": "10 ft.",
+   "weight": "1 lb.",
+   "type": "P or S",
+   "special": "—"
+  },
+  {
+   "name": "Dagger, punching",
+   "cost": "2 gp",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "×3",
+   "range": "—",
+   "weight": "1 lb.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Gauntlet, spiked",
+   "cost": "5 gp",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "×2",
+   "range": "—",
+   "weight": "1 lb.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Mace, light",
+   "cost": "5 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×2",
+   "range": "—",
+   "weight": "4 lbs.",
+   "type": "B",
+   "special": "—"
+  },
+  {
+   "name": "Sickle",
+   "cost": "6 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×2",
+   "range": "—",
+   "weight": "2 lbs.",
+   "type": "S",
+   "special": "trip"
+  },
+  {
+   "name": "Club",
+   "cost": "—",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×2",
+   "range": "10 ft.",
+   "weight": "3 lbs.",
+   "type": "B",
+   "special": "—"
+  },
+  {
+   "name": "Mace, heavy",
+   "cost": "12 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "×2",
+   "range": "—",
+   "weight": "8 lbs.",
+   "type": "B",
+   "special": "—"
+  },
+  {
+   "name": "Morningstar",
+   "cost": "8 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "×2",
+   "range": "—",
+   "weight": "6 lbs.",
+   "type": "B and P",
+   "special": "—"
+  },
+  {
+   "name": "Shortspear",
+   "cost": "1 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×2",
+   "range": "20 ft.",
+   "weight": "3 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Longspear",
+   "cost": "5 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "×3",
+   "range": "—",
+   "weight": "9 lbs.",
+   "type": "P",
+   "special": "brace, reach"
+  },
+  {
+   "name": "Quarterstaff",
+   "cost": "—",
+   "dmgS": "1d4/1d4",
+   "dmgM": "1d6/1d6",
+   "critical": "×2",
+   "range": "—",
+   "weight": "4 lbs.",
+   "type": "B",
+   "special": "double, monk"
+  },
+  {
+   "name": "Spear",
+   "cost": "2 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "×3",
+   "range": "20 ft.",
+   "weight": "6 lbs.",
+   "type": "P",
+   "special": "brace"
+  },
+  {
+   "name": "Blowgun",
+   "cost": "2 gp",
+   "dmgS": "1",
+   "dmgM": "1d2",
+   "critical": "×2",
+   "range": "20 ft.",
+   "weight": "1 lb.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Darts, blowgun (10)",
+   "cost": "5 sp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "—",
+   "weight": "—",
+   "type": "—",
+   "special": "—"
+  },
+  {
+   "name": "Crossbow, heavy",
+   "cost": "50 gp",
+   "dmgS": "1d8",
+   "dmgM": "1d10",
+   "critical": "19–20/×2",
+   "range": "120 ft.",
+   "weight": "8 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Bolts, crossbow (10)",
+   "cost": "1 gp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "—",
+   "weight": "1 lb.",
+   "type": "—",
+   "special": "—"
+  },
+  {
+   "name": "Crossbow, light",
+   "cost": "35 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "19–20/×2",
+   "range": "80 ft.",
+   "weight": "4 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Bolts, crossbow (10)",
+   "cost": "1 gp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "—",
+   "weight": "1 lb.",
+   "type": "—",
+   "special": "—"
+  },
+  {
+   "name": "Dart",
+   "cost": "5 sp",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "×2",
+   "range": "20 ft.",
+   "weight": "1/2 lb.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Javelin",
+   "cost": "1 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×2",
+   "range": "30 ft.",
+   "weight": "2 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Sling",
+   "cost": "—",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "×2",
+   "range": "50 ft.",
+   "weight": "—",
+   "type": "B",
+   "special": "—"
+  },
+  {
+   "name": "Bullets, sling (10)",
+   "cost": "1 sp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "—",
+   "weight": "5 lbs.",
+   "type": "—",
+   "special": "—"
+  },
+  {
+   "name": "Axe, throwing",
+   "cost": "8 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×2",
+   "range": "10 ft.",
+   "weight": "2 lbs.",
+   "type": "S",
+   "special": "—"
+  },
+  {
+   "name": "Hammer, light",
+   "cost": "1 gp",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "×2",
+   "range": "20 ft.",
+   "weight": "2 lbs.",
+   "type": "B",
+   "special": "—"
+  },
+  {
+   "name": "Handaxe",
+   "cost": "6 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×3",
+   "range": "—",
+   "weight": "3 lbs.",
+   "type": "S",
+   "special": "—"
+  },
+  {
+   "name": "Kukri",
+   "cost": "8 gp",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "18–20/×2",
+   "range": "—",
+   "weight": "2 lbs.",
+   "type": "S",
+   "special": "—"
+  },
+  {
+   "name": "Pick, light",
+   "cost": "4 gp",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "×4",
+   "range": "—",
+   "weight": "3 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Sap",
+   "cost": "1 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×2",
+   "range": "—",
+   "weight": "2 lbs.",
+   "type": "B",
+   "special": "nonlethal"
+  },
+  {
+   "name": "Shield, light",
+   "cost": "special",
+   "dmgS": "1d2",
+   "dmgM": "1d3",
+   "critical": "×2",
+   "range": "—",
+   "weight": "special",
+   "type": "B",
+   "special": "—"
+  },
+  {
+   "name": "Spiked armor",
+   "cost": "special",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×2",
+   "range": "—",
+   "weight": "special",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Spiked shield, light",
+   "cost": "special",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "×2",
+   "range": "—",
+   "weight": "special",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Starknife",
+   "cost": "24 gp",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "×3",
+   "range": "20 ft.",
+   "weight": "3 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Sword, short",
+   "cost": "10 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "19–20/×2",
+   "range": "—",
+   "weight": "2 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Battleaxe",
+   "cost": "10 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "×3",
+   "range": "—",
+   "weight": "6 lbs.",
+   "type": "S",
+   "special": "—"
+  },
+  {
+   "name": "Flail",
+   "cost": "8 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "×2",
+   "range": "—",
+   "weight": "5 lbs.",
+   "type": "B",
+   "special": "disarm, trip"
+  },
+  {
+   "name": "Longsword",
+   "cost": "15 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "19–20/×2",
+   "range": "—",
+   "weight": "4 lbs.",
+   "type": "S",
+   "special": "—"
+  },
+  {
+   "name": "Pick, heavy",
+   "cost": "8 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×4",
+   "range": "—",
+   "weight": "6 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Rapier",
+   "cost": "20 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "18–20/×2",
+   "range": "—",
+   "weight": "2 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Scimitar",
+   "cost": "15 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "18–20/×2",
+   "range": "—",
+   "weight": "4 lbs.",
+   "type": "S",
+   "special": "—"
+  },
+  {
+   "name": "Shield, heavy",
+   "cost": "special",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "×2",
+   "range": "—",
+   "weight": "special",
+   "type": "B",
+   "special": "—"
+  },
+  {
+   "name": "Spiked shield, heavy",
+   "cost": "special",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×2",
+   "range": "—",
+   "weight": "special",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Trident",
+   "cost": "15 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "×2",
+   "range": "10 ft.",
+   "weight": "4 lbs.",
+   "type": "P",
+   "special": "brace"
+  },
+  {
+   "name": "Warhammer",
+   "cost": "12 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "×3",
+   "range": "—",
+   "weight": "5 lbs.",
+   "type": "B",
+   "special": "—"
+  },
+  {
+   "name": "Falchion",
+   "cost": "75 gp",
+   "dmgS": "1d6",
+   "dmgM": "2d4",
+   "critical": "18–20/×2",
+   "range": "—",
+   "weight": "8 lbs.",
+   "type": "S",
+   "special": "—"
+  },
+  {
+   "name": "Glaive",
+   "cost": "8 gp",
+   "dmgS": "1d8",
+   "dmgM": "1d10",
+   "critical": "×3",
+   "range": "—",
+   "weight": "10 lbs.",
+   "type": "S",
+   "special": "reach"
+  },
+  {
+   "name": "Greataxe",
+   "cost": "20 gp",
+   "dmgS": "1d10",
+   "dmgM": "1d12",
+   "critical": "×3",
+   "range": "—",
+   "weight": "12 lbs.",
+   "type": "S",
+   "special": "—"
+  },
+  {
+   "name": "Greatclub",
+   "cost": "5 gp",
+   "dmgS": "1d8",
+   "dmgM": "1d10",
+   "critical": "×2",
+   "range": "—",
+   "weight": "8 lbs.",
+   "type": "B",
+   "special": "—"
+  },
+  {
+   "name": "Flail, heavy",
+   "cost": "15 gp",
+   "dmgS": "1d8",
+   "dmgM": "1d10",
+   "critical": "19–20/×2",
+   "range": "—",
+   "weight": "10 lbs.",
+   "type": "B",
+   "special": "disarm, trip"
+  },
+  {
+   "name": "Greatsword",
+   "cost": "50 gp",
+   "dmgS": "1d10",
+   "dmgM": "2d6",
+   "critical": "19–20/×2",
+   "range": "—",
+   "weight": "8 lbs.",
+   "type": "S",
+   "special": "—"
+  },
+  {
+   "name": "Guisarme",
+   "cost": "9 gp",
+   "dmgS": "1d6",
+   "dmgM": "2d4",
+   "critical": "×3",
+   "range": "—",
+   "weight": "12 lbs.",
+   "type": "S",
+   "special": "reach, trip"
+  },
+  {
+   "name": "Halberd",
+   "cost": "10 gp",
+   "dmgS": "1d8",
+   "dmgM": "1d10",
+   "critical": "×3",
+   "range": "—",
+   "weight": "12 lbs.",
+   "type": "P or S",
+   "special": "brace, trip"
+  },
+  {
+   "name": "Lance",
+   "cost": "10 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "×3",
+   "range": "—",
+   "weight": "10 lbs.",
+   "type": "P",
+   "special": "reach"
+  },
+  {
+   "name": "Ranseur",
+   "cost": "10 gp",
+   "dmgS": "1d6",
+   "dmgM": "2d4",
+   "critical": "×3",
+   "range": "—",
+   "weight": "12 lbs.",
+   "type": "P",
+   "special": "disarm, reach"
+  },
+  {
+   "name": "Scythe",
+   "cost": "18 gp",
+   "dmgS": "1d6",
+   "dmgM": "2d4",
+   "critical": "×4",
+   "range": "—",
+   "weight": "10 lbs.",
+   "type": "P or S",
+   "special": "trip"
+  },
+  {
+   "name": "Longbow",
+   "cost": "75 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "×3",
+   "range": "100 ft.",
+   "weight": "3 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Arrows (20)",
+   "cost": "1 gp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "—",
+   "weight": "3 lbs.",
+   "type": "—",
+   "special": "—"
+  },
+  {
+   "name": "Longbow, composite",
+   "cost": "100 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "×3",
+   "range": "110 ft.",
+   "weight": "3 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Arrows (20)",
+   "cost": "1 gp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "—",
+   "weight": "3 lbs.",
+   "type": "—",
+   "special": "—"
+  },
+  {
+   "name": "Shortbow",
+   "cost": "30 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×3",
+   "range": "60 ft.",
+   "weight": "2 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Arrows (20)",
+   "cost": "1 gp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "—",
+   "weight": "3 lbs.",
+   "type": "—",
+   "special": "—"
+  },
+  {
+   "name": "Shortbow, composite",
+   "cost": "75 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×3",
+   "range": "70 ft.",
+   "weight": "2 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Arrows (20)",
+   "cost": "1 gp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "—",
+   "weight": "3 lbs.",
+   "type": "—",
+   "special": "—"
+  },
+  {
+   "name": "Kama",
+   "cost": "2 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×2",
+   "range": "—",
+   "weight": "2 lbs.",
+   "type": "S",
+   "special": "monk, trip"
+  },
+  {
+   "name": "Nunchaku",
+   "cost": "2 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×2",
+   "range": "—",
+   "weight": "2 lbs.",
+   "type": "B",
+   "special": "disarm, monk"
+  },
+  {
+   "name": "Sai",
+   "cost": "1 gp",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "×2",
+   "range": "—",
+   "weight": "1 lb.",
+   "type": "B",
+   "special": "disarm, monk"
+  },
+  {
+   "name": "Siangham",
+   "cost": "3 gp",
+   "dmgS": "1d4",
+   "dmgM": "1d6",
+   "critical": "×2",
+   "range": "—",
+   "weight": "1 lb.",
+   "type": "P",
+   "special": "monk"
+  },
+  {
+   "name": "Sword, bastard",
+   "cost": "35 gp",
+   "dmgS": "1d8",
+   "dmgM": "1d10",
+   "critical": "19–20/×2",
+   "range": "—",
+   "weight": "6 lbs.",
+   "type": "S",
+   "special": "—"
+  },
+  {
+   "name": "Waraxe, dwarven",
+   "cost": "30 gp",
+   "dmgS": "1d8",
+   "dmgM": "1d10",
+   "critical": "×3",
+   "range": "—",
+   "weight": "8 lbs.",
+   "type": "S",
+   "special": "—"
+  },
+  {
+   "name": "Whip",
+   "cost": "1 gp",
+   "dmgS": "1d2",
+   "dmgM": "1d3",
+   "critical": "×2",
+   "range": "—",
+   "weight": "2 lbs.",
+   "type": "S",
+   "special": "disarm, nonlethal, reach, trip"
+  },
+  {
+   "name": "Axe, orc double",
+   "cost": "60 gp",
+   "dmgS": "1d6/1d6",
+   "dmgM": "1d8/1d8",
+   "critical": "×3",
+   "range": "—",
+   "weight": "15 lbs.",
+   "type": "S",
+   "special": "double"
+  },
+  {
+   "name": "Chain, spiked",
+   "cost": "25 gp",
+   "dmgS": "1d6",
+   "dmgM": "2d4",
+   "critical": "×2",
+   "range": "—",
+   "weight": "10 lbs.",
+   "type": "P",
+   "special": "disarm, trip"
+  },
+  {
+   "name": "Curve blade, elven",
+   "cost": "80 gp",
+   "dmgS": "1d8",
+   "dmgM": "1d10",
+   "critical": "18–20/×2",
+   "range": "—",
+   "weight": "7 lbs.",
+   "type": "S",
+   "special": "—"
+  },
+  {
+   "name": "Flail, dire",
+   "cost": "90 gp",
+   "dmgS": "1d6/1d6",
+   "dmgM": "1d8/1d8",
+   "critical": "×2",
+   "range": "—",
+   "weight": "10 lbs.",
+   "type": "B",
+   "special": "disarm, double, trip"
+  },
+  {
+   "name": "Hammer, gnome hooked",
+   "cost": "20 gp",
+   "dmgS": "1d6/1d4",
+   "dmgM": "1d8/1d6",
+   "critical": "×3/×4",
+   "range": "—",
+   "weight": "6 lbs.",
+   "type": "B or P",
+   "special": "double, trip"
+  },
+  {
+   "name": "Sword, two-bladed",
+   "cost": "100 gp",
+   "dmgS": "1d6/1d6",
+   "dmgM": "1d8/1d8",
+   "critical": "19–20/×2",
+   "range": "—",
+   "weight": "10 lbs.",
+   "type": "S",
+   "special": "double"
+  },
+  {
+   "name": "Urgrosh, dwarven",
+   "cost": "50 gp",
+   "dmgS": "1d6/1d4",
+   "dmgM": "1d8/1d6",
+   "critical": "×3",
+   "range": "—",
+   "weight": "12 lbs.",
+   "type": "P or S",
+   "special": "brace, double"
+  },
+  {
+   "name": "Bolas",
+   "cost": "5 gp",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "×2",
+   "range": "10 ft.",
+   "weight": "2 lbs.",
+   "type": "B",
+   "special": "nonlethal, trip"
+  },
+  {
+   "name": "Crossbow, hand",
+   "cost": "100 gp",
+   "dmgS": "1d3",
+   "dmgM": "1d4",
+   "critical": "19–20/×2",
+   "range": "30 ft.",
+   "weight": "2 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Bolts (10)",
+   "cost": "1 gp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "—",
+   "weight": "1 lb.",
+   "type": "—",
+   "special": "—"
+  },
+  {
+   "name": "Crossbow, repeating heavy",
+   "cost": "400 gp",
+   "dmgS": "1d8",
+   "dmgM": "1d10",
+   "critical": "19–20/×2",
+   "range": "120 ft.",
+   "weight": "12 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Bolts (5)",
+   "cost": "1 gp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "—",
+   "weight": "1 lb.",
+   "type": "—",
+   "special": "—"
+  },
+  {
+   "name": "Crossbow, repeating light",
+   "cost": "250 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "19–20/×2",
+   "range": "80 ft.",
+   "weight": "6 lbs.",
+   "type": "P",
+   "special": "—"
+  },
+  {
+   "name": "Bolts (5)",
+   "cost": "1 gp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "—",
+   "weight": "1 lb.",
+   "type": "—",
+   "special": "—"
+  },
+  {
+   "name": "Net",
+   "cost": "20 gp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "10 ft.",
+   "weight": "6 lbs.",
+   "type": "—",
+   "special": "—"
+  },
+  {
+   "name": "Shuriken (5)",
+   "cost": "1 gp",
+   "dmgS": "1",
+   "dmgM": "1d2",
+   "critical": "×2",
+   "range": "10 ft.",
+   "weight": "1/2 lb.",
+   "type": "P",
+   "special": "monk"
+  },
+  {
+   "name": "Sling staff, halfling",
+   "cost": "20 gp",
+   "dmgS": "1d6",
+   "dmgM": "1d8",
+   "critical": "×3",
+   "range": "80 ft.",
+   "weight": "3 lbs.",
+   "type": "B",
+   "special": "—"
+  },
+  {
+   "name": "Bullets, sling (10)",
+   "cost": "1 sp",
+   "dmgS": "—",
+   "dmgM": "—",
+   "critical": "—",
+   "range": "—",
+   "weight": "5 lbs.",
+   "type": "—",
+   "special": "—"
+  }
+ ],
+ "armor": [
+  {
+   "name": "Padded",
+   "cost": "5 gp",
+   "bonus": "+1",
+   "maxDex": "+8",
+   "acp": "0",
+   "asf": "5%",
+   "speed30": "30 ft.",
+   "speed20": "20 ft.",
+   "weight": "10 lbs."
+  },
+  {
+   "name": "Leather",
+   "cost": "10 gp",
+   "bonus": "+2",
+   "maxDex": "+6",
+   "acp": "0",
+   "asf": "10%",
+   "speed30": "30 ft.",
+   "speed20": "20 ft.",
+   "weight": "15 lbs."
+  },
+  {
+   "name": "Studded leather",
+   "cost": "25 gp",
+   "bonus": "+3",
+   "maxDex": "+5",
+   "acp": "–1",
+   "asf": "15%",
+   "speed30": "30 ft.",
+   "speed20": "20 ft.",
+   "weight": "20 lbs."
+  },
+  {
+   "name": "Chain shirt",
+   "cost": "100 gp",
+   "bonus": "+4",
+   "maxDex": "+4",
+   "acp": "–2",
+   "asf": "20%",
+   "speed30": "30 ft.",
+   "speed20": "20 ft.",
+   "weight": "25 lbs."
+  },
+  {
+   "name": "Hide",
+   "cost": "15 gp",
+   "bonus": "+4",
+   "maxDex": "+4",
+   "acp": "–3",
+   "asf": "20%",
+   "speed30": "20 ft.",
+   "speed20": "15 ft.",
+   "weight": "25 lbs."
+  },
+  {
+   "name": "Scale mail",
+   "cost": "50 gp",
+   "bonus": "+5",
+   "maxDex": "+3",
+   "acp": "–4",
+   "asf": "25%",
+   "speed30": "20 ft.",
+   "speed20": "15 ft.",
+   "weight": "30 lbs."
+  },
+  {
+   "name": "Chainmail",
+   "cost": "150 gp",
+   "bonus": "+6",
+   "maxDex": "+2",
+   "acp": "–5",
+   "asf": "30%",
+   "speed30": "20 ft.",
+   "speed20": "15 ft.",
+   "weight": "40 lbs."
+  },
+  {
+   "name": "Breastplate",
+   "cost": "200 gp",
+   "bonus": "+6",
+   "maxDex": "+3",
+   "acp": "–4",
+   "asf": "25%",
+   "speed30": "20 ft.",
+   "speed20": "15 ft.",
+   "weight": "30 lbs."
+  },
+  {
+   "name": "Splint mail",
+   "cost": "200 gp",
+   "bonus": "+7",
+   "maxDex": "+0",
+   "acp": "–7",
+   "asf": "40%",
+   "speed30": "20 ft.2",
+   "speed20": "15 ft.2",
+   "weight": "45 lbs."
+  },
+  {
+   "name": "Banded mail",
+   "cost": "250 gp",
+   "bonus": "+7",
+   "maxDex": "+1",
+   "acp": "–6",
+   "asf": "35%",
+   "speed30": "20 ft.2",
+   "speed20": "15 ft.2",
+   "weight": "35 lbs."
+  },
+  {
+   "name": "Half-plate",
+   "cost": "600 gp",
+   "bonus": "+8",
+   "maxDex": "+0",
+   "acp": "–7",
+   "asf": "40%",
+   "speed30": "20 ft.2",
+   "speed20": "15 ft.2",
+   "weight": "50 lbs."
+  },
+  {
+   "name": "Full plate",
+   "cost": "1,500 gp",
+   "bonus": "+9",
+   "maxDex": "+1",
+   "acp": "–6",
+   "asf": "35%",
+   "speed30": "20 ft.2",
+   "speed20": "15 ft.2",
+   "weight": "50 lbs."
+  },
+  {
+   "name": "Buckler",
+   "cost": "5 gp",
+   "bonus": "+1",
+   "maxDex": "—",
+   "acp": "–1",
+   "asf": "5%",
+   "speed30": "—",
+   "speed20": "—",
+   "weight": "5 lbs."
+  },
+  {
+   "name": "Shield, light wooden",
+   "cost": "3 gp",
+   "bonus": "+1",
+   "maxDex": "—",
+   "acp": "–1",
+   "asf": "5%",
+   "speed30": "—",
+   "speed20": "—",
+   "weight": "5 lbs."
+  },
+  {
+   "name": "Shield, light steel",
+   "cost": "9 gp",
+   "bonus": "+1",
+   "maxDex": "—",
+   "acp": "–1",
+   "asf": "5%",
+   "speed30": "—",
+   "speed20": "—",
+   "weight": "6 lbs."
+  },
+  {
+   "name": "Shield, heavy wooden",
+   "cost": "7 gp",
+   "bonus": "+2",
+   "maxDex": "—",
+   "acp": "–2",
+   "asf": "15%",
+   "speed30": "—",
+   "speed20": "—",
+   "weight": "10 lbs."
+  },
+  {
+   "name": "Shield, heavy steel",
+   "cost": "20 gp",
+   "bonus": "+2",
+   "maxDex": "—",
+   "acp": "–2",
+   "asf": "15%",
+   "speed30": "—",
+   "speed20": "—",
+   "weight": "15 lbs."
+  },
+  {
+   "name": "Shield, tower",
+   "cost": "30 gp",
+   "bonus": "+43",
+   "maxDex": "+2",
+   "acp": "–10",
+   "asf": "50%",
+   "speed30": "—",
+   "speed20": "—",
+   "weight": "45 lbs."
+  },
+  {
+   "name": "Armor spikes",
+   "cost": "+50 gp",
+   "bonus": "—",
+   "maxDex": "—",
+   "acp": "—",
+   "asf": "—",
+   "speed30": "—",
+   "speed20": "—",
+   "weight": "+10 lbs."
+  },
+  {
+   "name": "Gauntlet, locked",
+   "cost": "8 gp",
+   "bonus": "—",
+   "maxDex": "—",
+   "acp": "special",
+   "asf": "n/a4",
+   "speed30": "—",
+   "speed20": "—",
+   "weight": "+5 lbs."
+  },
+  {
+   "name": "Shield spikes",
+   "cost": "+10 gp",
+   "bonus": "—",
+   "maxDex": "—",
+   "acp": "—",
+   "asf": "—",
+   "speed30": "—",
+   "speed20": "—",
+   "weight": "+5 lbs."
+  }
+ ]
+}

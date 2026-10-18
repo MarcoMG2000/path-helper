@@ -172,9 +172,11 @@ describe("equipo real: coherencia entre literal y estructura (R24, R25)", () => 
     }
   });
 
-  it("los complementos de armadura guardan coste y peso como sumandos", () => {
+  it("los complementos de armadura guardan el peso como sumando; el coste también salvo el guantelete cerrado", () => {
     for (const g of gears.filter((x) => x.category === "armor-extra")) {
-      expect(g.costRaw).toMatch(/^\+\d+ gp$/);
+      // PRD (Table: Armor and Shields, Extras): «Armor spikes | +50 gp | ... | +10 lbs.»,
+      // «Gauntlet, locked | 8 gp | ... | +5 lbs.», «Shield spikes | +10 gp | ... | +5 lbs.»
+      expect(g.costRaw).toMatch(g.id === "locked-gauntlet" ? /^8 gp$/ : /^\+\d+ gp$/);
       expect(g.weightRaw).toMatch(/^\+\d+ lbs\.$/);
     }
   });
@@ -199,10 +201,12 @@ describe("equipo real: coherencia entre literal y estructura (R24, R25)", () => 
   });
 
   it("R25: bienes de varias variantes toman coste y peso de su fila (p. ej. caballos)", () => {
-    expect(pick(gears, "horse-heavy")).toMatchObject({ costCp: 20000, weightLb: 2000 });
+    // PRD (Mounts and Related Gear): «Horse, heavy | 200 gp | —»: el CRB no da peso a los animales
+    // (los pesos de AoN son del Bestiario; corrección B).
+    expect(pick(gears, "horse-heavy")).toMatchObject({ costCp: 20000, weightLb: null });
     expect(pick(gears, "horse-light-combat-trained")).toMatchObject({
       costCp: 11000,
-      weightLb: 1200,
+      weightLb: null,
     });
     expect(pick(gears, "backpack-common")).toMatchObject({ costCp: 200, weightLb: 2 });
     expect(pick(gears, "flask")).toMatchObject({ costCp: 3, weightLb: 1.5 });

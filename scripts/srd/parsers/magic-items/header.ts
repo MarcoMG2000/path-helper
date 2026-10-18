@@ -171,6 +171,17 @@ export function readItems(page: ParserPage, allowedSections: readonly string[]):
   return { $, items };
 }
 
+/**
+ * Secciones de una página que AoN añade desde otros libros y que NO existen en el CRB: se leen
+ * (para no fallar con R45) pero se omiten del `textEn`. `Resonance` es una regla de Ultimate
+ * Equipment / Adventurer's Guide: el PRD del CRB no la tiene en ningún objeto (corrección B de f3).
+ */
+export const OTHER_BOOK_SECTIONS: ReadonlySet<string> = new Set(["resonance"]);
+
+export function isOtherBookSection(heading: string): boolean {
+  return OTHER_BOOK_SECTIONS.has(heading.toLowerCase());
+}
+
 /** Markdown de las secciones de contenido (`**Description**`...) más la construcción. */
 export function itemMarkdown($: Dom, item: RawItem): string {
   const parts: string[] = [];
@@ -185,6 +196,7 @@ export function itemMarkdown($: Dom, item: RawItem): string {
     .join("; ");
   parts.push(headerLine);
   for (const section of item.sections) {
+    if (isOtherBookSection(section.heading)) continue;
     parts.push(`**${section.heading}**`);
     const body = nodesToMarkdown($, section.nodes);
     if (body !== "") parts.push(body);

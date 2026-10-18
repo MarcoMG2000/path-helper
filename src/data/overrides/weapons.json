@@ -1,0 +1,44 @@
+[
+  {
+    "id": "blowgun-darts-10",
+    "field": "needsReview",
+    "value": true,
+    "reason": "Peso de los dardos de cerbatana sin contraste fiable: la tabla de armas del PRD da «—» (como los datos), pero d20pfsrd lista 1 lb. por 10 dardos y la impresión no se ha podido cotejar. Pendiente de decisión humana (no se inventa).",
+    "evidence": "PRD (https://paizo.com/pathfinderRPG/prd/coreRulebook/equipment.html, Table: Weapons, Ranged Weapons): «Darts, blowgun (10) | 5 sp | — | — | — | — | — | — | —» (consultado el 2026-10-17); d20pfsrd.com (peso 1 lb.) según el informe del reviewer (D12)."
+  },
+  {
+    "id": "ballista-light",
+    "field": "needsReview",
+    "value": true,
+    "reason": "Máquina de asedio sin contraste con el CRB impreso: AoN la etiqueta «Ultimate Combat pg. 160, PRPG Core Rulebook pg. 435» y la tabla de armas del PRD del CRB (equipment.html) no la incluye (Ballista, light). Pendiente de decisión humana (no se inventan valores).",
+    "evidence": "PRD (https://paizo.com/pathfinderRPG/prd/coreRulebook/equipment.html, Table: Weapons): sin fila para esta máquina de asedio (consultado el 2026-10-17); reviewer D12 de f3-srd-data."
+  },
+  {
+    "id": "catapult-heavy",
+    "field": "needsReview",
+    "value": true,
+    "reason": "Máquina de asedio sin contraste con el CRB impreso: AoN la etiqueta «Ultimate Combat pg. 160, PRPG Core Rulebook pg. 435» y la tabla de armas del PRD del CRB (equipment.html) no la incluye (Catapult, heavy). Pendiente de decisión humana (no se inventan valores).",
+    "evidence": "PRD (https://paizo.com/pathfinderRPG/prd/coreRulebook/equipment.html, Table: Weapons): sin fila para esta máquina de asedio (consultado el 2026-10-17); reviewer D12 de f3-srd-data."
+  },
+  {
+    "id": "catapult-light",
+    "field": "needsReview",
+    "value": true,
+    "reason": "Máquina de asedio sin contraste con el CRB impreso: AoN la etiqueta «Ultimate Combat pg. 160, PRPG Core Rulebook pg. 435» y la tabla de armas del PRD del CRB (equipment.html) no la incluye (Catapult, light). Pendiente de decisión humana (no se inventan valores).",
+    "evidence": "PRD (https://paizo.com/pathfinderRPG/prd/coreRulebook/equipment.html, Table: Weapons): sin fila para esta máquina de asedio (consultado el 2026-10-17); reviewer D12 de f3-srd-data."
+  },
+  {
+    "id": "ram-large",
+    "field": "needsReview",
+    "value": true,
+    "reason": "Máquina de asedio sin contraste con el CRB impreso: AoN la etiqueta «Ultimate Combat pg. 160, PRPG Core Rulebook pg. 435» y la tabla de armas del PRD del CRB (equipment.html) no la incluye (Ram, Large). Pendiente de decisión humana (no se inventan valores).",
+    "evidence": "PRD (https://paizo.com/pathfinderRPG/prd/coreRulebook/equipment.html, Table: Weapons): sin fila para esta máquina de asedio (consultado el 2026-10-17); reviewer D12 de f3-srd-data."
+  },
+  {
+    "id": "siege-tower-large",
+    "field": "needsReview",
+    "value": true,
+    "reason": "Máquina de asedio sin contraste con el CRB impreso: AoN la etiqueta «Ultimate Combat pg. 160, PRPG Core Rulebook pg. 435» y la tabla de armas del PRD del CRB (equipment.html) no la incluye (Siege tower, Large). Pendiente de decisión humana (no se inventan valores).",
+    "evidence": "PRD (https://paizo.com/pathfinderRPG/prd/coreRulebook/equipment.html, Table: Weapons): sin fila para esta máquina de asedio (consultado el 2026-10-17); reviewer D12 de f3-srd-data."
+  }
+]
