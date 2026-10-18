@@ -98,6 +98,19 @@ Estos comandos usan la base de datos de `DATABASE_PATH` y la configuración de `
 
 En producción (`NODE_ENV=production`) el servidor rechaza un `AUTH_PEPPER` que contenga `change-me`: genera un secreto aleatorio propio.
 
+### Interfaz web: primer uso (f1b)
+
+1. `cp .env.example .env` y pon un `AUTH_PEPPER` propio (mínimo 32 caracteres; en desarrollo vale el marcador, en producción no). Deja `AUTH_COOKIE_SECURE=false` mientras uses http.
+2. Crea el primer GM (no hay pantalla de registro): `npm run create-gm -- "Gandalf"` (pide el PIN, 4-8 dígitos).
+3. `npm run dev` y abre **http://localhost:5173** (o http://127.0.0.1:5173). La web se sirve en el origen que DEBE figurar en `AUTH_ALLOWED_ORIGINS` (protección CSRF por `Origin`; los dos anteriores ya están en `.env.example`).
+4. Entra con el GM, ve a **Cuentas** y crea a los jugadores (nombre + PIN inicial). Cada jugador puede cambiar su PIN y cerrar sesión en **Mi perfil**. Si un jugador olvida su PIN, el GM lo restablece desde su fila; si lo bloquean los intentos fallidos, pulsa **Desbloquear**.
+
+**Probar desde el móvil por la red local:** pon `HOST=0.0.0.0` en `.env`, añade `http://<ip-de-tu-pc>:5173` a `AUTH_ALLOWED_ORIGINS` (si no, los envíos del login reciben `bad_origin`) y reinicia `npm run dev`.
+
+El **aviso legal** (OGL 1.0a, Section 15 y aviso de proyecto no oficial) es público en `/legal` y se enlaza desde el pie de todas las pantallas.
+
+**Pendiente para f9 (despliegue):** hoy el servidor solo expone `/api` y `/health`; en producción alguien debe servir `dist/web` con *fallback* a `index.html` para las rutas del cliente (`/legal`, `/perfil`, `/cuentas`…) y `AUTH_ALLOWED_ORIGINS` debe contener el origen real de la app. El service worker ya no intercepta `/api` ni `/health` (`NAVIGATE_FALLBACK_DENYLIST` en `src/web/pwa-manifest.ts`).
+
 ## Origen
 
 Plantilla genérica extraída de un proyecto real, con toda la información

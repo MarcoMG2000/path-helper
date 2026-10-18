@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ph-color-bg);
+  color: var(--ph-color-text);
+  font-family: var(--ph-font-family);
+  font-size: var(--ph-font-size-base);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 var(--ph-space-3);
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: var(--ph-font-size-xl);
+}
+
+h2 {
+  font-size: var(--ph-font-size-lg);
+}
+
+h3 {
+  font-size: var(--ph-font-size-base);
+}
+
+p {
+  margin: 0 0 var(--ph-space-3);
+}
+
+a {
+  color: var(--ph-color-primary);
+  text-underline-offset: 0.15em;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--ph-color-focus);
+  outline-offset: 2px;
+}
+
+/* El h1 y el main reciben foco por programa al cambiar de página: sin anillo en ese caso. */
+h1:focus,
+main:focus {
+  outline: none;
+}
+
+.ph-skip {
+  position: absolute;
+  top: var(--ph-space-2);
+  left: var(--ph-space-2);
+  z-index: 100;
+  padding: var(--ph-space-2) var(--ph-space-4);
+  background: var(--ph-color-primary);
+  color: var(--ph-color-on-primary);
+  border-radius: var(--ph-radius);
+  transform: translateY(-300%);
+}
+
+.ph-skip:focus {
+  transform: none;
+}
+
+.ph-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}

@@ -1,0 +1,50 @@
+/* Únicas definiciones de valores (colores, espaciado, tipografía). Las demás hojas usan var(--ph-*). */
+:root {
+  color-scheme: light dark;
+
+  --ph-color-bg: #f4f6f9;
+  --ph-color-surface: #ffffff;
+  --ph-color-text: #1b1f24;
+  --ph-color-text-muted: #4a5560;
+  --ph-color-primary: #1f3a5f;
+  --ph-color-on-primary: #ffffff;
+  --ph-color-border: #b9c2cd;
+  --ph-color-danger: #b00020;
+  --ph-color-success: #1b6e2d;
+  --ph-color-focus: #0b5cd5;
+
+  --ph-space-1: 0.25rem;
+  --ph-space-2: 0.5rem;
+  --ph-space-3: 0.75rem;
+  --ph-space-4: 1rem;
+  --ph-space-5: 1.5rem;
+  --ph-space-6: 2rem;
+
+  --ph-radius: 0.5rem;
+
+  --ph-font-family:
+    system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --ph-font-size-sm: 0.875rem;
+  --ph-font-size-base: 1rem;
+  --ph-font-size-lg: 1.25rem;
+  --ph-font-size-xl: 1.5rem;
+
+  --ph-tap-min: 2.75rem;
+  --ph-content-max: 40rem;
+  --ph-content-wide: 64rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ph-color-bg: #12161c;
+    --ph-color-surface: #1b222b;
+    --ph-color-text: #e8ecf1;
+    --ph-color-text-muted: #a9b4c0;
+    --ph-color-primary: #8fb4ea;
+    --ph-color-on-primary: #0d1b2e;
+    --ph-color-border: #3d4856;
+    --ph-color-danger: #ff8a98;
+    --ph-color-success: #6fd08a;
+    --ph-color-focus: #7db2ff;
+  }
+}

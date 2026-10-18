@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import { defineConfig, type UserConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 import { loadConfig, type Config } from "./src/server/config";
-import { pwaManifest } from "./src/web/pwa-manifest";
+import { NAVIGATE_FALLBACK_DENYLIST, pwaManifest } from "./src/web/pwa-manifest";
 
 const repoRoot = import.meta.dirname;
 
@@ -19,6 +19,7 @@ export function createViteConfig(config: Pick<Config, "HOST" | "PORT" | "WEB_POR
       VitePWA({
         registerType: "autoUpdate",
         manifest: pwaManifest,
+        workbox: { navigateFallbackDenylist: NAVIGATE_FALLBACK_DENYLIST },
         devOptions: { enabled: true },
       }),
     ],

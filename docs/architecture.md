@@ -65,6 +65,31 @@ src/
 tests/       # espejo de src/: un fichero de test por módulo
 ```
 
+### Estructura de `src/web` (f1b) y contrato `AppSection`
+
+```
+src/web/
+  api/        # cliente HTTP único (Result<T, ApiError>), módulos por dominio (auth, accounts…) y
+              # AppServices (inyección de dependencias de la UI; los tests inyectan fakes)
+  session/    # SessionProvider (me/login/logout, 401 -> login), canal BroadcastChannel entre pestañas
+  shell/      # rutas, guardas (RequireAuth/RequireRole/PublicOnly), layouts, nav, Page, error boundary
+  components/ # piezas reutilizables (FormField, PinField, Alert…)
+  features/   # una carpeta por feature: pantallas + section.tsx
+  i18n/       # es.ts (todos los textos), format.ts, error-message.ts
+  styles/     # tokens.css (únicos valores), base/layout/components.css
+```
+
+**Añadir una pantalla sin tocar el shell:** crear `src/web/features/<x>/section.tsx` con
+`export default defineSection({ id, path, label, roles, order, Component, children?, hidden? })`
+(o un array). `loadSections()` (`import.meta.glob`) las descubre, `validateSections` rechaza ids/rutas
+duplicados y rutas reservadas (`/`, `/login`, `/legal`, `/api`, `/health`), y el shell crea la ruta con
+guarda de sesión y de rol y la entrada de navegación. Orden sugerido: ficha 10, combate 20, compendio 30,
+cuentas 50, perfil 90. Los módulos de API nuevos (`createCharacterApi(http)`…) se exponen ampliando
+`AppServices`; no se reimplementa el cliente HTTP ni el manejo de 401/429. Las guardas de rol son solo
+UX: la autorización real es la del servidor (§6). Textos solo en `es.ts`; colores solo en `tokens.css`.
+`src/web` solo importa de `src/shared` y de `src/data/legal` (nunca del barrel `src/data`: arrastraría
+los datasets al bundle; lo vigilan `tests/web/hygiene` y `tests/web/bundle.int.test.ts`).
+
 Reglas de dependencia: `rules` y `data` no importan de `server` ni `web`;
 `server` y `web` pueden importar de `rules`, `data` y `shared`; `web` nunca
 importa de `server`. Un revisor rechaza código que mezcle capas.

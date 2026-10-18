@@ -6,7 +6,13 @@
         "parallel_policy": "Decidido por el humano: se permite trabajar varias features en paralelo SOLO si (a) todas sus depends_on están done, (b) tocan carpetas/módulos disjuntos y (c) cada una pasó por spec aprobado. Los spec_author en paralelo NO editan feature-list.json; el leader actualiza los status.",
         "require_tests_to_close": true,
         "require_approved_spec_to_implement": true,
-        "valid_status": ["pending", "spec_ready", "in_progress", "done", "blocked"],
+        "valid_status": [
+            "pending",
+            "spec_ready",
+            "in_progress",
+            "done",
+            "blocked"
+        ],
         "sdd_required_when": "feature has \"sdd\": true"
     },
     "stack": {
@@ -25,7 +31,15 @@
         "No secrets in code; configuration is external."
     ],
     "campaign": {
-        "party": ["druida", "pícaro", "cazadora (ranger)", "bárbaro", "paladín", "bardo", "clérigo"],
+        "party": [
+            "druida",
+            "pícaro",
+            "cazadora (ranger)",
+            "bárbaro",
+            "paladín",
+            "bardo",
+            "clérigo"
+        ],
         "ui_language": "es",
         "rules_source": "SRD oficial en inglés (Core Rulebook) vía Archives of Nethys / d20pfsrd, licencia OGL; nombres en español para términos habituales",
         "auth": "Nombre + PIN por jugador; 7 jugadores + 1 GM; cuentas creadas por el GM",
@@ -37,6 +51,7 @@
             "2026-10-16: el humano acepta Archives of Nethys como fuente primaria de datos del SRD.",
             "2026-10-16: el humano APRUEBA los specs de f0, f1 y f2. f3 NO aprobado aún: se amplía a todos los conjuros del Core y requiere nueva aprobación.",
             "2026-10-16: el dataset de conjuros incluye TODOS los conjuros del Core (también mago/hechicero).",
+            "2026-10-18: el humano APRUEBA los specs de f1b (login/cuentas/shell/legal) y f4 (ficha). Se implementa f1b primero; f4 cuando f1b esté done (depende de su shell).",
             "2026-10-16: el humano APRUEBA f3 (con todos los conjuros y objetos mágicos) y el spec de f2 corregido tras verificación contra el SRD (D1 raciales se apilan; D2 solo cuenta el peor penalizador del mismo tipo; D3 cota de mallas +6)."
         ]
     },
@@ -54,15 +69,19 @@
             "title": "Autenticación por nombre+PIN y roles (jugador/GM)",
             "status": "done",
             "sdd": true,
-            "depends_on": ["f0-project-skeleton"],
+            "depends_on": [
+                "f0-project-skeleton"
+            ],
             "acceptance": "El GM crea y gestiona cuentas; login con nombre+PIN con sesión y límite de intentos; PIN almacenado con hash; política de autorización centralizada: un jugador solo accede a sus propios recursos, el GM a todos; tests que demuestran que un jugador no puede leer datos de otro."
         },
         {
             "id": "f1b-auth-ui",
             "title": "Pantallas de login y gestión de cuentas",
-            "status": "pending",
+            "status": "in_progress",
             "sdd": true,
-            "depends_on": ["f1-auth-roles"],
+            "depends_on": [
+                "f1-auth-roles"
+            ],
             "acceptance": "UI mobile-first en español: pantalla de login (nombre + PIN) con mensajes de error y de bloqueo temporal; el jugador puede cambiar su PIN y cerrar sesión; el GM puede crear, desactivar y restablecer el PIN de cuentas; las rutas de la app redirigen a login si no hay sesión."
         },
         {
@@ -70,7 +89,9 @@
             "title": "Motor de reglas Pathfinder 1e (núcleo puro)",
             "status": "done",
             "sdd": true,
-            "depends_on": ["f0-project-skeleton"],
+            "depends_on": [
+                "f0-project-skeleton"
+            ],
             "acceptance": "Módulo puro src/rules con: modificadores de característica, BAB y salvaciones por clase/nivel, CA (normal/toque/desprevenido), iniciativa, habilidades y penalizadores de armadura, y un resolvedor de bonificadores con tipos y reglas de apilamiento del Core (bonificadores del mismo tipo no se apilan salvo esquiva, la mayoría de los de circunstancia, los raciales y los sin tipo; de varios penalizadores del mismo tipo solo cuenta el peor, salvo los sin tipo que siempre se apilan). Tests contra ejemplos y reglas literales del manual."
         },
         {
@@ -78,7 +99,9 @@
             "title": "Datos del Core Rulebook (SRD) estructurados",
             "status": "done",
             "sdd": true,
-            "depends_on": ["f0-project-skeleton"],
+            "depends_on": [
+                "f0-project-skeleton"
+            ],
             "acceptance": "Datos JSON validados por schema (zod) del Core Rulebook, sin expansiones: las 7 clases de la campaña (druida, pícaro, cazador, bárbaro, paladín, bardo, clérigo) con tablas de progresión y habilidades de clase, razas, habilidades, dotes, conjuros y equipo (armas, armaduras, objetos) y objetos mágicos del Core (capítulo 15: armas y armaduras mágicas, anillos, varitas, pociones, objetos maravillosos...; los jugadores ya los tienen, nivel 5-6). Cada entrada: resumen en español, texto completo del SRD en inglés y URL de la fuente. Aviso OGL incluido. Script de validación de integridad (referencias, campos obligatorios, ninguna entrada fuera del Core)."
         },
         {
@@ -86,15 +109,23 @@
             "title": "Datos de monstruos del Bestiario (dataset separado)",
             "status": "spec_ready",
             "sdd": true,
-            "depends_on": ["f2-rules-engine-core", "f3-srd-data"],
+            "depends_on": [
+                "f2-rules-engine-core",
+                "f3-srd-data"
+            ],
             "acceptance": "Dataset de monstruos del Pathfinder Roleplaying Game Bestiary (1ª edición) del SRD, en JSON validado por schema y SEPARADO del dataset del Core (book distinto, nunca mezclado con él). Cada monstruo: estadísticas completas de bloque (CA, CA de toque y desprevenido, PG y dados de golpe, salvaciones, ataques, habilidades especiales con su texto, DG, FP, tamaño, tipo, características), texto original del SRD y URL de la fuente. Mismo pipeline reproducible y validaciones de integridad que f3. Aviso OGL actualizado con la fuente."
         },
         {
             "id": "f4-character-sheet",
             "title": "Ficha de personaje, inventario y notas privadas",
-            "status": "pending",
+            "status": "spec_ready",
             "sdd": true,
-            "depends_on": ["f1-auth-roles", "f2-rules-engine-core", "f3-srd-data"],
+            "depends_on": [
+                "f1-auth-roles",
+                "f2-rules-engine-core",
+                "f3-srd-data",
+                "f1b-auth-ui"
+            ],
             "acceptance": "CRUD de ficha propia (características, raza, clase/nivel, dotes, habilidades con rangos, equipo, conjuros y usos diarios, PG) con valores derivados calculados por src/rules; flujo de subida de nivel editable; inventario con peso/carga; notas privadas visibles solo para su autor; el GM puede consultar cualquier ficha; vista resumida y vista detallada con el texto del manual; mobile-first."
         },
         {
@@ -102,7 +133,10 @@
             "title": "Iniciativa y combate en tiempo real con panel de GM",
             "status": "pending",
             "sdd": true,
-            "depends_on": ["f1-auth-roles", "f2-rules-engine-core"],
+            "depends_on": [
+                "f1-auth-roles",
+                "f2-rules-engine-core"
+            ],
             "acceptance": "El GM abre un combate; cada jugador introduce solo su d20 y la app suma su modificador de iniciativa; orden de turnos automático con los desempates del Core; ronda y turno actual; el GM gestiona enemigos (nombre, CA, CA de toque/desprevenido, PG máximos y actuales editables, ataques y habilidades especiales como texto), con actualización en vivo para todos vía SSE; los jugadores ven el orden y lo que el spec defina como visible (p. ej. estado cualitativo de enemigos), nunca los datos privados de otros jugadores."
         },
         {
@@ -110,7 +144,10 @@
             "title": "Bestiario del GM: buscar, crear y editar monstruos",
             "status": "pending",
             "sdd": true,
-            "depends_on": ["f3b-bestiary-data", "f5-combat-tracker"],
+            "depends_on": [
+                "f3b-bestiary-data",
+                "f5-combat-tracker"
+            ],
             "acceptance": "El GM busca monstruos del Bestiario y los añade al combate; puede crear monstruos propios a mano y editar una copia de cualquier monstruo (el original del SRD no se modifica); sus monstruos y ediciones son privados del GM; vista rápida en combate con CA, PG en vivo, ataques y habilidades especiales. Los jugadores nunca ven las estadísticas completas de los monstruos."
         },
         {
@@ -118,7 +155,11 @@
             "title": "Calculadora de ataque y daño con modificadores activos",
             "status": "pending",
             "sdd": true,
-            "depends_on": ["f2-rules-engine-core", "f3-srd-data", "f4-character-sheet"],
+            "depends_on": [
+                "f2-rules-engine-core",
+                "f3-srd-data",
+                "f4-character-sheet"
+            ],
             "acceptance": "El jugador elige arma y activa/desactiva modificadores (ataque poderoso, combate con dos armas, flanqueo, etc.), introduce el d20 y los dados de daño, y la app muestra el desglose completo: ataque total frente a CA, amenaza/confirmación de crítico, daño total con multiplicador de crítico y desglose por fuente y tipo. Resultados verificados contra reglas del Core con tests."
         },
         {
@@ -126,7 +167,9 @@
             "title": "Capacidades de clase como modificadores activables",
             "status": "pending",
             "sdd": true,
-            "depends_on": ["f6-attack-damage-calculator"],
+            "depends_on": [
+                "f6-attack-damage-calculator"
+            ],
             "acceptance": "Para las 7 clases de la campaña, las capacidades que afectan a ataque/daño/CA/salvaciones se pueden activar y tienen en cuenta usos diarios: castigar el mal (paladín), furia (bárbaro), enemigo predilecto (cazadora), ataque furtivo (pícaro), interpretación de bardo/inspirar valor, y los efectos relevantes de druida y clérigo. Cada capacidad con tests contra su texto del Core."
         },
         {
@@ -134,7 +177,9 @@
             "title": "Compendio de reglas consultable",
             "status": "pending",
             "sdd": true,
-            "depends_on": ["f3-srd-data"],
+            "depends_on": [
+                "f3-srd-data"
+            ],
             "acceptance": "Búsqueda y navegación de dotes, conjuros, habilidades de clase y equipo del Core; cada entrada muestra resumen en español y, bajo demanda, el texto completo del manual; desde la ficha se accede en un toque a las dotes/conjuros/habilidades del personaje."
         },
         {
@@ -142,7 +187,9 @@
             "title": "Despliegue en Fly.io",
             "status": "pending",
             "sdd": true,
-            "depends_on": ["f1-auth-roles"],
+            "depends_on": [
+                "f1-auth-roles"
+            ],
             "acceptance": "Dockerfile multi-stage y fly.toml con volumen persistente para SQLite; configuración y secretos por entorno; HTTPS; backups de la base de datos documentados; guía en docs/ para desplegar y restaurar."
         }
     ]

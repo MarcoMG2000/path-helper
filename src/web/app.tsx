@@ -1,13 +1,30 @@
-import { HealthStatus } from "./components/health-status";
-import { useHealth } from "./hooks/use-health";
-import { es } from "./i18n/es";
+import { useMemo } from "react";
+import { ServicesProvider, type AppServices } from "./api/services";
+import { loadSections } from "./shell/load-sections";
+import { AppErrorBoundary } from "./shell/error-boundary";
+import { AppRoutes } from "./shell/routes";
+import type { AppSection } from "./shell/sections";
+import { SessionProvider } from "./session/session-context";
+import type { SessionChannel } from "./session/session-channel";
 
-export function App() {
-  const health = useHealth();
+// El router (BrowserRouter / MemoryRouter) lo aporta quien monta la app: main.tsx o los tests.
+export function App({
+  services,
+  sections,
+  channel,
+}: {
+  services: AppServices;
+  sections?: readonly AppSection[];
+  channel?: SessionChannel;
+}) {
+  const resolved = useMemo(() => sections ?? loadSections(), [sections]);
   return (
-    <main>
-      <h1>{es.appName}</h1>
-      <HealthStatus state={health} />
-    </main>
+    <AppErrorBoundary>
+      <ServicesProvider services={services}>
+        <SessionProvider channel={channel}>
+          <AppRoutes sections={resolved} />
+        </SessionProvider>
+      </ServicesProvider>
+    </AppErrorBoundary>
   );
 }
