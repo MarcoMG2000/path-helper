@@ -290,6 +290,45 @@ describe("AuthService.authenticate", () => {
   });
 });
 
+describe("AuthService.login: sesión previa (R95)", () => {
+  it("R95: un login correcto con un token previo revoca esa sesión y crea una nueva", async () => {
+    await seedPlayer();
+    const previous = await loginToken();
+    const result = await f.auth.login("Valeros", "1234", previous);
+    expect(result.ok).toBe(true);
+    if (!result.ok) return;
+    expect(await f.auth.authenticate(previous)).toBeNull();
+    expect(await f.auth.authenticate(result.value.token)).not.toBeNull();
+    expect(f.sessions.dump()).toHaveLength(1);
+  });
+
+  it("R95: el token previo de otra cuenta también se revoca; las demás sesiones no se tocan", async () => {
+    await seedPlayer("Valeros", "1234");
+    await seedPlayer("Merisiel", "5678");
+    const valerosPrev = await loginToken("Valeros", "1234");
+    const valerosOther = await loginToken("Valeros", "1234");
+    const login = await f.auth.login("Merisiel", "5678", valerosPrev);
+    expect(login.ok).toBe(true);
+    expect(await f.auth.authenticate(valerosPrev)).toBeNull();
+    expect(await f.auth.authenticate(valerosOther)).not.toBeNull();
+  });
+
+  it("R95: un token previo inválido, desconocido o vacío no produce error", async () => {
+    await seedPlayer();
+    for (const previous of ["", "desconocido", "x".repeat(5000), "ñ\u0000"]) {
+      const result = await f.auth.login("Valeros", "1234", previous);
+      expect(result.ok, previous).toBe(true);
+    }
+  });
+
+  it("R95: un login fallido (PIN incorrecto) NO revoca la sesión previa", async () => {
+    await seedPlayer();
+    const previous = await loginToken();
+    expect((await f.auth.login("Valeros", "0000", previous)).ok).toBe(false);
+    expect(await f.auth.authenticate(previous)).not.toBeNull();
+  });
+});
+
 describe("AuthService.logout", () => {
   it("borra la sesión y es idempotente (R35, R36)", async () => {
     await seedPlayer();

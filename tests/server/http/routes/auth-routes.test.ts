@@ -43,6 +43,45 @@ describe("POST /api/auth/login", () => {
     expect(fx.sessions.dump()).toHaveLength(1);
   });
 
+  it("R95: login con una cookie de sesión previa revoca esa sesión y emite una nueva", async () => {
+    const { req, loginCookie, fx } = await setup();
+    const old = await loginCookie("Ana", "2222");
+    const response = await req({
+      method: "POST",
+      url: "/api/auth/login",
+      cookie: old,
+      body: { name: "Beto", pin: "3333" },
+    });
+    expect(response.statusCode).toBe(200);
+    const fresh = setCookieHeader(response).split(";")[0] ?? "";
+    expect(fresh).not.toBe(old);
+    expect(fx.sessions.dump()).toHaveLength(1);
+    expect((await req({ method: "GET", url: "/api/auth/me", cookie: old })).statusCode).toBe(401);
+    expect((await req({ method: "GET", url: "/api/auth/me", cookie: fresh })).statusCode).toBe(200);
+  });
+
+  it("R95: con una cookie inválida el login funciona igual y un login fallido no revoca la previa", async () => {
+    const { req, loginCookie } = await setup();
+    for (const cookie of ["ph_session=falso", "ph_session=", "ph_session=" + "a".repeat(3000)]) {
+      const ok = await req({
+        method: "POST",
+        url: "/api/auth/login",
+        cookie,
+        body: { name: "Ana", pin: "2222" },
+      });
+      expect(ok.statusCode, cookie.slice(0, 20)).toBe(200);
+    }
+    const old = await loginCookie("Ana", "2222");
+    const bad = await req({
+      method: "POST",
+      url: "/api/auth/login",
+      cookie: old,
+      body: { name: "Ana", pin: "0000" },
+    });
+    expect(bad.statusCode).toBe(401);
+    expect((await req({ method: "GET", url: "/api/auth/me", cookie: old })).statusCode).toBe(200);
+  });
+
   it("R18: el GM entra y se identifica con rol gm", async () => {
     const { req, gmId } = await setup();
     const response = await req({

@@ -84,6 +84,38 @@ describe("POST /api/accounts", () => {
     expect((await fx.users.list()).length).toBe(before);
   });
 
+  it("R93/R94: nombres con caracteres de formato -> 400; equivalentes Unicode -> 409; se guarda NFC", async () => {
+    const { req, gm, fx } = await setup();
+    const before = (await fx.users.list()).length;
+    for (const name of ["Cleo\u202e", "Cl\u200beo", "Cl\ufeffeo"]) {
+      const response = await req({
+        method: "POST",
+        url: "/api/accounts",
+        cookie: gm,
+        body: { name, pin: "1234" },
+      });
+      expect(response.statusCode, JSON.stringify(name)).toBe(400);
+      expect(response.json()).toEqual(ERROR("validation_error"));
+    }
+    expect((await fx.users.list()).length).toBe(before);
+    const created = await req({
+      method: "POST",
+      url: "/api/accounts",
+      cookie: gm,
+      body: { name: "Jose\u0301", pin: "1234" },
+    });
+    expect(created.statusCode).toBe(201);
+    expect((created.json() as { name: string }).name).toBe("Jos\u00e9");
+    const dup = await req({
+      method: "POST",
+      url: "/api/accounts",
+      cookie: gm,
+      body: { name: "JOS\u00c9", pin: "1234" },
+    });
+    expect(dup.statusCode).toBe(409);
+    expect(dup.json()).toEqual(ERROR("name_taken"));
+  });
+
   it("R3: nombre o PIN inválidos -> 400 validation_error y no crea la cuenta", async () => {
     const { req, gm, fx } = await setup();
     const before = (await fx.users.list()).length;

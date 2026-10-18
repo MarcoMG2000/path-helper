@@ -29,6 +29,12 @@ describe("Page", () => {
     expect(document.activeElement).toBe(screen.getByRole("heading", { level: 1, name: "Dos" }));
   });
 
+  it("R91: documentTitle separa el título de la pestaña del h1", () => {
+    render(<Page title="Hola, Marta" documentTitle="Inicio" />);
+    expect(document.title).toBe(es.pageTitle("Inicio"));
+    expect(screen.getByRole("heading", { level: 1, name: "Hola, Marta" })).toBeTruthy();
+  });
+
   it("R37: al navegar entre pantallas la app mueve el foco al h1 de la nueva página", async () => {
     const app = renderApp({
       route: "/",
@@ -36,7 +42,9 @@ describe("Page", () => {
       services: makeServices({ me: GM }),
     });
     await screen.findByRole("heading", { level: 1, name: es.home.greeting(GM.name) });
-    await waitFor(() => expect(document.title).toBe(es.pageTitle(es.home.greeting(GM.name))));
+    // R91: el título de la pestaña no lleva el nombre del usuario.
+    await waitFor(() => expect(document.title).toBe(es.pageTitle(es.nav.home)));
+    expect(document.title).not.toContain(GM.name);
     const nav = screen.getByRole("navigation", { name: es.a11y.mainNav });
     await app.user.click(within(nav).getByRole("link", { name: es.nav.profile }));
     const h1 = await screen.findByRole("heading", { level: 1, name: es.profile.title });

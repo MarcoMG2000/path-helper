@@ -77,7 +77,7 @@
         {
             "id": "f1b-auth-ui",
             "title": "Pantallas de login y gestión de cuentas",
-            "status": "in_progress",
+            "status": "done",
             "sdd": true,
             "depends_on": [
                 "f1-auth-roles"

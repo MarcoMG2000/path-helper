@@ -16,6 +16,29 @@ async function player(name: string, pin = "1234"): Promise<string> {
 }
 
 describe("AccountService.createPlayer", () => {
+  it("R93: un nombre con caracteres de formato (RLO, ancho cero) es validation_error y no crea nada", async () => {
+    for (const name of ["Ana\u202e", "A\u200bna", "A\ufeffna", "Ana\u0001"]) {
+      expect(await f.accounts.createPlayer(name, "1234"), JSON.stringify(name)).toEqual({
+        ok: false,
+        error: { code: "validation_error" },
+      });
+    }
+    expect(await f.users.list()).toHaveLength(0);
+  });
+
+  it("R94: el nombre se guarda en NFC y dos nombres canónicamente equivalentes dan name_taken", async () => {
+    const first = await f.accounts.createPlayer("Cafe\u0301", "1234");
+    expect(first.ok).toBe(true);
+    if (!first.ok) return;
+    expect(first.value.name).toBe("Caf\u00e9");
+    expect((await f.users.findById(first.value.id))?.nameKey).toBe("café");
+    expect(await f.accounts.createPlayer("Caf\u00e9", "1234")).toEqual({
+      ok: false,
+      error: { code: "name_taken" },
+    });
+    expect(await f.users.list()).toHaveLength(1);
+  });
+
   it("R1: crea una cuenta player habilitada y devuelve su DTO sin PIN ni hash", async () => {
     const result = await f.accounts.createPlayer("  Valeros ", "0042");
     expect(result.ok).toBe(true);

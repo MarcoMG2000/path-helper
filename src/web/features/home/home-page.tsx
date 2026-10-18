@@ -14,7 +14,7 @@ export function HomePage({ sections }: { sections: readonly AppSection[] }) {
   const health = useHealth(checkHealth);
   const visible = visibleSections(sections, user.role);
   return (
-    <Page title={es.home.greeting(user.name)}>
+    <Page title={es.home.greeting(user.name)} documentTitle={es.nav.home}>
       <section className="ph-card" aria-labelledby="home-sections">
         <h2 id="home-sections">{es.home.sections}</h2>
         {visible.length > 0 ? (

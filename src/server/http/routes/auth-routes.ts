@@ -36,7 +36,11 @@ export const authRoutes: FastifyPluginAsync<AuthRoutesOptions> = async (app, opt
   app.post("/api/auth/login", async (request, reply) => {
     const body = loginBodySchema.safeParse(request.body);
     if (!body.success) return sendError(reply, 400, validationBody());
-    const result = await auth.login(body.data.name, body.data.pin);
+    const result = await auth.login(
+      body.data.name,
+      body.data.pin,
+      request.cookies[config.cookieName],
+    );
     if (!result.ok) {
       if (result.error.code === "locked") return sendLocked(reply, result.error);
       return sendError(reply, 401, invalidCredentialsBody());

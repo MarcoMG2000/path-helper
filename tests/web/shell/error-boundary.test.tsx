@@ -30,6 +30,30 @@ describe("AppErrorBoundary", () => {
     expect(onReload).toHaveBeenCalledTimes(1);
   });
 
+  it("R92: el aviso es un contenedor role=alert dentro de main, sin anular el landmark", () => {
+    vi.spyOn(console, "error").mockImplementation(() => {});
+    render(
+      <AppErrorBoundary>
+        <Boom />
+      </AppErrorBoundary>,
+    );
+    const main = screen.getByRole("main");
+    expect(main.getAttribute("role")).toBeNull();
+    expect(screen.getByRole("alert")).not.toBe(main);
+    expect(main.contains(screen.getByRole("alert"))).toBe(true);
+  });
+
+  it("R91: la pestaña refleja el error en document.title", () => {
+    vi.spyOn(console, "error").mockImplementation(() => {});
+    document.title = "otro";
+    render(
+      <AppErrorBoundary>
+        <Boom />
+      </AppErrorBoundary>,
+    );
+    expect(document.title).toBe(es.pageTitle(es.crash.title));
+  });
+
   it("R39: sin errores renderiza a sus hijos", () => {
     render(
       <AppErrorBoundary>

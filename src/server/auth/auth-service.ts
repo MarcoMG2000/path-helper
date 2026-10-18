@@ -58,7 +58,16 @@ export class AuthService {
     return { code: "locked", retryAfterSeconds: Math.max(1, seconds) };
   }
 
-  async login(name: string, pin: string): Promise<Result<LoginSuccess, LoginError>> {
+  /**
+   * R95: si la petición ya traía una sesión (`previousToken`), se revoca al iniciar sesión (evita la
+   * fijación/acumulación de sesiones huérfanas). Una cookie inválida, desconocida o caducada se
+   * ignora sin error; un login fallido NO revoca nada.
+   */
+  async login(
+    name: string,
+    pin: string,
+    previousToken?: string,
+  ): Promise<Result<LoginSuccess, LoginError>> {
     const { users, sessions, hasher, clock, config } = this.deps;
     const key = normalizeName(name);
     // Exclusión mutua por clave: leer-contar-escribir es atómico entre peticiones (R48).
@@ -80,6 +89,7 @@ export class AuthService {
       }
 
       await this.throttle.reset(key);
+      if (previousToken) await sessions.delete(hashSessionToken(previousToken));
       const now = clock.now();
       const token = generateSessionToken();
       await sessions.create({

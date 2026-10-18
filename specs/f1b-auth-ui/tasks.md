@@ -139,6 +139,16 @@
   podido verificar por otros medios (p. ej. `curl` contra `npm run dev`). No marcar la feature como
   `done`: lo decide el leader tras el reviewer y la checklist.
 
+## J. Correcciones de la revisión (2026-10-18)
+
+- [x] **T29.** `vite.config.ts`: `server.fs` estricto con `allow`/`deny` y proxy de `/api` que deja a Vite
+  los módulos fuente; `tests/project/vite-config.test.ts` y `tests/web/vite-fs.int.test.ts`. _(R88, R89)_
+- [x] **T30.** `account-row.tsx`: gestión del foco de los paneles inline, con tests. _(R90)_
+- [x] **T31.** Título de pestaña sin datos personales y `role="alert"` fuera de `main` en
+  `AppErrorBoundary`, con tests. _(R91, R92)_
+- [x] **T32.** Enmiendas a f1 (R93-R95 en `specs/f1-auth-roles/requirements.md`): nombres sin `Cc`/`Cf` y
+  en NFC; el login revoca la sesión presentada. Detalle en `progress/impl_f1b-fixes.md`.
+
 ## Mapa de cobertura R → task
 
 | R | Task | R | Task | R | Task |
@@ -156,4 +166,5 @@
 | R49 | T13 | R50, R51 | T17 | R77 | T13 |
 | R52–R57 | T18 | R58 | T19 | R78–R83 | T8 |
 | R84 | T23 | R85 | T21 | R86 | T17, T18, T19 |
-| R87 | T24 | | | | |
+| R87 | T24 | R88, R89 | T29 | R90 | T30 |
+| R91, R92 | T31 | | | | |

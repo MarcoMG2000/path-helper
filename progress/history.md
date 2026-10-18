@@ -145,3 +145,59 @@ Enlaces: [revisión 1 (rechazo)](review_f3-srd-data.md) · [revisión 2 (aprobad
 [D2](impl_f3-srd-data_D2.md) · [D3](impl_f3-srd-data_D3.md) · [D4](impl_f3-srd-data_D4.md) ·
 [D5](impl_f3-srd-data_D5.md) · [E](impl_f3-srd-data_loteE.md) · [M](impl_f3-srd-data_M.md) ·
 [Z](impl_f3-srd-data_Z.md)
+
+---
+
+## f1b-auth-ui — Pantallas de login y gestión de cuentas (done, 2026-10-18)
+
+**Entregado:** shell de la app (React + react-router, layouts público/autenticado, nav, enlace «Saltar al contenido»,
+foco al `h1`, `AppErrorBoundary`), login (nombre + PIN, errores genéricos, bloqueo temporal), gestión de cuentas del GM
+(alta, restablecer PIN, deshabilitar/habilitar, desbloquear) y Mi perfil (cambio de PIN, cierre de sesión), aviso legal
+público `/legal` (no oficial, Section 15, OGL), todo el texto en español en `es.ts` (i18n ES), tokens de diseño
+claro/oscuro con contrastes verificados, sincronización de sesión entre pestañas (`BroadcastChannel`) y PWA
+(service worker con `denylist` de `/api` y `/health`). Spec: `specs/f1b-auth-ui/` (T1..T32, R1..R92).
+
+**Tests:** `npx vitest run` 155 ficheros / **2270 tests** en verde; `npm run test:int` 10 ficheros / **84 tests**;
+lint, typecheck, build y `./init.sh` (reviewer) en verde.
+
+**Rechazo inicial (H1) y corrección:** la primera revisión rechazó la feature porque el dev server de Vite (sin bloque
+`server.fs`) servía ficheros de todo el repo por `/@fs/<ruta>`, incluida la BD SQLite con los hashes de PIN, y la
+documentación pedía `HOST=0.0.0.0` (uso real de la mesa en la misma wifi). Corrección: `server.fs` estricto con lista
+blanca (`src/web`, `src/shared`, `src/data/legal`) y `deny` (BD, `.env*`, `.git`, `data/**`), nuevos R88 (dev server) y
+R89 (el proxy de `/api` no debe interceptar los módulos del cliente en `src/web/api/`, que dejaba la app inservible),
+más R90 (foco en paneles inline), R91 (título sin datos personales), R92 (landmark `main` en la pantalla de error),
+`tests/web/vite-fs.int.test.ts` (26 tests) y README. La segunda revisión lo verificó de forma independiente (1700
+peticiones x 34 ficheros, 0 fugas; LAN y DNS-rebinding bloqueados; `vite preview` sin fugas).
+
+**Endurecimientos de f1 añadidos (enmienda, R93-R95):** R93 nombres sin caracteres `Cc`/`Cf` (RTL override, zero-width,
+controles; BOM exterior se recorta), R94 nombres normalizados a NFC (sin duplicados NFC/NFD; largo medido tras NFC),
+R95 el login correcto revoca la sesión presentada en la cookie previa.
+
+**Observaciones menores abiertas (no bloquean):**
+- O1: un symlink/junction dentro de `src/web`, `src/shared` o `src/data/legal` se sigue (Vite comprueba `allow` sobre la
+  ruta pedida, no el realpath); no hay symlinks en el repo. Documentar o añadir regla de higiene.
+- O2: `node_modules/.vite/deps/*` se sirve y los assets fuera de `allow` con `?import` revelan solo la existencia del fichero.
+- O3: siguen aceptándose nombres visualmente vacíos o confundibles no `Cc/Cf` (U+3164, U+2800, U+2028/9, NBSP interior).
+- O4: checklist manual sin los pasos 16-26 y los nuevos de R88-R95 (resuelto al cerrar: pasos 16-31 añadidos).
+- O5: `vite preview` escucha en 4173 (no en `WEB_PORT`) con `HOST=0.0.0.0`; repetir la batería para f9.
+
+**Decisiones PENDIENTES del humano:**
+1. D1: aceptar que ZWJ/ZWNJ queden prohibidos en nombres (sin emoji compuestos de familia/profesión ni ZWNJ persa).
+2. D2: endurecer también Zl/Zp/NBSP y nombres «invisibles» no-Cf (O3) en una enmienda de f1, o asumir el riesgo residual
+   (solo el GM crea cuentas).
+3. D3: `autocomplete="new-password"` en alta y restablecer (el navegador del GM puede ofrecer guardar el PIN); pasar a
+   `off` solo si molesta (paso 20 de la checklist).
+4. D4/H3: sincronización entre pestañas con rol distinto sin cambios por decisión del humano (paso 26).
+5. Ejecutar la checklist manual (31 pasos) en navegador real y móvil: **ninguno se ha ejecutado**. Críticos: 27 (R88/R89)
+   y 22 (nada del repo descargable desde otro dispositivo).
+
+**Requisitos para f9 (deploy):** servir `dist/web` con fallback SPA que no capture `/api` ni `/health`; servir solo ese
+directorio (sin listados, dotfiles ni salida de la raíz con `..`/`%2e%2e`/`\`) y nunca `data/`, `*.sqlite*`, `.env*`,
+`specs/`, `package*.json`; BD SQLite fuera de la raíz servida con permisos restrictivos; `AUTH_ALLOWED_ORIGINS` con el
+origen real; CSP `default-src 'self'` + `frame-ancestors 'none'` y demás cabeceras; repetir la batería `/@fs` y de
+rutas de ataque contra el servidor real con BD señuelo (test de integración análogo a `vite-fs.int.test.ts`);
+registro de errores del cliente (H4.4) como decisión de observabilidad.
+
+Enlaces: [impl](impl_f1b-auth-ui.md) · [impl correcciones](impl_f1b-fixes.md) ·
+[revisión 1 (rechazo H1)](review_f1b-auth-ui.md) · [revisión 2 (aprobado)](review_f1b-auth-ui_2.md) ·
+[checklist manual](manual_f1b-auth-ui.md)

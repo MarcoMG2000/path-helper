@@ -327,6 +327,40 @@ claro/oscuro; ficha, combate y compendio (cada feature añade su sección con el
   de PIN, logout, 401 tras el logout, 429 con `retryAfterSeconds`, y alta, restablecimiento de PIN,
   deshabilitación y desbloqueo de cuentas por el GM. _Test:_ `auth-ui.int.test.ts`.
 
+### 3.12 Correcciones de la revisión (2026-10-18)
+
+Añadidos sin renumerar los anteriores. Origen: `progress/review_f1b-auth-ui.md` (H1, H2, H4);
+detalle en `progress/impl_f1b-fixes.md`.
+
+- **R88.** El servidor de desarrollo NO DEBE servir (ni por `/@fs/<ruta absoluta>`, ni por rutas
+  relativas con `..` o `%2e%2e`, ni con sufijos `?raw`/`?import&raw`/`?url`) ficheros del repo
+  fuera de lo que la app necesita: `server.fs` DEBE ser `strict`, con `allow` limitado a
+  `src/web`, `src/shared` y `src/data/legal`, y `deny` explícito para `.env*`, `*.sqlite*`, `*.db`,
+  `data/`, `.git/`, `specs/`, `progress/`, `.cache/`, `reports/`, `feature-list.json` y
+  `package*.json`; y NO DEBE usar `allowedHosts: true`. Una BD SQLite, `feature-list.json`,
+  `package.json`, `.env` o un fichero de `specs/` DEBEN dar 403/404 (o el `index.html` de la SPA,
+  nunca su contenido); `vite preview` tampoco los sirve; y la app (index, `/main.tsx`, todo su
+  grafo de módulos, `/@vite/client`, `/legal`) DEBE seguir funcionando. _Test:_
+  `tests/project/vite-config.test.ts` (configuración) y `tests/web/vite-fs.int.test.ts`
+  (servidor Vite real en una copia temporal de la raíz con señuelos, y en la raíz real).
+- **R89.** El proxy de desarrollo de `/api` NO DEBE interceptar los módulos fuente del cliente que
+  Vite sirve en `/api/*.ts(x)` (`src/web/api/`): una URL `/api/<ruta>.<ext de código>` la sirve Vite;
+  las rutas reales de la API (sin extensión de fichero) y `/health` siguen yendo a la API. _Test:_
+  `tests/project/vite-config.test.ts`, `tests/web/vite-fs.int.test.ts`.
+- **R90.** MIENTRAS el GM usa los paneles inline de una fila de cuenta, el sistema DEBE gestionar el
+  foco: al abrir «Restablecer PIN» al campo de PIN y al abrir «Deshabilitar» al primer botón de la
+  confirmación; al cancelar o terminar con éxito, al botón que abrió el panel (o al que lo
+  sustituye: «Habilitar» tras deshabilitar); tras un error o un PIN inválido, al campo o botón
+  de la acción fallida; y tras «Desbloquear» a ese mismo botón. _Test:_
+  `features/accounts/accounts-page.test.tsx`.
+- **R91.** El `document.title` NO DEBE contener datos personales (el nombre del usuario queda en
+  el historial del navegador): la pantalla de inicio usa «Inicio · Path Helper» (el `h1` sigue
+  saludando por el nombre); y la pantalla de error de `AppErrorBoundary` fija su propio título.
+  _Test:_ `shell/page.test.tsx`, `shell/error-boundary.test.tsx`.
+- **R92.** La pantalla de error de `AppErrorBoundary` NO DEBE anular la semántica del landmark
+  `main` con `role="alert"`: el `main` contiene un contenedor `role="alert"`. _Test:_
+  `shell/error-boundary.test.tsx`.
+
 ## 4. Cobertura de los criterios de aceptación originales
 
 | Criterio de `acceptance` (feature-list.json) | Requisitos |
@@ -345,3 +379,4 @@ claro/oscuro; ficha, combate y compendio (cada feature añade su sección con el
 | (Decisión del leader) pantalla `/legal`, cierra R40 de f3 | R29, R38, R71–R74 |
 | (Decisión del leader) seguridad en cliente | R8, R10, R24, R51, R84–R86 |
 | (Decisión del leader) estrategia de tests | R87 + `design.md` §16 |
+| (Revisión 2026-10-18) servidor de desarrollo, foco, título y landmarks | R88–R92 |

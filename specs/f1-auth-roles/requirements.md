@@ -341,12 +341,35 @@ Un evento lleva un recurso y hasta tres vistas del payload (`gm`, `owner`, `othe
   cuentas, sesiones y estados de bloqueo guardados. _Test:_ `sqlite-*.int.test.ts` (directorio
   temporal).
 
+### 3.10 Enmiendas posteriores (revisión de f1b, 2026-10-18)
+
+Añadidos sin renumerar los anteriores. Origen: `progress/review_f1b-auth-ui.md` (H3, H4.1).
+
+- **R93.** SI el nombre de una cuenta a crear contiene algún carácter de las categorías Unicode
+  `Cc` (control) o `Cf` (formato: RLO/LRO y demás marcas bidi, ancho cero, BOM interior, guion
+  blando...), ENTONCES el sistema DEBE responder 400 `validation_error` y no crear la cuenta
+  (amplía R3). Los nombres válidos existentes no cambian. _Test:_ `tests/shared/auth.test.ts`,
+  `account-service.test.ts`, `account-routes.test.ts` (y R61 de f1b en la UI).
+  _Nota:_ también se rechazan ZWJ/ZWNJ (U+200D/U+200C), por lo que no se admiten emoji compuestos
+  por secuencias ZWJ ni palabras persas con ZWNJ en nombres de cuenta; un BOM (U+FEFF) en los
+  extremos se recorta como cualquier espacio.
+- **R94.** El sistema DEBE normalizar el nombre de cuenta a NFC (tras recortar y antes de medir
+  los 32 caracteres) y almacenarlo así, de modo que dos nombres canónicamente equivalentes
+  («Café» precompuesto y «Cafe» + acento combinante) tengan la misma clave y el segundo dé
+  `name_taken` (R2). _Test:_ `tests/shared/auth.test.ts`, `account-service.test.ts`,
+  `account-routes.test.ts`.
+- **R95.** CUANDO `POST /api/auth/login` es correcto y la petición ya traía una cookie de sesión,
+  el sistema DEBE revocar esa sesión del `SessionStore` antes de crear la nueva (la cookie
+  anterior pasa a dar 401), sin error alguno si la cookie es inválida, desconocida o está
+  caducada, y con la misma respuesta de siempre (R18-R23, sin filtrar la existencia de la
+  sesión). Un login fallido NO revoca nada. _Test:_ `auth-service.test.ts`, `auth-routes.test.ts`.
+
 ## 4. Cobertura de los criterios de aceptación originales
 
 | Criterio de `acceptance` (feature-list.json) | Requisitos |
 |----------------------------------------------|------------|
-| El GM crea y gestiona cuentas | R1–R17 |
-| Login con nombre+PIN con sesión | R18–R40, R92 |
+| El GM crea y gestiona cuentas | R1–R17, R93, R94 |
+| Login con nombre+PIN con sesión | R18–R40, R92, R95 |
 | …y límite de intentos | R41–R50 (+ R40, R43, R48, R49) |
 | PIN almacenado con hash | R51–R59 |
 | Política de autorización centralizada: jugador solo lo propio, GM todo | R66–R78, R79–R85 |

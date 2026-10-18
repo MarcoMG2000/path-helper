@@ -9,6 +9,8 @@ import { errorMessage } from "../../i18n/error-message";
 import { es } from "../../i18n/es";
 
 type Mode = "idle" | "confirm-disable" | "reset-pin";
+// Elemento al que se devuelve el foco cuando termina la acción (R90).
+type FocusTarget = "reset" | "toggle" | "unlock" | "confirm" | "pin";
 type Message = { kind: "success" | "error"; text: string } | null;
 
 interface AccountRowProps {
@@ -30,19 +32,41 @@ export function AccountRow({ account, isSelf, onChange, onNotFound }: AccountRow
   const [pin, setPin] = useState("");
   const [pinError, setPinError] = useState<string | undefined>();
   const pinInput = useRef<HTMLInputElement>(null);
+  const resetButton = useRef<HTMLButtonElement>(null);
+  const toggleButton = useRef<HTMLButtonElement>(null);
+  const unlockButton = useRef<HTMLButtonElement>(null);
+  const confirmButton = useRef<HTMLButtonElement>(null);
+  const [wantFocus, setWantFocus] = useState<FocusTarget | null>(null);
   const isGm = account.role === "gm";
 
+  // Gestión del foco (R90): los paneles de la fila montan y desmontan controles, y los botones
+  // se deshabilitan mientras dura la acción; sin esto el foco caería a <body>. Se aplica cuando
+  // el elemento destino ya está montado y habilitado.
   useEffect(() => {
-    if (mode === "reset-pin") pinInput.current?.focus();
-  }, [mode]);
+    if (!wantFocus || busy) return;
+    const targets = {
+      reset: resetButton,
+      toggle: toggleButton,
+      unlock: unlockButton,
+      confirm: confirmButton,
+      pin: pinInput,
+    };
+    targets[wantFocus].current?.focus();
+    setWantFocus(null);
+  }, [wantFocus, busy, mode]);
 
   function fail(error: ApiError) {
     setMessage({ kind: "error", text: errorMessage(error) });
     if (error.code === "not_found") onNotFound();
   }
 
-  // Ejecuta una acción de la fila: deshabilita los botones mientras dura (R70).
-  async function run<T>(action: () => Promise<ApiResult<T>>, onDone: (value: T) => void) {
+  // Ejecuta una acción de la fila: deshabilita los botones mientras dura (R70). Al terminar
+  // devuelve el foco al destino indicado según haya ido bien (`onSuccess`) o mal (`onFailure`).
+  async function run<T>(
+    action: () => Promise<ApiResult<T>>,
+    onDone: (value: T) => void,
+    focus: { onSuccess: FocusTarget; onFailure: FocusTarget },
+  ) {
     if (busy) return;
     setBusy(true);
     setMessage(null);
@@ -50,12 +74,14 @@ export function AccountRow({ account, isSelf, onChange, onNotFound }: AccountRow
     setBusy(false);
     if (result.ok) onDone(result.value);
     else fail(result.error);
+    setWantFocus(result.ok ? focus.onSuccess : focus.onFailure);
   }
 
   function submitResetPin(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!pinSchema.safeParse(pin).success) {
       setPinError(t.newPinInvalid);
+      setWantFocus("pin");
       return;
     }
     setPinError(undefined);
@@ -65,6 +91,7 @@ export function AccountRow({ account, isSelf, onChange, onNotFound }: AccountRow
         setMode("idle");
         setMessage({ kind: "success", text: t.resetSuccess });
       },
+      { onSuccess: "reset", onFailure: "pin" },
     ).finally(() => setPin(""));
   }
 
@@ -76,6 +103,7 @@ export function AccountRow({ account, isSelf, onChange, onNotFound }: AccountRow
         onChange(updated);
         setMessage({ kind: "success", text: disabled ? t.disableSuccess : t.enableSuccess });
       },
+      { onSuccess: "toggle", onFailure: disabled ? "confirm" : "toggle" },
     );
   }
 
@@ -83,11 +111,14 @@ export function AccountRow({ account, isSelf, onChange, onNotFound }: AccountRow
     void run(
       () => accounts.unlock(account.id),
       () => setMessage({ kind: "success", text: t.unlockSuccess }),
+      { onSuccess: "unlock", onFailure: "unlock" },
     );
   }
 
-  function closePanel() {
+  // Al cancelar, el foco vuelve al botón que abrió el panel.
+  function closePanel(origin: FocusTarget) {
     setMode("idle");
+    setWantFocus(origin);
     setPin("");
     setPinError(undefined);
   }
@@ -115,10 +146,12 @@ export function AccountRow({ account, isSelf, onChange, onNotFound }: AccountRow
             type="button"
             className="ph-button"
             aria-label={t.resetPinFor(account.name)}
+            ref={resetButton}
             disabled={busy}
             onClick={() => {
               setMessage(null);
               setMode("reset-pin");
+              setWantFocus("pin");
             }}
           >
             {t.resetPin}
@@ -128,6 +161,7 @@ export function AccountRow({ account, isSelf, onChange, onNotFound }: AccountRow
               type="button"
               className="ph-button"
               aria-label={t.enableFor(account.name)}
+              ref={toggleButton}
               disabled={busy}
               onClick={() => setDisabled(false)}
             >
@@ -138,10 +172,12 @@ export function AccountRow({ account, isSelf, onChange, onNotFound }: AccountRow
               type="button"
               className="ph-button"
               aria-label={t.disableFor(account.name)}
+              ref={toggleButton}
               disabled={busy}
               onClick={() => {
                 setMessage(null);
                 setMode("confirm-disable");
+                setWantFocus("confirm");
               }}
             >
               {t.disable}
@@ -151,6 +187,7 @@ export function AccountRow({ account, isSelf, onChange, onNotFound }: AccountRow
             type="button"
             className="ph-button"
             aria-label={t.unlockFor(account.name)}
+            ref={unlockButton}
             disabled={busy}
             onClick={unlock}
           >
@@ -166,12 +203,18 @@ export function AccountRow({ account, isSelf, onChange, onNotFound }: AccountRow
             <button
               type="button"
               className="ph-button ph-button--primary"
+              ref={confirmButton}
               disabled={busy}
               onClick={() => setDisabled(true)}
             >
               {t.confirmDisableYes}
             </button>
-            <button type="button" className="ph-button" disabled={busy} onClick={closePanel}>
+            <button
+              type="button"
+              className="ph-button"
+              disabled={busy}
+              onClick={() => closePanel("toggle")}
+            >
               {es.common.cancel}
             </button>
           </div>
@@ -198,7 +241,12 @@ export function AccountRow({ account, isSelf, onChange, onNotFound }: AccountRow
             <button type="submit" className="ph-button ph-button--primary" disabled={busy}>
               {t.savePin}
             </button>
-            <button type="button" className="ph-button" disabled={busy} onClick={closePanel}>
+            <button
+              type="button"
+              className="ph-button"
+              disabled={busy}
+              onClick={() => closePanel("reset")}
+            >
               {es.common.cancel}
             </button>
           </div>

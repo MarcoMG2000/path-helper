@@ -131,6 +131,8 @@ describe("AccountsPage: alta", () => {
     ["nombre de solo espacios", "   ", "1234", "name"],
     ["nombre de 33 caracteres", "a".repeat(33), "1234", "name"],
     ["nombre con carácter de control", "a\u0001b", "1234", "name"],
+    ["nombre con carácter de formato (RLO)", "a\u202eb", "1234", "name"],
+    ["nombre con carácter de ancho cero", "a\u200bb", "1234", "name"],
     ["PIN de 3 dígitos", "Lucía", "123", "pin"],
     ["PIN de 9 dígitos", "Lucía", "123456789", "pin"],
     ["PIN con letras", "Lucía", "12a4", "pin"],
@@ -356,5 +358,90 @@ describe("AccountsPage: acciones de fila", () => {
     );
     await within(rowOf("Marta")).findByText(es.errors.network as string);
     consoleSpies.expectSilent();
+  });
+});
+
+describe("AccountsPage: gestión del foco en los paneles de la fila", () => {
+  const confirmYes = (item: HTMLElement) =>
+    within(item).getByRole("button", { name: row.confirmDisableYes });
+
+  it("R90: al abrir «Deshabilitar» el foco va al primer botón de la confirmación", async () => {
+    const app = await openReady();
+    const item = rowOf("Marta");
+    await app.user.click(buttonIn(item, row.disableFor("Marta")));
+    expect(document.activeElement).toBe(confirmYes(item));
+  });
+
+  it("R90: «Cancelar» de la confirmación devuelve el foco al botón «Deshabilitar»", async () => {
+    const app = await openReady();
+    const item = rowOf("Marta");
+    await app.user.click(buttonIn(item, row.disableFor("Marta")));
+    await app.user.click(within(item).getByRole("button", { name: es.common.cancel }));
+    expect(document.activeElement).toBe(buttonIn(item, row.disableFor("Marta")));
+  });
+
+  it("R90: «Cancelar» del panel de PIN devuelve el foco al botón «Restablecer PIN»", async () => {
+    const app = await openReady();
+    const item = rowOf("Marta");
+    await app.user.click(buttonIn(item, row.resetPinFor("Marta")));
+    expect(document.activeElement).toBe(
+      within(item).getByLabelText(row.newPin, { selector: "input" }),
+    );
+    await app.user.click(within(item).getByRole("button", { name: es.common.cancel }));
+    expect(document.activeElement).toBe(buttonIn(item, row.resetPinFor("Marta")));
+  });
+
+  it("R90: tras restablecer el PIN con éxito el foco vuelve a «Restablecer PIN»", async () => {
+    const app = await openReady();
+    const item = rowOf("Marta");
+    await app.user.click(buttonIn(item, row.resetPinFor("Marta")));
+    await app.user.type(within(item).getByLabelText(row.newPin, { selector: "input" }), "9999");
+    await app.user.click(within(item).getByRole("button", { name: row.savePin }));
+    await within(item).findByText(row.resetSuccess);
+    expect(document.activeElement).toBe(buttonIn(item, row.resetPinFor("Marta")));
+  });
+
+  it("R90: un error al restablecer o un PIN inválido devuelven el foco al campo de PIN", async () => {
+    const services = setup();
+    services.accounts.resetPin.mockResolvedValueOnce(err(apiError("network", { status: 0 })));
+    const app = await openReady(services);
+    const item = rowOf("Marta");
+    await app.user.click(buttonIn(item, row.resetPinFor("Marta")));
+    const input = () => within(item).getByLabelText(row.newPin, { selector: "input" });
+    await app.user.type(input(), "12");
+    await app.user.click(within(item).getByRole("button", { name: row.savePin }));
+    expect(document.activeElement).toBe(input());
+    await app.user.clear(input());
+    await app.user.type(input(), "9999");
+    await app.user.click(within(item).getByRole("button", { name: row.savePin }));
+    await within(item).findByText(es.errors.network as string);
+    expect(document.activeElement).toBe(input());
+  });
+
+  it("R90: tras deshabilitar el foco queda en «Habilitar»; tras habilitar, en «Deshabilitar»", async () => {
+    const app = await openReady();
+    const item = rowOf("Marta");
+    await app.user.click(buttonIn(item, row.disableFor("Marta")));
+    await app.user.click(confirmYes(item));
+    await within(item).findByText(row.disableSuccess);
+    expect(document.activeElement).toBe(buttonIn(item, row.enableFor("Marta")));
+    await app.user.click(buttonIn(item, row.enableFor("Marta")));
+    await within(item).findByText(row.enableSuccess);
+    expect(document.activeElement).toBe(buttonIn(item, row.disableFor("Marta")));
+  });
+
+  it("R90: un error al deshabilitar devuelve el foco a la confirmación; «Desbloquear» conserva el foco", async () => {
+    const services = setup();
+    services.accounts.setDisabled.mockResolvedValueOnce(err(apiError("network", { status: 0 })));
+    const app = await openReady(services);
+    const item = rowOf("Marta");
+    await app.user.click(buttonIn(item, row.disableFor("Marta")));
+    await app.user.click(confirmYes(item));
+    await within(item).findByText(es.errors.network as string);
+    expect(document.activeElement).toBe(confirmYes(item));
+    await app.user.click(within(item).getByRole("button", { name: es.common.cancel }));
+    await app.user.click(buttonIn(item, row.unlockFor("Marta")));
+    await within(item).findByText(row.unlockSuccess);
+    expect(document.activeElement).toBe(buttonIn(item, row.unlockFor("Marta")));
   });
 });

@@ -3,17 +3,23 @@ import { z } from "zod";
 export const ROLES = ["player", "gm"] as const;
 export type Role = (typeof ROLES)[number];
 
-// Caracteres de control C0, DEL y C1.
-// eslint-disable-next-line no-control-regex
-const CONTROL_CHARS = /[\u0000-\u001f\u007f-\u009f]/;
+// R3, R93: categorías Unicode Cc (control: C0, DEL, C1) y Cf (formato: RLO/LRO, caracteres de
+// ancho cero, BOM...). Invisibles o capaces de falsear el orden visual de un nombre.
+const FORBIDDEN_NAME_CHARS = /[\p{Cc}\p{Cf}]/u;
 
-// R3: 1-32 caracteres tras recortar, sin caracteres de control.
+// R3, R93, R94: se recorta y se normaliza a NFC (antes de medir la longitud y de comparar la
+// unicidad), 1-32 caracteres, sin caracteres de control ni de formato.
 export const nameSchema = z
   .string()
   .trim()
-  .min(1)
-  .max(32)
-  .refine((value) => !CONTROL_CHARS.test(value));
+  .transform((value) => value.normalize("NFC"))
+  .pipe(
+    z
+      .string()
+      .min(1)
+      .max(32)
+      .refine((value) => !FORBIDDEN_NAME_CHARS.test(value)),
+  );
 
 // R3: SIEMPRE una cadena (los ceros a la izquierda son significativos).
 export const pinSchema = z.string().regex(/^\d{4,8}$/);

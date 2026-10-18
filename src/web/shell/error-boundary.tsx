@@ -16,12 +16,19 @@ export class AppErrorBoundary extends Component<Props, { failed: boolean }> {
     return { failed: true };
   }
 
+  // R91: la pestaña también indica el estado de error (sin registrar nada en consola, R86).
+  override componentDidCatch(): void {
+    document.title = es.pageTitle(es.crash.title);
+  }
+
   override render() {
     if (!this.state.failed) return this.props.children;
     return (
-      <main className="ph-main" role="alert">
-        <h1>{es.crash.title}</h1>
-        <p>{es.crash.message}</p>
+      <main className="ph-main">
+        <div role="alert">
+          <h1>{es.crash.title}</h1>
+          <p>{es.crash.message}</p>
+        </div>
         <button
           type="button"
           className="ph-button ph-button--primary"
